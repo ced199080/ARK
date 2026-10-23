@@ -82,11 +82,12 @@ P = dict(
     coeur_rotation=0.0,        # rotation du Coeur Base autour du centre (multiples de 60° conseillés)
     colonnade_rayon=3360.0,    # colonnade circulaire sous la pente A (entre le pod et les pics)
     largeur_pilier=2 * math.pi * 600 / 96,   # 39,27 UU : 48 piliers à r=600 (template 704) = 1 pilier / 1 vide
-    colonnade_passages=(90, 270),            # θ des passages de service dans la colonnade
+    colonnade_passages=(30, 90, 150, 210, 270, 330),   # 1 passage par part (axe des portes du fût)
     colonnade_largeur_passage=300.0,
     cap=100, tesla_comptee=True,             # scénario B retenu
     inventaire=(80, 35, 10),                 # Heavy, Tek, Tesla disponibles
-    jupe_tourelles=30,                       # Heavy sous la plateforme
+    parts=6,                                 # l'ensemble = 6 parts égales de 60°
+    part_debut=-14.5,                        # part 1 : θ ∈ [-14,5° ; 45,5°[ -> côtés 0° (E0) et 30° (E1), coins 15° et 45°
 )
 ANCRE = (0.0, F)               # sommet de l'hexagone central à θ = 90° (hors des pièces du Coeur Base)
 DECALAGE_MONTAGE = 10.0        # pivot de la tourelle devant le plan du mur de chaume (template 2727)
@@ -111,6 +112,7 @@ C = {
     'porte_secrete': '/Game/PrimalEarth/Structures/Tileset/SecretDoorways/StructureBP_Door_Secret_Metal.StructureBP_Door_Secret_Metal_C',
     'coffre': '/Game/PrimalEarth/Structures/StorageBox_Huge.StorageBox_Huge_C',
     'chaume_mur': '/Game/PrimalEarth/Structures/Thatch/Thatch_Wall_Small.Thatch_Wall_Small_C',
+    'stockage_dedie': '/Game/PrimalEarth/StructuresPlus/Misc/DedicatedStorage/BP_DedicatedStorage.BP_DedicatedStorage_C',
     'heavy': '/Game/PrimalEarth/Structures/BuildingBases/StructureTurretBaseBP_Heavy.StructureTurretBaseBP_Heavy_C',
     'tek': '/Game/PrimalEarth/Structures/BuildingBases/StructureTurretTek.StructureTurretTek_C',
     'tesla': '/Game/Packs/Steampunk/Structures/TeslaCoil/StructureBP_TeslaCoil.StructureBP_TeslaCoil_C',
@@ -124,6 +126,9 @@ NOMS = {
     'porte_secrete': 'Porte secrète métal (Coeur Base)', 'coffre': 'Coffre (Coeur Base)',
     'chaume_mur': 'Mur de chaume (gabarit de pose, à démolir)', 'heavy': 'Tourelle lourde (Heavy)',
     'tek': 'Tourelle Tek', 'tesla': 'Bobine Tesla', 'pics': 'Mur de pics métal',
+    'replicateur': 'Réplicateur Tek', 'forge_vapeur': 'Forge à vapeur (Steam Forge)',
+    'megalab': 'Labo de fortune (Makeshift Megalab)', 'stockage_dedie': 'Stockage dédié Tek (Tek Dedicated Storage)',
+    'coffre_fort': 'Coffre-fort (Vault)', 'generateur_tek': 'Générateur Tek',
 }
 
 # Coût unitaire : MI=lingot de métal, PC=pâte cimentée, EL=électroniques, PO=polymère, CR=cristal, EM=élément,
@@ -140,6 +145,13 @@ COUTS = {
     'tek': dict(MI=100, PC=50, EL=100, PO=50, EM=3),
     'tesla': dict(MI=500, CR=200, EL=100, PO=300),
     'pics': dict(MI=25, CU=20, FI=30),
+    # équipements (hors plan) : PN = perle noire, HU = huile, PE = poudre étincelante
+    'replicateur': dict(EM=100, MI=5000, CR=600, PN=150, PO=800),
+    'forge_vapeur': dict(MI=3250, CR=500, PC=600, EL=200, PO=1000),
+    'megalab': dict(MI=450, PC=300, PE=100, CR=250, PO=150, EL=20),
+    'stockage_dedie': dict(EM=3, PN=4, MI=125, CR=75, PO=55),
+    'coffre_fort': dict(MI=500, PC=100, HU=70, PO=90, est=True),     # une seule source
+    'generateur_tek': dict(EM=30, MI=2400, CR=250, PN=120, PO=500),
 }
 
 
@@ -150,6 +162,7 @@ class Template:
         self.entries, self.snap = [], []
         self.lignes = []          # pour les CSV : (classe, x, y, Z_plan, yaw, repère)
         self.phase, self.phases = None, []
+        self.groupe, self.groupes = 'part', []      # 'part' : réparti dans les 6 parts ; 'noyau' : posé une fois
 
     def add(self, cle, x, y, z_tpl, yaw, Z=None, repere='', pitch=0.0, roll=0.0):
         self.entries.append({
@@ -162,6 +175,7 @@ class Template:
         })
         self.lignes.append((cle, x, y, Z, yaw, repere))
         self.phases.append(self.phase)
+        self.groupes.append(self.groupe)
 
     def add_brut(self, entree, cle, Z, repere):
         """Reprend une entrée d'un template existant telle quelle (skin, couleurs, nom de coffre conservés)."""
@@ -169,6 +183,7 @@ class Template:
         l, r = entree['loc'], entree['rot']
         self.lignes.append((cle, l['x'], l['y'], Z, r['yaw'], repere))
         self.phases.append(self.phase)
+        self.groupes.append(self.groupe)
 
     def compte(self):
         out = {}
@@ -368,8 +383,9 @@ def module_pod(p, contours):
     # Coeur Base : tout sauf ses 10 fondations (grille tournée de -30°, incompatible avec l'étoile qui les remplace)
     _, coeur = charger_coeur(p)
     escalier = None
+    t.groupe = 'noyau'
     for cle, cls, e in coeur:
-        if cls == 'Floor_Metal_C':
+        if cls == 'Floor_Metal_C' or cle == 'coffre':     # fondations remplacées par l'étoile ; coffre = équipement
             continue
         z = e['loc']['z']
         t.phase = 'P2' if z <= 240 else 'P3'
@@ -384,13 +400,14 @@ def module_pod(p, contours):
         e = copy.deepcopy(escalier)
         e['loc']['z'] = escalier['loc']['z'] + niv * F
         t.add_brut(e, 'escalier', niv * F, f'escalier prolonge niv{niv}')
-    # mur de pod : niveaux 0..9 ; portes doubles au sol (θ=90/270, index 1-2) et accès galerie à Z1800 (index 1)
+    t.groupe = 'part'
+    # mur de pod : niveaux 0..9 ; 1 porte double au sol par part (côtés E1, index 1) et accès galerie Z1800 (index 1)
     for niv in range(p['pod_niveaux']):
         Zb = niv * F
         t.phase = 'P2' if Zb < zmez else 'P6'
         for x, y, nu, k, i in cotes_contour(d4):
             cle = 'mur'
-            if niv == 0 and nu in (90, 270) and i in (1, 2):
+            if niv == 0 and k % 2 == 1 and i == 1:
                 cle = 'cadre_double'
             if Zb == zmez and i == 1:
                 cle = 'cadre_double'
@@ -418,7 +435,9 @@ def module_pod(p, contours):
             tremie.append(pc)
             continue
         cle = 'plafond' if pc['type'] == 'carre' else 'plafond_tri'
+        t.groupe = 'noyau' if pc['anneau'] <= 1 else 'part'     # centre de la mezzanine (trémie) : noyau
         t.add(cle, pc['x'], pc['y'], zmez + Z_TPL, pc['yaw'], Z=zmez, repere=f"mezzanine anneau {pc['anneau']}")
+    t.groupe = 'part'
     # cône : rangs de toits depuis le haut du mur de pod
     Ztop = p['pod_niveaux'] * F
     A = apo(4)
@@ -429,10 +448,12 @@ def module_pod(p, contours):
         A -= F
         j += 1
     Zcap = Ztop + j * F
+    t.groupe = 'noyau'
     t.add('plafond', 0, 0, Zcap + Z_TPL, 0, Z=Zcap, repere='capuchon')
     for k in range(4):
         cx, cy = vec(90 * k)
         t.add('demi_toit', cx * F / 4, cy * F / 4, Zcap + Z_TPL + F / 4, 90 * k + 180, Z=Zcap, repere='pointe')
+    t.groupe = 'part'
     return t, dict(Zcap=Zcap, coeur=coeur, escalier=escalier, cellule=cellule, tremie=tremie)
 
 
@@ -474,7 +495,7 @@ def module_rampe(p, contours, tesla_murs):
     ancre(t)
     d7 = contours[p['anneau_rive']]
     murs = cotes_contour(d7)
-    sas = next(j for j, m in enumerate(murs) if m[2] == 270 and m[4] == 3)
+    sas = None                                  # pas de sas : 6 parts égales (accès par le Tek Teleporter / à ouvrir à la main)
     t.phase = 'P2'
     for niv in range(p['rive_niveaux']):
         Zb = niv * F
@@ -527,7 +548,7 @@ def module_cage(p, contours):
     for niv in range(int(zmez // F)):
         Zb = niv * F
         for x, y, nu, k, i in cotes_contour(d5):
-            cle = 'cadre_double' if (niv == 0 and nu in (90, 270) and i == 2) else 'mur'
+            cle = 'cadre_double' if (niv == 0 and k % 2 == 1 and i == 2) else 'mur'
             t.add(cle, x, y, Zb + Z_TPL + F / 2, nu, Z=Zb, repere=f'fut niv{niv} c{k} p{i}')
     # planchers de galerie : anneaux 8 et 9 en plafonds, à chaque niveau + toit de cage
     pieces, _ = pavage(p['anneau_cage'], centre=False)
@@ -538,7 +559,7 @@ def module_cage(p, contours):
         for pc in gal:
             cle = 'plafond' if pc['type'] == 'carre' else 'plafond_tri'
             if niv == 1 and pc['type'] == 'carre' and pc['anneau'] == p['anneau_pod'] + 1 \
-                    and pc['cote'] in (1, 5, 9) and pc['idx'] == 0:
+                    and pc['cote'] % 2 == 1 and pc['idx'] == 0:
                 cle = 'trappe'          # trappe + échelle vers la galerie L2
             t.add(cle, pc['x'], pc['y'], Z + Z_TPL, pc['yaw'], Z=Z, repere=f"galerie Z{Z:.0f} anneau {pc['anneau']}")
     # L2 : double doorframes (L1 = emplacements de tourelles, posés en P7 avec leurs murs de chaume)
@@ -562,16 +583,48 @@ def module_cage(p, contours):
 # gabarits de réservation dans le hall du pod (Z0 -> 1800) : (nom, θ, apothème du centre, largeur, profondeur, murs)
 GABARITS = [
     ('Réplicateur Tek', 0, 1650, 900, 600, 3),
-    ('Tek Generator (ateliers)', 60, 1800, 300, 300, 1),
-    ('Forge industrielle', 120, 1650, 900, 900, 3),
-    ('Tek Teleporter (accès principal)', 180, 1700, 300, 300, 1),
-    ('Laboratoire de chimie', 240, 1750, 600, 300, 2),
-    ('Stockage / Dedicated Storage', 300, 1750, 900, 300, 2),
+    ('Générateur Tek n°1 (ateliers)', 60, 1800, 300, 300, 1),
+    ('Forge à vapeur', 120, 1650, 900, 900, 3),
+    ('Labo de fortune (Megalab)', 240, 1650, 600, 600, 2),
+    ('3 stockages dédiés', 300, 1750, 900, 300, 2),
 ]
 # générateurs Tek de la galerie (sur l'anneau 8, niveau L1) et générateurs électriques de secours (attique A,
 # entre le fût et la colonnade, hors de l'axe des portes 90°/270°)
-GENERATEURS = [('Tek Generator galerie', th, apo(4) + 150, 1800.0) for th in (90, 210, 330)] + \
-              [('Générateur électrique secours', th, 3050.0, 0.0) for th in (80, 260)]
+GENERATEURS = [('Générateur Tek n°1 (hall)', 60, 1800.0, 0.0), ('Générateur Tek n°2 (mezzanine)', 180, 900.0, 1800.0)]
+
+
+def equipements(infos_pod, contours):
+    """Positions des équipements hors plan : machines du hall, générateurs, 20 coffres-forts, 20 stockages dédiés.
+
+    Mezzanine : 36 emplacements contre la face intérieure du mur de pod (positions 0, 2 et 3 de chaque côté ; la
+    position 1 est l'accès galerie) -> 19 coffres-forts + 17 stockages dédiés en alternance. Le 20e coffre-fort est
+    celui du Coeur Base (position d'origine) ; les 3 derniers stockages dédiés vont dans le hall (θ 300°).
+    """
+    out = []
+    for nom, th, A, lg, pf, hm in GABARITS:
+        cle = {'Réplicateur Tek': 'replicateur', 'Forge à vapeur': 'forge_vapeur',
+               'Labo de fortune (Megalab)': 'megalab'}.get(nom)
+        if cle:
+            out.append(dict(cle=cle, x=A * vec(th)[0], y=A * vec(th)[1], Z=0.0, yaw=th + 180, lieu='hall'))
+        elif nom.startswith('3 stockages'):
+            nx, ny = vec(th)
+            dx, dy = -ny, nx
+            for t in (-300, 0, 300):
+                out.append(dict(cle='stockage_dedie', x=A * nx + t * dx, y=A * ny + t * dy, Z=0.0, yaw=th + 180,
+                                lieu='hall'))
+    for nom, th, A, Z in GENERATEURS:
+        out.append(dict(cle='generateur_tek', x=A * vec(th)[0], y=A * vec(th)[1], Z=Z, yaw=th + 180,
+                        lieu='hall' if Z == 0 else 'mezzanine'))
+    vault = next(e for cle, cls, e in infos_pod['coeur'] if cle == 'coffre')
+    out.append(dict(cle='coffre_fort', x=vault['loc']['x'], y=vault['loc']['y'], Z=0.0, yaw=vault['rot']['yaw'],
+                    lieu='Coeur Base (Matiere Premiere 1)'))
+    places = sorted(((x, y, nu, k, i) for x, y, nu, k, i in cotes_contour(contours[7]) if i != 1),
+                    key=lambda m: math.degrees(math.atan2(m[1], m[0])) % 360)
+    for n, (x, y, nu, k, i) in enumerate(places):
+        nx, ny = vec(nu)
+        cle = 'coffre_fort' if (n % 2 == 0 or n == len(places) - 1) else 'stockage_dedie'
+        out.append(dict(cle=cle, x=x - 150 * nx, y=y - 150 * ny, Z=1800.0, yaw=nu + 180, lieu='mezzanine'))
+    return out
 
 
 def tableau_anneaux(p):
@@ -627,14 +680,9 @@ def emplacements_cage(p, contours):
     return [emplacement(x, y, p['mezzanine'], nu, 'L1', k, i) for x, y, nu, k, i in cotes_contour(contours[p['anneau_cage']])]
 
 
-def murs_tesla(murs, n=10):
-    """Index des murs de rive (niveau 1) les plus proches de θ = 360·m/n."""
-    choix = []
-    for m in range(n):
-        cible = 360.0 * m / n
-        j = min(range(len(murs)), key=lambda j: abs(ecart(math.degrees(math.atan2(murs[j][1], murs[j][0])), cible)))
-        choix.append(j)
-    return choix
+def murs_tesla(murs):
+    """Index des murs de rive (niveau 1) au milieu des côtés E0 (θ = 0°, 60°…) : 1 Tesla par part."""
+    return [j for j, m in enumerate(murs) if m[3] % 2 == 0 and m[4] == 3]
 
 
 def emplacements_jupe(p, jupe):
@@ -692,15 +740,18 @@ def matrice(p, contours, murs, tesla_murs, jupe):
     J = sorted(emplacements_jupe(p, jupe), key=angle) if jupe else []
     S = sorted((emplacement(murs[j][0], murs[j][1], F, murs[j][2], 'RIVE', murs[j][3], murs[j][4]) for j in tesla_murs),
                key=angle)
-    for s, ty in zip(L1, repartir(len(L1), {'tek': nT, 'heavy': len(L1) - nT})):
-        s['type'] = ty
+    # L1 : Tek / Heavy alternées (côté E0 : T H T H T ; côté E1 : H T H T H) = 5 Tek + 5 Heavy par part
+    for s in L1:
+        s['type'] = 'tek' if (s['idx'] % 2 == 0) == (s['cote'] % 2 == 0) else 'heavy'
     for s in J:
         s['type'] = 'heavy'
-    for s in S[:nS]:
+    for s in S:
         s['type'] = 'tesla'
+    besoin = {k: sum(1 for s in L1 + J + S if s['type'] == k) for k in ('heavy', 'tek', 'tesla')}
+    assert besoin['heavy'] <= nH and besoin['tek'] <= nT and besoin['tesla'] <= nS, besoin
     # priorités : 1 jupe (sous-plateforme) 2 Tek L1 3 Tesla (pied de rive) 4 Heavy L1
     groupes = [('P1 jupe Heavy', J), ('P2 L1 Tek', [s for s in L1 if s['type'] == 'tek']),
-               ('P3 rive Tesla', S[:nS]), ('P4 L1 Heavy', [s for s in L1 if s['type'] == 'heavy'])]
+               ('P3 rive Tesla', S), ('P4 L1 Heavy', [s for s in L1 if s['type'] == 'heavy'])]
     ordre = []
     for nom, g in groupes:
         for i in ordre_vdc(len(g)):
@@ -808,6 +859,101 @@ def secteurs(p, ob, jupe):
         out['JUPE-ext'] = secteur_tir(p, ob, jupe['A'] + DECALAGE_MONTAGE + SAILLIE_TETE, zc)
         out['JUPE-int'] = secteur_tir(p, ob, jupe['A'] + F - DECALAGE_MONTAGE - SAILLIE_TETE, zc, sens=-1)
     return out
+
+
+# ---------------------------------------------------------------- découpage en 6 parts égales
+ORDRE_PHASES = ['P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7']
+
+
+def numero_part(p, x, y):
+    th = (math.degrees(math.atan2(y, x)) - p['part_debut'] + 1e-6) % 360
+    return int(th // (360 / p['parts']))
+
+
+def decouper(p, modules):
+    """Répartit les entrées 'part' des modules dans les 6 parts (par l'angle de leur centre) ; 'noyau' à part."""
+    n = p['parts']
+    struct = [[] for _ in range(n)]
+    tour = [[] for _ in range(n)]
+    noyau = []
+    for _, m in modules:
+        for e, ph, gr, ligne in zip(m.entries, m.phases, m.groupes, m.lignes):
+            if ph is None:                      # ancres des modules
+                continue
+            if gr == 'noyau':
+                noyau.append((ph, e, ligne))
+                continue
+            k = numero_part(p, e['loc']['x'], e['loc']['y'])
+            (tour if ph == 'P7' else struct)[k].append((ph, e, ligne))
+    out = {}
+    for k in range(n):
+        a0 = p['part_debut'] + k * 360 / n
+        for genre, liste in (('structure', struct[k]), ('tourelles', tour[k])):
+            t = Template(f'Part {k + 1}-{n} {genre} (theta {a0:.0f} a {a0 + 360 / n:.0f} deg)',
+                         f'Part {k + 1} sur {n} : {genre}. Les {n} parts sont identiques a une rotation de '
+                         f'{360 / n:.0f} deg pres ; toutes se posent sur la pile d\'ancrage (0 ; 300).')
+            ancre(t, empilee=(k == 0 and genre == 'structure'))
+            for ph, e, ligne in sorted(liste, key=lambda v: ORDRE_PHASES.index(v[0])):
+                t.phase = ph
+                t.entries.append(e)
+                t.lignes.append(ligne)
+                t.phases.append(ph)
+                t.groupes.append('part')
+            out[(k, genre)] = t
+    t = Template('Noyau central (pose une fois)', 'Coeur Base sans fondations ni coffre, escalier prolonge, centre de la '
+                                                 'mezzanine avec tremie, capuchon et pointe du cone.')
+    ancre(t)
+    for ph, e, ligne in sorted(noyau, key=lambda v: ORDRE_PHASES.index(v[0])):
+        t.entries.append(e)
+        t.lignes.append(ligne)
+        t.phases.append(ph)
+        t.groupes.append('noyau')
+    out['noyau'] = t
+    return out
+
+
+def verifier_parts(p, parts):
+    """Chaque part, tournée de -60°·k, doit retrouver exactement la part 1 (classe, x, y, z à 1 UU près)."""
+    n = p['parts']
+
+    def cles(t, rot):
+        c, s_ = vec(-rot)
+        out = {}
+        for e, ligne in zip(t.entries, t.lignes):
+            if ligne[5].startswith('ancre'):
+                continue
+            x, y = e['loc']['x'], e['loc']['y']
+            xr, yr = x * c - y * s_, x * s_ + y * c
+            out.setdefault((e['structure'], round(e['loc']['z'])), []).append((xr, yr))
+        return out
+
+    for genre in ('structure', 'tourelles'):
+        ref = cles(parts[(0, genre)], 0)
+        for k in range(1, n):
+            autre = cles(parts[(k, genre)], k * 360 / n)
+            assert ref.keys() == autre.keys(), (genre, k)
+            for cle, pts in ref.items():
+                restants = list(autre[cle])
+                assert len(restants) == len(pts), (genre, k, cle)
+                for x, y in pts:
+                    j = min(range(len(restants)), key=lambda j: math.hypot(restants[j][0] - x, restants[j][1] - y))
+                    assert math.hypot(restants[j][0] - x, restants[j][1] - y) < 1.0, (genre, k, cle, x, y)
+                    restants.pop(j)
+    hors_ancre = {g: sum(1 for l in parts[(0, g)].lignes if not l[5].startswith('ancre')) for g in ('structure', 'tourelles')}
+    print(f"  {n} parts identiques à une rotation près : structure ({hors_ancre['structure']} pièces) "
+          f"et tourelles ({hors_ancre['tourelles']} entrées) par part")
+
+
+def bilan_brut(tot):
+    """Décompose les produits fabriqués en ressources brutes (recettes ASE/ASA usuelles, à vérifier)."""
+    el, po, pc, pe = tot.get('EL', 0), tot.get('PO', 0), tot.get('PC', 0), tot.get('PE', 0)
+    mi = tot.get('MI', 0) + el                       # électronique : 1 lingot + 3 perles de silice
+    pc_tot = pc + 2 * po                             # polymère : 2 obsidienne + 2 pâte cimentée
+    return {'minerai_metal': 2 * mi, 'perles_silice': 3 * el, 'obsidienne': 2 * po,
+            'chitine_ou_keratine': 4 * pc_tot, 'pierre': 8 * pc_tot + pe, 'silex': 2 * pe,
+            'cristal': tot.get('CR', 0), 'element': tot.get('EM', 0), 'perles_noires': tot.get('PN', 0),
+            'huile': tot.get('HU', 0), 'cuir': tot.get('CU', 0), 'fibre': tot.get('FI', 0),
+            'lingots_total': mi, 'pate_totale': pc_tot}
 
 
 # ---------------------------------------------------------------- vérifications
@@ -1077,7 +1223,7 @@ def plan_pod(rep, p, infos_pod):
         ax.add_patch(MPoly(polygone(pc), closed=True, fc='#f6e3d0' if pc['type'] == 'tri' else '#efcfae',
                            ec='#bbb', lw=0.3))
     for x, y, nu, k, i in cotes_contour(contours[7]):
-        porte = nu in (90, 270) and i in (1, 2)
+        porte = k % 2 == 1 and i == 1
         ax.plot(x, y, 's', color='#2a9d8f' if porte else '#b00', ms=9 if porte else 4)
     for n, coul, nom in ((2, '#000', 'piliers PA (Z0 -> 4050)'), (1, '#666', 'piliers PB (Z1800 -> 4650)')):
         R = rayon_coin(n)
@@ -1110,7 +1256,7 @@ def plan_pod(rep, p, infos_pod):
                  ((-pf / 2, -lg / 2), (pf / 2, -lg / 2), (pf / 2, lg / 2), (-pf / 2, lg / 2))]
         ax.add_patch(MPoly(coins, closed=True, fc='#3f88c5', alpha=.35, ec='#1d4e89', lw=1.5))
         ax.annotate(f'{nom}\n{lg / F:.0f}×{pf / F:.0f} F, {hm} murs', (cx, cy), ha='center', va='center', fontsize=8)
-    ax.plot([], [], 's', color='#2a9d8f', ms=9, label='portes doubles du hall (θ 90° / 270°)')
+    ax.plot([], [], 's', color='#2a9d8f', ms=9, label='portes doubles du hall (1 par part)')
     ax.plot([], [], 's', color='#b00', ms=4, label='mur de pod D4 (48 / niveau)')
     ax.set_aspect('equal')
     ax.set_xlim(-2600, 2600)
@@ -1118,6 +1264,70 @@ def plan_pod(rep, p, infos_pod):
     ax.set_title('Pod central — hall Z0→1800 : Coeur Base au centre, piliers, portes et gabarits machines', fontsize=10)
     ax.legend(loc='lower left', fontsize=8)
     fig.savefig(os.path.join(rep, 'plan_pod.png'), dpi=80, bbox_inches='tight')
+    plt.close(fig)
+
+
+def plan_parts(rep, p, parts, col):
+    plt, MPoly = _mpl()
+    if not plt:
+        return
+    couleurs = ['#e07a2f', '#3f88c5', '#2a9d8f', '#7b2cbf', '#d4ac0d', '#c0392b']
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(22, 11))
+    for k in range(p['parts']):
+        t = parts[(k, 'structure')]
+        for e, (cle, x, y, Z, yaw, r) in zip(t.entries, t.lignes):
+            if cle in ('fond', 'fond_tri'):
+                pc = dict(type='carre' if cle == 'fond' else 'tri', x=x, y=y, yaw=yaw)
+                ax1.add_patch(MPoly(polygone(pc), closed=True, fc=couleurs[k], ec='#333', lw=0.2, alpha=.75))
+        a0 = p['part_debut'] + k * 60
+        c, s_ = vec(a0)
+        ax1.plot([0, 5300 * c], [0, 5300 * s_], color='k', lw=1.5)
+        cm, sm = vec(a0 + 30)
+        ax1.annotate(f'Part {k + 1}', (3000 * cm, 3000 * sm), ha='center', va='center', fontsize=14,
+                     fontweight='bold', color='w')
+    ax1.plot(*ANCRE, 'k+', ms=14)
+    ax1.set_aspect('equal')
+    ax1.set_xlim(-5400, 5400)
+    ax1.set_ylim(-5400, 5400)
+    ax1.set_title(f"Les 6 parts égales (sol) — limites θ = {p['part_debut']}° + 60°·k ; + = pile d'ancrage")
+    # part 1 détaillée
+    t = parts[(0, 'structure')]
+    for e, (cle, x, y, Z, yaw, r) in zip(t.entries, t.lignes):
+        if cle in ('fond', 'fond_tri'):
+            pc = dict(type='carre' if cle == 'fond' else 'tri', x=x, y=y, yaw=yaw)
+            ax2.add_patch(MPoly(polygone(pc), closed=True, fc='#9aa5b1' if Z < 0 else '#f2d0a9', ec='#999', lw=0.3))
+    styles = {'mur': ('#000', 1.2), 'cadre_double': ('#0a0', 2.5)}
+    for e, (cle, x, y, Z, yaw, r) in zip(t.entries, t.lignes):
+        if cle in styles and (Z or 0) in (0.0, 1800.0) and not r.startswith('jupe'):
+            nx, ny = vec(yaw)
+            dx, dy = -ny, nx
+            col_, lw = styles[cle]
+            if cle == 'cadre_double' and Z == 0:
+                col_ = '#e63946'
+            ax2.plot([x - 150 * dx, x + 150 * dx], [y - 150 * dy, y + 150 * dy], color=col_, lw=lw)
+        elif cle in ('pilier', 'demi_pilier') and Z == 0:
+            ax2.plot(x, y, 'o', color='#6a040f', ms=2 if r.startswith('colonnade') else 6)
+    tt = parts[(0, 'tourelles')]
+    marq = {'heavy': ('s', '#c0392b'), 'tek': ('^', '#2471a3'), 'tesla': ('*', '#d4ac0d')}
+    for e, (cle, x, y, Z, yaw, r) in zip(tt.entries, tt.lignes):
+        if cle in marq:
+            mk, co = marq[cle]
+            ax2.plot(x, y, mk, color=co, ms=9, mec='k' if 'JUPE-int' in r else co)
+    for nom, (mk, co) in marq.items():
+        ax2.plot([], [], mk, color=co, label=NOMS[nom])
+    ax2.plot([], [], color='#e63946', lw=2.5, label='portes au sol (pod θ≈26°, fût θ 30°)')
+    ax2.plot([], [], color='#0a0', lw=2.5, label='accès galerie Z1800 (mur de pod)')
+    ax2.plot([], [], 'o', color='#6a040f', ms=3, label='colonnade (passage à θ 30°) et piliers PA')
+    for a in (p['part_debut'], p['part_debut'] + 60):
+        c, s_ = vec(a)
+        ax2.plot([0, 5300 * c], [0, 5300 * s_], color='k', lw=1.5)
+    ax2.set_aspect('equal')
+    ax2.set_xlim(-300, 5400)
+    ax2.set_ylim(-1700, 5000)
+    ax2.legend(loc='upper left', fontsize=8)
+    ax2.set_title(f"Part 1 (θ {p['part_debut']}° → {p['part_debut'] + 60}°) : sol, murs, piliers, "
+                  '16 tourelles (5 Tek + 10 Heavy + 1 Tesla)')
+    fig.savefig(os.path.join(rep, 'plan_6_parts.png'), dpi=70, bbox_inches='tight')
     plt.close(fig)
 
 
@@ -1148,11 +1358,11 @@ def main():
         assert all(abs(x - apo(m)) < 1e-6 for x in aa) and all(l == m for l in LL), m
     pod, infos_pod = module_pod(p, contours)
     murs_rive = cotes_contour(contours[p['anneau_rive']])
-    tesla_murs = murs_tesla(murs_rive, p['inventaire'][2])
+    tesla_murs = murs_tesla(murs_rive)
     rampe, murs, sas, ob, jupe, col = module_rampe(p, contours, set(tesla_murs))
     cage, gal = module_cage(p, contours)
     ordre, poses, reserve = matrice(p, contours, murs, tesla_murs, jupe)
-    tourelles = template_tourelles('05 Tourelles verticales scenario B (cap 100, Tesla comptees)', ordre)
+    tourelles = template_tourelles('05 Tourelles verticales (6 parts x 16, cap 100 Tesla comptees)', ordre)
     verifier_encombrements(p, infos_pod, col, ordre)
 
     modules = [('01_sol_D8_complet', sol), ('01b_sol_extension_D4_D8', ext), ('02_pod_central', pod),
@@ -1163,6 +1373,13 @@ def main():
         t.ecrire(os.path.join(rep_t, 'phases', f'{ph}.json'))
     for nom, t in modules:
         t.ecrire(os.path.join(rep_t, nom + '.json'))
+    parts = decouper(p, [m for m in modules if m[0] != '01b_sol_extension_D4_D8'])
+    verifier_parts(p, parts)
+    os.makedirs(os.path.join(rep_t, 'parts'), exist_ok=True)
+    for cle, t in parts.items():
+        nom = 'Noyau_central' if cle == 'noyau' else f'Part_{cle[0] + 1}_{cle[1]}'
+        t.ecrire(os.path.join(rep_t, 'parts', nom + '.json'))
+    equip = equipements(infos_pod, contours)
 
     # CSV de pose
     for nom, t in modules:
@@ -1178,6 +1395,15 @@ def main():
                 for s in ordre],
                ['ordre', 'priorite', 'type', 'couche', 'cote', 'index', 'theta', 'x_chaume', 'y_chaume',
                 'Z_bas_chaume', 'x_tourelle', 'y_tourelle', 'Z_tourelle', 'sens_de_tir', 'posee'])
+    ecrire_csv(os.path.join(rep_d, '06_part_1_structure.csv'),
+               [(i, NOMS[c], ph, round(x, 1), round(y, 1), '' if Z is None else round(Z, 1), round(yaw % 360, 1), r)
+                for i, ((c, x, y, Z, yaw, r), ph) in enumerate(zip(parts[(0, 'structure')].lignes,
+                                                                     parts[(0, 'structure')].phases))],
+               ['entree', 'piece', 'phase', 'x', 'y', 'Z_plan', 'yaw', 'repere'])
+    ecrire_csv(os.path.join(rep_d, '07_equipements.csv'),
+               [(n, NOMS[q['cle']], q['lieu'], round(q['x'], 1), round(q['y'], 1), q['Z'], round(q['yaw'] % 360, 1))
+                for n, q in enumerate(equip)],
+               ['n', 'equipement', 'lieu', 'x', 'y', 'Z_plan', 'yaw'])
     ecrire_csv(os.path.join(rep_d, '03_ligne_pics.csv'),
                [(n, round(x + 150 * vec(nu)[0], 1), round(y + 150 * vec(nu)[1], 1), -p['decaissement'], nu, k, i)
                 for n, (x, y, nu, k, i) in enumerate(murs)],
@@ -1227,10 +1453,44 @@ def main():
                                                    pv['mezzanine'] + F / 2),
                                  'degagement_chute_casquette': round(cq * F - DECALAGE_MONTAGE, 1)}
     syn['variantes'] = var
+    # bilan complet : 6 parts + noyau + pics + équipements
+    nb_eq = {}
+    for q in equip:
+        nb_eq[q['cle']] = nb_eq.get(q['cle'], 0) + 1
+    def sans_ancre(t):
+        c = {}
+        for cle, *_, r in t.lignes:
+            if not r.startswith('ancre'):
+                c[cle] = c.get(cle, 0) + 1
+        return c
+
+    part_s, part_t, noy = sans_ancre(parts[(0, 'structure')]), sans_ancre(parts[(0, 'tourelles')]), sans_ancre(parts['noyau'])
+    nb_ancres = sum(1 for t in parts.values() for *_, r in t.lignes if r.startswith('ancre'))
+    postes = {
+        'part_structure': {k: v * p['parts'] for k, v in part_s.items()},
+        'part_tourelles_chaume': {'chaume_mur': part_t.get('chaume_mur', 0) * p['parts']},
+        'tourelles': {k: part_t.get(k, 0) * p['parts'] for k in ('heavy', 'tek', 'tesla')},
+        'noyau': noy, 'ancres_temporaires': {'demi_pilier': nb_ancres}, 'pics': {'pics': len(murs)},
+        'equipements': nb_eq}
+    # les ancres (1 demi-pilier par template, 2 pour la part 1) sont comptées dans les demi-piliers
+    syn['bilan_complet'] = {nom: {'pieces': c, 'bilan': bilan(c)} for nom, c in postes.items()}
+    tot_sans, tot_avec = {}, {}
+    for nom, v in syn['bilan_complet'].items():
+        for r, q in v['bilan'].items():
+            tot_avec[r] = tot_avec.get(r, 0) + q
+            if nom != 'tourelles':
+                tot_sans[r] = tot_sans.get(r, 0) + q
+    syn['bilan_total'] = {'sans_tourelles': tot_sans, 'avec_tourelles': tot_avec,
+                          'brut_sans_tourelles': bilan_brut(tot_sans), 'brut_avec_tourelles': bilan_brut(tot_avec)}
+    syn['parts'] = {'nombre': p['parts'], 'debut': p['part_debut'],
+                    'structure_par_part': {'total': sum(part_s.values()), 'pieces': part_s, 'bilan': bilan(part_s)},
+                    'tourelles_par_part': {'total': sum(part_t.values()), 'pieces': part_t, 'bilan': bilan(part_t)},
+                    'noyau': {'total': sum(noy.values()), 'pieces': noy, 'bilan': bilan(noy)}}
     with open(os.path.join(rep_d, 'synthese.json'), 'w', encoding='utf-8') as f:
         json.dump(syn, f, ensure_ascii=False, indent=1)
     plans(rep_p, p, pieces, ordre, ob, jupe, infos_pod, col)
     plan_pod(rep_p, p, infos_pod)
+    plan_parts(rep_p, p, parts, col)
 
     print(json.dumps({k: v['total'] for k, v in syn['modules'].items()}, indent=1))
     print(json.dumps(syn['tourelles'], indent=1, ensure_ascii=False))

@@ -20,7 +20,7 @@ La tourelle reste au nu de la façade, dans une ouverture de 300 × 300, avec un
 
 | Étage | Z | Contenu (60 emplacements sur la ligne D5) |
 |---|---|---|
-| **L1** | 1800 → 2100 | **60 tourelles verticales** (35 Tek + 25 Heavy), chacune avec son mur de chaume de pose (phase P7) |
+| **L1** | 1800 → 2100 | **60 tourelles verticales** (30 Tek + 30 Heavy en alternance, 5 + 5 par part), chacune avec son mur de chaume de pose (phase P7) |
 | **L2** | 2100 → 2400 | **60 double doorframes** (phase P5) : à fermer par des portes doubles, ou à garder ouverts pour le tir des joueurs |
 
 ```
@@ -33,7 +33,7 @@ La tourelle reste au nu de la façade, dans une ouverture de 300 × 300, avec un
 
 ## 2. Fût (support de la cage)
 
-- Murs sur D5 de Z0 à Z1800 : 6 niveaux × 60 = 360 positions, dont 358 murs et 2 cadres doubles au sol (θ 90° et 270°) vers l'attique A.
+- Murs sur D5 de Z0 à Z1800 : 6 niveaux × 60 = 360 positions, dont 354 murs et 6 cadres doubles au sol (1 par part, θ 30° + 60°·k) vers l'attique A, dans l'axe des passages de la colonnade.
 - Le fût porte le plancher Z1800 côté extérieur. Le mur de pod le porte côté intérieur.
 
 ## 3. Galerie : planchers et circulation
@@ -43,7 +43,7 @@ Les planchers reprennent les anneaux 8 et 9 du pavage, en plafonds : 54 plafonds
 | Plancher | Z | Rôle |
 |---|---|---|
 | Galerie L1 | 1800 (P3) | coursive de service derrière les tourelles ; accès depuis la mezzanine par les 12 cadres du niveau 6 du pod |
-| Galerie L2 | 2100 (P5) | coursive derrière les double doorframes ; 3 plafonds à trappe (θ 30°, 150°, 270°) + échelles |
+| Galerie L2 | 2100 (P5) | coursive derrière les double doorframes ; 6 plafonds à trappe (1 par part, côtés E1) + échelles |
 | Toit de cage | 2400 (P5) | ferme la cage ; porte la casquette et la reprise |
 
 Le plancher Z2100 est porté par le mur de pod et par les pièces des anneaux 8-9 qui s'y accrochent. Il ne dépend pas de L1 : la démolition du chaume ne le fragilise pas.
@@ -98,7 +98,7 @@ Après démolition, L1 devient une bande d'ouvertures où chaque tourelle occupe
 ## 6. Contrôles de fin de module
 
 - [ ] Fût : 6 niveaux sur D5, 2 portes au sol.
-- [ ] 3 planchers de galerie (Z1800, 2100, 2400), 3 trappes à Z2100.
+- [ ] 3 planchers de galerie (Z1800, 2100, 2400), 6 trappes à Z2100.
 - [ ] L2 : 60 double doorframes ; L1 : 60 emplacements libres jusqu'à la phase P7.
 - [ ] P7 : 60 murs de chaume + 60 tourelles à 10 UU devant ; murs de chaume démolis à la fin.
 - [ ] Casquette : bout à 300 UU devant la façade, partout.

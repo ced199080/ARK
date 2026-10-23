@@ -23,21 +23,21 @@ Source du noyau : `references/Coeur_Base.json` (votre template *Coeur Base*). Co
 
 ## 2. Coeur Base intégré au centre
 
-Votre template est repris **entrée par entrée** : coordonnées, rotations, skins, couleurs et nom du coffre « Matiere Premiere 1 » sont conservés. Son origine (0 ; 0) coïncide avec le centre de l'étoile, et ses cotes Z suivent déjà la même convention (fondation z 40, mur z 240).
+Votre template est repris **entrée par entrée** : coordonnées, rotations, skins et couleurs sont conservés. Il forme avec l'escalier, le centre de la mezzanine et la pointe du cône le **noyau central**, posé une seule fois (module 06 §3). Son origine (0 ; 0) coïncide avec le centre de l'étoile, et ses cotes Z suivent déjà la même convention (fondation z 40, mur z 240).
 
-**Seule modification.** Ses 10 fondations sont retirées. Elles suivent une grille carrée tournée de −30°, incompatible avec l'étoile, et la chevauchaient. Les murs du Coeur Base reposent donc sur les fondations de l'étoile (anneaux 1 à 3). Ce n'est pas une accroche d'arête : **la pose se fait en Template Hammer**, comme le template d'origine.
+**Modifications.** Le coffre « Matiere Premiere 1 » est sorti du template : c'est un équipement, posé à sa place d'origine et compté dans les 20 coffres-forts (module 07). Ses 10 fondations sont retirées. Elles suivent une grille carrée tournée de −30°, incompatible avec l'étoile, et la chevauchaient. Les murs du Coeur Base reposent donc sur les fondations de l'étoile (anneaux 1 à 3). Ce n'est pas une accroche d'arête : **la pose se fait en Template Hammer**, comme le template d'origine.
 
 | Niveau | Contenu repris | Phase |
 |---|---|---|
-| 1 (Z0 → 300) | 17 murs extérieurs, 1 porte secrète d'entrée (θ ≈ 26°), 2 portes secrètes intérieures (au centre et en (259,8 ; −150)), 1 escalier, 1 coffre | P2 |
+| 1 (Z0 → 300) | 17 murs extérieurs, 1 porte secrète d'entrée (θ ≈ 26°), 2 portes secrètes intérieures (au centre et en (259,8 ; −150)), 1 escalier (le coffre est à poser à la main) | P2 |
 | plancher Z300 | 40 plafonds triangles + 5 plafonds (avec la trémie de l'escalier) | P3 |
 | 2 (Z300 → 600) | 18 murs | P3 |
 
 **Le centre du cercle.** Les deux portes secrètes intérieures forment la **cage d'escalier**, une cellule de 300 × 300 centrée en (129,9 ; −75) dont les axes sont tournés de −30°. La porte au centre exact (0 ; 0) en est un côté.
 
 **Orientation.**
-- Elle reste celle de l'export (`coeur_rotation = 0`) : les murs du Coeur Base restent parallèles aux arêtes de l'étoile, et son entrée regarde θ ≈ 26°, entre le réplicateur (0°) et le Tek Generator des ateliers (60°).
-- `--coeur-rotation` permet de le tourner. Utilisez un multiple de 60° pour garder ce parallélisme ; par exemple 240° oriente l'entrée vers 266°, dans l'axe du sas et des portes à 270°.
+- Elle reste celle de l'export (`coeur_rotation = 0`) : les murs du Coeur Base restent parallèles aux arêtes de l'étoile, et son entrée regarde θ ≈ 26°, juste en face de la porte du hall de la part 1 (θ ≈ 26°).
+- `--coeur-rotation` permet de le tourner. Avec un multiple de 60°, le parallélisme est conservé et l'entrée reste face à une porte du hall, puisqu'il y en a une par part.
 
 **Encombrement** (contrôlé par le script) :
 - rayon maximal 900 UU, contre 1 159 UU pour la couronne de piliers PA : 259 UU de passage ;
@@ -60,11 +60,11 @@ L'escalier du Coeur Base est prolongé, à la verticale, jusqu'à la mezzanine.
 
 ## 4. Mur de pod (D4)
 
-- **48 positions par niveau** (12 côtés × 4), **10 niveaux** de Z0 à Z3000, soit 464 murs + 16 cadres de porte doubles.
+- **48 positions par niveau** (12 côtés × 4), **10 niveaux** de Z0 à Z3000, soit 462 murs + 18 cadres de porte doubles (3 par part).
 
 | Niveau | Z | Ouvertures |
 |---|---|---|
-| 0 | 0 → 300 | **2 cadres doubles côté θ 90°** et **2 côté θ 270°** (positions 1-2) : hall ↔ couloir annulaire |
+| 0 | 0 → 300 | **6 cadres doubles**, 1 par part (côtés E1, position 1 : θ ≈ 26°, 86°, 146°…) : hall ↔ couloir annulaire |
 | 1 à 5 | 300 → 1800 | aucune |
 | **6** | 1800 → 2100 | **12 cadres doubles** (position 1 de chaque côté) : mezzanine ↔ galerie de tourelles |
 | 7 à 9 | 2100 → 3000 | aucune ; la reprise de toiture (module 04) s'encastre de 40 UU à Z ≈ 2960 |
@@ -85,12 +85,14 @@ Ce sont des zones de réservation, pas les cotes exactes des maillages. Elles co
 
 | Machine | Branche θ | Centre (x ; y) | Gabarit | Hauteur réservée | Énergie / carburant |
 |---|---|---|---|---|---|
-| **Réplicateur Tek** | 0° | (1 650 ; 0) | 3 × 2 fondations | 3 murs | à vérifier (Tek Generator du hall à proximité) |
-| Tek Generator (ateliers) | 60° | (900 ; 1 558,8) | 1 × 1 | 1 mur | élément |
-| **Forge industrielle** (ou variante « vapeur ») | 120° | (−825 ; 1 428,9) | 3 × 3 | 3 murs | carburant de la forge |
-| Tek Teleporter (accès principal) | 180° | (−1 700 ; 0) | 1 × 1 | 1 mur | élément |
-| **Laboratoire de chimie** | 240° | (−875 ; −1 515,5) | 2 × 1 | 2 murs | électrique |
-| Stockage / Dedicated Storage | 300° | (875 ; −1 515,5) | 3 × 1 | 2 murs | — |
+| **Réplicateur Tek** | 0° | (1 650 ; 0) | 3 × 2 fondations | 3 murs | à vérifier |
+| **Générateur Tek n°1** | 60° | (900 ; 1 558,8) | 1 × 1 | 1 mur | élément |
+| **Forge à vapeur** (Steam Forge) | 120° | (−825 ; 1 428,9) | 3 × 3 | 3 murs | élément (forge alimentée à l'élément) |
+| *libre* (circulation, ou Tek Teleporter en option) | 180° | (−1 700 ; 0) | — | — | — |
+| **Labo de fortune** (Makeshift Megalab) | 240° | (−825 ; −1 428,9) | 2 × 2 | 2 murs | à vérifier |
+| 3 stockages dédiés Tek | 300° | (875 ; −1 515,5) | 3 × 1 | 2 murs | — |
+
+Sur la mezzanine (Z1800) se trouvent le **générateur Tek n°2** en (−900 ; 0), puis **19 coffres-forts et 17 stockages dédiés** en alternance contre le mur de pod. Le 20ᵉ coffre-fort est celui du Coeur Base. Positions exactes : `donnees/07_equipements.csv` et module 07.
 
 ## 7. Mezzanine Z1800
 
@@ -115,9 +117,9 @@ Elle reprend le centre et les anneaux 1 à 7 en plafonds, **moins la trémie de 
 
 ## 9. Contrôles de fin de module
 
-- [ ] Coeur Base : 35 murs, 3 portes secrètes, coffre « Matiere Premiere 1 », plancher Z300. Ses fondations ne sont pas posées (l'étoile les remplace).
+- [ ] Coeur Base (noyau) : 35 murs, 3 portes secrètes, plancher Z300. Ses fondations ne sont pas posées (l'étoile les remplace) ; son coffre est reposé à la main.
 - [ ] 6 escaliers empilés de Z0 à Z1800 ; la trémie de la mezzanine est ouverte au-dessus.
 - [ ] 6 murs libres sous la mezzanine autour du Coeur Base.
-- [ ] 4 cadres doubles au sol (θ 90° / 270°) et 12 à Z1800.
+- [ ] 6 cadres doubles au sol (1 par part) et 12 à Z1800.
 - [ ] 24 colonnes de piliers PA/PB.
 - [ ] Cône : 228 toits + capuchon + 4 demi-toits, sans jour.

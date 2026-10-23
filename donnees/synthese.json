@@ -18,8 +18,12 @@
   "colonnade_rayon": 3360.0,
   "largeur_pilier": 39.269908169872416,
   "colonnade_passages": [
+   30,
    90,
-   270
+   150,
+   210,
+   270,
+   330
   ],
   "colonnade_largeur_passage": 300.0,
   "cap": 100,
@@ -29,7 +33,8 @@
    35,
    10
   ],
-  "jupe_tourelles": 30
+  "parts": 6,
+  "part_debut": -14.5
  },
  "apothemes": {
   "D1": 559.8,
@@ -87,18 +92,17 @@
   "02_pod_central": {
    "pieces": {
     "demi_pilier": 25,
-    "mur": 499,
+    "mur": 497,
     "porte_secrete": 3,
     "escalier": 6,
     "plafond_tri": 228,
     "plafond": 100,
-    "coffre": 1,
-    "cadre_double": 16,
+    "cadre_double": 18,
     "pilier": 264,
     "toit": 228,
     "demi_toit": 4
    },
-   "total": 1374,
+   "total": 1373,
    "bilan": {
     "MI": 35831,
     "PC": 10104
@@ -106,27 +110,26 @@
   },
   "03_rive_colonnade_pente_overhang2": {
    "pieces": {
-    "demi_pilier": 209,
-    "mur": 373,
-    "cadre_double": 1,
-    "pilier": 816,
+    "demi_pilier": 193,
+    "mur": 378,
+    "pilier": 768,
     "toit": 744,
     "plafond": 228
    },
-   "total": 2371,
+   "total": 2311,
    "bilan": {
-    "MI": 66487,
-    "PC": 18886
+    "MI": 65179,
+    "PC": 18514
    }
   },
   "04_cage_casquette": {
    "pieces": {
     "demi_pilier": 1,
-    "mur": 358,
-    "cadre_double": 62,
+    "mur": 354,
+    "cadre_double": 66,
     "plafond_tri": 324,
-    "plafond": 159,
-    "trappe": 3,
+    "plafond": 156,
+    "trappe": 6,
     "toit": 192
    },
    "total": 1099,
@@ -138,41 +141,41 @@
   "05_tourelles_scenario_B": {
    "pieces": {
     "demi_pilier": 1,
-    "chaume_mur": 100,
-    "heavy": 55,
-    "tek": 35,
-    "tesla": 10
+    "chaume_mur": 96,
+    "heavy": 60,
+    "tek": 30,
+    "tesla": 6
    },
-   "total": 201,
+   "total": 193,
    "bilan": {
-    "MI": 38213,
-    "PC": 12754,
-    "CH": 700,
-    "FI": 400,
-    "BO": 400,
-    "EL": 19350,
-    "PO": 8600,
-    "EM": 105,
-    "CR": 2000
+    "MI": 38413,
+    "PC": 13504,
+    "CH": 672,
+    "FI": 384,
+    "BO": 384,
+    "EL": 19800,
+    "PO": 7500,
+    "EM": 90,
+    "CR": 1200
    }
   }
  },
  "tourelles": {
   "posees": {
-   "heavy": 55,
-   "tek": 35,
-   "tesla": 10
+   "heavy": 60,
+   "tek": 30,
+   "tesla": 6
   },
   "reserve": {
-   "heavy": 25,
-   "tek": 0,
-   "tesla": 0
+   "heavy": 20,
+   "tek": 5,
+   "tesla": 4
   },
   "par_couche": {
    "JUPE-int": 18,
    "JUPE-ext": 12,
    "L1": 60,
-   "RIVE": 10
+   "RIVE": 6
   }
  },
  "cap": {
@@ -203,8 +206,8 @@
   "n": 264,
   "pas_angulaire": 1.364,
   "pas_arc": 79.968,
-  "colonnes": 256,
-  "pieces": 1024,
+  "colonnes": 240,
+  "pieces": 960,
   "hauteurs": [
    1050,
    1200
@@ -260,7 +263,7 @@
   "Z": -150.0
  },
  "sas_rive": {
-  "index_mur": 66
+  "index_mur": null
  },
  "phases": {
   "P1": {
@@ -276,19 +279,18 @@
    }
   },
   "P2": {
-   "total": 1925,
+   "total": 1864,
    "pieces": {
-    "demi_pilier": 209,
-    "mur": 816,
+    "demi_pilier": 193,
+    "mur": 815,
     "porte_secrete": 3,
     "escalier": 1,
-    "coffre": 1,
-    "cadre_double": 7,
-    "pilier": 888
+    "cadre_double": 12,
+    "pilier": 840
    },
    "bilan": {
-    "MI": 45617,
-    "PC": 12849
+    "MI": 44309,
+    "PC": 12477
    }
   },
   "P3": {
@@ -323,8 +325,8 @@
    "pieces": {
     "demi_pilier": 1,
     "plafond_tri": 216,
-    "trappe": 3,
-    "plafond": 105,
+    "trappe": 6,
+    "plafond": 102,
     "cadre_double": 60,
     "toit": 72
    },
@@ -350,24 +352,24 @@
    }
   },
   "P7": {
-   "total": 201,
+   "total": 193,
    "pieces": {
     "demi_pilier": 1,
-    "chaume_mur": 100,
-    "heavy": 55,
-    "tek": 35,
-    "tesla": 10
+    "chaume_mur": 96,
+    "heavy": 60,
+    "tek": 30,
+    "tesla": 6
    },
    "bilan": {
-    "MI": 38213,
-    "PC": 12754,
-    "CH": 700,
-    "FI": 400,
-    "BO": 400,
-    "EL": 19350,
-    "PO": 8600,
-    "EM": 105,
-    "CR": 2000
+    "MI": 38413,
+    "PC": 13504,
+    "CH": 672,
+    "FI": 384,
+    "BO": 384,
+    "EL": 19800,
+    "PO": 7500,
+    "EM": 90,
+    "CR": 1200
    }
   }
  },
@@ -580,7 +582,7 @@
    "y": 0.0
   },
   {
-   "nom": "Tek Generator (ateliers)",
+   "nom": "Générateur Tek n°1 (ateliers)",
    "theta": 60,
    "apotheme": 1800,
    "largeur": 300,
@@ -590,7 +592,7 @@
    "y": 1558.8
   },
   {
-   "nom": "Forge industrielle",
+   "nom": "Forge à vapeur",
    "theta": 120,
    "apotheme": 1650,
    "largeur": 900,
@@ -600,27 +602,17 @@
    "y": 1428.9
   },
   {
-   "nom": "Tek Teleporter (accès principal)",
-   "theta": 180,
-   "apotheme": 1700,
-   "largeur": 300,
-   "profondeur": 300,
-   "hauteur_murs": 1,
-   "x": -1700.0,
-   "y": 0.0
-  },
-  {
-   "nom": "Laboratoire de chimie",
+   "nom": "Labo de fortune (Megalab)",
    "theta": 240,
-   "apotheme": 1750,
+   "apotheme": 1650,
    "largeur": 600,
-   "profondeur": 300,
+   "profondeur": 600,
    "hauteur_murs": 2,
-   "x": -875.0,
-   "y": -1515.5
+   "x": -825.0,
+   "y": -1428.9
   },
   {
-   "nom": "Stockage / Dedicated Storage",
+   "nom": "3 stockages dédiés",
    "theta": 300,
    "apotheme": 1750,
    "largeur": 900,
@@ -632,39 +624,18 @@
  ],
  "generateurs": [
   {
-   "nom": "Tek Generator galerie",
-   "theta": 90,
-   "x": 0.0,
-   "y": 2389.2,
-   "Z": 1800.0
-  },
-  {
-   "nom": "Tek Generator galerie",
-   "theta": 210,
-   "x": -2069.1,
-   "y": -1194.6,
-   "Z": 1800.0
-  },
-  {
-   "nom": "Tek Generator galerie",
-   "theta": 330,
-   "x": 2069.1,
-   "y": -1194.6,
-   "Z": 1800.0
-  },
-  {
-   "nom": "Générateur électrique secours",
-   "theta": 80,
-   "x": 529.6,
-   "y": 3003.7,
+   "nom": "Générateur Tek n°1 (hall)",
+   "theta": 60,
+   "x": 900.0,
+   "y": 1558.8,
    "Z": 0.0
   },
   {
-   "nom": "Générateur électrique secours",
-   "theta": 260,
-   "x": -529.6,
-   "y": -3003.7,
-   "Z": 0.0
+   "nom": "Générateur Tek n°2 (mezzanine)",
+   "theta": 180,
+   "x": -900.0,
+   "y": 0.0,
+   "Z": 1800.0
   }
  ],
  "variantes": {
@@ -681,6 +652,227 @@
     -17.1
    ],
    "degagement_chute_casquette": 590.0
+  }
+ },
+ "bilan_complet": {
+  "part_structure": {
+   "pieces": {
+    "fond_tri": 768,
+    "fond": 384,
+    "mur": 1194,
+    "cadre_double": 84,
+    "pilier": 1032,
+    "demi_pilier": 216,
+    "plafond_tri": 504,
+    "plafond": 474,
+    "toit": 1164,
+    "trappe": 6
+   },
+   "bilan": {
+    "MI": 165570,
+    "PC": 47898
+   }
+  },
+  "part_tourelles_chaume": {
+   "pieces": {
+    "chaume_mur": 96
+   },
+   "bilan": {
+    "CH": 672,
+    "FI": 384,
+    "BO": 384
+   }
+  },
+  "tourelles": {
+   "pieces": {
+    "heavy": 60,
+    "tek": 30,
+    "tesla": 6
+   },
+   "bilan": {
+    "MI": 38400,
+    "PC": 13500,
+    "EL": 19800,
+    "PO": 7500,
+    "EM": 90,
+    "CR": 1200
+   }
+  },
+  "noyau": {
+   "pieces": {
+    "mur": 35,
+    "porte_secrete": 3,
+    "escalier": 6,
+    "plafond_tri": 48,
+    "plafond": 10,
+    "demi_toit": 4
+   },
+   "bilan": {
+    "MI": 2536,
+    "PC": 716
+   }
+  },
+  "ancres_temporaires": {
+   "pieces": {
+    "demi_pilier": 14
+   },
+   "bilan": {
+    "MI": 182,
+    "PC": 56
+   }
+  },
+  "pics": {
+   "pieces": {
+    "pics": 84
+   },
+   "bilan": {
+    "MI": 2100,
+    "CU": 1680,
+    "FI": 2520
+   }
+  },
+  "equipements": {
+   "pieces": {
+    "replicateur": 1,
+    "forge_vapeur": 1,
+    "megalab": 1,
+    "stockage_dedie": 20,
+    "generateur_tek": 2,
+    "coffre_fort": 20
+   },
+   "bilan": {
+    "EM": 220,
+    "MI": 26000,
+    "CR": 3350,
+    "PN": 470,
+    "PO": 5850,
+    "PC": 2900,
+    "EL": 220,
+    "PE": 100,
+    "HU": 1400
+   }
+  }
+ },
+ "bilan_total": {
+  "sans_tourelles": {
+   "MI": 196388,
+   "PC": 51570,
+   "CH": 672,
+   "FI": 2904,
+   "BO": 384,
+   "CU": 1680,
+   "EM": 220,
+   "CR": 3350,
+   "PN": 470,
+   "PO": 5850,
+   "EL": 220,
+   "PE": 100,
+   "HU": 1400
+  },
+  "avec_tourelles": {
+   "MI": 234788,
+   "PC": 65070,
+   "CH": 672,
+   "FI": 2904,
+   "BO": 384,
+   "EL": 20020,
+   "PO": 13350,
+   "EM": 310,
+   "CR": 4550,
+   "CU": 1680,
+   "PN": 470,
+   "PE": 100,
+   "HU": 1400
+  },
+  "brut_sans_tourelles": {
+   "minerai_metal": 393216,
+   "perles_silice": 660,
+   "obsidienne": 11700,
+   "chitine_ou_keratine": 253080,
+   "pierre": 506260,
+   "silex": 200,
+   "cristal": 3350,
+   "element": 220,
+   "perles_noires": 470,
+   "huile": 1400,
+   "cuir": 1680,
+   "fibre": 2904,
+   "lingots_total": 196608,
+   "pate_totale": 63270
+  },
+  "brut_avec_tourelles": {
+   "minerai_metal": 509616,
+   "perles_silice": 60060,
+   "obsidienne": 26700,
+   "chitine_ou_keratine": 367080,
+   "pierre": 734260,
+   "silex": 200,
+   "cristal": 4550,
+   "element": 310,
+   "perles_noires": 470,
+   "huile": 1400,
+   "cuir": 1680,
+   "fibre": 2904,
+   "lingots_total": 254808,
+   "pate_totale": 91770
+  }
+ },
+ "parts": {
+  "nombre": 6,
+  "debut": -14.5,
+  "structure_par_part": {
+   "total": 971,
+   "pieces": {
+    "fond_tri": 128,
+    "fond": 64,
+    "mur": 199,
+    "cadre_double": 14,
+    "pilier": 172,
+    "demi_pilier": 36,
+    "plafond_tri": 84,
+    "plafond": 79,
+    "toit": 194,
+    "trappe": 1
+   },
+   "bilan": {
+    "MI": 27595,
+    "PC": 7983
+   }
+  },
+  "tourelles_par_part": {
+   "total": 32,
+   "pieces": {
+    "chaume_mur": 16,
+    "heavy": 10,
+    "tek": 5,
+    "tesla": 1
+   },
+   "bilan": {
+    "CH": 112,
+    "FI": 64,
+    "BO": 64,
+    "MI": 6400,
+    "PC": 2250,
+    "EL": 3300,
+    "PO": 1250,
+    "EM": 15,
+    "CR": 200
+   }
+  },
+  "noyau": {
+   "total": 106,
+   "pieces": {
+    "mur": 35,
+    "porte_secrete": 3,
+    "escalier": 6,
+    "plafond_tri": 48,
+    "plafond": 10,
+    "demi_toit": 4
+   },
+   "bilan": {
+    "MI": 2536,
+    "PC": 716
+   }
   }
  }
 }

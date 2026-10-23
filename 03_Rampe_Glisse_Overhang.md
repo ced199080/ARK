@@ -27,10 +27,10 @@ Il suit votre schéma (lignes 30 → 32) :
 
 | Niveau | Z | Contenu (84 positions = 12 côtés × 7) |
 |---|---|---|
-| 0 | 0 → 300 | 83 murs + **1 cadre de porte double** : sas, côté θ 270°, position 3, centre (0 ; −3 918,7) |
-| 1 | 300 → 600 | 74 murs + **10 emplacements laissés libres** pour les Tesla verticales. Chacun reçoit en P7 un mur de chaume de pose et une Tesla fixée sur sa face extérieure |
+| 0 | 0 → 300 | 84 murs. Pas de sas : 6 parts égales imposeraient 6 brèches. L'accès se fait par Tek Teleporter, ou par un sas percé à la main hors template |
+| 1 | 300 → 600 | 78 murs + **6 emplacements laissés libres** (1 par part, au milieu des côtés E0) pour les Tesla verticales. Chacun reçoit en P7 un mur de chaume de pose et une Tesla fixée sur sa face extérieure |
 
-- Les emplacements Tesla sont à θ ≈ 0° · 34,4° · 72,9° · 107,1° · 145,6° · 180° · 214,4° · 252,9° · 287,1° · 325,6°.
+- Les emplacements Tesla sont à θ = 0° · 60° · 120° · 180° · 240° · 300°.
 - Hauteur apparente de la rive depuis l'extérieur : 750 UU.
 - **Après démolition du chaume**, chaque emplacement Tesla est une ouverture de 300 × 300 entre 450 et 750 UU au-dessus de la bande, la Tesla au nu du mur.
   ⚠ Ce point d'entrée est surveillé par la Tesla elle-même, par les pics en dessous et par la colonnade derrière (§3). Fermez-le par un mur si la Tesla est détruite.
@@ -43,17 +43,17 @@ C'est une couronne de **piliers métal sur un vrai cercle**, chaque pilier tourn
 |---|---|
 | Rayon | **3 360 UU** (Ø 22,4 fondations), sous le milieu de la pente A, entre le fût (coins à 2 898) et la rive (3 919) |
 | Pas | **1 pilier / 1 vide de la largeur d'un pilier**. Le template 704 met 48 piliers sur r = 600, soit un pas de 78,5 UU = 2 × 39,3 UU. Ici : 264 positions, pas de 1,364° (79,97 UU d'arc) |
-| Passages de service | 2, de ≈ 360 UU libres, à θ 90° et 270° (8 positions retirées), dans l'axe des portes du fût, du sas et des générateurs |
-| Colonnes | **256** |
+| Passages de service | **6**, 1 par part, de ≈ 360 UU libres, à θ 30° + 60°·k (24 positions retirées), dans l'axe des portes du fût |
+| Colonnes | **240** (40 par part) |
 | Hauteur | de Z0 jusqu'à 30 UU sous la pente A : **3 piliers + 1 demi-pilier** (sommet Z1050) vers le milieu des côtés, **4 piliers** (sommet Z1200) vers les arêtes |
-| Pièces | 816 piliers + 208 demi-piliers |
+| Pièces | 768 piliers + 192 demi-piliers |
 | Pose | Template Hammer : les positions d'un cercle ne tombent pas sur les coins de fondations. Coordonnées : `donnees/03_colonnade.csv` |
 
 **Rôle**
 1. Elle soutient la pente A à mi-portée (1 200 UU entre la rive et le fût).
 2. Elle forme une **grille intérieure** derrière la rive. Un assaillant qui force la rive ou un emplacement Tesla trouve des vides de 40 UU, trop étroits pour un corps : il doit détruire des piliers.
 3. Elle partage l'attique A en deux anneaux :
-   - l'intérieur, entre le fût et la colonnade, abrite les générateurs de secours ;
+   - l'intérieur, entre le fût et la colonnade, reste libre (câbles) ;
    - l'extérieur, entre la colonnade et la rive, donne l'accès aux Tesla.
 
 **Variante.** `--colonnade 2560` place la colonnade dans le couloir, entre le mur de pod et le fût, sous la galerie : 196 colonnes de 6 piliers, de Z0 à Z1800.
@@ -92,7 +92,7 @@ Le dernier rang passe 80 UU derrière la ligne du fût. La pente coupe donc le f
 - **84 Metal Spike Walls**, 7 par côté, à l'apothème **4 068,7** et à **Z −150** sur la bande décaissée, pointes vers l'extérieur.
 - Coordonnées : `donnees/03_ligne_pics.csv`.
 - Le rang r−1 passe 600 UU au-dessus d'eux : ils sont à l'abri des largages et invisibles d'en haut.
-- Avec les Tesla de rive, qui voient toute la bande de 3 919 à 4 479 UU, ils couvrent l'angle mort de la cage.
+- Avec les 6 Tesla de rive, qui voient toute la bande de 3 919 à 4 479 UU, ils couvrent l'angle mort de la cage.
 - ⚠ La pose d'un mur de pics métal sur fondation est à valider en solo. Repli : bord de plateforme à l'apothème 4 520, sous le rang r−2.
 
 ## 7. Chaîne de glisse complète
@@ -107,7 +107,7 @@ Le dernier rang passe 80 UU derrière la ligne du fût. La pente coupe donc le f
 
 ## 8. Contrôles de fin de module
 
-- [ ] Rive : 2 niveaux, 1 sas, 10 emplacements Tesla libres au niveau 1.
-- [ ] Colonnade : 256 colonnes, 2 passages à 90° et 270°, sommets sous la pente sans contact.
+- [ ] Rive : 2 niveaux, 6 emplacements Tesla libres au niveau 1 (θ 0° + 60°·k).
+- [ ] Colonnade : 240 colonnes, 6 passages à θ 30° + 60°·k, sommets sous la pente sans contact.
 - [ ] Pente A : 312 toits ; overhang : 432 toits ; jupe : 216 murs + 228 plafonds.
 - [ ] 84 pics posés sous r−1.

@@ -7,7 +7,7 @@ entree;piece;x;y;Z_plan;yaw;theta;rayon;repere
 5;Mur métal;2799.0;600.0;0.0;0;12.1;2862.6;fut niv0 c0 p4
 6;Mur métal;2724.0;879.9;0.0;30;17.9;2862.6;fut niv0 c1 p0
 7;Mur métal;2574.0;1139.7;0.0;30;23.88;2815.1;fut niv0 c1 p1
-8;Mur métal;2424.0;1399.5;0.0;30;30.0;2799.0;fut niv0 c1 p2
+8;Cadre de porte double métal;2424.0;1399.5;0.0;30;30.0;2799.0;fut niv0 c1 p2
 9;Mur métal;2274.0;1659.3;0.0;30;36.12;2815.1;fut niv0 c1 p3
 10;Mur métal;2124.0;1919.1;0.0;30;42.1;2862.6;fut niv0 c1 p4
 11;Mur métal;1919.1;2124.0;0.0;60;47.9;2862.6;fut niv0 c2 p0
@@ -27,7 +27,7 @@ entree;piece;x;y;Z_plan;yaw;theta;rayon;repere
 25;Mur métal;-1919.1;2124.0;0.0;120;132.1;2862.6;fut niv0 c4 p4
 26;Mur métal;-2124.0;1919.1;0.0;150;137.9;2862.6;fut niv0 c5 p0
 27;Mur métal;-2274.0;1659.3;0.0;150;143.88;2815.1;fut niv0 c5 p1
-28;Mur métal;-2424.0;1399.5;0.0;150;150.0;2799.0;fut niv0 c5 p2
+28;Cadre de porte double métal;-2424.0;1399.5;0.0;150;150.0;2799.0;fut niv0 c5 p2
 29;Mur métal;-2574.0;1139.7;0.0;150;156.12;2815.1;fut niv0 c5 p3
 30;Mur métal;-2724.0;879.9;0.0;150;162.1;2862.6;fut niv0 c5 p4
 31;Mur métal;-2799.0;600.0;0.0;180;167.9;2862.6;fut niv0 c6 p0
@@ -37,7 +37,7 @@ entree;piece;x;y;Z_plan;yaw;theta;rayon;repere
 35;Mur métal;-2799.0;-600.0;0.0;180;192.1;2862.6;fut niv0 c6 p4
 36;Mur métal;-2724.0;-879.9;0.0;210;197.9;2862.6;fut niv0 c7 p0
 37;Mur métal;-2574.0;-1139.7;0.0;210;203.88;2815.1;fut niv0 c7 p1
-38;Mur métal;-2424.0;-1399.5;0.0;210;210.0;2799.0;fut niv0 c7 p2
+38;Cadre de porte double métal;-2424.0;-1399.5;0.0;210;210.0;2799.0;fut niv0 c7 p2
 39;Mur métal;-2274.0;-1659.3;0.0;210;216.12;2815.1;fut niv0 c7 p3
 40;Mur métal;-2124.0;-1919.1;0.0;210;222.1;2862.6;fut niv0 c7 p4
 41;Mur métal;-1919.1;-2124.0;0.0;240;227.9;2862.6;fut niv0 c8 p0
@@ -57,7 +57,7 @@ entree;piece;x;y;Z_plan;yaw;theta;rayon;repere
 55;Mur métal;1919.1;-2124.0;0.0;300;312.1;2862.6;fut niv0 c10 p4
 56;Mur métal;2124.0;-1919.1;0.0;330;317.9;2862.6;fut niv0 c11 p0
 57;Mur métal;2274.0;-1659.3;0.0;330;323.88;2815.1;fut niv0 c11 p1
-58;Mur métal;2424.0;-1399.5;0.0;330;330.0;2799.0;fut niv0 c11 p2
+58;Cadre de porte double métal;2424.0;-1399.5;0.0;330;330.0;2799.0;fut niv0 c11 p2
 59;Mur métal;2574.0;-1139.7;0.0;330;336.12;2815.1;fut niv0 c11 p3
 60;Mur métal;2724.0;-879.9;0.0;330;342.1;2862.6;fut niv0 c11 p4
 61;Mur métal;2799.0;-600.0;300.0;0;347.9;2862.6;fut niv1 c0 p0
@@ -544,7 +544,7 @@ entree;piece;x;y;Z_plan;yaw;theta;rayon;repere
 542;Plafond triangle métal;1184.6;2051.7;2100.0;240;60.0;2369.1;galerie Z2100 anneau 8
 543;Plafond triangle métal;924.8;2201.7;2100.0;240;67.22;2388.1;galerie Z2100 anneau 8
 544;Plafond triangle métal;665.0;2351.7;2100.0;240;74.21;2443.9;galerie Z2100 anneau 8
-545;Plafond métal;450.0;2389.2;2100.0;90;79.33;2431.2;galerie Z2100 anneau 8
+545;Plafond à trappe métal;450.0;2389.2;2100.0;90;79.33;2431.2;galerie Z2100 anneau 8
 546;Plafond métal;150.0;2389.2;2100.0;90;86.41;2393.9;galerie Z2100 anneau 8
 547;Plafond métal;-150.0;2389.2;2100.0;90;93.59;2393.9;galerie Z2100 anneau 8
 548;Plafond métal;-450.0;2389.2;2100.0;90;100.67;2431.2;galerie Z2100 anneau 8
@@ -570,7 +570,7 @@ entree;piece;x;y;Z_plan;yaw;theta;rayon;repere
 568;Plafond triangle métal;-2369.1;0.0;2100.0;0;180.0;2369.1;galerie Z2100 anneau 8
 569;Plafond triangle métal;-2369.1;-300.0;2100.0;0;187.22;2388.1;galerie Z2100 anneau 8
 570;Plafond triangle métal;-2369.1;-600.0;2100.0;0;194.21;2443.9;galerie Z2100 anneau 8
-571;Plafond métal;-2294.1;-804.9;2100.0;210;199.33;2431.2;galerie Z2100 anneau 8
+571;Plafond à trappe métal;-2294.1;-804.9;2100.0;210;199.33;2431.2;galerie Z2100 anneau 8
 572;Plafond métal;-2144.1;-1064.7;2100.0;210;206.41;2393.9;galerie Z2100 anneau 8
 573;Plafond métal;-1994.1;-1324.5;2100.0;210;213.59;2393.9;galerie Z2100 anneau 8
 574;Plafond métal;-1844.1;-1584.3;2100.0;210;220.67;2431.2;galerie Z2100 anneau 8
@@ -596,7 +596,7 @@ entree;piece;x;y;Z_plan;yaw;theta;rayon;repere
 594;Plafond triangle métal;1184.6;-2051.7;2100.0;120;300.0;2369.1;galerie Z2100 anneau 8
 595;Plafond triangle métal;1444.4;-1901.7;2100.0;120;307.22;2388.1;galerie Z2100 anneau 8
 596;Plafond triangle métal;1704.2;-1751.7;2100.0;120;314.21;2443.9;galerie Z2100 anneau 8
-597;Plafond métal;1844.1;-1584.3;2100.0;330;319.33;2431.2;galerie Z2100 anneau 8
+597;Plafond à trappe métal;1844.1;-1584.3;2100.0;330;319.33;2431.2;galerie Z2100 anneau 8
 598;Plafond métal;1994.1;-1324.5;2100.0;330;326.41;2393.9;galerie Z2100 anneau 8
 599;Plafond métal;2144.1;-1064.7;2100.0;330;333.59;2393.9;galerie Z2100 anneau 8
 600;Plafond métal;2294.1;-804.9;2100.0;330;340.67;2431.2;galerie Z2100 anneau 8

@@ -1,0 +1,46 @@
+n;equipement;lieu;x;y;Z_plan;yaw
+0;Réplicateur Tek;hall;1650.0;0.0;0.0;180
+1;Forge à vapeur (Steam Forge);hall;-825.0;1428.9;0.0;300
+2;Labo de fortune (Makeshift Megalab);hall;-825.0;-1428.9;0.0;60
+3;Stockage dédié Tek (Tek Dedicated Storage);hall;615.2;-1665.5;0.0;120
+4;Stockage dédié Tek (Tek Dedicated Storage);hall;875.0;-1515.5;0.0;120
+5;Stockage dédié Tek (Tek Dedicated Storage);hall;1134.8;-1365.5;0.0;120
+6;Générateur Tek;hall;900.0;1558.8;0.0;240
+7;Générateur Tek;mezzanine;-900.0;0.0;1800.0;0
+8;Coffre-fort (Vault);Coeur Base (Matiere Premiere 1);1.5;-306.8;0.0;60.0
+9;Coffre-fort (Vault);mezzanine;2089.2;150.0;1800.0;180
+10;Stockage dédié Tek (Tek Dedicated Storage);mezzanine;2089.2;450.0;1800.0;180
+11;Coffre-fort (Vault);mezzanine;2034.3;654.9;1800.0;210
+12;Stockage dédié Tek (Tek Dedicated Storage);mezzanine;1734.3;1174.5;1800.0;210
+13;Coffre-fort (Vault);mezzanine;1584.3;1434.3;1800.0;210
+14;Stockage dédié Tek (Tek Dedicated Storage);mezzanine;1434.3;1584.3;1800.0;240
+15;Coffre-fort (Vault);mezzanine;914.7;1884.3;1800.0;240
+16;Stockage dédié Tek (Tek Dedicated Storage);mezzanine;654.9;2034.3;1800.0;240
+17;Coffre-fort (Vault);mezzanine;450.0;2089.2;1800.0;270
+18;Stockage dédié Tek (Tek Dedicated Storage);mezzanine;-150.0;2089.2;1800.0;270
+19;Coffre-fort (Vault);mezzanine;-450.0;2089.2;1800.0;270
+20;Stockage dédié Tek (Tek Dedicated Storage);mezzanine;-654.9;2034.3;1800.0;300
+21;Coffre-fort (Vault);mezzanine;-1174.5;1734.3;1800.0;300
+22;Stockage dédié Tek (Tek Dedicated Storage);mezzanine;-1434.3;1584.3;1800.0;300
+23;Coffre-fort (Vault);mezzanine;-1584.3;1434.3;1800.0;330
+24;Stockage dédié Tek (Tek Dedicated Storage);mezzanine;-1884.3;914.7;1800.0;330
+25;Coffre-fort (Vault);mezzanine;-2034.3;654.9;1800.0;330
+26;Stockage dédié Tek (Tek Dedicated Storage);mezzanine;-2089.2;450.0;1800.0;0
+27;Coffre-fort (Vault);mezzanine;-2089.2;-150.0;1800.0;0
+28;Stockage dédié Tek (Tek Dedicated Storage);mezzanine;-2089.2;-450.0;1800.0;0
+29;Coffre-fort (Vault);mezzanine;-2034.3;-654.9;1800.0;30
+30;Stockage dédié Tek (Tek Dedicated Storage);mezzanine;-1734.3;-1174.5;1800.0;30
+31;Coffre-fort (Vault);mezzanine;-1584.3;-1434.3;1800.0;30
+32;Stockage dédié Tek (Tek Dedicated Storage);mezzanine;-1434.3;-1584.3;1800.0;60
+33;Coffre-fort (Vault);mezzanine;-914.7;-1884.3;1800.0;60
+34;Stockage dédié Tek (Tek Dedicated Storage);mezzanine;-654.9;-2034.3;1800.0;60
+35;Coffre-fort (Vault);mezzanine;-450.0;-2089.2;1800.0;90
+36;Stockage dédié Tek (Tek Dedicated Storage);mezzanine;150.0;-2089.2;1800.0;90
+37;Coffre-fort (Vault);mezzanine;450.0;-2089.2;1800.0;90
+38;Stockage dédié Tek (Tek Dedicated Storage);mezzanine;654.9;-2034.3;1800.0;120
+39;Coffre-fort (Vault);mezzanine;1174.5;-1734.3;1800.0;120
+40;Stockage dédié Tek (Tek Dedicated Storage);mezzanine;1434.3;-1584.3;1800.0;120
+41;Coffre-fort (Vault);mezzanine;1584.3;-1434.3;1800.0;150
+42;Stockage dédié Tek (Tek Dedicated Storage);mezzanine;1884.3;-914.7;1800.0;150
+43;Coffre-fort (Vault);mezzanine;2034.3;-654.9;1800.0;150
+44;Coffre-fort (Vault);mezzanine;2089.2;-450.0;1800.0;180

@@ -62,141 +62,133 @@ entree;piece;x;y;Z_plan;yaw;theta;rayon;repere
 60;Tourelle lourde (Heavy);-4808.7;0.0;-900.0;90;180.0;4808.7;#30 JUPE-int c6 p1
 61;Mur de chaume (gabarit de pose, à démolir);2799.0;0.0;1800.0;0;0.0;2799.0;#31 L1 c0 p2 (chaume a demolir)
 62;Tourelle Tek;2809.0;0.0;1800.0;90;0.0;2809.0;#31 L1 c0 p2
-63;Mur de chaume (gabarit de pose, à démolir);2424.0;-1399.5;1800.0;330;330.0;2799.0;#32 L1 c11 p2 (chaume a demolir)
-64;Tourelle Tek;2432.7;-1404.5;1800.0;60;330.0;2809.0;#32 L1 c11 p2
-65;Mur de chaume (gabarit de pose, à démolir);-2799.0;600.0;1800.0;180;167.9;2862.6;#33 L1 c6 p0 (chaume a demolir)
-66;Tourelle Tek;-2809.0;600.0;1800.0;270;167.94;2872.4;#33 L1 c6 p0
-67;Mur de chaume (gabarit de pose, à démolir);300.0;2799.0;1800.0;90;83.88;2815.1;#34 L1 c3 p1 (chaume a demolir)
-68;Tourelle Tek;300.0;2809.0;1800.0;180;83.9;2825.0;#34 L1 c3 p1
-69;Mur de chaume (gabarit de pose, à démolir);-1139.7;-2574.0;1800.0;240;246.12;2815.1;#35 L1 c8 p3 (chaume a demolir)
-70;Tourelle Tek;-1144.7;-2582.7;1800.0;330;246.1;2825.0;#35 L1 c8 p3
-71;Mur de chaume (gabarit de pose, à démolir);2124.0;1919.1;1800.0;30;42.1;2862.6;#36 L1 c1 p4 (chaume a demolir)
-72;Tourelle Tek;2132.7;1924.1;1800.0;120;42.06;2872.4;#36 L1 c1 p4
-73;Mur de chaume (gabarit de pose, à démolir);-2424.0;-1399.5;1800.0;210;210.0;2799.0;#37 L1 c7 p2 (chaume a demolir)
-74;Tourelle Tek;-2432.7;-1404.5;1800.0;300;210.0;2809.0;#37 L1 c7 p2
-75;Mur de chaume (gabarit de pose, à démolir);-1659.3;2274.0;1800.0;120;126.12;2815.1;#38 L1 c4 p3 (chaume a demolir)
-76;Tourelle Tek;-1664.3;2282.7;1800.0;210;126.1;2825.0;#38 L1 c4 p3
-77;Mur de chaume (gabarit de pose, à démolir);879.9;-2724.0;1800.0;300;287.9;2862.6;#39 L1 c10 p0 (chaume a demolir)
-78;Tourelle Tek;884.9;-2732.7;1800.0;30;287.94;2872.4;#39 L1 c10 p0
-79;Mur de chaume (gabarit de pose, à démolir);2574.0;1139.7;1800.0;30;23.88;2815.1;#40 L1 c1 p1 (chaume a demolir)
-80;Tourelle Tek;2582.7;1144.7;1800.0;120;23.9;2825.0;#40 L1 c1 p1
-81;Mur de chaume (gabarit de pose, à démolir);2799.0;-300.0;1800.0;0;353.88;2815.1;#41 L1 c0 p1 (chaume a demolir)
-82;Tourelle Tek;2809.0;-300.0;1800.0;90;353.9;2825.0;#41 L1 c0 p1
-83;Mur de chaume (gabarit de pose, à démolir);-2799.0;-300.0;1800.0;180;186.12;2815.1;#42 L1 c6 p3 (chaume a demolir)
-84;Tourelle Tek;-2809.0;-300.0;1800.0;270;186.1;2825.0;#42 L1 c6 p3
-85;Mur de chaume (gabarit de pose, à démolir);-600.0;2799.0;1800.0;90;102.1;2862.6;#43 L1 c3 p4 (chaume a demolir)
-86;Tourelle Tek;-600.0;2809.0;1800.0;180;102.06;2872.4;#43 L1 c3 p4
-87;Mur de chaume (gabarit de pose, à démolir);-0.0;-2799.0;1800.0;270;270.0;2799.0;#44 L1 c9 p2 (chaume a demolir)
-88;Tourelle Tek;-0.0;-2809.0;1800.0;0;270.0;2809.0;#44 L1 c9 p2
-89;Mur de chaume (gabarit de pose, à démolir);1139.7;2574.0;1800.0;60;66.12;2815.1;#45 L1 c2 p3 (chaume a demolir)
-90;Tourelle Tek;1144.7;2582.7;1800.0;150;66.1;2825.0;#45 L1 c2 p3
-91;Mur de chaume (gabarit de pose, à démolir);-1919.1;-2124.0;1800.0;240;227.9;2862.6;#46 L1 c8 p0 (chaume a demolir)
-92;Tourelle Tek;-1924.1;-2132.7;1800.0;330;227.94;2872.4;#46 L1 c8 p0
-93;Mur de chaume (gabarit de pose, à démolir);-2274.0;1659.3;1800.0;150;143.88;2815.1;#47 L1 c5 p1 (chaume a demolir)
-94;Tourelle Tek;-2282.7;1664.3;1800.0;240;143.9;2825.0;#47 L1 c5 p1
-95;Mur de chaume (gabarit de pose, à démolir);1919.1;-2124.0;1800.0;300;312.1;2862.6;#48 L1 c10 p4 (chaume a demolir)
-96;Tourelle Tek;1924.1;-2132.7;1800.0;30;312.06;2872.4;#48 L1 c10 p4
-97;Mur de chaume (gabarit de pose, à démolir);2799.0;600.0;1800.0;0;12.1;2862.6;#49 L1 c0 p4 (chaume a demolir)
-98;Tourelle Tek;2809.0;600.0;1800.0;90;12.06;2872.4;#49 L1 c0 p4
-99;Mur de chaume (gabarit de pose, à démolir);2724.0;-879.9;1800.0;330;342.1;2862.6;#50 L1 c11 p4 (chaume a demolir)
-100;Tourelle Tek;2732.7;-884.9;1800.0;60;342.06;2872.4;#50 L1 c11 p4
-101;Mur de chaume (gabarit de pose, à démolir);-2799.0;300.0;1800.0;180;173.88;2815.1;#51 L1 c6 p1 (chaume a demolir)
-102;Tourelle Tek;-2809.0;300.0;1800.0;270;173.9;2825.0;#51 L1 c6 p1
-103;Mur de chaume (gabarit de pose, à démolir);-300.0;2799.0;1800.0;90;96.12;2815.1;#52 L1 c3 p3 (chaume a demolir)
-104;Tourelle Tek;-300.0;2809.0;1800.0;180;96.1;2825.0;#52 L1 c3 p3
-105;Mur de chaume (gabarit de pose, à démolir);-600.0;-2799.0;1800.0;270;257.9;2862.6;#53 L1 c9 p0 (chaume a demolir)
-106;Tourelle Tek;-600.0;-2809.0;1800.0;0;257.94;2872.4;#53 L1 c9 p0
-107;Mur de chaume (gabarit de pose, à démolir);1659.3;2274.0;1800.0;60;53.88;2815.1;#54 L1 c2 p1 (chaume a demolir)
-108;Tourelle Tek;1664.3;2282.7;1800.0;150;53.9;2825.0;#54 L1 c2 p1
-109;Mur de chaume (gabarit de pose, à démolir);-2274.0;-1659.3;1800.0;210;216.12;2815.1;#55 L1 c7 p3 (chaume a demolir)
-110;Tourelle Tek;-2282.7;-1664.3;1800.0;300;216.1;2825.0;#55 L1 c7 p3
-111;Mur de chaume (gabarit de pose, à démolir);-2124.0;1919.1;1800.0;150;137.9;2862.6;#56 L1 c5 p0 (chaume a demolir)
-112;Tourelle Tek;-2132.7;1924.1;1800.0;240;137.94;2872.4;#56 L1 c5 p0
-113;Mur de chaume (gabarit de pose, à démolir);1399.5;-2424.0;1800.0;300;300.0;2799.0;#57 L1 c10 p2 (chaume a demolir)
-114;Tourelle Tek;1404.5;-2432.7;1800.0;30;300.0;2809.0;#57 L1 c10 p2
-115;Mur de chaume (gabarit de pose, à démolir);2424.0;1399.5;1800.0;30;30.0;2799.0;#58 L1 c1 p2 (chaume a demolir)
-116;Tourelle Tek;2432.7;1404.5;1800.0;120;30.0;2809.0;#58 L1 c1 p2
-117;Mur de chaume (gabarit de pose, à démolir);-2724.0;-879.9;1800.0;210;197.9;2862.6;#59 L1 c7 p0 (chaume a demolir)
-118;Tourelle Tek;-2732.7;-884.9;1800.0;300;197.94;2872.4;#59 L1 c7 p0
-119;Mur de chaume (gabarit de pose, à démolir);-1139.7;2574.0;1800.0;120;113.88;2815.1;#60 L1 c4 p1 (chaume a demolir)
-120;Tourelle Tek;-1144.7;2582.7;1800.0;210;113.9;2825.0;#60 L1 c4 p1
-121;Mur de chaume (gabarit de pose, à démolir);600.0;-2799.0;1800.0;270;282.1;2862.6;#61 L1 c9 p4 (chaume a demolir)
-122;Tourelle Tek;600.0;-2809.0;1800.0;0;282.06;2872.4;#61 L1 c9 p4
-123;Mur de chaume (gabarit de pose, à démolir);879.9;2724.0;1800.0;60;72.1;2862.6;#62 L1 c2 p4 (chaume a demolir)
-124;Tourelle Tek;884.9;2732.7;1800.0;150;72.06;2872.4;#62 L1 c2 p4
-125;Mur de chaume (gabarit de pose, à démolir);-1399.5;-2424.0;1800.0;240;240.0;2799.0;#63 L1 c8 p2 (chaume a demolir)
-126;Tourelle Tek;-1404.5;-2432.7;1800.0;330;240.0;2809.0;#63 L1 c8 p2
-127;Mur de chaume (gabarit de pose, à démolir);-2574.0;1139.7;1800.0;150;156.12;2815.1;#64 L1 c5 p3 (chaume a demolir)
-128;Tourelle Tek;-2582.7;1144.7;1800.0;240;156.1;2825.0;#64 L1 c5 p3
-129;Mur de chaume (gabarit de pose, à démolir);2124.0;-1919.1;1800.0;330;317.9;2862.6;#65 L1 c11 p0 (chaume a demolir)
-130;Tourelle Tek;2132.7;-1924.1;1800.0;60;317.94;2872.4;#65 L1 c11 p0
-131;Mur de chaume (gabarit de pose, à démolir);3918.7;0.0;300.0;0;0.0;3918.7;#66 RIVE c0 p3 (chaume a demolir)
-132;Bobine Tesla;3928.7;0.0;300.0;90;0.0;3928.7;#66 RIVE c0 p3
-133;Mur de chaume (gabarit de pose, à démolir);1179.9;-3843.7;300.0;300;287.07;4020.7;#67 RIVE c10 p0 (chaume a demolir)
-134;Bobine Tesla;1184.9;-3852.3;300.0;30;287.1;4030.4;#67 RIVE c10 p0
-135;Mur de chaume (gabarit de pose, à démolir);-3243.7;2219.1;300.0;150;145.62;3930.1;#68 RIVE c5 p2 (chaume a demolir)
-136;Bobine Tesla;-3252.3;2224.1;300.0;240;145.63;3940.1;#68 RIVE c5 p2
-137;Mur de chaume (gabarit de pose, à démolir);1179.9;3843.7;300.0;60;72.93;4020.7;#69 RIVE c2 p6 (chaume a demolir)
-138;Bobine Tesla;1184.9;3852.3;300.0;150;72.9;4030.4;#69 RIVE c2 p6
-139;Mur de chaume (gabarit de pose, à démolir);-3243.7;-2219.1;300.0;210;214.38;3930.1;#70 RIVE c7 p4 (chaume a demolir)
-140;Bobine Tesla;-3252.3;-2224.1;300.0;300;214.37;3940.1;#70 RIVE c7 p4
-141;Mur de chaume (gabarit de pose, à démolir);3243.7;2219.1;300.0;30;34.38;3930.1;#71 RIVE c1 p4 (chaume a demolir)
-142;Bobine Tesla;3252.3;2224.1;300.0;120;34.37;3940.1;#71 RIVE c1 p4
-143;Mur de chaume (gabarit de pose, à démolir);3243.7;-2219.1;300.0;330;325.62;3930.1;#72 RIVE c11 p2 (chaume a demolir)
-144;Bobine Tesla;3252.3;-2224.1;300.0;60;325.63;3940.1;#72 RIVE c11 p2
-145;Mur de chaume (gabarit de pose, à démolir);-3918.7;0.0;300.0;180;180.0;3918.7;#73 RIVE c6 p3 (chaume a demolir)
-146;Bobine Tesla;-3928.7;0.0;300.0;270;180.0;3928.7;#73 RIVE c6 p3
-147;Mur de chaume (gabarit de pose, à démolir);-1179.9;3843.7;300.0;120;107.07;4020.7;#74 RIVE c4 p0 (chaume a demolir)
-148;Bobine Tesla;-1184.9;3852.3;300.0;210;107.1;4030.4;#74 RIVE c4 p0
-149;Mur de chaume (gabarit de pose, à démolir);-1179.9;-3843.7;300.0;240;252.93;4020.7;#75 RIVE c8 p6 (chaume a demolir)
-150;Bobine Tesla;-1184.9;-3852.3;300.0;330;252.9;4030.4;#75 RIVE c8 p6
-151;Mur de chaume (gabarit de pose, à démolir);2799.0;300.0;1800.0;0;6.12;2815.1;#76 L1 c0 p3 (chaume a demolir)
-152;Tourelle lourde (Heavy);2809.0;300.0;1800.0;90;6.1;2825.0;#76 L1 c0 p3
-153;Mur de chaume (gabarit de pose, à démolir);-1659.3;-2274.0;1800.0;240;233.88;2815.1;#77 L1 c8 p1 (chaume a demolir)
-154;Tourelle lourde (Heavy);-1664.3;-2282.7;1800.0;330;233.9;2825.0;#77 L1 c8 p1
-155;Mur de chaume (gabarit de pose, à démolir);-1399.5;2424.0;1800.0;120;120.0;2799.0;#78 L1 c4 p2 (chaume a demolir)
-156;Tourelle lourde (Heavy);-1404.5;2432.7;1800.0;210;120.0;2809.0;#78 L1 c4 p2
-157;Mur de chaume (gabarit de pose, à démolir);2799.0;-600.0;1800.0;0;347.9;2862.6;#79 L1 c0 p0 (chaume a demolir)
-158;Tourelle lourde (Heavy);2809.0;-600.0;1800.0;90;347.94;2872.4;#79 L1 c0 p0
-159;Mur de chaume (gabarit de pose, à démolir);1399.5;2424.0;1800.0;60;60.0;2799.0;#80 L1 c2 p2 (chaume a demolir)
-160;Tourelle lourde (Heavy);1404.5;2432.7;1800.0;150;60.0;2809.0;#80 L1 c2 p2
-161;Mur de chaume (gabarit de pose, à démolir);1139.7;-2574.0;1800.0;300;293.88;2815.1;#81 L1 c10 p1 (chaume a demolir)
-162;Tourelle lourde (Heavy);1144.7;-2582.7;1800.0;30;293.9;2825.0;#81 L1 c10 p1
-163;Mur de chaume (gabarit de pose, à démolir);-2799.0;0.0;1800.0;180;180.0;2799.0;#82 L1 c6 p2 (chaume a demolir)
-164;Tourelle lourde (Heavy);-2809.0;0.0;1800.0;270;180.0;2809.0;#82 L1 c6 p2
-165;Mur de chaume (gabarit de pose, à démolir);2274.0;1659.3;1800.0;30;36.12;2815.1;#83 L1 c1 p3 (chaume a demolir)
-166;Tourelle lourde (Heavy);2282.7;1664.3;1800.0;120;36.1;2825.0;#83 L1 c1 p3
-167;Mur de chaume (gabarit de pose, à démolir);-300.0;-2799.0;1800.0;270;263.88;2815.1;#84 L1 c9 p1 (chaume a demolir)
-168;Tourelle lourde (Heavy);-300.0;-2809.0;1800.0;0;263.9;2825.0;#84 L1 c9 p1
-169;Mur de chaume (gabarit de pose, à démolir);-2424.0;1399.5;1800.0;150;150.0;2799.0;#85 L1 c5 p2 (chaume a demolir)
-170;Tourelle lourde (Heavy);-2432.7;1404.5;1800.0;240;150.0;2809.0;#85 L1 c5 p2
-171;Mur de chaume (gabarit de pose, à démolir);0.0;2799.0;1800.0;90;90.0;2799.0;#86 L1 c3 p2 (chaume a demolir)
-172;Tourelle lourde (Heavy);0.0;2809.0;1800.0;180;90.0;2809.0;#86 L1 c3 p2
-173;Mur de chaume (gabarit de pose, à démolir);2274.0;-1659.3;1800.0;330;323.88;2815.1;#87 L1 c11 p1 (chaume a demolir)
-174;Tourelle lourde (Heavy);2282.7;-1664.3;1800.0;60;323.9;2825.0;#87 L1 c11 p1
-175;Mur de chaume (gabarit de pose, à démolir);-2574.0;-1139.7;1800.0;210;203.88;2815.1;#88 L1 c7 p1 (chaume a demolir)
-176;Tourelle lourde (Heavy);-2582.7;-1144.7;1800.0;300;203.9;2825.0;#88 L1 c7 p1
-177;Mur de chaume (gabarit de pose, à démolir);2724.0;879.9;1800.0;30;17.9;2862.6;#89 L1 c1 p0 (chaume a demolir)
-178;Tourelle lourde (Heavy);2732.7;884.9;1800.0;120;17.94;2872.4;#89 L1 c1 p0
-179;Mur de chaume (gabarit de pose, à démolir);-879.9;-2724.0;1800.0;240;252.1;2862.6;#90 L1 c8 p4 (chaume a demolir)
-180;Tourelle lourde (Heavy);-884.9;-2732.7;1800.0;330;252.06;2872.4;#90 L1 c8 p4
-181;Mur de chaume (gabarit de pose, à démolir);-1919.1;2124.0;1800.0;120;132.1;2862.6;#91 L1 c4 p4 (chaume a demolir)
-182;Tourelle lourde (Heavy);-1924.1;2132.7;1800.0;210;132.06;2872.4;#91 L1 c4 p4
-183;Mur de chaume (gabarit de pose, à démolir);600.0;2799.0;1800.0;90;77.9;2862.6;#92 L1 c3 p0 (chaume a demolir)
-184;Tourelle lourde (Heavy);600.0;2809.0;1800.0;180;77.94;2872.4;#92 L1 c3 p0
-185;Mur de chaume (gabarit de pose, à démolir);1659.3;-2274.0;1800.0;300;306.12;2815.1;#93 L1 c10 p3 (chaume a demolir)
-186;Tourelle lourde (Heavy);1664.3;-2282.7;1800.0;30;306.1;2825.0;#93 L1 c10 p3
-187;Mur de chaume (gabarit de pose, à démolir);-2799.0;-600.0;1800.0;180;192.1;2862.6;#94 L1 c6 p4 (chaume a demolir)
-188;Tourelle lourde (Heavy);-2809.0;-600.0;1800.0;270;192.06;2872.4;#94 L1 c6 p4
-189;Mur de chaume (gabarit de pose, à démolir);1919.1;2124.0;1800.0;60;47.9;2862.6;#95 L1 c2 p0 (chaume a demolir)
-190;Tourelle lourde (Heavy);1924.1;2132.7;1800.0;150;47.94;2872.4;#95 L1 c2 p0
-191;Mur de chaume (gabarit de pose, à démolir);300.0;-2799.0;1800.0;270;276.12;2815.1;#96 L1 c9 p3 (chaume a demolir)
-192;Tourelle lourde (Heavy);300.0;-2809.0;1800.0;0;276.1;2825.0;#96 L1 c9 p3
-193;Mur de chaume (gabarit de pose, à démolir);-2724.0;879.9;1800.0;150;162.1;2862.6;#97 L1 c5 p4 (chaume a demolir)
-194;Tourelle lourde (Heavy);-2732.7;884.9;1800.0;240;162.06;2872.4;#97 L1 c5 p4
-195;Mur de chaume (gabarit de pose, à démolir);-879.9;2724.0;1800.0;120;107.9;2862.6;#98 L1 c4 p0 (chaume a demolir)
-196;Tourelle lourde (Heavy);-884.9;2732.7;1800.0;210;107.94;2872.4;#98 L1 c4 p0
-197;Mur de chaume (gabarit de pose, à démolir);2574.0;-1139.7;1800.0;330;336.12;2815.1;#99 L1 c11 p3 (chaume a demolir)
-198;Tourelle lourde (Heavy);2582.7;-1144.7;1800.0;60;336.1;2825.0;#99 L1 c11 p3
-199;Mur de chaume (gabarit de pose, à démolir);-2124.0;-1919.1;1800.0;210;222.1;2862.6;#100 L1 c7 p4 (chaume a demolir)
-200;Tourelle lourde (Heavy);-2132.7;-1924.1;1800.0;300;222.06;2872.4;#100 L1 c7 p4
+63;Mur de chaume (gabarit de pose, à démolir);-2799.0;-600.0;1800.0;180;192.1;2862.6;#32 L1 c6 p4 (chaume a demolir)
+64;Tourelle Tek;-2809.0;-600.0;1800.0;270;192.06;2872.4;#32 L1 c6 p4
+65;Mur de chaume (gabarit de pose, à démolir);-300.0;2799.0;1800.0;90;96.12;2815.1;#33 L1 c3 p3 (chaume a demolir)
+66;Tourelle Tek;-300.0;2809.0;1800.0;180;96.1;2825.0;#33 L1 c3 p3
+67;Mur de chaume (gabarit de pose, à démolir);879.9;-2724.0;1800.0;300;287.9;2862.6;#34 L1 c10 p0 (chaume a demolir)
+68;Tourelle Tek;884.9;-2732.7;1800.0;30;287.94;2872.4;#34 L1 c10 p0
+69;Mur de chaume (gabarit de pose, à démolir);1919.1;2124.0;1800.0;60;47.9;2862.6;#35 L1 c2 p0 (chaume a demolir)
+70;Tourelle Tek;1924.1;2132.7;1800.0;150;47.94;2872.4;#35 L1 c2 p0
+71;Mur de chaume (gabarit de pose, à démolir);-1399.5;-2424.0;1800.0;240;240.0;2799.0;#36 L1 c8 p2 (chaume a demolir)
+72;Tourelle Tek;-1404.5;-2432.7;1800.0;330;240.0;2809.0;#36 L1 c8 p2
+73;Mur de chaume (gabarit de pose, à démolir);-2274.0;1659.3;1800.0;150;143.88;2815.1;#37 L1 c5 p1 (chaume a demolir)
+74;Tourelle Tek;-2282.7;1664.3;1800.0;240;143.9;2825.0;#37 L1 c5 p1
+75;Mur de chaume (gabarit de pose, à démolir);2574.0;-1139.7;1800.0;330;336.12;2815.1;#38 L1 c11 p3 (chaume a demolir)
+76;Tourelle Tek;2582.7;-1144.7;1800.0;60;336.1;2825.0;#38 L1 c11 p3
+77;Mur de chaume (gabarit de pose, à démolir);2574.0;1139.7;1800.0;30;23.88;2815.1;#39 L1 c1 p1 (chaume a demolir)
+78;Tourelle Tek;2582.7;1144.7;1800.0;120;23.9;2825.0;#39 L1 c1 p1
+79;Mur de chaume (gabarit de pose, à démolir);-2274.0;-1659.3;1800.0;210;216.12;2815.1;#40 L1 c7 p3 (chaume a demolir)
+80;Tourelle Tek;-2282.7;-1664.3;1800.0;300;216.1;2825.0;#40 L1 c7 p3
+81;Mur de chaume (gabarit de pose, à démolir);-1399.5;2424.0;1800.0;120;120.0;2799.0;#41 L1 c4 p2 (chaume a demolir)
+82;Tourelle Tek;-1404.5;2432.7;1800.0;210;120.0;2809.0;#41 L1 c4 p2
+83;Mur de chaume (gabarit de pose, à démolir);1919.1;-2124.0;1800.0;300;312.1;2862.6;#42 L1 c10 p4 (chaume a demolir)
+84;Tourelle Tek;1924.1;-2132.7;1800.0;30;312.06;2872.4;#42 L1 c10 p4
+85;Mur de chaume (gabarit de pose, à démolir);879.9;2724.0;1800.0;60;72.1;2862.6;#43 L1 c2 p4 (chaume a demolir)
+86;Tourelle Tek;884.9;2732.7;1800.0;150;72.06;2872.4;#43 L1 c2 p4
+87;Mur de chaume (gabarit de pose, à démolir);-300.0;-2799.0;1800.0;270;263.88;2815.1;#44 L1 c9 p1 (chaume a demolir)
+88;Tourelle Tek;-300.0;-2809.0;1800.0;0;263.9;2825.0;#44 L1 c9 p1
+89;Mur de chaume (gabarit de pose, à démolir);-2799.0;600.0;1800.0;180;167.9;2862.6;#45 L1 c6 p0 (chaume a demolir)
+90;Tourelle Tek;-2809.0;600.0;1800.0;270;167.94;2872.4;#45 L1 c6 p0
+91;Mur de chaume (gabarit de pose, à démolir);2799.0;600.0;1800.0;0;12.1;2862.6;#46 L1 c0 p4 (chaume a demolir)
+92;Tourelle Tek;2809.0;600.0;1800.0;90;12.06;2872.4;#46 L1 c0 p4
+93;Mur de chaume (gabarit de pose, à démolir);-2574.0;-1139.7;1800.0;210;203.88;2815.1;#47 L1 c7 p1 (chaume a demolir)
+94;Tourelle Tek;-2582.7;-1144.7;1800.0;300;203.9;2825.0;#47 L1 c7 p1
+95;Mur de chaume (gabarit de pose, à démolir);-879.9;2724.0;1800.0;120;107.9;2862.6;#48 L1 c4 p0 (chaume a demolir)
+96;Tourelle Tek;-884.9;2732.7;1800.0;210;107.94;2872.4;#48 L1 c4 p0
+97;Mur de chaume (gabarit de pose, à démolir);1399.5;-2424.0;1800.0;300;300.0;2799.0;#49 L1 c10 p2 (chaume a demolir)
+98;Tourelle Tek;1404.5;-2432.7;1800.0;30;300.0;2809.0;#49 L1 c10 p2
+99;Mur de chaume (gabarit de pose, à démolir);1399.5;2424.0;1800.0;60;60.0;2799.0;#50 L1 c2 p2 (chaume a demolir)
+100;Tourelle Tek;1404.5;2432.7;1800.0;150;60.0;2809.0;#50 L1 c2 p2
+101;Mur de chaume (gabarit de pose, à démolir);-879.9;-2724.0;1800.0;240;252.1;2862.6;#51 L1 c8 p4 (chaume a demolir)
+102;Tourelle Tek;-884.9;-2732.7;1800.0;330;252.06;2872.4;#51 L1 c8 p4
+103;Mur de chaume (gabarit de pose, à démolir);-2574.0;1139.7;1800.0;150;156.12;2815.1;#52 L1 c5 p3 (chaume a demolir)
+104;Tourelle Tek;-2582.7;1144.7;1800.0;240;156.1;2825.0;#52 L1 c5 p3
+105;Mur de chaume (gabarit de pose, à démolir);2799.0;-600.0;1800.0;0;347.9;2862.6;#53 L1 c0 p0 (chaume a demolir)
+106;Tourelle Tek;2809.0;-600.0;1800.0;90;347.94;2872.4;#53 L1 c0 p0
+107;Mur de chaume (gabarit de pose, à démolir);2274.0;1659.3;1800.0;30;36.12;2815.1;#54 L1 c1 p3 (chaume a demolir)
+108;Tourelle Tek;2282.7;1664.3;1800.0;120;36.1;2825.0;#54 L1 c1 p3
+109;Mur de chaume (gabarit de pose, à démolir);-1919.1;-2124.0;1800.0;240;227.9;2862.6;#55 L1 c8 p0 (chaume a demolir)
+110;Tourelle Tek;-1924.1;-2132.7;1800.0;330;227.94;2872.4;#55 L1 c8 p0
+111;Mur de chaume (gabarit de pose, à démolir);-1919.1;2124.0;1800.0;120;132.1;2862.6;#56 L1 c4 p4 (chaume a demolir)
+112;Tourelle Tek;-1924.1;2132.7;1800.0;210;132.06;2872.4;#56 L1 c4 p4
+113;Mur de chaume (gabarit de pose, à démolir);2274.0;-1659.3;1800.0;330;323.88;2815.1;#57 L1 c11 p1 (chaume a demolir)
+114;Tourelle Tek;2282.7;-1664.3;1800.0;60;323.9;2825.0;#57 L1 c11 p1
+115;Mur de chaume (gabarit de pose, à démolir);300.0;2799.0;1800.0;90;83.88;2815.1;#58 L1 c3 p1 (chaume a demolir)
+116;Tourelle Tek;300.0;2809.0;1800.0;180;83.9;2825.0;#58 L1 c3 p1
+117;Mur de chaume (gabarit de pose, à démolir);300.0;-2799.0;1800.0;270;276.12;2815.1;#59 L1 c9 p3 (chaume a demolir)
+118;Tourelle Tek;300.0;-2809.0;1800.0;0;276.1;2825.0;#59 L1 c9 p3
+119;Mur de chaume (gabarit de pose, à démolir);-2799.0;0.0;1800.0;180;180.0;2799.0;#60 L1 c6 p2 (chaume a demolir)
+120;Tourelle Tek;-2809.0;0.0;1800.0;270;180.0;2809.0;#60 L1 c6 p2
+121;Mur de chaume (gabarit de pose, à démolir);3918.7;0.0;300.0;0;0.0;3918.7;#61 RIVE c0 p3 (chaume a demolir)
+122;Bobine Tesla;3928.7;0.0;300.0;90;0.0;3928.7;#61 RIVE c0 p3
+123;Mur de chaume (gabarit de pose, à démolir);-1959.3;-3393.7;300.0;240;240.0;3918.7;#62 RIVE c8 p3 (chaume a demolir)
+124;Bobine Tesla;-1964.3;-3402.3;300.0;330;240.0;3928.7;#62 RIVE c8 p3
+125;Mur de chaume (gabarit de pose, à démolir);-1959.3;3393.7;300.0;120;120.0;3918.7;#63 RIVE c4 p3 (chaume a demolir)
+126;Bobine Tesla;-1964.3;3402.3;300.0;210;120.0;3928.7;#63 RIVE c4 p3
+127;Mur de chaume (gabarit de pose, à démolir);1959.3;3393.7;300.0;60;60.0;3918.7;#64 RIVE c2 p3 (chaume a demolir)
+128;Bobine Tesla;1964.3;3402.3;300.0;150;60.0;3928.7;#64 RIVE c2 p3
+129;Mur de chaume (gabarit de pose, à démolir);1959.3;-3393.7;300.0;300;300.0;3918.7;#65 RIVE c10 p3 (chaume a demolir)
+130;Bobine Tesla;1964.3;-3402.3;300.0;30;300.0;3928.7;#65 RIVE c10 p3
+131;Mur de chaume (gabarit de pose, à démolir);-3918.7;0.0;300.0;180;180.0;3918.7;#66 RIVE c6 p3 (chaume a demolir)
+132;Bobine Tesla;-3928.7;0.0;300.0;270;180.0;3928.7;#66 RIVE c6 p3
+133;Mur de chaume (gabarit de pose, à démolir);2799.0;300.0;1800.0;0;6.12;2815.1;#67 L1 c0 p3 (chaume a demolir)
+134;Tourelle lourde (Heavy);2809.0;300.0;1800.0;90;6.1;2825.0;#67 L1 c0 p3
+135;Mur de chaume (gabarit de pose, à démolir);-2724.0;-879.9;1800.0;210;197.9;2862.6;#68 L1 c7 p0 (chaume a demolir)
+136;Tourelle lourde (Heavy);-2732.7;-884.9;1800.0;300;197.94;2872.4;#68 L1 c7 p0
+137;Mur de chaume (gabarit de pose, à démolir);-600.0;2799.0;1800.0;90;102.1;2862.6;#69 L1 c3 p4 (chaume a demolir)
+138;Tourelle lourde (Heavy);-600.0;2809.0;1800.0;180;102.06;2872.4;#69 L1 c3 p4
+139;Mur de chaume (gabarit de pose, à démolir);1139.7;-2574.0;1800.0;300;293.88;2815.1;#70 L1 c10 p1 (chaume a demolir)
+140;Tourelle lourde (Heavy);1144.7;-2582.7;1800.0;30;293.9;2825.0;#70 L1 c10 p1
+141;Mur de chaume (gabarit de pose, à démolir);1659.3;2274.0;1800.0;60;53.88;2815.1;#71 L1 c2 p1 (chaume a demolir)
+142;Tourelle lourde (Heavy);1664.3;2282.7;1800.0;150;53.9;2825.0;#71 L1 c2 p1
+143;Mur de chaume (gabarit de pose, à démolir);-1139.7;-2574.0;1800.0;240;246.12;2815.1;#72 L1 c8 p3 (chaume a demolir)
+144;Tourelle lourde (Heavy);-1144.7;-2582.7;1800.0;330;246.1;2825.0;#72 L1 c8 p3
+145;Mur de chaume (gabarit de pose, à démolir);-2424.0;1399.5;1800.0;150;150.0;2799.0;#73 L1 c5 p2 (chaume a demolir)
+146;Tourelle lourde (Heavy);-2432.7;1404.5;1800.0;240;150.0;2809.0;#73 L1 c5 p2
+147;Mur de chaume (gabarit de pose, à démolir);2724.0;-879.9;1800.0;330;342.1;2862.6;#74 L1 c11 p4 (chaume a demolir)
+148;Tourelle lourde (Heavy);2732.7;-884.9;1800.0;60;342.06;2872.4;#74 L1 c11 p4
+149;Mur de chaume (gabarit de pose, à démolir);2424.0;1399.5;1800.0;30;30.0;2799.0;#75 L1 c1 p2 (chaume a demolir)
+150;Tourelle lourde (Heavy);2432.7;1404.5;1800.0;120;30.0;2809.0;#75 L1 c1 p2
+151;Mur de chaume (gabarit de pose, à démolir);-2124.0;-1919.1;1800.0;210;222.1;2862.6;#76 L1 c7 p4 (chaume a demolir)
+152;Tourelle lourde (Heavy);-2132.7;-1924.1;1800.0;300;222.06;2872.4;#76 L1 c7 p4
+153;Mur de chaume (gabarit de pose, à démolir);-1659.3;2274.0;1800.0;120;126.12;2815.1;#77 L1 c4 p3 (chaume a demolir)
+154;Tourelle lourde (Heavy);-1664.3;2282.7;1800.0;210;126.1;2825.0;#77 L1 c4 p3
+155;Mur de chaume (gabarit de pose, à démolir);2124.0;-1919.1;1800.0;330;317.9;2862.6;#78 L1 c11 p0 (chaume a demolir)
+156;Tourelle lourde (Heavy);2132.7;-1924.1;1800.0;60;317.94;2872.4;#78 L1 c11 p0
+157;Mur de chaume (gabarit de pose, à démolir);600.0;2799.0;1800.0;90;77.9;2862.6;#79 L1 c3 p0 (chaume a demolir)
+158;Tourelle lourde (Heavy);600.0;2809.0;1800.0;180;77.94;2872.4;#79 L1 c3 p0
+159;Mur de chaume (gabarit de pose, à démolir);-0.0;-2799.0;1800.0;270;270.0;2799.0;#80 L1 c9 p2 (chaume a demolir)
+160;Tourelle lourde (Heavy);-0.0;-2809.0;1800.0;0;270.0;2809.0;#80 L1 c9 p2
+161;Mur de chaume (gabarit de pose, à démolir);-2799.0;300.0;1800.0;180;173.88;2815.1;#81 L1 c6 p1 (chaume a demolir)
+162;Tourelle lourde (Heavy);-2809.0;300.0;1800.0;270;173.9;2825.0;#81 L1 c6 p1
+163;Mur de chaume (gabarit de pose, à démolir);2724.0;879.9;1800.0;30;17.9;2862.6;#82 L1 c1 p0 (chaume a demolir)
+164;Tourelle lourde (Heavy);2732.7;884.9;1800.0;120;17.94;2872.4;#82 L1 c1 p0
+165;Mur de chaume (gabarit de pose, à démolir);-2424.0;-1399.5;1800.0;210;210.0;2799.0;#83 L1 c7 p2 (chaume a demolir)
+166;Tourelle lourde (Heavy);-2432.7;-1404.5;1800.0;300;210.0;2809.0;#83 L1 c7 p2
+167;Mur de chaume (gabarit de pose, à démolir);-1139.7;2574.0;1800.0;120;113.88;2815.1;#84 L1 c4 p1 (chaume a demolir)
+168;Tourelle lourde (Heavy);-1144.7;2582.7;1800.0;210;113.9;2825.0;#84 L1 c4 p1
+169;Mur de chaume (gabarit de pose, à démolir);1659.3;-2274.0;1800.0;300;306.12;2815.1;#85 L1 c10 p3 (chaume a demolir)
+170;Tourelle lourde (Heavy);1664.3;-2282.7;1800.0;30;306.1;2825.0;#85 L1 c10 p3
+171;Mur de chaume (gabarit de pose, à démolir);1139.7;2574.0;1800.0;60;66.12;2815.1;#86 L1 c2 p3 (chaume a demolir)
+172;Tourelle lourde (Heavy);1144.7;2582.7;1800.0;150;66.1;2825.0;#86 L1 c2 p3
+173;Mur de chaume (gabarit de pose, à démolir);-600.0;-2799.0;1800.0;270;257.9;2862.6;#87 L1 c9 p0 (chaume a demolir)
+174;Tourelle lourde (Heavy);-600.0;-2809.0;1800.0;0;257.94;2872.4;#87 L1 c9 p0
+175;Mur de chaume (gabarit de pose, à démolir);-2724.0;879.9;1800.0;150;162.1;2862.6;#88 L1 c5 p4 (chaume a demolir)
+176;Tourelle lourde (Heavy);-2732.7;884.9;1800.0;240;162.06;2872.4;#88 L1 c5 p4
+177;Mur de chaume (gabarit de pose, à démolir);2799.0;-300.0;1800.0;0;353.88;2815.1;#89 L1 c0 p1 (chaume a demolir)
+178;Tourelle lourde (Heavy);2809.0;-300.0;1800.0;90;353.9;2825.0;#89 L1 c0 p1
+179;Mur de chaume (gabarit de pose, à démolir);2124.0;1919.1;1800.0;30;42.1;2862.6;#90 L1 c1 p4 (chaume a demolir)
+180;Tourelle lourde (Heavy);2132.7;1924.1;1800.0;120;42.06;2872.4;#90 L1 c1 p4
+181;Mur de chaume (gabarit de pose, à démolir);-1659.3;-2274.0;1800.0;240;233.88;2815.1;#91 L1 c8 p1 (chaume a demolir)
+182;Tourelle lourde (Heavy);-1664.3;-2282.7;1800.0;330;233.9;2825.0;#91 L1 c8 p1
+183;Mur de chaume (gabarit de pose, à démolir);-2124.0;1919.1;1800.0;150;137.9;2862.6;#92 L1 c5 p0 (chaume a demolir)
+184;Tourelle lourde (Heavy);-2132.7;1924.1;1800.0;240;137.94;2872.4;#92 L1 c5 p0
+185;Mur de chaume (gabarit de pose, à démolir);2424.0;-1399.5;1800.0;330;330.0;2799.0;#93 L1 c11 p2 (chaume a demolir)
+186;Tourelle lourde (Heavy);2432.7;-1404.5;1800.0;60;330.0;2809.0;#93 L1 c11 p2
+187;Mur de chaume (gabarit de pose, à démolir);0.0;2799.0;1800.0;90;90.0;2799.0;#94 L1 c3 p2 (chaume a demolir)
+188;Tourelle lourde (Heavy);0.0;2809.0;1800.0;180;90.0;2809.0;#94 L1 c3 p2
+189;Mur de chaume (gabarit de pose, à démolir);600.0;-2799.0;1800.0;270;282.1;2862.6;#95 L1 c9 p4 (chaume a demolir)
+190;Tourelle lourde (Heavy);600.0;-2809.0;1800.0;0;282.06;2872.4;#95 L1 c9 p4
+191;Mur de chaume (gabarit de pose, à démolir);-2799.0;-300.0;1800.0;180;186.12;2815.1;#96 L1 c6 p3 (chaume a demolir)
+192;Tourelle lourde (Heavy);-2809.0;-300.0;1800.0;270;186.1;2825.0;#96 L1 c6 p3
