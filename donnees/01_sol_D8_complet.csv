@@ -1,6 +1,6 @@
 entree;piece;x;y;Z_plan;yaw;theta;rayon;repere
-0;Demi-pilier métal;0;0;-75;0;0.0;0.0;ancre basse
-1;Demi-pilier métal;0;0;75;0;0.0;0.0;ancre haute
+0;Demi-pilier métal;0.0;300.0;-75;0;90.0;300.0;ancre basse
+1;Demi-pilier métal;0.0;300.0;75;0;90.0;300.0;ancre haute
 2;Fondation triangle métal;129.9;0.0;0.0;180;0.0;129.9;anneau 0 cote 0 n0
 3;Fondation triangle métal;65.0;112.5;0.0;240;60.0;129.9;anneau 0 cote 2 n0
 4;Fondation triangle métal;-65.0;112.5;0.0;300;120.0;129.9;anneau 0 cote 4 n0

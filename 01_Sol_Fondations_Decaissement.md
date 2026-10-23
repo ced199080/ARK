@@ -62,7 +62,7 @@ Contrôle géométrique : l'aire couverte vaut 64 489 838 UU², soit exactement 
 
 ## 3. Pose manuelle (vanilla)
 
-1. **Centre.** Les 6 triangles du centre, pointes au centre, forment un hexagone de côté 300. Si la plateforme a un relief au centre (le 481 laisse l'hexagone vide), sautez-les : l'anneau 1 s'accroche aussi sur les arêtes d'une étoile existante.
+1. **Centre.** Les 6 triangles du centre, pointes au centre, forment un hexagone de côté 300. Le Coeur Base (module 02) repose dessus : ses propres fondations sont remplacées par l'étoile. Si la plateforme a un relief au centre (le 481 laisse l'hexagone vide), sautez-les : l'anneau 1 s'accroche aussi sur les arêtes d'une étoile existante.
 2. **Anneau par anneau, dans l'ordre**, en appliquant le tableau du §1. Travaillez par secteur de 60° (un côté E0 et un côté E1) puis répétez 6 fois : chaque secteur est identique, à une rotation de 60° près.
 3. **Contrôle tous les 2 anneaux.** Le contour doit compter `n` pièces sur chaque côté (D1 = 1, D2 = 2… D8 = 8). Si un côté en compte n + 1 alors que son voisin en compte n − 1, une rangée de carrés a été posée sur le mauvais jeu de côtés : reprenez l'anneau.
 4. Les murs des modules 02 à 04 s'accrochent ensuite sur les arêtes D4, D5 et D7. Posez **tout le sol avant les murs** : ainsi aucune accroche de fondation n'est masquée par un mur déjà en place.
@@ -86,7 +86,7 @@ Contrôle géométrique : l'aire couverte vaut 64 489 838 UU², soit exactement 
 | Situation | Procédure |
 |---|---|
 | Étoile 481 (ou identique) déjà posée | Importez `01b_sol_extension_D4_D8.json`. Sa pièce d'accroche (`snapOverrides [9]`) est le **1er carré de l'anneau 8 sur le côté θ = 30°**, centre (2 294,1 ; 804,9), z 40, yaw 30°. Accrochez-la sur la base du 1er triangle de l'anneau 7 posé sur le contour D4, en partant du coin à 15° (θ croissants). |
-| Plateforme vierge | Importez `phases/P1.json` : son centre est la pile de 2 demi-piliers (`snapOverrides [0,1]`). Visez le centre de la plateforme. Sur une Metal Cliff Platform, le centre se repère avec les points d'accroche de fondation de la plateforme. |
+| Plateforme vierge | Importez `phases/P1.json`. Sa pièce d'accroche est la pile de 2 demi-piliers (`snapOverrides [0,1]`), posée **au sommet de l'hexagone central situé à θ = 90°**, en (0 ; 300). Le centre exact est occupé par la porte secrète centrale du Coeur Base. Le centre de l'étoile est donc à 300 UU de la pile, dans l'axe 270°. Sur une Metal Cliff Platform, le centre se repère avec les points d'accroche de fondation de la plateforme. |
 | Étoile différente du 481 | Comparez avec `donnees/01_sol_D8_complet.csv` (anneaux 1 à 7) ou avec le contrôle `--verifier-481` appliqué à votre propre export. Si l'écart est une rotation, tournez le template à l'import jusqu'à superposer l'anneau 7 généré sur votre contour. |
 
 ### Coordonnées de snap utiles
@@ -102,8 +102,8 @@ Formules pour toute pièce :
 
 | Repère | x | y | z template | Remarque |
 |---|---|---|---|---|
-| Ancre basse / haute (P1) | 0 | 0 | 15 / 165 | 2 demi-piliers empilés au centre |
-| Ancre des phases P2 à P7 | 0 | 0 | 315 | se pose sur la pile |
+| Ancre basse / haute (P1) | 0 | 300 | 15 / 165 | 2 demi-piliers empilés au sommet de l'hexagone central (θ 90°) |
+| Ancre des phases P2 à P7 | 0 | 300 | 315 | se pose sur la pile |
 | Milieu du côté 0° de D4 | 2 239,2 | 0 | — | arête où s'accroche le mur de pod |
 | Milieu du côté 0° de D5 | 2 799,0 | 0 | — | ligne des double doorframes |
 | Milieu du côté 0° de D7 | 3 918,7 | 0 | — | mur de rive |

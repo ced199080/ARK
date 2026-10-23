@@ -1,126 +1,101 @@
-ordre;priorite;type;couche;cote;index;theta;x;y;Z_plan;montage;scenario_A;scenario_B;scenario_C
-1;P1 jupe Heavy;Tourelle lourde (Heavy);JUPE;0;6;7.32;4668.7;600.0;-600.0;suspendue;oui;oui;oui
-2;P1 jupe Heavy;Tourelle lourde (Heavy);JUPE;8;6;247.32;-1814.7;-4343.2;-600.0;suspendue;oui;oui;oui
-3;P1 jupe Heavy;Tourelle lourde (Heavy);JUPE;4;6;127.32;-2853.9;3743.2;-600.0;suspendue;oui;oui;oui
-4;P1 jupe Heavy;Tourelle lourde (Heavy);JUPE;2;6;67.32;1814.7;4343.2;-600.0;suspendue;oui;oui;oui
-5;P1 jupe Heavy;Tourelle lourde (Heavy);JUPE;10;6;307.32;2853.9;-3743.2;-600.0;suspendue;oui;oui;oui
-6;P1 jupe Heavy;Tourelle lourde (Heavy);JUPE;6;6;187.32;-4668.7;-600.0;-600.0;suspendue;oui;oui;oui
-7;P1 jupe Heavy;Tourelle lourde (Heavy);JUPE;1;6;37.32;3743.2;2853.9;-600.0;suspendue;oui;oui;oui
-8;P1 jupe Heavy;Tourelle lourde (Heavy);JUPE;9;6;277.32;600.0;-4668.7;-600.0;suspendue;oui;oui;oui
-9;P1 jupe Heavy;Tourelle lourde (Heavy);JUPE;5;6;157.32;-4343.2;1814.7;-600.0;suspendue;oui;oui;oui
-10;P1 jupe Heavy;Tourelle lourde (Heavy);JUPE;3;6;97.32;-600.0;4668.7;-600.0;suspendue;oui;oui;oui
-11;P1 jupe Heavy;Tourelle lourde (Heavy);JUPE;11;6;337.32;4343.2;-1814.7;-600.0;suspendue;oui;oui;oui
-12;P1 jupe Heavy;Tourelle lourde (Heavy);JUPE;7;6;217.32;-3743.2;-2853.9;-600.0;suspendue;oui;oui;oui
-13;P1 jupe Heavy;Tourelle lourde (Heavy);JUPE;1;2;22.68;4343.2;1814.7;-600.0;suspendue;oui;oui;oui
-14;P1 jupe Heavy;Tourelle lourde (Heavy);JUPE;9;2;262.68;-600.0;-4668.7;-600.0;suspendue;oui;oui;oui
-15;P1 jupe Heavy;Tourelle lourde (Heavy);JUPE;5;2;142.68;-3743.2;2853.9;-600.0;suspendue;oui;oui;oui
-16;P1 jupe Heavy;Tourelle lourde (Heavy);JUPE;3;2;82.68;600.0;4668.7;-600.0;suspendue;oui;oui;oui
-17;P1 jupe Heavy;Tourelle lourde (Heavy);JUPE;11;2;322.68;3743.2;-2853.9;-600.0;suspendue;oui;oui;oui
-18;P1 jupe Heavy;Tourelle lourde (Heavy);JUPE;7;2;202.68;-4343.2;-1814.7;-600.0;suspendue;oui;oui;oui
-19;P1 jupe Heavy;Tourelle lourde (Heavy);JUPE;2;2;52.68;2853.9;3743.2;-600.0;suspendue;oui;oui;oui
-20;P1 jupe Heavy;Tourelle lourde (Heavy);JUPE;10;2;292.68;1814.7;-4343.2;-600.0;suspendue;oui;oui;oui
-21;P1 jupe Heavy;Tourelle lourde (Heavy);JUPE;6;2;172.68;-4668.7;600.0;-600.0;suspendue;oui;oui;oui
-22;P1 jupe Heavy;Tourelle lourde (Heavy);JUPE;4;2;112.68;-1814.7;4343.2;-600.0;suspendue;oui;oui;oui
-23;P1 jupe Heavy;Tourelle lourde (Heavy);JUPE;0;2;352.68;4668.7;-600.0;-600.0;suspendue;oui;oui;oui
-24;P1 jupe Heavy;Tourelle lourde (Heavy);JUPE;8;2;232.68;-2853.9;-3743.2;-600.0;suspendue;oui;oui;oui
-25;P2 L1 Tek;Tourelle Tek;L1;0;2;0.0;2749.0;0.0;1800.0;debout;oui;oui;oui
-26;P2 L1 Tek;Tourelle Tek;L1;11;2;330.0;2380.7;-1374.5;1800.0;debout;oui;oui;oui
-27;P2 L1 Tek;Tourelle Tek;L1;6;0;167.69;-2749.0;600.0;1800.0;debout;oui;oui;oui
-28;P2 L1 Tek;Tourelle Tek;L1;3;1;83.77;300.0;2749.0;1800.0;debout;oui;oui;oui
-29;P2 L1 Tek;Tourelle Tek;L1;8;3;246.23;-1114.7;-2530.7;1800.0;debout;oui;oui;oui
-30;P2 L1 Tek;Tourelle Tek;L1;1;4;42.31;2080.7;1894.1;1800.0;debout;oui;oui;oui
-31;P2 L1 Tek;Tourelle Tek;L1;7;2;210.0;-2380.7;-1374.5;1800.0;debout;oui;oui;oui
-32;P2 L1 Tek;Tourelle Tek;L1;4;3;126.23;-1634.3;2230.7;1800.0;debout;oui;oui;oui
-33;P2 L1 Tek;Tourelle Tek;L1;10;0;287.69;854.9;-2680.7;1800.0;debout;oui;oui;oui
-34;P2 L1 Tek;Tourelle Tek;L1;1;1;23.77;2530.7;1114.7;1800.0;debout;oui;oui;oui
-35;P2 L1 Tek;Tourelle Tek;L1;0;1;353.77;2749.0;-300.0;1800.0;debout;oui;oui;oui
-36;P2 L1 Tek;Tourelle Tek;L1;6;3;186.23;-2749.0;-300.0;1800.0;debout;oui;oui;oui
-37;P2 L1 Tek;Tourelle Tek;L1;3;4;102.31;-600.0;2749.0;1800.0;debout;oui;oui;oui
-38;P2 L1 Tek;Tourelle Tek;L1;9;2;270.0;-0.0;-2749.0;1800.0;debout;oui;oui;oui
-39;P2 L1 Tek;Tourelle Tek;L1;2;3;66.23;1114.7;2530.7;1800.0;debout;oui;oui;oui
-40;P2 L1 Tek;Tourelle Tek;L1;8;0;227.69;-1894.1;-2080.7;1800.0;debout;oui;oui;oui
-41;P2 L1 Tek;Tourelle Tek;L1;5;1;143.77;-2230.7;1634.3;1800.0;debout;oui;oui;oui
-42;P2 L1 Tek;Tourelle Tek;L1;10;4;312.31;1894.1;-2080.7;1800.0;debout;oui;oui;oui
-43;P2 L1 Tek;Tourelle Tek;L1;0;4;12.31;2749.0;600.0;1800.0;debout;oui;oui;oui
-44;P2 L1 Tek;Tourelle Tek;L1;11;4;342.31;2680.7;-854.9;1800.0;debout;oui;oui;oui
-45;P2 L1 Tek;Tourelle Tek;L1;6;1;173.77;-2749.0;300.0;1800.0;debout;oui;oui;oui
-46;P2 L1 Tek;Tourelle Tek;L1;3;3;96.23;-300.0;2749.0;1800.0;debout;oui;oui;oui
-47;P2 L1 Tek;Tourelle Tek;L1;9;0;257.69;-600.0;-2749.0;1800.0;debout;oui;oui;oui
-48;P2 L1 Tek;Tourelle Tek;L1;2;1;53.77;1634.3;2230.7;1800.0;debout;oui;oui;oui
-49;P2 L1 Tek;Tourelle Tek;L1;7;3;216.23;-2230.7;-1634.3;1800.0;debout;oui;oui;oui
-50;P2 L1 Tek;Tourelle Tek;L1;5;0;137.69;-2080.7;1894.1;1800.0;debout;oui;oui;oui
-51;P2 L1 Tek;Tourelle Tek;L1;10;2;300.0;1374.5;-2380.7;1800.0;debout;oui;oui;oui
-52;P2 L1 Tek;Tourelle Tek;L1;1;2;30.0;2380.7;1374.5;1800.0;debout;oui;oui;oui
-53;P2 L1 Tek;Tourelle Tek;L1;7;0;197.69;-2680.7;-854.9;1800.0;debout;oui;oui;oui
-54;P2 L1 Tek;Tourelle Tek;L1;4;1;113.77;-1114.7;2530.7;1800.0;debout;oui;oui;oui
-55;P2 L1 Tek;Tourelle Tek;L1;9;4;282.31;600.0;-2749.0;1800.0;debout;oui;oui;oui
-56;P2 L1 Tek;Tourelle Tek;L1;2;4;72.31;854.9;2680.7;1800.0;debout;oui;oui;oui
-57;P2 L1 Tek;Tourelle Tek;L1;8;2;240.0;-1374.5;-2380.7;1800.0;debout;oui;oui;oui
-58;P2 L1 Tek;Tourelle Tek;L1;5;3;156.23;-2530.7;1114.7;1800.0;debout;oui;oui;oui
-59;P2 L1 Tek;Tourelle Tek;L1;11;0;317.69;2080.7;-1894.1;1800.0;debout;oui;oui;oui
-60;P3 rive Tesla;Bobine Tesla;RIVE;0;3;0.0;3768.7;0.0;0.0;debout;oui;oui;oui
-61;P3 rive Tesla;Bobine Tesla;RIVE;10;0;286.57;1104.9;-3713.7;0.0;debout;oui;oui;oui
-62;P3 rive Tesla;Bobine Tesla;RIVE;5;2;145.45;-3113.7;2144.1;0.0;debout;oui;oui;oui
-63;P3 rive Tesla;Bobine Tesla;RIVE;2;6;73.43;1104.9;3713.7;0.0;debout;oui;oui;oui
-64;P3 rive Tesla;Bobine Tesla;RIVE;7;4;214.55;-3113.7;-2144.1;0.0;debout;oui;oui;oui
-65;P3 rive Tesla;Bobine Tesla;RIVE;1;4;34.55;3113.7;2144.1;0.0;debout;oui;oui;oui
-66;P3 rive Tesla;Bobine Tesla;RIVE;11;2;325.45;3113.7;-2144.1;0.0;debout;oui;oui;oui
-67;P3 rive Tesla;Bobine Tesla;RIVE;6;3;180.0;-3768.7;0.0;0.0;debout;oui;oui;oui
-68;P3 rive Tesla;Bobine Tesla;RIVE;4;0;106.57;-1104.9;3713.7;0.0;debout;oui;oui;oui
-69;P3 rive Tesla;Bobine Tesla;RIVE;8;6;253.43;-1104.9;-3713.7;0.0;debout;oui;oui;oui
-70;P4 L1 Heavy;Tourelle lourde (Heavy);L1;0;3;6.23;2749.0;300.0;1800.0;debout;oui;oui;oui
-71;P4 L1 Heavy;Tourelle lourde (Heavy);L1;8;1;233.77;-1634.3;-2230.7;1800.0;debout;oui;oui;oui
-72;P4 L1 Heavy;Tourelle lourde (Heavy);L1;4;2;120.0;-1374.5;2380.7;1800.0;debout;oui;oui;oui
-73;P4 L1 Heavy;Tourelle lourde (Heavy);L1;0;0;347.69;2749.0;-600.0;1800.0;debout;oui;oui;oui
-74;P4 L1 Heavy;Tourelle lourde (Heavy);L1;2;2;60.0;1374.5;2380.7;1800.0;debout;oui;oui;oui
-75;P4 L1 Heavy;Tourelle lourde (Heavy);L1;10;1;293.77;1114.7;-2530.7;1800.0;debout;oui;oui;oui
-76;P4 L1 Heavy;Tourelle lourde (Heavy);L1;6;2;180.0;-2749.0;0.0;1800.0;debout;oui;oui;oui
-77;P4 L1 Heavy;Tourelle lourde (Heavy);L1;1;3;36.23;2230.7;1634.3;1800.0;debout;oui;oui;oui
-78;P4 L1 Heavy;Tourelle lourde (Heavy);L1;9;1;263.77;-300.0;-2749.0;1800.0;debout;oui;oui;oui
-79;P4 L1 Heavy;Tourelle lourde (Heavy);L1;5;2;150.0;-2380.7;1374.5;1800.0;debout;oui;oui;oui
-80;P4 L1 Heavy;Tourelle lourde (Heavy);L1;3;2;90.0;0.0;2749.0;1800.0;debout;oui;oui;oui
-81;P4 L1 Heavy;Tourelle lourde (Heavy);L1;11;1;323.77;2230.7;-1634.3;1800.0;debout;oui;oui;oui
-82;P4 L1 Heavy;Tourelle lourde (Heavy);L1;7;1;203.77;-2530.7;-1114.7;1800.0;debout;oui;oui;oui
-83;P4 L1 Heavy;Tourelle lourde (Heavy);L1;1;0;17.69;2680.7;854.9;1800.0;debout;oui;oui;oui
-84;P4 L1 Heavy;Tourelle lourde (Heavy);L1;8;4;252.31;-854.9;-2680.7;1800.0;debout;oui;oui;oui
-85;P4 L1 Heavy;Tourelle lourde (Heavy);L1;4;4;132.31;-1894.1;2080.7;1800.0;debout;oui;oui;oui
-86;P4 L1 Heavy;Tourelle lourde (Heavy);L1;3;0;77.69;600.0;2749.0;1800.0;debout;oui;oui;oui
-87;P4 L1 Heavy;Tourelle lourde (Heavy);L1;10;3;306.23;1634.3;-2230.7;1800.0;debout;oui;oui;oui
-88;P4 L1 Heavy;Tourelle lourde (Heavy);L1;6;4;192.31;-2749.0;-600.0;1800.0;debout;oui;oui;oui
-89;P4 L1 Heavy;Tourelle lourde (Heavy);L1;2;0;47.69;1894.1;2080.7;1800.0;debout;oui;oui;oui
-90;P4 L1 Heavy;Tourelle lourde (Heavy);L1;9;3;276.23;300.0;-2749.0;1800.0;debout;oui;oui;oui
-91;P4 L1 Heavy;Tourelle lourde (Heavy);L1;5;4;162.31;-2680.7;854.9;1800.0;debout;oui;oui;oui
-92;P4 L1 Heavy;Tourelle lourde (Heavy);L1;4;0;107.69;-854.9;2680.7;1800.0;debout;oui;oui;oui
-93;P4 L1 Heavy;Tourelle lourde (Heavy);L1;11;3;336.23;2530.7;-1114.7;1800.0;debout;oui;oui;oui
-94;P4 L1 Heavy;Tourelle lourde (Heavy);L1;7;4;222.31;-2080.7;-1894.1;1800.0;debout;oui;oui;oui
-95;P5 L2 Heavy;Tourelle lourde (Heavy);L2;0;2;0.0;2749.0;0.0;2100.0;debout;oui;oui;oui
-96;P5 L2 Heavy;Tourelle lourde (Heavy);L2;6;2;180.0;-2749.0;0.0;2100.0;debout;oui;oui;oui
-97;P5 L2 Heavy;Tourelle lourde (Heavy);L2;3;2;90.0;0.0;2749.0;2100.0;debout;oui;oui;oui
-98;P5 L2 Heavy;Tourelle lourde (Heavy);L2;9;3;276.23;300.0;-2749.0;2100.0;debout;oui;oui;oui
-99;P5 L2 Heavy;Tourelle lourde (Heavy);L2;1;4;42.31;2080.7;1894.1;2100.0;debout;oui;oui;oui
-100;P5 L2 Heavy;Tourelle lourde (Heavy);L2;8;0;227.69;-1894.1;-2080.7;2100.0;debout;oui;oui;oui
-101;P5 L2 Heavy;Tourelle lourde (Heavy);L2;5;0;137.69;-2080.7;1894.1;2100.0;debout;oui;reserve;oui
-102;P5 L2 Heavy;Tourelle lourde (Heavy);L2;11;1;323.77;2230.7;-1634.3;2100.0;debout;oui;reserve;oui
-103;P5 L2 Heavy;Tourelle lourde (Heavy);L2;1;0;17.69;2680.7;854.9;2100.0;debout;oui;reserve;oui
-104;P5 L2 Heavy;Tourelle lourde (Heavy);L2;7;1;203.77;-2530.7;-1114.7;2100.0;debout;oui;reserve;oui
-105;P5 L2 Heavy;Tourelle lourde (Heavy);L2;4;1;113.77;-1114.7;2530.7;2100.0;debout;oui;reserve;oui
-106;P5 L2 Heavy;Tourelle lourde (Heavy);L2;10;2;300.0;1374.5;-2380.7;2100.0;debout;oui;reserve;oui
-107;P5 L2 Heavy;Tourelle lourde (Heavy);L2;2;3;66.23;1114.7;2530.7;2100.0;debout;oui;reserve;oui
-108;P5 L2 Heavy;Tourelle lourde (Heavy);L2;8;4;252.31;-854.9;-2680.7;2100.0;debout;oui;reserve;oui
-109;P5 L2 Heavy;Tourelle lourde (Heavy);L2;5;4;162.31;-2680.7;854.9;2100.0;debout;oui;reserve;oui
-110;P5 L2 Heavy;Tourelle lourde (Heavy);L2;0;0;347.69;2749.0;-600.0;2100.0;debout;oui;reserve;oui
-111;P5 L2 Heavy;Tourelle lourde (Heavy);L2;0;3;6.23;2749.0;300.0;2100.0;debout;reserve;reserve;oui
-112;P5 L2 Heavy;Tourelle lourde (Heavy);L2;6;4;192.31;-2749.0;-600.0;2100.0;debout;reserve;reserve;oui
-113;P5 L2 Heavy;Tourelle lourde (Heavy);L2;3;4;102.31;-600.0;2749.0;2100.0;debout;reserve;reserve;oui
-114;P5 L2 Heavy;Tourelle lourde (Heavy);L2;10;0;287.69;854.9;-2680.7;2100.0;debout;reserve;reserve;oui
-115;P5 L2 Heavy;Tourelle lourde (Heavy);L2;2;1;53.77;1634.3;2230.7;2100.0;debout;reserve;reserve;oui
-116;P5 L2 Heavy;Tourelle lourde (Heavy);L2;8;2;240.0;-1374.5;-2380.7;2100.0;debout;reserve;reserve;oui
-117;P5 L2 Heavy;Tourelle lourde (Heavy);L2;5;2;150.0;-2380.7;1374.5;2100.0;debout;reserve;reserve;oui
-118;P5 L2 Heavy;Tourelle lourde (Heavy);L2;11;3;336.23;2530.7;-1114.7;2100.0;debout;reserve;reserve;oui
-119;P5 L2 Heavy;Tourelle lourde (Heavy);L2;1;2;30.0;2380.7;1374.5;2100.0;debout;reserve;reserve;oui
-120;P5 L2 Heavy;Tourelle lourde (Heavy);L2;7;3;216.23;-2230.7;-1634.3;2100.0;debout;reserve;reserve;oui
-121;P5 L2 Heavy;Tourelle lourde (Heavy);L2;4;3;126.23;-1634.3;2230.7;2100.0;debout;reserve;reserve;oui
-122;P5 L2 Heavy;Tourelle lourde (Heavy);L2;10;4;312.31;1894.1;-2080.7;2100.0;debout;reserve;reserve;oui
-123;P5 L2 Heavy;Tourelle lourde (Heavy);L2;3;0;77.69;600.0;2749.0;2100.0;debout;reserve;reserve;oui
-124;P5 L2 Heavy;Tourelle lourde (Heavy);L2;9;1;263.77;-300.0;-2749.0;2100.0;debout;reserve;reserve;oui
-125;P5 L2 Heavy;Tourelle lourde (Heavy);L2;6;1;173.77;-2749.0;300.0;2100.0;debout;reserve;reserve;oui
+ordre;priorite;type;couche;cote;index;theta;x_chaume;y_chaume;Z_bas_chaume;x_tourelle;y_tourelle;Z_tourelle;sens_de_tir;posee
+1;P1 jupe Heavy;Tourelle lourde (Heavy);JUPE-int;0;1;0.0;4818.7;0.0;-900.0;4808.7;0.0;-750.0;180;oui
+2;P1 jupe Heavy;Tourelle lourde (Heavy);JUPE-ext;6;2;187.55;-4518.7;-600.0;-900.0;-4528.7;-600.0;-750.0;180;oui
+3;P1 jupe Heavy;Tourelle lourde (Heavy);JUPE-int;3;1;97.11;-600.0;4818.7;-900.0;-600.0;4808.7;-750.0;270;oui
+4;P1 jupe Heavy;Tourelle lourde (Heavy);JUPE-ext;10;0;292.45;1739.7;-4213.3;-900.0;1744.7;-4221.9;-750.0;300;oui
+5;P1 jupe Heavy;Tourelle lourde (Heavy);JUPE-ext;2;0;52.45;2778.9;3613.3;-900.0;2783.9;3621.9;-750.0;60;oui
+6;P1 jupe Heavy;Tourelle lourde (Heavy);JUPE-int;8;1;240.0;-2409.3;-4173.1;-900.0;-2404.3;-4164.4;-750.0;60;oui
+7;P1 jupe Heavy;Tourelle lourde (Heavy);JUPE-int;5;0;142.89;-3873.1;2928.9;-900.0;-3864.4;2923.9;-750.0;330;oui
+8;P1 jupe Heavy;Tourelle lourde (Heavy);JUPE-int;11;1;337.11;4473.1;-1889.7;-900.0;4464.4;-1884.7;-750.0;150;oui
+9;P1 jupe Heavy;Tourelle lourde (Heavy);JUPE-int;1;0;22.89;4473.1;1889.7;-900.0;4464.4;1884.7;-750.0;210;oui
+10;P1 jupe Heavy;Tourelle lourde (Heavy);JUPE-int;7;1;217.11;-3873.1;-2928.9;-900.0;-3864.4;-2923.9;-750.0;30;oui
+11;P1 jupe Heavy;Tourelle lourde (Heavy);JUPE-int;4;1;120.0;-2409.3;4173.1;-900.0;-2404.3;4164.4;-750.0;300;oui
+12;P1 jupe Heavy;Tourelle lourde (Heavy);JUPE-ext;10;2;307.55;2778.9;-3613.3;-900.0;2783.9;-3621.9;-750.0;300;oui
+13;P1 jupe Heavy;Tourelle lourde (Heavy);JUPE-ext;2;2;67.55;1739.7;4213.3;-900.0;1744.7;4221.9;-750.0;60;oui
+14;P1 jupe Heavy;Tourelle lourde (Heavy);JUPE-int;9;0;262.89;-600.0;-4818.7;-900.0;-600.0;-4808.7;-750.0;90;oui
+15;P1 jupe Heavy;Tourelle lourde (Heavy);JUPE-ext;6;0;172.45;-4518.7;600.0;-900.0;-4528.7;600.0;-750.0;180;oui
+16;P1 jupe Heavy;Tourelle lourde (Heavy);JUPE-ext;0;2;7.55;4518.7;600.0;-900.0;4528.7;600.0;-750.0;0;oui
+17;P1 jupe Heavy;Tourelle lourde (Heavy);JUPE-int;7;0;202.89;-4473.1;-1889.7;-900.0;-4464.4;-1884.7;-750.0;30;oui
+18;P1 jupe Heavy;Tourelle lourde (Heavy);JUPE-ext;4;0;112.45;-1739.7;4213.3;-900.0;-1744.7;4221.9;-750.0;120;oui
+19;P1 jupe Heavy;Tourelle lourde (Heavy);JUPE-int;10;1;300.0;2409.3;-4173.1;-900.0;2404.3;-4164.4;-750.0;120;oui
+20;P1 jupe Heavy;Tourelle lourde (Heavy);JUPE-int;2;1;60.0;2409.3;4173.1;-900.0;2404.3;4164.4;-750.0;240;oui
+21;P1 jupe Heavy;Tourelle lourde (Heavy);JUPE-ext;8;2;247.55;-1739.7;-4213.3;-900.0;-1744.7;-4221.9;-750.0;240;oui
+22;P1 jupe Heavy;Tourelle lourde (Heavy);JUPE-int;5;1;157.11;-4473.1;1889.7;-900.0;-4464.4;1884.7;-750.0;330;oui
+23;P1 jupe Heavy;Tourelle lourde (Heavy);JUPE-ext;0;0;352.45;4518.7;-600.0;-900.0;4528.7;-600.0;-750.0;0;oui
+24;P1 jupe Heavy;Tourelle lourde (Heavy);JUPE-int;1;1;37.11;3873.1;2928.9;-900.0;3864.4;2923.9;-750.0;210;oui
+25;P1 jupe Heavy;Tourelle lourde (Heavy);JUPE-ext;8;0;232.45;-2778.9;-3613.3;-900.0;-2783.9;-3621.9;-750.0;240;oui
+26;P1 jupe Heavy;Tourelle lourde (Heavy);JUPE-ext;4;2;127.55;-2778.9;3613.3;-900.0;-2783.9;3621.9;-750.0;120;oui
+27;P1 jupe Heavy;Tourelle lourde (Heavy);JUPE-int;11;0;322.89;3873.1;-2928.9;-900.0;3864.4;-2923.9;-750.0;150;oui
+28;P1 jupe Heavy;Tourelle lourde (Heavy);JUPE-int;3;0;82.89;600.0;4818.7;-900.0;600.0;4808.7;-750.0;270;oui
+29;P1 jupe Heavy;Tourelle lourde (Heavy);JUPE-int;9;1;277.11;600.0;-4818.7;-900.0;600.0;-4808.7;-750.0;90;oui
+30;P1 jupe Heavy;Tourelle lourde (Heavy);JUPE-int;6;1;180.0;-4818.7;0.0;-900.0;-4808.7;0.0;-750.0;0;oui
+31;P2 L1 Tek;Tourelle Tek;L1;0;2;0.0;2799.0;0.0;1800.0;2809.0;0.0;1950.0;0;oui
+32;P2 L1 Tek;Tourelle Tek;L1;11;2;330.0;2424.0;-1399.5;1800.0;2432.7;-1404.5;1950.0;330;oui
+33;P2 L1 Tek;Tourelle Tek;L1;6;0;167.94;-2799.0;600.0;1800.0;-2809.0;600.0;1950.0;180;oui
+34;P2 L1 Tek;Tourelle Tek;L1;3;1;83.9;300.0;2799.0;1800.0;300.0;2809.0;1950.0;90;oui
+35;P2 L1 Tek;Tourelle Tek;L1;8;3;246.1;-1139.7;-2574.0;1800.0;-1144.7;-2582.7;1950.0;240;oui
+36;P2 L1 Tek;Tourelle Tek;L1;1;4;42.06;2124.0;1919.1;1800.0;2132.7;1924.1;1950.0;30;oui
+37;P2 L1 Tek;Tourelle Tek;L1;7;2;210.0;-2424.0;-1399.5;1800.0;-2432.7;-1404.5;1950.0;210;oui
+38;P2 L1 Tek;Tourelle Tek;L1;4;3;126.1;-1659.3;2274.0;1800.0;-1664.3;2282.7;1950.0;120;oui
+39;P2 L1 Tek;Tourelle Tek;L1;10;0;287.94;879.9;-2724.0;1800.0;884.9;-2732.7;1950.0;300;oui
+40;P2 L1 Tek;Tourelle Tek;L1;1;1;23.9;2574.0;1139.7;1800.0;2582.7;1144.7;1950.0;30;oui
+41;P2 L1 Tek;Tourelle Tek;L1;0;1;353.9;2799.0;-300.0;1800.0;2809.0;-300.0;1950.0;0;oui
+42;P2 L1 Tek;Tourelle Tek;L1;6;3;186.1;-2799.0;-300.0;1800.0;-2809.0;-300.0;1950.0;180;oui
+43;P2 L1 Tek;Tourelle Tek;L1;3;4;102.06;-600.0;2799.0;1800.0;-600.0;2809.0;1950.0;90;oui
+44;P2 L1 Tek;Tourelle Tek;L1;9;2;270.0;-0.0;-2799.0;1800.0;-0.0;-2809.0;1950.0;270;oui
+45;P2 L1 Tek;Tourelle Tek;L1;2;3;66.1;1139.7;2574.0;1800.0;1144.7;2582.7;1950.0;60;oui
+46;P2 L1 Tek;Tourelle Tek;L1;8;0;227.94;-1919.1;-2124.0;1800.0;-1924.1;-2132.7;1950.0;240;oui
+47;P2 L1 Tek;Tourelle Tek;L1;5;1;143.9;-2274.0;1659.3;1800.0;-2282.7;1664.3;1950.0;150;oui
+48;P2 L1 Tek;Tourelle Tek;L1;10;4;312.06;1919.1;-2124.0;1800.0;1924.1;-2132.7;1950.0;300;oui
+49;P2 L1 Tek;Tourelle Tek;L1;0;4;12.06;2799.0;600.0;1800.0;2809.0;600.0;1950.0;0;oui
+50;P2 L1 Tek;Tourelle Tek;L1;11;4;342.06;2724.0;-879.9;1800.0;2732.7;-884.9;1950.0;330;oui
+51;P2 L1 Tek;Tourelle Tek;L1;6;1;173.9;-2799.0;300.0;1800.0;-2809.0;300.0;1950.0;180;oui
+52;P2 L1 Tek;Tourelle Tek;L1;3;3;96.1;-300.0;2799.0;1800.0;-300.0;2809.0;1950.0;90;oui
+53;P2 L1 Tek;Tourelle Tek;L1;9;0;257.94;-600.0;-2799.0;1800.0;-600.0;-2809.0;1950.0;270;oui
+54;P2 L1 Tek;Tourelle Tek;L1;2;1;53.9;1659.3;2274.0;1800.0;1664.3;2282.7;1950.0;60;oui
+55;P2 L1 Tek;Tourelle Tek;L1;7;3;216.1;-2274.0;-1659.3;1800.0;-2282.7;-1664.3;1950.0;210;oui
+56;P2 L1 Tek;Tourelle Tek;L1;5;0;137.94;-2124.0;1919.1;1800.0;-2132.7;1924.1;1950.0;150;oui
+57;P2 L1 Tek;Tourelle Tek;L1;10;2;300.0;1399.5;-2424.0;1800.0;1404.5;-2432.7;1950.0;300;oui
+58;P2 L1 Tek;Tourelle Tek;L1;1;2;30.0;2424.0;1399.5;1800.0;2432.7;1404.5;1950.0;30;oui
+59;P2 L1 Tek;Tourelle Tek;L1;7;0;197.94;-2724.0;-879.9;1800.0;-2732.7;-884.9;1950.0;210;oui
+60;P2 L1 Tek;Tourelle Tek;L1;4;1;113.9;-1139.7;2574.0;1800.0;-1144.7;2582.7;1950.0;120;oui
+61;P2 L1 Tek;Tourelle Tek;L1;9;4;282.06;600.0;-2799.0;1800.0;600.0;-2809.0;1950.0;270;oui
+62;P2 L1 Tek;Tourelle Tek;L1;2;4;72.06;879.9;2724.0;1800.0;884.9;2732.7;1950.0;60;oui
+63;P2 L1 Tek;Tourelle Tek;L1;8;2;240.0;-1399.5;-2424.0;1800.0;-1404.5;-2432.7;1950.0;240;oui
+64;P2 L1 Tek;Tourelle Tek;L1;5;3;156.1;-2574.0;1139.7;1800.0;-2582.7;1144.7;1950.0;150;oui
+65;P2 L1 Tek;Tourelle Tek;L1;11;0;317.94;2124.0;-1919.1;1800.0;2132.7;-1924.1;1950.0;330;oui
+66;P3 rive Tesla;Bobine Tesla;RIVE;0;3;0.0;3918.7;0.0;300.0;3928.7;0.0;450.0;0;oui
+67;P3 rive Tesla;Bobine Tesla;RIVE;10;0;287.1;1179.9;-3843.7;300.0;1184.9;-3852.3;450.0;300;oui
+68;P3 rive Tesla;Bobine Tesla;RIVE;5;2;145.63;-3243.7;2219.1;300.0;-3252.3;2224.1;450.0;150;oui
+69;P3 rive Tesla;Bobine Tesla;RIVE;2;6;72.9;1179.9;3843.7;300.0;1184.9;3852.3;450.0;60;oui
+70;P3 rive Tesla;Bobine Tesla;RIVE;7;4;214.37;-3243.7;-2219.1;300.0;-3252.3;-2224.1;450.0;210;oui
+71;P3 rive Tesla;Bobine Tesla;RIVE;1;4;34.37;3243.7;2219.1;300.0;3252.3;2224.1;450.0;30;oui
+72;P3 rive Tesla;Bobine Tesla;RIVE;11;2;325.63;3243.7;-2219.1;300.0;3252.3;-2224.1;450.0;330;oui
+73;P3 rive Tesla;Bobine Tesla;RIVE;6;3;180.0;-3918.7;0.0;300.0;-3928.7;0.0;450.0;180;oui
+74;P3 rive Tesla;Bobine Tesla;RIVE;4;0;107.1;-1179.9;3843.7;300.0;-1184.9;3852.3;450.0;120;oui
+75;P3 rive Tesla;Bobine Tesla;RIVE;8;6;252.9;-1179.9;-3843.7;300.0;-1184.9;-3852.3;450.0;240;oui
+76;P4 L1 Heavy;Tourelle lourde (Heavy);L1;0;3;6.1;2799.0;300.0;1800.0;2809.0;300.0;1950.0;0;oui
+77;P4 L1 Heavy;Tourelle lourde (Heavy);L1;8;1;233.9;-1659.3;-2274.0;1800.0;-1664.3;-2282.7;1950.0;240;oui
+78;P4 L1 Heavy;Tourelle lourde (Heavy);L1;4;2;120.0;-1399.5;2424.0;1800.0;-1404.5;2432.7;1950.0;120;oui
+79;P4 L1 Heavy;Tourelle lourde (Heavy);L1;0;0;347.94;2799.0;-600.0;1800.0;2809.0;-600.0;1950.0;0;oui
+80;P4 L1 Heavy;Tourelle lourde (Heavy);L1;2;2;60.0;1399.5;2424.0;1800.0;1404.5;2432.7;1950.0;60;oui
+81;P4 L1 Heavy;Tourelle lourde (Heavy);L1;10;1;293.9;1139.7;-2574.0;1800.0;1144.7;-2582.7;1950.0;300;oui
+82;P4 L1 Heavy;Tourelle lourde (Heavy);L1;6;2;180.0;-2799.0;0.0;1800.0;-2809.0;0.0;1950.0;180;oui
+83;P4 L1 Heavy;Tourelle lourde (Heavy);L1;1;3;36.1;2274.0;1659.3;1800.0;2282.7;1664.3;1950.0;30;oui
+84;P4 L1 Heavy;Tourelle lourde (Heavy);L1;9;1;263.9;-300.0;-2799.0;1800.0;-300.0;-2809.0;1950.0;270;oui
+85;P4 L1 Heavy;Tourelle lourde (Heavy);L1;5;2;150.0;-2424.0;1399.5;1800.0;-2432.7;1404.5;1950.0;150;oui
+86;P4 L1 Heavy;Tourelle lourde (Heavy);L1;3;2;90.0;0.0;2799.0;1800.0;0.0;2809.0;1950.0;90;oui
+87;P4 L1 Heavy;Tourelle lourde (Heavy);L1;11;1;323.9;2274.0;-1659.3;1800.0;2282.7;-1664.3;1950.0;330;oui
+88;P4 L1 Heavy;Tourelle lourde (Heavy);L1;7;1;203.9;-2574.0;-1139.7;1800.0;-2582.7;-1144.7;1950.0;210;oui
+89;P4 L1 Heavy;Tourelle lourde (Heavy);L1;1;0;17.94;2724.0;879.9;1800.0;2732.7;884.9;1950.0;30;oui
+90;P4 L1 Heavy;Tourelle lourde (Heavy);L1;8;4;252.06;-879.9;-2724.0;1800.0;-884.9;-2732.7;1950.0;240;oui
+91;P4 L1 Heavy;Tourelle lourde (Heavy);L1;4;4;132.06;-1919.1;2124.0;1800.0;-1924.1;2132.7;1950.0;120;oui
+92;P4 L1 Heavy;Tourelle lourde (Heavy);L1;3;0;77.94;600.0;2799.0;1800.0;600.0;2809.0;1950.0;90;oui
+93;P4 L1 Heavy;Tourelle lourde (Heavy);L1;10;3;306.1;1659.3;-2274.0;1800.0;1664.3;-2282.7;1950.0;300;oui
+94;P4 L1 Heavy;Tourelle lourde (Heavy);L1;6;4;192.06;-2799.0;-600.0;1800.0;-2809.0;-600.0;1950.0;180;oui
+95;P4 L1 Heavy;Tourelle lourde (Heavy);L1;2;0;47.94;1919.1;2124.0;1800.0;1924.1;2132.7;1950.0;60;oui
+96;P4 L1 Heavy;Tourelle lourde (Heavy);L1;9;3;276.1;300.0;-2799.0;1800.0;300.0;-2809.0;1950.0;270;oui
+97;P4 L1 Heavy;Tourelle lourde (Heavy);L1;5;4;162.06;-2724.0;879.9;1800.0;-2732.7;884.9;1950.0;150;oui
+98;P4 L1 Heavy;Tourelle lourde (Heavy);L1;4;0;107.94;-879.9;2724.0;1800.0;-884.9;2732.7;1950.0;120;oui
+99;P4 L1 Heavy;Tourelle lourde (Heavy);L1;11;3;336.1;2574.0;-1139.7;1800.0;2582.7;-1144.7;1950.0;330;oui
+100;P4 L1 Heavy;Tourelle lourde (Heavy);L1;7;4;222.06;-2124.0;-1919.1;1800.0;-2132.7;-1924.1;1950.0;210;oui

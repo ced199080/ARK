@@ -1,5 +1,5 @@
 entree;piece;x;y;Z_plan;yaw;theta;rayon;repere
-0;Demi-pilier métal;0;0;225;0;0.0;0.0;ancre module (se pose sur l'ancre du sol)
+0;Demi-pilier métal;0.0;300.0;225;0;90.0;300.0;ancre module (se pose sur l'ancre du sol)
 1;Mur métal;2799.0;-600.0;0.0;0;347.9;2862.6;fut niv0 c0 p0
 2;Mur métal;2799.0;-300.0;0.0;0;353.88;2815.1;fut niv0 c0 p1
 3;Mur métal;2799.0;0.0;0.0;0;0.0;2799.0;fut niv0 c0 p2
@@ -846,315 +846,255 @@ entree;piece;x;y;Z_plan;yaw;theta;rayon;repere
 844;Plafond triangle métal;2311.5;-1334.6;2400.0;150;330.0;2669.1;galerie Z2400 anneau 9
 845;Plafond triangle métal;2461.5;-1074.8;2400.0;150;336.41;2685.9;galerie Z2400 anneau 9
 846;Plafond triangle métal;2611.5;-815.0;2400.0;150;342.67;2735.7;galerie Z2400 anneau 9
-847;Cadre de porte double métal;2799.0;-600.0;1800.0;0;347.9;2862.6;cage L1 c0 p0
-848;Cadre de porte double métal;2799.0;-300.0;1800.0;0;353.88;2815.1;cage L1 c0 p1
-849;Cadre de porte double métal;2799.0;0.0;1800.0;0;0.0;2799.0;cage L1 c0 p2
-850;Cadre de porte double métal;2799.0;300.0;1800.0;0;6.12;2815.1;cage L1 c0 p3
-851;Cadre de porte double métal;2799.0;600.0;1800.0;0;12.1;2862.6;cage L1 c0 p4
-852;Cadre de porte double métal;2724.0;879.9;1800.0;30;17.9;2862.6;cage L1 c1 p0
-853;Cadre de porte double métal;2574.0;1139.7;1800.0;30;23.88;2815.1;cage L1 c1 p1
-854;Cadre de porte double métal;2424.0;1399.5;1800.0;30;30.0;2799.0;cage L1 c1 p2
-855;Cadre de porte double métal;2274.0;1659.3;1800.0;30;36.12;2815.1;cage L1 c1 p3
-856;Cadre de porte double métal;2124.0;1919.1;1800.0;30;42.1;2862.6;cage L1 c1 p4
-857;Cadre de porte double métal;1919.1;2124.0;1800.0;60;47.9;2862.6;cage L1 c2 p0
-858;Cadre de porte double métal;1659.3;2274.0;1800.0;60;53.88;2815.1;cage L1 c2 p1
-859;Cadre de porte double métal;1399.5;2424.0;1800.0;60;60.0;2799.0;cage L1 c2 p2
-860;Cadre de porte double métal;1139.7;2574.0;1800.0;60;66.12;2815.1;cage L1 c2 p3
-861;Cadre de porte double métal;879.9;2724.0;1800.0;60;72.1;2862.6;cage L1 c2 p4
-862;Cadre de porte double métal;600.0;2799.0;1800.0;90;77.9;2862.6;cage L1 c3 p0
-863;Cadre de porte double métal;300.0;2799.0;1800.0;90;83.88;2815.1;cage L1 c3 p1
-864;Cadre de porte double métal;0.0;2799.0;1800.0;90;90.0;2799.0;cage L1 c3 p2
-865;Cadre de porte double métal;-300.0;2799.0;1800.0;90;96.12;2815.1;cage L1 c3 p3
-866;Cadre de porte double métal;-600.0;2799.0;1800.0;90;102.1;2862.6;cage L1 c3 p4
-867;Cadre de porte double métal;-879.9;2724.0;1800.0;120;107.9;2862.6;cage L1 c4 p0
-868;Cadre de porte double métal;-1139.7;2574.0;1800.0;120;113.88;2815.1;cage L1 c4 p1
-869;Cadre de porte double métal;-1399.5;2424.0;1800.0;120;120.0;2799.0;cage L1 c4 p2
-870;Cadre de porte double métal;-1659.3;2274.0;1800.0;120;126.12;2815.1;cage L1 c4 p3
-871;Cadre de porte double métal;-1919.1;2124.0;1800.0;120;132.1;2862.6;cage L1 c4 p4
-872;Cadre de porte double métal;-2124.0;1919.1;1800.0;150;137.9;2862.6;cage L1 c5 p0
-873;Cadre de porte double métal;-2274.0;1659.3;1800.0;150;143.88;2815.1;cage L1 c5 p1
-874;Cadre de porte double métal;-2424.0;1399.5;1800.0;150;150.0;2799.0;cage L1 c5 p2
-875;Cadre de porte double métal;-2574.0;1139.7;1800.0;150;156.12;2815.1;cage L1 c5 p3
-876;Cadre de porte double métal;-2724.0;879.9;1800.0;150;162.1;2862.6;cage L1 c5 p4
-877;Cadre de porte double métal;-2799.0;600.0;1800.0;180;167.9;2862.6;cage L1 c6 p0
-878;Cadre de porte double métal;-2799.0;300.0;1800.0;180;173.88;2815.1;cage L1 c6 p1
-879;Cadre de porte double métal;-2799.0;0.0;1800.0;180;180.0;2799.0;cage L1 c6 p2
-880;Cadre de porte double métal;-2799.0;-300.0;1800.0;180;186.12;2815.1;cage L1 c6 p3
-881;Cadre de porte double métal;-2799.0;-600.0;1800.0;180;192.1;2862.6;cage L1 c6 p4
-882;Cadre de porte double métal;-2724.0;-879.9;1800.0;210;197.9;2862.6;cage L1 c7 p0
-883;Cadre de porte double métal;-2574.0;-1139.7;1800.0;210;203.88;2815.1;cage L1 c7 p1
-884;Cadre de porte double métal;-2424.0;-1399.5;1800.0;210;210.0;2799.0;cage L1 c7 p2
-885;Cadre de porte double métal;-2274.0;-1659.3;1800.0;210;216.12;2815.1;cage L1 c7 p3
-886;Cadre de porte double métal;-2124.0;-1919.1;1800.0;210;222.1;2862.6;cage L1 c7 p4
-887;Cadre de porte double métal;-1919.1;-2124.0;1800.0;240;227.9;2862.6;cage L1 c8 p0
-888;Cadre de porte double métal;-1659.3;-2274.0;1800.0;240;233.88;2815.1;cage L1 c8 p1
-889;Cadre de porte double métal;-1399.5;-2424.0;1800.0;240;240.0;2799.0;cage L1 c8 p2
-890;Cadre de porte double métal;-1139.7;-2574.0;1800.0;240;246.12;2815.1;cage L1 c8 p3
-891;Cadre de porte double métal;-879.9;-2724.0;1800.0;240;252.1;2862.6;cage L1 c8 p4
-892;Cadre de porte double métal;-600.0;-2799.0;1800.0;270;257.9;2862.6;cage L1 c9 p0
-893;Cadre de porte double métal;-300.0;-2799.0;1800.0;270;263.88;2815.1;cage L1 c9 p1
-894;Cadre de porte double métal;-0.0;-2799.0;1800.0;270;270.0;2799.0;cage L1 c9 p2
-895;Cadre de porte double métal;300.0;-2799.0;1800.0;270;276.12;2815.1;cage L1 c9 p3
-896;Cadre de porte double métal;600.0;-2799.0;1800.0;270;282.1;2862.6;cage L1 c9 p4
-897;Cadre de porte double métal;879.9;-2724.0;1800.0;300;287.9;2862.6;cage L1 c10 p0
-898;Cadre de porte double métal;1139.7;-2574.0;1800.0;300;293.88;2815.1;cage L1 c10 p1
-899;Cadre de porte double métal;1399.5;-2424.0;1800.0;300;300.0;2799.0;cage L1 c10 p2
-900;Cadre de porte double métal;1659.3;-2274.0;1800.0;300;306.12;2815.1;cage L1 c10 p3
-901;Cadre de porte double métal;1919.1;-2124.0;1800.0;300;312.1;2862.6;cage L1 c10 p4
-902;Cadre de porte double métal;2124.0;-1919.1;1800.0;330;317.9;2862.6;cage L1 c11 p0
-903;Cadre de porte double métal;2274.0;-1659.3;1800.0;330;323.88;2815.1;cage L1 c11 p1
-904;Cadre de porte double métal;2424.0;-1399.5;1800.0;330;330.0;2799.0;cage L1 c11 p2
-905;Cadre de porte double métal;2574.0;-1139.7;1800.0;330;336.12;2815.1;cage L1 c11 p3
-906;Cadre de porte double métal;2724.0;-879.9;1800.0;330;342.1;2862.6;cage L1 c11 p4
-907;Cadre de porte double métal;2799.0;-600.0;2100.0;0;347.9;2862.6;cage L2 c0 p0
-908;Cadre de porte double métal;2799.0;-300.0;2100.0;0;353.88;2815.1;cage L2 c0 p1
-909;Cadre de porte double métal;2799.0;0.0;2100.0;0;0.0;2799.0;cage L2 c0 p2
-910;Cadre de porte double métal;2799.0;300.0;2100.0;0;6.12;2815.1;cage L2 c0 p3
-911;Cadre de porte double métal;2799.0;600.0;2100.0;0;12.1;2862.6;cage L2 c0 p4
-912;Cadre de porte double métal;2724.0;879.9;2100.0;30;17.9;2862.6;cage L2 c1 p0
-913;Cadre de porte double métal;2574.0;1139.7;2100.0;30;23.88;2815.1;cage L2 c1 p1
-914;Cadre de porte double métal;2424.0;1399.5;2100.0;30;30.0;2799.0;cage L2 c1 p2
-915;Cadre de porte double métal;2274.0;1659.3;2100.0;30;36.12;2815.1;cage L2 c1 p3
-916;Cadre de porte double métal;2124.0;1919.1;2100.0;30;42.1;2862.6;cage L2 c1 p4
-917;Cadre de porte double métal;1919.1;2124.0;2100.0;60;47.9;2862.6;cage L2 c2 p0
-918;Cadre de porte double métal;1659.3;2274.0;2100.0;60;53.88;2815.1;cage L2 c2 p1
-919;Cadre de porte double métal;1399.5;2424.0;2100.0;60;60.0;2799.0;cage L2 c2 p2
-920;Cadre de porte double métal;1139.7;2574.0;2100.0;60;66.12;2815.1;cage L2 c2 p3
-921;Cadre de porte double métal;879.9;2724.0;2100.0;60;72.1;2862.6;cage L2 c2 p4
-922;Cadre de porte double métal;600.0;2799.0;2100.0;90;77.9;2862.6;cage L2 c3 p0
-923;Cadre de porte double métal;300.0;2799.0;2100.0;90;83.88;2815.1;cage L2 c3 p1
-924;Cadre de porte double métal;0.0;2799.0;2100.0;90;90.0;2799.0;cage L2 c3 p2
-925;Cadre de porte double métal;-300.0;2799.0;2100.0;90;96.12;2815.1;cage L2 c3 p3
-926;Cadre de porte double métal;-600.0;2799.0;2100.0;90;102.1;2862.6;cage L2 c3 p4
-927;Cadre de porte double métal;-879.9;2724.0;2100.0;120;107.9;2862.6;cage L2 c4 p0
-928;Cadre de porte double métal;-1139.7;2574.0;2100.0;120;113.88;2815.1;cage L2 c4 p1
-929;Cadre de porte double métal;-1399.5;2424.0;2100.0;120;120.0;2799.0;cage L2 c4 p2
-930;Cadre de porte double métal;-1659.3;2274.0;2100.0;120;126.12;2815.1;cage L2 c4 p3
-931;Cadre de porte double métal;-1919.1;2124.0;2100.0;120;132.1;2862.6;cage L2 c4 p4
-932;Cadre de porte double métal;-2124.0;1919.1;2100.0;150;137.9;2862.6;cage L2 c5 p0
-933;Cadre de porte double métal;-2274.0;1659.3;2100.0;150;143.88;2815.1;cage L2 c5 p1
-934;Cadre de porte double métal;-2424.0;1399.5;2100.0;150;150.0;2799.0;cage L2 c5 p2
-935;Cadre de porte double métal;-2574.0;1139.7;2100.0;150;156.12;2815.1;cage L2 c5 p3
-936;Cadre de porte double métal;-2724.0;879.9;2100.0;150;162.1;2862.6;cage L2 c5 p4
-937;Cadre de porte double métal;-2799.0;600.0;2100.0;180;167.9;2862.6;cage L2 c6 p0
-938;Cadre de porte double métal;-2799.0;300.0;2100.0;180;173.88;2815.1;cage L2 c6 p1
-939;Cadre de porte double métal;-2799.0;0.0;2100.0;180;180.0;2799.0;cage L2 c6 p2
-940;Cadre de porte double métal;-2799.0;-300.0;2100.0;180;186.12;2815.1;cage L2 c6 p3
-941;Cadre de porte double métal;-2799.0;-600.0;2100.0;180;192.1;2862.6;cage L2 c6 p4
-942;Cadre de porte double métal;-2724.0;-879.9;2100.0;210;197.9;2862.6;cage L2 c7 p0
-943;Cadre de porte double métal;-2574.0;-1139.7;2100.0;210;203.88;2815.1;cage L2 c7 p1
-944;Cadre de porte double métal;-2424.0;-1399.5;2100.0;210;210.0;2799.0;cage L2 c7 p2
-945;Cadre de porte double métal;-2274.0;-1659.3;2100.0;210;216.12;2815.1;cage L2 c7 p3
-946;Cadre de porte double métal;-2124.0;-1919.1;2100.0;210;222.1;2862.6;cage L2 c7 p4
-947;Cadre de porte double métal;-1919.1;-2124.0;2100.0;240;227.9;2862.6;cage L2 c8 p0
-948;Cadre de porte double métal;-1659.3;-2274.0;2100.0;240;233.88;2815.1;cage L2 c8 p1
-949;Cadre de porte double métal;-1399.5;-2424.0;2100.0;240;240.0;2799.0;cage L2 c8 p2
-950;Cadre de porte double métal;-1139.7;-2574.0;2100.0;240;246.12;2815.1;cage L2 c8 p3
-951;Cadre de porte double métal;-879.9;-2724.0;2100.0;240;252.1;2862.6;cage L2 c8 p4
-952;Cadre de porte double métal;-600.0;-2799.0;2100.0;270;257.9;2862.6;cage L2 c9 p0
-953;Cadre de porte double métal;-300.0;-2799.0;2100.0;270;263.88;2815.1;cage L2 c9 p1
-954;Cadre de porte double métal;-0.0;-2799.0;2100.0;270;270.0;2799.0;cage L2 c9 p2
-955;Cadre de porte double métal;300.0;-2799.0;2100.0;270;276.12;2815.1;cage L2 c9 p3
-956;Cadre de porte double métal;600.0;-2799.0;2100.0;270;282.1;2862.6;cage L2 c9 p4
-957;Cadre de porte double métal;879.9;-2724.0;2100.0;300;287.9;2862.6;cage L2 c10 p0
-958;Cadre de porte double métal;1139.7;-2574.0;2100.0;300;293.88;2815.1;cage L2 c10 p1
-959;Cadre de porte double métal;1399.5;-2424.0;2100.0;300;300.0;2799.0;cage L2 c10 p2
-960;Cadre de porte double métal;1659.3;-2274.0;2100.0;300;306.12;2815.1;cage L2 c10 p3
-961;Cadre de porte double métal;1919.1;-2124.0;2100.0;300;312.1;2862.6;cage L2 c10 p4
-962;Cadre de porte double métal;2124.0;-1919.1;2100.0;330;317.9;2862.6;cage L2 c11 p0
-963;Cadre de porte double métal;2274.0;-1659.3;2100.0;330;323.88;2815.1;cage L2 c11 p1
-964;Cadre de porte double métal;2424.0;-1399.5;2100.0;330;330.0;2799.0;cage L2 c11 p2
-965;Cadre de porte double métal;2574.0;-1139.7;2100.0;330;336.12;2815.1;cage L2 c11 p3
-966;Cadre de porte double métal;2724.0;-879.9;2100.0;330;342.1;2862.6;cage L2 c11 p4
-967;Toit incliné métal;2949.0;-750.0;2100.0;180;345.73;3042.9;casquette r-1 c0 p0
-968;Toit incliné métal;2949.0;-450.0;2100.0;180;351.32;2983.2;casquette r-1 c0 p1
-969;Toit incliné métal;2949.0;-150.0;2100.0;180;357.09;2952.9;casquette r-1 c0 p2
-970;Toit incliné métal;2949.0;150.0;2100.0;180;2.91;2952.9;casquette r-1 c0 p3
-971;Toit incliné métal;2949.0;450.0;2100.0;180;8.68;2983.2;casquette r-1 c0 p4
-972;Toit incliné métal;2949.0;750.0;2100.0;180;14.27;3042.9;casquette r-1 c0 p5
-973;Toit incliné métal;2928.9;825.0;2100.0;210;15.73;3042.9;casquette r-1 c1 p0
-974;Toit incliné métal;2778.9;1084.8;2100.0;210;21.32;2983.2;casquette r-1 c1 p1
-975;Toit incliné métal;2628.9;1344.6;2100.0;210;27.09;2952.9;casquette r-1 c1 p2
-976;Toit incliné métal;2478.9;1604.4;2100.0;210;32.91;2952.9;casquette r-1 c1 p3
-977;Toit incliné métal;2328.9;1864.2;2100.0;210;38.68;2983.2;casquette r-1 c1 p4
-978;Toit incliné métal;2178.9;2124.0;2100.0;210;44.27;3042.9;casquette r-1 c1 p5
-979;Toit incliné métal;2124.0;2178.9;2100.0;240;45.73;3042.9;casquette r-1 c2 p0
-980;Toit incliné métal;1864.2;2328.9;2100.0;240;51.32;2983.2;casquette r-1 c2 p1
-981;Toit incliné métal;1604.4;2478.9;2100.0;240;57.09;2952.9;casquette r-1 c2 p2
-982;Toit incliné métal;1344.6;2628.9;2100.0;240;62.91;2952.9;casquette r-1 c2 p3
-983;Toit incliné métal;1084.8;2778.9;2100.0;240;68.68;2983.2;casquette r-1 c2 p4
-984;Toit incliné métal;825.0;2928.9;2100.0;240;74.27;3042.9;casquette r-1 c2 p5
-985;Toit incliné métal;750.0;2949.0;2100.0;270;75.73;3042.9;casquette r-1 c3 p0
-986;Toit incliné métal;450.0;2949.0;2100.0;270;81.32;2983.2;casquette r-1 c3 p1
-987;Toit incliné métal;150.0;2949.0;2100.0;270;87.09;2952.9;casquette r-1 c3 p2
-988;Toit incliné métal;-150.0;2949.0;2100.0;270;92.91;2952.9;casquette r-1 c3 p3
-989;Toit incliné métal;-450.0;2949.0;2100.0;270;98.68;2983.2;casquette r-1 c3 p4
-990;Toit incliné métal;-750.0;2949.0;2100.0;270;104.27;3042.9;casquette r-1 c3 p5
-991;Toit incliné métal;-825.0;2928.9;2100.0;300;105.73;3042.9;casquette r-1 c4 p0
-992;Toit incliné métal;-1084.8;2778.9;2100.0;300;111.32;2983.2;casquette r-1 c4 p1
-993;Toit incliné métal;-1344.6;2628.9;2100.0;300;117.09;2952.9;casquette r-1 c4 p2
-994;Toit incliné métal;-1604.4;2478.9;2100.0;300;122.91;2952.9;casquette r-1 c4 p3
-995;Toit incliné métal;-1864.2;2328.9;2100.0;300;128.68;2983.2;casquette r-1 c4 p4
-996;Toit incliné métal;-2124.0;2178.9;2100.0;300;134.27;3042.9;casquette r-1 c4 p5
-997;Toit incliné métal;-2178.9;2124.0;2100.0;330;135.73;3042.9;casquette r-1 c5 p0
-998;Toit incliné métal;-2328.9;1864.2;2100.0;330;141.32;2983.2;casquette r-1 c5 p1
-999;Toit incliné métal;-2478.9;1604.4;2100.0;330;147.09;2952.9;casquette r-1 c5 p2
-1000;Toit incliné métal;-2628.9;1344.6;2100.0;330;152.91;2952.9;casquette r-1 c5 p3
-1001;Toit incliné métal;-2778.9;1084.8;2100.0;330;158.68;2983.2;casquette r-1 c5 p4
-1002;Toit incliné métal;-2928.9;825.0;2100.0;330;164.27;3042.9;casquette r-1 c5 p5
-1003;Toit incliné métal;-2949.0;750.0;2100.0;0;165.73;3042.9;casquette r-1 c6 p0
-1004;Toit incliné métal;-2949.0;450.0;2100.0;0;171.32;2983.2;casquette r-1 c6 p1
-1005;Toit incliné métal;-2949.0;150.0;2100.0;0;177.09;2952.9;casquette r-1 c6 p2
-1006;Toit incliné métal;-2949.0;-150.0;2100.0;0;182.91;2952.9;casquette r-1 c6 p3
-1007;Toit incliné métal;-2949.0;-450.0;2100.0;0;188.68;2983.2;casquette r-1 c6 p4
-1008;Toit incliné métal;-2949.0;-750.0;2100.0;0;194.27;3042.9;casquette r-1 c6 p5
-1009;Toit incliné métal;-2928.9;-825.0;2100.0;30;195.73;3042.9;casquette r-1 c7 p0
-1010;Toit incliné métal;-2778.9;-1084.8;2100.0;30;201.32;2983.2;casquette r-1 c7 p1
-1011;Toit incliné métal;-2628.9;-1344.6;2100.0;30;207.09;2952.9;casquette r-1 c7 p2
-1012;Toit incliné métal;-2478.9;-1604.4;2100.0;30;212.91;2952.9;casquette r-1 c7 p3
-1013;Toit incliné métal;-2328.9;-1864.2;2100.0;30;218.68;2983.2;casquette r-1 c7 p4
-1014;Toit incliné métal;-2178.9;-2124.0;2100.0;30;224.27;3042.9;casquette r-1 c7 p5
-1015;Toit incliné métal;-2124.0;-2178.9;2100.0;60;225.73;3042.9;casquette r-1 c8 p0
-1016;Toit incliné métal;-1864.2;-2328.9;2100.0;60;231.32;2983.2;casquette r-1 c8 p1
-1017;Toit incliné métal;-1604.4;-2478.9;2100.0;60;237.09;2952.9;casquette r-1 c8 p2
-1018;Toit incliné métal;-1344.6;-2628.9;2100.0;60;242.91;2952.9;casquette r-1 c8 p3
-1019;Toit incliné métal;-1084.8;-2778.9;2100.0;60;248.68;2983.2;casquette r-1 c8 p4
-1020;Toit incliné métal;-825.0;-2928.9;2100.0;60;254.27;3042.9;casquette r-1 c8 p5
-1021;Toit incliné métal;-750.0;-2949.0;2100.0;90;255.73;3042.9;casquette r-1 c9 p0
-1022;Toit incliné métal;-450.0;-2949.0;2100.0;90;261.32;2983.2;casquette r-1 c9 p1
-1023;Toit incliné métal;-150.0;-2949.0;2100.0;90;267.09;2952.9;casquette r-1 c9 p2
-1024;Toit incliné métal;150.0;-2949.0;2100.0;90;272.91;2952.9;casquette r-1 c9 p3
-1025;Toit incliné métal;450.0;-2949.0;2100.0;90;278.68;2983.2;casquette r-1 c9 p4
-1026;Toit incliné métal;750.0;-2949.0;2100.0;90;284.27;3042.9;casquette r-1 c9 p5
-1027;Toit incliné métal;825.0;-2928.9;2100.0;120;285.73;3042.9;casquette r-1 c10 p0
-1028;Toit incliné métal;1084.8;-2778.9;2100.0;120;291.32;2983.2;casquette r-1 c10 p1
-1029;Toit incliné métal;1344.6;-2628.9;2100.0;120;297.09;2952.9;casquette r-1 c10 p2
-1030;Toit incliné métal;1604.4;-2478.9;2100.0;120;302.91;2952.9;casquette r-1 c10 p3
-1031;Toit incliné métal;1864.2;-2328.9;2100.0;120;308.68;2983.2;casquette r-1 c10 p4
-1032;Toit incliné métal;2124.0;-2178.9;2100.0;120;314.27;3042.9;casquette r-1 c10 p5
-1033;Toit incliné métal;2178.9;-2124.0;2100.0;150;315.73;3042.9;casquette r-1 c11 p0
-1034;Toit incliné métal;2328.9;-1864.2;2100.0;150;321.32;2983.2;casquette r-1 c11 p1
-1035;Toit incliné métal;2478.9;-1604.4;2100.0;150;327.09;2952.9;casquette r-1 c11 p2
-1036;Toit incliné métal;2628.9;-1344.6;2100.0;150;332.91;2952.9;casquette r-1 c11 p3
-1037;Toit incliné métal;2778.9;-1084.8;2100.0;150;338.68;2983.2;casquette r-1 c11 p4
-1038;Toit incliné métal;2928.9;-825.0;2100.0;150;344.27;3042.9;casquette r-1 c11 p5
-1039;Toit incliné métal;2649.0;-600.0;2400.0;180;347.24;2716.1;reprise r0 c0 p0
-1040;Toit incliné métal;2649.0;-300.0;2400.0;180;353.54;2666.0;reprise r0 c0 p1
-1041;Toit incliné métal;2649.0;0.0;2400.0;180;0.0;2649.0;reprise r0 c0 p2
-1042;Toit incliné métal;2649.0;300.0;2400.0;180;6.46;2666.0;reprise r0 c0 p3
-1043;Toit incliné métal;2649.0;600.0;2400.0;180;12.76;2716.1;reprise r0 c0 p4
-1044;Toit incliné métal;2594.1;804.9;2400.0;210;17.24;2716.1;reprise r0 c1 p0
-1045;Toit incliné métal;2444.1;1064.7;2400.0;210;23.54;2666.0;reprise r0 c1 p1
-1046;Toit incliné métal;2294.1;1324.5;2400.0;210;30.0;2649.0;reprise r0 c1 p2
-1047;Toit incliné métal;2144.1;1584.3;2400.0;210;36.46;2666.0;reprise r0 c1 p3
-1048;Toit incliné métal;1994.1;1844.1;2400.0;210;42.76;2716.1;reprise r0 c1 p4
-1049;Toit incliné métal;1844.1;1994.1;2400.0;240;47.24;2716.1;reprise r0 c2 p0
-1050;Toit incliné métal;1584.3;2144.1;2400.0;240;53.54;2666.0;reprise r0 c2 p1
-1051;Toit incliné métal;1324.5;2294.1;2400.0;240;60.0;2649.0;reprise r0 c2 p2
-1052;Toit incliné métal;1064.7;2444.1;2400.0;240;66.46;2666.0;reprise r0 c2 p3
-1053;Toit incliné métal;804.9;2594.1;2400.0;240;72.76;2716.1;reprise r0 c2 p4
-1054;Toit incliné métal;600.0;2649.0;2400.0;270;77.24;2716.1;reprise r0 c3 p0
-1055;Toit incliné métal;300.0;2649.0;2400.0;270;83.54;2666.0;reprise r0 c3 p1
-1056;Toit incliné métal;0.0;2649.0;2400.0;270;90.0;2649.0;reprise r0 c3 p2
-1057;Toit incliné métal;-300.0;2649.0;2400.0;270;96.46;2666.0;reprise r0 c3 p3
-1058;Toit incliné métal;-600.0;2649.0;2400.0;270;102.76;2716.1;reprise r0 c3 p4
-1059;Toit incliné métal;-804.9;2594.1;2400.0;300;107.24;2716.1;reprise r0 c4 p0
-1060;Toit incliné métal;-1064.7;2444.1;2400.0;300;113.54;2666.0;reprise r0 c4 p1
-1061;Toit incliné métal;-1324.5;2294.1;2400.0;300;120.0;2649.0;reprise r0 c4 p2
-1062;Toit incliné métal;-1584.3;2144.1;2400.0;300;126.46;2666.0;reprise r0 c4 p3
-1063;Toit incliné métal;-1844.1;1994.1;2400.0;300;132.76;2716.1;reprise r0 c4 p4
-1064;Toit incliné métal;-1994.1;1844.1;2400.0;330;137.24;2716.1;reprise r0 c5 p0
-1065;Toit incliné métal;-2144.1;1584.3;2400.0;330;143.54;2666.0;reprise r0 c5 p1
-1066;Toit incliné métal;-2294.1;1324.5;2400.0;330;150.0;2649.0;reprise r0 c5 p2
-1067;Toit incliné métal;-2444.1;1064.7;2400.0;330;156.46;2666.0;reprise r0 c5 p3
-1068;Toit incliné métal;-2594.1;804.9;2400.0;330;162.76;2716.1;reprise r0 c5 p4
-1069;Toit incliné métal;-2649.0;600.0;2400.0;0;167.24;2716.1;reprise r0 c6 p0
-1070;Toit incliné métal;-2649.0;300.0;2400.0;0;173.54;2666.0;reprise r0 c6 p1
-1071;Toit incliné métal;-2649.0;0.0;2400.0;0;180.0;2649.0;reprise r0 c6 p2
-1072;Toit incliné métal;-2649.0;-300.0;2400.0;0;186.46;2666.0;reprise r0 c6 p3
-1073;Toit incliné métal;-2649.0;-600.0;2400.0;0;192.76;2716.1;reprise r0 c6 p4
-1074;Toit incliné métal;-2594.1;-804.9;2400.0;30;197.24;2716.1;reprise r0 c7 p0
-1075;Toit incliné métal;-2444.1;-1064.7;2400.0;30;203.54;2666.0;reprise r0 c7 p1
-1076;Toit incliné métal;-2294.1;-1324.5;2400.0;30;210.0;2649.0;reprise r0 c7 p2
-1077;Toit incliné métal;-2144.1;-1584.3;2400.0;30;216.46;2666.0;reprise r0 c7 p3
-1078;Toit incliné métal;-1994.1;-1844.1;2400.0;30;222.76;2716.1;reprise r0 c7 p4
-1079;Toit incliné métal;-1844.1;-1994.1;2400.0;60;227.24;2716.1;reprise r0 c8 p0
-1080;Toit incliné métal;-1584.3;-2144.1;2400.0;60;233.54;2666.0;reprise r0 c8 p1
-1081;Toit incliné métal;-1324.5;-2294.1;2400.0;60;240.0;2649.0;reprise r0 c8 p2
-1082;Toit incliné métal;-1064.7;-2444.1;2400.0;60;246.46;2666.0;reprise r0 c8 p3
-1083;Toit incliné métal;-804.9;-2594.1;2400.0;60;252.76;2716.1;reprise r0 c8 p4
-1084;Toit incliné métal;-600.0;-2649.0;2400.0;90;257.24;2716.1;reprise r0 c9 p0
-1085;Toit incliné métal;-300.0;-2649.0;2400.0;90;263.54;2666.0;reprise r0 c9 p1
-1086;Toit incliné métal;-0.0;-2649.0;2400.0;90;270.0;2649.0;reprise r0 c9 p2
-1087;Toit incliné métal;300.0;-2649.0;2400.0;90;276.46;2666.0;reprise r0 c9 p3
-1088;Toit incliné métal;600.0;-2649.0;2400.0;90;282.76;2716.1;reprise r0 c9 p4
-1089;Toit incliné métal;804.9;-2594.1;2400.0;120;287.24;2716.1;reprise r0 c10 p0
-1090;Toit incliné métal;1064.7;-2444.1;2400.0;120;293.54;2666.0;reprise r0 c10 p1
-1091;Toit incliné métal;1324.5;-2294.1;2400.0;120;300.0;2649.0;reprise r0 c10 p2
-1092;Toit incliné métal;1584.3;-2144.1;2400.0;120;306.46;2666.0;reprise r0 c10 p3
-1093;Toit incliné métal;1844.1;-1994.1;2400.0;120;312.76;2716.1;reprise r0 c10 p4
-1094;Toit incliné métal;1994.1;-1844.1;2400.0;150;317.24;2716.1;reprise r0 c11 p0
-1095;Toit incliné métal;2144.1;-1584.3;2400.0;150;323.54;2666.0;reprise r0 c11 p1
-1096;Toit incliné métal;2294.1;-1324.5;2400.0;150;330.0;2649.0;reprise r0 c11 p2
-1097;Toit incliné métal;2444.1;-1064.7;2400.0;150;336.46;2666.0;reprise r0 c11 p3
-1098;Toit incliné métal;2594.1;-804.9;2400.0;150;342.76;2716.1;reprise r0 c11 p4
-1099;Toit incliné métal;2349.0;-600.0;2700.0;180;345.67;2424.5;reprise r1 c0 p0
-1100;Toit incliné métal;2349.0;-300.0;2700.0;180;352.72;2368.1;reprise r1 c0 p1
-1101;Toit incliné métal;2349.0;0.0;2700.0;180;0.0;2349.0;reprise r1 c0 p2
-1102;Toit incliné métal;2349.0;300.0;2700.0;180;7.28;2368.1;reprise r1 c0 p3
-1103;Toit incliné métal;2349.0;600.0;2700.0;180;14.33;2424.5;reprise r1 c0 p4
-1104;Toit incliné métal;2334.3;654.9;2700.0;210;15.67;2424.5;reprise r1 c1 p0
-1105;Toit incliné métal;2184.3;914.7;2700.0;210;22.72;2368.1;reprise r1 c1 p1
-1106;Toit incliné métal;2034.3;1174.5;2700.0;210;30.0;2349.0;reprise r1 c1 p2
-1107;Toit incliné métal;1884.3;1434.3;2700.0;210;37.28;2368.1;reprise r1 c1 p3
-1108;Toit incliné métal;1734.3;1694.1;2700.0;210;44.33;2424.5;reprise r1 c1 p4
-1109;Toit incliné métal;1694.1;1734.3;2700.0;240;45.67;2424.5;reprise r1 c2 p0
-1110;Toit incliné métal;1434.3;1884.3;2700.0;240;52.72;2368.1;reprise r1 c2 p1
-1111;Toit incliné métal;1174.5;2034.3;2700.0;240;60.0;2349.0;reprise r1 c2 p2
-1112;Toit incliné métal;914.7;2184.3;2700.0;240;67.28;2368.1;reprise r1 c2 p3
-1113;Toit incliné métal;654.9;2334.3;2700.0;240;74.33;2424.5;reprise r1 c2 p4
-1114;Toit incliné métal;600.0;2349.0;2700.0;270;75.67;2424.5;reprise r1 c3 p0
-1115;Toit incliné métal;300.0;2349.0;2700.0;270;82.72;2368.1;reprise r1 c3 p1
-1116;Toit incliné métal;0.0;2349.0;2700.0;270;90.0;2349.0;reprise r1 c3 p2
-1117;Toit incliné métal;-300.0;2349.0;2700.0;270;97.28;2368.1;reprise r1 c3 p3
-1118;Toit incliné métal;-600.0;2349.0;2700.0;270;104.33;2424.5;reprise r1 c3 p4
-1119;Toit incliné métal;-654.9;2334.3;2700.0;300;105.67;2424.5;reprise r1 c4 p0
-1120;Toit incliné métal;-914.7;2184.3;2700.0;300;112.72;2368.1;reprise r1 c4 p1
-1121;Toit incliné métal;-1174.5;2034.3;2700.0;300;120.0;2349.0;reprise r1 c4 p2
-1122;Toit incliné métal;-1434.3;1884.3;2700.0;300;127.28;2368.1;reprise r1 c4 p3
-1123;Toit incliné métal;-1694.1;1734.3;2700.0;300;134.33;2424.5;reprise r1 c4 p4
-1124;Toit incliné métal;-1734.3;1694.1;2700.0;330;135.67;2424.5;reprise r1 c5 p0
-1125;Toit incliné métal;-1884.3;1434.3;2700.0;330;142.72;2368.1;reprise r1 c5 p1
-1126;Toit incliné métal;-2034.3;1174.5;2700.0;330;150.0;2349.0;reprise r1 c5 p2
-1127;Toit incliné métal;-2184.3;914.7;2700.0;330;157.28;2368.1;reprise r1 c5 p3
-1128;Toit incliné métal;-2334.3;654.9;2700.0;330;164.33;2424.5;reprise r1 c5 p4
-1129;Toit incliné métal;-2349.0;600.0;2700.0;0;165.67;2424.5;reprise r1 c6 p0
-1130;Toit incliné métal;-2349.0;300.0;2700.0;0;172.72;2368.1;reprise r1 c6 p1
-1131;Toit incliné métal;-2349.0;0.0;2700.0;0;180.0;2349.0;reprise r1 c6 p2
-1132;Toit incliné métal;-2349.0;-300.0;2700.0;0;187.28;2368.1;reprise r1 c6 p3
-1133;Toit incliné métal;-2349.0;-600.0;2700.0;0;194.33;2424.5;reprise r1 c6 p4
-1134;Toit incliné métal;-2334.3;-654.9;2700.0;30;195.67;2424.5;reprise r1 c7 p0
-1135;Toit incliné métal;-2184.3;-914.7;2700.0;30;202.72;2368.1;reprise r1 c7 p1
-1136;Toit incliné métal;-2034.3;-1174.5;2700.0;30;210.0;2349.0;reprise r1 c7 p2
-1137;Toit incliné métal;-1884.3;-1434.3;2700.0;30;217.28;2368.1;reprise r1 c7 p3
-1138;Toit incliné métal;-1734.3;-1694.1;2700.0;30;224.33;2424.5;reprise r1 c7 p4
-1139;Toit incliné métal;-1694.1;-1734.3;2700.0;60;225.67;2424.5;reprise r1 c8 p0
-1140;Toit incliné métal;-1434.3;-1884.3;2700.0;60;232.72;2368.1;reprise r1 c8 p1
-1141;Toit incliné métal;-1174.5;-2034.3;2700.0;60;240.0;2349.0;reprise r1 c8 p2
-1142;Toit incliné métal;-914.7;-2184.3;2700.0;60;247.28;2368.1;reprise r1 c8 p3
-1143;Toit incliné métal;-654.9;-2334.3;2700.0;60;254.33;2424.5;reprise r1 c8 p4
-1144;Toit incliné métal;-600.0;-2349.0;2700.0;90;255.67;2424.5;reprise r1 c9 p0
-1145;Toit incliné métal;-300.0;-2349.0;2700.0;90;262.72;2368.1;reprise r1 c9 p1
-1146;Toit incliné métal;-0.0;-2349.0;2700.0;90;270.0;2349.0;reprise r1 c9 p2
-1147;Toit incliné métal;300.0;-2349.0;2700.0;90;277.28;2368.1;reprise r1 c9 p3
-1148;Toit incliné métal;600.0;-2349.0;2700.0;90;284.33;2424.5;reprise r1 c9 p4
-1149;Toit incliné métal;654.9;-2334.3;2700.0;120;285.67;2424.5;reprise r1 c10 p0
-1150;Toit incliné métal;914.7;-2184.3;2700.0;120;292.72;2368.1;reprise r1 c10 p1
-1151;Toit incliné métal;1174.5;-2034.3;2700.0;120;300.0;2349.0;reprise r1 c10 p2
-1152;Toit incliné métal;1434.3;-1884.3;2700.0;120;307.28;2368.1;reprise r1 c10 p3
-1153;Toit incliné métal;1694.1;-1734.3;2700.0;120;314.33;2424.5;reprise r1 c10 p4
-1154;Toit incliné métal;1734.3;-1694.1;2700.0;150;315.67;2424.5;reprise r1 c11 p0
-1155;Toit incliné métal;1884.3;-1434.3;2700.0;150;322.72;2368.1;reprise r1 c11 p1
-1156;Toit incliné métal;2034.3;-1174.5;2700.0;150;330.0;2349.0;reprise r1 c11 p2
-1157;Toit incliné métal;2184.3;-914.7;2700.0;150;337.28;2368.1;reprise r1 c11 p3
-1158;Toit incliné métal;2334.3;-654.9;2700.0;150;344.33;2424.5;reprise r1 c11 p4
+847;Cadre de porte double métal;2799.0;-600.0;2100.0;0;347.9;2862.6;cage L2 c0 p0
+848;Cadre de porte double métal;2799.0;-300.0;2100.0;0;353.88;2815.1;cage L2 c0 p1
+849;Cadre de porte double métal;2799.0;0.0;2100.0;0;0.0;2799.0;cage L2 c0 p2
+850;Cadre de porte double métal;2799.0;300.0;2100.0;0;6.12;2815.1;cage L2 c0 p3
+851;Cadre de porte double métal;2799.0;600.0;2100.0;0;12.1;2862.6;cage L2 c0 p4
+852;Cadre de porte double métal;2724.0;879.9;2100.0;30;17.9;2862.6;cage L2 c1 p0
+853;Cadre de porte double métal;2574.0;1139.7;2100.0;30;23.88;2815.1;cage L2 c1 p1
+854;Cadre de porte double métal;2424.0;1399.5;2100.0;30;30.0;2799.0;cage L2 c1 p2
+855;Cadre de porte double métal;2274.0;1659.3;2100.0;30;36.12;2815.1;cage L2 c1 p3
+856;Cadre de porte double métal;2124.0;1919.1;2100.0;30;42.1;2862.6;cage L2 c1 p4
+857;Cadre de porte double métal;1919.1;2124.0;2100.0;60;47.9;2862.6;cage L2 c2 p0
+858;Cadre de porte double métal;1659.3;2274.0;2100.0;60;53.88;2815.1;cage L2 c2 p1
+859;Cadre de porte double métal;1399.5;2424.0;2100.0;60;60.0;2799.0;cage L2 c2 p2
+860;Cadre de porte double métal;1139.7;2574.0;2100.0;60;66.12;2815.1;cage L2 c2 p3
+861;Cadre de porte double métal;879.9;2724.0;2100.0;60;72.1;2862.6;cage L2 c2 p4
+862;Cadre de porte double métal;600.0;2799.0;2100.0;90;77.9;2862.6;cage L2 c3 p0
+863;Cadre de porte double métal;300.0;2799.0;2100.0;90;83.88;2815.1;cage L2 c3 p1
+864;Cadre de porte double métal;0.0;2799.0;2100.0;90;90.0;2799.0;cage L2 c3 p2
+865;Cadre de porte double métal;-300.0;2799.0;2100.0;90;96.12;2815.1;cage L2 c3 p3
+866;Cadre de porte double métal;-600.0;2799.0;2100.0;90;102.1;2862.6;cage L2 c3 p4
+867;Cadre de porte double métal;-879.9;2724.0;2100.0;120;107.9;2862.6;cage L2 c4 p0
+868;Cadre de porte double métal;-1139.7;2574.0;2100.0;120;113.88;2815.1;cage L2 c4 p1
+869;Cadre de porte double métal;-1399.5;2424.0;2100.0;120;120.0;2799.0;cage L2 c4 p2
+870;Cadre de porte double métal;-1659.3;2274.0;2100.0;120;126.12;2815.1;cage L2 c4 p3
+871;Cadre de porte double métal;-1919.1;2124.0;2100.0;120;132.1;2862.6;cage L2 c4 p4
+872;Cadre de porte double métal;-2124.0;1919.1;2100.0;150;137.9;2862.6;cage L2 c5 p0
+873;Cadre de porte double métal;-2274.0;1659.3;2100.0;150;143.88;2815.1;cage L2 c5 p1
+874;Cadre de porte double métal;-2424.0;1399.5;2100.0;150;150.0;2799.0;cage L2 c5 p2
+875;Cadre de porte double métal;-2574.0;1139.7;2100.0;150;156.12;2815.1;cage L2 c5 p3
+876;Cadre de porte double métal;-2724.0;879.9;2100.0;150;162.1;2862.6;cage L2 c5 p4
+877;Cadre de porte double métal;-2799.0;600.0;2100.0;180;167.9;2862.6;cage L2 c6 p0
+878;Cadre de porte double métal;-2799.0;300.0;2100.0;180;173.88;2815.1;cage L2 c6 p1
+879;Cadre de porte double métal;-2799.0;0.0;2100.0;180;180.0;2799.0;cage L2 c6 p2
+880;Cadre de porte double métal;-2799.0;-300.0;2100.0;180;186.12;2815.1;cage L2 c6 p3
+881;Cadre de porte double métal;-2799.0;-600.0;2100.0;180;192.1;2862.6;cage L2 c6 p4
+882;Cadre de porte double métal;-2724.0;-879.9;2100.0;210;197.9;2862.6;cage L2 c7 p0
+883;Cadre de porte double métal;-2574.0;-1139.7;2100.0;210;203.88;2815.1;cage L2 c7 p1
+884;Cadre de porte double métal;-2424.0;-1399.5;2100.0;210;210.0;2799.0;cage L2 c7 p2
+885;Cadre de porte double métal;-2274.0;-1659.3;2100.0;210;216.12;2815.1;cage L2 c7 p3
+886;Cadre de porte double métal;-2124.0;-1919.1;2100.0;210;222.1;2862.6;cage L2 c7 p4
+887;Cadre de porte double métal;-1919.1;-2124.0;2100.0;240;227.9;2862.6;cage L2 c8 p0
+888;Cadre de porte double métal;-1659.3;-2274.0;2100.0;240;233.88;2815.1;cage L2 c8 p1
+889;Cadre de porte double métal;-1399.5;-2424.0;2100.0;240;240.0;2799.0;cage L2 c8 p2
+890;Cadre de porte double métal;-1139.7;-2574.0;2100.0;240;246.12;2815.1;cage L2 c8 p3
+891;Cadre de porte double métal;-879.9;-2724.0;2100.0;240;252.1;2862.6;cage L2 c8 p4
+892;Cadre de porte double métal;-600.0;-2799.0;2100.0;270;257.9;2862.6;cage L2 c9 p0
+893;Cadre de porte double métal;-300.0;-2799.0;2100.0;270;263.88;2815.1;cage L2 c9 p1
+894;Cadre de porte double métal;-0.0;-2799.0;2100.0;270;270.0;2799.0;cage L2 c9 p2
+895;Cadre de porte double métal;300.0;-2799.0;2100.0;270;276.12;2815.1;cage L2 c9 p3
+896;Cadre de porte double métal;600.0;-2799.0;2100.0;270;282.1;2862.6;cage L2 c9 p4
+897;Cadre de porte double métal;879.9;-2724.0;2100.0;300;287.9;2862.6;cage L2 c10 p0
+898;Cadre de porte double métal;1139.7;-2574.0;2100.0;300;293.88;2815.1;cage L2 c10 p1
+899;Cadre de porte double métal;1399.5;-2424.0;2100.0;300;300.0;2799.0;cage L2 c10 p2
+900;Cadre de porte double métal;1659.3;-2274.0;2100.0;300;306.12;2815.1;cage L2 c10 p3
+901;Cadre de porte double métal;1919.1;-2124.0;2100.0;300;312.1;2862.6;cage L2 c10 p4
+902;Cadre de porte double métal;2124.0;-1919.1;2100.0;330;317.9;2862.6;cage L2 c11 p0
+903;Cadre de porte double métal;2274.0;-1659.3;2100.0;330;323.88;2815.1;cage L2 c11 p1
+904;Cadre de porte double métal;2424.0;-1399.5;2100.0;330;330.0;2799.0;cage L2 c11 p2
+905;Cadre de porte double métal;2574.0;-1139.7;2100.0;330;336.12;2815.1;cage L2 c11 p3
+906;Cadre de porte double métal;2724.0;-879.9;2100.0;330;342.1;2862.6;cage L2 c11 p4
+907;Toit incliné métal;2949.0;-750.0;2100.0;180;345.73;3042.9;casquette r-1 c0 p0
+908;Toit incliné métal;2949.0;-450.0;2100.0;180;351.32;2983.2;casquette r-1 c0 p1
+909;Toit incliné métal;2949.0;-150.0;2100.0;180;357.09;2952.9;casquette r-1 c0 p2
+910;Toit incliné métal;2949.0;150.0;2100.0;180;2.91;2952.9;casquette r-1 c0 p3
+911;Toit incliné métal;2949.0;450.0;2100.0;180;8.68;2983.2;casquette r-1 c0 p4
+912;Toit incliné métal;2949.0;750.0;2100.0;180;14.27;3042.9;casquette r-1 c0 p5
+913;Toit incliné métal;2928.9;825.0;2100.0;210;15.73;3042.9;casquette r-1 c1 p0
+914;Toit incliné métal;2778.9;1084.8;2100.0;210;21.32;2983.2;casquette r-1 c1 p1
+915;Toit incliné métal;2628.9;1344.6;2100.0;210;27.09;2952.9;casquette r-1 c1 p2
+916;Toit incliné métal;2478.9;1604.4;2100.0;210;32.91;2952.9;casquette r-1 c1 p3
+917;Toit incliné métal;2328.9;1864.2;2100.0;210;38.68;2983.2;casquette r-1 c1 p4
+918;Toit incliné métal;2178.9;2124.0;2100.0;210;44.27;3042.9;casquette r-1 c1 p5
+919;Toit incliné métal;2124.0;2178.9;2100.0;240;45.73;3042.9;casquette r-1 c2 p0
+920;Toit incliné métal;1864.2;2328.9;2100.0;240;51.32;2983.2;casquette r-1 c2 p1
+921;Toit incliné métal;1604.4;2478.9;2100.0;240;57.09;2952.9;casquette r-1 c2 p2
+922;Toit incliné métal;1344.6;2628.9;2100.0;240;62.91;2952.9;casquette r-1 c2 p3
+923;Toit incliné métal;1084.8;2778.9;2100.0;240;68.68;2983.2;casquette r-1 c2 p4
+924;Toit incliné métal;825.0;2928.9;2100.0;240;74.27;3042.9;casquette r-1 c2 p5
+925;Toit incliné métal;750.0;2949.0;2100.0;270;75.73;3042.9;casquette r-1 c3 p0
+926;Toit incliné métal;450.0;2949.0;2100.0;270;81.32;2983.2;casquette r-1 c3 p1
+927;Toit incliné métal;150.0;2949.0;2100.0;270;87.09;2952.9;casquette r-1 c3 p2
+928;Toit incliné métal;-150.0;2949.0;2100.0;270;92.91;2952.9;casquette r-1 c3 p3
+929;Toit incliné métal;-450.0;2949.0;2100.0;270;98.68;2983.2;casquette r-1 c3 p4
+930;Toit incliné métal;-750.0;2949.0;2100.0;270;104.27;3042.9;casquette r-1 c3 p5
+931;Toit incliné métal;-825.0;2928.9;2100.0;300;105.73;3042.9;casquette r-1 c4 p0
+932;Toit incliné métal;-1084.8;2778.9;2100.0;300;111.32;2983.2;casquette r-1 c4 p1
+933;Toit incliné métal;-1344.6;2628.9;2100.0;300;117.09;2952.9;casquette r-1 c4 p2
+934;Toit incliné métal;-1604.4;2478.9;2100.0;300;122.91;2952.9;casquette r-1 c4 p3
+935;Toit incliné métal;-1864.2;2328.9;2100.0;300;128.68;2983.2;casquette r-1 c4 p4
+936;Toit incliné métal;-2124.0;2178.9;2100.0;300;134.27;3042.9;casquette r-1 c4 p5
+937;Toit incliné métal;-2178.9;2124.0;2100.0;330;135.73;3042.9;casquette r-1 c5 p0
+938;Toit incliné métal;-2328.9;1864.2;2100.0;330;141.32;2983.2;casquette r-1 c5 p1
+939;Toit incliné métal;-2478.9;1604.4;2100.0;330;147.09;2952.9;casquette r-1 c5 p2
+940;Toit incliné métal;-2628.9;1344.6;2100.0;330;152.91;2952.9;casquette r-1 c5 p3
+941;Toit incliné métal;-2778.9;1084.8;2100.0;330;158.68;2983.2;casquette r-1 c5 p4
+942;Toit incliné métal;-2928.9;825.0;2100.0;330;164.27;3042.9;casquette r-1 c5 p5
+943;Toit incliné métal;-2949.0;750.0;2100.0;0;165.73;3042.9;casquette r-1 c6 p0
+944;Toit incliné métal;-2949.0;450.0;2100.0;0;171.32;2983.2;casquette r-1 c6 p1
+945;Toit incliné métal;-2949.0;150.0;2100.0;0;177.09;2952.9;casquette r-1 c6 p2
+946;Toit incliné métal;-2949.0;-150.0;2100.0;0;182.91;2952.9;casquette r-1 c6 p3
+947;Toit incliné métal;-2949.0;-450.0;2100.0;0;188.68;2983.2;casquette r-1 c6 p4
+948;Toit incliné métal;-2949.0;-750.0;2100.0;0;194.27;3042.9;casquette r-1 c6 p5
+949;Toit incliné métal;-2928.9;-825.0;2100.0;30;195.73;3042.9;casquette r-1 c7 p0
+950;Toit incliné métal;-2778.9;-1084.8;2100.0;30;201.32;2983.2;casquette r-1 c7 p1
+951;Toit incliné métal;-2628.9;-1344.6;2100.0;30;207.09;2952.9;casquette r-1 c7 p2
+952;Toit incliné métal;-2478.9;-1604.4;2100.0;30;212.91;2952.9;casquette r-1 c7 p3
+953;Toit incliné métal;-2328.9;-1864.2;2100.0;30;218.68;2983.2;casquette r-1 c7 p4
+954;Toit incliné métal;-2178.9;-2124.0;2100.0;30;224.27;3042.9;casquette r-1 c7 p5
+955;Toit incliné métal;-2124.0;-2178.9;2100.0;60;225.73;3042.9;casquette r-1 c8 p0
+956;Toit incliné métal;-1864.2;-2328.9;2100.0;60;231.32;2983.2;casquette r-1 c8 p1
+957;Toit incliné métal;-1604.4;-2478.9;2100.0;60;237.09;2952.9;casquette r-1 c8 p2
+958;Toit incliné métal;-1344.6;-2628.9;2100.0;60;242.91;2952.9;casquette r-1 c8 p3
+959;Toit incliné métal;-1084.8;-2778.9;2100.0;60;248.68;2983.2;casquette r-1 c8 p4
+960;Toit incliné métal;-825.0;-2928.9;2100.0;60;254.27;3042.9;casquette r-1 c8 p5
+961;Toit incliné métal;-750.0;-2949.0;2100.0;90;255.73;3042.9;casquette r-1 c9 p0
+962;Toit incliné métal;-450.0;-2949.0;2100.0;90;261.32;2983.2;casquette r-1 c9 p1
+963;Toit incliné métal;-150.0;-2949.0;2100.0;90;267.09;2952.9;casquette r-1 c9 p2
+964;Toit incliné métal;150.0;-2949.0;2100.0;90;272.91;2952.9;casquette r-1 c9 p3
+965;Toit incliné métal;450.0;-2949.0;2100.0;90;278.68;2983.2;casquette r-1 c9 p4
+966;Toit incliné métal;750.0;-2949.0;2100.0;90;284.27;3042.9;casquette r-1 c9 p5
+967;Toit incliné métal;825.0;-2928.9;2100.0;120;285.73;3042.9;casquette r-1 c10 p0
+968;Toit incliné métal;1084.8;-2778.9;2100.0;120;291.32;2983.2;casquette r-1 c10 p1
+969;Toit incliné métal;1344.6;-2628.9;2100.0;120;297.09;2952.9;casquette r-1 c10 p2
+970;Toit incliné métal;1604.4;-2478.9;2100.0;120;302.91;2952.9;casquette r-1 c10 p3
+971;Toit incliné métal;1864.2;-2328.9;2100.0;120;308.68;2983.2;casquette r-1 c10 p4
+972;Toit incliné métal;2124.0;-2178.9;2100.0;120;314.27;3042.9;casquette r-1 c10 p5
+973;Toit incliné métal;2178.9;-2124.0;2100.0;150;315.73;3042.9;casquette r-1 c11 p0
+974;Toit incliné métal;2328.9;-1864.2;2100.0;150;321.32;2983.2;casquette r-1 c11 p1
+975;Toit incliné métal;2478.9;-1604.4;2100.0;150;327.09;2952.9;casquette r-1 c11 p2
+976;Toit incliné métal;2628.9;-1344.6;2100.0;150;332.91;2952.9;casquette r-1 c11 p3
+977;Toit incliné métal;2778.9;-1084.8;2100.0;150;338.68;2983.2;casquette r-1 c11 p4
+978;Toit incliné métal;2928.9;-825.0;2100.0;150;344.27;3042.9;casquette r-1 c11 p5
+979;Toit incliné métal;2649.0;-600.0;2400.0;180;347.24;2716.1;reprise r0 c0 p0
+980;Toit incliné métal;2649.0;-300.0;2400.0;180;353.54;2666.0;reprise r0 c0 p1
+981;Toit incliné métal;2649.0;0.0;2400.0;180;0.0;2649.0;reprise r0 c0 p2
+982;Toit incliné métal;2649.0;300.0;2400.0;180;6.46;2666.0;reprise r0 c0 p3
+983;Toit incliné métal;2649.0;600.0;2400.0;180;12.76;2716.1;reprise r0 c0 p4
+984;Toit incliné métal;2594.1;804.9;2400.0;210;17.24;2716.1;reprise r0 c1 p0
+985;Toit incliné métal;2444.1;1064.7;2400.0;210;23.54;2666.0;reprise r0 c1 p1
+986;Toit incliné métal;2294.1;1324.5;2400.0;210;30.0;2649.0;reprise r0 c1 p2
+987;Toit incliné métal;2144.1;1584.3;2400.0;210;36.46;2666.0;reprise r0 c1 p3
+988;Toit incliné métal;1994.1;1844.1;2400.0;210;42.76;2716.1;reprise r0 c1 p4
+989;Toit incliné métal;1844.1;1994.1;2400.0;240;47.24;2716.1;reprise r0 c2 p0
+990;Toit incliné métal;1584.3;2144.1;2400.0;240;53.54;2666.0;reprise r0 c2 p1
+991;Toit incliné métal;1324.5;2294.1;2400.0;240;60.0;2649.0;reprise r0 c2 p2
+992;Toit incliné métal;1064.7;2444.1;2400.0;240;66.46;2666.0;reprise r0 c2 p3
+993;Toit incliné métal;804.9;2594.1;2400.0;240;72.76;2716.1;reprise r0 c2 p4
+994;Toit incliné métal;600.0;2649.0;2400.0;270;77.24;2716.1;reprise r0 c3 p0
+995;Toit incliné métal;300.0;2649.0;2400.0;270;83.54;2666.0;reprise r0 c3 p1
+996;Toit incliné métal;0.0;2649.0;2400.0;270;90.0;2649.0;reprise r0 c3 p2
+997;Toit incliné métal;-300.0;2649.0;2400.0;270;96.46;2666.0;reprise r0 c3 p3
+998;Toit incliné métal;-600.0;2649.0;2400.0;270;102.76;2716.1;reprise r0 c3 p4
+999;Toit incliné métal;-804.9;2594.1;2400.0;300;107.24;2716.1;reprise r0 c4 p0
+1000;Toit incliné métal;-1064.7;2444.1;2400.0;300;113.54;2666.0;reprise r0 c4 p1
+1001;Toit incliné métal;-1324.5;2294.1;2400.0;300;120.0;2649.0;reprise r0 c4 p2
+1002;Toit incliné métal;-1584.3;2144.1;2400.0;300;126.46;2666.0;reprise r0 c4 p3
+1003;Toit incliné métal;-1844.1;1994.1;2400.0;300;132.76;2716.1;reprise r0 c4 p4
+1004;Toit incliné métal;-1994.1;1844.1;2400.0;330;137.24;2716.1;reprise r0 c5 p0
+1005;Toit incliné métal;-2144.1;1584.3;2400.0;330;143.54;2666.0;reprise r0 c5 p1
+1006;Toit incliné métal;-2294.1;1324.5;2400.0;330;150.0;2649.0;reprise r0 c5 p2
+1007;Toit incliné métal;-2444.1;1064.7;2400.0;330;156.46;2666.0;reprise r0 c5 p3
+1008;Toit incliné métal;-2594.1;804.9;2400.0;330;162.76;2716.1;reprise r0 c5 p4
+1009;Toit incliné métal;-2649.0;600.0;2400.0;0;167.24;2716.1;reprise r0 c6 p0
+1010;Toit incliné métal;-2649.0;300.0;2400.0;0;173.54;2666.0;reprise r0 c6 p1
+1011;Toit incliné métal;-2649.0;0.0;2400.0;0;180.0;2649.0;reprise r0 c6 p2
+1012;Toit incliné métal;-2649.0;-300.0;2400.0;0;186.46;2666.0;reprise r0 c6 p3
+1013;Toit incliné métal;-2649.0;-600.0;2400.0;0;192.76;2716.1;reprise r0 c6 p4
+1014;Toit incliné métal;-2594.1;-804.9;2400.0;30;197.24;2716.1;reprise r0 c7 p0
+1015;Toit incliné métal;-2444.1;-1064.7;2400.0;30;203.54;2666.0;reprise r0 c7 p1
+1016;Toit incliné métal;-2294.1;-1324.5;2400.0;30;210.0;2649.0;reprise r0 c7 p2
+1017;Toit incliné métal;-2144.1;-1584.3;2400.0;30;216.46;2666.0;reprise r0 c7 p3
+1018;Toit incliné métal;-1994.1;-1844.1;2400.0;30;222.76;2716.1;reprise r0 c7 p4
+1019;Toit incliné métal;-1844.1;-1994.1;2400.0;60;227.24;2716.1;reprise r0 c8 p0
+1020;Toit incliné métal;-1584.3;-2144.1;2400.0;60;233.54;2666.0;reprise r0 c8 p1
+1021;Toit incliné métal;-1324.5;-2294.1;2400.0;60;240.0;2649.0;reprise r0 c8 p2
+1022;Toit incliné métal;-1064.7;-2444.1;2400.0;60;246.46;2666.0;reprise r0 c8 p3
+1023;Toit incliné métal;-804.9;-2594.1;2400.0;60;252.76;2716.1;reprise r0 c8 p4
+1024;Toit incliné métal;-600.0;-2649.0;2400.0;90;257.24;2716.1;reprise r0 c9 p0
+1025;Toit incliné métal;-300.0;-2649.0;2400.0;90;263.54;2666.0;reprise r0 c9 p1
+1026;Toit incliné métal;-0.0;-2649.0;2400.0;90;270.0;2649.0;reprise r0 c9 p2
+1027;Toit incliné métal;300.0;-2649.0;2400.0;90;276.46;2666.0;reprise r0 c9 p3
+1028;Toit incliné métal;600.0;-2649.0;2400.0;90;282.76;2716.1;reprise r0 c9 p4
+1029;Toit incliné métal;804.9;-2594.1;2400.0;120;287.24;2716.1;reprise r0 c10 p0
+1030;Toit incliné métal;1064.7;-2444.1;2400.0;120;293.54;2666.0;reprise r0 c10 p1
+1031;Toit incliné métal;1324.5;-2294.1;2400.0;120;300.0;2649.0;reprise r0 c10 p2
+1032;Toit incliné métal;1584.3;-2144.1;2400.0;120;306.46;2666.0;reprise r0 c10 p3
+1033;Toit incliné métal;1844.1;-1994.1;2400.0;120;312.76;2716.1;reprise r0 c10 p4
+1034;Toit incliné métal;1994.1;-1844.1;2400.0;150;317.24;2716.1;reprise r0 c11 p0
+1035;Toit incliné métal;2144.1;-1584.3;2400.0;150;323.54;2666.0;reprise r0 c11 p1
+1036;Toit incliné métal;2294.1;-1324.5;2400.0;150;330.0;2649.0;reprise r0 c11 p2
+1037;Toit incliné métal;2444.1;-1064.7;2400.0;150;336.46;2666.0;reprise r0 c11 p3
+1038;Toit incliné métal;2594.1;-804.9;2400.0;150;342.76;2716.1;reprise r0 c11 p4
+1039;Toit incliné métal;2349.0;-600.0;2700.0;180;345.67;2424.5;reprise r1 c0 p0
+1040;Toit incliné métal;2349.0;-300.0;2700.0;180;352.72;2368.1;reprise r1 c0 p1
+1041;Toit incliné métal;2349.0;0.0;2700.0;180;0.0;2349.0;reprise r1 c0 p2
+1042;Toit incliné métal;2349.0;300.0;2700.0;180;7.28;2368.1;reprise r1 c0 p3
+1043;Toit incliné métal;2349.0;600.0;2700.0;180;14.33;2424.5;reprise r1 c0 p4
+1044;Toit incliné métal;2334.3;654.9;2700.0;210;15.67;2424.5;reprise r1 c1 p0
+1045;Toit incliné métal;2184.3;914.7;2700.0;210;22.72;2368.1;reprise r1 c1 p1
+1046;Toit incliné métal;2034.3;1174.5;2700.0;210;30.0;2349.0;reprise r1 c1 p2
+1047;Toit incliné métal;1884.3;1434.3;2700.0;210;37.28;2368.1;reprise r1 c1 p3
+1048;Toit incliné métal;1734.3;1694.1;2700.0;210;44.33;2424.5;reprise r1 c1 p4
+1049;Toit incliné métal;1694.1;1734.3;2700.0;240;45.67;2424.5;reprise r1 c2 p0
+1050;Toit incliné métal;1434.3;1884.3;2700.0;240;52.72;2368.1;reprise r1 c2 p1
+1051;Toit incliné métal;1174.5;2034.3;2700.0;240;60.0;2349.0;reprise r1 c2 p2
+1052;Toit incliné métal;914.7;2184.3;2700.0;240;67.28;2368.1;reprise r1 c2 p3
+1053;Toit incliné métal;654.9;2334.3;2700.0;240;74.33;2424.5;reprise r1 c2 p4
+1054;Toit incliné métal;600.0;2349.0;2700.0;270;75.67;2424.5;reprise r1 c3 p0
+1055;Toit incliné métal;300.0;2349.0;2700.0;270;82.72;2368.1;reprise r1 c3 p1
+1056;Toit incliné métal;0.0;2349.0;2700.0;270;90.0;2349.0;reprise r1 c3 p2
+1057;Toit incliné métal;-300.0;2349.0;2700.0;270;97.28;2368.1;reprise r1 c3 p3
+1058;Toit incliné métal;-600.0;2349.0;2700.0;270;104.33;2424.5;reprise r1 c3 p4
+1059;Toit incliné métal;-654.9;2334.3;2700.0;300;105.67;2424.5;reprise r1 c4 p0
+1060;Toit incliné métal;-914.7;2184.3;2700.0;300;112.72;2368.1;reprise r1 c4 p1
+1061;Toit incliné métal;-1174.5;2034.3;2700.0;300;120.0;2349.0;reprise r1 c4 p2
+1062;Toit incliné métal;-1434.3;1884.3;2700.0;300;127.28;2368.1;reprise r1 c4 p3
+1063;Toit incliné métal;-1694.1;1734.3;2700.0;300;134.33;2424.5;reprise r1 c4 p4
+1064;Toit incliné métal;-1734.3;1694.1;2700.0;330;135.67;2424.5;reprise r1 c5 p0
+1065;Toit incliné métal;-1884.3;1434.3;2700.0;330;142.72;2368.1;reprise r1 c5 p1
+1066;Toit incliné métal;-2034.3;1174.5;2700.0;330;150.0;2349.0;reprise r1 c5 p2
+1067;Toit incliné métal;-2184.3;914.7;2700.0;330;157.28;2368.1;reprise r1 c5 p3
+1068;Toit incliné métal;-2334.3;654.9;2700.0;330;164.33;2424.5;reprise r1 c5 p4
+1069;Toit incliné métal;-2349.0;600.0;2700.0;0;165.67;2424.5;reprise r1 c6 p0
+1070;Toit incliné métal;-2349.0;300.0;2700.0;0;172.72;2368.1;reprise r1 c6 p1
+1071;Toit incliné métal;-2349.0;0.0;2700.0;0;180.0;2349.0;reprise r1 c6 p2
+1072;Toit incliné métal;-2349.0;-300.0;2700.0;0;187.28;2368.1;reprise r1 c6 p3
+1073;Toit incliné métal;-2349.0;-600.0;2700.0;0;194.33;2424.5;reprise r1 c6 p4
+1074;Toit incliné métal;-2334.3;-654.9;2700.0;30;195.67;2424.5;reprise r1 c7 p0
+1075;Toit incliné métal;-2184.3;-914.7;2700.0;30;202.72;2368.1;reprise r1 c7 p1
+1076;Toit incliné métal;-2034.3;-1174.5;2700.0;30;210.0;2349.0;reprise r1 c7 p2
+1077;Toit incliné métal;-1884.3;-1434.3;2700.0;30;217.28;2368.1;reprise r1 c7 p3
+1078;Toit incliné métal;-1734.3;-1694.1;2700.0;30;224.33;2424.5;reprise r1 c7 p4
+1079;Toit incliné métal;-1694.1;-1734.3;2700.0;60;225.67;2424.5;reprise r1 c8 p0
+1080;Toit incliné métal;-1434.3;-1884.3;2700.0;60;232.72;2368.1;reprise r1 c8 p1
+1081;Toit incliné métal;-1174.5;-2034.3;2700.0;60;240.0;2349.0;reprise r1 c8 p2
+1082;Toit incliné métal;-914.7;-2184.3;2700.0;60;247.28;2368.1;reprise r1 c8 p3
+1083;Toit incliné métal;-654.9;-2334.3;2700.0;60;254.33;2424.5;reprise r1 c8 p4
+1084;Toit incliné métal;-600.0;-2349.0;2700.0;90;255.67;2424.5;reprise r1 c9 p0
+1085;Toit incliné métal;-300.0;-2349.0;2700.0;90;262.72;2368.1;reprise r1 c9 p1
+1086;Toit incliné métal;-0.0;-2349.0;2700.0;90;270.0;2349.0;reprise r1 c9 p2
+1087;Toit incliné métal;300.0;-2349.0;2700.0;90;277.28;2368.1;reprise r1 c9 p3
+1088;Toit incliné métal;600.0;-2349.0;2700.0;90;284.33;2424.5;reprise r1 c9 p4
+1089;Toit incliné métal;654.9;-2334.3;2700.0;120;285.67;2424.5;reprise r1 c10 p0
+1090;Toit incliné métal;914.7;-2184.3;2700.0;120;292.72;2368.1;reprise r1 c10 p1
+1091;Toit incliné métal;1174.5;-2034.3;2700.0;120;300.0;2349.0;reprise r1 c10 p2
+1092;Toit incliné métal;1434.3;-1884.3;2700.0;120;307.28;2368.1;reprise r1 c10 p3
+1093;Toit incliné métal;1694.1;-1734.3;2700.0;120;314.33;2424.5;reprise r1 c10 p4
+1094;Toit incliné métal;1734.3;-1694.1;2700.0;150;315.67;2424.5;reprise r1 c11 p0
+1095;Toit incliné métal;1884.3;-1434.3;2700.0;150;322.72;2368.1;reprise r1 c11 p1
+1096;Toit incliné métal;2034.3;-1174.5;2700.0;150;330.0;2349.0;reprise r1 c11 p2
+1097;Toit incliné métal;2184.3;-914.7;2700.0;150;337.28;2368.1;reprise r1 c11 p3
+1098;Toit incliné métal;2334.3;-654.9;2700.0;150;344.33;2424.5;reprise r1 c11 p4
