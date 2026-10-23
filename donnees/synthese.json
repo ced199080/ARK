@@ -1,0 +1,734 @@
+{
+ "parametres": {
+  "anneaux_total": 15,
+  "anneau_pod": 7,
+  "anneau_cage": 9,
+  "anneau_rive": 13,
+  "decaissement": 150.0,
+  "rive_niveaux": 2,
+  "rangs_pente_A": 4,
+  "cage_niveaux": 2,
+  "casquette": 1,
+  "debord": 2,
+  "pod_niveaux": 10,
+  "mezzanine": 1800.0,
+  "jupe": true,
+  "recul_siege": 50.0
+ },
+ "apothemes": {
+  "D1": 559.8,
+  "D2": 1119.6,
+  "D3": 1679.4,
+  "D4": 2239.2,
+  "D5": 2799.0,
+  "D6": 3358.8,
+  "D7": 3918.7,
+  "D8": 4478.5
+ },
+ "rayons_coins": {
+  "D1": 579.6,
+  "D2": 1159.1,
+  "D3": 1738.7,
+  "D4": 2318.2,
+  "D5": 2897.8,
+  "D6": 3477.3,
+  "D7": 4056.9,
+  "D8": 4636.4
+ },
+ "overhang": {
+  "A_bout": 5118.653347947321,
+  "Z_bout": -600.0
+ },
+ "jupe": {
+  "A": 4518.653347947321,
+  "Z": -600.0
+ },
+ "Z_capuchon": 5100.0,
+ "modules": {
+  "01_sol_D8_complet": {
+   "pieces": {
+    "demi_pilier": 2,
+    "fond_tri": 768,
+    "fond": 384
+   },
+   "total": 1154,
+   "bilan": {
+    "MI": 38426,
+    "PC": 11912
+   }
+  },
+  "01b_sol_extension_D4_D8": {
+   "pieces": {
+    "fond_tri": 576,
+    "fond": 288
+   },
+   "total": 864,
+   "bilan": {
+    "MI": 28800,
+    "PC": 8928
+   }
+  },
+  "02_pod_central": {
+   "pieces": {
+    "demi_pilier": 25,
+    "mur": 464,
+    "cadre_double": 16,
+    "pilier": 264,
+    "plafond": 97,
+    "plafond_tri": 186,
+    "toit": 228,
+    "demi_toit": 4
+   },
+   "total": 1284,
+   "bilan": {
+    "MI": 33720,
+    "PC": 9508
+   }
+  },
+  "03_rive_pente_overhang2": {
+   "pieces": {
+    "demi_pilier": 1,
+    "mur": 373,
+    "mur_fenetre": 10,
+    "cadre_double": 1,
+    "toit": 744,
+    "plafond": 228
+   },
+   "total": 1357,
+   "bilan": {
+    "MI": 43633,
+    "PC": 12412
+   }
+  },
+  "04_cage_casquette": {
+   "pieces": {
+    "demi_pilier": 1,
+    "mur": 358,
+    "cadre_double": 122,
+    "plafond_tri": 324,
+    "plafond": 159,
+    "trappe": 3,
+    "toit": 192
+   },
+   "total": 1159,
+   "bilan": {
+    "MI": 30235,
+    "PC": 8524
+   }
+  },
+  "05_tourelles_scenario_A": {
+   "pieces": {
+    "demi_pilier": 1,
+    "heavy": 65,
+    "tek": 35,
+    "tesla": 10
+   },
+   "total": 111,
+   "bilan": {
+    "MI": 43613,
+    "PC": 14754,
+    "EL": 22050,
+    "PO": 9300,
+    "EM": 105,
+    "CR": 2000
+   }
+  },
+  "05_tourelles_scenario_B": {
+   "pieces": {
+    "demi_pilier": 1,
+    "heavy": 55,
+    "tek": 35,
+    "tesla": 10
+   },
+   "total": 101,
+   "bilan": {
+    "MI": 38213,
+    "PC": 12754,
+    "EL": 19350,
+    "PO": 8600,
+    "EM": 105,
+    "CR": 2000
+   }
+  },
+  "05_tourelles_scenario_C": {
+   "pieces": {
+    "demi_pilier": 1,
+    "heavy": 80,
+    "tek": 35,
+    "tesla": 10
+   },
+   "total": 126,
+   "bilan": {
+    "MI": 51713,
+    "PC": 17754,
+    "EL": 26100,
+    "PO": 10350,
+    "EM": 105,
+    "CR": 2000
+   }
+  }
+ },
+ "tourelles": {
+  "A": {
+   "libelle": "cap 100, Tesla non comptee",
+   "posees": {
+    "heavy": 65,
+    "tek": 35,
+    "tesla": 10
+   },
+   "reserve": {
+    "heavy": 15,
+    "tek": 0,
+    "tesla": 0
+   },
+   "par_couche": {
+    "JUPE": 24,
+    "L1": 60,
+    "L2": 16,
+    "RIVE": 10
+   }
+  },
+  "B": {
+   "libelle": "cap 100, Tesla comptee",
+   "posees": {
+    "heavy": 55,
+    "tek": 35,
+    "tesla": 10
+   },
+   "reserve": {
+    "heavy": 25,
+    "tek": 0,
+    "tesla": 0
+   },
+   "par_couche": {
+    "JUPE": 24,
+    "L1": 60,
+    "L2": 6,
+    "RIVE": 10
+   }
+  },
+  "C": {
+   "libelle": "cap >= 125 (serveur modifie)",
+   "posees": {
+    "heavy": 80,
+    "tek": 35,
+    "tesla": 10
+   },
+   "reserve": {
+    "heavy": 0,
+    "tek": 0,
+    "tesla": 0
+   },
+   "par_couche": {
+    "JUPE": 24,
+    "L1": 60,
+    "L2": 31,
+    "RIVE": 10
+   }
+  }
+ },
+ "cap": {
+  "distance_max_entre_tourelles": 9414.1,
+  "rayon_max_tourelle": 4707.1,
+  "distance_min_avant_poste": 14707.1
+ },
+ "secteurs": {
+  "L1": [
+   -46.7,
+   27.2
+  ],
+  "L2": [
+   -49.9,
+   -19.0
+  ],
+  "JUPE": [
+   -89.9,
+   14.9
+  ]
+ },
+ "pics": {
+  "nombre": 84,
+  "apotheme_ligne": 4068.7,
+  "Z": -150.0
+ },
+ "embrasures_tesla": [
+  {
+   "mur": 3,
+   "cote": 0,
+   "index": 3,
+   "theta": 0.0
+  },
+  {
+   "mur": 11,
+   "cote": 1,
+   "index": 4,
+   "theta": 34.4
+  },
+  {
+   "mur": 20,
+   "cote": 2,
+   "index": 6,
+   "theta": 72.9
+  },
+  {
+   "mur": 28,
+   "cote": 4,
+   "index": 0,
+   "theta": 107.1
+  },
+  {
+   "mur": 37,
+   "cote": 5,
+   "index": 2,
+   "theta": 145.6
+  },
+  {
+   "mur": 45,
+   "cote": 6,
+   "index": 3,
+   "theta": 180.0
+  },
+  {
+   "mur": 53,
+   "cote": 7,
+   "index": 4,
+   "theta": 214.4
+  },
+  {
+   "mur": 62,
+   "cote": 8,
+   "index": 6,
+   "theta": 252.9
+  },
+  {
+   "mur": 70,
+   "cote": 10,
+   "index": 0,
+   "theta": 287.1
+  },
+  {
+   "mur": 79,
+   "cote": 11,
+   "index": 2,
+   "theta": 325.6
+  }
+ ],
+ "phases": {
+  "P1": {
+   "total": 1154,
+   "pieces": {
+    "demi_pilier": 2,
+    "fond_tri": 768,
+    "fond": 384
+   }
+  },
+  "P2": {
+   "total": 889,
+   "pieces": {
+    "demi_pilier": 1,
+    "mur": 799,
+    "cadre_double": 7,
+    "pilier": 72,
+    "mur_fenetre": 10
+   }
+  },
+  "P3": {
+   "total": 445,
+   "pieces": {
+    "demi_pilier": 1,
+    "plafond": 150,
+    "plafond_tri": 294
+   }
+  },
+  "P4": {
+   "total": 1189,
+   "pieces": {
+    "demi_pilier": 1,
+    "toit": 744,
+    "mur": 216,
+    "plafond": 228
+   }
+  },
+  "P5": {
+   "total": 517,
+   "pieces": {
+    "demi_pilier": 1,
+    "plafond_tri": 216,
+    "trappe": 3,
+    "plafond": 105,
+    "cadre_double": 120,
+    "toit": 72
+   }
+  },
+  "P6": {
+   "total": 762,
+   "pieces": {
+    "demi_pilier": 25,
+    "mur": 180,
+    "cadre_double": 12,
+    "pilier": 192,
+    "toit": 348,
+    "plafond": 1,
+    "demi_toit": 4
+   }
+  }
+ },
+ "anneaux": [
+  {
+   "anneau": 1,
+   "carres_sur": "E0 (0°,60°…)",
+   "carres": 6,
+   "tri_ext": 0,
+   "triangles": 6,
+   "par_cote_E0": 1,
+   "par_cote_E1": 1,
+   "apo_E0": 559.8,
+   "apo_E1": 559.8,
+   "zone": "pod",
+   "Z": 0
+  },
+  {
+   "anneau": 2,
+   "carres_sur": "E1 (30°,90°…)",
+   "carres": 6,
+   "tri_ext": 6,
+   "triangles": 18,
+   "par_cote_E0": 2,
+   "par_cote_E1": 1,
+   "apo_E0": 819.6,
+   "apo_E1": 859.8,
+   "zone": "pod",
+   "Z": 0
+  },
+  {
+   "anneau": 3,
+   "carres_sur": "E0 (0°,60°…)",
+   "carres": 12,
+   "tri_ext": 6,
+   "triangles": 18,
+   "par_cote_E0": 2,
+   "par_cote_E1": 2,
+   "apo_E0": 1119.6,
+   "apo_E1": 1119.6,
+   "zone": "pod",
+   "Z": 0
+  },
+  {
+   "anneau": 4,
+   "carres_sur": "E1 (30°,90°…)",
+   "carres": 12,
+   "tri_ext": 12,
+   "triangles": 30,
+   "par_cote_E0": 3,
+   "par_cote_E1": 2,
+   "apo_E0": 1379.4,
+   "apo_E1": 1419.6,
+   "zone": "pod",
+   "Z": 0
+  },
+  {
+   "anneau": 5,
+   "carres_sur": "E0 (0°,60°…)",
+   "carres": 18,
+   "tri_ext": 12,
+   "triangles": 30,
+   "par_cote_E0": 3,
+   "par_cote_E1": 3,
+   "apo_E0": 1679.4,
+   "apo_E1": 1679.4,
+   "zone": "pod",
+   "Z": 0
+  },
+  {
+   "anneau": 6,
+   "carres_sur": "E1 (30°,90°…)",
+   "carres": 18,
+   "tri_ext": 18,
+   "triangles": 42,
+   "par_cote_E0": 4,
+   "par_cote_E1": 3,
+   "apo_E0": 1939.2,
+   "apo_E1": 1979.4,
+   "zone": "pod",
+   "Z": 0
+  },
+  {
+   "anneau": 7,
+   "carres_sur": "E0 (0°,60°…)",
+   "carres": 24,
+   "tri_ext": 18,
+   "triangles": 42,
+   "par_cote_E0": 4,
+   "par_cote_E1": 4,
+   "apo_E0": 2239.2,
+   "apo_E1": 2239.2,
+   "zone": "pod",
+   "Z": 0
+  },
+  {
+   "anneau": 8,
+   "carres_sur": "E1 (30°,90°…)",
+   "carres": 24,
+   "tri_ext": 24,
+   "triangles": 54,
+   "par_cote_E0": 5,
+   "par_cote_E1": 4,
+   "apo_E0": 2499.0,
+   "apo_E1": 2539.2,
+   "zone": "couronne",
+   "Z": 0
+  },
+  {
+   "anneau": 9,
+   "carres_sur": "E0 (0°,60°…)",
+   "carres": 30,
+   "tri_ext": 24,
+   "triangles": 54,
+   "par_cote_E0": 5,
+   "par_cote_E1": 5,
+   "apo_E0": 2799.0,
+   "apo_E1": 2799.0,
+   "zone": "couronne",
+   "Z": 0
+  },
+  {
+   "anneau": 10,
+   "carres_sur": "E1 (30°,90°…)",
+   "carres": 30,
+   "tri_ext": 30,
+   "triangles": 66,
+   "par_cote_E0": 6,
+   "par_cote_E1": 5,
+   "apo_E0": 3058.8,
+   "apo_E1": 3099.0,
+   "zone": "couronne",
+   "Z": 0
+  },
+  {
+   "anneau": 11,
+   "carres_sur": "E0 (0°,60°…)",
+   "carres": 36,
+   "tri_ext": 30,
+   "triangles": 66,
+   "par_cote_E0": 6,
+   "par_cote_E1": 6,
+   "apo_E0": 3358.8,
+   "apo_E1": 3358.8,
+   "zone": "couronne",
+   "Z": 0
+  },
+  {
+   "anneau": 12,
+   "carres_sur": "E1 (30°,90°…)",
+   "carres": 36,
+   "tri_ext": 36,
+   "triangles": 78,
+   "par_cote_E0": 7,
+   "par_cote_E1": 6,
+   "apo_E0": 3618.7,
+   "apo_E1": 3658.8,
+   "zone": "couronne",
+   "Z": 0
+  },
+  {
+   "anneau": 13,
+   "carres_sur": "E0 (0°,60°…)",
+   "carres": 42,
+   "tri_ext": 36,
+   "triangles": 78,
+   "par_cote_E0": 7,
+   "par_cote_E1": 7,
+   "apo_E0": 3918.7,
+   "apo_E1": 3918.7,
+   "zone": "couronne",
+   "Z": 0
+  },
+  {
+   "anneau": 14,
+   "carres_sur": "E1 (30°,90°…)",
+   "carres": 42,
+   "tri_ext": 42,
+   "triangles": 90,
+   "par_cote_E0": 8,
+   "par_cote_E1": 7,
+   "apo_E0": 4178.5,
+   "apo_E1": 4218.7,
+   "zone": "décaissement",
+   "Z": -150.0
+  },
+  {
+   "anneau": 15,
+   "carres_sur": "E0 (0°,60°…)",
+   "carres": 48,
+   "tri_ext": 42,
+   "triangles": 90,
+   "par_cote_E0": 8,
+   "par_cote_E1": 8,
+   "apo_E0": 4478.5,
+   "apo_E1": 4478.5,
+   "zone": "décaissement",
+   "Z": -150.0
+  }
+ ],
+ "gabarits": [
+  {
+   "nom": "Réplicateur Tek",
+   "theta": 0,
+   "apotheme": 1650,
+   "largeur": 900,
+   "profondeur": 600,
+   "hauteur_murs": 3,
+   "x": 1650.0,
+   "y": 0.0
+  },
+  {
+   "nom": "Tek Generator (ateliers)",
+   "theta": 60,
+   "apotheme": 1800,
+   "largeur": 300,
+   "profondeur": 300,
+   "hauteur_murs": 1,
+   "x": 900.0,
+   "y": 1558.8
+  },
+  {
+   "nom": "Forge industrielle",
+   "theta": 120,
+   "apotheme": 1650,
+   "largeur": 900,
+   "profondeur": 900,
+   "hauteur_murs": 3,
+   "x": -825.0,
+   "y": 1428.9
+  },
+  {
+   "nom": "Tek Teleporter (accès principal)",
+   "theta": 180,
+   "apotheme": 1700,
+   "largeur": 300,
+   "profondeur": 300,
+   "hauteur_murs": 1,
+   "x": -1700.0,
+   "y": 0.0
+  },
+  {
+   "nom": "Laboratoire de chimie",
+   "theta": 240,
+   "apotheme": 1750,
+   "largeur": 600,
+   "profondeur": 300,
+   "hauteur_murs": 2,
+   "x": -875.0,
+   "y": -1515.5
+  },
+  {
+   "nom": "Stockage / Dedicated Storage",
+   "theta": 300,
+   "apotheme": 1750,
+   "largeur": 900,
+   "profondeur": 300,
+   "hauteur_murs": 2,
+   "x": 875.0,
+   "y": -1515.5
+  }
+ ],
+ "generateurs": [
+  {
+   "nom": "Tek Generator galerie",
+   "theta": 90,
+   "x": 0.0,
+   "y": 2389.2,
+   "Z": 1800.0
+  },
+  {
+   "nom": "Tek Generator galerie",
+   "theta": 210,
+   "x": -2069.1,
+   "y": -1194.6,
+   "Z": 1800.0
+  },
+  {
+   "nom": "Tek Generator galerie",
+   "theta": 330,
+   "x": 2069.1,
+   "y": -1194.6,
+   "Z": 1800.0
+  },
+  {
+   "nom": "Générateur électrique secours",
+   "theta": 90,
+   "x": 0.0,
+   "y": 3249.0,
+   "Z": 0.0
+  },
+  {
+   "nom": "Générateur électrique secours",
+   "theta": 270,
+   "x": -0.0,
+   "y": -3249.0,
+   "Z": 0.0
+  }
+ ],
+ "variantes": {
+  "casquette1_debord1": {
+   "L1": [
+    -47.0,
+    27.2
+   ],
+   "L2": [
+    -50.6,
+    -19.0
+   ],
+   "bout_overhang": [
+    4818.7,
+    -300.0
+   ],
+   "degagement_chute_casquette": 350.0
+  },
+  "casquette1_debord2": {
+   "L1": [
+    -46.7,
+    27.2
+   ],
+   "L2": [
+    -49.9,
+    -19.0
+   ],
+   "bout_overhang": [
+    5118.7,
+    -600.0
+   ],
+   "degagement_chute_casquette": 350.0
+  },
+  "casquette2_debord1": {
+   "L1": [
+    -47.0,
+    -10.5
+   ],
+   "L2": [
+    -50.6,
+    -32.9
+   ],
+   "bout_overhang": [
+    4818.7,
+    -300.0
+   ],
+   "degagement_chute_casquette": 650.0
+  },
+  "casquette2_debord2": {
+   "L1": [
+    -46.7,
+    -10.5
+   ],
+   "L2": [
+    -49.9,
+    -32.9
+   ],
+   "bout_overhang": [
+    5118.7,
+    -600.0
+   ],
+   "degagement_chute_casquette": 650.0
+  }
+ }
+}
