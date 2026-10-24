@@ -906,75 +906,87 @@ entree;piece;x;y;Z_plan;yaw;theta;rayon;repere
 904;Cadre de porte double métal;2424.0;-1399.5;2100.0;330;330.0;2799.0;cage L2 c11 p2
 905;Cadre de porte double métal;2574.0;-1139.7;2100.0;330;336.12;2815.1;cage L2 c11 p3
 906;Cadre de porte double métal;2724.0;-879.9;2100.0;330;342.1;2862.6;cage L2 c11 p4
-907;Toit incliné métal;2949.0;-750.0;2100.0;180;345.73;3042.9;casquette r-1 c0 p0
-908;Toit incliné métal;2949.0;-450.0;2100.0;180;351.32;2983.2;casquette r-1 c0 p1
-909;Toit incliné métal;2949.0;-150.0;2100.0;180;357.09;2952.9;casquette r-1 c0 p2
-910;Toit incliné métal;2949.0;150.0;2100.0;180;2.91;2952.9;casquette r-1 c0 p3
-911;Toit incliné métal;2949.0;450.0;2100.0;180;8.68;2983.2;casquette r-1 c0 p4
-912;Toit incliné métal;2949.0;750.0;2100.0;180;14.27;3042.9;casquette r-1 c0 p5
-913;Toit incliné métal;2928.9;825.0;2100.0;210;15.73;3042.9;casquette r-1 c1 p0
-914;Toit incliné métal;2778.9;1084.8;2100.0;210;21.32;2983.2;casquette r-1 c1 p1
-915;Toit incliné métal;2628.9;1344.6;2100.0;210;27.09;2952.9;casquette r-1 c1 p2
-916;Toit incliné métal;2478.9;1604.4;2100.0;210;32.91;2952.9;casquette r-1 c1 p3
-917;Toit incliné métal;2328.9;1864.2;2100.0;210;38.68;2983.2;casquette r-1 c1 p4
-918;Toit incliné métal;2178.9;2124.0;2100.0;210;44.27;3042.9;casquette r-1 c1 p5
-919;Toit incliné métal;2124.0;2178.9;2100.0;240;45.73;3042.9;casquette r-1 c2 p0
-920;Toit incliné métal;1864.2;2328.9;2100.0;240;51.32;2983.2;casquette r-1 c2 p1
-921;Toit incliné métal;1604.4;2478.9;2100.0;240;57.09;2952.9;casquette r-1 c2 p2
-922;Toit incliné métal;1344.6;2628.9;2100.0;240;62.91;2952.9;casquette r-1 c2 p3
-923;Toit incliné métal;1084.8;2778.9;2100.0;240;68.68;2983.2;casquette r-1 c2 p4
-924;Toit incliné métal;825.0;2928.9;2100.0;240;74.27;3042.9;casquette r-1 c2 p5
-925;Toit incliné métal;750.0;2949.0;2100.0;270;75.73;3042.9;casquette r-1 c3 p0
-926;Toit incliné métal;450.0;2949.0;2100.0;270;81.32;2983.2;casquette r-1 c3 p1
-927;Toit incliné métal;150.0;2949.0;2100.0;270;87.09;2952.9;casquette r-1 c3 p2
-928;Toit incliné métal;-150.0;2949.0;2100.0;270;92.91;2952.9;casquette r-1 c3 p3
-929;Toit incliné métal;-450.0;2949.0;2100.0;270;98.68;2983.2;casquette r-1 c3 p4
-930;Toit incliné métal;-750.0;2949.0;2100.0;270;104.27;3042.9;casquette r-1 c3 p5
-931;Toit incliné métal;-825.0;2928.9;2100.0;300;105.73;3042.9;casquette r-1 c4 p0
-932;Toit incliné métal;-1084.8;2778.9;2100.0;300;111.32;2983.2;casquette r-1 c4 p1
-933;Toit incliné métal;-1344.6;2628.9;2100.0;300;117.09;2952.9;casquette r-1 c4 p2
-934;Toit incliné métal;-1604.4;2478.9;2100.0;300;122.91;2952.9;casquette r-1 c4 p3
-935;Toit incliné métal;-1864.2;2328.9;2100.0;300;128.68;2983.2;casquette r-1 c4 p4
-936;Toit incliné métal;-2124.0;2178.9;2100.0;300;134.27;3042.9;casquette r-1 c4 p5
-937;Toit incliné métal;-2178.9;2124.0;2100.0;330;135.73;3042.9;casquette r-1 c5 p0
-938;Toit incliné métal;-2328.9;1864.2;2100.0;330;141.32;2983.2;casquette r-1 c5 p1
-939;Toit incliné métal;-2478.9;1604.4;2100.0;330;147.09;2952.9;casquette r-1 c5 p2
-940;Toit incliné métal;-2628.9;1344.6;2100.0;330;152.91;2952.9;casquette r-1 c5 p3
-941;Toit incliné métal;-2778.9;1084.8;2100.0;330;158.68;2983.2;casquette r-1 c5 p4
-942;Toit incliné métal;-2928.9;825.0;2100.0;330;164.27;3042.9;casquette r-1 c5 p5
-943;Toit incliné métal;-2949.0;750.0;2100.0;0;165.73;3042.9;casquette r-1 c6 p0
-944;Toit incliné métal;-2949.0;450.0;2100.0;0;171.32;2983.2;casquette r-1 c6 p1
-945;Toit incliné métal;-2949.0;150.0;2100.0;0;177.09;2952.9;casquette r-1 c6 p2
-946;Toit incliné métal;-2949.0;-150.0;2100.0;0;182.91;2952.9;casquette r-1 c6 p3
-947;Toit incliné métal;-2949.0;-450.0;2100.0;0;188.68;2983.2;casquette r-1 c6 p4
-948;Toit incliné métal;-2949.0;-750.0;2100.0;0;194.27;3042.9;casquette r-1 c6 p5
-949;Toit incliné métal;-2928.9;-825.0;2100.0;30;195.73;3042.9;casquette r-1 c7 p0
-950;Toit incliné métal;-2778.9;-1084.8;2100.0;30;201.32;2983.2;casquette r-1 c7 p1
-951;Toit incliné métal;-2628.9;-1344.6;2100.0;30;207.09;2952.9;casquette r-1 c7 p2
-952;Toit incliné métal;-2478.9;-1604.4;2100.0;30;212.91;2952.9;casquette r-1 c7 p3
-953;Toit incliné métal;-2328.9;-1864.2;2100.0;30;218.68;2983.2;casquette r-1 c7 p4
-954;Toit incliné métal;-2178.9;-2124.0;2100.0;30;224.27;3042.9;casquette r-1 c7 p5
-955;Toit incliné métal;-2124.0;-2178.9;2100.0;60;225.73;3042.9;casquette r-1 c8 p0
-956;Toit incliné métal;-1864.2;-2328.9;2100.0;60;231.32;2983.2;casquette r-1 c8 p1
-957;Toit incliné métal;-1604.4;-2478.9;2100.0;60;237.09;2952.9;casquette r-1 c8 p2
-958;Toit incliné métal;-1344.6;-2628.9;2100.0;60;242.91;2952.9;casquette r-1 c8 p3
-959;Toit incliné métal;-1084.8;-2778.9;2100.0;60;248.68;2983.2;casquette r-1 c8 p4
-960;Toit incliné métal;-825.0;-2928.9;2100.0;60;254.27;3042.9;casquette r-1 c8 p5
-961;Toit incliné métal;-750.0;-2949.0;2100.0;90;255.73;3042.9;casquette r-1 c9 p0
-962;Toit incliné métal;-450.0;-2949.0;2100.0;90;261.32;2983.2;casquette r-1 c9 p1
-963;Toit incliné métal;-150.0;-2949.0;2100.0;90;267.09;2952.9;casquette r-1 c9 p2
-964;Toit incliné métal;150.0;-2949.0;2100.0;90;272.91;2952.9;casquette r-1 c9 p3
-965;Toit incliné métal;450.0;-2949.0;2100.0;90;278.68;2983.2;casquette r-1 c9 p4
-966;Toit incliné métal;750.0;-2949.0;2100.0;90;284.27;3042.9;casquette r-1 c9 p5
-967;Toit incliné métal;825.0;-2928.9;2100.0;120;285.73;3042.9;casquette r-1 c10 p0
-968;Toit incliné métal;1084.8;-2778.9;2100.0;120;291.32;2983.2;casquette r-1 c10 p1
-969;Toit incliné métal;1344.6;-2628.9;2100.0;120;297.09;2952.9;casquette r-1 c10 p2
-970;Toit incliné métal;1604.4;-2478.9;2100.0;120;302.91;2952.9;casquette r-1 c10 p3
-971;Toit incliné métal;1864.2;-2328.9;2100.0;120;308.68;2983.2;casquette r-1 c10 p4
-972;Toit incliné métal;2124.0;-2178.9;2100.0;120;314.27;3042.9;casquette r-1 c10 p5
-973;Toit incliné métal;2178.9;-2124.0;2100.0;150;315.73;3042.9;casquette r-1 c11 p0
-974;Toit incliné métal;2328.9;-1864.2;2100.0;150;321.32;2983.2;casquette r-1 c11 p1
-975;Toit incliné métal;2478.9;-1604.4;2100.0;150;327.09;2952.9;casquette r-1 c11 p2
-976;Toit incliné métal;2628.9;-1344.6;2100.0;150;332.91;2952.9;casquette r-1 c11 p3
-977;Toit incliné métal;2778.9;-1084.8;2100.0;150;338.68;2983.2;casquette r-1 c11 p4
-978;Toit incliné métal;2928.9;-825.0;2100.0;150;344.27;3042.9;casquette r-1 c11 p5
+907;Rampe inclinée métal (Sloped Railing);2949.0;-900.0;2100.0;270;343.03;3083.3;casquette r-1 c0 t-3
+908;Rampe inclinée métal (Sloped Railing);2949.0;-600.0;2100.0;270;348.5;3009.5;casquette r-1 c0 t-2
+909;Rampe inclinée métal (Sloped Railing);2949.0;-300.0;2100.0;270;354.19;2964.3;casquette r-1 c0 t-1
+910;Rampe inclinée métal (Sloped Railing);2949.0;0.0;2100.0;270;0.0;2949.0;casquette r-1 c0 t0
+911;Rampe inclinée métal (Sloped Railing);2949.0;300.0;2100.0;270;5.81;2964.3;casquette r-1 c0 t1
+912;Rampe inclinée métal (Sloped Railing);2949.0;600.0;2100.0;270;11.5;3009.5;casquette r-1 c0 t2
+913;Rampe inclinée métal (Sloped Railing);2949.0;900.0;2100.0;270;16.97;3083.3;casquette r-1 c0 t3
+914;Rampe inclinée métal (Sloped Railing);3003.9;695.1;2100.0;300;13.03;3083.3;casquette r-1 c1 t-3
+915;Rampe inclinée métal (Sloped Railing);2853.9;954.9;2100.0;300;18.5;3009.5;casquette r-1 c1 t-2
+916;Rampe inclinée métal (Sloped Railing);2703.9;1214.7;2100.0;300;24.19;2964.3;casquette r-1 c1 t-1
+917;Rampe inclinée métal (Sloped Railing);2553.9;1474.5;2100.0;300;30.0;2949.0;casquette r-1 c1 t0
+918;Rampe inclinée métal (Sloped Railing);2403.9;1734.3;2100.0;300;35.81;2964.3;casquette r-1 c1 t1
+919;Rampe inclinée métal (Sloped Railing);2253.9;1994.1;2100.0;300;41.5;3009.5;casquette r-1 c1 t2
+920;Rampe inclinée métal (Sloped Railing);2103.9;2253.9;2100.0;300;46.97;3083.3;casquette r-1 c1 t3
+921;Rampe inclinée métal (Sloped Railing);2253.9;2103.9;2100.0;330;43.03;3083.3;casquette r-1 c2 t-3
+922;Rampe inclinée métal (Sloped Railing);1994.1;2253.9;2100.0;330;48.5;3009.5;casquette r-1 c2 t-2
+923;Rampe inclinée métal (Sloped Railing);1734.3;2403.9;2100.0;330;54.19;2964.3;casquette r-1 c2 t-1
+924;Rampe inclinée métal (Sloped Railing);1474.5;2553.9;2100.0;330;60.0;2949.0;casquette r-1 c2 t0
+925;Rampe inclinée métal (Sloped Railing);1214.7;2703.9;2100.0;330;65.81;2964.3;casquette r-1 c2 t1
+926;Rampe inclinée métal (Sloped Railing);954.9;2853.9;2100.0;330;71.5;3009.5;casquette r-1 c2 t2
+927;Rampe inclinée métal (Sloped Railing);695.1;3003.9;2100.0;330;76.97;3083.3;casquette r-1 c2 t3
+928;Rampe inclinée métal (Sloped Railing);900.0;2949.0;2100.0;0;73.03;3083.3;casquette r-1 c3 t-3
+929;Rampe inclinée métal (Sloped Railing);600.0;2949.0;2100.0;0;78.5;3009.5;casquette r-1 c3 t-2
+930;Rampe inclinée métal (Sloped Railing);300.0;2949.0;2100.0;0;84.19;2964.3;casquette r-1 c3 t-1
+931;Rampe inclinée métal (Sloped Railing);0.0;2949.0;2100.0;0;90.0;2949.0;casquette r-1 c3 t0
+932;Rampe inclinée métal (Sloped Railing);-300.0;2949.0;2100.0;0;95.81;2964.3;casquette r-1 c3 t1
+933;Rampe inclinée métal (Sloped Railing);-600.0;2949.0;2100.0;0;101.5;3009.5;casquette r-1 c3 t2
+934;Rampe inclinée métal (Sloped Railing);-900.0;2949.0;2100.0;0;106.97;3083.3;casquette r-1 c3 t3
+935;Rampe inclinée métal (Sloped Railing);-695.1;3003.9;2100.0;30;103.03;3083.3;casquette r-1 c4 t-3
+936;Rampe inclinée métal (Sloped Railing);-954.9;2853.9;2100.0;30;108.5;3009.5;casquette r-1 c4 t-2
+937;Rampe inclinée métal (Sloped Railing);-1214.7;2703.9;2100.0;30;114.19;2964.3;casquette r-1 c4 t-1
+938;Rampe inclinée métal (Sloped Railing);-1474.5;2553.9;2100.0;30;120.0;2949.0;casquette r-1 c4 t0
+939;Rampe inclinée métal (Sloped Railing);-1734.3;2403.9;2100.0;30;125.81;2964.3;casquette r-1 c4 t1
+940;Rampe inclinée métal (Sloped Railing);-1994.1;2253.9;2100.0;30;131.5;3009.5;casquette r-1 c4 t2
+941;Rampe inclinée métal (Sloped Railing);-2253.9;2103.9;2100.0;30;136.97;3083.3;casquette r-1 c4 t3
+942;Rampe inclinée métal (Sloped Railing);-2103.9;2253.9;2100.0;60;133.03;3083.3;casquette r-1 c5 t-3
+943;Rampe inclinée métal (Sloped Railing);-2253.9;1994.1;2100.0;60;138.5;3009.5;casquette r-1 c5 t-2
+944;Rampe inclinée métal (Sloped Railing);-2403.9;1734.3;2100.0;60;144.19;2964.3;casquette r-1 c5 t-1
+945;Rampe inclinée métal (Sloped Railing);-2553.9;1474.5;2100.0;60;150.0;2949.0;casquette r-1 c5 t0
+946;Rampe inclinée métal (Sloped Railing);-2703.9;1214.7;2100.0;60;155.81;2964.3;casquette r-1 c5 t1
+947;Rampe inclinée métal (Sloped Railing);-2853.9;954.9;2100.0;60;161.5;3009.5;casquette r-1 c5 t2
+948;Rampe inclinée métal (Sloped Railing);-3003.9;695.1;2100.0;60;166.97;3083.3;casquette r-1 c5 t3
+949;Rampe inclinée métal (Sloped Railing);-2949.0;900.0;2100.0;90;163.03;3083.3;casquette r-1 c6 t-3
+950;Rampe inclinée métal (Sloped Railing);-2949.0;600.0;2100.0;90;168.5;3009.5;casquette r-1 c6 t-2
+951;Rampe inclinée métal (Sloped Railing);-2949.0;300.0;2100.0;90;174.19;2964.3;casquette r-1 c6 t-1
+952;Rampe inclinée métal (Sloped Railing);-2949.0;0.0;2100.0;90;180.0;2949.0;casquette r-1 c6 t0
+953;Rampe inclinée métal (Sloped Railing);-2949.0;-300.0;2100.0;90;185.81;2964.3;casquette r-1 c6 t1
+954;Rampe inclinée métal (Sloped Railing);-2949.0;-600.0;2100.0;90;191.5;3009.5;casquette r-1 c6 t2
+955;Rampe inclinée métal (Sloped Railing);-2949.0;-900.0;2100.0;90;196.97;3083.3;casquette r-1 c6 t3
+956;Rampe inclinée métal (Sloped Railing);-3003.9;-695.1;2100.0;120;193.03;3083.3;casquette r-1 c7 t-3
+957;Rampe inclinée métal (Sloped Railing);-2853.9;-954.9;2100.0;120;198.5;3009.5;casquette r-1 c7 t-2
+958;Rampe inclinée métal (Sloped Railing);-2703.9;-1214.7;2100.0;120;204.19;2964.3;casquette r-1 c7 t-1
+959;Rampe inclinée métal (Sloped Railing);-2553.9;-1474.5;2100.0;120;210.0;2949.0;casquette r-1 c7 t0
+960;Rampe inclinée métal (Sloped Railing);-2403.9;-1734.3;2100.0;120;215.81;2964.3;casquette r-1 c7 t1
+961;Rampe inclinée métal (Sloped Railing);-2253.9;-1994.1;2100.0;120;221.5;3009.5;casquette r-1 c7 t2
+962;Rampe inclinée métal (Sloped Railing);-2103.9;-2253.9;2100.0;120;226.97;3083.3;casquette r-1 c7 t3
+963;Rampe inclinée métal (Sloped Railing);-2253.9;-2103.9;2100.0;150;223.03;3083.3;casquette r-1 c8 t-3
+964;Rampe inclinée métal (Sloped Railing);-1994.1;-2253.9;2100.0;150;228.5;3009.5;casquette r-1 c8 t-2
+965;Rampe inclinée métal (Sloped Railing);-1734.3;-2403.9;2100.0;150;234.19;2964.3;casquette r-1 c8 t-1
+966;Rampe inclinée métal (Sloped Railing);-1474.5;-2553.9;2100.0;150;240.0;2949.0;casquette r-1 c8 t0
+967;Rampe inclinée métal (Sloped Railing);-1214.7;-2703.9;2100.0;150;245.81;2964.3;casquette r-1 c8 t1
+968;Rampe inclinée métal (Sloped Railing);-954.9;-2853.9;2100.0;150;251.5;3009.5;casquette r-1 c8 t2
+969;Rampe inclinée métal (Sloped Railing);-695.1;-3003.9;2100.0;150;256.97;3083.3;casquette r-1 c8 t3
+970;Rampe inclinée métal (Sloped Railing);-900.0;-2949.0;2100.0;180;253.03;3083.3;casquette r-1 c9 t-3
+971;Rampe inclinée métal (Sloped Railing);-600.0;-2949.0;2100.0;180;258.5;3009.5;casquette r-1 c9 t-2
+972;Rampe inclinée métal (Sloped Railing);-300.0;-2949.0;2100.0;180;264.19;2964.3;casquette r-1 c9 t-1
+973;Rampe inclinée métal (Sloped Railing);-0.0;-2949.0;2100.0;180;270.0;2949.0;casquette r-1 c9 t0
+974;Rampe inclinée métal (Sloped Railing);300.0;-2949.0;2100.0;180;275.81;2964.3;casquette r-1 c9 t1
+975;Rampe inclinée métal (Sloped Railing);600.0;-2949.0;2100.0;180;281.5;3009.5;casquette r-1 c9 t2
+976;Rampe inclinée métal (Sloped Railing);900.0;-2949.0;2100.0;180;286.97;3083.3;casquette r-1 c9 t3
+977;Rampe inclinée métal (Sloped Railing);695.1;-3003.9;2100.0;210;283.03;3083.3;casquette r-1 c10 t-3
+978;Rampe inclinée métal (Sloped Railing);954.9;-2853.9;2100.0;210;288.5;3009.5;casquette r-1 c10 t-2
+979;Rampe inclinée métal (Sloped Railing);1214.7;-2703.9;2100.0;210;294.19;2964.3;casquette r-1 c10 t-1
+980;Rampe inclinée métal (Sloped Railing);1474.5;-2553.9;2100.0;210;300.0;2949.0;casquette r-1 c10 t0
+981;Rampe inclinée métal (Sloped Railing);1734.3;-2403.9;2100.0;210;305.81;2964.3;casquette r-1 c10 t1
+982;Rampe inclinée métal (Sloped Railing);1994.1;-2253.9;2100.0;210;311.5;3009.5;casquette r-1 c10 t2
+983;Rampe inclinée métal (Sloped Railing);2253.9;-2103.9;2100.0;210;316.97;3083.3;casquette r-1 c10 t3
+984;Rampe inclinée métal (Sloped Railing);2103.9;-2253.9;2100.0;240;313.03;3083.3;casquette r-1 c11 t-3
+985;Rampe inclinée métal (Sloped Railing);2253.9;-1994.1;2100.0;240;318.5;3009.5;casquette r-1 c11 t-2
+986;Rampe inclinée métal (Sloped Railing);2403.9;-1734.3;2100.0;240;324.19;2964.3;casquette r-1 c11 t-1
+987;Rampe inclinée métal (Sloped Railing);2553.9;-1474.5;2100.0;240;330.0;2949.0;casquette r-1 c11 t0
+988;Rampe inclinée métal (Sloped Railing);2703.9;-1214.7;2100.0;240;335.81;2964.3;casquette r-1 c11 t1
+989;Rampe inclinée métal (Sloped Railing);2853.9;-954.9;2100.0;240;341.5;3009.5;casquette r-1 c11 t2
+990;Rampe inclinée métal (Sloped Railing);3003.9;-695.1;2100.0;240;346.97;3083.3;casquette r-1 c11 t3

@@ -25,7 +25,7 @@ Templates : `templates/parts/`. Coordonnées de la part 1, avec la phase de chaq
 
 ## 2. Contenu d'une part (identique pour les 6)
 
-### Structure : 857 pièces
+### Structure : 827 pièces (aucun toit incliné)
 
 | Élément | Pièces par part | Détail | Phase |
 |---|---|---|---|
@@ -38,16 +38,16 @@ Templates : `templates/parts/`. Coordonnées de la part 1, avec la phase de chaq
 | Rive D7 (2 niveaux) | 27 | 27 murs. Il reste 1 emplacement libre au niveau 1 pour la Tesla | P2 |
 | Mezzanine Z1800 (hors centre) | 45 | 15 plafonds + 30 triangles | P3 |
 | Planchers de galerie Z1800, 2100, 2400 | 81 | 26 plafonds + 54 triangles + 1 trappe | P3 / P5 |
-| Pente A (4 rangs) | 52 | toits | P4 |
-| Overhang (4 rangs, dont 2 dans le vide) | 72 | toits | P4 |
-| Jupe | 74 | 36 murs + 38 plafonds | P4 |
+| Pente A (4 rangs) | 56 | rampes inclinées | P4 |
+| Overhang (4 rangs, dont 2 dans le vide) | 72 | rampes inclinées | P4 |
+| Mur de jupe | 36 | murs | P4 |
 | Cage L2 | 10 | cadres doubles | P5 |
-| Casquette | 12 | toits | P5 |
+| Casquette | 14 | rampes inclinées | P5 |
 | Plancher de toit Z2400 (sur le pod) | 48 | 16 plafonds + 32 triangles | P6 |
-| **Toit en rampes inclinées** (2 pans sur 12) | 60 | rampes (Sloped Railing) | P6 |
-| **Total** | **857** | lingots ≈ 23 753 ; pâte ≈ 6 863 | |
+| **Toit en rampes inclinées** (2 pans sur 12) | 62 | rampes inclinées | P6 |
+| **Total** | **827** | lingots ≈ 19 391 ; pâte ≈ 5 555 | |
 
-Par rapport à la version précédente (971 pièces, 7 983 pâte), une part perd le cône (38 toits) et la reprise (20 toits), 2 niveaux de mur de pod (16 murs), le haut des piliers PA/PB (28 pièces) et 120 pièces de colonnade. Elle gagne le plancher de toit (48 plafonds) et les 60 rampes.
+Par rapport à la première version (971 pièces, 7 983 pâte), une part n'a plus aucun toit incliné : les 194 toits (cône, reprise, casquette, pente A, overhang) deviennent 204 rampes inclinées. Elle perd aussi 2 niveaux de mur de pod (16 murs), le haut des piliers PA/PB (28 pièces), 120 pièces de colonnade et les 38 plafonds de jupe. Elle gagne le plancher de toit (48 plafonds).
 
 ### Tourelles : 16 par part, chacune avec son mur de chaume
 

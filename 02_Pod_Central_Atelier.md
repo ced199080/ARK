@@ -19,7 +19,7 @@ Source du noyau : `references/Coeur_Base.json` (votre template *Coeur Base*). Co
 | **Hall d'atelier** | Z0 → Z1800 : **6 murs pleins de hauteur libre** autour du Coeur Base | aucun plancher intermédiaire |
 | Mezzanine / étage technique | Z1800 → Z2400 (2 murs) | même niveau que la galerie de tourelles |
 | **Plancher de toit** | Z2400, sur tout le pod | au niveau du toit de cage : un seul plancher fermé du centre jusqu'à D5 |
-| **Toit en rampes inclinées** | Z2400 → Z5150, sur tout le contour D5 (pod + cage) | comme le toit des tours 1201 / 1809 ; remplace le cône et la reprise |
+| **Toit en rampes inclinées** | Z2400 → Z5150, sur tout le contour D5 (pod + cage) | comme le toit des tours 1201 / 1809 ; remplace le cône et la reprise ; aucun toit incliné |
 
 ## 2. Coeur Base intégré au centre
 
@@ -98,36 +98,37 @@ Elle reprend le centre et les anneaux 1 à 7 en plafonds, **moins la trémie de 
 
 ## 8. Toit en rampes inclinées (comme les tours 1201 / 1809)
 
-Le cône de 228 toits, son capuchon et la reprise de la cage sont remplacés par :
-1. un **plancher de toit fermé à Z2400** sur le pod (96 plafonds + 192 triangles). Il prolonge le toit de cage (module 04) : le bloc central a un seul plancher étanche du centre jusqu'à D5 ;
+**Aucun toit incliné dans toute la base.** Sur un toit à 45°, on tient debout et rien ne glisse. Le cône, son capuchon et la reprise de la cage sont donc remplacés par :
+1. un **plancher de toit fermé à Z2400** sur le pod (96 plafonds + 192 triangles). Il prolonge le toit de cage (module 04) : le bloc central a un seul plancher étanche, du centre jusqu'à D5 ;
 2. au-dessus, un **toit en rampes inclinées** (`StructureBP_Railing_Sloped_Metal`, la pièce des tours 1201 et 1809).
 
-**Principe relevé sur la tour 1201.**
-- Le toit est fait de **lames** : des files de rampes inclinées, parallèles à la pente, espacées de 300 UU.
-- Chaque rampe monte de 300 UU sur 300 UU. La rampe suivante est 300 UU plus loin vers le faîtage et 300 UU plus haut.
-- La première rampe a son pivot **150 UU devant le bord du plancher** et **10 UU sous son dessus** (z template = Z plancher + 80). Elle déborde comme une rive de toit.
-- On ne peut ni se poser, ni tenir debout sur des lames : un dino largué n'y trouve aucune surface. Ce qui passe entre deux lames tombe sur le plancher fermé Z2400.
+La même règle sert pour la casquette, la pente A et l'overhang (modules 03 et 04).
 
-**Adaptation au dodécagone.** Il y a 12 pans, un par côté de D5. Sur chaque pan, les lames sont aux positions t = 0, ±300, ±600 le long du côté. Une lame s'arrête au faîtage, ou dès que sa rampe suivante sortirait de son pan.
+**Règle de pose, relevée sur la tour 1201**
+- Le toit est fait de **lames** : des files de rampes inclinées, parallèles à la pente, espacées de 300 UU (t = 0, ±300, ±600… le long de chaque côté).
+- Chaque rampe monte de 300 UU sur 300 UU vers le centre. La rampe suivante d'une lame est 300 UU plus loin et 300 UU plus haut.
+- Pivot : au milieu de la rampe, 150 UU en retrait de son bas, à z template = Z du bas + 290. Sur la tour 1201, cela met la rampe de rive 150 UU devant le bord du plancher et 10 UU sous son dessus.
+- Rotation : **yaw = θ du côté − 90°**, ce qui fait monter la rampe vers le centre. C'est le cas de la tour 1201 : yaw −90° sur le côté θ = 0°.
+- Une lame peut dépasser l'arête de son côté de 150 UU au plus. Aux 12 arêtes, l'écart entre lames reste donc ≤ 300 UU.
+- **On ne tient pas debout sur une lame** : un dino largué n'y trouve aucune surface et glisse vers l'extérieur. Ce qui passe entre deux lames tombe sur le plancher fermé Z2400.
 
-| Rang | Apothème du pivot | Z plancher → rampe | Lames par pan | Rampes |
+**Rangs du toit** (la rampe de rive, 150 UU devant le bord du plancher, est la casquette du module 04) :
+
+| Rang | Apothème du pivot | Z du bas | Lames par côté | Rampes |
 |---|---|---|---|---|
-| r0 | 2 949,0 (150 devant D5) | 2400 | 5 | 60 |
-| r1 | 2 649,0 | 2700 | 5 | 60 |
-| r2 | 2 349,0 | 3000 | 5 | 60 |
-| r3 | 2 049,0 | 3300 | 3 | 36 |
-| r4 | 1 749,0 | 3600 | 3 | 36 |
-| r5 | 1 449,0 | 3900 | 3 | 36 |
-| r6 | 1 149,0 | 4200 | 3 | 36 |
-| r7 | 849,0 | 4500 | 1 | 12 |
-| r8 | 549,0 | 4800 | 1 | 12 |
-| r9 | 249,0 | 5100 | 1 | 12 |
-| **Total** | | sommet ≈ Z5150 | | **360** |
+| r0 | 2 649,0 | 2400 | 5 | 60 |
+| r1 | 2 349,0 | 2700 | 5 | 60 |
+| r2 | 2 049,0 | 3000 | 5 | 60 |
+| r3 | 1 749,0 | 3300 | 5 | 60 |
+| r4 | 1 449,0 | 3600 | 3 | 36 |
+| r5 | 1 149,0 | 3900 | 3 | 36 |
+| r6 | 849,0 | 4200 | 3 | 36 |
+| r7 | 549,0 | 4500 | 1 | 12 |
+| r8 | 249,0 | 4800 | 1 | 12 |
+| **Total** | | sommet ≈ Z5150 | | **372** |
 
-- Rotation : **yaw = θ du pan − 90°** ; la rampe monte vers le centre, comme les rampes `Sloped` de la tour 1201 (yaw −90° sur le pan θ = 0°).
-- Le premier rang passe au-dessus de la casquette (module 04 §5), à environ 50 UU, parallèlement à elle.
-- Coût : une rampe vaut environ **12 lingots + 3 pâte**, contre 35 + 10 pour un toit. ⚠ Le coût de la rampe inclinée est une estimation : c'est celui de la rambarde métal (Metal Railing).
-- ⚠ À valider en solo : le décalage de 150 UU et de 10 UU vient du template 1201, posé sur des cadres de porte. Si la première rampe apparaît trop haute ou trop basse au-dessus de la casquette, corrigez `- 100` dans `toit_rampes()` et régénérez.
+- Coût : une rampe vaut environ **12 lingots + 3 pâte**, contre 35 + 10 pour un toit. ⚠ C'est une estimation : le coût de la rambarde métal (Metal Railing).
+- ⚠ À valider en solo : le décalage de la rampe (+290 en z template) vient de la tour 1201, où les rampes reposent sur des cadres de porte. Si les rampes apparaissent trop haut ou trop bas, corrigez `+ 200` dans `rang_rampes()` et régénérez.
 
 ## 9. Contrôles de fin de module
 
@@ -137,4 +138,4 @@ Le cône de 228 toits, son capuchon et la reprise de la cage sont remplacés par
 - [ ] 6 cadres doubles au sol (1 par part) et 12 à Z1800.
 - [ ] 24 colonnes de piliers PA/PB, toutes arrêtées à Z2400.
 - [ ] Plancher de toit Z2400 fermé, sans jour.
-- [ ] Toit : 360 rampes en 12 pans, lames au pas de 300 UU.
+- [ ] Toit : 372 rampes en 12 pans, lames au pas de 300 UU. Aucun toit incliné.

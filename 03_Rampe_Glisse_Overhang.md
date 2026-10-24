@@ -1,8 +1,10 @@
-# Module 03 — Rive, colonnade circulaire, pente de glisse et overhang dans le vide
+# Module 03 — Rive, colonnade circulaire, rampes de glisse et overhang dans le vide
 
 Template : `templates/03_rive_colonnade_pente_overhang2.json` (`--debord 1` pour la variante courte), réparti dans les phases :
 - **P2** : mur de rive, colonnade ;
-- **P4** : pente A, overhang, jupe.
+- **P4** : pente A et overhang en rampes inclinées, mur de jupe.
+
+**Aucun toit incliné.** Sur un toit à 45°, on tient debout et rien ne glisse. Toutes les pentes sont donc faites de **rampes inclinées** (Sloped Railing), en lames au pas de 300 UU comme sur les tours 1201 et 1809 (règle de pose : module 02 §8).
 
 Les Tesla de rive et leurs murs de chaume sont posés en **P7** avec les tourelles (module 05).
 
@@ -53,7 +55,7 @@ C'est une couronne de **piliers métal sur un vrai cercle**, chaque pilier tourn
 
 **Rôle**
 1. Elle forme une **grille intérieure** derrière la rive. Un assaillant qui force la rive ou un emplacement Tesla trouve des vides de 40 UU, trop étroits pour un corps. Un joueur ne saute pas 300 UU : il doit détruire des piliers.
-2. Elle ne porte plus la pente A. La pente s'appuie sur la rive et sur le fût, comme un toit ordinaire. C'est ce qui permet de la réduire à un rang de piliers.
+2. Elle ne porte plus la pente A : les rampes s'appuient sur la rive et sur le fût. Un rang de piliers suffit donc.
 3. Elle partage l'attique A en deux anneaux :
    - l'intérieur, entre le fût et la colonnade, reste libre (câbles) ;
    - l'extérieur, entre la colonnade et la rive, donne l'accès aux Tesla.
@@ -64,53 +66,67 @@ C'est une couronne de **piliers métal sur un vrai cercle**, chaque pilier tourn
 
 ⚠ **À valider en solo.** La largeur réelle du pilier métal est déduite du template 704. Si les piliers se touchent ou laissent un vide différent, ajustez `largeur_pilier` en tête du script et régénérez.
 
-## 4. Pente A : de la rive à la cage
+## 4. Pente A : de la rive à la cage, en rampes inclinées
 
-| Rang | Apothème du bord bas | Z bas → haut | Toits par côté | Total |
+| Rang | Apothème du bas | Z bas → haut | Lames par côté | Rampes |
 |---|---|---|---|---|
 | r0 | 3 918,7 (sur la rive) | 600 → 900 | 7 | 84 |
 | r1 | 3 618,7 | 900 → 1200 | 7 | 84 |
-| r2 | 3 318,7 | 1200 → 1500 | 6 | 72 |
-| r3 | 3 018,7 | 1500 → 1800 | 6 | 72 |
+| r2 | 3 318,7 | 1200 → 1500 | 7 | 84 |
+| r3 | 3 018,7 | 1500 → 1800 | 7 | 84 |
+| **Total** | | | | **336** |
 
-Le dernier rang passe 80 UU derrière la ligne du fût. La pente coupe donc le fût à Z 1 719,5, sous la cage : aucun jour à la rupture de pente.
+- Les lames sont aux positions t = 0, ±300, ±600, ±900 de chaque côté. Les mêmes lames continuent dans l'overhang (§5) : chacune descend sans rupture de Z1800 jusqu'à Z −600.
+- Le dernier rang passe 80 UU derrière la ligne du fût, sous la cage.
+- Ce qui passe entre deux lames tombe dans l'attique A (Z0), entre la rive et le fût. Il y trouve la colonnade et le tir de L1, qui voit l'attique entre les lames.
 
-## 5. Overhang : débordement dans le vide
+## 5. Overhang : débordement dans le vide, en rampes inclinées
 
-| Rang | Apothème du bord bas | Z bas → haut | Toits par côté | Total | Position |
+| Rang | Apothème du bas | Z bas → haut | Lames par côté | Rampes | Position |
 |---|---|---|---|---|---|
-| r−1 | 4 218,7 | 300 → 600 | 8 | 96 | au-dessus du palier 1 et des pics |
+| r−1 | 4 218,7 | 300 → 600 | 9 | 108 | au-dessus du palier 1 et des pics |
 | r−2 | 4 518,7 | 0 → 300 | 9 | 108 | au-dessus du palier 2 ; finit 40 UU après le bord D8 |
 | **r−3** | 4 818,7 | −300 → 0 | 9 | 108 | **1re structure dans le vide** |
-| **r−4** | 5 118,7 | −600 → −300 | 10 | 120 | **2e structure dans le vide** (`--debord 2`, défaut) |
+| **r−4** | 5 118,7 | −600 → −300 | 9 | 108 | **2e structure dans le vide** (`--debord 2`, défaut) |
+| **Total** | | | | **432** | |
 
 - Bout de l'overhang : apothème 5 118,7 à Z −600, soit 640 UU au-delà du bord de la plateforme (340 UU avec `--debord 1`).
-- **Jupe** (`--debord 2` seulement) :
-  - mur d'about à l'apothème 4 518,7, de Z −600 à 0 (216 murs) ;
-  - plafonds s1 et s2 à Z −600 sous les rangs r−3/r−4 (228 plafonds).
-  Elle porte les 30 Heavy verticales du dessous de la plateforme : leurs murs de chaume pendent sous la jupe (module 05).
+- **Mur de jupe** (`--debord 2` seulement) : mur d'about à l'apothème 4 518,7, de Z −600 à 0 (216 murs). Il porte les 30 Heavy verticales du dessous de la plateforme : leurs murs de chaume pendent sous ce mur, face côté mer ou face côté piton (module 05).
+- **Plus de plafonds de jupe.** Sous des rampes, ils formeraient un palier où l'on pourrait se poser, juste au-dessus des tourelles de jupe. Sans eux, ce qui passe entre les lames de r−3/r−4 tombe dans le vide.
 - **Pose en Template Hammer uniquement** sous le bord de la plateforme.
 
 ## 6. Ligne de pics protégée (bordure basse)
 
 - **84 Metal Spike Walls**, 7 par côté, à l'apothème **4 068,7** et à **Z −150** sur le palier 1, pointes vers l'extérieur.
 - Coordonnées : `donnees/03_ligne_pics.csv`.
-- Le rang r−1 passe 600 UU au-dessus d'eux : ils sont à l'abri des largages et invisibles d'en haut.
+- Le rang r−1 passe 600 UU au-dessus d'eux. Ce qui glisse sur ses lames tombe au-delà ; ce qui passe entre deux lames tombe sur les pics, sous le tir de la Tesla.
 - Avec les 6 Tesla de rive, qui voient tout le palier 1 et le palier 2 à partir de 4 230 UU, ils couvrent l'angle mort de la cage.
 - ⚠ La pose d'un mur de pics métal sur fondation est à valider en solo. Repli : bord de plateforme à l'apothème 4 520, sous le rang r−2.
 
-## 7. Chaîne de glisse complète
+## 7. Glissement : du faîtage jusqu'au vide
 
-| # | Surface | Entrée → sortie | Chute à la sortie |
+Sur une lame inclinée à 45°, ni un joueur ni un dino ne tient debout. Ce qui touche les rampes glisse le long des lames, vers l'extérieur :
+
+| # | Rampes | De → à | À la sortie |
 |---|---|---|---|
-| 1 | Toit en rampes (module 02 §8) | rien ne s'y pose ; ce qui passe entre les lames tombe sur le plancher fermé Z2400 | — |
-| 2 | Casquette | 2 799 → 3 099 (Z2400 → 2100) | ≈ 680 UU sur la pente A, à ≈ 190 UU devant la tête des tourelles L1 (module 04 §5) |
-| 3 | Pente A | 3 099 → 3 919 (Z1420 → 600) | — |
+| 1 | Toit (module 02 §8) | faîtage Z5150 → bord D5 (Z2400) | continue sur la casquette |
+| 2 | Casquette | 2 799 → 3 099 (Z2400 → 2100) | chute de ≈ 680 UU sur la pente A, à ≈ 190 UU devant la tête des tourelles L1 (module 04 §5) |
+| 3 | Pente A | 3 099 → 3 919 (Z1420 → 600) | continue sur l'overhang |
 | 4 | Overhang | 3 919 → 5 119 (Z600 → −600) | **dans le vide**, 640 UU au-delà de la plateforme |
+
+**Entre les lames** (vide de 300 UU, assez large pour un joueur, trop étroit pour un gros dino) :
+
+| Où | On tombe sur | Défense |
+|---|---|---|
+| Toit | le plancher fermé Z2400 | aucun accès vers l'intérieur |
+| Casquette | une tête de tourelle L1, ou la pente A | à bout portant de L1 (module 04 §5) |
+| Pente A | l'attique A (Z0) | colonnade, tir de L1 entre les lames |
+| Overhang r−1, r−2 | les paliers de bord | pics, Tesla de rive |
+| Overhang r−3, r−4 | le vide | — |
 
 ## 8. Contrôles de fin de module
 
 - [ ] Rive : 2 niveaux, 6 emplacements Tesla libres au niveau 1 (θ 0° + 60°·k).
 - [ ] Colonnade : 240 piliers sur un rang, 6 passages à θ 30° + 60°·k.
-- [ ] Pente A : 312 toits ; overhang : 432 toits ; jupe : 216 murs + 228 plafonds.
+- [ ] Pente A : 336 rampes ; overhang : 432 rampes ; mur de jupe : 216 murs. Aucun toit incliné.
 - [ ] 84 pics posés sous r−1.

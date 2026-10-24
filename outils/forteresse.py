@@ -20,7 +20,8 @@ Conventions (mesurées dans les templates fournis, voir README_Notice_Montage.md
   - Z « plan » = cote d'un plancher, 0 = dessus des fondations intérieures.
     z template = Z + 90 (plancher), Z + 40 pour le pivot d'une fondation, Z_bas + 240 pour un mur.
   - Triangle (fondation/plafond) : pivot à mi-hauteur, yaw = direction base -> pointe.
-  - Toit incliné (45°) : centre à 150 UU à l'intérieur de son bord bas et 150 UU au-dessus, yaw = sens de montée.
+  - Aucun toit incliné (on tiendrait debout dessus) : toutes les pentes à 45° sont en rampes inclinées (Sloped
+    Railing, tours 1201/1809), en lames au pas de 300 UU ; voir rang_rampes().
   - Tourelle « verticale » (template 2727, tours 1201/1809) : fixée sur la face extérieure d'un mur de chaume
     (Thatch_Wall_Small) qui occupe l'emplacement ; pivot 10 UU devant le plan du mur, à mi-hauteur ;
     Heavy/Tek : pitch -89,5°, yaw = θ_sortie + 90°, roll -90° ; Tesla : pitch 0°, yaw = θ_sortie + 90°, roll -90°.
@@ -107,8 +108,6 @@ C = {
     'pilier': '/Game/PrimalEarth/Structures/Metal/Pillar_Metal.Pillar_Metal_C',
     'trappe': '/Game/PrimalEarth/Structures/Metal/Ceiling_Doorway_Metal.Ceiling_Doorway_Metal_C',
     'demi_pilier': '/Game/PrimalEarth/Structures/Tileset/Pillars/Half/Pillar_Half_Metal.Pillar_Half_Metal_C',
-    'toit': '/Game/PrimalEarth/CoreBlueprints/Items/Structures/Roofs/Metal/MetalRoof_SM.MetalRoof_SM_C',
-    'demi_toit': '/Game/PrimalEarth/Structures/Tileset/RoofHalf/BP_Roof_Half_Metal.BP_Roof_Half_Metal_C',
     'rampe': '/Game/PrimalEarth/Structures/Tileset/Railings/Metal/StructureBP_Railing_Sloped_Metal.StructureBP_Railing_Sloped_Metal_C',
     'escalier': '/Game/PrimalEarth/Structures/BuildingBases/StairSM_Metal.StairSM_Metal_C',
     'porte_secrete': '/Game/PrimalEarth/Structures/Tileset/SecretDoorways/StructureBP_Door_Secret_Metal.StructureBP_Door_Secret_Metal_C',
@@ -124,7 +123,7 @@ NOMS = {
     'fond': 'Fondation métal', 'fond_tri': 'Fondation triangle métal', 'plafond': 'Plafond métal',
     'plafond_tri': 'Plafond triangle métal', 'mur': 'Mur métal', 'cadre_double': 'Cadre de porte double métal',
     'pilier': 'Pilier métal', 'trappe': 'Plafond à trappe métal', 'demi_pilier': 'Demi-pilier métal',
-    'toit': 'Toit incliné métal', 'demi_toit': 'Demi-toit métal', 'rampe': 'Rampe inclinée métal (Sloped Railing)', 'escalier': 'Escalier métal (Coeur Base)',
+    'rampe': 'Rampe inclinée métal (Sloped Railing)', 'escalier': 'Escalier métal (Coeur Base)',
     'porte_secrete': 'Porte secrète métal (Coeur Base)', 'coffre': 'Coffre (Coeur Base)',
     'chaume_mur': 'Mur de chaume (gabarit de pose, à démolir)', 'heavy': 'Tourelle lourde (Heavy)',
     'tek': 'Tourelle Tek', 'tesla': 'Bobine Tesla', 'pics': 'Mur de pics métal',
@@ -139,8 +138,8 @@ COUTS = {
     'fond': dict(MI=50, PC=15), 'fond_tri': dict(MI=25, PC=8), 'plafond': dict(MI=35, PC=10),
     'plafond_tri': dict(MI=18, PC=5, est=True), 'mur': dict(MI=25, PC=7),
     'cadre_double': dict(MI=25, PC=7, est=True), 'pilier': dict(MI=25, PC=7),
-    'trappe': dict(MI=35, PC=10, est=True), 'demi_pilier': dict(MI=13, PC=4, est=True), 'toit': dict(MI=35, PC=10),
-    'demi_toit': dict(MI=18, PC=5, est=True), 'rampe': dict(MI=12, PC=3, est=True), 'escalier': dict(MI=50, PC=15, est=True),
+    'trappe': dict(MI=35, PC=10, est=True), 'demi_pilier': dict(MI=13, PC=4, est=True),
+    'rampe': dict(MI=12, PC=3, est=True), 'escalier': dict(MI=50, PC=15, est=True),
     'porte_secrete': dict(MI=25, PC=7, est=True), 'coffre': dict(),          # mobilier : hors bilan
     'chaume_mur': dict(CH=7, FI=4, BO=4, est=True),
     'heavy': dict(MI=540, PC=200, EL=270, PO=70),      # 1 tourelle auto (140/50/70/20) + 400/150/200/50
@@ -313,33 +312,37 @@ def rang_dodeca(A, decalage=0.0):
     return out
 
 
-def toit_rampes(t, A, Zd, repere):
-    """Toit en rampes inclinées (Sloped Railing), selon le toit des tours 1201 / 1809, sur un dodécagone d'apothème A.
+def rang_rampes(t, A_bas, Z_bas, repere):
+    """Un rang de rampes inclinées (Sloped Railing, tours 1201 / 1809) sur une pente à 45° qui part de l'apothème
+    A_bas à la cote Z_bas et monte vers le centre. Aucun toit incliné : on ne tient pas debout sur des lames.
 
-    Le toit a 12 pans. Sur chaque pan, des lames parallèles à la pente sont posées au pas de 300 UU (t = 0, ±300…).
-    Chaque lame est une file de rampes qui montent de 300 UU par pas de 300 UU vers le centre. Comme sur la tour
-    1201, la première rampe est à 150 UU devant le bord du plancher Zd et son pivot à 10 UU sous le dessus de ce
-    plancher. Une lame s'arrête au faîtage, ou quand elle sort de son pan.
-    Renvoie la cote du sommet.
+    Sur chaque côté, les rampes sont au pas de 300 UU (t = 0, ±300…). Les rangs d'une même pente retombent sur les
+    mêmes t : chaque lame est continue du bas jusqu'en haut. Une lame peut dépasser l'arête du côté de 150 UU au
+    plus, si bien que l'écart entre lames reste ≤ 300 UU aux 12 arêtes.
+    Cotes relevées sur la tour 1201 : pivot au milieu de la rampe (150 UU en retrait du bas) et à z template
+    Z_bas + 290 ; yaw = normale du côté - 90° (montée vers le centre).
+    """
+    a = A_bas - F / 2
+    n = int((a * TAN15 + F / 2) // F + 1e-9)
+    for k in range(12):
+        nx, ny = vec(30 * k)
+        dx, dy = -ny, nx
+        for i in range(-n, n + 1):
+            t.add('rampe', a * nx + i * F * dx, a * ny + i * F * dy, Z_bas + Z_TPL + 200, 30 * k - 90,
+                  Z=Z_bas, repere=f'{repere} c{k} t{i}')
+
+
+def toit_rampes(t, A, Zd, repere):
+    """Toit en rampes inclinées sur un plancher fermé Zd de contour D(A), jusqu'au faîtage (12 pans).
+
+    Le rang de rive (150 UU devant le bord du plancher, comme sur la tour 1201) est la casquette du module 04 :
+    le toit commence donc au bord du plancher. Renvoie la cote du sommet.
     """
     j = 0
-    while A - j * F >= 0:
-        a = A + F / 2 - j * F
-        n = int(a * TAN15 // F + 1e-9)
-        for k in range(12):
-            nx, ny = vec(30 * k)
-            dx, dy = -ny, nx
-            for i in range(-n, n + 1):
-                t.add('rampe', a * nx + i * F * dx, a * ny + i * F * dy, Zd + Z_TPL - 100 + j * F, 30 * k - 90,
-                      Z=Zd + j * F, repere=f'{repere} r{j} c{k} t{i}')
+    while A - j * F - F / 2 > 0:
+        rang_rampes(t, A - j * F, Zd + j * F, f'{repere} r{j}')
         j += 1
-    return Zd + A + F / 2 - 100
-
-
-def rang_toit(t, A_bas, Z_bas, repere):
-    """Un rang de toits à 45° dont le bord bas est sur l'apothème A_bas à la cote Z_bas, montée vers le centre."""
-    for x, y, nu, k, i in rang_dodeca(A_bas, F / 2):
-        t.add('toit', x, y, Z_bas + Z_TPL + F / 2, nu + 180, Z=Z_bas, repere=f'{repere} c{k} p{i}')
+    return Zd + A - 50
 
 
 def cote_anneau(p, r):
@@ -525,8 +528,9 @@ def colonnade(p):
 
 def module_rampe(p, contours, tesla_murs):
     t = Template('03 Rive, colonnade, pente de glisse et overhang',
-                 f"Mur de rive D7 ({p['rive_niveaux']} niveaux), colonnade circulaire, {p['rangs_pente_A']} rangs de toits "
-                 f"jusqu'a la cage, overhang {2 + p['debord']} rangs (dont {p['debord']} au-dela de la plateforme), jupe.")
+                 f"Mur de rive D7 ({p['rive_niveaux']} niveaux), colonnade circulaire, {p['rangs_pente_A']} rangs de "
+                 f"rampes inclinees jusqu'a la cage, overhang {2 + p['debord']} rangs de rampes (dont {p['debord']} "
+                 "au-dela de la plateforme), mur de jupe.")
     ancre(t)
     d7 = contours[p['anneau_rive']]
     murs = cotes_contour(d7)
@@ -550,10 +554,10 @@ def module_rampe(p, contours, tesla_murs):
     Zr = p['rive_niveaux'] * F
     t.phase = 'P4'
     for j in range(p['rangs_pente_A']):
-        rang_toit(t, A7 - j * F, Zr + j * F, f'pente A r{j}')
+        rang_rampes(t, A7 - j * F, Zr + j * F, f'pente A r{j}')
     # overhang : 2 rangs au-dessus du décaissement + 'debord' rangs dans le vide
     for j in range(1, 3 + p['debord']):
-        rang_toit(t, A7 + j * F, Zr - j * F, f'overhang r-{j}')
+        rang_rampes(t, A7 + j * F, Zr - j * F, f'overhang r-{j}')
     A_bout = A7 + (2 + p['debord']) * F
     Z_bout = Zr - (2 + p['debord']) * F
     jupe = None
@@ -564,9 +568,8 @@ def module_rampe(p, contours, tesla_murs):
             Zb = Z_bout + niv * F
             for x, y, nu, k, i in rang_dodeca(A_j):
                 t.add('mur', x, y, Zb + Z_TPL + F / 2, nu, Z=Zb, repere=f'jupe mur niv{niv} c{k} p{i}')
-        for r in range(p['debord']):
-            for x, y, nu, k, i in rang_dodeca(A_j + (r + 1) * F, F / 2):
-                t.add('plafond', x, y, Z_bout + Z_TPL, nu, Z=Z_bout, repere=f'jupe plafond s{r + 1} c{k} p{i}')
+        # pas de plafond sous l'overhang : ce qui passe entre les rampes doit tomber dans le vide, pas sur un palier
+        # au-dessus des tourelles de jupe
         jupe = dict(A=A_j, Z=Z_bout)
     return t, murs, sas, dict(A_bout=A_bout, Z_bout=Z_bout), jupe, col
 
@@ -606,7 +609,7 @@ def module_cage(p, contours):
     A5 = apo(5)
     Ztop = zmez + p['cage_niveaux'] * F
     for j in range(p['casquette'], 0, -1):
-        rang_toit(t, A5 + j * F, Ztop - j * F, f'casquette r-{j}')
+        rang_rampes(t, A5 + j * F, Ztop - j * F, f'casquette r-{j}')
     return t, gal
 
 
@@ -677,8 +680,8 @@ def tableau_anneaux(p):
 PHASES = {'P1': 'Fondations (sol D8 + 2 paliers de bord)',
           'P2': 'Piliers et murs porteurs (Coeur Base niv. 1, piliers PA, colonnade, pod, fut, rive)',
           'P3': 'Plafonds intermediaires (Coeur Base niv. 2, escalier, mezzanine + galerie Z1800)',
-          'P4': 'Pentes de glisse : pente A, overhang et jupe basse',
-          'P5': 'Cage : planchers 2100/2400, double doorframes L2, casquette',
+          'P4': 'Rampes de glisse : pente A et overhang en rampes inclinees, mur de jupe',
+          'P5': 'Cage : planchers 2100/2400, double doorframes L2, casquette en rampes',
           'P6': 'Pod haut et toit : murs 1800-2400, piliers hauts, plancher de toit Z2400, rampes inclinees',
           'P7': 'Tourelles verticales et leurs murs de chaume de pose (scenario B)'}
 
@@ -717,11 +720,11 @@ def murs_tesla(murs):
 
 
 def emplacements_jupe(p, jupe):
-    """Murs de chaume suspendus sous la jupe (Z -900 -> -600).
+    """Murs de chaume suspendus sous le mur de jupe (4 518,7 ; Z -900 -> -600).
 
     Côtés pairs : 3 tourelles (extérieure, intérieure, extérieure) ; côtés impairs : 2 intérieures.
-    Les « extérieures » sont sur l'aplomb du mur d'about (4 518,7) et regardent la mer ; les « intérieures » sont
-    sur la jonction des plafonds s1/s2 (4 818,7) et regardent le dessous de la plateforme et le piton.
+    Les « extérieures » sont sur la face côté mer ; les « intérieures » sur la face côté piton, d'où elles voient le
+    dessous de la plateforme.
     """
     out = []
     Zb = jupe['Z'] - F
@@ -730,7 +733,7 @@ def emplacements_jupe(p, jupe):
         dx, dy = -ny, nx
         motif = [(-600, 'ext'), (0, 'int'), (600, 'ext')] if k % 2 == 0 else [(-600, 'int'), (600, 'int')]
         for i, (tt, sens) in enumerate(motif):
-            A = jupe['A'] if sens == 'ext' else jupe['A'] + F
+            A = jupe['A']
             sortie = 30 * k if sens == 'ext' else 30 * k + 180
             out.append(emplacement(A * nx + tt * dx, A * ny + tt * dy, Zb, sortie,
                                    'JUPE-ext' if sens == 'ext' else 'JUPE-int', k, i))
@@ -828,22 +831,19 @@ def distances(ordre):
 
 # ---------------------------------------------------------------- balistique (coupe radiale, côté E0, θ=0)
 def obstacles(p, ob):
-    A7, A5, A4 = apo(7), apo(5), apo(4)
+    """Surfaces pleines de la coupe. Les rampes inclinées (pente A, overhang, casquette, toit) sont des lames
+    espacées de 300 UU : elles ne bloquent ni la vue ni le tir et ne sont donc pas des obstacles."""
+    A7 = apo(7)
     Zr = p['rive_niveaux'] * F
-    zmez = p['mezzanine']
-    Ztop = zmez + p['cage_niveaux'] * F
-    segs = [
-        ((A7 - p['rangs_pente_A'] * F, Zr + p['rangs_pente_A'] * F), (ob['A_bout'], ob['Z_bout'])),   # pente A + overhang
-        ((A5 + p['casquette'] * F, Ztop - p['casquette'] * F), (0, Ztop + A5)),                        # casquette + rampes
-    ]
+    segs = [((0, 0), (A7, 0)),                                     # sol intérieur
+            ((A7, 0), (A7, Zr))]                                   # mur de rive
     Zp = 0.0
-    for r0, r1, Z in paliers_bord(p):                                                                  # 2 paliers de bord
+    for r0, r1, Z in paliers_bord(p):                              # 2 paliers de bord
         segs.append(((r0, Zp), (r0, Z)))
         segs.append(((r0, Z), (r1, Z)))
         Zp = Z
     if p['jupe'] and p['debord'] >= 2:
-        segs.append(((A7 + 2 * F, ob['Z_bout']), (ob['A_bout'], ob['Z_bout'])))
-        segs.append(((A7 + 2 * F, ob['Z_bout']), (A7 + 2 * F, Zr - 2 * F)))
+        segs.append(((A7 + 2 * F, ob['Z_bout']), (A7 + 2 * F, Zr - 2 * F)))   # mur de jupe
     return segs
 
 
@@ -869,8 +869,8 @@ def secteur_tir(p, ob, r0, z0, sens=1):
 
 
 def bande_vue(p, ob, r0, z0):
-    """Parties des 2 paliers de bord vues depuis (r0, z0). La Tesla de rive est dans une poche fermée (toit
-    au-dessus, paliers au-dessous) : on mesure donc, palier par palier, la bande visible et non un secteur."""
+    """Parties des 2 paliers de bord vues depuis (r0, z0), palier par palier. La Tesla de rive tire vers le bas, sur
+    les paliers : on mesure donc la bande visible et non un secteur."""
     segs = obstacles(p, ob)
     out = []
     for r_in, r_out, zb in paliers_bord(p):
@@ -894,7 +894,7 @@ def secteurs(p, ob, jupe):
     if jupe:
         zc = jupe['Z'] - F / 2
         out['JUPE-ext'] = secteur_tir(p, ob, jupe['A'] + DECALAGE_MONTAGE + SAILLIE_TETE, zc)
-        out['JUPE-int'] = secteur_tir(p, ob, jupe['A'] + F - DECALAGE_MONTAGE - SAILLIE_TETE, zc, sens=-1)
+        out['JUPE-int'] = secteur_tir(p, ob, jupe['A'] - DECALAGE_MONTAGE - SAILLIE_TETE, zc, sens=-1)
     return out
 
 
@@ -1172,28 +1172,25 @@ def plans(rep, p, pieces, ordre, ob, jupe, infos_pod, col):
     R = col['rayon']
     ax.plot([R, R], [0, min(hauteur_pente_A(p, R, 0) - 30, p['colonnade_hauteur'])], color='#6a040f', lw=3,
             label=f"colonnade circulaire r={R:.0f} (1 pilier / 1 vide, {p['colonnade_hauteur']:.0f} UU)")
-    ax.plot([A7 - p['rangs_pente_A'] * F, ob['A_bout']], [Zr + p['rangs_pente_A'] * F, ob['Z_bout']],
-            color='#e07a2f', lw=3, label='pente A + overhang (toits 45°)')
-    ax.plot([A5 + p['casquette'] * F, A5], [Zc - p['casquette'] * F, Zc], color='#7b2cbf', lw=3, label='casquette')
-    for j in range(0, int(A5 // F) + 1):
-        a = A5 + F / 2 - j * F
-        z = Zc - 100 + j * F
-        ax.plot([a + F / 2, a - F / 2], [z - F / 2, z + F / 2], color='#b00', lw=2,
-                label='toit en rampes inclinées (tours 1201/1809)' if j == 0 else None)
+    lame = dict(lw=3, ls=(0, (1, 0.6)))         # rampes inclinées : lames, tracé en pointillé serré
+    ax.plot([A7 - p['rangs_pente_A'] * F + 50, ob['A_bout'] + 50], [Zr + p['rangs_pente_A'] * F + 50, ob['Z_bout'] + 50],
+            color='#e07a2f', label='pente A + overhang : rampes inclinées', **lame)
+    ax.plot([A5 + p['casquette'] * F + 50, A5 + 50], [Zc - p['casquette'] * F + 50, Zc + 50], color='#7b2cbf',
+            label='casquette : rampes inclinées', **lame)
+    ax.plot([A5 + 50, 150], [Zc + 50, Zsommet], color='#b00', label='toit : rampes inclinées (tours 1201/1809)', **lame)
     if jupe:
-        ax.plot([jupe['A'], ob['A_bout']], [jupe['Z'], jupe['Z']], color='#555', lw=2, label='jupe (plafonds)')
-        ax.plot([jupe['A'], jupe['A']], [jupe['Z'], Zr - 2 * F], color='#555', lw=2)
+        ax.plot([jupe['A'], jupe['A']], [jupe['Z'], Zr - 2 * F], color='#555', lw=2, label='mur de jupe')
     sec = secteurs(p, ob, jupe)
     yeux = {'L1': (A5 + DECALAGE_MONTAGE + SAILLIE_TETE, zmez + F / 2, 1, 'tab:blue'),
             'RIVE': (A7 + DECALAGE_MONTAGE + SAILLIE_TETE / 2, F * 1.5, 1, '#d4ac0d')}
     if jupe:
         yeux['JUPE-ext'] = (jupe['A'] + DECALAGE_MONTAGE + SAILLIE_TETE, jupe['Z'] - F / 2, 1, 'tab:purple')
-        yeux['JUPE-int'] = (jupe['A'] + F - DECALAGE_MONTAGE - SAILLIE_TETE, jupe['Z'] - F / 2, -1, 'tab:pink')
+        yeux['JUPE-int'] = (jupe['A'] - DECALAGE_MONTAGE - SAILLIE_TETE, jupe['Z'] - F / 2, -1, 'tab:pink')
     for pid, (r, z, sens, coul) in yeux.items():
         sect = sec.get(pid)
         if not sect:
             continue
-        if pid == 'RIVE':                        # poche fermée : on trace les parties vues des 2 paliers
+        if pid == 'RIVE':                        # tir plongeant : on trace les parties vues des 2 paliers
             for b in sect:
                 if b:
                     for rb in b[:2]:
@@ -1315,29 +1312,31 @@ def plan_pod(rep, p, infos_pod):
     plt.close(fig)
 
 
-def plan_toit(rep, p, pod, infos_pod):
-    """Vue de dessus du toit en rampes : chaque lame est tracée rampe par rampe, couleur = cote."""
+def plan_rampes(rep, p, modules):
+    """Vue de dessus de toutes les rampes inclinées (toit, casquette, pente A, overhang) ; couleur = cote du bas."""
     plt, MPoly = _mpl()
     if not plt:
         return
-    fig, ax = plt.subplots(figsize=(11, 11))
-    rampes = [(x, y, Z, yaw) for cle, x, y, Z, yaw, r in pod.lignes if cle == 'rampe']
+    fig, ax = plt.subplots(figsize=(13, 13))
+    rampes = [(x, y, Z, yaw) for _, m in modules for cle, x, y, Z, yaw, r in m.lignes if cle == 'rampe']
     zmin, zmax = min(r[2] for r in rampes), max(r[2] for r in rampes)
     cmap = plt.get_cmap('viridis')
     for x, y, Z, yaw in rampes:
         nx, ny = vec(yaw + 90)                   # sens de montée (vers le centre)
-        ax.plot([x - 150 * nx, x + 150 * nx], [y - 150 * ny, y + 150 * ny], color=cmap((Z - zmin) / (zmax - zmin)), lw=2)
-    for m, coul, nom in ((4, '#b00', 'D4 mur de pod'), (5, '#070', 'D5 cage (bord du toit)')):
-        _dodeca(ax, m, color=coul, lw=1.2, label=nom)
-    ax.plot([], [], color=cmap(0.0), lw=2, label=f'rampe la plus basse (Z {zmin:.0f})')
-    ax.plot([], [], color=cmap(1.0), lw=2, label=f'rampe la plus haute (Z {zmax:.0f})')
+        ax.plot([x - 150 * nx, x + 150 * nx], [y - 150 * ny, y + 150 * ny], color=cmap((Z - zmin) / (zmax - zmin)),
+                lw=1.2)
+    for m, coul, nom in ((4, '#b00', 'D4 mur de pod'), (5, '#070', 'D5 cage'), (7, '#000', 'D7 rive'),
+                         (8, '#555', 'D8 bord de plateforme')):
+        _dodeca(ax, m, color=coul, lw=1, label=nom)
+    ax.plot([], [], color=cmap(0.0), lw=2, label=f'rampe la plus basse (Z {zmin:.0f}, bout de l\'overhang)')
+    ax.plot([], [], color=cmap(1.0), lw=2, label=f'rampe la plus haute (Z {zmax:.0f}, faîtage)')
     ax.set_aspect('equal')
-    ax.set_xlim(-3200, 3200)
-    ax.set_ylim(-3200, 3200)
-    ax.set_title(f"Toit en rampes inclinées (Sloped Railing) : {len(rampes)} rampes, 12 pans, lames au pas de 300 UU "
-                 f"sur le plancher Z{infos_pod['Ztoit']:.0f}", fontsize=10)
+    ax.set_xlim(-5400, 5400)
+    ax.set_ylim(-5400, 5400)
+    ax.set_title(f'Rampes inclinées (Sloped Railing), aucun toit incliné : {len(rampes)} rampes en lames au pas de '
+                 '300 UU — toit, casquette, pente A et overhang', fontsize=10)
     ax.legend(loc='lower left', fontsize=8)
-    fig.savefig(os.path.join(rep, 'plan_toit_rampes.png'), dpi=80, bbox_inches='tight')
+    fig.savefig(os.path.join(rep, 'plan_rampes.png'), dpi=80, bbox_inches='tight')
     plt.close(fig)
 
 
@@ -1567,7 +1566,7 @@ def main():
         json.dump(syn, f, ensure_ascii=False, indent=1)
     plans(rep_p, p, pieces, ordre, ob, jupe, infos_pod, col)
     plan_pod(rep_p, p, infos_pod)
-    plan_toit(rep_p, p, pod, infos_pod)
+    plan_rampes(rep_p, p, [m for m in modules if m[0] != '01b_sol_extension_D4_D8'])
     plan_parts(rep_p, p, parts, col)
 
     print(json.dumps({k: v['total'] for k, v in syn['modules'].items()}, indent=1))

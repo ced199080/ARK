@@ -452,409 +452,379 @@ entree;piece;phase;x;y;Z_plan;yaw;repere
 450;Plafond triangle métal;P3;2311.5;1334.6;1800.0;210;galerie Z1800 anneau 9
 451;Plafond triangle métal;P3;2161.5;1594.4;1800.0;210;galerie Z1800 anneau 9
 452;Plafond triangle métal;P3;2011.5;1854.2;1800.0;210;galerie Z1800 anneau 9
-453;Toit incliné métal;P4;3768.7;-900.0;600.0;180;pente A r0 c0 p0
-454;Toit incliné métal;P4;3768.7;-600.0;600.0;180;pente A r0 c0 p1
-455;Toit incliné métal;P4;3768.7;-300.0;600.0;180;pente A r0 c0 p2
-456;Toit incliné métal;P4;3768.7;0.0;600.0;180;pente A r0 c0 p3
-457;Toit incliné métal;P4;3768.7;300.0;600.0;180;pente A r0 c0 p4
-458;Toit incliné métal;P4;3768.7;600.0;600.0;180;pente A r0 c0 p5
-459;Toit incliné métal;P4;3768.7;900.0;600.0;180;pente A r0 c0 p6
-460;Toit incliné métal;P4;3713.7;1104.9;600.0;210;pente A r0 c1 p0
-461;Toit incliné métal;P4;3563.7;1364.7;600.0;210;pente A r0 c1 p1
-462;Toit incliné métal;P4;3413.7;1624.5;600.0;210;pente A r0 c1 p2
-463;Toit incliné métal;P4;3263.7;1884.3;600.0;210;pente A r0 c1 p3
-464;Toit incliné métal;P4;3113.7;2144.1;600.0;210;pente A r0 c1 p4
-465;Toit incliné métal;P4;2963.7;2403.9;600.0;210;pente A r0 c1 p5
-466;Toit incliné métal;P4;2813.7;2663.7;600.0;210;pente A r0 c1 p6
-467;Toit incliné métal;P4;3468.7;-600.0;900.0;180;pente A r1 c0 p1
-468;Toit incliné métal;P4;3468.7;-300.0;900.0;180;pente A r1 c0 p2
-469;Toit incliné métal;P4;3468.7;0.0;900.0;180;pente A r1 c0 p3
-470;Toit incliné métal;P4;3468.7;300.0;900.0;180;pente A r1 c0 p4
-471;Toit incliné métal;P4;3468.7;600.0;900.0;180;pente A r1 c0 p5
-472;Toit incliné métal;P4;3468.7;900.0;900.0;180;pente A r1 c0 p6
-473;Toit incliné métal;P4;3453.9;954.9;900.0;210;pente A r1 c1 p0
-474;Toit incliné métal;P4;3303.9;1214.7;900.0;210;pente A r1 c1 p1
-475;Toit incliné métal;P4;3153.9;1474.5;900.0;210;pente A r1 c1 p2
-476;Toit incliné métal;P4;3003.9;1734.3;900.0;210;pente A r1 c1 p3
-477;Toit incliné métal;P4;2853.9;1994.1;900.0;210;pente A r1 c1 p4
-478;Toit incliné métal;P4;2703.9;2253.9;900.0;210;pente A r1 c1 p5
-479;Toit incliné métal;P4;2553.9;2513.7;900.0;210;pente A r1 c1 p6
-480;Toit incliné métal;P4;2513.7;2553.9;900.0;240;pente A r1 c2 p0
-481;Toit incliné métal;P4;3168.7;-750.0;1200.0;180;pente A r2 c0 p0
-482;Toit incliné métal;P4;3168.7;-450.0;1200.0;180;pente A r2 c0 p1
-483;Toit incliné métal;P4;3168.7;-150.0;1200.0;180;pente A r2 c0 p2
-484;Toit incliné métal;P4;3168.7;150.0;1200.0;180;pente A r2 c0 p3
-485;Toit incliné métal;P4;3168.7;450.0;1200.0;180;pente A r2 c0 p4
-486;Toit incliné métal;P4;3168.7;750.0;1200.0;180;pente A r2 c0 p5
-487;Toit incliné métal;P4;3119.1;934.8;1200.0;210;pente A r2 c1 p0
-488;Toit incliné métal;P4;2969.1;1194.6;1200.0;210;pente A r2 c1 p1
-489;Toit incliné métal;P4;2819.1;1454.4;1200.0;210;pente A r2 c1 p2
-490;Toit incliné métal;P4;2669.1;1714.2;1200.0;210;pente A r2 c1 p3
-491;Toit incliné métal;P4;2519.1;1974.0;1200.0;210;pente A r2 c1 p4
-492;Toit incliné métal;P4;2369.1;2233.8;1200.0;210;pente A r2 c1 p5
-493;Toit incliné métal;P4;2868.7;-450.0;1500.0;180;pente A r3 c0 p1
-494;Toit incliné métal;P4;2868.7;-150.0;1500.0;180;pente A r3 c0 p2
-495;Toit incliné métal;P4;2868.7;150.0;1500.0;180;pente A r3 c0 p3
-496;Toit incliné métal;P4;2868.7;450.0;1500.0;180;pente A r3 c0 p4
-497;Toit incliné métal;P4;2868.7;750.0;1500.0;180;pente A r3 c0 p5
-498;Toit incliné métal;P4;2859.3;784.8;1500.0;210;pente A r3 c1 p0
-499;Toit incliné métal;P4;2709.3;1044.6;1500.0;210;pente A r3 c1 p1
-500;Toit incliné métal;P4;2559.3;1304.4;1500.0;210;pente A r3 c1 p2
-501;Toit incliné métal;P4;2409.3;1564.2;1500.0;210;pente A r3 c1 p3
-502;Toit incliné métal;P4;2259.3;1824.0;1500.0;210;pente A r3 c1 p4
-503;Toit incliné métal;P4;2109.3;2083.8;1500.0;210;pente A r3 c1 p5
-504;Toit incliné métal;P4;2083.8;2109.3;1500.0;240;pente A r3 c2 p0
-505;Toit incliné métal;P4;4068.7;-1050.0;300.0;180;overhang r-1 c0 p0
-506;Toit incliné métal;P4;4068.7;-750.0;300.0;180;overhang r-1 c0 p1
-507;Toit incliné métal;P4;4068.7;-450.0;300.0;180;overhang r-1 c0 p2
-508;Toit incliné métal;P4;4068.7;-150.0;300.0;180;overhang r-1 c0 p3
-509;Toit incliné métal;P4;4068.7;150.0;300.0;180;overhang r-1 c0 p4
-510;Toit incliné métal;P4;4068.7;450.0;300.0;180;overhang r-1 c0 p5
-511;Toit incliné métal;P4;4068.7;750.0;300.0;180;overhang r-1 c0 p6
-512;Toit incliné métal;P4;4068.7;1050.0;300.0;180;overhang r-1 c0 p7
-513;Toit incliné métal;P4;4048.6;1125.0;300.0;210;overhang r-1 c1 p0
-514;Toit incliné métal;P4;3898.6;1384.8;300.0;210;overhang r-1 c1 p1
-515;Toit incliné métal;P4;3748.6;1644.6;300.0;210;overhang r-1 c1 p2
-516;Toit incliné métal;P4;3598.6;1904.4;300.0;210;overhang r-1 c1 p3
-517;Toit incliné métal;P4;3448.6;2164.2;300.0;210;overhang r-1 c1 p4
-518;Toit incliné métal;P4;3298.6;2424.0;300.0;210;overhang r-1 c1 p5
-519;Toit incliné métal;P4;3148.6;2683.8;300.0;210;overhang r-1 c1 p6
-520;Toit incliné métal;P4;2998.6;2943.7;300.0;210;overhang r-1 c1 p7
-521;Toit incliné métal;P4;4368.7;-900.0;0.0;180;overhang r-2 c0 p1
-522;Toit incliné métal;P4;4368.7;-600.0;0.0;180;overhang r-2 c0 p2
-523;Toit incliné métal;P4;4368.7;-300.0;0.0;180;overhang r-2 c0 p3
-524;Toit incliné métal;P4;4368.7;0.0;0.0;180;overhang r-2 c0 p4
-525;Toit incliné métal;P4;4368.7;300.0;0.0;180;overhang r-2 c0 p5
-526;Toit incliné métal;P4;4368.7;600.0;0.0;180;overhang r-2 c0 p6
-527;Toit incliné métal;P4;4368.7;900.0;0.0;180;overhang r-2 c0 p7
-528;Toit incliné métal;P4;4368.7;1200.0;0.0;180;overhang r-2 c0 p8
-529;Toit incliné métal;P4;4383.4;1145.1;0.0;210;overhang r-2 c1 p0
-530;Toit incliné métal;P4;4233.4;1404.9;0.0;210;overhang r-2 c1 p1
-531;Toit incliné métal;P4;4083.4;1664.7;0.0;210;overhang r-2 c1 p2
-532;Toit incliné métal;P4;3933.4;1924.5;0.0;210;overhang r-2 c1 p3
-533;Toit incliné métal;P4;3783.4;2184.3;0.0;210;overhang r-2 c1 p4
-534;Toit incliné métal;P4;3633.4;2444.1;0.0;210;overhang r-2 c1 p5
-535;Toit incliné métal;P4;3483.4;2703.9;0.0;210;overhang r-2 c1 p6
-536;Toit incliné métal;P4;3333.4;2963.7;0.0;210;overhang r-2 c1 p7
-537;Toit incliné métal;P4;3183.4;3223.6;0.0;210;overhang r-2 c1 p8
-538;Toit incliné métal;P4;3223.6;3183.4;0.0;240;overhang r-2 c2 p0
-539;Toit incliné métal;P4;4668.7;-1200.0;-300.0;180;overhang r-3 c0 p0
-540;Toit incliné métal;P4;4668.7;-900.0;-300.0;180;overhang r-3 c0 p1
-541;Toit incliné métal;P4;4668.7;-600.0;-300.0;180;overhang r-3 c0 p2
-542;Toit incliné métal;P4;4668.7;-300.0;-300.0;180;overhang r-3 c0 p3
-543;Toit incliné métal;P4;4668.7;0.0;-300.0;180;overhang r-3 c0 p4
-544;Toit incliné métal;P4;4668.7;300.0;-300.0;180;overhang r-3 c0 p5
-545;Toit incliné métal;P4;4668.7;600.0;-300.0;180;overhang r-3 c0 p6
-546;Toit incliné métal;P4;4668.7;900.0;-300.0;180;overhang r-3 c0 p7
-547;Toit incliné métal;P4;4668.7;1200.0;-300.0;180;overhang r-3 c0 p8
-548;Toit incliné métal;P4;4643.2;1295.1;-300.0;210;overhang r-3 c1 p0
-549;Toit incliné métal;P4;4493.2;1554.9;-300.0;210;overhang r-3 c1 p1
-550;Toit incliné métal;P4;4343.2;1814.7;-300.0;210;overhang r-3 c1 p2
-551;Toit incliné métal;P4;4193.2;2074.5;-300.0;210;overhang r-3 c1 p3
-552;Toit incliné métal;P4;4043.2;2334.3;-300.0;210;overhang r-3 c1 p4
-553;Toit incliné métal;P4;3893.2;2594.1;-300.0;210;overhang r-3 c1 p5
-554;Toit incliné métal;P4;3743.2;2853.9;-300.0;210;overhang r-3 c1 p6
-555;Toit incliné métal;P4;3593.2;3113.7;-300.0;210;overhang r-3 c1 p7
-556;Toit incliné métal;P4;3443.2;3373.6;-300.0;210;overhang r-3 c1 p8
-557;Toit incliné métal;P4;4968.7;-1050.0;-600.0;180;overhang r-4 c0 p1
-558;Toit incliné métal;P4;4968.7;-750.0;-600.0;180;overhang r-4 c0 p2
-559;Toit incliné métal;P4;4968.7;-450.0;-600.0;180;overhang r-4 c0 p3
-560;Toit incliné métal;P4;4968.7;-150.0;-600.0;180;overhang r-4 c0 p4
-561;Toit incliné métal;P4;4968.7;150.0;-600.0;180;overhang r-4 c0 p5
-562;Toit incliné métal;P4;4968.7;450.0;-600.0;180;overhang r-4 c0 p6
-563;Toit incliné métal;P4;4968.7;750.0;-600.0;180;overhang r-4 c0 p7
-564;Toit incliné métal;P4;4968.7;1050.0;-600.0;180;overhang r-4 c0 p8
-565;Toit incliné métal;P4;4968.7;1350.0;-600.0;180;overhang r-4 c0 p9
-566;Toit incliné métal;P4;4978.0;1315.2;-600.0;210;overhang r-4 c1 p0
-567;Toit incliné métal;P4;4828.0;1575.0;-600.0;210;overhang r-4 c1 p1
-568;Toit incliné métal;P4;4678.0;1834.8;-600.0;210;overhang r-4 c1 p2
-569;Toit incliné métal;P4;4528.0;2094.6;-600.0;210;overhang r-4 c1 p3
-570;Toit incliné métal;P4;4378.0;2354.4;-600.0;210;overhang r-4 c1 p4
-571;Toit incliné métal;P4;4228.0;2614.2;-600.0;210;overhang r-4 c1 p5
-572;Toit incliné métal;P4;4078.0;2874.0;-600.0;210;overhang r-4 c1 p6
-573;Toit incliné métal;P4;3928.0;3133.8;-600.0;210;overhang r-4 c1 p7
-574;Toit incliné métal;P4;3778.0;3393.7;-600.0;210;overhang r-4 c1 p8
-575;Toit incliné métal;P4;3628.0;3653.5;-600.0;210;overhang r-4 c1 p9
-576;Toit incliné métal;P4;3653.5;3628.0;-600.0;240;overhang r-4 c2 p0
-577;Mur métal;P4;4518.7;-900.0;-600.0;0;jupe mur niv0 c0 p1
-578;Mur métal;P4;4518.7;-600.0;-600.0;0;jupe mur niv0 c0 p2
-579;Mur métal;P4;4518.7;-300.0;-600.0;0;jupe mur niv0 c0 p3
-580;Mur métal;P4;4518.7;0.0;-600.0;0;jupe mur niv0 c0 p4
-581;Mur métal;P4;4518.7;300.0;-600.0;0;jupe mur niv0 c0 p5
-582;Mur métal;P4;4518.7;600.0;-600.0;0;jupe mur niv0 c0 p6
-583;Mur métal;P4;4518.7;900.0;-600.0;0;jupe mur niv0 c0 p7
-584;Mur métal;P4;4518.7;1200.0;-600.0;0;jupe mur niv0 c0 p8
-585;Mur métal;P4;4513.3;1220.1;-600.0;30;jupe mur niv0 c1 p0
-586;Mur métal;P4;4363.3;1479.9;-600.0;30;jupe mur niv0 c1 p1
-587;Mur métal;P4;4213.3;1739.7;-600.0;30;jupe mur niv0 c1 p2
-588;Mur métal;P4;4063.3;1999.5;-600.0;30;jupe mur niv0 c1 p3
-589;Mur métal;P4;3913.3;2259.3;-600.0;30;jupe mur niv0 c1 p4
-590;Mur métal;P4;3763.3;2519.1;-600.0;30;jupe mur niv0 c1 p5
-591;Mur métal;P4;3613.3;2778.9;-600.0;30;jupe mur niv0 c1 p6
-592;Mur métal;P4;3463.3;3038.7;-600.0;30;jupe mur niv0 c1 p7
-593;Mur métal;P4;3313.3;3298.6;-600.0;30;jupe mur niv0 c1 p8
-594;Mur métal;P4;3298.6;3313.3;-600.0;60;jupe mur niv0 c2 p0
-595;Mur métal;P4;4518.7;-900.0;-300.0;0;jupe mur niv1 c0 p1
-596;Mur métal;P4;4518.7;-600.0;-300.0;0;jupe mur niv1 c0 p2
-597;Mur métal;P4;4518.7;-300.0;-300.0;0;jupe mur niv1 c0 p3
-598;Mur métal;P4;4518.7;0.0;-300.0;0;jupe mur niv1 c0 p4
-599;Mur métal;P4;4518.7;300.0;-300.0;0;jupe mur niv1 c0 p5
-600;Mur métal;P4;4518.7;600.0;-300.0;0;jupe mur niv1 c0 p6
-601;Mur métal;P4;4518.7;900.0;-300.0;0;jupe mur niv1 c0 p7
-602;Mur métal;P4;4518.7;1200.0;-300.0;0;jupe mur niv1 c0 p8
-603;Mur métal;P4;4513.3;1220.1;-300.0;30;jupe mur niv1 c1 p0
-604;Mur métal;P4;4363.3;1479.9;-300.0;30;jupe mur niv1 c1 p1
-605;Mur métal;P4;4213.3;1739.7;-300.0;30;jupe mur niv1 c1 p2
-606;Mur métal;P4;4063.3;1999.5;-300.0;30;jupe mur niv1 c1 p3
-607;Mur métal;P4;3913.3;2259.3;-300.0;30;jupe mur niv1 c1 p4
-608;Mur métal;P4;3763.3;2519.1;-300.0;30;jupe mur niv1 c1 p5
-609;Mur métal;P4;3613.3;2778.9;-300.0;30;jupe mur niv1 c1 p6
-610;Mur métal;P4;3463.3;3038.7;-300.0;30;jupe mur niv1 c1 p7
-611;Mur métal;P4;3313.3;3298.6;-300.0;30;jupe mur niv1 c1 p8
-612;Mur métal;P4;3298.6;3313.3;-300.0;60;jupe mur niv1 c2 p0
-613;Plafond métal;P4;4668.7;-1200.0;-600.0;0;jupe plafond s1 c0 p0
-614;Plafond métal;P4;4668.7;-900.0;-600.0;0;jupe plafond s1 c0 p1
-615;Plafond métal;P4;4668.7;-600.0;-600.0;0;jupe plafond s1 c0 p2
-616;Plafond métal;P4;4668.7;-300.0;-600.0;0;jupe plafond s1 c0 p3
-617;Plafond métal;P4;4668.7;0.0;-600.0;0;jupe plafond s1 c0 p4
-618;Plafond métal;P4;4668.7;300.0;-600.0;0;jupe plafond s1 c0 p5
-619;Plafond métal;P4;4668.7;600.0;-600.0;0;jupe plafond s1 c0 p6
-620;Plafond métal;P4;4668.7;900.0;-600.0;0;jupe plafond s1 c0 p7
-621;Plafond métal;P4;4668.7;1200.0;-600.0;0;jupe plafond s1 c0 p8
-622;Plafond métal;P4;4643.2;1295.1;-600.0;30;jupe plafond s1 c1 p0
-623;Plafond métal;P4;4493.2;1554.9;-600.0;30;jupe plafond s1 c1 p1
-624;Plafond métal;P4;4343.2;1814.7;-600.0;30;jupe plafond s1 c1 p2
-625;Plafond métal;P4;4193.2;2074.5;-600.0;30;jupe plafond s1 c1 p3
-626;Plafond métal;P4;4043.2;2334.3;-600.0;30;jupe plafond s1 c1 p4
-627;Plafond métal;P4;3893.2;2594.1;-600.0;30;jupe plafond s1 c1 p5
-628;Plafond métal;P4;3743.2;2853.9;-600.0;30;jupe plafond s1 c1 p6
-629;Plafond métal;P4;3593.2;3113.7;-600.0;30;jupe plafond s1 c1 p7
-630;Plafond métal;P4;3443.2;3373.6;-600.0;30;jupe plafond s1 c1 p8
-631;Plafond métal;P4;4968.7;-1050.0;-600.0;0;jupe plafond s2 c0 p1
-632;Plafond métal;P4;4968.7;-750.0;-600.0;0;jupe plafond s2 c0 p2
-633;Plafond métal;P4;4968.7;-450.0;-600.0;0;jupe plafond s2 c0 p3
-634;Plafond métal;P4;4968.7;-150.0;-600.0;0;jupe plafond s2 c0 p4
-635;Plafond métal;P4;4968.7;150.0;-600.0;0;jupe plafond s2 c0 p5
-636;Plafond métal;P4;4968.7;450.0;-600.0;0;jupe plafond s2 c0 p6
-637;Plafond métal;P4;4968.7;750.0;-600.0;0;jupe plafond s2 c0 p7
-638;Plafond métal;P4;4968.7;1050.0;-600.0;0;jupe plafond s2 c0 p8
-639;Plafond métal;P4;4968.7;1350.0;-600.0;0;jupe plafond s2 c0 p9
-640;Plafond métal;P4;4978.0;1315.2;-600.0;30;jupe plafond s2 c1 p0
-641;Plafond métal;P4;4828.0;1575.0;-600.0;30;jupe plafond s2 c1 p1
-642;Plafond métal;P4;4678.0;1834.8;-600.0;30;jupe plafond s2 c1 p2
-643;Plafond métal;P4;4528.0;2094.6;-600.0;30;jupe plafond s2 c1 p3
-644;Plafond métal;P4;4378.0;2354.4;-600.0;30;jupe plafond s2 c1 p4
-645;Plafond métal;P4;4228.0;2614.2;-600.0;30;jupe plafond s2 c1 p5
-646;Plafond métal;P4;4078.0;2874.0;-600.0;30;jupe plafond s2 c1 p6
-647;Plafond métal;P4;3928.0;3133.8;-600.0;30;jupe plafond s2 c1 p7
-648;Plafond métal;P4;3778.0;3393.7;-600.0;30;jupe plafond s2 c1 p8
-649;Plafond métal;P4;3628.0;3653.5;-600.0;30;jupe plafond s2 c1 p9
-650;Plafond métal;P4;3653.5;3628.0;-600.0;60;jupe plafond s2 c2 p0
-651;Plafond triangle métal;P5;2369.1;-450.0;2100.0;0;galerie Z2100 anneau 8
-652;Plafond triangle métal;P5;2369.1;-150.0;2100.0;0;galerie Z2100 anneau 8
-653;Plafond triangle métal;P5;2369.1;150.0;2100.0;0;galerie Z2100 anneau 8
-654;Plafond triangle métal;P5;2369.1;450.0;2100.0;0;galerie Z2100 anneau 8
-655;Plafond triangle métal;P5;2369.1;-600.0;2100.0;180;galerie Z2100 anneau 8
-656;Plafond triangle métal;P5;2369.1;-300.0;2100.0;180;galerie Z2100 anneau 8
-657;Plafond triangle métal;P5;2369.1;0.0;2100.0;180;galerie Z2100 anneau 8
-658;Plafond triangle métal;P5;2369.1;300.0;2100.0;180;galerie Z2100 anneau 8
-659;Plafond triangle métal;P5;2369.1;600.0;2100.0;180;galerie Z2100 anneau 8
-660;Plafond à trappe métal;P5;2294.1;804.9;2100.0;30;galerie Z2100 anneau 8
-661;Plafond métal;P5;2144.1;1064.7;2100.0;30;galerie Z2100 anneau 8
-662;Plafond métal;P5;1994.1;1324.5;2100.0;30;galerie Z2100 anneau 8
-663;Plafond métal;P5;1844.1;1584.3;2100.0;30;galerie Z2100 anneau 8
-664;Plafond métal;P5;2649.0;-600.0;2100.0;0;galerie Z2100 anneau 9
-665;Plafond métal;P5;2649.0;-300.0;2100.0;0;galerie Z2100 anneau 9
-666;Plafond métal;P5;2649.0;0.0;2100.0;0;galerie Z2100 anneau 9
-667;Plafond métal;P5;2649.0;300.0;2100.0;0;galerie Z2100 anneau 9
-668;Plafond métal;P5;2649.0;600.0;2100.0;0;galerie Z2100 anneau 9
-669;Plafond triangle métal;P5;2536.5;944.9;2100.0;30;galerie Z2100 anneau 9
-670;Plafond triangle métal;P5;2386.5;1204.7;2100.0;30;galerie Z2100 anneau 9
-671;Plafond triangle métal;P5;2236.5;1464.5;2100.0;30;galerie Z2100 anneau 9
-672;Plafond triangle métal;P5;2086.5;1724.3;2100.0;30;galerie Z2100 anneau 9
-673;Plafond triangle métal;P5;2611.5;815.0;2100.0;210;galerie Z2100 anneau 9
-674;Plafond triangle métal;P5;2461.5;1074.8;2100.0;210;galerie Z2100 anneau 9
-675;Plafond triangle métal;P5;2311.5;1334.6;2100.0;210;galerie Z2100 anneau 9
-676;Plafond triangle métal;P5;2161.5;1594.4;2100.0;210;galerie Z2100 anneau 9
-677;Plafond triangle métal;P5;2011.5;1854.2;2100.0;210;galerie Z2100 anneau 9
-678;Plafond triangle métal;P5;2369.1;-450.0;2400.0;0;galerie Z2400 anneau 8
-679;Plafond triangle métal;P5;2369.1;-150.0;2400.0;0;galerie Z2400 anneau 8
-680;Plafond triangle métal;P5;2369.1;150.0;2400.0;0;galerie Z2400 anneau 8
-681;Plafond triangle métal;P5;2369.1;450.0;2400.0;0;galerie Z2400 anneau 8
-682;Plafond triangle métal;P5;2369.1;-600.0;2400.0;180;galerie Z2400 anneau 8
-683;Plafond triangle métal;P5;2369.1;-300.0;2400.0;180;galerie Z2400 anneau 8
-684;Plafond triangle métal;P5;2369.1;0.0;2400.0;180;galerie Z2400 anneau 8
-685;Plafond triangle métal;P5;2369.1;300.0;2400.0;180;galerie Z2400 anneau 8
-686;Plafond triangle métal;P5;2369.1;600.0;2400.0;180;galerie Z2400 anneau 8
-687;Plafond métal;P5;2294.1;804.9;2400.0;30;galerie Z2400 anneau 8
-688;Plafond métal;P5;2144.1;1064.7;2400.0;30;galerie Z2400 anneau 8
-689;Plafond métal;P5;1994.1;1324.5;2400.0;30;galerie Z2400 anneau 8
-690;Plafond métal;P5;1844.1;1584.3;2400.0;30;galerie Z2400 anneau 8
-691;Plafond métal;P5;2649.0;-600.0;2400.0;0;galerie Z2400 anneau 9
-692;Plafond métal;P5;2649.0;-300.0;2400.0;0;galerie Z2400 anneau 9
-693;Plafond métal;P5;2649.0;0.0;2400.0;0;galerie Z2400 anneau 9
-694;Plafond métal;P5;2649.0;300.0;2400.0;0;galerie Z2400 anneau 9
-695;Plafond métal;P5;2649.0;600.0;2400.0;0;galerie Z2400 anneau 9
-696;Plafond triangle métal;P5;2536.5;944.9;2400.0;30;galerie Z2400 anneau 9
-697;Plafond triangle métal;P5;2386.5;1204.7;2400.0;30;galerie Z2400 anneau 9
-698;Plafond triangle métal;P5;2236.5;1464.5;2400.0;30;galerie Z2400 anneau 9
-699;Plafond triangle métal;P5;2086.5;1724.3;2400.0;30;galerie Z2400 anneau 9
-700;Plafond triangle métal;P5;2611.5;815.0;2400.0;210;galerie Z2400 anneau 9
-701;Plafond triangle métal;P5;2461.5;1074.8;2400.0;210;galerie Z2400 anneau 9
-702;Plafond triangle métal;P5;2311.5;1334.6;2400.0;210;galerie Z2400 anneau 9
-703;Plafond triangle métal;P5;2161.5;1594.4;2400.0;210;galerie Z2400 anneau 9
-704;Plafond triangle métal;P5;2011.5;1854.2;2400.0;210;galerie Z2400 anneau 9
-705;Cadre de porte double métal;P5;2799.0;-600.0;2100.0;0;cage L2 c0 p0
-706;Cadre de porte double métal;P5;2799.0;-300.0;2100.0;0;cage L2 c0 p1
-707;Cadre de porte double métal;P5;2799.0;0.0;2100.0;0;cage L2 c0 p2
-708;Cadre de porte double métal;P5;2799.0;300.0;2100.0;0;cage L2 c0 p3
-709;Cadre de porte double métal;P5;2799.0;600.0;2100.0;0;cage L2 c0 p4
-710;Cadre de porte double métal;P5;2724.0;879.9;2100.0;30;cage L2 c1 p0
-711;Cadre de porte double métal;P5;2574.0;1139.7;2100.0;30;cage L2 c1 p1
-712;Cadre de porte double métal;P5;2424.0;1399.5;2100.0;30;cage L2 c1 p2
-713;Cadre de porte double métal;P5;2274.0;1659.3;2100.0;30;cage L2 c1 p3
-714;Cadre de porte double métal;P5;2124.0;1919.1;2100.0;30;cage L2 c1 p4
-715;Toit incliné métal;P5;2949.0;-750.0;2100.0;180;casquette r-1 c0 p0
-716;Toit incliné métal;P5;2949.0;-450.0;2100.0;180;casquette r-1 c0 p1
-717;Toit incliné métal;P5;2949.0;-150.0;2100.0;180;casquette r-1 c0 p2
-718;Toit incliné métal;P5;2949.0;150.0;2100.0;180;casquette r-1 c0 p3
-719;Toit incliné métal;P5;2949.0;450.0;2100.0;180;casquette r-1 c0 p4
-720;Toit incliné métal;P5;2949.0;750.0;2100.0;180;casquette r-1 c0 p5
-721;Toit incliné métal;P5;2928.9;825.0;2100.0;210;casquette r-1 c1 p0
-722;Toit incliné métal;P5;2778.9;1084.8;2100.0;210;casquette r-1 c1 p1
-723;Toit incliné métal;P5;2628.9;1344.6;2100.0;210;casquette r-1 c1 p2
-724;Toit incliné métal;P5;2478.9;1604.4;2100.0;210;casquette r-1 c1 p3
-725;Toit incliné métal;P5;2328.9;1864.2;2100.0;210;casquette r-1 c1 p4
-726;Toit incliné métal;P5;2178.9;2124.0;2100.0;210;casquette r-1 c1 p5
-727;Mur métal;P6;2239.2;-450.0;1800.0;0;pod niv6 c0 p0
-728;Cadre de porte double métal;P6;2239.2;-150.0;1800.0;0;pod niv6 c0 p1
-729;Mur métal;P6;2239.2;150.0;1800.0;0;pod niv6 c0 p2
-730;Mur métal;P6;2239.2;450.0;1800.0;0;pod niv6 c0 p3
-731;Mur métal;P6;2164.2;729.9;1800.0;30;pod niv6 c1 p0
-732;Cadre de porte double métal;P6;2014.2;989.7;1800.0;30;pod niv6 c1 p1
-733;Mur métal;P6;1864.2;1249.5;1800.0;30;pod niv6 c1 p2
-734;Mur métal;P6;1714.2;1509.3;1800.0;30;pod niv6 c1 p3
-735;Mur métal;P6;2239.2;-450.0;2100.0;0;pod niv7 c0 p0
-736;Mur métal;P6;2239.2;-150.0;2100.0;0;pod niv7 c0 p1
-737;Mur métal;P6;2239.2;150.0;2100.0;0;pod niv7 c0 p2
-738;Mur métal;P6;2239.2;450.0;2100.0;0;pod niv7 c0 p3
-739;Mur métal;P6;2164.2;729.9;2100.0;30;pod niv7 c1 p0
-740;Mur métal;P6;2014.2;989.7;2100.0;30;pod niv7 c1 p1
-741;Mur métal;P6;1864.2;1249.5;2100.0;30;pod niv7 c1 p2
-742;Mur métal;P6;1714.2;1509.3;2100.0;30;pod niv7 c1 p3
-743;Pilier métal;P6;1119.6;300.0;1800.0;0;pilier PA0
-744;Pilier métal;P6;1119.6;300.0;2100.0;0;pilier PA0
-745;Pilier métal;P6;819.6;819.6;1800.0;0;pilier PA1
-746;Pilier métal;P6;819.6;819.6;2100.0;0;pilier PA1
-747;Pilier métal;P6;559.8;150.0;1800.0;0;pilier PB0
-748;Pilier métal;P6;559.8;150.0;2100.0;0;pilier PB0
-749;Pilier métal;P6;409.8;409.8;1800.0;0;pilier PB1
-750;Pilier métal;P6;409.8;409.8;2100.0;0;pilier PB1
-751;Plafond triangle métal;P6;129.9;0.0;2400.0;180;plancher de toit anneau 0
-752;Plafond métal;P6;409.8;0.0;2400.0;0;plancher de toit anneau 1
-753;Plafond triangle métal;P6;372.3;215.0;2400.0;210;plancher de toit anneau 1
-754;Plafond triangle métal;P6;689.7;0.0;2400.0;0;plancher de toit anneau 2
-755;Plafond triangle métal;P6;689.7;-150.0;2400.0;180;plancher de toit anneau 2
-756;Plafond triangle métal;P6;689.7;150.0;2400.0;180;plancher de toit anneau 2
-757;Plafond métal;P6;614.7;354.9;2400.0;30;plancher de toit anneau 2
-758;Plafond métal;P6;969.6;-150.0;2400.0;0;plancher de toit anneau 3
-759;Plafond métal;P6;969.6;150.0;2400.0;0;plancher de toit anneau 3
-760;Plafond triangle métal;P6;857.1;494.9;2400.0;30;plancher de toit anneau 3
-761;Plafond triangle métal;P6;932.1;365.0;2400.0;210;plancher de toit anneau 3
-762;Plafond triangle métal;P6;782.1;624.8;2400.0;210;plancher de toit anneau 3
-763;Plafond triangle métal;P6;1249.5;-150.0;2400.0;0;plancher de toit anneau 4
-764;Plafond triangle métal;P6;1249.5;150.0;2400.0;0;plancher de toit anneau 4
-765;Plafond triangle métal;P6;1249.5;-300.0;2400.0;180;plancher de toit anneau 4
-766;Plafond triangle métal;P6;1249.5;0.0;2400.0;180;plancher de toit anneau 4
-767;Plafond triangle métal;P6;1249.5;300.0;2400.0;180;plancher de toit anneau 4
-768;Plafond métal;P6;1174.5;504.9;2400.0;30;plancher de toit anneau 4
-769;Plafond métal;P6;1024.5;764.7;2400.0;30;plancher de toit anneau 4
-770;Plafond métal;P6;1529.4;-300.0;2400.0;0;plancher de toit anneau 5
-771;Plafond métal;P6;1529.4;0.0;2400.0;0;plancher de toit anneau 5
-772;Plafond métal;P6;1529.4;300.0;2400.0;0;plancher de toit anneau 5
-773;Plafond triangle métal;P6;1416.9;644.9;2400.0;30;plancher de toit anneau 5
-774;Plafond triangle métal;P6;1266.9;904.7;2400.0;30;plancher de toit anneau 5
-775;Plafond triangle métal;P6;1491.9;515.0;2400.0;210;plancher de toit anneau 5
-776;Plafond triangle métal;P6;1341.9;774.8;2400.0;210;plancher de toit anneau 5
-777;Plafond triangle métal;P6;1191.9;1034.6;2400.0;210;plancher de toit anneau 5
-778;Plafond triangle métal;P6;1809.3;-300.0;2400.0;0;plancher de toit anneau 6
-779;Plafond triangle métal;P6;1809.3;0.0;2400.0;0;plancher de toit anneau 6
-780;Plafond triangle métal;P6;1809.3;300.0;2400.0;0;plancher de toit anneau 6
-781;Plafond triangle métal;P6;1809.3;-450.0;2400.0;180;plancher de toit anneau 6
-782;Plafond triangle métal;P6;1809.3;-150.0;2400.0;180;plancher de toit anneau 6
-783;Plafond triangle métal;P6;1809.3;150.0;2400.0;180;plancher de toit anneau 6
-784;Plafond triangle métal;P6;1809.3;450.0;2400.0;180;plancher de toit anneau 6
-785;Plafond métal;P6;1734.3;654.9;2400.0;30;plancher de toit anneau 6
-786;Plafond métal;P6;1584.3;914.7;2400.0;30;plancher de toit anneau 6
-787;Plafond métal;P6;1434.3;1174.5;2400.0;30;plancher de toit anneau 6
-788;Plafond métal;P6;2089.2;-450.0;2400.0;0;plancher de toit anneau 7
-789;Plafond métal;P6;2089.2;-150.0;2400.0;0;plancher de toit anneau 7
-790;Plafond métal;P6;2089.2;150.0;2400.0;0;plancher de toit anneau 7
-791;Plafond métal;P6;2089.2;450.0;2400.0;0;plancher de toit anneau 7
-792;Plafond triangle métal;P6;1976.7;794.9;2400.0;30;plancher de toit anneau 7
-793;Plafond triangle métal;P6;1826.7;1054.7;2400.0;30;plancher de toit anneau 7
-794;Plafond triangle métal;P6;1676.7;1314.5;2400.0;30;plancher de toit anneau 7
-795;Plafond triangle métal;P6;2051.7;665.0;2400.0;210;plancher de toit anneau 7
-796;Plafond triangle métal;P6;1901.7;924.8;2400.0;210;plancher de toit anneau 7
-797;Plafond triangle métal;P6;1751.7;1184.6;2400.0;210;plancher de toit anneau 7
-798;Plafond triangle métal;P6;1601.7;1444.4;2400.0;210;plancher de toit anneau 7
-799;Rampe inclinée métal (Sloped Railing);P6;2949.0;-600.0;2400.0;270;toit rampes r0 c0 t-2
-800;Rampe inclinée métal (Sloped Railing);P6;2949.0;-300.0;2400.0;270;toit rampes r0 c0 t-1
-801;Rampe inclinée métal (Sloped Railing);P6;2949.0;0.0;2400.0;270;toit rampes r0 c0 t0
-802;Rampe inclinée métal (Sloped Railing);P6;2949.0;300.0;2400.0;270;toit rampes r0 c0 t1
-803;Rampe inclinée métal (Sloped Railing);P6;2949.0;600.0;2400.0;270;toit rampes r0 c0 t2
-804;Rampe inclinée métal (Sloped Railing);P6;2853.9;954.9;2400.0;300;toit rampes r0 c1 t-2
-805;Rampe inclinée métal (Sloped Railing);P6;2703.9;1214.7;2400.0;300;toit rampes r0 c1 t-1
-806;Rampe inclinée métal (Sloped Railing);P6;2553.9;1474.5;2400.0;300;toit rampes r0 c1 t0
-807;Rampe inclinée métal (Sloped Railing);P6;2403.9;1734.3;2400.0;300;toit rampes r0 c1 t1
-808;Rampe inclinée métal (Sloped Railing);P6;2253.9;1994.1;2400.0;300;toit rampes r0 c1 t2
-809;Rampe inclinée métal (Sloped Railing);P6;2649.0;-600.0;2700.0;270;toit rampes r1 c0 t-2
-810;Rampe inclinée métal (Sloped Railing);P6;2649.0;-300.0;2700.0;270;toit rampes r1 c0 t-1
-811;Rampe inclinée métal (Sloped Railing);P6;2649.0;0.0;2700.0;270;toit rampes r1 c0 t0
-812;Rampe inclinée métal (Sloped Railing);P6;2649.0;300.0;2700.0;270;toit rampes r1 c0 t1
-813;Rampe inclinée métal (Sloped Railing);P6;2649.0;600.0;2700.0;270;toit rampes r1 c0 t2
-814;Rampe inclinée métal (Sloped Railing);P6;2594.1;804.9;2700.0;300;toit rampes r1 c1 t-2
-815;Rampe inclinée métal (Sloped Railing);P6;2444.1;1064.7;2700.0;300;toit rampes r1 c1 t-1
-816;Rampe inclinée métal (Sloped Railing);P6;2294.1;1324.5;2700.0;300;toit rampes r1 c1 t0
-817;Rampe inclinée métal (Sloped Railing);P6;2144.1;1584.3;2700.0;300;toit rampes r1 c1 t1
-818;Rampe inclinée métal (Sloped Railing);P6;1994.1;1844.1;2700.0;300;toit rampes r1 c1 t2
-819;Rampe inclinée métal (Sloped Railing);P6;2349.0;-600.0;3000.0;270;toit rampes r2 c0 t-2
-820;Rampe inclinée métal (Sloped Railing);P6;2349.0;-300.0;3000.0;270;toit rampes r2 c0 t-1
-821;Rampe inclinée métal (Sloped Railing);P6;2349.0;0.0;3000.0;270;toit rampes r2 c0 t0
-822;Rampe inclinée métal (Sloped Railing);P6;2349.0;300.0;3000.0;270;toit rampes r2 c0 t1
-823;Rampe inclinée métal (Sloped Railing);P6;2349.0;600.0;3000.0;270;toit rampes r2 c0 t2
-824;Rampe inclinée métal (Sloped Railing);P6;2334.3;654.9;3000.0;300;toit rampes r2 c1 t-2
-825;Rampe inclinée métal (Sloped Railing);P6;2184.3;914.7;3000.0;300;toit rampes r2 c1 t-1
-826;Rampe inclinée métal (Sloped Railing);P6;2034.3;1174.5;3000.0;300;toit rampes r2 c1 t0
-827;Rampe inclinée métal (Sloped Railing);P6;1884.3;1434.3;3000.0;300;toit rampes r2 c1 t1
-828;Rampe inclinée métal (Sloped Railing);P6;1734.3;1694.1;3000.0;300;toit rampes r2 c1 t2
-829;Rampe inclinée métal (Sloped Railing);P6;2049.0;-300.0;3300.0;270;toit rampes r3 c0 t-1
-830;Rampe inclinée métal (Sloped Railing);P6;2049.0;0.0;3300.0;270;toit rampes r3 c0 t0
-831;Rampe inclinée métal (Sloped Railing);P6;2049.0;300.0;3300.0;270;toit rampes r3 c0 t1
-832;Rampe inclinée métal (Sloped Railing);P6;1924.5;764.7;3300.0;300;toit rampes r3 c1 t-1
-833;Rampe inclinée métal (Sloped Railing);P6;1774.5;1024.5;3300.0;300;toit rampes r3 c1 t0
-834;Rampe inclinée métal (Sloped Railing);P6;1624.5;1284.3;3300.0;300;toit rampes r3 c1 t1
-835;Rampe inclinée métal (Sloped Railing);P6;1749.0;-300.0;3600.0;270;toit rampes r4 c0 t-1
-836;Rampe inclinée métal (Sloped Railing);P6;1749.0;0.0;3600.0;270;toit rampes r4 c0 t0
-837;Rampe inclinée métal (Sloped Railing);P6;1749.0;300.0;3600.0;270;toit rampes r4 c0 t1
-838;Rampe inclinée métal (Sloped Railing);P6;1664.7;614.7;3600.0;300;toit rampes r4 c1 t-1
-839;Rampe inclinée métal (Sloped Railing);P6;1514.7;874.5;3600.0;300;toit rampes r4 c1 t0
-840;Rampe inclinée métal (Sloped Railing);P6;1364.7;1134.3;3600.0;300;toit rampes r4 c1 t1
-841;Rampe inclinée métal (Sloped Railing);P6;1449.0;-300.0;3900.0;270;toit rampes r5 c0 t-1
-842;Rampe inclinée métal (Sloped Railing);P6;1449.0;0.0;3900.0;270;toit rampes r5 c0 t0
-843;Rampe inclinée métal (Sloped Railing);P6;1449.0;300.0;3900.0;270;toit rampes r5 c0 t1
-844;Rampe inclinée métal (Sloped Railing);P6;1404.9;464.7;3900.0;300;toit rampes r5 c1 t-1
-845;Rampe inclinée métal (Sloped Railing);P6;1254.9;724.5;3900.0;300;toit rampes r5 c1 t0
-846;Rampe inclinée métal (Sloped Railing);P6;1104.9;984.3;3900.0;300;toit rampes r5 c1 t1
-847;Rampe inclinée métal (Sloped Railing);P6;1149.0;0.0;4200.0;270;toit rampes r6 c0 t0
-848;Rampe inclinée métal (Sloped Railing);P6;1149.0;300.0;4200.0;270;toit rampes r6 c0 t1
-849;Rampe inclinée métal (Sloped Railing);P6;1145.1;314.7;4200.0;300;toit rampes r6 c1 t-1
-850;Rampe inclinée métal (Sloped Railing);P6;995.1;574.5;4200.0;300;toit rampes r6 c1 t0
-851;Rampe inclinée métal (Sloped Railing);P6;845.1;834.3;4200.0;300;toit rampes r6 c1 t1
-852;Rampe inclinée métal (Sloped Railing);P6;834.3;845.1;4200.0;330;toit rampes r6 c2 t-1
-853;Rampe inclinée métal (Sloped Railing);P6;849.0;0.0;4500.0;270;toit rampes r7 c0 t0
-854;Rampe inclinée métal (Sloped Railing);P6;735.3;424.5;4500.0;300;toit rampes r7 c1 t0
-855;Rampe inclinée métal (Sloped Railing);P6;549.0;0.0;4800.0;270;toit rampes r8 c0 t0
-856;Rampe inclinée métal (Sloped Railing);P6;475.5;274.5;4800.0;300;toit rampes r8 c1 t0
-857;Rampe inclinée métal (Sloped Railing);P6;249.0;0.0;5100.0;270;toit rampes r9 c0 t0
-858;Rampe inclinée métal (Sloped Railing);P6;215.7;124.5;5100.0;300;toit rampes r9 c1 t0
+453;Rampe inclinée métal (Sloped Railing);P4;3768.7;-900.0;600.0;270;pente A r0 c0 t-3
+454;Rampe inclinée métal (Sloped Railing);P4;3768.7;-600.0;600.0;270;pente A r0 c0 t-2
+455;Rampe inclinée métal (Sloped Railing);P4;3768.7;-300.0;600.0;270;pente A r0 c0 t-1
+456;Rampe inclinée métal (Sloped Railing);P4;3768.7;0.0;600.0;270;pente A r0 c0 t0
+457;Rampe inclinée métal (Sloped Railing);P4;3768.7;300.0;600.0;270;pente A r0 c0 t1
+458;Rampe inclinée métal (Sloped Railing);P4;3768.7;600.0;600.0;270;pente A r0 c0 t2
+459;Rampe inclinée métal (Sloped Railing);P4;3768.7;900.0;600.0;270;pente A r0 c0 t3
+460;Rampe inclinée métal (Sloped Railing);P4;3713.7;1104.9;600.0;300;pente A r0 c1 t-3
+461;Rampe inclinée métal (Sloped Railing);P4;3563.7;1364.7;600.0;300;pente A r0 c1 t-2
+462;Rampe inclinée métal (Sloped Railing);P4;3413.7;1624.5;600.0;300;pente A r0 c1 t-1
+463;Rampe inclinée métal (Sloped Railing);P4;3263.7;1884.3;600.0;300;pente A r0 c1 t0
+464;Rampe inclinée métal (Sloped Railing);P4;3113.7;2144.1;600.0;300;pente A r0 c1 t1
+465;Rampe inclinée métal (Sloped Railing);P4;2963.7;2403.9;600.0;300;pente A r0 c1 t2
+466;Rampe inclinée métal (Sloped Railing);P4;2813.7;2663.7;600.0;300;pente A r0 c1 t3
+467;Rampe inclinée métal (Sloped Railing);P4;3468.7;-600.0;900.0;270;pente A r1 c0 t-2
+468;Rampe inclinée métal (Sloped Railing);P4;3468.7;-300.0;900.0;270;pente A r1 c0 t-1
+469;Rampe inclinée métal (Sloped Railing);P4;3468.7;0.0;900.0;270;pente A r1 c0 t0
+470;Rampe inclinée métal (Sloped Railing);P4;3468.7;300.0;900.0;270;pente A r1 c0 t1
+471;Rampe inclinée métal (Sloped Railing);P4;3468.7;600.0;900.0;270;pente A r1 c0 t2
+472;Rampe inclinée métal (Sloped Railing);P4;3468.7;900.0;900.0;270;pente A r1 c0 t3
+473;Rampe inclinée métal (Sloped Railing);P4;3453.9;954.9;900.0;300;pente A r1 c1 t-3
+474;Rampe inclinée métal (Sloped Railing);P4;3303.9;1214.7;900.0;300;pente A r1 c1 t-2
+475;Rampe inclinée métal (Sloped Railing);P4;3153.9;1474.5;900.0;300;pente A r1 c1 t-1
+476;Rampe inclinée métal (Sloped Railing);P4;3003.9;1734.3;900.0;300;pente A r1 c1 t0
+477;Rampe inclinée métal (Sloped Railing);P4;2853.9;1994.1;900.0;300;pente A r1 c1 t1
+478;Rampe inclinée métal (Sloped Railing);P4;2703.9;2253.9;900.0;300;pente A r1 c1 t2
+479;Rampe inclinée métal (Sloped Railing);P4;2553.9;2513.7;900.0;300;pente A r1 c1 t3
+480;Rampe inclinée métal (Sloped Railing);P4;2513.7;2553.9;900.0;330;pente A r1 c2 t-3
+481;Rampe inclinée métal (Sloped Railing);P4;3168.7;-600.0;1200.0;270;pente A r2 c0 t-2
+482;Rampe inclinée métal (Sloped Railing);P4;3168.7;-300.0;1200.0;270;pente A r2 c0 t-1
+483;Rampe inclinée métal (Sloped Railing);P4;3168.7;0.0;1200.0;270;pente A r2 c0 t0
+484;Rampe inclinée métal (Sloped Railing);P4;3168.7;300.0;1200.0;270;pente A r2 c0 t1
+485;Rampe inclinée métal (Sloped Railing);P4;3168.7;600.0;1200.0;270;pente A r2 c0 t2
+486;Rampe inclinée métal (Sloped Railing);P4;3168.7;900.0;1200.0;270;pente A r2 c0 t3
+487;Rampe inclinée métal (Sloped Railing);P4;3194.1;804.9;1200.0;300;pente A r2 c1 t-3
+488;Rampe inclinée métal (Sloped Railing);P4;3044.1;1064.7;1200.0;300;pente A r2 c1 t-2
+489;Rampe inclinée métal (Sloped Railing);P4;2894.1;1324.5;1200.0;300;pente A r2 c1 t-1
+490;Rampe inclinée métal (Sloped Railing);P4;2744.1;1584.3;1200.0;300;pente A r2 c1 t0
+491;Rampe inclinée métal (Sloped Railing);P4;2594.1;1844.1;1200.0;300;pente A r2 c1 t1
+492;Rampe inclinée métal (Sloped Railing);P4;2444.1;2103.9;1200.0;300;pente A r2 c1 t2
+493;Rampe inclinée métal (Sloped Railing);P4;2363.7;2294.1;1200.0;330;pente A r2 c2 t-3
+494;Rampe inclinée métal (Sloped Railing);P4;3194.1;-804.9;1200.0;240;pente A r2 c11 t3
+495;Rampe inclinée métal (Sloped Railing);P4;2868.7;-600.0;1500.0;270;pente A r3 c0 t-2
+496;Rampe inclinée métal (Sloped Railing);P4;2868.7;-300.0;1500.0;270;pente A r3 c0 t-1
+497;Rampe inclinée métal (Sloped Railing);P4;2868.7;0.0;1500.0;270;pente A r3 c0 t0
+498;Rampe inclinée métal (Sloped Railing);P4;2868.7;300.0;1500.0;270;pente A r3 c0 t1
+499;Rampe inclinée métal (Sloped Railing);P4;2868.7;600.0;1500.0;270;pente A r3 c0 t2
+500;Rampe inclinée métal (Sloped Railing);P4;2868.7;900.0;1500.0;270;pente A r3 c0 t3
+501;Rampe inclinée métal (Sloped Railing);P4;2934.3;654.9;1500.0;300;pente A r3 c1 t-3
+502;Rampe inclinée métal (Sloped Railing);P4;2784.3;914.7;1500.0;300;pente A r3 c1 t-2
+503;Rampe inclinée métal (Sloped Railing);P4;2634.3;1174.5;1500.0;300;pente A r3 c1 t-1
+504;Rampe inclinée métal (Sloped Railing);P4;2484.3;1434.3;1500.0;300;pente A r3 c1 t0
+505;Rampe inclinée métal (Sloped Railing);P4;2334.3;1694.1;1500.0;300;pente A r3 c1 t1
+506;Rampe inclinée métal (Sloped Railing);P4;2184.3;1953.9;1500.0;300;pente A r3 c1 t2
+507;Rampe inclinée métal (Sloped Railing);P4;2213.7;2034.3;1500.0;330;pente A r3 c2 t-3
+508;Rampe inclinée métal (Sloped Railing);P4;2934.3;-654.9;1500.0;240;pente A r3 c11 t3
+509;Rampe inclinée métal (Sloped Railing);P4;4068.7;-900.0;300.0;270;overhang r-1 c0 t-3
+510;Rampe inclinée métal (Sloped Railing);P4;4068.7;-600.0;300.0;270;overhang r-1 c0 t-2
+511;Rampe inclinée métal (Sloped Railing);P4;4068.7;-300.0;300.0;270;overhang r-1 c0 t-1
+512;Rampe inclinée métal (Sloped Railing);P4;4068.7;0.0;300.0;270;overhang r-1 c0 t0
+513;Rampe inclinée métal (Sloped Railing);P4;4068.7;300.0;300.0;270;overhang r-1 c0 t1
+514;Rampe inclinée métal (Sloped Railing);P4;4068.7;600.0;300.0;270;overhang r-1 c0 t2
+515;Rampe inclinée métal (Sloped Railing);P4;4068.7;900.0;300.0;270;overhang r-1 c0 t3
+516;Rampe inclinée métal (Sloped Railing);P4;4068.7;1200.0;300.0;270;overhang r-1 c0 t4
+517;Rampe inclinée métal (Sloped Railing);P4;4123.6;995.1;300.0;300;overhang r-1 c1 t-4
+518;Rampe inclinée métal (Sloped Railing);P4;3973.6;1254.9;300.0;300;overhang r-1 c1 t-3
+519;Rampe inclinée métal (Sloped Railing);P4;3823.6;1514.7;300.0;300;overhang r-1 c1 t-2
+520;Rampe inclinée métal (Sloped Railing);P4;3673.6;1774.5;300.0;300;overhang r-1 c1 t-1
+521;Rampe inclinée métal (Sloped Railing);P4;3523.6;2034.3;300.0;300;overhang r-1 c1 t0
+522;Rampe inclinée métal (Sloped Railing);P4;3373.6;2294.1;300.0;300;overhang r-1 c1 t1
+523;Rampe inclinée métal (Sloped Railing);P4;3223.6;2553.9;300.0;300;overhang r-1 c1 t2
+524;Rampe inclinée métal (Sloped Railing);P4;3073.6;2813.7;300.0;300;overhang r-1 c1 t3
+525;Rampe inclinée métal (Sloped Railing);P4;3073.6;2923.6;300.0;330;overhang r-1 c2 t-4
+526;Rampe inclinée métal (Sloped Railing);P4;4123.6;-995.1;300.0;240;overhang r-1 c11 t4
+527;Rampe inclinée métal (Sloped Railing);P4;4368.7;-900.0;0.0;270;overhang r-2 c0 t-3
+528;Rampe inclinée métal (Sloped Railing);P4;4368.7;-600.0;0.0;270;overhang r-2 c0 t-2
+529;Rampe inclinée métal (Sloped Railing);P4;4368.7;-300.0;0.0;270;overhang r-2 c0 t-1
+530;Rampe inclinée métal (Sloped Railing);P4;4368.7;0.0;0.0;270;overhang r-2 c0 t0
+531;Rampe inclinée métal (Sloped Railing);P4;4368.7;300.0;0.0;270;overhang r-2 c0 t1
+532;Rampe inclinée métal (Sloped Railing);P4;4368.7;600.0;0.0;270;overhang r-2 c0 t2
+533;Rampe inclinée métal (Sloped Railing);P4;4368.7;900.0;0.0;270;overhang r-2 c0 t3
+534;Rampe inclinée métal (Sloped Railing);P4;4368.7;1200.0;0.0;270;overhang r-2 c0 t4
+535;Rampe inclinée métal (Sloped Railing);P4;4383.4;1145.1;0.0;300;overhang r-2 c1 t-4
+536;Rampe inclinée métal (Sloped Railing);P4;4233.4;1404.9;0.0;300;overhang r-2 c1 t-3
+537;Rampe inclinée métal (Sloped Railing);P4;4083.4;1664.7;0.0;300;overhang r-2 c1 t-2
+538;Rampe inclinée métal (Sloped Railing);P4;3933.4;1924.5;0.0;300;overhang r-2 c1 t-1
+539;Rampe inclinée métal (Sloped Railing);P4;3783.4;2184.3;0.0;300;overhang r-2 c1 t0
+540;Rampe inclinée métal (Sloped Railing);P4;3633.4;2444.1;0.0;300;overhang r-2 c1 t1
+541;Rampe inclinée métal (Sloped Railing);P4;3483.4;2703.9;0.0;300;overhang r-2 c1 t2
+542;Rampe inclinée métal (Sloped Railing);P4;3333.4;2963.7;0.0;300;overhang r-2 c1 t3
+543;Rampe inclinée métal (Sloped Railing);P4;3183.4;3223.6;0.0;300;overhang r-2 c1 t4
+544;Rampe inclinée métal (Sloped Railing);P4;3223.6;3183.4;0.0;330;overhang r-2 c2 t-4
+545;Rampe inclinée métal (Sloped Railing);P4;4668.7;-1200.0;-300.0;270;overhang r-3 c0 t-4
+546;Rampe inclinée métal (Sloped Railing);P4;4668.7;-900.0;-300.0;270;overhang r-3 c0 t-3
+547;Rampe inclinée métal (Sloped Railing);P4;4668.7;-600.0;-300.0;270;overhang r-3 c0 t-2
+548;Rampe inclinée métal (Sloped Railing);P4;4668.7;-300.0;-300.0;270;overhang r-3 c0 t-1
+549;Rampe inclinée métal (Sloped Railing);P4;4668.7;0.0;-300.0;270;overhang r-3 c0 t0
+550;Rampe inclinée métal (Sloped Railing);P4;4668.7;300.0;-300.0;270;overhang r-3 c0 t1
+551;Rampe inclinée métal (Sloped Railing);P4;4668.7;600.0;-300.0;270;overhang r-3 c0 t2
+552;Rampe inclinée métal (Sloped Railing);P4;4668.7;900.0;-300.0;270;overhang r-3 c0 t3
+553;Rampe inclinée métal (Sloped Railing);P4;4668.7;1200.0;-300.0;270;overhang r-3 c0 t4
+554;Rampe inclinée métal (Sloped Railing);P4;4643.2;1295.1;-300.0;300;overhang r-3 c1 t-4
+555;Rampe inclinée métal (Sloped Railing);P4;4493.2;1554.9;-300.0;300;overhang r-3 c1 t-3
+556;Rampe inclinée métal (Sloped Railing);P4;4343.2;1814.7;-300.0;300;overhang r-3 c1 t-2
+557;Rampe inclinée métal (Sloped Railing);P4;4193.2;2074.5;-300.0;300;overhang r-3 c1 t-1
+558;Rampe inclinée métal (Sloped Railing);P4;4043.2;2334.3;-300.0;300;overhang r-3 c1 t0
+559;Rampe inclinée métal (Sloped Railing);P4;3893.2;2594.1;-300.0;300;overhang r-3 c1 t1
+560;Rampe inclinée métal (Sloped Railing);P4;3743.2;2853.9;-300.0;300;overhang r-3 c1 t2
+561;Rampe inclinée métal (Sloped Railing);P4;3593.2;3113.7;-300.0;300;overhang r-3 c1 t3
+562;Rampe inclinée métal (Sloped Railing);P4;3443.2;3373.6;-300.0;300;overhang r-3 c1 t4
+563;Rampe inclinée métal (Sloped Railing);P4;4968.7;-1200.0;-600.0;270;overhang r-4 c0 t-4
+564;Rampe inclinée métal (Sloped Railing);P4;4968.7;-900.0;-600.0;270;overhang r-4 c0 t-3
+565;Rampe inclinée métal (Sloped Railing);P4;4968.7;-600.0;-600.0;270;overhang r-4 c0 t-2
+566;Rampe inclinée métal (Sloped Railing);P4;4968.7;-300.0;-600.0;270;overhang r-4 c0 t-1
+567;Rampe inclinée métal (Sloped Railing);P4;4968.7;0.0;-600.0;270;overhang r-4 c0 t0
+568;Rampe inclinée métal (Sloped Railing);P4;4968.7;300.0;-600.0;270;overhang r-4 c0 t1
+569;Rampe inclinée métal (Sloped Railing);P4;4968.7;600.0;-600.0;270;overhang r-4 c0 t2
+570;Rampe inclinée métal (Sloped Railing);P4;4968.7;900.0;-600.0;270;overhang r-4 c0 t3
+571;Rampe inclinée métal (Sloped Railing);P4;4968.7;1200.0;-600.0;270;overhang r-4 c0 t4
+572;Rampe inclinée métal (Sloped Railing);P4;4903.0;1445.1;-600.0;300;overhang r-4 c1 t-4
+573;Rampe inclinée métal (Sloped Railing);P4;4753.0;1704.9;-600.0;300;overhang r-4 c1 t-3
+574;Rampe inclinée métal (Sloped Railing);P4;4603.0;1964.7;-600.0;300;overhang r-4 c1 t-2
+575;Rampe inclinée métal (Sloped Railing);P4;4453.0;2224.5;-600.0;300;overhang r-4 c1 t-1
+576;Rampe inclinée métal (Sloped Railing);P4;4303.0;2484.3;-600.0;300;overhang r-4 c1 t0
+577;Rampe inclinée métal (Sloped Railing);P4;4153.0;2744.1;-600.0;300;overhang r-4 c1 t1
+578;Rampe inclinée métal (Sloped Railing);P4;4003.0;3003.9;-600.0;300;overhang r-4 c1 t2
+579;Rampe inclinée métal (Sloped Railing);P4;3853.0;3263.7;-600.0;300;overhang r-4 c1 t3
+580;Rampe inclinée métal (Sloped Railing);P4;3703.0;3523.6;-600.0;300;overhang r-4 c1 t4
+581;Mur métal;P4;4518.7;-900.0;-600.0;0;jupe mur niv0 c0 p1
+582;Mur métal;P4;4518.7;-600.0;-600.0;0;jupe mur niv0 c0 p2
+583;Mur métal;P4;4518.7;-300.0;-600.0;0;jupe mur niv0 c0 p3
+584;Mur métal;P4;4518.7;0.0;-600.0;0;jupe mur niv0 c0 p4
+585;Mur métal;P4;4518.7;300.0;-600.0;0;jupe mur niv0 c0 p5
+586;Mur métal;P4;4518.7;600.0;-600.0;0;jupe mur niv0 c0 p6
+587;Mur métal;P4;4518.7;900.0;-600.0;0;jupe mur niv0 c0 p7
+588;Mur métal;P4;4518.7;1200.0;-600.0;0;jupe mur niv0 c0 p8
+589;Mur métal;P4;4513.3;1220.1;-600.0;30;jupe mur niv0 c1 p0
+590;Mur métal;P4;4363.3;1479.9;-600.0;30;jupe mur niv0 c1 p1
+591;Mur métal;P4;4213.3;1739.7;-600.0;30;jupe mur niv0 c1 p2
+592;Mur métal;P4;4063.3;1999.5;-600.0;30;jupe mur niv0 c1 p3
+593;Mur métal;P4;3913.3;2259.3;-600.0;30;jupe mur niv0 c1 p4
+594;Mur métal;P4;3763.3;2519.1;-600.0;30;jupe mur niv0 c1 p5
+595;Mur métal;P4;3613.3;2778.9;-600.0;30;jupe mur niv0 c1 p6
+596;Mur métal;P4;3463.3;3038.7;-600.0;30;jupe mur niv0 c1 p7
+597;Mur métal;P4;3313.3;3298.6;-600.0;30;jupe mur niv0 c1 p8
+598;Mur métal;P4;3298.6;3313.3;-600.0;60;jupe mur niv0 c2 p0
+599;Mur métal;P4;4518.7;-900.0;-300.0;0;jupe mur niv1 c0 p1
+600;Mur métal;P4;4518.7;-600.0;-300.0;0;jupe mur niv1 c0 p2
+601;Mur métal;P4;4518.7;-300.0;-300.0;0;jupe mur niv1 c0 p3
+602;Mur métal;P4;4518.7;0.0;-300.0;0;jupe mur niv1 c0 p4
+603;Mur métal;P4;4518.7;300.0;-300.0;0;jupe mur niv1 c0 p5
+604;Mur métal;P4;4518.7;600.0;-300.0;0;jupe mur niv1 c0 p6
+605;Mur métal;P4;4518.7;900.0;-300.0;0;jupe mur niv1 c0 p7
+606;Mur métal;P4;4518.7;1200.0;-300.0;0;jupe mur niv1 c0 p8
+607;Mur métal;P4;4513.3;1220.1;-300.0;30;jupe mur niv1 c1 p0
+608;Mur métal;P4;4363.3;1479.9;-300.0;30;jupe mur niv1 c1 p1
+609;Mur métal;P4;4213.3;1739.7;-300.0;30;jupe mur niv1 c1 p2
+610;Mur métal;P4;4063.3;1999.5;-300.0;30;jupe mur niv1 c1 p3
+611;Mur métal;P4;3913.3;2259.3;-300.0;30;jupe mur niv1 c1 p4
+612;Mur métal;P4;3763.3;2519.1;-300.0;30;jupe mur niv1 c1 p5
+613;Mur métal;P4;3613.3;2778.9;-300.0;30;jupe mur niv1 c1 p6
+614;Mur métal;P4;3463.3;3038.7;-300.0;30;jupe mur niv1 c1 p7
+615;Mur métal;P4;3313.3;3298.6;-300.0;30;jupe mur niv1 c1 p8
+616;Mur métal;P4;3298.6;3313.3;-300.0;60;jupe mur niv1 c2 p0
+617;Plafond triangle métal;P5;2369.1;-450.0;2100.0;0;galerie Z2100 anneau 8
+618;Plafond triangle métal;P5;2369.1;-150.0;2100.0;0;galerie Z2100 anneau 8
+619;Plafond triangle métal;P5;2369.1;150.0;2100.0;0;galerie Z2100 anneau 8
+620;Plafond triangle métal;P5;2369.1;450.0;2100.0;0;galerie Z2100 anneau 8
+621;Plafond triangle métal;P5;2369.1;-600.0;2100.0;180;galerie Z2100 anneau 8
+622;Plafond triangle métal;P5;2369.1;-300.0;2100.0;180;galerie Z2100 anneau 8
+623;Plafond triangle métal;P5;2369.1;0.0;2100.0;180;galerie Z2100 anneau 8
+624;Plafond triangle métal;P5;2369.1;300.0;2100.0;180;galerie Z2100 anneau 8
+625;Plafond triangle métal;P5;2369.1;600.0;2100.0;180;galerie Z2100 anneau 8
+626;Plafond à trappe métal;P5;2294.1;804.9;2100.0;30;galerie Z2100 anneau 8
+627;Plafond métal;P5;2144.1;1064.7;2100.0;30;galerie Z2100 anneau 8
+628;Plafond métal;P5;1994.1;1324.5;2100.0;30;galerie Z2100 anneau 8
+629;Plafond métal;P5;1844.1;1584.3;2100.0;30;galerie Z2100 anneau 8
+630;Plafond métal;P5;2649.0;-600.0;2100.0;0;galerie Z2100 anneau 9
+631;Plafond métal;P5;2649.0;-300.0;2100.0;0;galerie Z2100 anneau 9
+632;Plafond métal;P5;2649.0;0.0;2100.0;0;galerie Z2100 anneau 9
+633;Plafond métal;P5;2649.0;300.0;2100.0;0;galerie Z2100 anneau 9
+634;Plafond métal;P5;2649.0;600.0;2100.0;0;galerie Z2100 anneau 9
+635;Plafond triangle métal;P5;2536.5;944.9;2100.0;30;galerie Z2100 anneau 9
+636;Plafond triangle métal;P5;2386.5;1204.7;2100.0;30;galerie Z2100 anneau 9
+637;Plafond triangle métal;P5;2236.5;1464.5;2100.0;30;galerie Z2100 anneau 9
+638;Plafond triangle métal;P5;2086.5;1724.3;2100.0;30;galerie Z2100 anneau 9
+639;Plafond triangle métal;P5;2611.5;815.0;2100.0;210;galerie Z2100 anneau 9
+640;Plafond triangle métal;P5;2461.5;1074.8;2100.0;210;galerie Z2100 anneau 9
+641;Plafond triangle métal;P5;2311.5;1334.6;2100.0;210;galerie Z2100 anneau 9
+642;Plafond triangle métal;P5;2161.5;1594.4;2100.0;210;galerie Z2100 anneau 9
+643;Plafond triangle métal;P5;2011.5;1854.2;2100.0;210;galerie Z2100 anneau 9
+644;Plafond triangle métal;P5;2369.1;-450.0;2400.0;0;galerie Z2400 anneau 8
+645;Plafond triangle métal;P5;2369.1;-150.0;2400.0;0;galerie Z2400 anneau 8
+646;Plafond triangle métal;P5;2369.1;150.0;2400.0;0;galerie Z2400 anneau 8
+647;Plafond triangle métal;P5;2369.1;450.0;2400.0;0;galerie Z2400 anneau 8
+648;Plafond triangle métal;P5;2369.1;-600.0;2400.0;180;galerie Z2400 anneau 8
+649;Plafond triangle métal;P5;2369.1;-300.0;2400.0;180;galerie Z2400 anneau 8
+650;Plafond triangle métal;P5;2369.1;0.0;2400.0;180;galerie Z2400 anneau 8
+651;Plafond triangle métal;P5;2369.1;300.0;2400.0;180;galerie Z2400 anneau 8
+652;Plafond triangle métal;P5;2369.1;600.0;2400.0;180;galerie Z2400 anneau 8
+653;Plafond métal;P5;2294.1;804.9;2400.0;30;galerie Z2400 anneau 8
+654;Plafond métal;P5;2144.1;1064.7;2400.0;30;galerie Z2400 anneau 8
+655;Plafond métal;P5;1994.1;1324.5;2400.0;30;galerie Z2400 anneau 8
+656;Plafond métal;P5;1844.1;1584.3;2400.0;30;galerie Z2400 anneau 8
+657;Plafond métal;P5;2649.0;-600.0;2400.0;0;galerie Z2400 anneau 9
+658;Plafond métal;P5;2649.0;-300.0;2400.0;0;galerie Z2400 anneau 9
+659;Plafond métal;P5;2649.0;0.0;2400.0;0;galerie Z2400 anneau 9
+660;Plafond métal;P5;2649.0;300.0;2400.0;0;galerie Z2400 anneau 9
+661;Plafond métal;P5;2649.0;600.0;2400.0;0;galerie Z2400 anneau 9
+662;Plafond triangle métal;P5;2536.5;944.9;2400.0;30;galerie Z2400 anneau 9
+663;Plafond triangle métal;P5;2386.5;1204.7;2400.0;30;galerie Z2400 anneau 9
+664;Plafond triangle métal;P5;2236.5;1464.5;2400.0;30;galerie Z2400 anneau 9
+665;Plafond triangle métal;P5;2086.5;1724.3;2400.0;30;galerie Z2400 anneau 9
+666;Plafond triangle métal;P5;2611.5;815.0;2400.0;210;galerie Z2400 anneau 9
+667;Plafond triangle métal;P5;2461.5;1074.8;2400.0;210;galerie Z2400 anneau 9
+668;Plafond triangle métal;P5;2311.5;1334.6;2400.0;210;galerie Z2400 anneau 9
+669;Plafond triangle métal;P5;2161.5;1594.4;2400.0;210;galerie Z2400 anneau 9
+670;Plafond triangle métal;P5;2011.5;1854.2;2400.0;210;galerie Z2400 anneau 9
+671;Cadre de porte double métal;P5;2799.0;-600.0;2100.0;0;cage L2 c0 p0
+672;Cadre de porte double métal;P5;2799.0;-300.0;2100.0;0;cage L2 c0 p1
+673;Cadre de porte double métal;P5;2799.0;0.0;2100.0;0;cage L2 c0 p2
+674;Cadre de porte double métal;P5;2799.0;300.0;2100.0;0;cage L2 c0 p3
+675;Cadre de porte double métal;P5;2799.0;600.0;2100.0;0;cage L2 c0 p4
+676;Cadre de porte double métal;P5;2724.0;879.9;2100.0;30;cage L2 c1 p0
+677;Cadre de porte double métal;P5;2574.0;1139.7;2100.0;30;cage L2 c1 p1
+678;Cadre de porte double métal;P5;2424.0;1399.5;2100.0;30;cage L2 c1 p2
+679;Cadre de porte double métal;P5;2274.0;1659.3;2100.0;30;cage L2 c1 p3
+680;Cadre de porte double métal;P5;2124.0;1919.1;2100.0;30;cage L2 c1 p4
+681;Rampe inclinée métal (Sloped Railing);P5;2949.0;-600.0;2100.0;270;casquette r-1 c0 t-2
+682;Rampe inclinée métal (Sloped Railing);P5;2949.0;-300.0;2100.0;270;casquette r-1 c0 t-1
+683;Rampe inclinée métal (Sloped Railing);P5;2949.0;0.0;2100.0;270;casquette r-1 c0 t0
+684;Rampe inclinée métal (Sloped Railing);P5;2949.0;300.0;2100.0;270;casquette r-1 c0 t1
+685;Rampe inclinée métal (Sloped Railing);P5;2949.0;600.0;2100.0;270;casquette r-1 c0 t2
+686;Rampe inclinée métal (Sloped Railing);P5;2949.0;900.0;2100.0;270;casquette r-1 c0 t3
+687;Rampe inclinée métal (Sloped Railing);P5;3003.9;695.1;2100.0;300;casquette r-1 c1 t-3
+688;Rampe inclinée métal (Sloped Railing);P5;2853.9;954.9;2100.0;300;casquette r-1 c1 t-2
+689;Rampe inclinée métal (Sloped Railing);P5;2703.9;1214.7;2100.0;300;casquette r-1 c1 t-1
+690;Rampe inclinée métal (Sloped Railing);P5;2553.9;1474.5;2100.0;300;casquette r-1 c1 t0
+691;Rampe inclinée métal (Sloped Railing);P5;2403.9;1734.3;2100.0;300;casquette r-1 c1 t1
+692;Rampe inclinée métal (Sloped Railing);P5;2253.9;1994.1;2100.0;300;casquette r-1 c1 t2
+693;Rampe inclinée métal (Sloped Railing);P5;2253.9;2103.9;2100.0;330;casquette r-1 c2 t-3
+694;Rampe inclinée métal (Sloped Railing);P5;3003.9;-695.1;2100.0;240;casquette r-1 c11 t3
+695;Mur métal;P6;2239.2;-450.0;1800.0;0;pod niv6 c0 p0
+696;Cadre de porte double métal;P6;2239.2;-150.0;1800.0;0;pod niv6 c0 p1
+697;Mur métal;P6;2239.2;150.0;1800.0;0;pod niv6 c0 p2
+698;Mur métal;P6;2239.2;450.0;1800.0;0;pod niv6 c0 p3
+699;Mur métal;P6;2164.2;729.9;1800.0;30;pod niv6 c1 p0
+700;Cadre de porte double métal;P6;2014.2;989.7;1800.0;30;pod niv6 c1 p1
+701;Mur métal;P6;1864.2;1249.5;1800.0;30;pod niv6 c1 p2
+702;Mur métal;P6;1714.2;1509.3;1800.0;30;pod niv6 c1 p3
+703;Mur métal;P6;2239.2;-450.0;2100.0;0;pod niv7 c0 p0
+704;Mur métal;P6;2239.2;-150.0;2100.0;0;pod niv7 c0 p1
+705;Mur métal;P6;2239.2;150.0;2100.0;0;pod niv7 c0 p2
+706;Mur métal;P6;2239.2;450.0;2100.0;0;pod niv7 c0 p3
+707;Mur métal;P6;2164.2;729.9;2100.0;30;pod niv7 c1 p0
+708;Mur métal;P6;2014.2;989.7;2100.0;30;pod niv7 c1 p1
+709;Mur métal;P6;1864.2;1249.5;2100.0;30;pod niv7 c1 p2
+710;Mur métal;P6;1714.2;1509.3;2100.0;30;pod niv7 c1 p3
+711;Pilier métal;P6;1119.6;300.0;1800.0;0;pilier PA0
+712;Pilier métal;P6;1119.6;300.0;2100.0;0;pilier PA0
+713;Pilier métal;P6;819.6;819.6;1800.0;0;pilier PA1
+714;Pilier métal;P6;819.6;819.6;2100.0;0;pilier PA1
+715;Pilier métal;P6;559.8;150.0;1800.0;0;pilier PB0
+716;Pilier métal;P6;559.8;150.0;2100.0;0;pilier PB0
+717;Pilier métal;P6;409.8;409.8;1800.0;0;pilier PB1
+718;Pilier métal;P6;409.8;409.8;2100.0;0;pilier PB1
+719;Plafond triangle métal;P6;129.9;0.0;2400.0;180;plancher de toit anneau 0
+720;Plafond métal;P6;409.8;0.0;2400.0;0;plancher de toit anneau 1
+721;Plafond triangle métal;P6;372.3;215.0;2400.0;210;plancher de toit anneau 1
+722;Plafond triangle métal;P6;689.7;0.0;2400.0;0;plancher de toit anneau 2
+723;Plafond triangle métal;P6;689.7;-150.0;2400.0;180;plancher de toit anneau 2
+724;Plafond triangle métal;P6;689.7;150.0;2400.0;180;plancher de toit anneau 2
+725;Plafond métal;P6;614.7;354.9;2400.0;30;plancher de toit anneau 2
+726;Plafond métal;P6;969.6;-150.0;2400.0;0;plancher de toit anneau 3
+727;Plafond métal;P6;969.6;150.0;2400.0;0;plancher de toit anneau 3
+728;Plafond triangle métal;P6;857.1;494.9;2400.0;30;plancher de toit anneau 3
+729;Plafond triangle métal;P6;932.1;365.0;2400.0;210;plancher de toit anneau 3
+730;Plafond triangle métal;P6;782.1;624.8;2400.0;210;plancher de toit anneau 3
+731;Plafond triangle métal;P6;1249.5;-150.0;2400.0;0;plancher de toit anneau 4
+732;Plafond triangle métal;P6;1249.5;150.0;2400.0;0;plancher de toit anneau 4
+733;Plafond triangle métal;P6;1249.5;-300.0;2400.0;180;plancher de toit anneau 4
+734;Plafond triangle métal;P6;1249.5;0.0;2400.0;180;plancher de toit anneau 4
+735;Plafond triangle métal;P6;1249.5;300.0;2400.0;180;plancher de toit anneau 4
+736;Plafond métal;P6;1174.5;504.9;2400.0;30;plancher de toit anneau 4
+737;Plafond métal;P6;1024.5;764.7;2400.0;30;plancher de toit anneau 4
+738;Plafond métal;P6;1529.4;-300.0;2400.0;0;plancher de toit anneau 5
+739;Plafond métal;P6;1529.4;0.0;2400.0;0;plancher de toit anneau 5
+740;Plafond métal;P6;1529.4;300.0;2400.0;0;plancher de toit anneau 5
+741;Plafond triangle métal;P6;1416.9;644.9;2400.0;30;plancher de toit anneau 5
+742;Plafond triangle métal;P6;1266.9;904.7;2400.0;30;plancher de toit anneau 5
+743;Plafond triangle métal;P6;1491.9;515.0;2400.0;210;plancher de toit anneau 5
+744;Plafond triangle métal;P6;1341.9;774.8;2400.0;210;plancher de toit anneau 5
+745;Plafond triangle métal;P6;1191.9;1034.6;2400.0;210;plancher de toit anneau 5
+746;Plafond triangle métal;P6;1809.3;-300.0;2400.0;0;plancher de toit anneau 6
+747;Plafond triangle métal;P6;1809.3;0.0;2400.0;0;plancher de toit anneau 6
+748;Plafond triangle métal;P6;1809.3;300.0;2400.0;0;plancher de toit anneau 6
+749;Plafond triangle métal;P6;1809.3;-450.0;2400.0;180;plancher de toit anneau 6
+750;Plafond triangle métal;P6;1809.3;-150.0;2400.0;180;plancher de toit anneau 6
+751;Plafond triangle métal;P6;1809.3;150.0;2400.0;180;plancher de toit anneau 6
+752;Plafond triangle métal;P6;1809.3;450.0;2400.0;180;plancher de toit anneau 6
+753;Plafond métal;P6;1734.3;654.9;2400.0;30;plancher de toit anneau 6
+754;Plafond métal;P6;1584.3;914.7;2400.0;30;plancher de toit anneau 6
+755;Plafond métal;P6;1434.3;1174.5;2400.0;30;plancher de toit anneau 6
+756;Plafond métal;P6;2089.2;-450.0;2400.0;0;plancher de toit anneau 7
+757;Plafond métal;P6;2089.2;-150.0;2400.0;0;plancher de toit anneau 7
+758;Plafond métal;P6;2089.2;150.0;2400.0;0;plancher de toit anneau 7
+759;Plafond métal;P6;2089.2;450.0;2400.0;0;plancher de toit anneau 7
+760;Plafond triangle métal;P6;1976.7;794.9;2400.0;30;plancher de toit anneau 7
+761;Plafond triangle métal;P6;1826.7;1054.7;2400.0;30;plancher de toit anneau 7
+762;Plafond triangle métal;P6;1676.7;1314.5;2400.0;30;plancher de toit anneau 7
+763;Plafond triangle métal;P6;2051.7;665.0;2400.0;210;plancher de toit anneau 7
+764;Plafond triangle métal;P6;1901.7;924.8;2400.0;210;plancher de toit anneau 7
+765;Plafond triangle métal;P6;1751.7;1184.6;2400.0;210;plancher de toit anneau 7
+766;Plafond triangle métal;P6;1601.7;1444.4;2400.0;210;plancher de toit anneau 7
+767;Rampe inclinée métal (Sloped Railing);P6;2649.0;-600.0;2400.0;270;toit rampes r0 c0 t-2
+768;Rampe inclinée métal (Sloped Railing);P6;2649.0;-300.0;2400.0;270;toit rampes r0 c0 t-1
+769;Rampe inclinée métal (Sloped Railing);P6;2649.0;0.0;2400.0;270;toit rampes r0 c0 t0
+770;Rampe inclinée métal (Sloped Railing);P6;2649.0;300.0;2400.0;270;toit rampes r0 c0 t1
+771;Rampe inclinée métal (Sloped Railing);P6;2649.0;600.0;2400.0;270;toit rampes r0 c0 t2
+772;Rampe inclinée métal (Sloped Railing);P6;2594.1;804.9;2400.0;300;toit rampes r0 c1 t-2
+773;Rampe inclinée métal (Sloped Railing);P6;2444.1;1064.7;2400.0;300;toit rampes r0 c1 t-1
+774;Rampe inclinée métal (Sloped Railing);P6;2294.1;1324.5;2400.0;300;toit rampes r0 c1 t0
+775;Rampe inclinée métal (Sloped Railing);P6;2144.1;1584.3;2400.0;300;toit rampes r0 c1 t1
+776;Rampe inclinée métal (Sloped Railing);P6;1994.1;1844.1;2400.0;300;toit rampes r0 c1 t2
+777;Rampe inclinée métal (Sloped Railing);P6;2349.0;-600.0;2700.0;270;toit rampes r1 c0 t-2
+778;Rampe inclinée métal (Sloped Railing);P6;2349.0;-300.0;2700.0;270;toit rampes r1 c0 t-1
+779;Rampe inclinée métal (Sloped Railing);P6;2349.0;0.0;2700.0;270;toit rampes r1 c0 t0
+780;Rampe inclinée métal (Sloped Railing);P6;2349.0;300.0;2700.0;270;toit rampes r1 c0 t1
+781;Rampe inclinée métal (Sloped Railing);P6;2349.0;600.0;2700.0;270;toit rampes r1 c0 t2
+782;Rampe inclinée métal (Sloped Railing);P6;2334.3;654.9;2700.0;300;toit rampes r1 c1 t-2
+783;Rampe inclinée métal (Sloped Railing);P6;2184.3;914.7;2700.0;300;toit rampes r1 c1 t-1
+784;Rampe inclinée métal (Sloped Railing);P6;2034.3;1174.5;2700.0;300;toit rampes r1 c1 t0
+785;Rampe inclinée métal (Sloped Railing);P6;1884.3;1434.3;2700.0;300;toit rampes r1 c1 t1
+786;Rampe inclinée métal (Sloped Railing);P6;1734.3;1694.1;2700.0;300;toit rampes r1 c1 t2
+787;Rampe inclinée métal (Sloped Railing);P6;2049.0;-300.0;3000.0;270;toit rampes r2 c0 t-1
+788;Rampe inclinée métal (Sloped Railing);P6;2049.0;0.0;3000.0;270;toit rampes r2 c0 t0
+789;Rampe inclinée métal (Sloped Railing);P6;2049.0;300.0;3000.0;270;toit rampes r2 c0 t1
+790;Rampe inclinée métal (Sloped Railing);P6;2049.0;600.0;3000.0;270;toit rampes r2 c0 t2
+791;Rampe inclinée métal (Sloped Railing);P6;2074.5;504.9;3000.0;300;toit rampes r2 c1 t-2
+792;Rampe inclinée métal (Sloped Railing);P6;1924.5;764.7;3000.0;300;toit rampes r2 c1 t-1
+793;Rampe inclinée métal (Sloped Railing);P6;1774.5;1024.5;3000.0;300;toit rampes r2 c1 t0
+794;Rampe inclinée métal (Sloped Railing);P6;1624.5;1284.3;3000.0;300;toit rampes r2 c1 t1
+795;Rampe inclinée métal (Sloped Railing);P6;1544.1;1474.5;3000.0;330;toit rampes r2 c2 t-2
+796;Rampe inclinée métal (Sloped Railing);P6;2074.5;-504.9;3000.0;240;toit rampes r2 c11 t2
+797;Rampe inclinée métal (Sloped Railing);P6;1749.0;-300.0;3300.0;270;toit rampes r3 c0 t-1
+798;Rampe inclinée métal (Sloped Railing);P6;1749.0;0.0;3300.0;270;toit rampes r3 c0 t0
+799;Rampe inclinée métal (Sloped Railing);P6;1749.0;300.0;3300.0;270;toit rampes r3 c0 t1
+800;Rampe inclinée métal (Sloped Railing);P6;1749.0;600.0;3300.0;270;toit rampes r3 c0 t2
+801;Rampe inclinée métal (Sloped Railing);P6;1814.7;354.9;3300.0;300;toit rampes r3 c1 t-2
+802;Rampe inclinée métal (Sloped Railing);P6;1664.7;614.7;3300.0;300;toit rampes r3 c1 t-1
+803;Rampe inclinée métal (Sloped Railing);P6;1514.7;874.5;3300.0;300;toit rampes r3 c1 t0
+804;Rampe inclinée métal (Sloped Railing);P6;1364.7;1134.3;3300.0;300;toit rampes r3 c1 t1
+805;Rampe inclinée métal (Sloped Railing);P6;1394.1;1214.7;3300.0;330;toit rampes r3 c2 t-2
+806;Rampe inclinée métal (Sloped Railing);P6;1814.7;-354.9;3300.0;240;toit rampes r3 c11 t2
+807;Rampe inclinée métal (Sloped Railing);P6;1449.0;-300.0;3600.0;270;toit rampes r4 c0 t-1
+808;Rampe inclinée métal (Sloped Railing);P6;1449.0;0.0;3600.0;270;toit rampes r4 c0 t0
+809;Rampe inclinée métal (Sloped Railing);P6;1449.0;300.0;3600.0;270;toit rampes r4 c0 t1
+810;Rampe inclinée métal (Sloped Railing);P6;1404.9;464.7;3600.0;300;toit rampes r4 c1 t-1
+811;Rampe inclinée métal (Sloped Railing);P6;1254.9;724.5;3600.0;300;toit rampes r4 c1 t0
+812;Rampe inclinée métal (Sloped Railing);P6;1104.9;984.3;3600.0;300;toit rampes r4 c1 t1
+813;Rampe inclinée métal (Sloped Railing);P6;1149.0;0.0;3900.0;270;toit rampes r5 c0 t0
+814;Rampe inclinée métal (Sloped Railing);P6;1149.0;300.0;3900.0;270;toit rampes r5 c0 t1
+815;Rampe inclinée métal (Sloped Railing);P6;1145.1;314.7;3900.0;300;toit rampes r5 c1 t-1
+816;Rampe inclinée métal (Sloped Railing);P6;995.1;574.5;3900.0;300;toit rampes r5 c1 t0
+817;Rampe inclinée métal (Sloped Railing);P6;845.1;834.3;3900.0;300;toit rampes r5 c1 t1
+818;Rampe inclinée métal (Sloped Railing);P6;834.3;845.1;3900.0;330;toit rampes r5 c2 t-1
+819;Rampe inclinée métal (Sloped Railing);P6;849.0;0.0;4200.0;270;toit rampes r6 c0 t0
+820;Rampe inclinée métal (Sloped Railing);P6;849.0;300.0;4200.0;270;toit rampes r6 c0 t1
+821;Rampe inclinée métal (Sloped Railing);P6;885.3;164.7;4200.0;300;toit rampes r6 c1 t-1
+822;Rampe inclinée métal (Sloped Railing);P6;735.3;424.5;4200.0;300;toit rampes r6 c1 t0
+823;Rampe inclinée métal (Sloped Railing);P6;684.3;585.3;4200.0;330;toit rampes r6 c2 t-1
+824;Rampe inclinée métal (Sloped Railing);P6;885.3;-164.7;4200.0;240;toit rampes r6 c11 t1
+825;Rampe inclinée métal (Sloped Railing);P6;549.0;0.0;4500.0;270;toit rampes r7 c0 t0
+826;Rampe inclinée métal (Sloped Railing);P6;475.5;274.5;4500.0;300;toit rampes r7 c1 t0
+827;Rampe inclinée métal (Sloped Railing);P6;249.0;0.0;4800.0;270;toit rampes r8 c0 t0
+828;Rampe inclinée métal (Sloped Railing);P6;215.7;124.5;4800.0;300;toit rampes r8 c1 t0

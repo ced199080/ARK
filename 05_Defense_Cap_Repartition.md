@@ -26,9 +26,9 @@ Plan : `plans/plan_tourelles.png`.
 
 | Mesure (sur les 96 tourelles) | Valeur |
 |---|---|
-| Distance 3D maximale entre deux tourelles | **9 692 UU** (< 10 000) |
-| Rayon horizontal maximal (jupe) | 4 846 UU |
-| Distance minimale d'une tourelle étrangère pour n'entrer dans aucune sphère | **14 846 UU ≈ 49,5 fondations du centre** |
+| Distance 3D maximale entre deux tourelles | **9 137 UU** (< 10 000) |
+| Rayon horizontal maximal (jupe) | 4 568 UU |
+| Distance minimale d'une tourelle étrangère pour n'entrer dans aucune sphère | **14 568 UU ≈ 48,6 fondations du centre** |
 
 Toutes les tourelles se voient entre elles : la base entière compte pour un seul cap de 100. Gardez une zone d'exclusion d'environ 50 fondations pour toute autre tourelle de votre tribu.
 
@@ -59,10 +59,10 @@ Toutes les tourelles se voient entre elles : la base entière compte pour un seu
 | L1 | ligne D5 (2 799,0), Z1800 → 2100, z 2040 | apothème 2 809,0, z 2040 |
 | RIVE | ligne D7 (3 918,7), milieu des côtés E0, Z300 → 600, z 540 | apothème 3 928,7, z 540 |
 | JUPE-ext | sous le mur d'about (4 518,7), suspendu Z −900 → −600, z −660 | apothème 4 528,7, vers la mer |
-| JUPE-int | sous la jonction des plafonds s1/s2 (4 818,7), suspendu Z −900 → −600, z −660 | apothème 4 808,7, vers le piton |
+| JUPE-int | sous le mur d'about (4 518,7), suspendu Z −900 → −600, z −660, face côté piton | apothème 4 508,7, vers le piton |
 
 ⚠ **À valider en solo** :
-- l'accroche d'un mur de chaume sous un plafond (jupe) ;
+- l'accroche d'un mur de chaume sous le mur de jupe ;
 - le maintien de la tourelle après démolition du chaume.
 
 ## 5. Ordre de pose
@@ -102,9 +102,9 @@ Le motif est le même dans chaque part : sur L1, Tek et Heavy alternent sans int
 
 | Couche | Couverture verticale | Limite |
 |---|---|---|
-| L1 | −49,0° → +38,2°, ≈ 180° en azimut par tourelle | pente A en bas, bout de casquette en haut |
-| JUPE-ext | −89,9° → +17,0° vers la mer | plafond de jupe |
-| JUPE-int | −89,9° → +37,2° vers le piton et le dessous de la plateforme | plafond de jupe ; sous-face de plateforme non modélisée |
+| L1 | −50,4° → +89,9°, ≈ 180° en azimut par tourelle | en bas, le haut du mur de jupe ; plus bas, le tir voit l'attique A et les paliers entre les rampes. En haut, rien : les rampes de la casquette ne masquent pas le ciel |
+| JUPE-ext | −89,9° → +89,9° vers la mer | aucune : les rampes de l'overhang ne masquent rien |
+| JUPE-int | −89,9° → +9,6° vers le piton et le dessous de la plateforme | dessous de la base ; sous-face de plateforme non modélisée |
 | Tesla | palier 1 entier (3 919 → 4 179 UU, Z −150) et palier 2 de 4 230 à 4 479 UU (Z −300) | poche fermée sous l'overhang ; 51 UU du palier 2 masqués derrière la marche de Ø 28 |
 
 **Zones d'ombre traitées**
@@ -112,7 +112,7 @@ Le motif est le même dans chaque part : sur L1, Tek et Heavy alternent sans int
 - Dessous de la plateforme : 18 Heavy tournées vers le piton (3 par part).
 - Mer au pied du piton : 12 Heavy tournées vers l'extérieur, plus L1 jusqu'à −49°.
 
-**Non couvert** : le ciel au-dessus de +38°. Les toits à 45° font glisser tout ce qui est largué.
+**Ciel** : couvert jusqu'à la verticale par L1 et par la jupe extérieure. Les rampes inclinées ne bloquent ni la vue ni le tir (lames espacées de 300 UU), et rien ne peut se poser dessus.
 
 ## 8. Plan de câblage : 2 générateurs Tek
 
@@ -122,7 +122,7 @@ Le motif est le même dans chaque part : sur L1, Tek et Heavy alternent sans int
 | **Générateur Tek n°1** (hall) | (900 ; 1 559), Z0 | réplicateur, forge à vapeur, labo, puis secours de L1 jusqu'à 5 040 UU | maximum |
 
 - Les **Tek** exigent un générateur Tek.
-- Les **Heavy et Tesla** sont électriques. Celles de la jupe sont à 4 500–6 650 UU des générateurs, les Tesla de rive à 2 200–5 750 UU.
+- Les **Heavy et Tesla** sont électriques. Celles de la jupe sont à 2 800–6 400 UU des générateurs, les Tesla de rive à 2 200–5 750 UU.
 - Si les sphères ne les couvrent pas, posez des câbles électriques :
   - boucle sous le plancher Z1800 ;
   - descentes par les 6 passages de la colonnade ;
