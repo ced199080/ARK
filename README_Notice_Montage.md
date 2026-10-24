@@ -12,9 +12,9 @@ La forteresse se compose de **6 parts égales de 60°** et d'un **noyau central*
 | Module | Document | Ce qu'il couvre |
 |---|---|---|
 | 01 | [01_Sol_Fondations_Decaissement.md](01_Sol_Fondations_Decaissement.md) | Calpinage carrés + triangles en étoile, Ø30, **bord abaissé en 2 paliers** (Ø26 → −150, Ø28 → −300) |
-| 02 | [02_Pod_Central_Atelier.md](02_Pod_Central_Atelier.md) | Coeur Base au centre et escalier prolongé, pod Ø15, piliers porteurs, hall de 6 murs libres, emplacements des machines, plancher de toit et **toit en rampes inclinées** (tours 1201/1809) |
-| 03 | [03_Rampe_Glisse_Overhang.md](03_Rampe_Glisse_Overhang.md) | Mur de rive, colonnade circulaire de piliers côte à côte (1 rang), **rampes de glisse** (pente A et overhang en rampes inclinées), mur de jupe, ligne de pics |
-| 04 | [04_Tourelles_DoubleDoorframes.md](04_Tourelles_DoubleDoorframes.md) | Cage : L1 = 60 tourelles verticales, L2 = 60 double doorframes, casquette anti-accroche |
+| 02 | [02_Pod_Central_Atelier.md](02_Pod_Central_Atelier.md) | Coeur Base au centre, pod Ø15, hall de 4 murs avec **les machines les plus hautes au centre**, stockage, générateurs |
+| 03 | [03_Rampe_Glisse_Overhang.md](03_Rampe_Glisse_Overhang.md) | Mur de rive (socle de la cage), colonnade circulaire de piliers côte à côte (1 rang), **overhang en rampes inclinées**, mur de jupe, ligne de pics |
+| 04 | [04_Tourelles_DoubleDoorframes.md](04_Tourelles_DoubleDoorframes.md) | **Cage posée sur la rive** : L1 = 60 tourelles verticales, L2 = 84 double doorframes, casquette ; **plancher de toit Z1200 et toit bas en rampes** |
 | 05 | [05_Defense_Cap_Repartition.md](05_Defense_Cap_Repartition.md) | Cap 100 (Tesla comptées), 96 tourelles verticales (16 par part), ordre de pose, couverture, câblage |
 | **06** | [06_Plan_6_Parts.md](06_Plan_6_Parts.md) | **Plan complet en 6 parts égales** (sol, structure, tourelles) et noyau central |
 | **07** | [07_Bilan_Materiaux.md](07_Bilan_Materiaux.md) | **Bilan matériaux complet**, équipements compris : réplicateur, forge à vapeur, labo de fortune, 20 stockages dédiés, 20 coffres-forts, 2 générateurs Tek |
@@ -25,15 +25,20 @@ La forteresse se compose de **6 parts égales de 60°** et d'un **noyau central*
 
 ## 1. Ce qu'il faut retenir
 
-1. **6 parts identiques.** Chaque part couvre 60° et contient 827 pièces de structure et 16 tourelles. Le script vérifie que les 6 parts coïncident après rotation. Seul le **noyau central** (Coeur Base, escalier, centre de la mezzanine, 101 pièces) se pose une fois. Les outils de production et de stockage ne font partie d'aucun template.
+1. **6 parts identiques.** Chaque part couvre 60° et contient 779 pièces de structure et 16 tourelles. Le script vérifie que les 6 parts coïncident après rotation. Seul le **noyau central** (le Coeur Base, 84 pièces) se pose une fois. Les outils de production et de stockage ne font partie d'aucun template.
 2. **96 tourelles** (cap 100, Tesla comptées) : 60 Heavy, 30 Tek et 6 Tesla, soit 16 par part. Le maximum symétrique avec 35 Tek et 10 Tesla est 96. Restent en réserve 20 Heavy, 5 Tek et 4 Tesla ; les 4 Tesla peuvent être ajoutées à la main pour atteindre 100.
 3. **L'étoile existante est reproduite à l'identique** : les anneaux 1 à 7 retombent pièce pour pièce sur le template SkunkHD 481.
 4. **Les tourelles sont verticales**, comme dans le template *Straight Heavy* (2727) et les tours 1201/1809 :
    - elles sont posées sur un mur de chaume de pose ;
    - **vous démolissez les 96 murs de chaume en jeu**.
-5. **Aucun toit incliné : des rampes partout.** Sur un toit à 45°, on tient debout ; sur des rampes inclinées (Sloped Railing), rien ne tient et tout glisse. Le toit, la casquette, la pente A et l'overhang sont donc faits de **1 224 rampes inclinées** en lames, comme sur les tours 1201 et 1809. Avec le haut du pod et les ¾ de la colonnade retirés, il reste à fabriquer (hors tourelles, déjà en inventaire) ≈ **147 100 lingots de métal** et **37 000 pâte cimentée**, contre 196 400 et 51 600 dans la première version. S'y ajoutent cristal, élément, perles noires, polymère et huile pour les équipements (module 07).
-6. **Bord abaissé deux fois** : l'anneau 14 (Ø26 → Ø28) est à −150, l'anneau 15 (Ø28 → Ø30) à −300.
-7. Sol, murs, plafonds, piliers PA/PB et cadres se posent en vanilla. Les rampes inclinées, la colonnade, le Coeur Base sur l'étoile et les pièces dans le vide exigent **Template Hammer**.
+5. **Profil bas et discret.** La base culmine à **Z1550 environ (5 murs)** au lieu de Z5150 :
+   - la cage à tourelles est posée sur le mur de rive (L1 à Z600, L2 à Z900) ;
+   - un seul plancher de toit fermé couvre toute la base à **Z1200 (4 murs)** ;
+   - les machines les plus hautes (réplicateur Tek, forge) sont **au centre**, dans le hall du pod, qui a 4 murs de hauteur libre.
+6. **Aucun toit incliné : des rampes partout.** Sur un toit à 45°, on tient debout ; sur des rampes inclinées (Sloped Railing), rien ne tient. La casquette et l'overhang font glisser jusqu'au vide. Le toit bas est en dents de scie de 300 UU : rien ne peut s'y poser. Au total, **1 224 rampes inclinées** en lames, comme sur les tours 1201 et 1809.
+   Il reste à fabriquer (hors tourelles, déjà en inventaire) ≈ **139 100 lingots de métal** et **34 700 pâte cimentée**, contre 196 400 et 51 600 dans la première version. S'y ajoutent cristal, élément, perles noires, polymère et huile pour les équipements (module 07).
+7. **Bord abaissé deux fois** : l'anneau 14 (Ø26 → Ø28) est à −150, l'anneau 15 (Ø28 → Ø30) à −300.
+8. Sol, murs, plafonds, piliers et cadres se posent en vanilla. Les rampes inclinées, la colonnade, le Coeur Base sur l'étoile et les pièces dans le vide exigent **Template Hammer**.
 
 ## 2. Conventions (relevées dans les templates fournis)
 
@@ -56,9 +61,9 @@ La forteresse se compose de **6 parts égales de 60°** et d'un **noyau central*
 |---|---|---|---|---|---|
 | D1 / D2 | coins = piliers PB / PA | 559,8 / 1 119,6 | 579,6 / 1 159,1 | 3,73 / 7,46 | 1 / 2 |
 | **D4** | mur du pod (= étoile 481) | 2 239,2 | 2 318,2 | 14,93 | 4 |
-| **D5** | cage | 2 799,0 | 2 897,8 | 18,66 | 5 |
+| **D5** / **D6** | poteaux du plancher de toit (sommets) | 2 799,0 / 3 358,8 | 2 897,8 / 3 477,4 | 18,66 / 22,39 | 5 / 6 |
 | *cercle* | colonnade | rayon 3 360 | — | 22,4 | 264 positions |
-| **D7** | mur de rive | 3 918,7 | 4 056,9 | 26,12 | 7 |
+| **D7** | mur de rive et cage | 3 918,7 | 4 056,9 | 26,12 | 7 |
 | **D8** | bord de la plateforme | 4 478,5 | 4 636,4 | 29,86 | 8 |
 
 ## 3. Contenu du dépôt
@@ -67,7 +72,7 @@ La forteresse se compose de **6 parts égales de 60°** et d'un **noyau central*
 |---|---|
 | `templates/parts/Part_1_structure.json` … `Part_6_structure.json` | **Structure de chaque part**, déjà tournée, triée par phase |
 | `templates/parts/Part_1_tourelles.json` … `Part_6_tourelles.json` | 16 paires mur de chaume + tourelle par part |
-| `templates/parts/Noyau_central.json` | Coeur Base, escalier, centre de la mezzanine |
+| `templates/parts/Noyau_central.json` | Coeur Base et son escalier |
 | `templates/phases/P1.json` … `P7.json` | Les mêmes pièces, découpées par phase sur tout le tour (méthode alternative) |
 | `templates/0X_*.json` | Les mêmes pièces regroupées par module, plus l'extension seule du sol (`01b`) |
 | `references/Coeur_Base.json` | Votre template Coeur Base, que le générateur lit |
@@ -85,7 +90,7 @@ La forteresse se compose de **6 parts égales de 60°** et d'un **noyau central*
   - Tous les autres templates portent 1 demi-pilier qui se pose sur cette pile (`snapOverrides [0]`).
   - Démolissez la pile à la fin.
 - **Orientation** : l'axe 0° du template correspond à la branche de carrés orientée vers la droite sur `plans/plan_calpinage.png`. Les templates de part sont déjà tournés : aucune rotation à faire à l'import.
-- **Réglages serveur** : `LimitTurretsNum`, `LimitTurretsRange`, limite de structures. La base compte ≈ 5 150 structures, plus 96 tourelles et 96 murs de chaume temporaires.
+- **Réglages serveur** : `LimitTurretsNum`, `LimitTurretsRange`, limite de structures. La base compte ≈ 4 850 structures, plus 96 tourelles et 96 murs de chaume temporaires.
 - **Étoile déjà construite** : utilisez `templates/01b_sol_extension_D4_D8.json` à la place du sol des parts, ou retirez le sol (phase P1) des templates de part.
 
 ## 5. Séquence de pose
@@ -94,9 +99,9 @@ La forteresse se compose de **6 parts égales de 60°** et d'un **noyau central*
 
 | Étape | Template | Contenu |
 |---|---|---|
-| 1 | `parts/Part_1_structure.json` | sol, piliers, murs, colonnade, plafonds, rampes de glisse, cage et toit en rampes du secteur 1, triés par phase ; contient la pile d'ancrage |
+| 1 | `parts/Part_1_structure.json` | sol, piliers, murs, colonnade, galerie, overhang, cage, plancher de toit et toit bas du secteur 1, triés par phase ; contient la pile d'ancrage |
 | 2-6 | `parts/Part_2_structure.json` … `Part_6_structure.json` | idem pour les secteurs 2 à 6 |
-| 7 | `parts/Noyau_central.json` | Coeur Base, escalier jusqu'à Z1800, centre de la mezzanine |
+| 7 | `parts/Noyau_central.json` | Coeur Base et son escalier |
 | 8-13 | `parts/Part_k_tourelles.json` | 16 paires mur de chaume + tourelle par part |
 | 14 | à la main | voir « Finitions » ci-dessous |
 
@@ -107,18 +112,18 @@ C'est la méthode à utiliser si Template Hammer refuse des pièces faute d'appu
 | Phase | Template | Contenu | Pièces | Lingots | Pâte |
 |---|---|---|---|---|---|
 | P1 Fondations | `phases/P1.json` | 384 carrés + 768 triangles ; anneau 14 à Z −150, anneau 15 à Z −300 | 1 154 | 38 426 | 11 912 |
-| P2 Piliers et murs porteurs | `phases/P2.json` | Coeur Base niveau 1, piliers PA, colonnade, mur de pod niveaux 0-5, fût, rive | 1 144 | 28 613 | 8 013 |
-| P3 Plafonds intermédiaires | `phases/P3.json` | Coeur Base Z300 et niveau 2, escalier, mezzanine et galerie Z1800 | 513 | 12 116 | 3 415 |
-| P4 Rampes de glisse | `phases/P4.json` | pente A et overhang en rampes inclinées, mur de jupe | 985 | 14 629 | 3 820 |
-| P5 Cage | `phases/P5.json` | planchers 2100/2400, double doorframes L2, casquette en rampes | 469 | 10 189 | 2 836 |
-| P6 Pod haut et toit | `phases/P6.json` | mur de pod niveaux 6-7, piliers hauts, plancher de toit Z2400, 372 rampes inclinées | 805 | 14 893 | 4 048 |
+| P2 Piliers et murs porteurs | `phases/P2.json` | Coeur Base niveau 1, mur de pod (4 niveaux), piliers PA, poteaux D5/D6, colonnade, rive | 760 | 19 013 | 5 325 |
+| P3 Plafonds intermédiaires | `phases/P3.json` | Coeur Base Z300 et niveau 2, galerie L1 Z600 | 298 | 6 896 | 1 940 |
+| P4 Rampes de glisse | `phases/P4.json` | overhang en rampes inclinées, mur de jupe | 649 | 10 597 | 2 812 |
+| P5 Cage sur la rive | `phases/P5.json` | murs de coin L1, coursive L2 Z900, 84 double doorframes L2, casquette en rampes | 337 | 6 883 | 1 894 |
+| P6 Toit | `phases/P6.json` | plancher de toit Z1200 sur toute la base, 684 rampes en dents de scie | 1 567 | 29 095 | 7 936 |
 | P7 Tourelles | `phases/P7.json` | 96 paires mur de chaume + tourelle | 193 | — | — |
 
 ### Finitions (dans les deux méthodes)
 
 1. **Démolissez les 96 murs de chaume.** Testez d'abord sur une tourelle qu'elle reste en place.
 2. Posez les 84 Metal Spike Walls (`donnees/03_ligne_pics.csv`), soit 14 par part.
-3. Posez les portes doubles : 6 au sol du pod, 6 au sol du fût, 12 accès galerie, cadres de L2. Ajoutez les échelles sous les 6 trappes.
+3. Posez les portes doubles : 6 au sol du pod, cadres de L2. Ajoutez les échelles sous les 12 trappes (6 de la galerie L1, 6 de la coursive L2).
 4. Posez les équipements aux emplacements prévus (module 07 §3) et le câblage (module 05 §8).
 5. Démolissez la pile d'ancrage.
 
@@ -126,16 +131,16 @@ C'est la méthode à utiliser si Template Hammer refuse des pièces faute d'appu
 
 | Poste | Lingots | Pâte | Autres |
 |---|---|---|---|
-| 6 parts (structure, 4 962 pièces) | 116 346 | 33 330 | — |
-| Noyau central (101 pièces) | 2 429 | 686 | — |
+| 6 parts (structure, 4 674 pièces) | 108 924 | 31 260 | — |
+| Noyau central (84 pièces) | 1 895 | 531 | — |
 | Ancres (14 demi-piliers, temporaires) | 182 | 56 | — |
 | 84 murs de pics | 2 100 | — | 1 680 cuir, 2 520 fibre |
 | 96 murs de chaume (gabarits) | — | — | ~672 chaume, ~384 fibre, ~384 bois |
 | Équipements : 1 réplicateur, 1 forge à vapeur, 1 labo de fortune, 20 stockages dédiés, 20 coffres-forts, 2 générateurs Tek | 26 000 | 2 900 | 220 élément, 3 350 cristal, 470 perles noires, 5 850 polymère, 220 électroniques, 100 poudre étincelante, 1 400 huile |
-| **Total à fabriquer** | **147 057** | **36 972** | — |
+| **Total à fabriquer** | **139 101** | **34 747** | — |
 | *Tourelles (60 H, 30 T, 6 S), en inventaire* | *38 400* | *13 500* | *19 800 électroniques, 7 500 polymère, 1 200 cristal, 90 élément* |
 
-Équivalent brut (hors tourelles) : ≈ 295 000 minerai de métal, ≈ 195 000 chitine ou kératine, ≈ 389 000 pierre.
+Équivalent brut (hors tourelles) : ≈ 279 000 minerai de métal, ≈ 186 000 chitine ou kératine, ≈ 372 000 pierre.
 
 Si votre étoile (anneaux 1 à 7) est déjà construite, retirez encore 96 fondations et 192 triangles : 9 600 lingots et 2 976 pâte.
 
@@ -152,17 +157,18 @@ Si votre étoile (anneaux 1 à 7) est déjà construite, retirez encore 96 fonda
 | 7 | Paliers −150 et −300 posables | `--decaissement 0` |
 | 8 | `snapOverrides` de Template Hammer | Placement libre sur la pile (0 ; 300) |
 | 9 | Metal Spike Wall sur fondation | Bord de plateforme, sous l'overhang |
-| 10 | Portée du générateur Tek n°2 ≥ 3 800 UU (les 30 Tek) ; alimentation de la jupe et des Tesla | Rapprocher le générateur, ajouter câbles et générateur électrique |
+| 10 | Portée des 2 générateurs Tek ≥ 4 300 UU (les 30 Tek de la cage) ; alimentation de la jupe et des Tesla | 3ᵉ générateur dans la galerie L1, câbles et générateur électrique |
 | 11 | Sous-face de la plateforme au-dessus de Z −600 | Jupe plus basse |
 | 12 | Coût du coffre-fort (une seule source) et des pièces marquées ~ | Vérifier à l'établi |
-| 13 | Hauteur des rampes inclinées par rapport à leurs appuis (décalage relevé sur la tour 1201) | Corriger `+ 200` dans `rang_rampes()` |
+| 13 | Hauteur des rampes inclinées par rapport à leurs appuis (décalage relevé sur la tour 1201) | Corriger `+ 200` dans `rang_rampes()` et `toit_dents()` |
 | 14 | Un joueur ne tient pas debout sur une lame de rampes, et glisse | Lames plus serrées (pas de 150) |
+| 15 | Le réplicateur Tek et la forge tiennent sous 4 murs (3 murs réservés) | Un niveau de plus partout (`rive_niveaux` ou `cage_niveaux`, et `pod_niveaux`) |
 
 ## 8. Régénérer ou adapter
 
 ```bash
 python3 outils/forteresse.py                        # défaut : 6 parts, overhang 2, casquette 1, paliers de 150, colonnade r=3360
-python3 outils/forteresse.py --colonnade 2560       # colonnade dans le couloir, sous la galerie
+python3 outils/forteresse.py --colonnade 2560       # colonnade plus près du pod
 python3 outils/forteresse.py --coeur-rotation 60    # Coeur Base tourné (multiples de 60°)
 python3 outils/forteresse.py --debord 1             # overhang d'une seule structure dans le vide (sans jupe)
 python3 outils/forteresse.py --casquette 2          # casquette plus longue

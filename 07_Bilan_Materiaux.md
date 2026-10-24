@@ -11,8 +11,8 @@ Les chiffres sont recalculés par le script : `donnees/synthese.json`, clés `bi
 
 | Ressource | Sans les tourelles (déjà en inventaire) | **Avec les 96 tourelles** |
 |---|---|---|
-| Lingots de métal | 147 057 | **185 457** |
-| Pâte cimentée | 36 972 | **50 472** |
+| Lingots de métal | 139 101 | **177 501** |
+| Pâte cimentée | 34 747 | **48 247** |
 | Électroniques | 220 | **20 020** |
 | Polymère | 5 850 | **13 350** |
 | Cristal | 3 350 | **4 550** |
@@ -29,7 +29,19 @@ Le script crée les tourelles du plan (60 Heavy, 30 Tek, 6 Tesla), mais elles so
 
 Si votre étoile (anneaux 1 à 7, 96 fondations et 192 triangles) est déjà construite, retirez 9 600 lingots et 2 976 pâte.
 
-## 1 bis. Allègement : aucun toit incliné, rampes partout
+## 1 bis. Profil bas (version actuelle)
+
+La base culmine à **Z1550** au lieu de Z5150. Par rapport à la version précédente (147 057 lingots, 36 972 pâte) :
+
+| | Pièces | Pâte | Lingots |
+|---|---|---|---|
+| **Retiré** | fût D5 (354 murs + 6 cadres), mezzanine (282 plafonds), 4 niveaux de mur de pod (192 pièces), escalier prolongé (5), piliers PB (24) et haut des PA (48), galerie et toit de cage sur D5 (3 planchers), plancher de toit Z2400 du pod, toit en pyramide (372 rampes), pente A (336 rampes), ancienne casquette (84 rampes) et ancien L2 (60 cadres) | −14 279 | −51 846 |
+| **Ajouté** | plancher de toit Z1200 sur toute la base (882 pièces), galerie L1 (234) et coursive L2 (120) sur la rive, 24 murs de coin, 84 cadres L2, casquette (108 rampes), toit bas en dents de scie (684 rampes), 24 poteaux (96 piliers) | +12 054 | +43 890 |
+| **Total** | | **−2 225** | **−7 956** |
+
+Le grand plancher de toit coûte cher (5 880 pâte), mais il remplace à lui seul la mezzanine, les trois planchers de la cage et le plancher de toit du pod.
+
+## 1 ter. Allègement précédent : aucun toit incliné, rampes partout
 
 Par rapport à la première version (196 388 lingots, 51 570 pâte) :
 
@@ -45,7 +57,7 @@ Par rapport à la première version (196 388 lingots, 51 570 pâte) :
 | Colonnade : 1 pilier de haut au lieu de 4 | 768 piliers, 192 demi-piliers | 240 piliers | −4 464 | −15 696 |
 | **Total** | | | **−14 598** | **−49 331** |
 
-- **Pourquoi des rampes et pas des toits** : sur un toit à 45°, on tient debout ; sur une lame de rampes inclinées, non. Seules les rampes font glisser (module 03 §7). Une rampe coûte en plus environ trois fois moins qu'un toit.
+- **Pourquoi des rampes et pas des toits** : sur un toit à 45°, on tient debout ; sur une lame de rampes inclinées, non. Seules les rampes font glisser (module 03 §6). Une rampe coûte en plus environ trois fois moins qu'un toit.
 - La colonnade ne sert plus d'appui à la pente. Un rang de piliers suffit à faire grille : c'est la hauteur des cercles de piliers fournis (704, 701).
 
 **Allègements possibles en plus** (non appliqués : ils retirent une fonction de défense) :
@@ -54,21 +66,20 @@ Par rapport à la première version (196 388 lingots, 51 570 pâte) :
 |---|---|---|
 | Supprimer le mur de jupe (216 murs) | −1 512 | le support des 30 Heavy sous la plateforme : leurs murs de chaume flotteraient |
 | Overhang d'un seul rang dans le vide (`--debord 1`, supprime aussi le mur de jupe) | −1 836 | les 30 Heavy de jupe (le script ne les place plus), et 300 UU de dégagement des chutes |
-| Fût remplacé par des piliers aux coins et milieux de côtés | ≈ −1 500 | le 2e mur entre l'attique A et le couloir |
 
 ## 2. Détail par poste
 
 | Poste | Contenu | Lingots | Pâte | Autres |
 |---|---|---|---|---|
-| **6 parts : structure** | 4 962 pièces : 384 fondations, 768 triangles, 1 098 murs, 84 cadres doubles, 360 piliers, 342 plafonds, 696 plafonds triangles, 6 trappes, 1 224 rampes inclinées (aucun toit) | 116 346 | 33 330 | — |
-| **Noyau central** | 35 murs, 3 portes secrètes, 6 escaliers, 57 plafonds (dont 48 triangles) | 2 429 | 686 | — |
+| **6 parts : structure** | 4 674 pièces : 384 fondations, 768 triangles, 588 murs, 90 cadres doubles, 384 piliers, 402 plafonds, 822 plafonds triangles, 12 trappes, 1 224 rampes inclinées (aucun toit) | 108 924 | 31 260 | — |
+| **Noyau central** | Coeur Base : 35 murs, 3 portes secrètes, 1 escalier, 45 plafonds (dont 40 triangles) | 1 895 | 531 | — |
 | Ancres temporaires | 14 demi-piliers (démolis à la fin) | 182 | 56 | — |
 | **Murs de pics** | 84 Metal Spike Walls | 2 100 | — | 1 680 cuir, 2 520 fibre |
 | Gabarits de pose | 96 murs de chaume (démolis ensuite) | — | — | ~672 chaume, ~384 fibre, ~384 bois |
 | **Équipements** | voir §3 | 26 000 | 2 900 | 220 élément, 3 350 cristal, 470 perles noires, 5 850 polymère, 220 électroniques, 100 poudre étincelante, 1 400 huile |
 | *Tourelles (inventaire)* | *60 Heavy, 30 Tek, 6 Tesla* | *38 400* | *13 500* | *19 800 électroniques, 7 500 polymère, 1 200 cristal, 90 élément* |
 
-Par part, la structure représente ≈ 19 390 lingots et ≈ 5 560 pâte. On peut donc construire et financer la base part par part.
+Par part, la structure représente ≈ 18 150 lingots et ≈ 5 210 pâte. On peut donc construire et financer la base part par part.
 
 ## 3. Équipements
 
@@ -90,9 +101,9 @@ Ordre de fabrication logique :
 
 | Lieu | Équipements |
 |---|---|
-| Hall Z0 (6 murs libres) | Réplicateur Tek (θ 0°) · Générateur Tek n°1 (θ 60°) · Forge à vapeur (θ 120°) · Labo de fortune (θ 240°) · 3 stockages dédiés (θ 300°) |
+| **Hall du pod, au centre** (Z0 → 1200, 4 murs) | Réplicateur Tek (θ 0°) · Générateur Tek n°1 (θ 60°) · Forge à vapeur (θ 120°) · Labo de fortune (θ 180°) · Générateur Tek n°2 (θ 240°) · 3 stockages dédiés (θ 300°) |
 | Coeur Base | 1 coffre-fort « Matiere Premiere 1 » (celui de votre template, à sa place d'origine) |
-| Mezzanine Z1800 | Générateur Tek n°2 (θ 180°, à 900 UU du centre) · **19 coffres-forts + 17 stockages dédiés**, en alternance contre la face intérieure du mur de pod. Cela fait 36 emplacements : positions 0, 2 et 3 de chaque côté, la position 1 étant l'accès galerie |
+| Hall extérieur, au sol | **19 coffres-forts + 17 stockages dédiés**, en alternance contre la face extérieure du mur de pod. Cela fait 36 emplacements : positions 0, 2 et 3 de chaque côté, la position 1 étant la porte du pod ou un passage |
 
 ### Couverture des 2 générateurs Tek
 
@@ -100,11 +111,13 @@ Distances mesurées sur le plan, pivot à pivot :
 
 | Générateur | Tek de L1 (alimentation Tek obligatoire) | Heavy de jupe | Tesla de rive |
 |---|---|---|---|
-| n°2, mezzanine (−900 ; 0), Z1800 | **1 915 → 3 760 UU** : couvre les 30 Tek s'il porte à 3 800 UU | 4 419 → 6 028 UU | 3 316 → 5 014 UU |
-| n°1, hall (900 ; 1 559), Z0 | 2 196 → 5 040 UU | 2 811 → 6 401 UU | 2 176 → 5 746 UU |
+| n°1, hall (900 ; 1 559), Z0 | 2 257 → 5 809 UU | 2 811 → 6 401 UU | 2 176 → 5 746 UU |
+| n°2, hall (−900 ; −1 559), Z0 | 2 257 → 5 809 UU | 2 811 → 6 401 UU | 2 176 → 5 746 UU |
+
+Chaque Tek de L1 est à **4 272 UU au plus** du générateur le plus proche. Les deux générateurs couvrent donc les 30 Tek s'ils portent à 4 300 UU.
 
 ⚠ Réglez la portée au maximum et vérifiez la sphère affichée.
-- Si le n°2 n'atteint pas 3 800 UU, rapprochez-le du centre ou ajoutez un 3ᵉ générateur.
+- S'ils n'atteignent pas 4 300 UU, ajoutez un 3ᵉ générateur dans la galerie L1.
 - Les Heavy de jupe et les Tesla sont électriques. S'ils restent hors de portée, il faut des câbles et un générateur électrique : ce matériel n'est pas dans votre liste et n'est pas compté ici.
 
 ## 4. Équivalent en ressources brutes
@@ -118,9 +131,9 @@ Recettes usuelles, à vérifier sur votre serveur :
 
 | Ressource brute | Sans les tourelles | Avec les tourelles |
 |---|---|---|
-| Minerai de métal | **≈ 295 000** | ≈ 411 000 |
-| Chitine ou kératine | **≈ 195 000** | ≈ 309 000 |
-| Pierre | **≈ 389 000** | ≈ 617 000 |
+| Minerai de métal | **≈ 279 000** | ≈ 395 000 |
+| Chitine ou kératine | **≈ 186 000** | ≈ 300 000 |
+| Pierre | **≈ 372 000** | ≈ 600 000 |
 | Obsidienne | ≈ 11 700 | ≈ 26 700 |
 | Perles de silice | ≈ 660 | ≈ 60 000 |
 | Silex | 200 | 200 |

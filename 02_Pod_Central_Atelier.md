@@ -1,29 +1,32 @@
-# Module 02 — Pod central de production (Coeur Base, Ø15, hall de 6 murs, toit en rampes)
+# Module 02 — Pod central de production (Coeur Base, Ø15, machines hautes au centre)
 
 Template : `templates/02_pod_central.json`, réparti dans les phases :
-- **P2** : Coeur Base niveau 1, mur de pod niveaux 0-5, piliers PA bas ;
-- **P3** : Coeur Base niveau 2, escalier prolongé, mezzanine ;
-- **P6** : mur niveaux 6-7, piliers hauts, plancher de toit Z2400, toit en rampes inclinées.
+- **P2** : Coeur Base niveau 1, mur de pod (4 niveaux), piliers PA ;
+- **P3** : Coeur Base niveau 2.
 
-Source du noyau : `references/Coeur_Base.json` (votre template *Coeur Base*). Coordonnées : `donnees/02_pod_central.csv`. Plans : `plans/plan_pod.png`, `plans/plan_toit_rampes.png`.
+Le plancher de toit Z1200, qui couvre aussi le pod, et le toit bas en rampes sont au module 04.
+
+Source du noyau : `references/Coeur_Base.json` (votre template *Coeur Base*). Coordonnées : `donnees/02_pod_central.csv`, `donnees/07_equipements.csv`. Plan : `plans/plan_pod.png`.
 
 ![Plan du pod](plans/plan_pod.png)
 
-## 1. Volumes
+## 1. Profil bas : les éléments les plus hauts au centre
+
+Toute la base est couverte par **un seul plancher de toit, à Z1200 (4 murs)**. Au-dessus, il n'y a que des rampes basses, jusqu'à Z1550 environ (module 04). La version précédente culminait à Z5150.
 
 | Élément | Cotes | Remarque |
 |---|---|---|
 | **Coeur Base** (centre du cercle) | rayon ≤ 900 UU, Z0 → Z600 (2 niveaux) | votre template, reposé tel quel au centre de l'étoile |
-| **Escalier central** | (129,9 ; −75), de Z0 à Z1800 | escalier du Coeur Base prolongé jusqu'à la mezzanine |
 | Emprise du pod | Dodécagone **D4** : apothème 2 239,2 UU, Ø 14,93 fondations entre plats | c'est l'étoile existante (anneaux 1 à 7) |
-| **Hall d'atelier** | Z0 → Z1800 : **6 murs pleins de hauteur libre** autour du Coeur Base | aucun plancher intermédiaire |
-| Mezzanine / étage technique | Z1800 → Z2400 (2 murs) | même niveau que la galerie de tourelles |
-| **Plancher de toit** | Z2400, sur tout le pod | au niveau du toit de cage : un seul plancher fermé du centre jusqu'à D5 |
-| **Toit en rampes inclinées** | Z2400 → Z5150, sur tout le contour D5 (pod + cage) | comme le toit des tours 1201 / 1809 ; remplace le cône et la reprise ; aucun toit incliné |
+| **Hall du pod** | Z0 → Z1200 : **4 murs de hauteur libre** | les machines les plus hautes (réplicateur Tek, forge) ont besoin de 3 murs |
+| Hall extérieur | entre le pod et la rive, Z0 → Z1200 | stockage, colonnade, accès à la galerie de tourelles (module 04) |
+| Plancher de toit | Z1200, sur toute la base | module 04 |
+
+Il n'y a plus de mezzanine ni d'escalier prolongé jusqu'à Z1800 : aucun étage au-dessus du hall. Le stockage passe au sol, dans le hall extérieur, et la galerie de tourelles se rejoint par des trappes (module 04).
 
 ## 2. Coeur Base intégré au centre
 
-Votre template est repris **entrée par entrée** : coordonnées, rotations, skins et couleurs sont conservés. Il forme avec l'escalier et le centre de la mezzanine le **noyau central**, posé une seule fois (module 06 §3). Son origine (0 ; 0) coïncide avec le centre de l'étoile, et ses cotes Z suivent déjà la même convention (fondation z 40, mur z 240).
+Votre template est repris **entrée par entrée** : coordonnées, rotations, skins et couleurs sont conservés. Il forme le **noyau central**, posé une seule fois (module 06 §3). Son origine (0 ; 0) coïncide avec le centre de l'étoile, et ses cotes Z suivent déjà la même convention (fondation z 40, mur z 240).
 
 **Modifications.** Le coffre « Matiere Premiere 1 » est sorti du template : c'est un équipement, posé à sa place d'origine et compté dans les 20 coffres-forts (module 07). Ses 10 fondations sont retirées. Elles suivent une grille carrée tournée de −30°, incompatible avec l'étoile, et la chevauchaient. Les murs du Coeur Base reposent donc sur les fondations de l'étoile (anneaux 1 à 3). Ce n'est pas une accroche d'arête : **la pose se fait en Template Hammer**, comme le template d'origine.
 
@@ -42,100 +45,45 @@ Votre template est repris **entrée par entrée** : coordonnées, rotations, ski
 **Encombrement** (contrôlé par le script) :
 - rayon maximal 900 UU, contre 1 159 UU pour la couronne de piliers PA : 259 UU de passage ;
 - les machines commencent à 1 200 UU ;
-- la mezzanine est à Z1800, au-dessus du sommet du Coeur Base (Z600).
+- le plancher de toit est à Z1200, 600 UU au-dessus du sommet du Coeur Base (Z600).
 
-**Pile d'ancrage Template Hammer.** Elle est en (0 ; 300), à l'intérieur de la pièce du niveau 1, à 300 UU de toute pièce du Coeur Base. On l'atteint par la porte d'entrée. Démolissez-la à la fin (notice P8).
+**Pile d'ancrage Template Hammer.** Elle est en (0 ; 300), à l'intérieur de la pièce du niveau 1, à 300 UU de toute pièce du Coeur Base. On l'atteint par la porte d'entrée. Démolissez-la à la fin.
 
-## 3. Escalier central prolongé
+## 3. Mur de pod (D4)
 
-L'escalier du Coeur Base est prolongé, à la verticale, jusqu'à la mezzanine.
+- **48 positions par niveau** (12 côtés × 4), **4 niveaux** de Z0 à Z1200, soit 186 murs + 6 cadres de porte doubles.
+- Niveau 0 : **6 cadres doubles**, 1 par part (côtés E1, position 1 : θ ≈ 26°, 86°, 146°…), entre le hall du pod et le hall extérieur.
+- Le plancher de toit Z1200 se pose sur le haut du mur.
 
-| Marche | Z | z template | Origine |
-|---|---|---|---|
-| 1 | 0 → 300 | 240 | Coeur Base |
-| 2 à 6 | 300 → 1800 | 540 · 840 · 1140 · 1440 · 1740 | ajoutées (copies exactes : même x, y, yaw −120°) |
+## 4. Système porteur
 
-- **Trémie de la mezzanine** : le script retire les 6 pièces du plancher Z1800 traversées par la cellule d'escalier. Ce sont 4 triangles du centre et 2 carrés de l'anneau 1 (θ 0° et θ 300°), tracés en violet sur le plan. On sort de l'escalier directement sur la mezzanine, puis on gagne la galerie de tourelles par les 12 cadres du niveau 6 du mur de pod.
-- Au-dessus du Coeur Base (Z600 → 1800), l'escalier monte en colonne libre dans le hall. Fermez-le si besoin par 4 murs : il reste 259 UU entre la cage et les piliers PA.
-
-## 4. Mur de pod (D4)
-
-- **48 positions par niveau** (12 côtés × 4), **8 niveaux** de Z0 à Z2400, soit 366 murs + 18 cadres de porte doubles (3 par part).
-
-| Niveau | Z | Ouvertures |
-|---|---|---|
-| 0 | 0 → 300 | **6 cadres doubles**, 1 par part (côtés E1, position 1 : θ ≈ 26°, 86°, 146°…) : hall ↔ couloir annulaire |
-| 1 à 5 | 300 → 1800 | aucune |
-| **6** | 1800 → 2100 | **12 cadres doubles** (position 1 de chaque côté) : mezzanine ↔ galerie de tourelles |
-| 7 | 2100 → 2400 | aucune ; le plancher de toit Z2400 se pose dessus |
-
-## 5. Système porteur à piliers intérieurs
-
-| Couronne | Position | Hauteur | Pièces | Rôle |
+| Élément | Position | Hauteur | Pièces | Rôle |
 |---|---|---|---|---|
-| **PA** | 12 coins de D2 : rayon 1 159,1, θ = 15° + 30°·k | Z0 → 2400 : 8 piliers | 96 | porte la mezzanine et le plancher de toit ; entoure le Coeur Base |
-| **PB** | 12 coins de D1 : rayon 579,6, θ = 15° + 30°·k | Z1800 → 2400 : 2 piliers | 24 | porte le centre du plancher de toit ; posés sur la mezzanine, ils ne gênent ni le Coeur Base ni l'escalier |
-- La colonnade circulaire entre le pod et les pics est décrite au module 03 §3.
+| **Piliers PA** | 12 coins de D2 : rayon 1 159,1, θ = 15° + 30°·k | Z0 → 1200 : 4 piliers | 48 | portent le plancher de toit au-dessus du hall ; entourent le Coeur Base |
+| Poteaux D5 et D6 | coins de D5 (2 897,8) et de D6 (3 477,4) | Z0 → 1200 | 96 | portent le plancher de toit au-dessus du hall extérieur (module 04) |
 
-## 6. Gabarits de placement des machines (hall Z0 → 1800)
+Les anciens piliers PB (sur la mezzanine) sont supprimés : sans mezzanine, ils tomberaient dans le Coeur Base. Le centre du plancher est à 4 travées des piliers PA.
 
-Ce sont des zones de réservation, pas les cotes exactes des maillages. Elles commencent à 1 200 UU du centre, au-delà du Coeur Base et des piliers PA.
+## 5. Machines et stockage
+
+Les gabarits sont des zones de réservation, pas les cotes exactes des maillages. Ils commencent à 1 150 UU du centre, au-delà du Coeur Base et des piliers PA. **Les machines les plus hautes sont au centre de la base**, dans le hall du pod :
 
 | Machine | Branche θ | Centre (x ; y) | Gabarit | Hauteur réservée | Énergie / carburant |
 |---|---|---|---|---|---|
 | **Réplicateur Tek** | 0° | (1 650 ; 0) | 3 × 2 fondations | 3 murs | à vérifier |
 | **Générateur Tek n°1** | 60° | (900 ; 1 558,8) | 1 × 1 | 1 mur | élément |
-| **Forge à vapeur** (Steam Forge) | 120° | (−825 ; 1 428,9) | 3 × 3 | 3 murs | élément (forge alimentée à l'élément) |
-| *libre* (circulation, ou Tek Teleporter en option) | 180° | (−1 700 ; 0) | — | — | — |
-| **Labo de fortune** (Makeshift Megalab) | 240° | (−825 ; −1 428,9) | 2 × 2 | 2 murs | à vérifier |
+| **Forge à vapeur** (Steam Forge) | 120° | (−800 ; 1 385,6) | 3 × 3 | 3 murs | élément (forge alimentée à l'élément) |
+| **Labo de fortune** (Makeshift Megalab) | 180° | (−1 650 ; 0) | 2 × 2 | 2 murs | à vérifier |
+| **Générateur Tek n°2** | 240° | (−900 ; −1 558,8) | 1 × 1 | 1 mur | élément |
 | 3 stockages dédiés Tek | 300° | (875 ; −1 515,5) | 3 × 1 | 2 murs | — |
 
-Sur la mezzanine (Z1800) se trouvent le **générateur Tek n°2** en (−900 ; 0), puis **19 coffres-forts et 17 stockages dédiés** en alternance contre le mur de pod. Le 20ᵉ coffre-fort est celui du Coeur Base. Positions exactes : `donnees/07_equipements.csv` et module 07.
+- La forge à vapeur occupe la place d'une forge industrielle. Si vous posez une forge industrielle à la place, elle tient dans le même gabarit.
+- **Stockage** : 19 coffres-forts et 17 stockages dédiés en alternance, au sol, contre la **face extérieure** du mur de pod, dans le hall extérieur. Ils sont aux positions 0, 2 et 3 de chaque côté ; la position 1 est la porte du pod, ou un passage. Le 20ᵉ coffre-fort est celui du Coeur Base. Positions exactes : `donnees/07_equipements.csv`.
+- **Générateurs Tek** : chacun alimente les machines et la moitié la plus proche des 30 Tek de la cage. Le plus éloigné est à 4 272 UU (module 05 §8).
 
-## 7. Mezzanine Z1800
+## 6. Contrôles de fin de module
 
-Elle reprend le centre et les anneaux 1 à 7 en plafonds, **moins la trémie de l'escalier** : 94 plafonds + 188 plafonds triangles.
-
-## 8. Toit en rampes inclinées (comme les tours 1201 / 1809)
-
-**Aucun toit incliné dans toute la base.** Sur un toit à 45°, on tient debout et rien ne glisse. Le cône, son capuchon et la reprise de la cage sont donc remplacés par :
-1. un **plancher de toit fermé à Z2400** sur le pod (96 plafonds + 192 triangles). Il prolonge le toit de cage (module 04) : le bloc central a un seul plancher étanche, du centre jusqu'à D5 ;
-2. au-dessus, un **toit en rampes inclinées** (`StructureBP_Railing_Sloped_Metal`, la pièce des tours 1201 et 1809).
-
-La même règle sert pour la casquette, la pente A et l'overhang (modules 03 et 04).
-
-**Règle de pose, relevée sur la tour 1201**
-- Le toit est fait de **lames** : des files de rampes inclinées, parallèles à la pente, espacées de 300 UU (t = 0, ±300, ±600… le long de chaque côté).
-- Chaque rampe monte de 300 UU sur 300 UU vers le centre. La rampe suivante d'une lame est 300 UU plus loin et 300 UU plus haut.
-- Pivot : au milieu de la rampe, 150 UU en retrait de son bas, à z template = Z du bas + 290. Sur la tour 1201, cela met la rampe de rive 150 UU devant le bord du plancher et 10 UU sous son dessus.
-- Rotation : **yaw = θ du côté − 90°**, ce qui fait monter la rampe vers le centre. C'est le cas de la tour 1201 : yaw −90° sur le côté θ = 0°.
-- Une lame peut dépasser l'arête de son côté de 150 UU au plus. Aux 12 arêtes, l'écart entre lames reste donc ≤ 300 UU.
-- **On ne tient pas debout sur une lame** : un dino largué n'y trouve aucune surface et glisse vers l'extérieur. Ce qui passe entre deux lames tombe sur le plancher fermé Z2400.
-
-**Rangs du toit** (la rampe de rive, 150 UU devant le bord du plancher, est la casquette du module 04) :
-
-| Rang | Apothème du pivot | Z du bas | Lames par côté | Rampes |
-|---|---|---|---|---|
-| r0 | 2 649,0 | 2400 | 5 | 60 |
-| r1 | 2 349,0 | 2700 | 5 | 60 |
-| r2 | 2 049,0 | 3000 | 5 | 60 |
-| r3 | 1 749,0 | 3300 | 5 | 60 |
-| r4 | 1 449,0 | 3600 | 3 | 36 |
-| r5 | 1 149,0 | 3900 | 3 | 36 |
-| r6 | 849,0 | 4200 | 3 | 36 |
-| r7 | 549,0 | 4500 | 1 | 12 |
-| r8 | 249,0 | 4800 | 1 | 12 |
-| **Total** | | sommet ≈ Z5150 | | **372** |
-
-- Coût : une rampe vaut environ **12 lingots + 3 pâte**, contre 35 + 10 pour un toit. ⚠ C'est une estimation : le coût de la rambarde métal (Metal Railing).
-- ⚠ À valider en solo : le décalage de la rampe (+290 en z template) vient de la tour 1201, où les rampes reposent sur des cadres de porte. Si les rampes apparaissent trop haut ou trop bas, corrigez `+ 200` dans `rang_rampes()` et régénérez.
-
-## 9. Contrôles de fin de module
-
-- [ ] Coeur Base (noyau) : 35 murs, 3 portes secrètes, plancher Z300. Ses fondations ne sont pas posées (l'étoile les remplace) ; son coffre est reposé à la main.
-- [ ] 6 escaliers empilés de Z0 à Z1800 ; la trémie de la mezzanine est ouverte au-dessus.
-- [ ] 6 murs libres sous la mezzanine autour du Coeur Base.
-- [ ] 6 cadres doubles au sol (1 par part) et 12 à Z1800.
-- [ ] 24 colonnes de piliers PA/PB, toutes arrêtées à Z2400.
-- [ ] Plancher de toit Z2400 fermé, sans jour.
-- [ ] Toit : 372 rampes en 12 pans, lames au pas de 300 UU. Aucun toit incliné.
+- [ ] Coeur Base (noyau) : 35 murs, 3 portes secrètes, 1 escalier, plancher Z300. Ses fondations ne sont pas posées (l'étoile les remplace) ; son coffre est reposé à la main.
+- [ ] Mur de pod : 4 niveaux, 6 cadres doubles au sol (1 par part).
+- [ ] 12 colonnes de piliers PA, de Z0 à Z1200.
+- [ ] Machines au centre ; 36 emplacements de stockage libres contre la face extérieure du pod.

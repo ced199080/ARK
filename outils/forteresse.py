@@ -68,23 +68,21 @@ def ecart(a, b):
 P = dict(
     anneaux_total=15,          # D8 : Ø 29,86 fondations entre plats
     anneau_pod=7,              # D4 : Ø 14,93 (pod central, = étoile SkunkHD 481)
-    anneau_cage=9,             # D5 : ligne de la cage (L1 tourelles, L2 double doorframes)
-    anneau_rive=13,            # D7 : mur de rive
+    anneau_rive=13,            # D7 : mur de rive, et cage à tourelles posée dessus (profil bas)
+    anneau_galerie=12,         # galerie L1 : anneaux 12-13, derrière la cage
     decaissement=150.0,        # hauteur d'un palier de bord : anneau 14 (Ø26 -> Ø28) à -150, anneau 15 (Ø28 -> Ø30) à -300
-    rive_niveaux=2,            # hauteur du mur de rive (murs)
-    rangs_pente_A=4,           # rangs de toit entre la rive et la cage
-    cage_niveaux=2,            # étages de la cage
+    rive_niveaux=2,            # hauteur du mur de rive (murs) -> sol de la galerie L1 à Z600
+    cage_niveaux=2,            # étages de la cage sur la rive : L1 tourelles (Z600-900), L2 double doorframes (900-1200)
     casquette=1,               # rangs de casquette en porte-à-faux devant la cage
-    debord=2,                  # rangs de toit au-delà du bord de plateforme (1 ou 2)
-    pod_niveaux=8,             # hauteur du mur de pod (murs) -> Z 2400 = toit de cage (plancher de toit commun)
-    mezzanine=1800.0,          # plancher technique du pod = sol de la galerie L1 (6 murs libres dessous)
-    jupe=True,                 # jupe basse sous l'overhang (tourelles sous la plateforme)
+    debord=2,                  # rangs de rampes au-delà du bord de plateforme (1 ou 2)
+    pod_niveaux=4,             # mur de pod (murs) -> Z1200 = plancher de toit commun à toute la base
+    jupe=True,                 # mur de jupe sous l'overhang (tourelles sous la plateforme)
     coeur='references/Coeur_Base.json',   # template Coeur Base fourni (noyau + escalier, centré sur l'origine)
     coeur_rotation=0.0,        # rotation du Coeur Base autour du centre (multiples de 60° conseillés)
-    colonnade_rayon=3360.0,    # colonnade circulaire sous la pente A (entre le pod et les pics)
-    colonnade_hauteur=300.0,   # 1 pilier de haut, comme les cercles de piliers 704 / 701 (au lieu de monter sous la pente)
+    colonnade_rayon=3360.0,    # colonnade circulaire dans le hall extérieur (entre le pod et les pics)
+    colonnade_hauteur=300.0,   # 1 pilier de haut, comme les cercles de piliers 704 / 701
     largeur_pilier=2 * math.pi * 600 / 96,   # 39,27 UU : 48 piliers à r=600 (template 704) = 1 pilier / 1 vide
-    colonnade_passages=(30, 90, 150, 210, 270, 330),   # 1 passage par part (axe des portes du fût)
+    colonnade_passages=(30, 90, 150, 210, 270, 330),   # 1 passage par part (sous la trappe d'accès à la galerie L1)
     colonnade_largeur_passage=300.0,
     cap=100, tesla_comptee=True,             # scénario B retenu
     inventaire=(80, 35, 10),                 # Heavy, Tek, Tesla disponibles
@@ -332,17 +330,27 @@ def rang_rampes(t, A_bas, Z_bas, repere):
                   Z=Z_bas, repere=f'{repere} c{k} t{i}')
 
 
-def toit_rampes(t, A, Zd, repere):
-    """Toit en rampes inclinées sur un plancher fermé Zd de contour D(A), jusqu'au faîtage (12 pans).
+def toit_dents(t, A, Zd, repere):
+    """Toit bas en rampes inclinées sur un plancher fermé Zd de contour D(A) : dents de scie de 300 UU de haut.
 
-    Le rang de rive (150 UU devant le bord du plancher, comme sur la tour 1201) est la casquette du module 04 :
-    le toit commence donc au bord du plancher. Renvoie la cote du sommet.
+    Mêmes lames que les autres rampes (pas de 300 UU, continues avec la casquette), mais une rampe sur deux
+    redescend : chaque lame est une suite de petits faîtages, comme le faîtage des tours 1201 / 1809 en
+    miniature. Rien ne peut se poser sur les lames, et le toit ne dépasse pas Zd + 300.
+    Renvoie la cote du sommet.
     """
     j = 0
     while A - j * F - F / 2 > 0:
-        rang_rampes(t, A - j * F, Zd + j * F, f'{repere} r{j}')
+        a = A - F / 2 - j * F
+        n = int((a * TAN15 + F / 2) // F + 1e-9)
+        sens = -90 if j % 2 == 0 else 90           # rang pair : monte vers le centre ; rang impair : redescend
+        for k in range(12):
+            nx, ny = vec(30 * k)
+            dx, dy = -ny, nx
+            for i in range(-n, n + 1):
+                t.add('rampe', a * nx + i * F * dx, a * ny + i * F * dy, Zd + Z_TPL + 200, 30 * k + sens,
+                      Z=Zd, repere=f'{repere} r{j} c{k} t{i}')
         j += 1
-    return Zd + A - 50
+    return Zd + F + 50
 
 
 def cote_anneau(p, r):
@@ -360,10 +368,12 @@ def paliers_bord(p):
             for r in range(p['anneau_rive'] + 1, p['anneaux_total'] + 1)]
 
 
-def hauteur_pente_A(p, x, y):
-    """Cote du dessus de la pente A à la verticale de (x, y) (toits dodécagonaux à 45°)."""
-    proj = max(x * vec(30 * k)[0] + y * vec(30 * k)[1] for k in range(12))
-    return p['rive_niveaux'] * F + apo(7) - proj
+def cotes_profil(p):
+    """Cotes du profil bas : sol de la galerie L1 (= haut de la rive) et plancher de toit (= haut de la cage)."""
+    Z_L1 = p['rive_niveaux'] * F
+    Z_toit = Z_L1 + p['cage_niveaux'] * F
+    assert Z_toit == p['pod_niveaux'] * F, 'le mur de pod doit finir au niveau du plancher de toit'
+    return Z_L1, Z_toit
 
 
 # ---------------------------------------------------------------- Coeur Base
@@ -418,12 +428,11 @@ def module_sol(p, extension_seule=False):
 
 
 def module_pod(p, contours):
-    t = Template('02 Pod central atelier', 'Coeur Base au centre (escalier prolonge jusqu\'a la mezzanine), mur de pod '
-                                         'D4 (48 murs/niveau), piliers porteurs, mezzanine Z1800, plancher de toit '
-                                         'Z2400 et toit en rampes inclinees (tours 1201/1809) sur toute la cage D5.')
+    t = Template('02 Pod central atelier', 'Coeur Base au centre, mur de pod D4 (48 murs/niveau, 4 niveaux), piliers '
+                                         'PA : hall de 4 murs pour les machines les plus hautes.')
     ancre(t)
     d4 = contours[p['anneau_pod']]
-    zmez = p['mezzanine']
+    _, Ztop = cotes_profil(p)
     # Coeur Base : tout sauf ses 10 fondations (grille tournée de -30°, incompatible avec l'étoile qui les remplace)
     _, coeur = charger_coeur(p)
     escalier = None
@@ -437,68 +446,28 @@ def module_pod(p, contours):
                    f'coeur {cls}')
         if cle == 'escalier':
             escalier = e
-    # escalier prolongé de Z300 à la mezzanine (empilé sur celui du Coeur Base)
-    t.phase = 'P3'
-    nb_marches = int(zmez // F)
-    for niv in range(1, nb_marches):
-        e = copy.deepcopy(escalier)
-        e['loc']['z'] = escalier['loc']['z'] + niv * F
-        t.add_brut(e, 'escalier', niv * F, f'escalier prolonge niv{niv}')
     t.groupe = 'part'
-    # mur de pod : niveaux 0..7 ; 1 porte double au sol par part (côtés E1, index 1) et accès galerie Z1800 (index 1)
-    Ztop = p['pod_niveaux'] * F
-    assert Ztop == zmez + p['cage_niveaux'] * F, "le mur de pod doit finir au niveau du toit de cage"
+    # mur de pod : 4 niveaux jusqu'au plancher de toit ; 1 porte double au sol par part (côtés E1, index 1)
+    t.phase = 'P2'
     for niv in range(p['pod_niveaux']):
         Zb = niv * F
-        t.phase = 'P2' if Zb < zmez else 'P6'
         for x, y, nu, k, i in cotes_contour(d4):
-            cle = 'mur'
-            if niv == 0 and k % 2 == 1 and i == 1:
-                cle = 'cadre_double'
-            if Zb == zmez and i == 1:
-                cle = 'cadre_double'
+            cle = 'cadre_double' if (niv == 0 and k % 2 == 1 and i == 1) else 'mur'
             t.add(cle, x, y, Zb + Z_TPL + F / 2, nu, Z=Zb, repere=f'pod niv{niv} c{k} p{i}')
-    # piliers : couronne PA aux sommets de D2 (Z0 -> 2400), couronne PB aux sommets de D1 (mezzanine -> 2400)
-    for nom, n, Zb, Zh in (('PA', 2, 0.0, Ztop), ('PB', 1, zmez, Ztop)):
-        R = rayon_coin(n)
-        for k in range(12):
-            cx, cy = vec(15 + 30 * k)
-            Z = Zb
-            while Z + F <= Zh + 1e-6:
-                t.phase = 'P2' if Z < zmez else 'P6'
-                t.add('pilier', R * cx, R * cy, Z + Z_TPL + F / 2, 0, Z=Z, repere=f'pilier {nom}{k}')
-                Z += F
-            if Z < Zh - 1:
-                t.phase = 'P6'
-                t.add('demi_pilier', R * cx, R * cy, Z + Z_TPL + F / 4, 0, Z=Z, repere=f'pilier {nom}{k} (demi)')
-    # mezzanine Z1800 : centre + anneaux 1..7 en plafonds, trémie = pièces traversées par la cage d'escalier
-    cellule = cellule_escalier(escalier)
-    pieces, _ = pavage(p['anneau_pod'], centre=True)
-    t.phase = 'P3'
-    tremie = []
-    for pc in pieces:
-        if se_coupent(polygone(pc), cellule):
-            tremie.append(pc)
-            continue
-        cle = 'plafond' if pc['type'] == 'carre' else 'plafond_tri'
-        t.groupe = 'noyau' if pc['anneau'] <= 1 else 'part'     # centre de la mezzanine (trémie) : noyau
-        t.add(cle, pc['x'], pc['y'], zmez + Z_TPL, pc['yaw'], Z=zmez, repere=f"mezzanine anneau {pc['anneau']}")
-    t.groupe = 'part'
-    # plancher de toit Z2400 (centre + anneaux 1..7, sans trémie) : il ferme le pod au niveau du toit de cage
-    t.phase = 'P6'
-    for pc in pieces:
-        cle = 'plafond' if pc['type'] == 'carre' else 'plafond_tri'
-        t.add(cle, pc['x'], pc['y'], Ztop + Z_TPL, pc['yaw'], Z=Ztop, repere=f"plancher de toit anneau {pc['anneau']}")
-    # toit en rampes inclinées sur tout le bloc central (pod + cage, contour D5), à la place du cône et de la reprise
-    Zsommet = toit_rampes(t, apo(5), Ztop, 'toit rampes')
-    return t, dict(Zsommet=Zsommet, Ztoit=Ztop, coeur=coeur, escalier=escalier, cellule=cellule, tremie=tremie)
+    # piliers PA aux sommets de D2, de Z0 au plancher de toit (le Coeur Base, au centre, n'a pas besoin de PB)
+    R = rayon_coin(2)
+    for k in range(12):
+        cx, cy = vec(15 + 30 * k)
+        for Z in range(0, int(Ztop), int(F)):
+            t.add('pilier', R * cx, R * cy, Z + Z_TPL + F / 2, 0, Z=float(Z), repere=f'pilier PA{k}')
+    return t, dict(coeur=coeur, escalier=escalier, cellule=cellule_escalier(escalier), tremie=[])
 
 
 def colonnade(p):
     """Couronne de piliers sur un vrai cercle, yaw radial (style template 704) : 1 pilier, 1 vide de même largeur.
 
-    Chaque colonne monte de Z0 à la hauteur du mur de rive (colonnade_hauteur), sans dépasser la pente A
-    (piliers pleins puis un demi-pilier si la place le permet).
+    Chaque colonne monte de Z0 à colonnade_hauteur, sans dépasser le sol de la galerie L1 (piliers pleins puis un
+    demi-pilier si la place le permet).
     """
     R = p['colonnade_rayon']
     w = p['largeur_pilier']
@@ -511,9 +480,7 @@ def colonnade(p):
                for o in p['colonnade_passages']):
             continue
         x, y = R * vec(th)[0], R * vec(th)[1]
-        h = min(hauteur_pente_A(p, x, y) - 30, p['colonnade_hauteur'])    # 30 UU de jeu sous le toit
-        if R < apo(5):                               # couloir : sous le plancher de galerie Z1800
-            h = min(h, p['mezzanine'])
+        h = min(cotes_profil(p)[0] - 30, p['colonnade_hauteur'])     # 30 UU de jeu sous la galerie L1
         elements = []
         Z = 0.0
         while Z + F <= h:
@@ -527,10 +494,9 @@ def colonnade(p):
 
 
 def module_rampe(p, contours, tesla_murs):
-    t = Template('03 Rive, colonnade, pente de glisse et overhang',
-                 f"Mur de rive D7 ({p['rive_niveaux']} niveaux), colonnade circulaire, {p['rangs_pente_A']} rangs de "
-                 f"rampes inclinees jusqu'a la cage, overhang {2 + p['debord']} rangs de rampes (dont {p['debord']} "
-                 "au-dela de la plateforme), mur de jupe.")
+    t = Template('03 Rive, colonnade et overhang',
+                 f"Mur de rive D7 ({p['rive_niveaux']} niveaux, socle de la cage), colonnade circulaire, overhang "
+                 f"{2 + p['debord']} rangs de rampes inclinees (dont {p['debord']} au-dela de la plateforme), mur de jupe.")
     ancre(t)
     d7 = contours[p['anneau_rive']]
     murs = cotes_contour(d7)
@@ -543,19 +509,16 @@ def module_rampe(p, contours, tesla_murs):
                 continue                       # emplacement laissé libre : mur de chaume + Tesla (phase P7)
             cle = 'cadre_double' if (niv == 0 and j == sas) else 'mur'
             t.add(cle, x, y, Zb + Z_TPL + F / 2, nu, Z=Zb, repere=f'rive niv{niv} c{k} p{i}')
-    # colonnade circulaire sous la pente A
+    # colonnade circulaire dans le hall extérieur
     col = colonnade(p)
     for c in col['colonnes']:
         for cle, Z in c['elements']:
             dz = F / 2 if cle == 'pilier' else F / 4
             t.add(cle, c['x'], c['y'], Z + Z_TPL + dz, c['theta'], Z=Z, repere=f"colonnade θ{c['theta']:.2f}")
-    # pente A : de la rive vers la cage
+    # overhang : part du haut de la rive, sous la cage ; 2 rangs au-dessus des paliers + 'debord' rangs dans le vide
     A7 = apo(7)
     Zr = p['rive_niveaux'] * F
     t.phase = 'P4'
-    for j in range(p['rangs_pente_A']):
-        rang_rampes(t, A7 - j * F, Zr + j * F, f'pente A r{j}')
-    # overhang : 2 rangs au-dessus du décaissement + 'debord' rangs dans le vide
     for j in range(1, 3 + p['debord']):
         rang_rampes(t, A7 + j * F, Zr - j * F, f'overhang r-{j}')
     A_bout = A7 + (2 + p['debord']) * F
@@ -575,63 +538,81 @@ def module_rampe(p, contours, tesla_murs):
 
 
 def module_cage(p, contours):
-    t = Template('04 Cage a tourelles et casquette',
-                 'Fut D5, galerie 2 niveaux : L1 = 60 emplacements de tourelles (murs de chaume en phase P7), '
-                 'L2 = 60 double doorframes ; planchers anneaux 8-9, casquette (le toit en rampes est au module 02).')
+    t = Template('04 Cage sur la rive et toit bas',
+                 'Profil bas : cage posee sur le mur de rive D7 (L1 = emplacements de tourelles, murs de chaume en '
+                 'phase P7 ; L2 = double doorframes), galerie, casquette, plancher de toit Z1200 sur toute la base et '
+                 'toit en rampes inclinees en dents de scie.')
     ancre(t)
-    d5 = contours[p['anneau_cage']]
-    zmez = p['mezzanine']
-    # fût : murs D5 de Z0 à la galerie, 2 portes au sol (θ=90/270, index 2)
+    d7 = contours[p['anneau_rive']]
+    Z_L1, Ztop = cotes_profil(p)
+    A7 = apo(7)
+    # poteaux du plancher de toit : sommets de D5 et D6, de Z0 au plancher de toit
     t.phase = 'P2'
-    for niv in range(int(zmez // F)):
-        Zb = niv * F
-        for x, y, nu, k, i in cotes_contour(d5):
-            cle = 'cadre_double' if (niv == 0 and k % 2 == 1 and i == 2) else 'mur'
-            t.add(cle, x, y, Zb + Z_TPL + F / 2, nu, Z=Zb, repere=f'fut niv{niv} c{k} p{i}')
-    # planchers de galerie : anneaux 8 et 9 en plafonds, à chaque niveau + toit de cage
-    pieces, _ = pavage(p['anneau_cage'], centre=False)
-    gal = [pc for pc in pieces if pc['anneau'] > p['anneau_pod']]
-    for niv in range(p['cage_niveaux'] + 1):
-        Z = zmez + niv * F
-        t.phase = 'P3' if niv == 0 else 'P5'
-        for pc in gal:
-            cle = 'plafond' if pc['type'] == 'carre' else 'plafond_tri'
-            if niv == 1 and pc['type'] == 'carre' and pc['anneau'] == p['anneau_pod'] + 1 \
-                    and pc['cote'] % 2 == 1 and pc['idx'] == 0:
-                cle = 'trappe'          # trappe + échelle vers la galerie L2
-            t.add(cle, pc['x'], pc['y'], Z + Z_TPL, pc['yaw'], Z=Z, repere=f"galerie Z{Z:.0f} anneau {pc['anneau']}")
-    # L2 : double doorframes (L1 = emplacements de tourelles, posés en P7 avec leurs murs de chaume)
+    for m in (5, 6):
+        R = rayon_coin(m)
+        for k in range(12):
+            cx, cy = vec(15 + 30 * k)
+            for Z in range(0, int(Ztop), int(F)):
+                t.add('pilier', R * cx, R * cy, Z + Z_TPL + F / 2, 0, Z=float(Z), repere=f'poteau D{m} c{k}')
+    # galerie L1 (anneaux 12-13) au niveau du haut de la rive ; trappe sous chaque passage de la colonnade
+    pieces, _ = pavage(p['anneau_rive'], centre=True)
+    t.phase = 'P3'
+    for pc in pieces:
+        if pc['anneau'] < p['anneau_galerie']:
+            continue
+        cle = 'plafond' if pc['type'] == 'carre' else 'plafond_tri'
+        if pc['type'] == 'carre' and pc['anneau'] == p['anneau_galerie'] and pc['cote'] % 2 == 1 and pc['idx'] == 2:
+            cle = 'trappe'              # trappe + échelle depuis le hall extérieur
+        t.add(cle, pc['x'], pc['y'], Z_L1 + Z_TPL, pc['yaw'], Z=Z_L1, repere=f"galerie L1 anneau {pc['anneau']}")
+    # L1 : 7 emplacements par côté ; les 5 du milieu reçoivent les tourelles (P7), les 2 des coins sont murés
     t.phase = 'P5'
-    Zb = zmez + F
-    for x, y, nu, k, i in cotes_contour(d5):
-        t.add('cadre_double', x, y, Zb + Z_TPL + F / 2, nu, Z=Zb, repere=f'cage L2 c{k} p{i}')
-    # casquette (porte-à-faux) ; au-dessus, le toit en rampes du bloc central (module 02) remplace la reprise
-    A5 = apo(5)
-    Ztop = zmez + p['cage_niveaux'] * F
+    for x, y, nu, k, i in cotes_contour(d7):
+        if i in (0, 6):
+            t.add('mur', x, y, Z_L1 + Z_TPL + F / 2, nu, Z=Z_L1, repere=f'cage L1 c{k} p{i} (mur de coin)')
+    # coursive L2 (anneau 13) et double doorframes L2
+    Z_L2 = Z_L1 + F
+    for pc in pieces:
+        if pc['anneau'] != p['anneau_rive']:
+            continue
+        cle = 'plafond' if pc['type'] == 'carre' else 'plafond_tri'
+        if pc['type'] == 'carre' and pc['cote'] % 2 == 0 and pc['idx'] == 3:
+            cle = 'trappe'              # trappe + échelle depuis la galerie L1
+        t.add(cle, pc['x'], pc['y'], Z_L2 + Z_TPL, pc['yaw'], Z=Z_L2, repere=f"coursive L2 anneau {pc['anneau']}")
+    for x, y, nu, k, i in cotes_contour(d7):
+        t.add('cadre_double', x, y, Z_L2 + Z_TPL + F / 2, nu, Z=Z_L2, repere=f'cage L2 c{k} p{i}')
+    # casquette en porte-à-faux devant la cage
     for j in range(p['casquette'], 0, -1):
-        rang_rampes(t, A5 + j * F, Ztop - j * F, f'casquette r-{j}')
-    return t, gal
+        rang_rampes(t, A7 + j * F, Ztop - j * F, f'casquette r-{j}')
+    # plancher de toit fermé sur toute la base, puis toit bas en rampes (dents de scie)
+    t.phase = 'P6'
+    for pc in pieces:
+        cle = 'plafond' if pc['type'] == 'carre' else 'plafond_tri'
+        t.add(cle, pc['x'], pc['y'], Ztop + Z_TPL, pc['yaw'], Z=Ztop, repere=f"plancher de toit anneau {pc['anneau']}")
+    Zsommet = toit_dents(t, A7, Ztop, 'toit rampes')
+    return t, dict(Z_L1=Z_L1, Ztoit=Ztop, Zsommet=Zsommet)
 
 
-# gabarits de réservation dans le hall du pod (Z0 -> 1800) : (nom, θ, apothème du centre, largeur, profondeur, murs)
+# gabarits de réservation dans le hall du pod (Z0 -> 1200, 4 murs) : les machines les plus hautes au centre
+# (nom, θ, apothème du centre, largeur, profondeur, murs)
 GABARITS = [
     ('Réplicateur Tek', 0, 1650, 900, 600, 3),
-    ('Générateur Tek n°1 (ateliers)', 60, 1800, 300, 300, 1),
-    ('Forge à vapeur', 120, 1650, 900, 900, 3),
-    ('Labo de fortune (Megalab)', 240, 1650, 600, 600, 2),
+    ('Générateur Tek n°1', 60, 1800, 300, 300, 1),
+    ('Forge à vapeur', 120, 1600, 900, 900, 3),
+    ('Labo de fortune (Megalab)', 180, 1650, 600, 600, 2),
+    ('Générateur Tek n°2', 240, 1800, 300, 300, 1),
     ('3 stockages dédiés', 300, 1750, 900, 300, 2),
 ]
-# générateurs Tek de la galerie (sur l'anneau 8, niveau L1) et générateurs électriques de secours (attique A,
-# entre le fût et la colonnade, hors de l'axe des portes 90°/270°)
-GENERATEURS = [('Générateur Tek n°1 (hall)', 60, 1800.0, 0.0), ('Générateur Tek n°2 (mezzanine)', 180, 900.0, 1800.0)]
+# générateurs Tek du hall : chacun alimente les machines et la moitié la plus proche des Tek de la cage
+GENERATEURS = [('Générateur Tek n°1 (hall)', 60, 1800.0, 0.0), ('Générateur Tek n°2 (hall)', 240, 1800.0, 0.0)]
 
 
 def equipements(infos_pod, contours):
     """Positions des équipements hors plan : machines du hall, générateurs, 20 coffres-forts, 20 stockages dédiés.
 
-    Mezzanine : 36 emplacements contre la face intérieure du mur de pod (positions 0, 2 et 3 de chaque côté ; la
-    position 1 est l'accès galerie) -> 19 coffres-forts + 17 stockages dédiés en alternance. Le 20e coffre-fort est
-    celui du Coeur Base (position d'origine) ; les 3 derniers stockages dédiés vont dans le hall (θ 300°).
+    Hall extérieur : 36 emplacements au sol contre la face extérieure du mur de pod (positions 0, 2 et 3 de chaque
+    côté ; la position 1 est la porte du pod ou un passage) -> 19 coffres-forts + 17 stockages dédiés en alternance.
+    Le 20e coffre-fort est celui du Coeur Base (position d'origine) ; les 3 derniers stockages dédiés vont dans le
+    hall du pod (θ 300°). Les machines hautes restent au centre, dans le hall du pod.
     """
     out = []
     for nom, th, A, lg, pf, hm in GABARITS:
@@ -646,8 +627,7 @@ def equipements(infos_pod, contours):
                 out.append(dict(cle='stockage_dedie', x=A * nx + t * dx, y=A * ny + t * dy, Z=0.0, yaw=th + 180,
                                 lieu='hall'))
     for nom, th, A, Z in GENERATEURS:
-        out.append(dict(cle='generateur_tek', x=A * vec(th)[0], y=A * vec(th)[1], Z=Z, yaw=th + 180,
-                        lieu='hall' if Z == 0 else 'mezzanine'))
+        out.append(dict(cle='generateur_tek', x=A * vec(th)[0], y=A * vec(th)[1], Z=Z, yaw=th + 180, lieu='hall'))
     vault = next(e for cle, cls, e in infos_pod['coeur'] if cle == 'coffre')
     out.append(dict(cle='coffre_fort', x=vault['loc']['x'], y=vault['loc']['y'], Z=0.0, yaw=vault['rot']['yaw'],
                     lieu='Coeur Base (Matiere Premiere 1)'))
@@ -656,7 +636,7 @@ def equipements(infos_pod, contours):
     for n, (x, y, nu, k, i) in enumerate(places):
         nx, ny = vec(nu)
         cle = 'coffre_fort' if (n % 2 == 0 or n == len(places) - 1) else 'stockage_dedie'
-        out.append(dict(cle=cle, x=x - 150 * nx, y=y - 150 * ny, Z=1800.0, yaw=nu + 180, lieu='mezzanine'))
+        out.append(dict(cle=cle, x=x + 150 * nx, y=y + 150 * ny, Z=0.0, yaw=nu, lieu='hall extérieur'))
     return out
 
 
@@ -667,7 +647,7 @@ def tableau_anneaux(p):
         pr = [pc for pc in pieces if pc['anneau'] == r]
         a, L = contours[r]
         zone = ('pod' if r <= p['anneau_pod'] else f"palier {r - p['anneau_rive']}" if r > p['anneau_rive']
-                else 'couronne')
+                else 'hall extérieur')
         lignes.append(dict(anneau=r, carres_sur='E0 (0°,60°…)' if r % 2 else 'E1 (30°,90°…)',
                            carres=sum(pc['type'] == 'carre' for pc in pr),
                            tri_ext=sum(pc['type'] == 'tri' and pc['idx'] < L[pc['cote']] - 1 for pc in pr),
@@ -678,11 +658,11 @@ def tableau_anneaux(p):
 
 
 PHASES = {'P1': 'Fondations (sol D8 + 2 paliers de bord)',
-          'P2': 'Piliers et murs porteurs (Coeur Base niv. 1, piliers PA, colonnade, pod, fut, rive)',
-          'P3': 'Plafonds intermediaires (Coeur Base niv. 2, escalier, mezzanine + galerie Z1800)',
-          'P4': 'Rampes de glisse : pente A et overhang en rampes inclinees, mur de jupe',
-          'P5': 'Cage : planchers 2100/2400, double doorframes L2, casquette en rampes',
-          'P6': 'Pod haut et toit : murs 1800-2400, piliers hauts, plancher de toit Z2400, rampes inclinees',
+          'P2': 'Piliers et murs porteurs (Coeur Base niv. 1, mur de pod, piliers PA, poteaux D5/D6, colonnade, rive)',
+          'P3': 'Plafonds intermediaires (Coeur Base niv. 2, galerie L1 Z600)',
+          'P4': 'Rampes de glisse : overhang en rampes inclinees, mur de jupe',
+          'P5': 'Cage sur la rive : murs de coin L1, coursive et double doorframes L2, casquette en rampes',
+          'P6': 'Toit : plancher de toit Z1200 sur toute la base, rampes inclinees en dents de scie',
           'P7': 'Tourelles verticales et leurs murs de chaume de pose (scenario B)'}
 
 
@@ -710,8 +690,11 @@ def emplacement(x_mur, y_mur, Zb, sortie, couche, cote, idx):
 
 
 def emplacements_cage(p, contours):
-    """L1 : les 60 emplacements de la ligne D5 entre Z1800 et Z2100, tourelle côté extérieur."""
-    return [emplacement(x, y, p['mezzanine'], nu, 'L1', k, i) for x, y, nu, k, i in cotes_contour(contours[p['anneau_cage']])]
+    """L1 : les 60 emplacements de la cage sur la rive D7 (5 au milieu de chaque côté, les 2 des coins sont murés),
+    entre Z600 et Z900, tourelle côté extérieur."""
+    Z_L1, _ = cotes_profil(p)
+    return [emplacement(x, y, Z_L1, nu, 'L1', k, i) for x, y, nu, k, i in cotes_contour(contours[p['anneau_rive']])
+            if i not in (0, 6)]
 
 
 def murs_tesla(murs):
@@ -776,7 +759,7 @@ def matrice(p, contours, murs, tesla_murs, jupe):
                key=angle)
     # L1 : Tek / Heavy alternées (côté E0 : T H T H T ; côté E1 : H T H T H) = 5 Tek + 5 Heavy par part
     for s in L1:
-        s['type'] = 'tek' if (s['idx'] % 2 == 0) == (s['cote'] % 2 == 0) else 'heavy'
+        s['type'] = 'tek' if (s['idx'] % 2 == 1) == (s['cote'] % 2 == 0) else 'heavy'
     for s in J:
         s['type'] = 'heavy'
     for s in S:
@@ -888,8 +871,8 @@ def bande_vue(p, ob, r0, z0):
 
 
 def secteurs(p, ob, jupe):
-    A5, A7 = apo(5), apo(7)
-    out = {'L1': secteur_tir(p, ob, A5 + DECALAGE_MONTAGE + SAILLIE_TETE, p['mezzanine'] + F / 2),
+    A7 = apo(7)
+    out = {'L1': secteur_tir(p, ob, A7 + DECALAGE_MONTAGE + SAILLIE_TETE, cotes_profil(p)[0] + F / 2),
            'RIVE': bande_vue(p, ob, A7 + DECALAGE_MONTAGE + SAILLIE_TETE / 2, F * 1.5)}
     if jupe:
         zc = jupe['Z'] - F / 2
@@ -1062,9 +1045,9 @@ def verifier_encombrements(p, infos_pod, col, ordre):
     R = col['rayon']
     attique = rayon_coin(5) + 100 < R < apo(7) - 100
     couloir = rayon_coin(4) + 100 < R < apo(5) - 100
-    assert attique or couloir, 'la colonnade doit être dans l\'attique A ou dans le couloir sous la galerie'
+    assert attique or couloir, 'la colonnade doit être dans le hall extérieur, entre le pod et la rive'
     msgs.append(f"Colonnade : {len(col['colonnes'])} colonnes sur {col['n']} positions, pas {col['pas_arc']:.1f} UU, "
-                + ('attique A (entre fût et rive)' if attique else 'couloir (entre pod et fût)'))
+                'hall extérieur')
     for m in msgs:
         print('  ' + m)
 
@@ -1147,10 +1130,9 @@ def plans(rep, p, pieces, ordre, ob, jupe, infos_pod, col):
 
     # --- coupe radiale (θ = 0°, côté E0)
     fig, ax = plt.subplots(figsize=(15, 8.5))
-    A4, A5, A7, A8 = apo(4), apo(5), apo(7), apo(8)
+    A4, A5, A6, A7, A8 = apo(4), apo(5), apo(6), apo(7), apo(8)
     Zr = p['rive_niveaux'] * F
-    zmez = p['mezzanine']
-    Zc = zmez + p['cage_niveaux'] * F
+    Z_L1, Zc = cotes_profil(p)
     Zsommet = infos_pod['Zsommet']
     ax.fill_between([0, A7], [-100, -100], [0, 0], color='#3f88c5', alpha=.5, label='fondations Z0')
     for (r0, r1, Z), coul in zip(paliers_bord(p), ('#9aa5b1', '#6c757d')):
@@ -1159,29 +1141,34 @@ def plans(rep, p, pieces, ordre, ob, jupe, infos_pod, col):
     ax.fill_between([-200, A8], [-1000, -1000], [-400, -400], color='#ccc', alpha=.5,
                     label='Metal Cliff Platform (épaisseur indicative)')
     ax.add_patch(plt.Rectangle((0, 0), 900, 600, fc='#ffd166', ec='#9c6644', lw=1.5, label='Coeur Base (2 niveaux)'))
-    ax.plot([150, 150], [0, zmez], color='#9c6644', lw=4, ls=(0, (1, 1)), label='escalier prolongé jusqu\'à Z1800')
-    ax.plot([A4, A4], [0, p['pod_niveaux'] * F], color='#b00', lw=3, label=f"mur de pod D4 ({p['pod_niveaux']} murs)")
-    ax.plot([A5, A5], [0, zmez], color='#070', lw=3, label='fût D5 (6 murs)')
-    ax.plot([A5, A5], [zmez + F, Zc], color='#0a0', lw=6, ls=(0, (2, 1)), label='L2 : double doorframes')
-    ax.plot([A7, A7], [0, F], color='k', lw=3, label='mur de rive D7')
-    ax.plot([A7, A7], [F, Zr], color='k', lw=1, ls=':')
-    for Z in (zmez, zmez + F, Zc):
-        ax.plot([A4, A5], [Z, Z], color='#070', lw=1.5)
-    ax.plot([0, A4], [zmez, zmez], color='#b00', lw=1.5, ls='--', label='mezzanine Z1800')
-    ax.plot([0, A4], [Zc, Zc], color='#b00', lw=1.5, label=f'plancher de toit Z{Zc:.0f} (pod + cage)')
+    ax.add_patch(plt.Rectangle((1350, 0), 600, 900, fc='#3f88c5', alpha=.35, ec='#1d4e89', lw=1.5,
+                               label='machines hautes au centre (réplicateur, forge : 3 murs)'))
+    ax.plot([A4, A4], [0, Zc], color='#b00', lw=3, label=f"mur de pod D4 ({p['pod_niveaux']} murs)")
+    for A, nom in ((A5, 'D5'), (A6, 'D6')):
+        ax.plot([A, A], [0, Zc], color='#555', lw=1, ls='--')
+    ax.plot([], [], color='#555', lw=1, ls='--', label='poteaux aux sommets de D5 et D6')
+    ax.plot([A7, A7], [0, Zr], color='k', lw=3, label=f"mur de rive D7 ({p['rive_niveaux']} murs), socle de la cage")
+    ax.plot([A7, A7], [Z_L1 + F, Zc], color='#0a0', lw=6, ls=(0, (2, 1)), label='L2 : double doorframes')
+    ax.plot([A6, A7], [Z_L1, Z_L1], color='#070', lw=1.5, label=f'galerie L1 Z{Z_L1:.0f} (anneaux 12-13)')
+    ax.plot([A7 - F, A7], [Z_L1 + F, Z_L1 + F], color='#070', lw=1.5, ls='--', label=f'coursive L2 Z{Z_L1 + F:.0f}')
+    ax.plot([0, A7], [Zc, Zc], color='#b00', lw=1.5, label=f'plancher de toit Z{Zc:.0f} (toute la base)')
     R = col['rayon']
-    ax.plot([R, R], [0, min(hauteur_pente_A(p, R, 0) - 30, p['colonnade_hauteur'])], color='#6a040f', lw=3,
+    ax.plot([R, R], [0, min(Z_L1 - 30, p['colonnade_hauteur'])], color='#6a040f', lw=3,
             label=f"colonnade circulaire r={R:.0f} (1 pilier / 1 vide, {p['colonnade_hauteur']:.0f} UU)")
     lame = dict(lw=3, ls=(0, (1, 0.6)))         # rampes inclinées : lames, tracé en pointillé serré
-    ax.plot([A7 - p['rangs_pente_A'] * F + 50, ob['A_bout'] + 50], [Zr + p['rangs_pente_A'] * F + 50, ob['Z_bout'] + 50],
-            color='#e07a2f', label='pente A + overhang : rampes inclinées', **lame)
-    ax.plot([A5 + p['casquette'] * F + 50, A5 + 50], [Zc - p['casquette'] * F + 50, Zc + 50], color='#7b2cbf',
+    ax.plot([A7 + 50, ob['A_bout'] + 50], [Zr + 50, ob['Z_bout'] + 50],
+            color='#e07a2f', label='overhang : rampes inclinées', **lame)
+    ax.plot([A7 + p['casquette'] * F + 50, A7 + 50], [Zc - p['casquette'] * F + 50, Zc + 50], color='#7b2cbf',
             label='casquette : rampes inclinées', **lame)
-    ax.plot([A5 + 50, 150], [Zc + 50, Zsommet], color='#b00', label='toit : rampes inclinées (tours 1201/1809)', **lame)
+    xs, zs = [A7], [Zc + 50]
+    for j in range(int(A7 // F)):
+        xs.append(A7 - (j + 1) * F)
+        zs.append(Zc + 50 + (F if j % 2 == 0 else 0))
+    ax.plot(xs, zs, color='#b00', label='toit bas : rampes en dents de scie', **lame)
     if jupe:
         ax.plot([jupe['A'], jupe['A']], [jupe['Z'], Zr - 2 * F], color='#555', lw=2, label='mur de jupe')
     sec = secteurs(p, ob, jupe)
-    yeux = {'L1': (A5 + DECALAGE_MONTAGE + SAILLIE_TETE, zmez + F / 2, 1, 'tab:blue'),
+    yeux = {'L1': (A7 + DECALAGE_MONTAGE + SAILLIE_TETE, Z_L1 + F / 2, 1, 'tab:blue'),
             'RIVE': (A7 + DECALAGE_MONTAGE + SAILLIE_TETE / 2, F * 1.5, 1, '#d4ac0d')}
     if jupe:
         yeux['JUPE-ext'] = (jupe['A'] + DECALAGE_MONTAGE + SAILLIE_TETE, jupe['Z'] - F / 2, 1, 'tab:purple')
@@ -1202,11 +1189,11 @@ def plans(rep, p, pieces, ordre, ob, jupe, infos_pod, col):
             ax.plot([r, r + sens * 6000 * math.cos(math.radians(a))], [z, z + 6000 * math.sin(math.radians(a))],
                     color=coul, lw=0.8, ls='--')
         ax.plot(r, z, 'o', color=coul, ms=8, label=f'{pid} : secteur {sect[0]:+.1f}° / {sect[1]:+.1f}°')
-    ax.annotate('pics (bande protégée)', (A7 + 150, -p['decaissement']), xytext=(A7 - 900, -900), arrowprops=dict(arrowstyle='->'))
+    ax.annotate('pics', (A7 + 150, -p['decaissement']), xytext=(A7 - 900, -900), arrowprops=dict(arrowstyle='->'))
     ax.annotate('chute -> abysse', (ob['A_bout'], ob['Z_bout']), xytext=(ob['A_bout'] + 200, ob['Z_bout'] - 900),
                 arrowprops=dict(arrowstyle='->'))
     ax.set_xlim(-200, 7000)
-    ax.set_ylim(-1600, max(5800, Zsommet + 300))
+    ax.set_ylim(-1600, Zsommet + 900)
     ax.set_aspect('equal')
     ax.grid(True, lw=0.3)
     ax.set_xlabel('distance au centre le long de la normale 0° (UU)')
@@ -1257,7 +1244,7 @@ def plans(rep, p, pieces, ordre, ob, jupe, infos_pod, col):
     plt.close(fig)
 
 
-def plan_pod(rep, p, infos_pod):
+def plan_pod(rep, p, infos_pod, equip):
     plt, MPoly = _mpl()
     if not plt:
         return
@@ -1270,10 +1257,12 @@ def plan_pod(rep, p, infos_pod):
         porte = k % 2 == 1 and i == 1
         ax.plot(x, y, 's', color='#2a9d8f' if porte else '#b00', ms=9 if porte else 4)
     Zt = p['pod_niveaux'] * F
-    for n, coul, nom in ((2, '#000', f'piliers PA (Z0 -> {Zt:.0f})'), (1, '#666', f"piliers PB (Z{p['mezzanine']:.0f} -> {Zt:.0f})")):
-        R = rayon_coin(n)
-        pts = [vec(15 + 30 * k) for k in range(12)]
-        ax.plot([R * c for c, s_ in pts], [R * s_ for c, s_ in pts], 'o', color=coul, ms=9, label=nom)
+    R = rayon_coin(2)
+    pts = [vec(15 + 30 * k) for k in range(12)]
+    ax.plot([R * c for c, s_ in pts], [R * s_ for c, s_ in pts], 'o', color='#000', ms=9, label=f'piliers PA (Z0 -> {Zt:.0f})')
+    for cle, mk, coul, nom in (('coffre_fort', 's', '#6c757d', 'coffre-fort'), ('stockage_dedie', 'D', '#2a9d8f', 'stockage dédié')):
+        pts = [(q['x'], q['y']) for q in equip if q['cle'] == cle]
+        ax.plot([x for x, y in pts], [y for x, y in pts], mk, color=coul, ms=6, label=f'{nom} ({len(pts)})')
     # Coeur Base (niveau 1)
     for cle, cls, e in infos_pod['coeur']:
         if e['loc']['z'] > 240 or cle not in ('mur', 'porte_secrete'):
@@ -1285,13 +1274,10 @@ def plan_pod(rep, p, infos_pod):
                 color='#9c6644' if cle == 'mur' else '#e63946', lw=3 if cle == 'mur' else 4)
     cel = infos_pod['cellule']
     ax.add_patch(MPoly(cel, closed=True, fc='#ffd166', ec='#9c6644', lw=1.5, alpha=.8))
-    ax.annotate('escalier\n(Z0 → 1800)', (infos_pod['escalier']['loc']['x'], infos_pod['escalier']['loc']['y']),
+    ax.annotate('escalier\n(Coeur Base)', (infos_pod['escalier']['loc']['x'], infos_pod['escalier']['loc']['y']),
                 ha='center', va='center', fontsize=7)
-    for pc in infos_pod['tremie']:
-        ax.add_patch(MPoly(polygone(pc), closed=True, fc='none', ec='#7b2cbf', lw=1.5, ls='--'))
     ax.plot([], [], color='#9c6644', lw=3, label='Coeur Base : murs (2 niveaux)')
     ax.plot([], [], color='#e63946', lw=4, label='Coeur Base : portes secrètes')
-    ax.plot([], [], color='#7b2cbf', lw=1.5, ls='--', label='trémie de la mezzanine Z1800 (au-dessus de l\'escalier)')
     ax.plot(*ANCRE, 'k+', ms=12, label='ancre Template Hammer (0 ; 300)')
     for nom, th, A, lg, pf, hm in GABARITS:
         nx, ny = vec(th)
@@ -1304,9 +1290,10 @@ def plan_pod(rep, p, infos_pod):
     ax.plot([], [], 's', color='#2a9d8f', ms=9, label='portes doubles du hall (1 par part)')
     ax.plot([], [], 's', color='#b00', ms=4, label='mur de pod D4 (48 / niveau)')
     ax.set_aspect('equal')
-    ax.set_xlim(-2600, 2600)
-    ax.set_ylim(-2600, 2600)
-    ax.set_title('Pod central — hall Z0→1800 : Coeur Base au centre, piliers, portes et gabarits machines', fontsize=10)
+    ax.set_xlim(-2700, 2700)
+    ax.set_ylim(-2700, 2700)
+    ax.set_title(f'Pod central — hall Z0→{Zt:.0f} (4 murs) : Coeur Base au centre, machines hautes autour, '
+                 'stockage contre la face extérieure du mur de pod', fontsize=10)
     ax.legend(loc='lower left', fontsize=8)
     fig.savefig(os.path.join(rep, 'plan_pod.png'), dpi=80, bbox_inches='tight')
     plt.close(fig)
@@ -1372,7 +1359,7 @@ def plan_parts(rep, p, parts, col):
             ax2.add_patch(MPoly(polygone(pc), closed=True, fc=fc, ec='#999', lw=0.3))
     styles = {'mur': ('#000', 1.2), 'cadre_double': ('#0a0', 2.5)}
     for e, (cle, x, y, Z, yaw, r) in zip(t.entries, t.lignes):
-        if cle in styles and (Z or 0) in (0.0, 1800.0) and not r.startswith('jupe'):
+        if cle in styles and (Z or 0) in (0.0, 600.0) and not r.startswith('jupe'):
             nx, ny = vec(yaw)
             dx, dy = -ny, nx
             col_, lw = styles[cle]
@@ -1381,6 +1368,8 @@ def plan_parts(rep, p, parts, col):
             ax2.plot([x - 150 * dx, x + 150 * dx], [y - 150 * dy, y + 150 * dy], color=col_, lw=lw)
         elif cle in ('pilier', 'demi_pilier') and Z == 0:
             ax2.plot(x, y, 'o', color='#6a040f', ms=2 if r.startswith('colonnade') else 6)
+        elif cle == 'trappe':
+            ax2.plot(x, y, 'P', color='#7b2cbf', ms=10)
     tt = parts[(0, 'tourelles')]
     marq = {'heavy': ('s', '#c0392b'), 'tek': ('^', '#2471a3'), 'tesla': ('*', '#d4ac0d')}
     for e, (cle, x, y, Z, yaw, r) in zip(tt.entries, tt.lignes):
@@ -1389,9 +1378,10 @@ def plan_parts(rep, p, parts, col):
             ax2.plot(x, y, mk, color=co, ms=9, mec='k' if 'JUPE-int' in r else co)
     for nom, (mk, co) in marq.items():
         ax2.plot([], [], mk, color=co, label=NOMS[nom])
-    ax2.plot([], [], color='#e63946', lw=2.5, label='portes au sol (pod θ≈26°, fût θ 30°)')
-    ax2.plot([], [], color='#0a0', lw=2.5, label='accès galerie Z1800 (mur de pod)')
-    ax2.plot([], [], 'o', color='#6a040f', ms=3, label='colonnade (passage à θ 30°) et piliers PA')
+    ax2.plot([], [], color='#e63946', lw=2.5, label='porte au sol du pod (θ≈26°)')
+    ax2.plot([], [], color='#000', lw=1.2, label='murs au sol et murs de coin de la cage L1 (Z600)')
+    ax2.plot([], [], 'P', color='#7b2cbf', ms=10, label='trappes : galerie L1 (θ≈30°) et coursive L2 (θ 0°)')
+    ax2.plot([], [], 'o', color='#6a040f', ms=3, label='colonnade (passage à θ 30°), piliers PA, poteaux D5/D6')
     for a in (p['part_debut'], p['part_debut'] + 60):
         c, s_ = vec(a)
         ax2.plot([0, 5300 * c], [0, 5300 * s_], color='k', lw=1.5)
@@ -1434,13 +1424,14 @@ def main():
     murs_rive = cotes_contour(contours[p['anneau_rive']])
     tesla_murs = murs_tesla(murs_rive)
     rampe, murs, sas, ob, jupe, col = module_rampe(p, contours, set(tesla_murs))
-    cage, gal = module_cage(p, contours)
+    cage, info_cage = module_cage(p, contours)
+    infos_pod.update(info_cage)
     ordre, poses, reserve = matrice(p, contours, murs, tesla_murs, jupe)
     tourelles = template_tourelles('05 Tourelles verticales (6 parts x 16, cap 100 Tesla comptees)', ordre)
     verifier_encombrements(p, infos_pod, col, ordre)
 
     modules = [('01_sol_D8_complet', sol), ('01b_sol_extension_D4_D8', ext), ('02_pod_central', pod),
-               (f'03_rive_colonnade_pente_overhang{p["debord"]}', rampe), ('04_cage_casquette', cage),
+               (f'03_rive_colonnade_overhang{p["debord"]}', rampe), ('04_cage_rive_toit', cage),
                ('05_tourelles_scenario_B', tourelles)]
     phases = templates_phases([m for m in modules if m[0] != '01b_sol_extension_D4_D8'])
     for ph, t in phases.items():
@@ -1503,9 +1494,9 @@ def main():
            'secteurs': secteurs(p, ob, jupe),
            'colonnade': {k: (round(v, 3) if isinstance(v, float) else v) for k, v in col.items() if k != 'colonnes'},
            'escalier': {'x': infos_pod['escalier']['loc']['x'], 'y': infos_pod['escalier']['loc']['y'],
-                        'yaw': infos_pod['escalier']['rot']['yaw'], 'marches': int(p['mezzanine'] // F)},
-           'tremie': [dict(anneau=pc['anneau'], type=pc['type'], x=round(pc['x'], 1), y=round(pc['y'], 1))
-                      for pc in infos_pod['tremie']],
+                        'yaw': infos_pod['escalier']['rot']['yaw'], 'marches': 1},
+           'hauteurs': {'galerie_L1': infos_pod['Z_L1'], 'plancher_de_toit': infos_pod['Ztoit'],
+                        'sommet_des_rampes': infos_pod['Zsommet'], 'bout_overhang': ob['Z_bout']},
            'pics': {'nombre': len(murs), 'apotheme_ligne': round(apo(7) + 150, 1), 'Z': -p['decaissement']},
            'sas_rive': {'index_mur': sas}}
     syn['colonnade']['colonnes'] = len(col['colonnes'])
@@ -1525,8 +1516,8 @@ def main():
     var = {}
     for cq in (1, 2):
         pv = dict(p, casquette=cq)
-        var[f'casquette{cq}'] = {'L1': secteur_tir(pv, ob, apo(5) + DECALAGE_MONTAGE + SAILLIE_TETE,
-                                                   pv['mezzanine'] + F / 2),
+        var[f'casquette{cq}'] = {'L1': secteur_tir(pv, ob, apo(7) + DECALAGE_MONTAGE + SAILLIE_TETE,
+                                                   cotes_profil(pv)[0] + F / 2),
                                  'degagement_chute_casquette': round(cq * F - DECALAGE_MONTAGE, 1)}
     syn['variantes'] = var
     # bilan complet : 6 parts + noyau + pics + équipements
@@ -1565,7 +1556,7 @@ def main():
     with open(os.path.join(rep_d, 'synthese.json'), 'w', encoding='utf-8') as f:
         json.dump(syn, f, ensure_ascii=False, indent=1)
     plans(rep_p, p, pieces, ordre, ob, jupe, infos_pod, col)
-    plan_pod(rep_p, p, infos_pod)
+    plan_pod(rep_p, p, infos_pod, equip)
     plan_rampes(rep_p, p, [m for m in modules if m[0] != '01b_sol_extension_D4_D8'])
     plan_parts(rep_p, p, parts, col)
 

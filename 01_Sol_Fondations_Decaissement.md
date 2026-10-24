@@ -40,12 +40,12 @@ Les apothèmes sont mesurés depuis le centre jusqu'au contour extérieur de l'a
 | 5 | E0 | 18 | 30 (12 / 18) | 3 / 3 → D3 | 1 679,4 / 1 679,4 | pod | 0 |
 | 6 | E1 | 18 | 42 (18 / 24) | 4 / 3 | 1 939,2 / 1 979,4 | pod | 0 |
 | 7 | E0 | 24 | 42 (18 / 24) | 4 / 4 → **D4 = mur du pod** | 2 239,2 / 2 239,2 | pod | 0 |
-| 8 | E1 | 24 | 54 (24 / 30) | 5 / 4 | 2 499,0 / 2 539,2 | couronne (galerie) | 0 |
-| 9 | E0 | 30 | 54 (24 / 30) | 5 / 5 → **D5 = cage** | 2 799,0 / 2 799,0 | couronne (galerie) | 0 |
-| 10 | E1 | 30 | 66 (30 / 36) | 6 / 5 | 3 058,8 / 3 099,0 | couronne | 0 |
-| 11 | E0 | 36 | 66 (30 / 36) | 6 / 6 → D6 | 3 358,8 / 3 358,8 | couronne | 0 |
-| 12 | E1 | 36 | 78 (36 / 42) | 7 / 6 | 3 618,7 / 3 658,8 | couronne | 0 |
-| 13 | E0 | 42 | 78 (36 / 42) | 7 / 7 → **D7 = rive** | 3 918,7 / 3 918,7 (Ø 26) | couronne | 0 |
+| 8 | E1 | 24 | 54 (24 / 30) | 5 / 4 | 2 499,0 / 2 539,2 | hall extérieur | 0 |
+| 9 | E0 | 30 | 54 (24 / 30) | 5 / 5 → D5 (poteaux) | 2 799,0 / 2 799,0 | hall extérieur | 0 |
+| 10 | E1 | 30 | 66 (30 / 36) | 6 / 5 | 3 058,8 / 3 099,0 | hall extérieur | 0 |
+| 11 | E0 | 36 | 66 (30 / 36) | 6 / 6 → D6 (poteaux) | 3 358,8 / 3 358,8 | hall extérieur | 0 |
+| 12 | E1 | 36 | 78 (36 / 42) | 7 / 6 | 3 618,7 / 3 658,8 | sous la galerie L1 | 0 |
+| 13 | E0 | 42 | 78 (36 / 42) | 7 / 7 → **D7 = rive et cage** | 3 918,7 / 3 918,7 (Ø 26) | sous la galerie L1 | 0 |
 | **14** | E1 | 42 | 90 (42 / 48) | 8 / 7 | 4 178,5 / 4 218,7 (Ø 28) | **palier 1** | **−150** |
 | **15** | E0 | 48 | 90 (42 / 48) | 8 / 8 → **D8 = bord** | 4 478,5 / 4 478,5 (Ø 30) | **palier 2** | **−300** |
 | **Total** | | **384** | **768** (dont 6 au centre) | | | | |
@@ -55,7 +55,7 @@ Répartition par zone :
 | Zone | Anneaux | Carrés | Triangles |
 |---|---|---|---|
 | Pod (identique au 481, + 6 triangles au centre) | 1-7 | 96 | 192 |
-| Couronne au niveau 0 | 8-13 | 198 | 396 |
+| Hall extérieur et dessous de la galerie (Z0) | 8-13 | 198 | 396 |
 | Palier 1 (−150) | 14 | 42 | 90 |
 | Palier 2 (−300) | 15 | 48 | 90 |
 
@@ -66,7 +66,7 @@ Contrôle géométrique : l'aire couverte vaut 64 489 838 UU², soit exactement 
 1. **Centre.** Les 6 triangles du centre, pointes au centre, forment un hexagone de côté 300. Le Coeur Base (module 02) repose dessus : ses propres fondations sont remplacées par l'étoile. Si la plateforme a un relief au centre (le 481 laisse l'hexagone vide), sautez-les : l'anneau 1 s'accroche aussi sur les arêtes d'une étoile existante.
 2. **Anneau par anneau, dans l'ordre**, en appliquant le tableau du §1. Travaillez par secteur de 60° (un côté E0 et un côté E1) puis répétez 6 fois : chaque secteur est identique, à une rotation de 60° près.
 3. **Contrôle tous les 2 anneaux.** Le contour doit compter `n` pièces sur chaque côté (D1 = 1, D2 = 2… D8 = 8). Si un côté en compte n + 1 alors que son voisin en compte n − 1, une rangée de carrés a été posée sur le mauvais jeu de côtés : reprenez l'anneau.
-4. Les murs des modules 02 à 04 s'accrochent ensuite sur les arêtes D4, D5 et D7. Posez **tout le sol avant les murs** : ainsi aucune accroche de fondation n'est masquée par un mur déjà en place.
+4. Les murs des modules 02 à 04 s'accrochent ensuite sur les arêtes D4 (pod) et D7 (rive et cage). Posez **tout le sol avant les murs** : ainsi aucune accroche de fondation n'est masquée par un mur déjà en place.
 
 ## 4. Bord abaissé en 2 paliers (Ø 26 et Ø 28)
 
@@ -110,8 +110,8 @@ Formules pour toute pièce :
 | Ancre basse / haute (P1) | 0 | 300 | 15 / 165 | 2 demi-piliers empilés au sommet de l'hexagone central (θ 90°) |
 | Ancre des phases P2 à P7 | 0 | 300 | 315 | se pose sur la pile |
 | Milieu du côté 0° de D4 | 2 239,2 | 0 | — | arête où s'accroche le mur de pod |
-| Milieu du côté 0° de D5 | 2 799,0 | 0 | — | ligne des double doorframes |
-| Milieu du côté 0° de D7 | 3 918,7 | 0 | — | mur de rive |
+| Sommet de D5 à 15° | 2 799,0 | 750,0 | — | poteau du plancher de toit |
+| Milieu du côté 0° de D7 | 3 918,7 | 0 | — | mur de rive, cage à tourelles au-dessus |
 | Coin à 15° de D8 | 4 478,5 | 1 200,0 | — | pointe la plus éloignée : 4 636,4 UU du centre |
 
 ## 6. Contrôles de fin de module

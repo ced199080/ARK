@@ -56,7 +56,7 @@ Toutes les tourelles se voient entre elles : la base entière compte pour un seu
 
 | Couche | Mur de chaume (Z bas → haut, z template) | Pivot de la tourelle |
 |---|---|---|
-| L1 | ligne D5 (2 799,0), Z1800 → 2100, z 2040 | apothème 2 809,0, z 2040 |
+| L1 | ligne D7 (3 918,7), cage sur la rive, Z600 → 900, z 840 | apothème 3 928,7, z 840 |
 | RIVE | ligne D7 (3 918,7), milieu des côtés E0, Z300 → 600, z 540 | apothème 3 928,7, z 540 |
 | JUPE-ext | sous le mur d'about (4 518,7), suspendu Z −900 → −600, z −660 | apothème 4 528,7, vers la mer |
 | JUPE-int | sous le mur d'about (4 518,7), suspendu Z −900 → −600, z −660, face côté piton | apothème 4 508,7, vers le piton |
@@ -79,9 +79,9 @@ Toutes les tourelles se voient entre elles : la base entière compte pour un seu
 
 ## 6. Matrice détaillée
 
-H = Heavy, T = Tek, S = Tesla, suivi du n° d'ordre. L1 : positions p0 à p4 dans le sens des θ croissants. Jupe : dans l'ordre t = −600 → +600.
+H = Heavy, T = Tek, S = Tesla, suivi du n° d'ordre. L1 : positions p1 à p5 dans le sens des θ croissants (p0 et p6, aux coins, sont murés). Jupe : dans l'ordre t = −600 → +600.
 
-| Part | Côté (θ) | L1 p0 | p1 | p2 | p3 | p4 | Jupe | Rive |
+| Part | Côté (θ) | L1 p1 | p2 | p3 | p4 | p5 | Jupe | Rive |
 |---|---|---|---|---|---|---|---|---|
 | 1 | 0° | T53 | H89 | T31 | H67 | T46 | ext 23, int 1, ext 16 | S61 |
 | 1 | 30° | H82 | T39 | H75 | T54 | H90 | int 9, int 24 | — |
@@ -102,7 +102,7 @@ Le motif est le même dans chaque part : sur L1, Tek et Heavy alternent sans int
 
 | Couche | Couverture verticale | Limite |
 |---|---|---|
-| L1 | −50,4° → +89,9°, ≈ 180° en azimut par tourelle | en bas, le haut du mur de jupe ; plus bas, le tir voit l'attique A et les paliers entre les rampes. En haut, rien : les rampes de la casquette ne masquent pas le ciel |
+| L1 | −56,8° → +89,9°, ≈ 180° en azimut par tourelle | en bas, le haut du mur de jupe ; plus bas, le tir voit les paliers entre les lames de l'overhang. En haut, rien : les rampes de la casquette ne masquent pas le ciel |
 | JUPE-ext | −89,9° → +89,9° vers la mer | aucune : les rampes de l'overhang ne masquent rien |
 | JUPE-int | −89,9° → +9,6° vers le piton et le dessous de la plateforme | dessous de la base ; sous-face de plateforme non modélisée |
 | Tesla | palier 1 entier (3 919 → 4 179 UU, Z −150) et palier 2 de 4 230 à 4 479 UU (Z −300) | poche fermée sous l'overhang ; 51 UU du palier 2 masqués derrière la marche de Ø 28 |
@@ -116,20 +116,23 @@ Le motif est le même dans chaque part : sur L1, Tek et Heavy alternent sans int
 
 ## 8. Plan de câblage : 2 générateurs Tek
 
+Les deux générateurs sont dans le hall du pod, au centre, de part et d'autre des machines (module 02 §5).
+
 | Source | Position | Rôle | Portée à régler |
 |---|---|---|---|
-| **Générateur Tek n°2** (mezzanine) | (−900 ; 0), Z1800 | **30 Tek de L1**, entre 1 915 et 3 760 UU | **≥ 3 800 UU** |
-| **Générateur Tek n°1** (hall) | (900 ; 1 559), Z0 | réplicateur, forge à vapeur, labo, puis secours de L1 jusqu'à 5 040 UU | maximum |
+| **Générateur Tek n°1** | (900 ; 1 559), Z0, θ 60° | machines, puis les 15 Tek de L1 du demi-cercle θ −30° → 150° | **≥ 4 300 UU** |
+| **Générateur Tek n°2** | (−900 ; −1 559), Z0, θ 240° | les 15 Tek de L1 du demi-cercle θ 150° → 330° | **≥ 4 300 UU** |
 
+- Chaque Tek de L1 est à **4 272 UU au plus** du générateur le plus proche (de 2 257 à 5 809 UU du plus éloigné).
 - Les **Tek** exigent un générateur Tek.
 - Les **Heavy et Tesla** sont électriques. Celles de la jupe sont à 2 800–6 400 UU des générateurs, les Tesla de rive à 2 200–5 750 UU.
 - Si les sphères ne les couvrent pas, posez des câbles électriques :
-  - boucle sous le plancher Z1800 ;
-  - descentes par les 6 passages de la colonnade ;
-  - liaison vers la jupe par la bande sous l'overhang.
+  - boucle dans le hall extérieur, au pied de la colonnade ;
+  - montées vers la galerie L1 par les 6 passages de la colonnade ;
+  - liaison vers la jupe par les paliers de bord.
   Il faut alors un générateur électrique, absent de votre liste et non compté au module 07.
 
-⚠ Vérifiez en jeu la sphère de portée des générateurs Tek au réglage maximal.
+⚠ Vérifiez en jeu la sphère de portée des générateurs Tek au réglage maximal. Si elle n'atteint pas 4 300 UU, ajoutez un 3ᵉ générateur dans la galerie L1.
 
 ## 9. Réglages et munitions
 
@@ -144,5 +147,5 @@ Le motif est le même dans chaque part : sur L1, Tek et Heavy alternent sans int
 - [ ] 96 tourelles : 60 Heavy, 30 Tek, 6 Tesla. Chaque part a son motif L1 T H T H T / H T H T H.
 - [ ] Les 18 de jupe « int » tirent vers le piton, les 12 « ext » vers la mer.
 - [ ] 96 murs de chaume démolis ; les tourelles restent en place.
-- [ ] Les 30 Tek sont alimentées par le générateur n°2.
+- [ ] Les 30 Tek de L1 sont alimentées (générateurs n°1 et n°2, 15 chacun).
 - [ ] Réserve : 20 Heavy, 5 Tek, 4 Tesla ; zone d'exclusion d'environ 50 fondations respectée.
