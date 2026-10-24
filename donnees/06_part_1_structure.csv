@@ -1,153 +1,153 @@
 entree;piece;phase;x;y;Z_plan;yaw;repere
 0;Demi-pilier métal;;0.0;300.0;-75;0;ancre basse
 1;Demi-pilier métal;;0.0;300.0;75;0;ancre haute
-2;Fondation triangle métal;P1;129.9;0.0;0.0;180;anneau 0 cote 0 n0
-3;Fondation métal;P1;409.8;0.0;0.0;0;anneau 1 cote 0 n0
-4;Fondation triangle métal;P1;372.3;215.0;0.0;210;anneau 1 cote 1 n0
-5;Fondation triangle métal;P1;689.7;0.0;0.0;0;anneau 2 cote 0 n0
-6;Fondation triangle métal;P1;689.7;-150.0;0.0;180;anneau 2 cote 0 n1
-7;Fondation triangle métal;P1;689.7;150.0;0.0;180;anneau 2 cote 0 n2
-8;Fondation métal;P1;614.7;354.9;0.0;30;anneau 2 cote 1 n0
-9;Fondation métal;P1;969.6;-150.0;0.0;0;anneau 3 cote 0 n0
-10;Fondation métal;P1;969.6;150.0;0.0;0;anneau 3 cote 0 n1
-11;Fondation triangle métal;P1;857.1;494.9;0.0;30;anneau 3 cote 1 n0
-12;Fondation triangle métal;P1;932.1;365.0;0.0;210;anneau 3 cote 1 n1
-13;Fondation triangle métal;P1;782.1;624.8;0.0;210;anneau 3 cote 1 n2
-14;Fondation triangle métal;P1;1249.5;-150.0;0.0;0;anneau 4 cote 0 n0
-15;Fondation triangle métal;P1;1249.5;150.0;0.0;0;anneau 4 cote 0 n1
-16;Fondation triangle métal;P1;1249.5;-300.0;0.0;180;anneau 4 cote 0 n2
-17;Fondation triangle métal;P1;1249.5;0.0;0.0;180;anneau 4 cote 0 n3
-18;Fondation triangle métal;P1;1249.5;300.0;0.0;180;anneau 4 cote 0 n4
-19;Fondation métal;P1;1174.5;504.9;0.0;30;anneau 4 cote 1 n0
-20;Fondation métal;P1;1024.5;764.7;0.0;30;anneau 4 cote 1 n1
-21;Fondation métal;P1;1529.4;-300.0;0.0;0;anneau 5 cote 0 n0
-22;Fondation métal;P1;1529.4;0.0;0.0;0;anneau 5 cote 0 n1
-23;Fondation métal;P1;1529.4;300.0;0.0;0;anneau 5 cote 0 n2
-24;Fondation triangle métal;P1;1416.9;644.9;0.0;30;anneau 5 cote 1 n0
-25;Fondation triangle métal;P1;1266.9;904.7;0.0;30;anneau 5 cote 1 n1
-26;Fondation triangle métal;P1;1491.9;515.0;0.0;210;anneau 5 cote 1 n2
-27;Fondation triangle métal;P1;1341.9;774.8;0.0;210;anneau 5 cote 1 n3
-28;Fondation triangle métal;P1;1191.9;1034.6;0.0;210;anneau 5 cote 1 n4
-29;Fondation triangle métal;P1;1809.3;-300.0;0.0;0;anneau 6 cote 0 n0
-30;Fondation triangle métal;P1;1809.3;0.0;0.0;0;anneau 6 cote 0 n1
-31;Fondation triangle métal;P1;1809.3;300.0;0.0;0;anneau 6 cote 0 n2
-32;Fondation triangle métal;P1;1809.3;-450.0;0.0;180;anneau 6 cote 0 n3
-33;Fondation triangle métal;P1;1809.3;-150.0;0.0;180;anneau 6 cote 0 n4
-34;Fondation triangle métal;P1;1809.3;150.0;0.0;180;anneau 6 cote 0 n5
-35;Fondation triangle métal;P1;1809.3;450.0;0.0;180;anneau 6 cote 0 n6
-36;Fondation métal;P1;1734.3;654.9;0.0;30;anneau 6 cote 1 n0
-37;Fondation métal;P1;1584.3;914.7;0.0;30;anneau 6 cote 1 n1
-38;Fondation métal;P1;1434.3;1174.5;0.0;30;anneau 6 cote 1 n2
-39;Fondation métal;P1;2089.2;-450.0;0.0;0;anneau 7 cote 0 n0
-40;Fondation métal;P1;2089.2;-150.0;0.0;0;anneau 7 cote 0 n1
-41;Fondation métal;P1;2089.2;150.0;0.0;0;anneau 7 cote 0 n2
-42;Fondation métal;P1;2089.2;450.0;0.0;0;anneau 7 cote 0 n3
-43;Fondation triangle métal;P1;1976.7;794.9;0.0;30;anneau 7 cote 1 n0
-44;Fondation triangle métal;P1;1826.7;1054.7;0.0;30;anneau 7 cote 1 n1
-45;Fondation triangle métal;P1;1676.7;1314.5;0.0;30;anneau 7 cote 1 n2
-46;Fondation triangle métal;P1;2051.7;665.0;0.0;210;anneau 7 cote 1 n3
-47;Fondation triangle métal;P1;1901.7;924.8;0.0;210;anneau 7 cote 1 n4
-48;Fondation triangle métal;P1;1751.7;1184.6;0.0;210;anneau 7 cote 1 n5
-49;Fondation triangle métal;P1;1601.7;1444.4;0.0;210;anneau 7 cote 1 n6
-50;Fondation triangle métal;P1;2369.1;-450.0;0.0;0;anneau 8 cote 0 n0
-51;Fondation triangle métal;P1;2369.1;-150.0;0.0;0;anneau 8 cote 0 n1
-52;Fondation triangle métal;P1;2369.1;150.0;0.0;0;anneau 8 cote 0 n2
-53;Fondation triangle métal;P1;2369.1;450.0;0.0;0;anneau 8 cote 0 n3
-54;Fondation triangle métal;P1;2369.1;-600.0;0.0;180;anneau 8 cote 0 n4
-55;Fondation triangle métal;P1;2369.1;-300.0;0.0;180;anneau 8 cote 0 n5
-56;Fondation triangle métal;P1;2369.1;0.0;0.0;180;anneau 8 cote 0 n6
-57;Fondation triangle métal;P1;2369.1;300.0;0.0;180;anneau 8 cote 0 n7
-58;Fondation triangle métal;P1;2369.1;600.0;0.0;180;anneau 8 cote 0 n8
-59;Fondation métal;P1;2294.1;804.9;0.0;30;anneau 8 cote 1 n0
-60;Fondation métal;P1;2144.1;1064.7;0.0;30;anneau 8 cote 1 n1
-61;Fondation métal;P1;1994.1;1324.5;0.0;30;anneau 8 cote 1 n2
-62;Fondation métal;P1;1844.1;1584.3;0.0;30;anneau 8 cote 1 n3
-63;Fondation métal;P1;2649.0;-600.0;0.0;0;anneau 9 cote 0 n0
-64;Fondation métal;P1;2649.0;-300.0;0.0;0;anneau 9 cote 0 n1
-65;Fondation métal;P1;2649.0;0.0;0.0;0;anneau 9 cote 0 n2
-66;Fondation métal;P1;2649.0;300.0;0.0;0;anneau 9 cote 0 n3
-67;Fondation métal;P1;2649.0;600.0;0.0;0;anneau 9 cote 0 n4
-68;Fondation triangle métal;P1;2536.5;944.9;0.0;30;anneau 9 cote 1 n0
-69;Fondation triangle métal;P1;2386.5;1204.7;0.0;30;anneau 9 cote 1 n1
-70;Fondation triangle métal;P1;2236.5;1464.5;0.0;30;anneau 9 cote 1 n2
-71;Fondation triangle métal;P1;2086.5;1724.3;0.0;30;anneau 9 cote 1 n3
-72;Fondation triangle métal;P1;2611.5;815.0;0.0;210;anneau 9 cote 1 n4
-73;Fondation triangle métal;P1;2461.5;1074.8;0.0;210;anneau 9 cote 1 n5
-74;Fondation triangle métal;P1;2311.5;1334.6;0.0;210;anneau 9 cote 1 n6
-75;Fondation triangle métal;P1;2161.5;1594.4;0.0;210;anneau 9 cote 1 n7
-76;Fondation triangle métal;P1;2011.5;1854.2;0.0;210;anneau 9 cote 1 n8
-77;Fondation triangle métal;P1;2928.9;-600.0;0.0;0;anneau 10 cote 0 n0
-78;Fondation triangle métal;P1;2928.9;-300.0;0.0;0;anneau 10 cote 0 n1
-79;Fondation triangle métal;P1;2928.9;0.0;0.0;0;anneau 10 cote 0 n2
-80;Fondation triangle métal;P1;2928.9;300.0;0.0;0;anneau 10 cote 0 n3
-81;Fondation triangle métal;P1;2928.9;600.0;0.0;0;anneau 10 cote 0 n4
-82;Fondation triangle métal;P1;2928.9;-750.0;0.0;180;anneau 10 cote 0 n5
-83;Fondation triangle métal;P1;2928.9;-450.0;0.0;180;anneau 10 cote 0 n6
-84;Fondation triangle métal;P1;2928.9;-150.0;0.0;180;anneau 10 cote 0 n7
-85;Fondation triangle métal;P1;2928.9;150.0;0.0;180;anneau 10 cote 0 n8
-86;Fondation triangle métal;P1;2928.9;450.0;0.0;180;anneau 10 cote 0 n9
-87;Fondation triangle métal;P1;2928.9;750.0;0.0;180;anneau 10 cote 0 n10
-88;Fondation métal;P1;2853.9;954.9;0.0;30;anneau 10 cote 1 n0
-89;Fondation métal;P1;2703.9;1214.7;0.0;30;anneau 10 cote 1 n1
-90;Fondation métal;P1;2553.9;1474.5;0.0;30;anneau 10 cote 1 n2
-91;Fondation métal;P1;2403.9;1734.3;0.0;30;anneau 10 cote 1 n3
-92;Fondation métal;P1;2253.9;1994.1;0.0;30;anneau 10 cote 1 n4
-93;Fondation métal;P1;3208.8;-750.0;0.0;0;anneau 11 cote 0 n0
-94;Fondation métal;P1;3208.8;-450.0;0.0;0;anneau 11 cote 0 n1
-95;Fondation métal;P1;3208.8;-150.0;0.0;0;anneau 11 cote 0 n2
-96;Fondation métal;P1;3208.8;150.0;0.0;0;anneau 11 cote 0 n3
-97;Fondation métal;P1;3208.8;450.0;0.0;0;anneau 11 cote 0 n4
-98;Fondation métal;P1;3208.8;750.0;0.0;0;anneau 11 cote 0 n5
-99;Fondation triangle métal;P1;3096.3;1094.9;0.0;30;anneau 11 cote 1 n0
-100;Fondation triangle métal;P1;2946.3;1354.7;0.0;30;anneau 11 cote 1 n1
-101;Fondation triangle métal;P1;2796.3;1614.5;0.0;30;anneau 11 cote 1 n2
-102;Fondation triangle métal;P1;2646.3;1874.3;0.0;30;anneau 11 cote 1 n3
-103;Fondation triangle métal;P1;2496.3;2134.1;0.0;30;anneau 11 cote 1 n4
-104;Fondation triangle métal;P1;3171.3;965.0;0.0;210;anneau 11 cote 1 n5
-105;Fondation triangle métal;P1;3021.3;1224.8;0.0;210;anneau 11 cote 1 n6
-106;Fondation triangle métal;P1;2871.3;1484.6;0.0;210;anneau 11 cote 1 n7
-107;Fondation triangle métal;P1;2721.3;1744.4;0.0;210;anneau 11 cote 1 n8
-108;Fondation triangle métal;P1;2571.3;2004.2;0.0;210;anneau 11 cote 1 n9
-109;Fondation triangle métal;P1;2421.3;2264.0;0.0;210;anneau 11 cote 1 n10
-110;Fondation triangle métal;P1;3488.7;-750.0;0.0;0;anneau 12 cote 0 n0
-111;Fondation triangle métal;P1;3488.7;-450.0;0.0;0;anneau 12 cote 0 n1
-112;Fondation triangle métal;P1;3488.7;-150.0;0.0;0;anneau 12 cote 0 n2
-113;Fondation triangle métal;P1;3488.7;150.0;0.0;0;anneau 12 cote 0 n3
-114;Fondation triangle métal;P1;3488.7;450.0;0.0;0;anneau 12 cote 0 n4
-115;Fondation triangle métal;P1;3488.7;750.0;0.0;0;anneau 12 cote 0 n5
-116;Fondation triangle métal;P1;3488.7;-900.0;0.0;180;anneau 12 cote 0 n6
-117;Fondation triangle métal;P1;3488.7;-600.0;0.0;180;anneau 12 cote 0 n7
-118;Fondation triangle métal;P1;3488.7;-300.0;0.0;180;anneau 12 cote 0 n8
-119;Fondation triangle métal;P1;3488.7;0.0;0.0;180;anneau 12 cote 0 n9
-120;Fondation triangle métal;P1;3488.7;300.0;0.0;180;anneau 12 cote 0 n10
-121;Fondation triangle métal;P1;3488.7;600.0;0.0;180;anneau 12 cote 0 n11
-122;Fondation triangle métal;P1;3488.7;900.0;0.0;180;anneau 12 cote 0 n12
-123;Fondation métal;P1;3413.7;1104.9;0.0;30;anneau 12 cote 1 n0
-124;Fondation métal;P1;3263.7;1364.7;0.0;30;anneau 12 cote 1 n1
-125;Fondation métal;P1;3113.7;1624.5;0.0;30;anneau 12 cote 1 n2
-126;Fondation métal;P1;2963.7;1884.3;0.0;30;anneau 12 cote 1 n3
-127;Fondation métal;P1;2813.7;2144.1;0.0;30;anneau 12 cote 1 n4
-128;Fondation métal;P1;2663.7;2403.9;0.0;30;anneau 12 cote 1 n5
-129;Fondation métal;P1;3768.7;-900.0;0.0;0;anneau 13 cote 0 n0
-130;Fondation métal;P1;3768.7;-600.0;0.0;0;anneau 13 cote 0 n1
-131;Fondation métal;P1;3768.7;-300.0;0.0;0;anneau 13 cote 0 n2
-132;Fondation métal;P1;3768.7;0.0;0.0;0;anneau 13 cote 0 n3
-133;Fondation métal;P1;3768.7;300.0;0.0;0;anneau 13 cote 0 n4
-134;Fondation métal;P1;3768.7;600.0;0.0;0;anneau 13 cote 0 n5
-135;Fondation métal;P1;3768.7;900.0;0.0;0;anneau 13 cote 0 n6
-136;Fondation triangle métal;P1;3656.2;1244.9;0.0;30;anneau 13 cote 1 n0
-137;Fondation triangle métal;P1;3506.2;1504.7;0.0;30;anneau 13 cote 1 n1
-138;Fondation triangle métal;P1;3356.2;1764.5;0.0;30;anneau 13 cote 1 n2
-139;Fondation triangle métal;P1;3206.2;2024.3;0.0;30;anneau 13 cote 1 n3
-140;Fondation triangle métal;P1;3056.2;2284.1;0.0;30;anneau 13 cote 1 n4
-141;Fondation triangle métal;P1;2906.2;2543.9;0.0;30;anneau 13 cote 1 n5
-142;Fondation triangle métal;P1;3731.2;1115.0;0.0;210;anneau 13 cote 1 n6
-143;Fondation triangle métal;P1;3581.2;1374.8;0.0;210;anneau 13 cote 1 n7
-144;Fondation triangle métal;P1;3431.2;1634.6;0.0;210;anneau 13 cote 1 n8
-145;Fondation triangle métal;P1;3281.2;1894.4;0.0;210;anneau 13 cote 1 n9
-146;Fondation triangle métal;P1;3131.2;2154.2;0.0;210;anneau 13 cote 1 n10
-147;Fondation triangle métal;P1;2981.2;2414.0;0.0;210;anneau 13 cote 1 n11
-148;Fondation triangle métal;P1;2831.2;2673.8;0.0;210;anneau 13 cote 1 n12
+2;Fondation triangle métal;P1;129.9;0.0;-0.0;180;anneau 0 cote 0 n0
+3;Fondation métal;P1;409.8;0.0;-0.0;0;anneau 1 cote 0 n0
+4;Fondation triangle métal;P1;372.3;215.0;-0.0;210;anneau 1 cote 1 n0
+5;Fondation triangle métal;P1;689.7;0.0;-0.0;0;anneau 2 cote 0 n0
+6;Fondation triangle métal;P1;689.7;-150.0;-0.0;180;anneau 2 cote 0 n1
+7;Fondation triangle métal;P1;689.7;150.0;-0.0;180;anneau 2 cote 0 n2
+8;Fondation métal;P1;614.7;354.9;-0.0;30;anneau 2 cote 1 n0
+9;Fondation métal;P1;969.6;-150.0;-0.0;0;anneau 3 cote 0 n0
+10;Fondation métal;P1;969.6;150.0;-0.0;0;anneau 3 cote 0 n1
+11;Fondation triangle métal;P1;857.1;494.9;-0.0;30;anneau 3 cote 1 n0
+12;Fondation triangle métal;P1;932.1;365.0;-0.0;210;anneau 3 cote 1 n1
+13;Fondation triangle métal;P1;782.1;624.8;-0.0;210;anneau 3 cote 1 n2
+14;Fondation triangle métal;P1;1249.5;-150.0;-0.0;0;anneau 4 cote 0 n0
+15;Fondation triangle métal;P1;1249.5;150.0;-0.0;0;anneau 4 cote 0 n1
+16;Fondation triangle métal;P1;1249.5;-300.0;-0.0;180;anneau 4 cote 0 n2
+17;Fondation triangle métal;P1;1249.5;0.0;-0.0;180;anneau 4 cote 0 n3
+18;Fondation triangle métal;P1;1249.5;300.0;-0.0;180;anneau 4 cote 0 n4
+19;Fondation métal;P1;1174.5;504.9;-0.0;30;anneau 4 cote 1 n0
+20;Fondation métal;P1;1024.5;764.7;-0.0;30;anneau 4 cote 1 n1
+21;Fondation métal;P1;1529.4;-300.0;-0.0;0;anneau 5 cote 0 n0
+22;Fondation métal;P1;1529.4;0.0;-0.0;0;anneau 5 cote 0 n1
+23;Fondation métal;P1;1529.4;300.0;-0.0;0;anneau 5 cote 0 n2
+24;Fondation triangle métal;P1;1416.9;644.9;-0.0;30;anneau 5 cote 1 n0
+25;Fondation triangle métal;P1;1266.9;904.7;-0.0;30;anneau 5 cote 1 n1
+26;Fondation triangle métal;P1;1491.9;515.0;-0.0;210;anneau 5 cote 1 n2
+27;Fondation triangle métal;P1;1341.9;774.8;-0.0;210;anneau 5 cote 1 n3
+28;Fondation triangle métal;P1;1191.9;1034.6;-0.0;210;anneau 5 cote 1 n4
+29;Fondation triangle métal;P1;1809.3;-300.0;-0.0;0;anneau 6 cote 0 n0
+30;Fondation triangle métal;P1;1809.3;0.0;-0.0;0;anneau 6 cote 0 n1
+31;Fondation triangle métal;P1;1809.3;300.0;-0.0;0;anneau 6 cote 0 n2
+32;Fondation triangle métal;P1;1809.3;-450.0;-0.0;180;anneau 6 cote 0 n3
+33;Fondation triangle métal;P1;1809.3;-150.0;-0.0;180;anneau 6 cote 0 n4
+34;Fondation triangle métal;P1;1809.3;150.0;-0.0;180;anneau 6 cote 0 n5
+35;Fondation triangle métal;P1;1809.3;450.0;-0.0;180;anneau 6 cote 0 n6
+36;Fondation métal;P1;1734.3;654.9;-0.0;30;anneau 6 cote 1 n0
+37;Fondation métal;P1;1584.3;914.7;-0.0;30;anneau 6 cote 1 n1
+38;Fondation métal;P1;1434.3;1174.5;-0.0;30;anneau 6 cote 1 n2
+39;Fondation métal;P1;2089.2;-450.0;-0.0;0;anneau 7 cote 0 n0
+40;Fondation métal;P1;2089.2;-150.0;-0.0;0;anneau 7 cote 0 n1
+41;Fondation métal;P1;2089.2;150.0;-0.0;0;anneau 7 cote 0 n2
+42;Fondation métal;P1;2089.2;450.0;-0.0;0;anneau 7 cote 0 n3
+43;Fondation triangle métal;P1;1976.7;794.9;-0.0;30;anneau 7 cote 1 n0
+44;Fondation triangle métal;P1;1826.7;1054.7;-0.0;30;anneau 7 cote 1 n1
+45;Fondation triangle métal;P1;1676.7;1314.5;-0.0;30;anneau 7 cote 1 n2
+46;Fondation triangle métal;P1;2051.7;665.0;-0.0;210;anneau 7 cote 1 n3
+47;Fondation triangle métal;P1;1901.7;924.8;-0.0;210;anneau 7 cote 1 n4
+48;Fondation triangle métal;P1;1751.7;1184.6;-0.0;210;anneau 7 cote 1 n5
+49;Fondation triangle métal;P1;1601.7;1444.4;-0.0;210;anneau 7 cote 1 n6
+50;Fondation triangle métal;P1;2369.1;-450.0;-0.0;0;anneau 8 cote 0 n0
+51;Fondation triangle métal;P1;2369.1;-150.0;-0.0;0;anneau 8 cote 0 n1
+52;Fondation triangle métal;P1;2369.1;150.0;-0.0;0;anneau 8 cote 0 n2
+53;Fondation triangle métal;P1;2369.1;450.0;-0.0;0;anneau 8 cote 0 n3
+54;Fondation triangle métal;P1;2369.1;-600.0;-0.0;180;anneau 8 cote 0 n4
+55;Fondation triangle métal;P1;2369.1;-300.0;-0.0;180;anneau 8 cote 0 n5
+56;Fondation triangle métal;P1;2369.1;0.0;-0.0;180;anneau 8 cote 0 n6
+57;Fondation triangle métal;P1;2369.1;300.0;-0.0;180;anneau 8 cote 0 n7
+58;Fondation triangle métal;P1;2369.1;600.0;-0.0;180;anneau 8 cote 0 n8
+59;Fondation métal;P1;2294.1;804.9;-0.0;30;anneau 8 cote 1 n0
+60;Fondation métal;P1;2144.1;1064.7;-0.0;30;anneau 8 cote 1 n1
+61;Fondation métal;P1;1994.1;1324.5;-0.0;30;anneau 8 cote 1 n2
+62;Fondation métal;P1;1844.1;1584.3;-0.0;30;anneau 8 cote 1 n3
+63;Fondation métal;P1;2649.0;-600.0;-0.0;0;anneau 9 cote 0 n0
+64;Fondation métal;P1;2649.0;-300.0;-0.0;0;anneau 9 cote 0 n1
+65;Fondation métal;P1;2649.0;0.0;-0.0;0;anneau 9 cote 0 n2
+66;Fondation métal;P1;2649.0;300.0;-0.0;0;anneau 9 cote 0 n3
+67;Fondation métal;P1;2649.0;600.0;-0.0;0;anneau 9 cote 0 n4
+68;Fondation triangle métal;P1;2536.5;944.9;-0.0;30;anneau 9 cote 1 n0
+69;Fondation triangle métal;P1;2386.5;1204.7;-0.0;30;anneau 9 cote 1 n1
+70;Fondation triangle métal;P1;2236.5;1464.5;-0.0;30;anneau 9 cote 1 n2
+71;Fondation triangle métal;P1;2086.5;1724.3;-0.0;30;anneau 9 cote 1 n3
+72;Fondation triangle métal;P1;2611.5;815.0;-0.0;210;anneau 9 cote 1 n4
+73;Fondation triangle métal;P1;2461.5;1074.8;-0.0;210;anneau 9 cote 1 n5
+74;Fondation triangle métal;P1;2311.5;1334.6;-0.0;210;anneau 9 cote 1 n6
+75;Fondation triangle métal;P1;2161.5;1594.4;-0.0;210;anneau 9 cote 1 n7
+76;Fondation triangle métal;P1;2011.5;1854.2;-0.0;210;anneau 9 cote 1 n8
+77;Fondation triangle métal;P1;2928.9;-600.0;-0.0;0;anneau 10 cote 0 n0
+78;Fondation triangle métal;P1;2928.9;-300.0;-0.0;0;anneau 10 cote 0 n1
+79;Fondation triangle métal;P1;2928.9;0.0;-0.0;0;anneau 10 cote 0 n2
+80;Fondation triangle métal;P1;2928.9;300.0;-0.0;0;anneau 10 cote 0 n3
+81;Fondation triangle métal;P1;2928.9;600.0;-0.0;0;anneau 10 cote 0 n4
+82;Fondation triangle métal;P1;2928.9;-750.0;-0.0;180;anneau 10 cote 0 n5
+83;Fondation triangle métal;P1;2928.9;-450.0;-0.0;180;anneau 10 cote 0 n6
+84;Fondation triangle métal;P1;2928.9;-150.0;-0.0;180;anneau 10 cote 0 n7
+85;Fondation triangle métal;P1;2928.9;150.0;-0.0;180;anneau 10 cote 0 n8
+86;Fondation triangle métal;P1;2928.9;450.0;-0.0;180;anneau 10 cote 0 n9
+87;Fondation triangle métal;P1;2928.9;750.0;-0.0;180;anneau 10 cote 0 n10
+88;Fondation métal;P1;2853.9;954.9;-0.0;30;anneau 10 cote 1 n0
+89;Fondation métal;P1;2703.9;1214.7;-0.0;30;anneau 10 cote 1 n1
+90;Fondation métal;P1;2553.9;1474.5;-0.0;30;anneau 10 cote 1 n2
+91;Fondation métal;P1;2403.9;1734.3;-0.0;30;anneau 10 cote 1 n3
+92;Fondation métal;P1;2253.9;1994.1;-0.0;30;anneau 10 cote 1 n4
+93;Fondation métal;P1;3208.8;-750.0;-0.0;0;anneau 11 cote 0 n0
+94;Fondation métal;P1;3208.8;-450.0;-0.0;0;anneau 11 cote 0 n1
+95;Fondation métal;P1;3208.8;-150.0;-0.0;0;anneau 11 cote 0 n2
+96;Fondation métal;P1;3208.8;150.0;-0.0;0;anneau 11 cote 0 n3
+97;Fondation métal;P1;3208.8;450.0;-0.0;0;anneau 11 cote 0 n4
+98;Fondation métal;P1;3208.8;750.0;-0.0;0;anneau 11 cote 0 n5
+99;Fondation triangle métal;P1;3096.3;1094.9;-0.0;30;anneau 11 cote 1 n0
+100;Fondation triangle métal;P1;2946.3;1354.7;-0.0;30;anneau 11 cote 1 n1
+101;Fondation triangle métal;P1;2796.3;1614.5;-0.0;30;anneau 11 cote 1 n2
+102;Fondation triangle métal;P1;2646.3;1874.3;-0.0;30;anneau 11 cote 1 n3
+103;Fondation triangle métal;P1;2496.3;2134.1;-0.0;30;anneau 11 cote 1 n4
+104;Fondation triangle métal;P1;3171.3;965.0;-0.0;210;anneau 11 cote 1 n5
+105;Fondation triangle métal;P1;3021.3;1224.8;-0.0;210;anneau 11 cote 1 n6
+106;Fondation triangle métal;P1;2871.3;1484.6;-0.0;210;anneau 11 cote 1 n7
+107;Fondation triangle métal;P1;2721.3;1744.4;-0.0;210;anneau 11 cote 1 n8
+108;Fondation triangle métal;P1;2571.3;2004.2;-0.0;210;anneau 11 cote 1 n9
+109;Fondation triangle métal;P1;2421.3;2264.0;-0.0;210;anneau 11 cote 1 n10
+110;Fondation triangle métal;P1;3488.7;-750.0;-0.0;0;anneau 12 cote 0 n0
+111;Fondation triangle métal;P1;3488.7;-450.0;-0.0;0;anneau 12 cote 0 n1
+112;Fondation triangle métal;P1;3488.7;-150.0;-0.0;0;anneau 12 cote 0 n2
+113;Fondation triangle métal;P1;3488.7;150.0;-0.0;0;anneau 12 cote 0 n3
+114;Fondation triangle métal;P1;3488.7;450.0;-0.0;0;anneau 12 cote 0 n4
+115;Fondation triangle métal;P1;3488.7;750.0;-0.0;0;anneau 12 cote 0 n5
+116;Fondation triangle métal;P1;3488.7;-900.0;-0.0;180;anneau 12 cote 0 n6
+117;Fondation triangle métal;P1;3488.7;-600.0;-0.0;180;anneau 12 cote 0 n7
+118;Fondation triangle métal;P1;3488.7;-300.0;-0.0;180;anneau 12 cote 0 n8
+119;Fondation triangle métal;P1;3488.7;0.0;-0.0;180;anneau 12 cote 0 n9
+120;Fondation triangle métal;P1;3488.7;300.0;-0.0;180;anneau 12 cote 0 n10
+121;Fondation triangle métal;P1;3488.7;600.0;-0.0;180;anneau 12 cote 0 n11
+122;Fondation triangle métal;P1;3488.7;900.0;-0.0;180;anneau 12 cote 0 n12
+123;Fondation métal;P1;3413.7;1104.9;-0.0;30;anneau 12 cote 1 n0
+124;Fondation métal;P1;3263.7;1364.7;-0.0;30;anneau 12 cote 1 n1
+125;Fondation métal;P1;3113.7;1624.5;-0.0;30;anneau 12 cote 1 n2
+126;Fondation métal;P1;2963.7;1884.3;-0.0;30;anneau 12 cote 1 n3
+127;Fondation métal;P1;2813.7;2144.1;-0.0;30;anneau 12 cote 1 n4
+128;Fondation métal;P1;2663.7;2403.9;-0.0;30;anneau 12 cote 1 n5
+129;Fondation métal;P1;3768.7;-900.0;-0.0;0;anneau 13 cote 0 n0
+130;Fondation métal;P1;3768.7;-600.0;-0.0;0;anneau 13 cote 0 n1
+131;Fondation métal;P1;3768.7;-300.0;-0.0;0;anneau 13 cote 0 n2
+132;Fondation métal;P1;3768.7;0.0;-0.0;0;anneau 13 cote 0 n3
+133;Fondation métal;P1;3768.7;300.0;-0.0;0;anneau 13 cote 0 n4
+134;Fondation métal;P1;3768.7;600.0;-0.0;0;anneau 13 cote 0 n5
+135;Fondation métal;P1;3768.7;900.0;-0.0;0;anneau 13 cote 0 n6
+136;Fondation triangle métal;P1;3656.2;1244.9;-0.0;30;anneau 13 cote 1 n0
+137;Fondation triangle métal;P1;3506.2;1504.7;-0.0;30;anneau 13 cote 1 n1
+138;Fondation triangle métal;P1;3356.2;1764.5;-0.0;30;anneau 13 cote 1 n2
+139;Fondation triangle métal;P1;3206.2;2024.3;-0.0;30;anneau 13 cote 1 n3
+140;Fondation triangle métal;P1;3056.2;2284.1;-0.0;30;anneau 13 cote 1 n4
+141;Fondation triangle métal;P1;2906.2;2543.9;-0.0;30;anneau 13 cote 1 n5
+142;Fondation triangle métal;P1;3731.2;1115.0;-0.0;210;anneau 13 cote 1 n6
+143;Fondation triangle métal;P1;3581.2;1374.8;-0.0;210;anneau 13 cote 1 n7
+144;Fondation triangle métal;P1;3431.2;1634.6;-0.0;210;anneau 13 cote 1 n8
+145;Fondation triangle métal;P1;3281.2;1894.4;-0.0;210;anneau 13 cote 1 n9
+146;Fondation triangle métal;P1;3131.2;2154.2;-0.0;210;anneau 13 cote 1 n10
+147;Fondation triangle métal;P1;2981.2;2414.0;-0.0;210;anneau 13 cote 1 n11
+148;Fondation triangle métal;P1;2831.2;2673.8;-0.0;210;anneau 13 cote 1 n12
 149;Fondation triangle métal;P1;4048.6;-900.0;-150.0;0;anneau 14 cote 0 n0
 150;Fondation triangle métal;P1;4048.6;-600.0;-150.0;0;anneau 14 cote 0 n1
 151;Fondation triangle métal;P1;4048.6;-300.0;-150.0;0;anneau 14 cote 0 n2
@@ -170,29 +170,29 @@ entree;piece;phase;x;y;Z_plan;yaw;repere
 168;Fondation métal;P1;3223.6;2553.9;-150.0;30;anneau 14 cote 1 n5
 169;Fondation métal;P1;3073.6;2813.7;-150.0;30;anneau 14 cote 1 n6
 170;Fondation triangle métal;P1;2933.6;2981.2;-150.0;240;anneau 14 cote 2 n7
-171;Fondation métal;P1;4328.5;-1050.0;-150.0;0;anneau 15 cote 0 n0
-172;Fondation métal;P1;4328.5;-750.0;-150.0;0;anneau 15 cote 0 n1
-173;Fondation métal;P1;4328.5;-450.0;-150.0;0;anneau 15 cote 0 n2
-174;Fondation métal;P1;4328.5;-150.0;-150.0;0;anneau 15 cote 0 n3
-175;Fondation métal;P1;4328.5;150.0;-150.0;0;anneau 15 cote 0 n4
-176;Fondation métal;P1;4328.5;450.0;-150.0;0;anneau 15 cote 0 n5
-177;Fondation métal;P1;4328.5;750.0;-150.0;0;anneau 15 cote 0 n6
-178;Fondation métal;P1;4328.5;1050.0;-150.0;0;anneau 15 cote 0 n7
-179;Fondation triangle métal;P1;4216.0;1394.9;-150.0;30;anneau 15 cote 1 n0
-180;Fondation triangle métal;P1;4066.0;1654.7;-150.0;30;anneau 15 cote 1 n1
-181;Fondation triangle métal;P1;3916.0;1914.5;-150.0;30;anneau 15 cote 1 n2
-182;Fondation triangle métal;P1;3766.0;2174.3;-150.0;30;anneau 15 cote 1 n3
-183;Fondation triangle métal;P1;3616.0;2434.1;-150.0;30;anneau 15 cote 1 n4
-184;Fondation triangle métal;P1;3466.0;2693.9;-150.0;30;anneau 15 cote 1 n5
-185;Fondation triangle métal;P1;3316.0;2953.7;-150.0;30;anneau 15 cote 1 n6
-186;Fondation triangle métal;P1;4291.0;1265.0;-150.0;210;anneau 15 cote 1 n7
-187;Fondation triangle métal;P1;4141.0;1524.8;-150.0;210;anneau 15 cote 1 n8
-188;Fondation triangle métal;P1;3991.0;1784.6;-150.0;210;anneau 15 cote 1 n9
-189;Fondation triangle métal;P1;3841.0;2044.4;-150.0;210;anneau 15 cote 1 n10
-190;Fondation triangle métal;P1;3691.0;2304.2;-150.0;210;anneau 15 cote 1 n11
-191;Fondation triangle métal;P1;3541.0;2564.0;-150.0;210;anneau 15 cote 1 n12
-192;Fondation triangle métal;P1;3391.0;2823.8;-150.0;210;anneau 15 cote 1 n13
-193;Fondation triangle métal;P1;3241.0;3083.6;-150.0;210;anneau 15 cote 1 n14
+171;Fondation métal;P1;4328.5;-1050.0;-300.0;0;anneau 15 cote 0 n0
+172;Fondation métal;P1;4328.5;-750.0;-300.0;0;anneau 15 cote 0 n1
+173;Fondation métal;P1;4328.5;-450.0;-300.0;0;anneau 15 cote 0 n2
+174;Fondation métal;P1;4328.5;-150.0;-300.0;0;anneau 15 cote 0 n3
+175;Fondation métal;P1;4328.5;150.0;-300.0;0;anneau 15 cote 0 n4
+176;Fondation métal;P1;4328.5;450.0;-300.0;0;anneau 15 cote 0 n5
+177;Fondation métal;P1;4328.5;750.0;-300.0;0;anneau 15 cote 0 n6
+178;Fondation métal;P1;4328.5;1050.0;-300.0;0;anneau 15 cote 0 n7
+179;Fondation triangle métal;P1;4216.0;1394.9;-300.0;30;anneau 15 cote 1 n0
+180;Fondation triangle métal;P1;4066.0;1654.7;-300.0;30;anneau 15 cote 1 n1
+181;Fondation triangle métal;P1;3916.0;1914.5;-300.0;30;anneau 15 cote 1 n2
+182;Fondation triangle métal;P1;3766.0;2174.3;-300.0;30;anneau 15 cote 1 n3
+183;Fondation triangle métal;P1;3616.0;2434.1;-300.0;30;anneau 15 cote 1 n4
+184;Fondation triangle métal;P1;3466.0;2693.9;-300.0;30;anneau 15 cote 1 n5
+185;Fondation triangle métal;P1;3316.0;2953.7;-300.0;30;anneau 15 cote 1 n6
+186;Fondation triangle métal;P1;4291.0;1265.0;-300.0;210;anneau 15 cote 1 n7
+187;Fondation triangle métal;P1;4141.0;1524.8;-300.0;210;anneau 15 cote 1 n8
+188;Fondation triangle métal;P1;3991.0;1784.6;-300.0;210;anneau 15 cote 1 n9
+189;Fondation triangle métal;P1;3841.0;2044.4;-300.0;210;anneau 15 cote 1 n10
+190;Fondation triangle métal;P1;3691.0;2304.2;-300.0;210;anneau 15 cote 1 n11
+191;Fondation triangle métal;P1;3541.0;2564.0;-300.0;210;anneau 15 cote 1 n12
+192;Fondation triangle métal;P1;3391.0;2823.8;-300.0;210;anneau 15 cote 1 n13
+193;Fondation triangle métal;P1;3241.0;3083.6;-300.0;210;anneau 15 cote 1 n14
 194;Mur métal;P2;2239.2;-450.0;0.0;0;pod niv0 c0 p0
 195;Mur métal;P2;2239.2;-150.0;0.0;0;pod niv0 c0 p1
 196;Mur métal;P2;2239.2;150.0;0.0;0;pod niv0 c0 p2
@@ -281,694 +281,580 @@ entree;piece;phase;x;y;Z_plan;yaw;repere
 279;Mur métal;P2;3093.7;2478.9;300.0;30;rive niv1 c1 p5
 280;Mur métal;P2;2943.7;2738.7;300.0;30;rive niv1 c1 p6
 281;Pilier métal;P2;3359.8;40.0;0.0;0.7;colonnade θ0.68
-282;Pilier métal;P2;3359.8;40.0;300.0;0.7;colonnade θ0.68
-283;Pilier métal;P2;3359.8;40.0;600.0;0.7;colonnade θ0.68
-284;Demi-pilier métal;P2;3359.8;40.0;900.0;0.7;colonnade θ0.68
-285;Pilier métal;P2;3357.9;119.9;0.0;2.0;colonnade θ2.05
-286;Pilier métal;P2;3357.9;119.9;300.0;2.0;colonnade θ2.05
-287;Pilier métal;P2;3357.9;119.9;600.0;2.0;colonnade θ2.05
-288;Demi-pilier métal;P2;3357.9;119.9;900.0;2.0;colonnade θ2.05
-289;Pilier métal;P2;3354.1;199.8;0.0;3.4;colonnade θ3.41
-290;Pilier métal;P2;3354.1;199.8;300.0;3.4;colonnade θ3.41
-291;Pilier métal;P2;3354.1;199.8;600.0;3.4;colonnade θ3.41
-292;Demi-pilier métal;P2;3354.1;199.8;900.0;3.4;colonnade θ3.41
-293;Pilier métal;P2;3348.3;279.6;0.0;4.8;colonnade θ4.77
-294;Pilier métal;P2;3348.3;279.6;300.0;4.8;colonnade θ4.77
-295;Pilier métal;P2;3348.3;279.6;600.0;4.8;colonnade θ4.77
-296;Demi-pilier métal;P2;3348.3;279.6;900.0;4.8;colonnade θ4.77
-297;Pilier métal;P2;3340.7;359.2;0.0;6.1;colonnade θ6.14
-298;Pilier métal;P2;3340.7;359.2;300.0;6.1;colonnade θ6.14
-299;Pilier métal;P2;3340.7;359.2;600.0;6.1;colonnade θ6.14
-300;Demi-pilier métal;P2;3340.7;359.2;900.0;6.1;colonnade θ6.14
-301;Pilier métal;P2;3331.3;438.6;0.0;7.5;colonnade θ7.50
-302;Pilier métal;P2;3331.3;438.6;300.0;7.5;colonnade θ7.50
-303;Pilier métal;P2;3331.3;438.6;600.0;7.5;colonnade θ7.50
-304;Demi-pilier métal;P2;3331.3;438.6;900.0;7.5;colonnade θ7.50
-305;Pilier métal;P2;3319.9;517.7;0.0;8.9;colonnade θ8.86
-306;Pilier métal;P2;3319.9;517.7;300.0;8.9;colonnade θ8.86
-307;Pilier métal;P2;3319.9;517.7;600.0;8.9;colonnade θ8.86
-308;Demi-pilier métal;P2;3319.9;517.7;900.0;8.9;colonnade θ8.86
-309;Pilier métal;P2;3306.6;596.6;0.0;10.2;colonnade θ10.23
-310;Pilier métal;P2;3306.6;596.6;300.0;10.2;colonnade θ10.23
-311;Pilier métal;P2;3306.6;596.6;600.0;10.2;colonnade θ10.23
-312;Demi-pilier métal;P2;3306.6;596.6;900.0;10.2;colonnade θ10.23
-313;Pilier métal;P2;3291.5;675.1;0.0;11.6;colonnade θ11.59
-314;Pilier métal;P2;3291.5;675.1;300.0;11.6;colonnade θ11.59
-315;Pilier métal;P2;3291.5;675.1;600.0;11.6;colonnade θ11.59
-316;Demi-pilier métal;P2;3291.5;675.1;900.0;11.6;colonnade θ11.59
-317;Pilier métal;P2;3274.5;753.2;0.0;13.0;colonnade θ12.95
-318;Pilier métal;P2;3274.5;753.2;300.0;13.0;colonnade θ12.95
-319;Pilier métal;P2;3274.5;753.2;600.0;13.0;colonnade θ12.95
-320;Pilier métal;P2;3274.5;753.2;900.0;13.0;colonnade θ12.95
-321;Pilier métal;P2;3255.6;830.9;0.0;14.3;colonnade θ14.32
-322;Pilier métal;P2;3255.6;830.9;300.0;14.3;colonnade θ14.32
-323;Pilier métal;P2;3255.6;830.9;600.0;14.3;colonnade θ14.32
-324;Pilier métal;P2;3255.6;830.9;900.0;14.3;colonnade θ14.32
-325;Pilier métal;P2;3234.9;908.2;0.0;15.7;colonnade θ15.68
-326;Pilier métal;P2;3234.9;908.2;300.0;15.7;colonnade θ15.68
-327;Pilier métal;P2;3234.9;908.2;600.0;15.7;colonnade θ15.68
-328;Pilier métal;P2;3234.9;908.2;900.0;15.7;colonnade θ15.68
-329;Pilier métal;P2;3212.4;984.9;0.0;17.0;colonnade θ17.05
-330;Pilier métal;P2;3212.4;984.9;300.0;17.0;colonnade θ17.05
-331;Pilier métal;P2;3212.4;984.9;600.0;17.0;colonnade θ17.05
-332;Pilier métal;P2;3212.4;984.9;900.0;17.0;colonnade θ17.05
-333;Pilier métal;P2;3188.1;1061.1;0.0;18.4;colonnade θ18.41
-334;Pilier métal;P2;3188.1;1061.1;300.0;18.4;colonnade θ18.41
-335;Pilier métal;P2;3188.1;1061.1;600.0;18.4;colonnade θ18.41
-336;Demi-pilier métal;P2;3188.1;1061.1;900.0;18.4;colonnade θ18.41
-337;Pilier métal;P2;3161.9;1136.7;0.0;19.8;colonnade θ19.77
-338;Pilier métal;P2;3161.9;1136.7;300.0;19.8;colonnade θ19.77
-339;Pilier métal;P2;3161.9;1136.7;600.0;19.8;colonnade θ19.77
-340;Demi-pilier métal;P2;3161.9;1136.7;900.0;19.8;colonnade θ19.77
-341;Pilier métal;P2;3134.0;1211.6;0.0;21.1;colonnade θ21.14
-342;Pilier métal;P2;3134.0;1211.6;300.0;21.1;colonnade θ21.14
-343;Pilier métal;P2;3134.0;1211.6;600.0;21.1;colonnade θ21.14
-344;Demi-pilier métal;P2;3134.0;1211.6;900.0;21.1;colonnade θ21.14
-345;Pilier métal;P2;3104.2;1285.8;0.0;22.5;colonnade θ22.50
-346;Pilier métal;P2;3104.2;1285.8;300.0;22.5;colonnade θ22.50
-347;Pilier métal;P2;3104.2;1285.8;600.0;22.5;colonnade θ22.50
-348;Demi-pilier métal;P2;3104.2;1285.8;900.0;22.5;colonnade θ22.50
-349;Pilier métal;P2;3072.8;1359.3;0.0;23.9;colonnade θ23.86
-350;Pilier métal;P2;3072.8;1359.3;300.0;23.9;colonnade θ23.86
-351;Pilier métal;P2;3072.8;1359.3;600.0;23.9;colonnade θ23.86
-352;Demi-pilier métal;P2;3072.8;1359.3;900.0;23.9;colonnade θ23.86
-353;Pilier métal;P2;3039.5;1432.1;0.0;25.2;colonnade θ25.23
-354;Pilier métal;P2;3039.5;1432.1;300.0;25.2;colonnade θ25.23
-355;Pilier métal;P2;3039.5;1432.1;600.0;25.2;colonnade θ25.23
-356;Demi-pilier métal;P2;3039.5;1432.1;900.0;25.2;colonnade θ25.23
-357;Pilier métal;P2;3004.6;1504.0;0.0;26.6;colonnade θ26.59
-358;Pilier métal;P2;3004.6;1504.0;300.0;26.6;colonnade θ26.59
-359;Pilier métal;P2;3004.6;1504.0;600.0;26.6;colonnade θ26.59
-360;Demi-pilier métal;P2;3004.6;1504.0;900.0;26.6;colonnade θ26.59
-361;Pilier métal;P2;2804.8;1850.1;0.0;33.4;colonnade θ33.41
-362;Pilier métal;P2;2804.8;1850.1;300.0;33.4;colonnade θ33.41
-363;Pilier métal;P2;2804.8;1850.1;600.0;33.4;colonnade θ33.41
-364;Demi-pilier métal;P2;2804.8;1850.1;900.0;33.4;colonnade θ33.41
-365;Pilier métal;P2;2760.0;1916.3;0.0;34.8;colonnade θ34.77
-366;Pilier métal;P2;2760.0;1916.3;300.0;34.8;colonnade θ34.77
-367;Pilier métal;P2;2760.0;1916.3;600.0;34.8;colonnade θ34.77
-368;Demi-pilier métal;P2;2760.0;1916.3;900.0;34.8;colonnade θ34.77
-369;Pilier métal;P2;2713.6;1981.4;0.0;36.1;colonnade θ36.14
-370;Pilier métal;P2;2713.6;1981.4;300.0;36.1;colonnade θ36.14
-371;Pilier métal;P2;2713.6;1981.4;600.0;36.1;colonnade θ36.14
-372;Demi-pilier métal;P2;2713.6;1981.4;900.0;36.1;colonnade θ36.14
-373;Pilier métal;P2;2665.7;2045.4;0.0;37.5;colonnade θ37.50
-374;Pilier métal;P2;2665.7;2045.4;300.0;37.5;colonnade θ37.50
-375;Pilier métal;P2;2665.7;2045.4;600.0;37.5;colonnade θ37.50
-376;Demi-pilier métal;P2;2665.7;2045.4;900.0;37.5;colonnade θ37.50
-377;Pilier métal;P2;2616.2;2108.3;0.0;38.9;colonnade θ38.86
-378;Pilier métal;P2;2616.2;2108.3;300.0;38.9;colonnade θ38.86
-379;Pilier métal;P2;2616.2;2108.3;600.0;38.9;colonnade θ38.86
-380;Demi-pilier métal;P2;2616.2;2108.3;900.0;38.9;colonnade θ38.86
-381;Pilier métal;P2;2565.3;2170.0;0.0;40.2;colonnade θ40.23
-382;Pilier métal;P2;2565.3;2170.0;300.0;40.2;colonnade θ40.23
-383;Pilier métal;P2;2565.3;2170.0;600.0;40.2;colonnade θ40.23
-384;Demi-pilier métal;P2;2565.3;2170.0;900.0;40.2;colonnade θ40.23
-385;Pilier métal;P2;2513.0;2230.4;0.0;41.6;colonnade θ41.59
-386;Pilier métal;P2;2513.0;2230.4;300.0;41.6;colonnade θ41.59
-387;Pilier métal;P2;2513.0;2230.4;600.0;41.6;colonnade θ41.59
-388;Demi-pilier métal;P2;2513.0;2230.4;900.0;41.6;colonnade θ41.59
-389;Pilier métal;P2;2459.2;2289.6;0.0;43.0;colonnade θ42.95
-390;Pilier métal;P2;2459.2;2289.6;300.0;43.0;colonnade θ42.95
-391;Pilier métal;P2;2459.2;2289.6;600.0;43.0;colonnade θ42.95
-392;Pilier métal;P2;2459.2;2289.6;900.0;43.0;colonnade θ42.95
-393;Pilier métal;P2;2404.0;2347.4;0.0;44.3;colonnade θ44.32
-394;Pilier métal;P2;2404.0;2347.4;300.0;44.3;colonnade θ44.32
-395;Pilier métal;P2;2404.0;2347.4;600.0;44.3;colonnade θ44.32
-396;Pilier métal;P2;2404.0;2347.4;900.0;44.3;colonnade θ44.32
-397;Pilier métal;P2;3255.6;-830.9;0.0;345.7;colonnade θ345.68
-398;Pilier métal;P2;3255.6;-830.9;300.0;345.7;colonnade θ345.68
-399;Pilier métal;P2;3255.6;-830.9;600.0;345.7;colonnade θ345.68
-400;Pilier métal;P2;3255.6;-830.9;900.0;345.7;colonnade θ345.68
-401;Pilier métal;P2;3274.5;-753.2;0.0;347.0;colonnade θ347.05
-402;Pilier métal;P2;3274.5;-753.2;300.0;347.0;colonnade θ347.05
-403;Pilier métal;P2;3274.5;-753.2;600.0;347.0;colonnade θ347.05
-404;Pilier métal;P2;3274.5;-753.2;900.0;347.0;colonnade θ347.05
-405;Pilier métal;P2;3291.5;-675.1;0.0;348.4;colonnade θ348.41
-406;Pilier métal;P2;3291.5;-675.1;300.0;348.4;colonnade θ348.41
-407;Pilier métal;P2;3291.5;-675.1;600.0;348.4;colonnade θ348.41
-408;Demi-pilier métal;P2;3291.5;-675.1;900.0;348.4;colonnade θ348.41
-409;Pilier métal;P2;3306.6;-596.6;0.0;349.8;colonnade θ349.77
-410;Pilier métal;P2;3306.6;-596.6;300.0;349.8;colonnade θ349.77
-411;Pilier métal;P2;3306.6;-596.6;600.0;349.8;colonnade θ349.77
-412;Demi-pilier métal;P2;3306.6;-596.6;900.0;349.8;colonnade θ349.77
-413;Pilier métal;P2;3319.9;-517.7;0.0;351.1;colonnade θ351.14
-414;Pilier métal;P2;3319.9;-517.7;300.0;351.1;colonnade θ351.14
-415;Pilier métal;P2;3319.9;-517.7;600.0;351.1;colonnade θ351.14
-416;Demi-pilier métal;P2;3319.9;-517.7;900.0;351.1;colonnade θ351.14
-417;Pilier métal;P2;3331.3;-438.6;0.0;352.5;colonnade θ352.50
-418;Pilier métal;P2;3331.3;-438.6;300.0;352.5;colonnade θ352.50
-419;Pilier métal;P2;3331.3;-438.6;600.0;352.5;colonnade θ352.50
-420;Demi-pilier métal;P2;3331.3;-438.6;900.0;352.5;colonnade θ352.50
-421;Pilier métal;P2;3340.7;-359.2;0.0;353.9;colonnade θ353.86
-422;Pilier métal;P2;3340.7;-359.2;300.0;353.9;colonnade θ353.86
-423;Pilier métal;P2;3340.7;-359.2;600.0;353.9;colonnade θ353.86
-424;Demi-pilier métal;P2;3340.7;-359.2;900.0;353.9;colonnade θ353.86
-425;Pilier métal;P2;3348.3;-279.6;0.0;355.2;colonnade θ355.23
-426;Pilier métal;P2;3348.3;-279.6;300.0;355.2;colonnade θ355.23
-427;Pilier métal;P2;3348.3;-279.6;600.0;355.2;colonnade θ355.23
-428;Demi-pilier métal;P2;3348.3;-279.6;900.0;355.2;colonnade θ355.23
-429;Pilier métal;P2;3354.1;-199.8;0.0;356.6;colonnade θ356.59
-430;Pilier métal;P2;3354.1;-199.8;300.0;356.6;colonnade θ356.59
-431;Pilier métal;P2;3354.1;-199.8;600.0;356.6;colonnade θ356.59
-432;Demi-pilier métal;P2;3354.1;-199.8;900.0;356.6;colonnade θ356.59
-433;Pilier métal;P2;3357.9;-119.9;0.0;358.0;colonnade θ357.95
-434;Pilier métal;P2;3357.9;-119.9;300.0;358.0;colonnade θ357.95
-435;Pilier métal;P2;3357.9;-119.9;600.0;358.0;colonnade θ357.95
-436;Demi-pilier métal;P2;3357.9;-119.9;900.0;358.0;colonnade θ357.95
-437;Pilier métal;P2;3359.8;-40.0;0.0;359.3;colonnade θ359.32
-438;Pilier métal;P2;3359.8;-40.0;300.0;359.3;colonnade θ359.32
-439;Pilier métal;P2;3359.8;-40.0;600.0;359.3;colonnade θ359.32
-440;Demi-pilier métal;P2;3359.8;-40.0;900.0;359.3;colonnade θ359.32
-441;Mur métal;P2;2799.0;-600.0;0.0;0;fut niv0 c0 p0
-442;Mur métal;P2;2799.0;-300.0;0.0;0;fut niv0 c0 p1
-443;Mur métal;P2;2799.0;0.0;0.0;0;fut niv0 c0 p2
-444;Mur métal;P2;2799.0;300.0;0.0;0;fut niv0 c0 p3
-445;Mur métal;P2;2799.0;600.0;0.0;0;fut niv0 c0 p4
-446;Mur métal;P2;2724.0;879.9;0.0;30;fut niv0 c1 p0
-447;Mur métal;P2;2574.0;1139.7;0.0;30;fut niv0 c1 p1
-448;Cadre de porte double métal;P2;2424.0;1399.5;0.0;30;fut niv0 c1 p2
-449;Mur métal;P2;2274.0;1659.3;0.0;30;fut niv0 c1 p3
-450;Mur métal;P2;2124.0;1919.1;0.0;30;fut niv0 c1 p4
-451;Mur métal;P2;2799.0;-600.0;300.0;0;fut niv1 c0 p0
-452;Mur métal;P2;2799.0;-300.0;300.0;0;fut niv1 c0 p1
-453;Mur métal;P2;2799.0;0.0;300.0;0;fut niv1 c0 p2
-454;Mur métal;P2;2799.0;300.0;300.0;0;fut niv1 c0 p3
-455;Mur métal;P2;2799.0;600.0;300.0;0;fut niv1 c0 p4
-456;Mur métal;P2;2724.0;879.9;300.0;30;fut niv1 c1 p0
-457;Mur métal;P2;2574.0;1139.7;300.0;30;fut niv1 c1 p1
-458;Mur métal;P2;2424.0;1399.5;300.0;30;fut niv1 c1 p2
-459;Mur métal;P2;2274.0;1659.3;300.0;30;fut niv1 c1 p3
-460;Mur métal;P2;2124.0;1919.1;300.0;30;fut niv1 c1 p4
-461;Mur métal;P2;2799.0;-600.0;600.0;0;fut niv2 c0 p0
-462;Mur métal;P2;2799.0;-300.0;600.0;0;fut niv2 c0 p1
-463;Mur métal;P2;2799.0;0.0;600.0;0;fut niv2 c0 p2
-464;Mur métal;P2;2799.0;300.0;600.0;0;fut niv2 c0 p3
-465;Mur métal;P2;2799.0;600.0;600.0;0;fut niv2 c0 p4
-466;Mur métal;P2;2724.0;879.9;600.0;30;fut niv2 c1 p0
-467;Mur métal;P2;2574.0;1139.7;600.0;30;fut niv2 c1 p1
-468;Mur métal;P2;2424.0;1399.5;600.0;30;fut niv2 c1 p2
-469;Mur métal;P2;2274.0;1659.3;600.0;30;fut niv2 c1 p3
-470;Mur métal;P2;2124.0;1919.1;600.0;30;fut niv2 c1 p4
-471;Mur métal;P2;2799.0;-600.0;900.0;0;fut niv3 c0 p0
-472;Mur métal;P2;2799.0;-300.0;900.0;0;fut niv3 c0 p1
-473;Mur métal;P2;2799.0;0.0;900.0;0;fut niv3 c0 p2
-474;Mur métal;P2;2799.0;300.0;900.0;0;fut niv3 c0 p3
-475;Mur métal;P2;2799.0;600.0;900.0;0;fut niv3 c0 p4
-476;Mur métal;P2;2724.0;879.9;900.0;30;fut niv3 c1 p0
-477;Mur métal;P2;2574.0;1139.7;900.0;30;fut niv3 c1 p1
-478;Mur métal;P2;2424.0;1399.5;900.0;30;fut niv3 c1 p2
-479;Mur métal;P2;2274.0;1659.3;900.0;30;fut niv3 c1 p3
-480;Mur métal;P2;2124.0;1919.1;900.0;30;fut niv3 c1 p4
-481;Mur métal;P2;2799.0;-600.0;1200.0;0;fut niv4 c0 p0
-482;Mur métal;P2;2799.0;-300.0;1200.0;0;fut niv4 c0 p1
-483;Mur métal;P2;2799.0;0.0;1200.0;0;fut niv4 c0 p2
-484;Mur métal;P2;2799.0;300.0;1200.0;0;fut niv4 c0 p3
-485;Mur métal;P2;2799.0;600.0;1200.0;0;fut niv4 c0 p4
-486;Mur métal;P2;2724.0;879.9;1200.0;30;fut niv4 c1 p0
-487;Mur métal;P2;2574.0;1139.7;1200.0;30;fut niv4 c1 p1
-488;Mur métal;P2;2424.0;1399.5;1200.0;30;fut niv4 c1 p2
-489;Mur métal;P2;2274.0;1659.3;1200.0;30;fut niv4 c1 p3
-490;Mur métal;P2;2124.0;1919.1;1200.0;30;fut niv4 c1 p4
-491;Mur métal;P2;2799.0;-600.0;1500.0;0;fut niv5 c0 p0
-492;Mur métal;P2;2799.0;-300.0;1500.0;0;fut niv5 c0 p1
-493;Mur métal;P2;2799.0;0.0;1500.0;0;fut niv5 c0 p2
-494;Mur métal;P2;2799.0;300.0;1500.0;0;fut niv5 c0 p3
-495;Mur métal;P2;2799.0;600.0;1500.0;0;fut niv5 c0 p4
-496;Mur métal;P2;2724.0;879.9;1500.0;30;fut niv5 c1 p0
-497;Mur métal;P2;2574.0;1139.7;1500.0;30;fut niv5 c1 p1
-498;Mur métal;P2;2424.0;1399.5;1500.0;30;fut niv5 c1 p2
-499;Mur métal;P2;2274.0;1659.3;1500.0;30;fut niv5 c1 p3
-500;Mur métal;P2;2124.0;1919.1;1500.0;30;fut niv5 c1 p4
-501;Plafond triangle métal;P3;689.7;0.0;1800.0;0;mezzanine anneau 2
-502;Plafond triangle métal;P3;689.7;-150.0;1800.0;180;mezzanine anneau 2
-503;Plafond triangle métal;P3;689.7;150.0;1800.0;180;mezzanine anneau 2
-504;Plafond métal;P3;614.7;354.9;1800.0;30;mezzanine anneau 2
-505;Plafond métal;P3;969.6;-150.0;1800.0;0;mezzanine anneau 3
-506;Plafond métal;P3;969.6;150.0;1800.0;0;mezzanine anneau 3
-507;Plafond triangle métal;P3;857.1;494.9;1800.0;30;mezzanine anneau 3
-508;Plafond triangle métal;P3;932.1;365.0;1800.0;210;mezzanine anneau 3
-509;Plafond triangle métal;P3;782.1;624.8;1800.0;210;mezzanine anneau 3
-510;Plafond triangle métal;P3;1249.5;-150.0;1800.0;0;mezzanine anneau 4
-511;Plafond triangle métal;P3;1249.5;150.0;1800.0;0;mezzanine anneau 4
-512;Plafond triangle métal;P3;1249.5;-300.0;1800.0;180;mezzanine anneau 4
-513;Plafond triangle métal;P3;1249.5;0.0;1800.0;180;mezzanine anneau 4
-514;Plafond triangle métal;P3;1249.5;300.0;1800.0;180;mezzanine anneau 4
-515;Plafond métal;P3;1174.5;504.9;1800.0;30;mezzanine anneau 4
-516;Plafond métal;P3;1024.5;764.7;1800.0;30;mezzanine anneau 4
-517;Plafond métal;P3;1529.4;-300.0;1800.0;0;mezzanine anneau 5
-518;Plafond métal;P3;1529.4;0.0;1800.0;0;mezzanine anneau 5
-519;Plafond métal;P3;1529.4;300.0;1800.0;0;mezzanine anneau 5
-520;Plafond triangle métal;P3;1416.9;644.9;1800.0;30;mezzanine anneau 5
-521;Plafond triangle métal;P3;1266.9;904.7;1800.0;30;mezzanine anneau 5
-522;Plafond triangle métal;P3;1491.9;515.0;1800.0;210;mezzanine anneau 5
-523;Plafond triangle métal;P3;1341.9;774.8;1800.0;210;mezzanine anneau 5
-524;Plafond triangle métal;P3;1191.9;1034.6;1800.0;210;mezzanine anneau 5
-525;Plafond triangle métal;P3;1809.3;-300.0;1800.0;0;mezzanine anneau 6
-526;Plafond triangle métal;P3;1809.3;0.0;1800.0;0;mezzanine anneau 6
-527;Plafond triangle métal;P3;1809.3;300.0;1800.0;0;mezzanine anneau 6
-528;Plafond triangle métal;P3;1809.3;-450.0;1800.0;180;mezzanine anneau 6
-529;Plafond triangle métal;P3;1809.3;-150.0;1800.0;180;mezzanine anneau 6
-530;Plafond triangle métal;P3;1809.3;150.0;1800.0;180;mezzanine anneau 6
-531;Plafond triangle métal;P3;1809.3;450.0;1800.0;180;mezzanine anneau 6
-532;Plafond métal;P3;1734.3;654.9;1800.0;30;mezzanine anneau 6
-533;Plafond métal;P3;1584.3;914.7;1800.0;30;mezzanine anneau 6
-534;Plafond métal;P3;1434.3;1174.5;1800.0;30;mezzanine anneau 6
-535;Plafond métal;P3;2089.2;-450.0;1800.0;0;mezzanine anneau 7
-536;Plafond métal;P3;2089.2;-150.0;1800.0;0;mezzanine anneau 7
-537;Plafond métal;P3;2089.2;150.0;1800.0;0;mezzanine anneau 7
-538;Plafond métal;P3;2089.2;450.0;1800.0;0;mezzanine anneau 7
-539;Plafond triangle métal;P3;1976.7;794.9;1800.0;30;mezzanine anneau 7
-540;Plafond triangle métal;P3;1826.7;1054.7;1800.0;30;mezzanine anneau 7
-541;Plafond triangle métal;P3;1676.7;1314.5;1800.0;30;mezzanine anneau 7
-542;Plafond triangle métal;P3;2051.7;665.0;1800.0;210;mezzanine anneau 7
-543;Plafond triangle métal;P3;1901.7;924.8;1800.0;210;mezzanine anneau 7
-544;Plafond triangle métal;P3;1751.7;1184.6;1800.0;210;mezzanine anneau 7
-545;Plafond triangle métal;P3;1601.7;1444.4;1800.0;210;mezzanine anneau 7
-546;Plafond triangle métal;P3;2369.1;-450.0;1800.0;0;galerie Z1800 anneau 8
-547;Plafond triangle métal;P3;2369.1;-150.0;1800.0;0;galerie Z1800 anneau 8
-548;Plafond triangle métal;P3;2369.1;150.0;1800.0;0;galerie Z1800 anneau 8
-549;Plafond triangle métal;P3;2369.1;450.0;1800.0;0;galerie Z1800 anneau 8
-550;Plafond triangle métal;P3;2369.1;-600.0;1800.0;180;galerie Z1800 anneau 8
-551;Plafond triangle métal;P3;2369.1;-300.0;1800.0;180;galerie Z1800 anneau 8
-552;Plafond triangle métal;P3;2369.1;0.0;1800.0;180;galerie Z1800 anneau 8
-553;Plafond triangle métal;P3;2369.1;300.0;1800.0;180;galerie Z1800 anneau 8
-554;Plafond triangle métal;P3;2369.1;600.0;1800.0;180;galerie Z1800 anneau 8
-555;Plafond métal;P3;2294.1;804.9;1800.0;30;galerie Z1800 anneau 8
-556;Plafond métal;P3;2144.1;1064.7;1800.0;30;galerie Z1800 anneau 8
-557;Plafond métal;P3;1994.1;1324.5;1800.0;30;galerie Z1800 anneau 8
-558;Plafond métal;P3;1844.1;1584.3;1800.0;30;galerie Z1800 anneau 8
-559;Plafond métal;P3;2649.0;-600.0;1800.0;0;galerie Z1800 anneau 9
-560;Plafond métal;P3;2649.0;-300.0;1800.0;0;galerie Z1800 anneau 9
-561;Plafond métal;P3;2649.0;0.0;1800.0;0;galerie Z1800 anneau 9
-562;Plafond métal;P3;2649.0;300.0;1800.0;0;galerie Z1800 anneau 9
-563;Plafond métal;P3;2649.0;600.0;1800.0;0;galerie Z1800 anneau 9
-564;Plafond triangle métal;P3;2536.5;944.9;1800.0;30;galerie Z1800 anneau 9
-565;Plafond triangle métal;P3;2386.5;1204.7;1800.0;30;galerie Z1800 anneau 9
-566;Plafond triangle métal;P3;2236.5;1464.5;1800.0;30;galerie Z1800 anneau 9
-567;Plafond triangle métal;P3;2086.5;1724.3;1800.0;30;galerie Z1800 anneau 9
-568;Plafond triangle métal;P3;2611.5;815.0;1800.0;210;galerie Z1800 anneau 9
-569;Plafond triangle métal;P3;2461.5;1074.8;1800.0;210;galerie Z1800 anneau 9
-570;Plafond triangle métal;P3;2311.5;1334.6;1800.0;210;galerie Z1800 anneau 9
-571;Plafond triangle métal;P3;2161.5;1594.4;1800.0;210;galerie Z1800 anneau 9
-572;Plafond triangle métal;P3;2011.5;1854.2;1800.0;210;galerie Z1800 anneau 9
-573;Toit incliné métal;P4;3768.7;-900.0;600.0;180;pente A r0 c0 p0
-574;Toit incliné métal;P4;3768.7;-600.0;600.0;180;pente A r0 c0 p1
-575;Toit incliné métal;P4;3768.7;-300.0;600.0;180;pente A r0 c0 p2
-576;Toit incliné métal;P4;3768.7;0.0;600.0;180;pente A r0 c0 p3
-577;Toit incliné métal;P4;3768.7;300.0;600.0;180;pente A r0 c0 p4
-578;Toit incliné métal;P4;3768.7;600.0;600.0;180;pente A r0 c0 p5
-579;Toit incliné métal;P4;3768.7;900.0;600.0;180;pente A r0 c0 p6
-580;Toit incliné métal;P4;3713.7;1104.9;600.0;210;pente A r0 c1 p0
-581;Toit incliné métal;P4;3563.7;1364.7;600.0;210;pente A r0 c1 p1
-582;Toit incliné métal;P4;3413.7;1624.5;600.0;210;pente A r0 c1 p2
-583;Toit incliné métal;P4;3263.7;1884.3;600.0;210;pente A r0 c1 p3
-584;Toit incliné métal;P4;3113.7;2144.1;600.0;210;pente A r0 c1 p4
-585;Toit incliné métal;P4;2963.7;2403.9;600.0;210;pente A r0 c1 p5
-586;Toit incliné métal;P4;2813.7;2663.7;600.0;210;pente A r0 c1 p6
-587;Toit incliné métal;P4;3468.7;-600.0;900.0;180;pente A r1 c0 p1
-588;Toit incliné métal;P4;3468.7;-300.0;900.0;180;pente A r1 c0 p2
-589;Toit incliné métal;P4;3468.7;0.0;900.0;180;pente A r1 c0 p3
-590;Toit incliné métal;P4;3468.7;300.0;900.0;180;pente A r1 c0 p4
-591;Toit incliné métal;P4;3468.7;600.0;900.0;180;pente A r1 c0 p5
-592;Toit incliné métal;P4;3468.7;900.0;900.0;180;pente A r1 c0 p6
-593;Toit incliné métal;P4;3453.9;954.9;900.0;210;pente A r1 c1 p0
-594;Toit incliné métal;P4;3303.9;1214.7;900.0;210;pente A r1 c1 p1
-595;Toit incliné métal;P4;3153.9;1474.5;900.0;210;pente A r1 c1 p2
-596;Toit incliné métal;P4;3003.9;1734.3;900.0;210;pente A r1 c1 p3
-597;Toit incliné métal;P4;2853.9;1994.1;900.0;210;pente A r1 c1 p4
-598;Toit incliné métal;P4;2703.9;2253.9;900.0;210;pente A r1 c1 p5
-599;Toit incliné métal;P4;2553.9;2513.7;900.0;210;pente A r1 c1 p6
-600;Toit incliné métal;P4;2513.7;2553.9;900.0;240;pente A r1 c2 p0
-601;Toit incliné métal;P4;3168.7;-750.0;1200.0;180;pente A r2 c0 p0
-602;Toit incliné métal;P4;3168.7;-450.0;1200.0;180;pente A r2 c0 p1
-603;Toit incliné métal;P4;3168.7;-150.0;1200.0;180;pente A r2 c0 p2
-604;Toit incliné métal;P4;3168.7;150.0;1200.0;180;pente A r2 c0 p3
-605;Toit incliné métal;P4;3168.7;450.0;1200.0;180;pente A r2 c0 p4
-606;Toit incliné métal;P4;3168.7;750.0;1200.0;180;pente A r2 c0 p5
-607;Toit incliné métal;P4;3119.1;934.8;1200.0;210;pente A r2 c1 p0
-608;Toit incliné métal;P4;2969.1;1194.6;1200.0;210;pente A r2 c1 p1
-609;Toit incliné métal;P4;2819.1;1454.4;1200.0;210;pente A r2 c1 p2
-610;Toit incliné métal;P4;2669.1;1714.2;1200.0;210;pente A r2 c1 p3
-611;Toit incliné métal;P4;2519.1;1974.0;1200.0;210;pente A r2 c1 p4
-612;Toit incliné métal;P4;2369.1;2233.8;1200.0;210;pente A r2 c1 p5
-613;Toit incliné métal;P4;2868.7;-450.0;1500.0;180;pente A r3 c0 p1
-614;Toit incliné métal;P4;2868.7;-150.0;1500.0;180;pente A r3 c0 p2
-615;Toit incliné métal;P4;2868.7;150.0;1500.0;180;pente A r3 c0 p3
-616;Toit incliné métal;P4;2868.7;450.0;1500.0;180;pente A r3 c0 p4
-617;Toit incliné métal;P4;2868.7;750.0;1500.0;180;pente A r3 c0 p5
-618;Toit incliné métal;P4;2859.3;784.8;1500.0;210;pente A r3 c1 p0
-619;Toit incliné métal;P4;2709.3;1044.6;1500.0;210;pente A r3 c1 p1
-620;Toit incliné métal;P4;2559.3;1304.4;1500.0;210;pente A r3 c1 p2
-621;Toit incliné métal;P4;2409.3;1564.2;1500.0;210;pente A r3 c1 p3
-622;Toit incliné métal;P4;2259.3;1824.0;1500.0;210;pente A r3 c1 p4
-623;Toit incliné métal;P4;2109.3;2083.8;1500.0;210;pente A r3 c1 p5
-624;Toit incliné métal;P4;2083.8;2109.3;1500.0;240;pente A r3 c2 p0
-625;Toit incliné métal;P4;4068.7;-1050.0;300.0;180;overhang r-1 c0 p0
-626;Toit incliné métal;P4;4068.7;-750.0;300.0;180;overhang r-1 c0 p1
-627;Toit incliné métal;P4;4068.7;-450.0;300.0;180;overhang r-1 c0 p2
-628;Toit incliné métal;P4;4068.7;-150.0;300.0;180;overhang r-1 c0 p3
-629;Toit incliné métal;P4;4068.7;150.0;300.0;180;overhang r-1 c0 p4
-630;Toit incliné métal;P4;4068.7;450.0;300.0;180;overhang r-1 c0 p5
-631;Toit incliné métal;P4;4068.7;750.0;300.0;180;overhang r-1 c0 p6
-632;Toit incliné métal;P4;4068.7;1050.0;300.0;180;overhang r-1 c0 p7
-633;Toit incliné métal;P4;4048.6;1125.0;300.0;210;overhang r-1 c1 p0
-634;Toit incliné métal;P4;3898.6;1384.8;300.0;210;overhang r-1 c1 p1
-635;Toit incliné métal;P4;3748.6;1644.6;300.0;210;overhang r-1 c1 p2
-636;Toit incliné métal;P4;3598.6;1904.4;300.0;210;overhang r-1 c1 p3
-637;Toit incliné métal;P4;3448.6;2164.2;300.0;210;overhang r-1 c1 p4
-638;Toit incliné métal;P4;3298.6;2424.0;300.0;210;overhang r-1 c1 p5
-639;Toit incliné métal;P4;3148.6;2683.8;300.0;210;overhang r-1 c1 p6
-640;Toit incliné métal;P4;2998.6;2943.7;300.0;210;overhang r-1 c1 p7
-641;Toit incliné métal;P4;4368.7;-900.0;0.0;180;overhang r-2 c0 p1
-642;Toit incliné métal;P4;4368.7;-600.0;0.0;180;overhang r-2 c0 p2
-643;Toit incliné métal;P4;4368.7;-300.0;0.0;180;overhang r-2 c0 p3
-644;Toit incliné métal;P4;4368.7;0.0;0.0;180;overhang r-2 c0 p4
-645;Toit incliné métal;P4;4368.7;300.0;0.0;180;overhang r-2 c0 p5
-646;Toit incliné métal;P4;4368.7;600.0;0.0;180;overhang r-2 c0 p6
-647;Toit incliné métal;P4;4368.7;900.0;0.0;180;overhang r-2 c0 p7
-648;Toit incliné métal;P4;4368.7;1200.0;0.0;180;overhang r-2 c0 p8
-649;Toit incliné métal;P4;4383.4;1145.1;0.0;210;overhang r-2 c1 p0
-650;Toit incliné métal;P4;4233.4;1404.9;0.0;210;overhang r-2 c1 p1
-651;Toit incliné métal;P4;4083.4;1664.7;0.0;210;overhang r-2 c1 p2
-652;Toit incliné métal;P4;3933.4;1924.5;0.0;210;overhang r-2 c1 p3
-653;Toit incliné métal;P4;3783.4;2184.3;0.0;210;overhang r-2 c1 p4
-654;Toit incliné métal;P4;3633.4;2444.1;0.0;210;overhang r-2 c1 p5
-655;Toit incliné métal;P4;3483.4;2703.9;0.0;210;overhang r-2 c1 p6
-656;Toit incliné métal;P4;3333.4;2963.7;0.0;210;overhang r-2 c1 p7
-657;Toit incliné métal;P4;3183.4;3223.6;0.0;210;overhang r-2 c1 p8
-658;Toit incliné métal;P4;3223.6;3183.4;0.0;240;overhang r-2 c2 p0
-659;Toit incliné métal;P4;4668.7;-1200.0;-300.0;180;overhang r-3 c0 p0
-660;Toit incliné métal;P4;4668.7;-900.0;-300.0;180;overhang r-3 c0 p1
-661;Toit incliné métal;P4;4668.7;-600.0;-300.0;180;overhang r-3 c0 p2
-662;Toit incliné métal;P4;4668.7;-300.0;-300.0;180;overhang r-3 c0 p3
-663;Toit incliné métal;P4;4668.7;0.0;-300.0;180;overhang r-3 c0 p4
-664;Toit incliné métal;P4;4668.7;300.0;-300.0;180;overhang r-3 c0 p5
-665;Toit incliné métal;P4;4668.7;600.0;-300.0;180;overhang r-3 c0 p6
-666;Toit incliné métal;P4;4668.7;900.0;-300.0;180;overhang r-3 c0 p7
-667;Toit incliné métal;P4;4668.7;1200.0;-300.0;180;overhang r-3 c0 p8
-668;Toit incliné métal;P4;4643.2;1295.1;-300.0;210;overhang r-3 c1 p0
-669;Toit incliné métal;P4;4493.2;1554.9;-300.0;210;overhang r-3 c1 p1
-670;Toit incliné métal;P4;4343.2;1814.7;-300.0;210;overhang r-3 c1 p2
-671;Toit incliné métal;P4;4193.2;2074.5;-300.0;210;overhang r-3 c1 p3
-672;Toit incliné métal;P4;4043.2;2334.3;-300.0;210;overhang r-3 c1 p4
-673;Toit incliné métal;P4;3893.2;2594.1;-300.0;210;overhang r-3 c1 p5
-674;Toit incliné métal;P4;3743.2;2853.9;-300.0;210;overhang r-3 c1 p6
-675;Toit incliné métal;P4;3593.2;3113.7;-300.0;210;overhang r-3 c1 p7
-676;Toit incliné métal;P4;3443.2;3373.6;-300.0;210;overhang r-3 c1 p8
-677;Toit incliné métal;P4;4968.7;-1050.0;-600.0;180;overhang r-4 c0 p1
-678;Toit incliné métal;P4;4968.7;-750.0;-600.0;180;overhang r-4 c0 p2
-679;Toit incliné métal;P4;4968.7;-450.0;-600.0;180;overhang r-4 c0 p3
-680;Toit incliné métal;P4;4968.7;-150.0;-600.0;180;overhang r-4 c0 p4
-681;Toit incliné métal;P4;4968.7;150.0;-600.0;180;overhang r-4 c0 p5
-682;Toit incliné métal;P4;4968.7;450.0;-600.0;180;overhang r-4 c0 p6
-683;Toit incliné métal;P4;4968.7;750.0;-600.0;180;overhang r-4 c0 p7
-684;Toit incliné métal;P4;4968.7;1050.0;-600.0;180;overhang r-4 c0 p8
-685;Toit incliné métal;P4;4968.7;1350.0;-600.0;180;overhang r-4 c0 p9
-686;Toit incliné métal;P4;4978.0;1315.2;-600.0;210;overhang r-4 c1 p0
-687;Toit incliné métal;P4;4828.0;1575.0;-600.0;210;overhang r-4 c1 p1
-688;Toit incliné métal;P4;4678.0;1834.8;-600.0;210;overhang r-4 c1 p2
-689;Toit incliné métal;P4;4528.0;2094.6;-600.0;210;overhang r-4 c1 p3
-690;Toit incliné métal;P4;4378.0;2354.4;-600.0;210;overhang r-4 c1 p4
-691;Toit incliné métal;P4;4228.0;2614.2;-600.0;210;overhang r-4 c1 p5
-692;Toit incliné métal;P4;4078.0;2874.0;-600.0;210;overhang r-4 c1 p6
-693;Toit incliné métal;P4;3928.0;3133.8;-600.0;210;overhang r-4 c1 p7
-694;Toit incliné métal;P4;3778.0;3393.7;-600.0;210;overhang r-4 c1 p8
-695;Toit incliné métal;P4;3628.0;3653.5;-600.0;210;overhang r-4 c1 p9
-696;Toit incliné métal;P4;3653.5;3628.0;-600.0;240;overhang r-4 c2 p0
-697;Mur métal;P4;4518.7;-900.0;-600.0;0;jupe mur niv0 c0 p1
-698;Mur métal;P4;4518.7;-600.0;-600.0;0;jupe mur niv0 c0 p2
-699;Mur métal;P4;4518.7;-300.0;-600.0;0;jupe mur niv0 c0 p3
-700;Mur métal;P4;4518.7;0.0;-600.0;0;jupe mur niv0 c0 p4
-701;Mur métal;P4;4518.7;300.0;-600.0;0;jupe mur niv0 c0 p5
-702;Mur métal;P4;4518.7;600.0;-600.0;0;jupe mur niv0 c0 p6
-703;Mur métal;P4;4518.7;900.0;-600.0;0;jupe mur niv0 c0 p7
-704;Mur métal;P4;4518.7;1200.0;-600.0;0;jupe mur niv0 c0 p8
-705;Mur métal;P4;4513.3;1220.1;-600.0;30;jupe mur niv0 c1 p0
-706;Mur métal;P4;4363.3;1479.9;-600.0;30;jupe mur niv0 c1 p1
-707;Mur métal;P4;4213.3;1739.7;-600.0;30;jupe mur niv0 c1 p2
-708;Mur métal;P4;4063.3;1999.5;-600.0;30;jupe mur niv0 c1 p3
-709;Mur métal;P4;3913.3;2259.3;-600.0;30;jupe mur niv0 c1 p4
-710;Mur métal;P4;3763.3;2519.1;-600.0;30;jupe mur niv0 c1 p5
-711;Mur métal;P4;3613.3;2778.9;-600.0;30;jupe mur niv0 c1 p6
-712;Mur métal;P4;3463.3;3038.7;-600.0;30;jupe mur niv0 c1 p7
-713;Mur métal;P4;3313.3;3298.6;-600.0;30;jupe mur niv0 c1 p8
-714;Mur métal;P4;3298.6;3313.3;-600.0;60;jupe mur niv0 c2 p0
-715;Mur métal;P4;4518.7;-900.0;-300.0;0;jupe mur niv1 c0 p1
-716;Mur métal;P4;4518.7;-600.0;-300.0;0;jupe mur niv1 c0 p2
-717;Mur métal;P4;4518.7;-300.0;-300.0;0;jupe mur niv1 c0 p3
-718;Mur métal;P4;4518.7;0.0;-300.0;0;jupe mur niv1 c0 p4
-719;Mur métal;P4;4518.7;300.0;-300.0;0;jupe mur niv1 c0 p5
-720;Mur métal;P4;4518.7;600.0;-300.0;0;jupe mur niv1 c0 p6
-721;Mur métal;P4;4518.7;900.0;-300.0;0;jupe mur niv1 c0 p7
-722;Mur métal;P4;4518.7;1200.0;-300.0;0;jupe mur niv1 c0 p8
-723;Mur métal;P4;4513.3;1220.1;-300.0;30;jupe mur niv1 c1 p0
-724;Mur métal;P4;4363.3;1479.9;-300.0;30;jupe mur niv1 c1 p1
-725;Mur métal;P4;4213.3;1739.7;-300.0;30;jupe mur niv1 c1 p2
-726;Mur métal;P4;4063.3;1999.5;-300.0;30;jupe mur niv1 c1 p3
-727;Mur métal;P4;3913.3;2259.3;-300.0;30;jupe mur niv1 c1 p4
-728;Mur métal;P4;3763.3;2519.1;-300.0;30;jupe mur niv1 c1 p5
-729;Mur métal;P4;3613.3;2778.9;-300.0;30;jupe mur niv1 c1 p6
-730;Mur métal;P4;3463.3;3038.7;-300.0;30;jupe mur niv1 c1 p7
-731;Mur métal;P4;3313.3;3298.6;-300.0;30;jupe mur niv1 c1 p8
-732;Mur métal;P4;3298.6;3313.3;-300.0;60;jupe mur niv1 c2 p0
-733;Plafond métal;P4;4668.7;-1200.0;-600.0;0;jupe plafond s1 c0 p0
-734;Plafond métal;P4;4668.7;-900.0;-600.0;0;jupe plafond s1 c0 p1
-735;Plafond métal;P4;4668.7;-600.0;-600.0;0;jupe plafond s1 c0 p2
-736;Plafond métal;P4;4668.7;-300.0;-600.0;0;jupe plafond s1 c0 p3
-737;Plafond métal;P4;4668.7;0.0;-600.0;0;jupe plafond s1 c0 p4
-738;Plafond métal;P4;4668.7;300.0;-600.0;0;jupe plafond s1 c0 p5
-739;Plafond métal;P4;4668.7;600.0;-600.0;0;jupe plafond s1 c0 p6
-740;Plafond métal;P4;4668.7;900.0;-600.0;0;jupe plafond s1 c0 p7
-741;Plafond métal;P4;4668.7;1200.0;-600.0;0;jupe plafond s1 c0 p8
-742;Plafond métal;P4;4643.2;1295.1;-600.0;30;jupe plafond s1 c1 p0
-743;Plafond métal;P4;4493.2;1554.9;-600.0;30;jupe plafond s1 c1 p1
-744;Plafond métal;P4;4343.2;1814.7;-600.0;30;jupe plafond s1 c1 p2
-745;Plafond métal;P4;4193.2;2074.5;-600.0;30;jupe plafond s1 c1 p3
-746;Plafond métal;P4;4043.2;2334.3;-600.0;30;jupe plafond s1 c1 p4
-747;Plafond métal;P4;3893.2;2594.1;-600.0;30;jupe plafond s1 c1 p5
-748;Plafond métal;P4;3743.2;2853.9;-600.0;30;jupe plafond s1 c1 p6
-749;Plafond métal;P4;3593.2;3113.7;-600.0;30;jupe plafond s1 c1 p7
-750;Plafond métal;P4;3443.2;3373.6;-600.0;30;jupe plafond s1 c1 p8
-751;Plafond métal;P4;4968.7;-1050.0;-600.0;0;jupe plafond s2 c0 p1
-752;Plafond métal;P4;4968.7;-750.0;-600.0;0;jupe plafond s2 c0 p2
-753;Plafond métal;P4;4968.7;-450.0;-600.0;0;jupe plafond s2 c0 p3
-754;Plafond métal;P4;4968.7;-150.0;-600.0;0;jupe plafond s2 c0 p4
-755;Plafond métal;P4;4968.7;150.0;-600.0;0;jupe plafond s2 c0 p5
-756;Plafond métal;P4;4968.7;450.0;-600.0;0;jupe plafond s2 c0 p6
-757;Plafond métal;P4;4968.7;750.0;-600.0;0;jupe plafond s2 c0 p7
-758;Plafond métal;P4;4968.7;1050.0;-600.0;0;jupe plafond s2 c0 p8
-759;Plafond métal;P4;4968.7;1350.0;-600.0;0;jupe plafond s2 c0 p9
-760;Plafond métal;P4;4978.0;1315.2;-600.0;30;jupe plafond s2 c1 p0
-761;Plafond métal;P4;4828.0;1575.0;-600.0;30;jupe plafond s2 c1 p1
-762;Plafond métal;P4;4678.0;1834.8;-600.0;30;jupe plafond s2 c1 p2
-763;Plafond métal;P4;4528.0;2094.6;-600.0;30;jupe plafond s2 c1 p3
-764;Plafond métal;P4;4378.0;2354.4;-600.0;30;jupe plafond s2 c1 p4
-765;Plafond métal;P4;4228.0;2614.2;-600.0;30;jupe plafond s2 c1 p5
-766;Plafond métal;P4;4078.0;2874.0;-600.0;30;jupe plafond s2 c1 p6
-767;Plafond métal;P4;3928.0;3133.8;-600.0;30;jupe plafond s2 c1 p7
-768;Plafond métal;P4;3778.0;3393.7;-600.0;30;jupe plafond s2 c1 p8
-769;Plafond métal;P4;3628.0;3653.5;-600.0;30;jupe plafond s2 c1 p9
-770;Plafond métal;P4;3653.5;3628.0;-600.0;60;jupe plafond s2 c2 p0
-771;Plafond triangle métal;P5;2369.1;-450.0;2100.0;0;galerie Z2100 anneau 8
-772;Plafond triangle métal;P5;2369.1;-150.0;2100.0;0;galerie Z2100 anneau 8
-773;Plafond triangle métal;P5;2369.1;150.0;2100.0;0;galerie Z2100 anneau 8
-774;Plafond triangle métal;P5;2369.1;450.0;2100.0;0;galerie Z2100 anneau 8
-775;Plafond triangle métal;P5;2369.1;-600.0;2100.0;180;galerie Z2100 anneau 8
-776;Plafond triangle métal;P5;2369.1;-300.0;2100.0;180;galerie Z2100 anneau 8
-777;Plafond triangle métal;P5;2369.1;0.0;2100.0;180;galerie Z2100 anneau 8
-778;Plafond triangle métal;P5;2369.1;300.0;2100.0;180;galerie Z2100 anneau 8
-779;Plafond triangle métal;P5;2369.1;600.0;2100.0;180;galerie Z2100 anneau 8
-780;Plafond à trappe métal;P5;2294.1;804.9;2100.0;30;galerie Z2100 anneau 8
-781;Plafond métal;P5;2144.1;1064.7;2100.0;30;galerie Z2100 anneau 8
-782;Plafond métal;P5;1994.1;1324.5;2100.0;30;galerie Z2100 anneau 8
-783;Plafond métal;P5;1844.1;1584.3;2100.0;30;galerie Z2100 anneau 8
-784;Plafond métal;P5;2649.0;-600.0;2100.0;0;galerie Z2100 anneau 9
-785;Plafond métal;P5;2649.0;-300.0;2100.0;0;galerie Z2100 anneau 9
-786;Plafond métal;P5;2649.0;0.0;2100.0;0;galerie Z2100 anneau 9
-787;Plafond métal;P5;2649.0;300.0;2100.0;0;galerie Z2100 anneau 9
-788;Plafond métal;P5;2649.0;600.0;2100.0;0;galerie Z2100 anneau 9
-789;Plafond triangle métal;P5;2536.5;944.9;2100.0;30;galerie Z2100 anneau 9
-790;Plafond triangle métal;P5;2386.5;1204.7;2100.0;30;galerie Z2100 anneau 9
-791;Plafond triangle métal;P5;2236.5;1464.5;2100.0;30;galerie Z2100 anneau 9
-792;Plafond triangle métal;P5;2086.5;1724.3;2100.0;30;galerie Z2100 anneau 9
-793;Plafond triangle métal;P5;2611.5;815.0;2100.0;210;galerie Z2100 anneau 9
-794;Plafond triangle métal;P5;2461.5;1074.8;2100.0;210;galerie Z2100 anneau 9
-795;Plafond triangle métal;P5;2311.5;1334.6;2100.0;210;galerie Z2100 anneau 9
-796;Plafond triangle métal;P5;2161.5;1594.4;2100.0;210;galerie Z2100 anneau 9
-797;Plafond triangle métal;P5;2011.5;1854.2;2100.0;210;galerie Z2100 anneau 9
-798;Plafond triangle métal;P5;2369.1;-450.0;2400.0;0;galerie Z2400 anneau 8
-799;Plafond triangle métal;P5;2369.1;-150.0;2400.0;0;galerie Z2400 anneau 8
-800;Plafond triangle métal;P5;2369.1;150.0;2400.0;0;galerie Z2400 anneau 8
-801;Plafond triangle métal;P5;2369.1;450.0;2400.0;0;galerie Z2400 anneau 8
-802;Plafond triangle métal;P5;2369.1;-600.0;2400.0;180;galerie Z2400 anneau 8
-803;Plafond triangle métal;P5;2369.1;-300.0;2400.0;180;galerie Z2400 anneau 8
-804;Plafond triangle métal;P5;2369.1;0.0;2400.0;180;galerie Z2400 anneau 8
-805;Plafond triangle métal;P5;2369.1;300.0;2400.0;180;galerie Z2400 anneau 8
-806;Plafond triangle métal;P5;2369.1;600.0;2400.0;180;galerie Z2400 anneau 8
-807;Plafond métal;P5;2294.1;804.9;2400.0;30;galerie Z2400 anneau 8
-808;Plafond métal;P5;2144.1;1064.7;2400.0;30;galerie Z2400 anneau 8
-809;Plafond métal;P5;1994.1;1324.5;2400.0;30;galerie Z2400 anneau 8
-810;Plafond métal;P5;1844.1;1584.3;2400.0;30;galerie Z2400 anneau 8
-811;Plafond métal;P5;2649.0;-600.0;2400.0;0;galerie Z2400 anneau 9
-812;Plafond métal;P5;2649.0;-300.0;2400.0;0;galerie Z2400 anneau 9
-813;Plafond métal;P5;2649.0;0.0;2400.0;0;galerie Z2400 anneau 9
-814;Plafond métal;P5;2649.0;300.0;2400.0;0;galerie Z2400 anneau 9
-815;Plafond métal;P5;2649.0;600.0;2400.0;0;galerie Z2400 anneau 9
-816;Plafond triangle métal;P5;2536.5;944.9;2400.0;30;galerie Z2400 anneau 9
-817;Plafond triangle métal;P5;2386.5;1204.7;2400.0;30;galerie Z2400 anneau 9
-818;Plafond triangle métal;P5;2236.5;1464.5;2400.0;30;galerie Z2400 anneau 9
-819;Plafond triangle métal;P5;2086.5;1724.3;2400.0;30;galerie Z2400 anneau 9
-820;Plafond triangle métal;P5;2611.5;815.0;2400.0;210;galerie Z2400 anneau 9
-821;Plafond triangle métal;P5;2461.5;1074.8;2400.0;210;galerie Z2400 anneau 9
-822;Plafond triangle métal;P5;2311.5;1334.6;2400.0;210;galerie Z2400 anneau 9
-823;Plafond triangle métal;P5;2161.5;1594.4;2400.0;210;galerie Z2400 anneau 9
-824;Plafond triangle métal;P5;2011.5;1854.2;2400.0;210;galerie Z2400 anneau 9
-825;Cadre de porte double métal;P5;2799.0;-600.0;2100.0;0;cage L2 c0 p0
-826;Cadre de porte double métal;P5;2799.0;-300.0;2100.0;0;cage L2 c0 p1
-827;Cadre de porte double métal;P5;2799.0;0.0;2100.0;0;cage L2 c0 p2
-828;Cadre de porte double métal;P5;2799.0;300.0;2100.0;0;cage L2 c0 p3
-829;Cadre de porte double métal;P5;2799.0;600.0;2100.0;0;cage L2 c0 p4
-830;Cadre de porte double métal;P5;2724.0;879.9;2100.0;30;cage L2 c1 p0
-831;Cadre de porte double métal;P5;2574.0;1139.7;2100.0;30;cage L2 c1 p1
-832;Cadre de porte double métal;P5;2424.0;1399.5;2100.0;30;cage L2 c1 p2
-833;Cadre de porte double métal;P5;2274.0;1659.3;2100.0;30;cage L2 c1 p3
-834;Cadre de porte double métal;P5;2124.0;1919.1;2100.0;30;cage L2 c1 p4
-835;Toit incliné métal;P5;2949.0;-750.0;2100.0;180;casquette r-1 c0 p0
-836;Toit incliné métal;P5;2949.0;-450.0;2100.0;180;casquette r-1 c0 p1
-837;Toit incliné métal;P5;2949.0;-150.0;2100.0;180;casquette r-1 c0 p2
-838;Toit incliné métal;P5;2949.0;150.0;2100.0;180;casquette r-1 c0 p3
-839;Toit incliné métal;P5;2949.0;450.0;2100.0;180;casquette r-1 c0 p4
-840;Toit incliné métal;P5;2949.0;750.0;2100.0;180;casquette r-1 c0 p5
-841;Toit incliné métal;P5;2928.9;825.0;2100.0;210;casquette r-1 c1 p0
-842;Toit incliné métal;P5;2778.9;1084.8;2100.0;210;casquette r-1 c1 p1
-843;Toit incliné métal;P5;2628.9;1344.6;2100.0;210;casquette r-1 c1 p2
-844;Toit incliné métal;P5;2478.9;1604.4;2100.0;210;casquette r-1 c1 p3
-845;Toit incliné métal;P5;2328.9;1864.2;2100.0;210;casquette r-1 c1 p4
-846;Toit incliné métal;P5;2178.9;2124.0;2100.0;210;casquette r-1 c1 p5
-847;Mur métal;P6;2239.2;-450.0;1800.0;0;pod niv6 c0 p0
-848;Cadre de porte double métal;P6;2239.2;-150.0;1800.0;0;pod niv6 c0 p1
-849;Mur métal;P6;2239.2;150.0;1800.0;0;pod niv6 c0 p2
-850;Mur métal;P6;2239.2;450.0;1800.0;0;pod niv6 c0 p3
-851;Mur métal;P6;2164.2;729.9;1800.0;30;pod niv6 c1 p0
-852;Cadre de porte double métal;P6;2014.2;989.7;1800.0;30;pod niv6 c1 p1
-853;Mur métal;P6;1864.2;1249.5;1800.0;30;pod niv6 c1 p2
-854;Mur métal;P6;1714.2;1509.3;1800.0;30;pod niv6 c1 p3
-855;Mur métal;P6;2239.2;-450.0;2100.0;0;pod niv7 c0 p0
-856;Mur métal;P6;2239.2;-150.0;2100.0;0;pod niv7 c0 p1
-857;Mur métal;P6;2239.2;150.0;2100.0;0;pod niv7 c0 p2
-858;Mur métal;P6;2239.2;450.0;2100.0;0;pod niv7 c0 p3
-859;Mur métal;P6;2164.2;729.9;2100.0;30;pod niv7 c1 p0
-860;Mur métal;P6;2014.2;989.7;2100.0;30;pod niv7 c1 p1
-861;Mur métal;P6;1864.2;1249.5;2100.0;30;pod niv7 c1 p2
-862;Mur métal;P6;1714.2;1509.3;2100.0;30;pod niv7 c1 p3
-863;Mur métal;P6;2239.2;-450.0;2400.0;0;pod niv8 c0 p0
-864;Mur métal;P6;2239.2;-150.0;2400.0;0;pod niv8 c0 p1
-865;Mur métal;P6;2239.2;150.0;2400.0;0;pod niv8 c0 p2
-866;Mur métal;P6;2239.2;450.0;2400.0;0;pod niv8 c0 p3
-867;Mur métal;P6;2164.2;729.9;2400.0;30;pod niv8 c1 p0
-868;Mur métal;P6;2014.2;989.7;2400.0;30;pod niv8 c1 p1
-869;Mur métal;P6;1864.2;1249.5;2400.0;30;pod niv8 c1 p2
-870;Mur métal;P6;1714.2;1509.3;2400.0;30;pod niv8 c1 p3
-871;Mur métal;P6;2239.2;-450.0;2700.0;0;pod niv9 c0 p0
-872;Mur métal;P6;2239.2;-150.0;2700.0;0;pod niv9 c0 p1
-873;Mur métal;P6;2239.2;150.0;2700.0;0;pod niv9 c0 p2
-874;Mur métal;P6;2239.2;450.0;2700.0;0;pod niv9 c0 p3
-875;Mur métal;P6;2164.2;729.9;2700.0;30;pod niv9 c1 p0
-876;Mur métal;P6;2014.2;989.7;2700.0;30;pod niv9 c1 p1
-877;Mur métal;P6;1864.2;1249.5;2700.0;30;pod niv9 c1 p2
-878;Mur métal;P6;1714.2;1509.3;2700.0;30;pod niv9 c1 p3
-879;Pilier métal;P6;1119.6;300.0;1800.0;0;pilier PA0
-880;Pilier métal;P6;1119.6;300.0;2100.0;0;pilier PA0
-881;Pilier métal;P6;1119.6;300.0;2400.0;0;pilier PA0
-882;Pilier métal;P6;1119.6;300.0;2700.0;0;pilier PA0
-883;Pilier métal;P6;1119.6;300.0;3000.0;0;pilier PA0
-884;Pilier métal;P6;1119.6;300.0;3300.0;0;pilier PA0
-885;Pilier métal;P6;1119.6;300.0;3600.0;0;pilier PA0
-886;Demi-pilier métal;P6;1119.6;300.0;3900.0;0;pilier PA0 (demi)
-887;Pilier métal;P6;819.6;819.6;1800.0;0;pilier PA1
-888;Pilier métal;P6;819.6;819.6;2100.0;0;pilier PA1
-889;Pilier métal;P6;819.6;819.6;2400.0;0;pilier PA1
-890;Pilier métal;P6;819.6;819.6;2700.0;0;pilier PA1
-891;Pilier métal;P6;819.6;819.6;3000.0;0;pilier PA1
-892;Pilier métal;P6;819.6;819.6;3300.0;0;pilier PA1
-893;Pilier métal;P6;819.6;819.6;3600.0;0;pilier PA1
-894;Demi-pilier métal;P6;819.6;819.6;3900.0;0;pilier PA1 (demi)
-895;Pilier métal;P6;559.8;150.0;1800.0;0;pilier PB0
-896;Pilier métal;P6;559.8;150.0;2100.0;0;pilier PB0
-897;Pilier métal;P6;559.8;150.0;2400.0;0;pilier PB0
-898;Pilier métal;P6;559.8;150.0;2700.0;0;pilier PB0
-899;Pilier métal;P6;559.8;150.0;3000.0;0;pilier PB0
-900;Pilier métal;P6;559.8;150.0;3300.0;0;pilier PB0
-901;Pilier métal;P6;559.8;150.0;3600.0;0;pilier PB0
-902;Pilier métal;P6;559.8;150.0;3900.0;0;pilier PB0
-903;Pilier métal;P6;559.8;150.0;4200.0;0;pilier PB0
-904;Demi-pilier métal;P6;559.8;150.0;4500.0;0;pilier PB0 (demi)
-905;Pilier métal;P6;409.8;409.8;1800.0;0;pilier PB1
-906;Pilier métal;P6;409.8;409.8;2100.0;0;pilier PB1
-907;Pilier métal;P6;409.8;409.8;2400.0;0;pilier PB1
-908;Pilier métal;P6;409.8;409.8;2700.0;0;pilier PB1
-909;Pilier métal;P6;409.8;409.8;3000.0;0;pilier PB1
-910;Pilier métal;P6;409.8;409.8;3300.0;0;pilier PB1
-911;Pilier métal;P6;409.8;409.8;3600.0;0;pilier PB1
-912;Pilier métal;P6;409.8;409.8;3900.0;0;pilier PB1
-913;Pilier métal;P6;409.8;409.8;4200.0;0;pilier PB1
-914;Demi-pilier métal;P6;409.8;409.8;4500.0;0;pilier PB1 (demi)
-915;Toit incliné métal;P6;2089.2;-450.0;3000.0;180;cone r0 c0 p0
-916;Toit incliné métal;P6;2089.2;-150.0;3000.0;180;cone r0 c0 p1
-917;Toit incliné métal;P6;2089.2;150.0;3000.0;180;cone r0 c0 p2
-918;Toit incliné métal;P6;2089.2;450.0;3000.0;180;cone r0 c0 p3
-919;Toit incliné métal;P6;2034.3;654.9;3000.0;210;cone r0 c1 p0
-920;Toit incliné métal;P6;1884.3;914.7;3000.0;210;cone r0 c1 p1
-921;Toit incliné métal;P6;1734.3;1174.5;3000.0;210;cone r0 c1 p2
-922;Toit incliné métal;P6;1584.3;1434.3;3000.0;210;cone r0 c1 p3
-923;Toit incliné métal;P6;1789.2;-450.0;3300.0;180;cone r1 c0 p0
-924;Toit incliné métal;P6;1789.2;-150.0;3300.0;180;cone r1 c0 p1
-925;Toit incliné métal;P6;1789.2;150.0;3300.0;180;cone r1 c0 p2
-926;Toit incliné métal;P6;1789.2;450.0;3300.0;180;cone r1 c0 p3
-927;Toit incliné métal;P6;1774.5;504.9;3300.0;210;cone r1 c1 p0
-928;Toit incliné métal;P6;1624.5;764.7;3300.0;210;cone r1 c1 p1
-929;Toit incliné métal;P6;1474.5;1024.5;3300.0;210;cone r1 c1 p2
-930;Toit incliné métal;P6;1324.5;1284.3;3300.0;210;cone r1 c1 p3
-931;Toit incliné métal;P6;1489.2;-300.0;3600.0;180;cone r2 c0 p0
-932;Toit incliné métal;P6;1489.2;0.0;3600.0;180;cone r2 c0 p1
-933;Toit incliné métal;P6;1489.2;300.0;3600.0;180;cone r2 c0 p2
-934;Toit incliné métal;P6;1439.7;484.8;3600.0;210;cone r2 c1 p0
-935;Toit incliné métal;P6;1289.7;744.6;3600.0;210;cone r2 c1 p1
-936;Toit incliné métal;P6;1139.7;1004.4;3600.0;210;cone r2 c1 p2
-937;Toit incliné métal;P6;1189.2;-300.0;3900.0;180;cone r3 c0 p0
-938;Toit incliné métal;P6;1189.2;0.0;3900.0;180;cone r3 c0 p1
-939;Toit incliné métal;P6;1189.2;300.0;3900.0;180;cone r3 c0 p2
-940;Toit incliné métal;P6;1179.9;334.8;3900.0;210;cone r3 c1 p0
-941;Toit incliné métal;P6;1029.9;594.6;3900.0;210;cone r3 c1 p1
-942;Toit incliné métal;P6;879.9;854.4;3900.0;210;cone r3 c1 p2
-943;Toit incliné métal;P6;889.2;-150.0;4200.0;180;cone r4 c0 p0
-944;Toit incliné métal;P6;889.2;150.0;4200.0;180;cone r4 c0 p1
-945;Toit incliné métal;P6;845.1;314.7;4200.0;210;cone r4 c1 p0
-946;Toit incliné métal;P6;695.1;574.5;4200.0;210;cone r4 c1 p1
-947;Toit incliné métal;P6;589.2;-150.0;4500.0;180;cone r5 c0 p0
-948;Toit incliné métal;P6;589.2;150.0;4500.0;180;cone r5 c0 p1
-949;Toit incliné métal;P6;585.3;164.7;4500.0;210;cone r5 c1 p0
-950;Toit incliné métal;P6;435.3;424.5;4500.0;210;cone r5 c1 p1
-951;Toit incliné métal;P6;289.2;0.0;4800.0;180;cone r6 c0 p0
-952;Toit incliné métal;P6;250.5;144.6;4800.0;210;cone r6 c1 p0
-953;Toit incliné métal;P6;2649.0;-600.0;2400.0;180;reprise r0 c0 p0
-954;Toit incliné métal;P6;2649.0;-300.0;2400.0;180;reprise r0 c0 p1
-955;Toit incliné métal;P6;2649.0;0.0;2400.0;180;reprise r0 c0 p2
-956;Toit incliné métal;P6;2649.0;300.0;2400.0;180;reprise r0 c0 p3
-957;Toit incliné métal;P6;2649.0;600.0;2400.0;180;reprise r0 c0 p4
-958;Toit incliné métal;P6;2594.1;804.9;2400.0;210;reprise r0 c1 p0
-959;Toit incliné métal;P6;2444.1;1064.7;2400.0;210;reprise r0 c1 p1
-960;Toit incliné métal;P6;2294.1;1324.5;2400.0;210;reprise r0 c1 p2
-961;Toit incliné métal;P6;2144.1;1584.3;2400.0;210;reprise r0 c1 p3
-962;Toit incliné métal;P6;1994.1;1844.1;2400.0;210;reprise r0 c1 p4
-963;Toit incliné métal;P6;2349.0;-600.0;2700.0;180;reprise r1 c0 p0
-964;Toit incliné métal;P6;2349.0;-300.0;2700.0;180;reprise r1 c0 p1
-965;Toit incliné métal;P6;2349.0;0.0;2700.0;180;reprise r1 c0 p2
-966;Toit incliné métal;P6;2349.0;300.0;2700.0;180;reprise r1 c0 p3
-967;Toit incliné métal;P6;2349.0;600.0;2700.0;180;reprise r1 c0 p4
-968;Toit incliné métal;P6;2334.3;654.9;2700.0;210;reprise r1 c1 p0
-969;Toit incliné métal;P6;2184.3;914.7;2700.0;210;reprise r1 c1 p1
-970;Toit incliné métal;P6;2034.3;1174.5;2700.0;210;reprise r1 c1 p2
-971;Toit incliné métal;P6;1884.3;1434.3;2700.0;210;reprise r1 c1 p3
-972;Toit incliné métal;P6;1734.3;1694.1;2700.0;210;reprise r1 c1 p4
+282;Pilier métal;P2;3357.9;119.9;0.0;2.0;colonnade θ2.05
+283;Pilier métal;P2;3354.1;199.8;0.0;3.4;colonnade θ3.41
+284;Pilier métal;P2;3348.3;279.6;0.0;4.8;colonnade θ4.77
+285;Pilier métal;P2;3340.7;359.2;0.0;6.1;colonnade θ6.14
+286;Pilier métal;P2;3331.3;438.6;0.0;7.5;colonnade θ7.50
+287;Pilier métal;P2;3319.9;517.7;0.0;8.9;colonnade θ8.86
+288;Pilier métal;P2;3306.6;596.6;0.0;10.2;colonnade θ10.23
+289;Pilier métal;P2;3291.5;675.1;0.0;11.6;colonnade θ11.59
+290;Pilier métal;P2;3274.5;753.2;0.0;13.0;colonnade θ12.95
+291;Pilier métal;P2;3255.6;830.9;0.0;14.3;colonnade θ14.32
+292;Pilier métal;P2;3234.9;908.2;0.0;15.7;colonnade θ15.68
+293;Pilier métal;P2;3212.4;984.9;0.0;17.0;colonnade θ17.05
+294;Pilier métal;P2;3188.1;1061.1;0.0;18.4;colonnade θ18.41
+295;Pilier métal;P2;3161.9;1136.7;0.0;19.8;colonnade θ19.77
+296;Pilier métal;P2;3134.0;1211.6;0.0;21.1;colonnade θ21.14
+297;Pilier métal;P2;3104.2;1285.8;0.0;22.5;colonnade θ22.50
+298;Pilier métal;P2;3072.8;1359.3;0.0;23.9;colonnade θ23.86
+299;Pilier métal;P2;3039.5;1432.1;0.0;25.2;colonnade θ25.23
+300;Pilier métal;P2;3004.6;1504.0;0.0;26.6;colonnade θ26.59
+301;Pilier métal;P2;2804.8;1850.1;0.0;33.4;colonnade θ33.41
+302;Pilier métal;P2;2760.0;1916.3;0.0;34.8;colonnade θ34.77
+303;Pilier métal;P2;2713.6;1981.4;0.0;36.1;colonnade θ36.14
+304;Pilier métal;P2;2665.7;2045.4;0.0;37.5;colonnade θ37.50
+305;Pilier métal;P2;2616.2;2108.3;0.0;38.9;colonnade θ38.86
+306;Pilier métal;P2;2565.3;2170.0;0.0;40.2;colonnade θ40.23
+307;Pilier métal;P2;2513.0;2230.4;0.0;41.6;colonnade θ41.59
+308;Pilier métal;P2;2459.2;2289.6;0.0;43.0;colonnade θ42.95
+309;Pilier métal;P2;2404.0;2347.4;0.0;44.3;colonnade θ44.32
+310;Pilier métal;P2;3255.6;-830.9;0.0;345.7;colonnade θ345.68
+311;Pilier métal;P2;3274.5;-753.2;0.0;347.0;colonnade θ347.05
+312;Pilier métal;P2;3291.5;-675.1;0.0;348.4;colonnade θ348.41
+313;Pilier métal;P2;3306.6;-596.6;0.0;349.8;colonnade θ349.77
+314;Pilier métal;P2;3319.9;-517.7;0.0;351.1;colonnade θ351.14
+315;Pilier métal;P2;3331.3;-438.6;0.0;352.5;colonnade θ352.50
+316;Pilier métal;P2;3340.7;-359.2;0.0;353.9;colonnade θ353.86
+317;Pilier métal;P2;3348.3;-279.6;0.0;355.2;colonnade θ355.23
+318;Pilier métal;P2;3354.1;-199.8;0.0;356.6;colonnade θ356.59
+319;Pilier métal;P2;3357.9;-119.9;0.0;358.0;colonnade θ357.95
+320;Pilier métal;P2;3359.8;-40.0;0.0;359.3;colonnade θ359.32
+321;Mur métal;P2;2799.0;-600.0;0.0;0;fut niv0 c0 p0
+322;Mur métal;P2;2799.0;-300.0;0.0;0;fut niv0 c0 p1
+323;Mur métal;P2;2799.0;0.0;0.0;0;fut niv0 c0 p2
+324;Mur métal;P2;2799.0;300.0;0.0;0;fut niv0 c0 p3
+325;Mur métal;P2;2799.0;600.0;0.0;0;fut niv0 c0 p4
+326;Mur métal;P2;2724.0;879.9;0.0;30;fut niv0 c1 p0
+327;Mur métal;P2;2574.0;1139.7;0.0;30;fut niv0 c1 p1
+328;Cadre de porte double métal;P2;2424.0;1399.5;0.0;30;fut niv0 c1 p2
+329;Mur métal;P2;2274.0;1659.3;0.0;30;fut niv0 c1 p3
+330;Mur métal;P2;2124.0;1919.1;0.0;30;fut niv0 c1 p4
+331;Mur métal;P2;2799.0;-600.0;300.0;0;fut niv1 c0 p0
+332;Mur métal;P2;2799.0;-300.0;300.0;0;fut niv1 c0 p1
+333;Mur métal;P2;2799.0;0.0;300.0;0;fut niv1 c0 p2
+334;Mur métal;P2;2799.0;300.0;300.0;0;fut niv1 c0 p3
+335;Mur métal;P2;2799.0;600.0;300.0;0;fut niv1 c0 p4
+336;Mur métal;P2;2724.0;879.9;300.0;30;fut niv1 c1 p0
+337;Mur métal;P2;2574.0;1139.7;300.0;30;fut niv1 c1 p1
+338;Mur métal;P2;2424.0;1399.5;300.0;30;fut niv1 c1 p2
+339;Mur métal;P2;2274.0;1659.3;300.0;30;fut niv1 c1 p3
+340;Mur métal;P2;2124.0;1919.1;300.0;30;fut niv1 c1 p4
+341;Mur métal;P2;2799.0;-600.0;600.0;0;fut niv2 c0 p0
+342;Mur métal;P2;2799.0;-300.0;600.0;0;fut niv2 c0 p1
+343;Mur métal;P2;2799.0;0.0;600.0;0;fut niv2 c0 p2
+344;Mur métal;P2;2799.0;300.0;600.0;0;fut niv2 c0 p3
+345;Mur métal;P2;2799.0;600.0;600.0;0;fut niv2 c0 p4
+346;Mur métal;P2;2724.0;879.9;600.0;30;fut niv2 c1 p0
+347;Mur métal;P2;2574.0;1139.7;600.0;30;fut niv2 c1 p1
+348;Mur métal;P2;2424.0;1399.5;600.0;30;fut niv2 c1 p2
+349;Mur métal;P2;2274.0;1659.3;600.0;30;fut niv2 c1 p3
+350;Mur métal;P2;2124.0;1919.1;600.0;30;fut niv2 c1 p4
+351;Mur métal;P2;2799.0;-600.0;900.0;0;fut niv3 c0 p0
+352;Mur métal;P2;2799.0;-300.0;900.0;0;fut niv3 c0 p1
+353;Mur métal;P2;2799.0;0.0;900.0;0;fut niv3 c0 p2
+354;Mur métal;P2;2799.0;300.0;900.0;0;fut niv3 c0 p3
+355;Mur métal;P2;2799.0;600.0;900.0;0;fut niv3 c0 p4
+356;Mur métal;P2;2724.0;879.9;900.0;30;fut niv3 c1 p0
+357;Mur métal;P2;2574.0;1139.7;900.0;30;fut niv3 c1 p1
+358;Mur métal;P2;2424.0;1399.5;900.0;30;fut niv3 c1 p2
+359;Mur métal;P2;2274.0;1659.3;900.0;30;fut niv3 c1 p3
+360;Mur métal;P2;2124.0;1919.1;900.0;30;fut niv3 c1 p4
+361;Mur métal;P2;2799.0;-600.0;1200.0;0;fut niv4 c0 p0
+362;Mur métal;P2;2799.0;-300.0;1200.0;0;fut niv4 c0 p1
+363;Mur métal;P2;2799.0;0.0;1200.0;0;fut niv4 c0 p2
+364;Mur métal;P2;2799.0;300.0;1200.0;0;fut niv4 c0 p3
+365;Mur métal;P2;2799.0;600.0;1200.0;0;fut niv4 c0 p4
+366;Mur métal;P2;2724.0;879.9;1200.0;30;fut niv4 c1 p0
+367;Mur métal;P2;2574.0;1139.7;1200.0;30;fut niv4 c1 p1
+368;Mur métal;P2;2424.0;1399.5;1200.0;30;fut niv4 c1 p2
+369;Mur métal;P2;2274.0;1659.3;1200.0;30;fut niv4 c1 p3
+370;Mur métal;P2;2124.0;1919.1;1200.0;30;fut niv4 c1 p4
+371;Mur métal;P2;2799.0;-600.0;1500.0;0;fut niv5 c0 p0
+372;Mur métal;P2;2799.0;-300.0;1500.0;0;fut niv5 c0 p1
+373;Mur métal;P2;2799.0;0.0;1500.0;0;fut niv5 c0 p2
+374;Mur métal;P2;2799.0;300.0;1500.0;0;fut niv5 c0 p3
+375;Mur métal;P2;2799.0;600.0;1500.0;0;fut niv5 c0 p4
+376;Mur métal;P2;2724.0;879.9;1500.0;30;fut niv5 c1 p0
+377;Mur métal;P2;2574.0;1139.7;1500.0;30;fut niv5 c1 p1
+378;Mur métal;P2;2424.0;1399.5;1500.0;30;fut niv5 c1 p2
+379;Mur métal;P2;2274.0;1659.3;1500.0;30;fut niv5 c1 p3
+380;Mur métal;P2;2124.0;1919.1;1500.0;30;fut niv5 c1 p4
+381;Plafond triangle métal;P3;689.7;0.0;1800.0;0;mezzanine anneau 2
+382;Plafond triangle métal;P3;689.7;-150.0;1800.0;180;mezzanine anneau 2
+383;Plafond triangle métal;P3;689.7;150.0;1800.0;180;mezzanine anneau 2
+384;Plafond métal;P3;614.7;354.9;1800.0;30;mezzanine anneau 2
+385;Plafond métal;P3;969.6;-150.0;1800.0;0;mezzanine anneau 3
+386;Plafond métal;P3;969.6;150.0;1800.0;0;mezzanine anneau 3
+387;Plafond triangle métal;P3;857.1;494.9;1800.0;30;mezzanine anneau 3
+388;Plafond triangle métal;P3;932.1;365.0;1800.0;210;mezzanine anneau 3
+389;Plafond triangle métal;P3;782.1;624.8;1800.0;210;mezzanine anneau 3
+390;Plafond triangle métal;P3;1249.5;-150.0;1800.0;0;mezzanine anneau 4
+391;Plafond triangle métal;P3;1249.5;150.0;1800.0;0;mezzanine anneau 4
+392;Plafond triangle métal;P3;1249.5;-300.0;1800.0;180;mezzanine anneau 4
+393;Plafond triangle métal;P3;1249.5;0.0;1800.0;180;mezzanine anneau 4
+394;Plafond triangle métal;P3;1249.5;300.0;1800.0;180;mezzanine anneau 4
+395;Plafond métal;P3;1174.5;504.9;1800.0;30;mezzanine anneau 4
+396;Plafond métal;P3;1024.5;764.7;1800.0;30;mezzanine anneau 4
+397;Plafond métal;P3;1529.4;-300.0;1800.0;0;mezzanine anneau 5
+398;Plafond métal;P3;1529.4;0.0;1800.0;0;mezzanine anneau 5
+399;Plafond métal;P3;1529.4;300.0;1800.0;0;mezzanine anneau 5
+400;Plafond triangle métal;P3;1416.9;644.9;1800.0;30;mezzanine anneau 5
+401;Plafond triangle métal;P3;1266.9;904.7;1800.0;30;mezzanine anneau 5
+402;Plafond triangle métal;P3;1491.9;515.0;1800.0;210;mezzanine anneau 5
+403;Plafond triangle métal;P3;1341.9;774.8;1800.0;210;mezzanine anneau 5
+404;Plafond triangle métal;P3;1191.9;1034.6;1800.0;210;mezzanine anneau 5
+405;Plafond triangle métal;P3;1809.3;-300.0;1800.0;0;mezzanine anneau 6
+406;Plafond triangle métal;P3;1809.3;0.0;1800.0;0;mezzanine anneau 6
+407;Plafond triangle métal;P3;1809.3;300.0;1800.0;0;mezzanine anneau 6
+408;Plafond triangle métal;P3;1809.3;-450.0;1800.0;180;mezzanine anneau 6
+409;Plafond triangle métal;P3;1809.3;-150.0;1800.0;180;mezzanine anneau 6
+410;Plafond triangle métal;P3;1809.3;150.0;1800.0;180;mezzanine anneau 6
+411;Plafond triangle métal;P3;1809.3;450.0;1800.0;180;mezzanine anneau 6
+412;Plafond métal;P3;1734.3;654.9;1800.0;30;mezzanine anneau 6
+413;Plafond métal;P3;1584.3;914.7;1800.0;30;mezzanine anneau 6
+414;Plafond métal;P3;1434.3;1174.5;1800.0;30;mezzanine anneau 6
+415;Plafond métal;P3;2089.2;-450.0;1800.0;0;mezzanine anneau 7
+416;Plafond métal;P3;2089.2;-150.0;1800.0;0;mezzanine anneau 7
+417;Plafond métal;P3;2089.2;150.0;1800.0;0;mezzanine anneau 7
+418;Plafond métal;P3;2089.2;450.0;1800.0;0;mezzanine anneau 7
+419;Plafond triangle métal;P3;1976.7;794.9;1800.0;30;mezzanine anneau 7
+420;Plafond triangle métal;P3;1826.7;1054.7;1800.0;30;mezzanine anneau 7
+421;Plafond triangle métal;P3;1676.7;1314.5;1800.0;30;mezzanine anneau 7
+422;Plafond triangle métal;P3;2051.7;665.0;1800.0;210;mezzanine anneau 7
+423;Plafond triangle métal;P3;1901.7;924.8;1800.0;210;mezzanine anneau 7
+424;Plafond triangle métal;P3;1751.7;1184.6;1800.0;210;mezzanine anneau 7
+425;Plafond triangle métal;P3;1601.7;1444.4;1800.0;210;mezzanine anneau 7
+426;Plafond triangle métal;P3;2369.1;-450.0;1800.0;0;galerie Z1800 anneau 8
+427;Plafond triangle métal;P3;2369.1;-150.0;1800.0;0;galerie Z1800 anneau 8
+428;Plafond triangle métal;P3;2369.1;150.0;1800.0;0;galerie Z1800 anneau 8
+429;Plafond triangle métal;P3;2369.1;450.0;1800.0;0;galerie Z1800 anneau 8
+430;Plafond triangle métal;P3;2369.1;-600.0;1800.0;180;galerie Z1800 anneau 8
+431;Plafond triangle métal;P3;2369.1;-300.0;1800.0;180;galerie Z1800 anneau 8
+432;Plafond triangle métal;P3;2369.1;0.0;1800.0;180;galerie Z1800 anneau 8
+433;Plafond triangle métal;P3;2369.1;300.0;1800.0;180;galerie Z1800 anneau 8
+434;Plafond triangle métal;P3;2369.1;600.0;1800.0;180;galerie Z1800 anneau 8
+435;Plafond métal;P3;2294.1;804.9;1800.0;30;galerie Z1800 anneau 8
+436;Plafond métal;P3;2144.1;1064.7;1800.0;30;galerie Z1800 anneau 8
+437;Plafond métal;P3;1994.1;1324.5;1800.0;30;galerie Z1800 anneau 8
+438;Plafond métal;P3;1844.1;1584.3;1800.0;30;galerie Z1800 anneau 8
+439;Plafond métal;P3;2649.0;-600.0;1800.0;0;galerie Z1800 anneau 9
+440;Plafond métal;P3;2649.0;-300.0;1800.0;0;galerie Z1800 anneau 9
+441;Plafond métal;P3;2649.0;0.0;1800.0;0;galerie Z1800 anneau 9
+442;Plafond métal;P3;2649.0;300.0;1800.0;0;galerie Z1800 anneau 9
+443;Plafond métal;P3;2649.0;600.0;1800.0;0;galerie Z1800 anneau 9
+444;Plafond triangle métal;P3;2536.5;944.9;1800.0;30;galerie Z1800 anneau 9
+445;Plafond triangle métal;P3;2386.5;1204.7;1800.0;30;galerie Z1800 anneau 9
+446;Plafond triangle métal;P3;2236.5;1464.5;1800.0;30;galerie Z1800 anneau 9
+447;Plafond triangle métal;P3;2086.5;1724.3;1800.0;30;galerie Z1800 anneau 9
+448;Plafond triangle métal;P3;2611.5;815.0;1800.0;210;galerie Z1800 anneau 9
+449;Plafond triangle métal;P3;2461.5;1074.8;1800.0;210;galerie Z1800 anneau 9
+450;Plafond triangle métal;P3;2311.5;1334.6;1800.0;210;galerie Z1800 anneau 9
+451;Plafond triangle métal;P3;2161.5;1594.4;1800.0;210;galerie Z1800 anneau 9
+452;Plafond triangle métal;P3;2011.5;1854.2;1800.0;210;galerie Z1800 anneau 9
+453;Toit incliné métal;P4;3768.7;-900.0;600.0;180;pente A r0 c0 p0
+454;Toit incliné métal;P4;3768.7;-600.0;600.0;180;pente A r0 c0 p1
+455;Toit incliné métal;P4;3768.7;-300.0;600.0;180;pente A r0 c0 p2
+456;Toit incliné métal;P4;3768.7;0.0;600.0;180;pente A r0 c0 p3
+457;Toit incliné métal;P4;3768.7;300.0;600.0;180;pente A r0 c0 p4
+458;Toit incliné métal;P4;3768.7;600.0;600.0;180;pente A r0 c0 p5
+459;Toit incliné métal;P4;3768.7;900.0;600.0;180;pente A r0 c0 p6
+460;Toit incliné métal;P4;3713.7;1104.9;600.0;210;pente A r0 c1 p0
+461;Toit incliné métal;P4;3563.7;1364.7;600.0;210;pente A r0 c1 p1
+462;Toit incliné métal;P4;3413.7;1624.5;600.0;210;pente A r0 c1 p2
+463;Toit incliné métal;P4;3263.7;1884.3;600.0;210;pente A r0 c1 p3
+464;Toit incliné métal;P4;3113.7;2144.1;600.0;210;pente A r0 c1 p4
+465;Toit incliné métal;P4;2963.7;2403.9;600.0;210;pente A r0 c1 p5
+466;Toit incliné métal;P4;2813.7;2663.7;600.0;210;pente A r0 c1 p6
+467;Toit incliné métal;P4;3468.7;-600.0;900.0;180;pente A r1 c0 p1
+468;Toit incliné métal;P4;3468.7;-300.0;900.0;180;pente A r1 c0 p2
+469;Toit incliné métal;P4;3468.7;0.0;900.0;180;pente A r1 c0 p3
+470;Toit incliné métal;P4;3468.7;300.0;900.0;180;pente A r1 c0 p4
+471;Toit incliné métal;P4;3468.7;600.0;900.0;180;pente A r1 c0 p5
+472;Toit incliné métal;P4;3468.7;900.0;900.0;180;pente A r1 c0 p6
+473;Toit incliné métal;P4;3453.9;954.9;900.0;210;pente A r1 c1 p0
+474;Toit incliné métal;P4;3303.9;1214.7;900.0;210;pente A r1 c1 p1
+475;Toit incliné métal;P4;3153.9;1474.5;900.0;210;pente A r1 c1 p2
+476;Toit incliné métal;P4;3003.9;1734.3;900.0;210;pente A r1 c1 p3
+477;Toit incliné métal;P4;2853.9;1994.1;900.0;210;pente A r1 c1 p4
+478;Toit incliné métal;P4;2703.9;2253.9;900.0;210;pente A r1 c1 p5
+479;Toit incliné métal;P4;2553.9;2513.7;900.0;210;pente A r1 c1 p6
+480;Toit incliné métal;P4;2513.7;2553.9;900.0;240;pente A r1 c2 p0
+481;Toit incliné métal;P4;3168.7;-750.0;1200.0;180;pente A r2 c0 p0
+482;Toit incliné métal;P4;3168.7;-450.0;1200.0;180;pente A r2 c0 p1
+483;Toit incliné métal;P4;3168.7;-150.0;1200.0;180;pente A r2 c0 p2
+484;Toit incliné métal;P4;3168.7;150.0;1200.0;180;pente A r2 c0 p3
+485;Toit incliné métal;P4;3168.7;450.0;1200.0;180;pente A r2 c0 p4
+486;Toit incliné métal;P4;3168.7;750.0;1200.0;180;pente A r2 c0 p5
+487;Toit incliné métal;P4;3119.1;934.8;1200.0;210;pente A r2 c1 p0
+488;Toit incliné métal;P4;2969.1;1194.6;1200.0;210;pente A r2 c1 p1
+489;Toit incliné métal;P4;2819.1;1454.4;1200.0;210;pente A r2 c1 p2
+490;Toit incliné métal;P4;2669.1;1714.2;1200.0;210;pente A r2 c1 p3
+491;Toit incliné métal;P4;2519.1;1974.0;1200.0;210;pente A r2 c1 p4
+492;Toit incliné métal;P4;2369.1;2233.8;1200.0;210;pente A r2 c1 p5
+493;Toit incliné métal;P4;2868.7;-450.0;1500.0;180;pente A r3 c0 p1
+494;Toit incliné métal;P4;2868.7;-150.0;1500.0;180;pente A r3 c0 p2
+495;Toit incliné métal;P4;2868.7;150.0;1500.0;180;pente A r3 c0 p3
+496;Toit incliné métal;P4;2868.7;450.0;1500.0;180;pente A r3 c0 p4
+497;Toit incliné métal;P4;2868.7;750.0;1500.0;180;pente A r3 c0 p5
+498;Toit incliné métal;P4;2859.3;784.8;1500.0;210;pente A r3 c1 p0
+499;Toit incliné métal;P4;2709.3;1044.6;1500.0;210;pente A r3 c1 p1
+500;Toit incliné métal;P4;2559.3;1304.4;1500.0;210;pente A r3 c1 p2
+501;Toit incliné métal;P4;2409.3;1564.2;1500.0;210;pente A r3 c1 p3
+502;Toit incliné métal;P4;2259.3;1824.0;1500.0;210;pente A r3 c1 p4
+503;Toit incliné métal;P4;2109.3;2083.8;1500.0;210;pente A r3 c1 p5
+504;Toit incliné métal;P4;2083.8;2109.3;1500.0;240;pente A r3 c2 p0
+505;Toit incliné métal;P4;4068.7;-1050.0;300.0;180;overhang r-1 c0 p0
+506;Toit incliné métal;P4;4068.7;-750.0;300.0;180;overhang r-1 c0 p1
+507;Toit incliné métal;P4;4068.7;-450.0;300.0;180;overhang r-1 c0 p2
+508;Toit incliné métal;P4;4068.7;-150.0;300.0;180;overhang r-1 c0 p3
+509;Toit incliné métal;P4;4068.7;150.0;300.0;180;overhang r-1 c0 p4
+510;Toit incliné métal;P4;4068.7;450.0;300.0;180;overhang r-1 c0 p5
+511;Toit incliné métal;P4;4068.7;750.0;300.0;180;overhang r-1 c0 p6
+512;Toit incliné métal;P4;4068.7;1050.0;300.0;180;overhang r-1 c0 p7
+513;Toit incliné métal;P4;4048.6;1125.0;300.0;210;overhang r-1 c1 p0
+514;Toit incliné métal;P4;3898.6;1384.8;300.0;210;overhang r-1 c1 p1
+515;Toit incliné métal;P4;3748.6;1644.6;300.0;210;overhang r-1 c1 p2
+516;Toit incliné métal;P4;3598.6;1904.4;300.0;210;overhang r-1 c1 p3
+517;Toit incliné métal;P4;3448.6;2164.2;300.0;210;overhang r-1 c1 p4
+518;Toit incliné métal;P4;3298.6;2424.0;300.0;210;overhang r-1 c1 p5
+519;Toit incliné métal;P4;3148.6;2683.8;300.0;210;overhang r-1 c1 p6
+520;Toit incliné métal;P4;2998.6;2943.7;300.0;210;overhang r-1 c1 p7
+521;Toit incliné métal;P4;4368.7;-900.0;0.0;180;overhang r-2 c0 p1
+522;Toit incliné métal;P4;4368.7;-600.0;0.0;180;overhang r-2 c0 p2
+523;Toit incliné métal;P4;4368.7;-300.0;0.0;180;overhang r-2 c0 p3
+524;Toit incliné métal;P4;4368.7;0.0;0.0;180;overhang r-2 c0 p4
+525;Toit incliné métal;P4;4368.7;300.0;0.0;180;overhang r-2 c0 p5
+526;Toit incliné métal;P4;4368.7;600.0;0.0;180;overhang r-2 c0 p6
+527;Toit incliné métal;P4;4368.7;900.0;0.0;180;overhang r-2 c0 p7
+528;Toit incliné métal;P4;4368.7;1200.0;0.0;180;overhang r-2 c0 p8
+529;Toit incliné métal;P4;4383.4;1145.1;0.0;210;overhang r-2 c1 p0
+530;Toit incliné métal;P4;4233.4;1404.9;0.0;210;overhang r-2 c1 p1
+531;Toit incliné métal;P4;4083.4;1664.7;0.0;210;overhang r-2 c1 p2
+532;Toit incliné métal;P4;3933.4;1924.5;0.0;210;overhang r-2 c1 p3
+533;Toit incliné métal;P4;3783.4;2184.3;0.0;210;overhang r-2 c1 p4
+534;Toit incliné métal;P4;3633.4;2444.1;0.0;210;overhang r-2 c1 p5
+535;Toit incliné métal;P4;3483.4;2703.9;0.0;210;overhang r-2 c1 p6
+536;Toit incliné métal;P4;3333.4;2963.7;0.0;210;overhang r-2 c1 p7
+537;Toit incliné métal;P4;3183.4;3223.6;0.0;210;overhang r-2 c1 p8
+538;Toit incliné métal;P4;3223.6;3183.4;0.0;240;overhang r-2 c2 p0
+539;Toit incliné métal;P4;4668.7;-1200.0;-300.0;180;overhang r-3 c0 p0
+540;Toit incliné métal;P4;4668.7;-900.0;-300.0;180;overhang r-3 c0 p1
+541;Toit incliné métal;P4;4668.7;-600.0;-300.0;180;overhang r-3 c0 p2
+542;Toit incliné métal;P4;4668.7;-300.0;-300.0;180;overhang r-3 c0 p3
+543;Toit incliné métal;P4;4668.7;0.0;-300.0;180;overhang r-3 c0 p4
+544;Toit incliné métal;P4;4668.7;300.0;-300.0;180;overhang r-3 c0 p5
+545;Toit incliné métal;P4;4668.7;600.0;-300.0;180;overhang r-3 c0 p6
+546;Toit incliné métal;P4;4668.7;900.0;-300.0;180;overhang r-3 c0 p7
+547;Toit incliné métal;P4;4668.7;1200.0;-300.0;180;overhang r-3 c0 p8
+548;Toit incliné métal;P4;4643.2;1295.1;-300.0;210;overhang r-3 c1 p0
+549;Toit incliné métal;P4;4493.2;1554.9;-300.0;210;overhang r-3 c1 p1
+550;Toit incliné métal;P4;4343.2;1814.7;-300.0;210;overhang r-3 c1 p2
+551;Toit incliné métal;P4;4193.2;2074.5;-300.0;210;overhang r-3 c1 p3
+552;Toit incliné métal;P4;4043.2;2334.3;-300.0;210;overhang r-3 c1 p4
+553;Toit incliné métal;P4;3893.2;2594.1;-300.0;210;overhang r-3 c1 p5
+554;Toit incliné métal;P4;3743.2;2853.9;-300.0;210;overhang r-3 c1 p6
+555;Toit incliné métal;P4;3593.2;3113.7;-300.0;210;overhang r-3 c1 p7
+556;Toit incliné métal;P4;3443.2;3373.6;-300.0;210;overhang r-3 c1 p8
+557;Toit incliné métal;P4;4968.7;-1050.0;-600.0;180;overhang r-4 c0 p1
+558;Toit incliné métal;P4;4968.7;-750.0;-600.0;180;overhang r-4 c0 p2
+559;Toit incliné métal;P4;4968.7;-450.0;-600.0;180;overhang r-4 c0 p3
+560;Toit incliné métal;P4;4968.7;-150.0;-600.0;180;overhang r-4 c0 p4
+561;Toit incliné métal;P4;4968.7;150.0;-600.0;180;overhang r-4 c0 p5
+562;Toit incliné métal;P4;4968.7;450.0;-600.0;180;overhang r-4 c0 p6
+563;Toit incliné métal;P4;4968.7;750.0;-600.0;180;overhang r-4 c0 p7
+564;Toit incliné métal;P4;4968.7;1050.0;-600.0;180;overhang r-4 c0 p8
+565;Toit incliné métal;P4;4968.7;1350.0;-600.0;180;overhang r-4 c0 p9
+566;Toit incliné métal;P4;4978.0;1315.2;-600.0;210;overhang r-4 c1 p0
+567;Toit incliné métal;P4;4828.0;1575.0;-600.0;210;overhang r-4 c1 p1
+568;Toit incliné métal;P4;4678.0;1834.8;-600.0;210;overhang r-4 c1 p2
+569;Toit incliné métal;P4;4528.0;2094.6;-600.0;210;overhang r-4 c1 p3
+570;Toit incliné métal;P4;4378.0;2354.4;-600.0;210;overhang r-4 c1 p4
+571;Toit incliné métal;P4;4228.0;2614.2;-600.0;210;overhang r-4 c1 p5
+572;Toit incliné métal;P4;4078.0;2874.0;-600.0;210;overhang r-4 c1 p6
+573;Toit incliné métal;P4;3928.0;3133.8;-600.0;210;overhang r-4 c1 p7
+574;Toit incliné métal;P4;3778.0;3393.7;-600.0;210;overhang r-4 c1 p8
+575;Toit incliné métal;P4;3628.0;3653.5;-600.0;210;overhang r-4 c1 p9
+576;Toit incliné métal;P4;3653.5;3628.0;-600.0;240;overhang r-4 c2 p0
+577;Mur métal;P4;4518.7;-900.0;-600.0;0;jupe mur niv0 c0 p1
+578;Mur métal;P4;4518.7;-600.0;-600.0;0;jupe mur niv0 c0 p2
+579;Mur métal;P4;4518.7;-300.0;-600.0;0;jupe mur niv0 c0 p3
+580;Mur métal;P4;4518.7;0.0;-600.0;0;jupe mur niv0 c0 p4
+581;Mur métal;P4;4518.7;300.0;-600.0;0;jupe mur niv0 c0 p5
+582;Mur métal;P4;4518.7;600.0;-600.0;0;jupe mur niv0 c0 p6
+583;Mur métal;P4;4518.7;900.0;-600.0;0;jupe mur niv0 c0 p7
+584;Mur métal;P4;4518.7;1200.0;-600.0;0;jupe mur niv0 c0 p8
+585;Mur métal;P4;4513.3;1220.1;-600.0;30;jupe mur niv0 c1 p0
+586;Mur métal;P4;4363.3;1479.9;-600.0;30;jupe mur niv0 c1 p1
+587;Mur métal;P4;4213.3;1739.7;-600.0;30;jupe mur niv0 c1 p2
+588;Mur métal;P4;4063.3;1999.5;-600.0;30;jupe mur niv0 c1 p3
+589;Mur métal;P4;3913.3;2259.3;-600.0;30;jupe mur niv0 c1 p4
+590;Mur métal;P4;3763.3;2519.1;-600.0;30;jupe mur niv0 c1 p5
+591;Mur métal;P4;3613.3;2778.9;-600.0;30;jupe mur niv0 c1 p6
+592;Mur métal;P4;3463.3;3038.7;-600.0;30;jupe mur niv0 c1 p7
+593;Mur métal;P4;3313.3;3298.6;-600.0;30;jupe mur niv0 c1 p8
+594;Mur métal;P4;3298.6;3313.3;-600.0;60;jupe mur niv0 c2 p0
+595;Mur métal;P4;4518.7;-900.0;-300.0;0;jupe mur niv1 c0 p1
+596;Mur métal;P4;4518.7;-600.0;-300.0;0;jupe mur niv1 c0 p2
+597;Mur métal;P4;4518.7;-300.0;-300.0;0;jupe mur niv1 c0 p3
+598;Mur métal;P4;4518.7;0.0;-300.0;0;jupe mur niv1 c0 p4
+599;Mur métal;P4;4518.7;300.0;-300.0;0;jupe mur niv1 c0 p5
+600;Mur métal;P4;4518.7;600.0;-300.0;0;jupe mur niv1 c0 p6
+601;Mur métal;P4;4518.7;900.0;-300.0;0;jupe mur niv1 c0 p7
+602;Mur métal;P4;4518.7;1200.0;-300.0;0;jupe mur niv1 c0 p8
+603;Mur métal;P4;4513.3;1220.1;-300.0;30;jupe mur niv1 c1 p0
+604;Mur métal;P4;4363.3;1479.9;-300.0;30;jupe mur niv1 c1 p1
+605;Mur métal;P4;4213.3;1739.7;-300.0;30;jupe mur niv1 c1 p2
+606;Mur métal;P4;4063.3;1999.5;-300.0;30;jupe mur niv1 c1 p3
+607;Mur métal;P4;3913.3;2259.3;-300.0;30;jupe mur niv1 c1 p4
+608;Mur métal;P4;3763.3;2519.1;-300.0;30;jupe mur niv1 c1 p5
+609;Mur métal;P4;3613.3;2778.9;-300.0;30;jupe mur niv1 c1 p6
+610;Mur métal;P4;3463.3;3038.7;-300.0;30;jupe mur niv1 c1 p7
+611;Mur métal;P4;3313.3;3298.6;-300.0;30;jupe mur niv1 c1 p8
+612;Mur métal;P4;3298.6;3313.3;-300.0;60;jupe mur niv1 c2 p0
+613;Plafond métal;P4;4668.7;-1200.0;-600.0;0;jupe plafond s1 c0 p0
+614;Plafond métal;P4;4668.7;-900.0;-600.0;0;jupe plafond s1 c0 p1
+615;Plafond métal;P4;4668.7;-600.0;-600.0;0;jupe plafond s1 c0 p2
+616;Plafond métal;P4;4668.7;-300.0;-600.0;0;jupe plafond s1 c0 p3
+617;Plafond métal;P4;4668.7;0.0;-600.0;0;jupe plafond s1 c0 p4
+618;Plafond métal;P4;4668.7;300.0;-600.0;0;jupe plafond s1 c0 p5
+619;Plafond métal;P4;4668.7;600.0;-600.0;0;jupe plafond s1 c0 p6
+620;Plafond métal;P4;4668.7;900.0;-600.0;0;jupe plafond s1 c0 p7
+621;Plafond métal;P4;4668.7;1200.0;-600.0;0;jupe plafond s1 c0 p8
+622;Plafond métal;P4;4643.2;1295.1;-600.0;30;jupe plafond s1 c1 p0
+623;Plafond métal;P4;4493.2;1554.9;-600.0;30;jupe plafond s1 c1 p1
+624;Plafond métal;P4;4343.2;1814.7;-600.0;30;jupe plafond s1 c1 p2
+625;Plafond métal;P4;4193.2;2074.5;-600.0;30;jupe plafond s1 c1 p3
+626;Plafond métal;P4;4043.2;2334.3;-600.0;30;jupe plafond s1 c1 p4
+627;Plafond métal;P4;3893.2;2594.1;-600.0;30;jupe plafond s1 c1 p5
+628;Plafond métal;P4;3743.2;2853.9;-600.0;30;jupe plafond s1 c1 p6
+629;Plafond métal;P4;3593.2;3113.7;-600.0;30;jupe plafond s1 c1 p7
+630;Plafond métal;P4;3443.2;3373.6;-600.0;30;jupe plafond s1 c1 p8
+631;Plafond métal;P4;4968.7;-1050.0;-600.0;0;jupe plafond s2 c0 p1
+632;Plafond métal;P4;4968.7;-750.0;-600.0;0;jupe plafond s2 c0 p2
+633;Plafond métal;P4;4968.7;-450.0;-600.0;0;jupe plafond s2 c0 p3
+634;Plafond métal;P4;4968.7;-150.0;-600.0;0;jupe plafond s2 c0 p4
+635;Plafond métal;P4;4968.7;150.0;-600.0;0;jupe plafond s2 c0 p5
+636;Plafond métal;P4;4968.7;450.0;-600.0;0;jupe plafond s2 c0 p6
+637;Plafond métal;P4;4968.7;750.0;-600.0;0;jupe plafond s2 c0 p7
+638;Plafond métal;P4;4968.7;1050.0;-600.0;0;jupe plafond s2 c0 p8
+639;Plafond métal;P4;4968.7;1350.0;-600.0;0;jupe plafond s2 c0 p9
+640;Plafond métal;P4;4978.0;1315.2;-600.0;30;jupe plafond s2 c1 p0
+641;Plafond métal;P4;4828.0;1575.0;-600.0;30;jupe plafond s2 c1 p1
+642;Plafond métal;P4;4678.0;1834.8;-600.0;30;jupe plafond s2 c1 p2
+643;Plafond métal;P4;4528.0;2094.6;-600.0;30;jupe plafond s2 c1 p3
+644;Plafond métal;P4;4378.0;2354.4;-600.0;30;jupe plafond s2 c1 p4
+645;Plafond métal;P4;4228.0;2614.2;-600.0;30;jupe plafond s2 c1 p5
+646;Plafond métal;P4;4078.0;2874.0;-600.0;30;jupe plafond s2 c1 p6
+647;Plafond métal;P4;3928.0;3133.8;-600.0;30;jupe plafond s2 c1 p7
+648;Plafond métal;P4;3778.0;3393.7;-600.0;30;jupe plafond s2 c1 p8
+649;Plafond métal;P4;3628.0;3653.5;-600.0;30;jupe plafond s2 c1 p9
+650;Plafond métal;P4;3653.5;3628.0;-600.0;60;jupe plafond s2 c2 p0
+651;Plafond triangle métal;P5;2369.1;-450.0;2100.0;0;galerie Z2100 anneau 8
+652;Plafond triangle métal;P5;2369.1;-150.0;2100.0;0;galerie Z2100 anneau 8
+653;Plafond triangle métal;P5;2369.1;150.0;2100.0;0;galerie Z2100 anneau 8
+654;Plafond triangle métal;P5;2369.1;450.0;2100.0;0;galerie Z2100 anneau 8
+655;Plafond triangle métal;P5;2369.1;-600.0;2100.0;180;galerie Z2100 anneau 8
+656;Plafond triangle métal;P5;2369.1;-300.0;2100.0;180;galerie Z2100 anneau 8
+657;Plafond triangle métal;P5;2369.1;0.0;2100.0;180;galerie Z2100 anneau 8
+658;Plafond triangle métal;P5;2369.1;300.0;2100.0;180;galerie Z2100 anneau 8
+659;Plafond triangle métal;P5;2369.1;600.0;2100.0;180;galerie Z2100 anneau 8
+660;Plafond à trappe métal;P5;2294.1;804.9;2100.0;30;galerie Z2100 anneau 8
+661;Plafond métal;P5;2144.1;1064.7;2100.0;30;galerie Z2100 anneau 8
+662;Plafond métal;P5;1994.1;1324.5;2100.0;30;galerie Z2100 anneau 8
+663;Plafond métal;P5;1844.1;1584.3;2100.0;30;galerie Z2100 anneau 8
+664;Plafond métal;P5;2649.0;-600.0;2100.0;0;galerie Z2100 anneau 9
+665;Plafond métal;P5;2649.0;-300.0;2100.0;0;galerie Z2100 anneau 9
+666;Plafond métal;P5;2649.0;0.0;2100.0;0;galerie Z2100 anneau 9
+667;Plafond métal;P5;2649.0;300.0;2100.0;0;galerie Z2100 anneau 9
+668;Plafond métal;P5;2649.0;600.0;2100.0;0;galerie Z2100 anneau 9
+669;Plafond triangle métal;P5;2536.5;944.9;2100.0;30;galerie Z2100 anneau 9
+670;Plafond triangle métal;P5;2386.5;1204.7;2100.0;30;galerie Z2100 anneau 9
+671;Plafond triangle métal;P5;2236.5;1464.5;2100.0;30;galerie Z2100 anneau 9
+672;Plafond triangle métal;P5;2086.5;1724.3;2100.0;30;galerie Z2100 anneau 9
+673;Plafond triangle métal;P5;2611.5;815.0;2100.0;210;galerie Z2100 anneau 9
+674;Plafond triangle métal;P5;2461.5;1074.8;2100.0;210;galerie Z2100 anneau 9
+675;Plafond triangle métal;P5;2311.5;1334.6;2100.0;210;galerie Z2100 anneau 9
+676;Plafond triangle métal;P5;2161.5;1594.4;2100.0;210;galerie Z2100 anneau 9
+677;Plafond triangle métal;P5;2011.5;1854.2;2100.0;210;galerie Z2100 anneau 9
+678;Plafond triangle métal;P5;2369.1;-450.0;2400.0;0;galerie Z2400 anneau 8
+679;Plafond triangle métal;P5;2369.1;-150.0;2400.0;0;galerie Z2400 anneau 8
+680;Plafond triangle métal;P5;2369.1;150.0;2400.0;0;galerie Z2400 anneau 8
+681;Plafond triangle métal;P5;2369.1;450.0;2400.0;0;galerie Z2400 anneau 8
+682;Plafond triangle métal;P5;2369.1;-600.0;2400.0;180;galerie Z2400 anneau 8
+683;Plafond triangle métal;P5;2369.1;-300.0;2400.0;180;galerie Z2400 anneau 8
+684;Plafond triangle métal;P5;2369.1;0.0;2400.0;180;galerie Z2400 anneau 8
+685;Plafond triangle métal;P5;2369.1;300.0;2400.0;180;galerie Z2400 anneau 8
+686;Plafond triangle métal;P5;2369.1;600.0;2400.0;180;galerie Z2400 anneau 8
+687;Plafond métal;P5;2294.1;804.9;2400.0;30;galerie Z2400 anneau 8
+688;Plafond métal;P5;2144.1;1064.7;2400.0;30;galerie Z2400 anneau 8
+689;Plafond métal;P5;1994.1;1324.5;2400.0;30;galerie Z2400 anneau 8
+690;Plafond métal;P5;1844.1;1584.3;2400.0;30;galerie Z2400 anneau 8
+691;Plafond métal;P5;2649.0;-600.0;2400.0;0;galerie Z2400 anneau 9
+692;Plafond métal;P5;2649.0;-300.0;2400.0;0;galerie Z2400 anneau 9
+693;Plafond métal;P5;2649.0;0.0;2400.0;0;galerie Z2400 anneau 9
+694;Plafond métal;P5;2649.0;300.0;2400.0;0;galerie Z2400 anneau 9
+695;Plafond métal;P5;2649.0;600.0;2400.0;0;galerie Z2400 anneau 9
+696;Plafond triangle métal;P5;2536.5;944.9;2400.0;30;galerie Z2400 anneau 9
+697;Plafond triangle métal;P5;2386.5;1204.7;2400.0;30;galerie Z2400 anneau 9
+698;Plafond triangle métal;P5;2236.5;1464.5;2400.0;30;galerie Z2400 anneau 9
+699;Plafond triangle métal;P5;2086.5;1724.3;2400.0;30;galerie Z2400 anneau 9
+700;Plafond triangle métal;P5;2611.5;815.0;2400.0;210;galerie Z2400 anneau 9
+701;Plafond triangle métal;P5;2461.5;1074.8;2400.0;210;galerie Z2400 anneau 9
+702;Plafond triangle métal;P5;2311.5;1334.6;2400.0;210;galerie Z2400 anneau 9
+703;Plafond triangle métal;P5;2161.5;1594.4;2400.0;210;galerie Z2400 anneau 9
+704;Plafond triangle métal;P5;2011.5;1854.2;2400.0;210;galerie Z2400 anneau 9
+705;Cadre de porte double métal;P5;2799.0;-600.0;2100.0;0;cage L2 c0 p0
+706;Cadre de porte double métal;P5;2799.0;-300.0;2100.0;0;cage L2 c0 p1
+707;Cadre de porte double métal;P5;2799.0;0.0;2100.0;0;cage L2 c0 p2
+708;Cadre de porte double métal;P5;2799.0;300.0;2100.0;0;cage L2 c0 p3
+709;Cadre de porte double métal;P5;2799.0;600.0;2100.0;0;cage L2 c0 p4
+710;Cadre de porte double métal;P5;2724.0;879.9;2100.0;30;cage L2 c1 p0
+711;Cadre de porte double métal;P5;2574.0;1139.7;2100.0;30;cage L2 c1 p1
+712;Cadre de porte double métal;P5;2424.0;1399.5;2100.0;30;cage L2 c1 p2
+713;Cadre de porte double métal;P5;2274.0;1659.3;2100.0;30;cage L2 c1 p3
+714;Cadre de porte double métal;P5;2124.0;1919.1;2100.0;30;cage L2 c1 p4
+715;Toit incliné métal;P5;2949.0;-750.0;2100.0;180;casquette r-1 c0 p0
+716;Toit incliné métal;P5;2949.0;-450.0;2100.0;180;casquette r-1 c0 p1
+717;Toit incliné métal;P5;2949.0;-150.0;2100.0;180;casquette r-1 c0 p2
+718;Toit incliné métal;P5;2949.0;150.0;2100.0;180;casquette r-1 c0 p3
+719;Toit incliné métal;P5;2949.0;450.0;2100.0;180;casquette r-1 c0 p4
+720;Toit incliné métal;P5;2949.0;750.0;2100.0;180;casquette r-1 c0 p5
+721;Toit incliné métal;P5;2928.9;825.0;2100.0;210;casquette r-1 c1 p0
+722;Toit incliné métal;P5;2778.9;1084.8;2100.0;210;casquette r-1 c1 p1
+723;Toit incliné métal;P5;2628.9;1344.6;2100.0;210;casquette r-1 c1 p2
+724;Toit incliné métal;P5;2478.9;1604.4;2100.0;210;casquette r-1 c1 p3
+725;Toit incliné métal;P5;2328.9;1864.2;2100.0;210;casquette r-1 c1 p4
+726;Toit incliné métal;P5;2178.9;2124.0;2100.0;210;casquette r-1 c1 p5
+727;Mur métal;P6;2239.2;-450.0;1800.0;0;pod niv6 c0 p0
+728;Cadre de porte double métal;P6;2239.2;-150.0;1800.0;0;pod niv6 c0 p1
+729;Mur métal;P6;2239.2;150.0;1800.0;0;pod niv6 c0 p2
+730;Mur métal;P6;2239.2;450.0;1800.0;0;pod niv6 c0 p3
+731;Mur métal;P6;2164.2;729.9;1800.0;30;pod niv6 c1 p0
+732;Cadre de porte double métal;P6;2014.2;989.7;1800.0;30;pod niv6 c1 p1
+733;Mur métal;P6;1864.2;1249.5;1800.0;30;pod niv6 c1 p2
+734;Mur métal;P6;1714.2;1509.3;1800.0;30;pod niv6 c1 p3
+735;Mur métal;P6;2239.2;-450.0;2100.0;0;pod niv7 c0 p0
+736;Mur métal;P6;2239.2;-150.0;2100.0;0;pod niv7 c0 p1
+737;Mur métal;P6;2239.2;150.0;2100.0;0;pod niv7 c0 p2
+738;Mur métal;P6;2239.2;450.0;2100.0;0;pod niv7 c0 p3
+739;Mur métal;P6;2164.2;729.9;2100.0;30;pod niv7 c1 p0
+740;Mur métal;P6;2014.2;989.7;2100.0;30;pod niv7 c1 p1
+741;Mur métal;P6;1864.2;1249.5;2100.0;30;pod niv7 c1 p2
+742;Mur métal;P6;1714.2;1509.3;2100.0;30;pod niv7 c1 p3
+743;Pilier métal;P6;1119.6;300.0;1800.0;0;pilier PA0
+744;Pilier métal;P6;1119.6;300.0;2100.0;0;pilier PA0
+745;Pilier métal;P6;819.6;819.6;1800.0;0;pilier PA1
+746;Pilier métal;P6;819.6;819.6;2100.0;0;pilier PA1
+747;Pilier métal;P6;559.8;150.0;1800.0;0;pilier PB0
+748;Pilier métal;P6;559.8;150.0;2100.0;0;pilier PB0
+749;Pilier métal;P6;409.8;409.8;1800.0;0;pilier PB1
+750;Pilier métal;P6;409.8;409.8;2100.0;0;pilier PB1
+751;Plafond triangle métal;P6;129.9;0.0;2400.0;180;plancher de toit anneau 0
+752;Plafond métal;P6;409.8;0.0;2400.0;0;plancher de toit anneau 1
+753;Plafond triangle métal;P6;372.3;215.0;2400.0;210;plancher de toit anneau 1
+754;Plafond triangle métal;P6;689.7;0.0;2400.0;0;plancher de toit anneau 2
+755;Plafond triangle métal;P6;689.7;-150.0;2400.0;180;plancher de toit anneau 2
+756;Plafond triangle métal;P6;689.7;150.0;2400.0;180;plancher de toit anneau 2
+757;Plafond métal;P6;614.7;354.9;2400.0;30;plancher de toit anneau 2
+758;Plafond métal;P6;969.6;-150.0;2400.0;0;plancher de toit anneau 3
+759;Plafond métal;P6;969.6;150.0;2400.0;0;plancher de toit anneau 3
+760;Plafond triangle métal;P6;857.1;494.9;2400.0;30;plancher de toit anneau 3
+761;Plafond triangle métal;P6;932.1;365.0;2400.0;210;plancher de toit anneau 3
+762;Plafond triangle métal;P6;782.1;624.8;2400.0;210;plancher de toit anneau 3
+763;Plafond triangle métal;P6;1249.5;-150.0;2400.0;0;plancher de toit anneau 4
+764;Plafond triangle métal;P6;1249.5;150.0;2400.0;0;plancher de toit anneau 4
+765;Plafond triangle métal;P6;1249.5;-300.0;2400.0;180;plancher de toit anneau 4
+766;Plafond triangle métal;P6;1249.5;0.0;2400.0;180;plancher de toit anneau 4
+767;Plafond triangle métal;P6;1249.5;300.0;2400.0;180;plancher de toit anneau 4
+768;Plafond métal;P6;1174.5;504.9;2400.0;30;plancher de toit anneau 4
+769;Plafond métal;P6;1024.5;764.7;2400.0;30;plancher de toit anneau 4
+770;Plafond métal;P6;1529.4;-300.0;2400.0;0;plancher de toit anneau 5
+771;Plafond métal;P6;1529.4;0.0;2400.0;0;plancher de toit anneau 5
+772;Plafond métal;P6;1529.4;300.0;2400.0;0;plancher de toit anneau 5
+773;Plafond triangle métal;P6;1416.9;644.9;2400.0;30;plancher de toit anneau 5
+774;Plafond triangle métal;P6;1266.9;904.7;2400.0;30;plancher de toit anneau 5
+775;Plafond triangle métal;P6;1491.9;515.0;2400.0;210;plancher de toit anneau 5
+776;Plafond triangle métal;P6;1341.9;774.8;2400.0;210;plancher de toit anneau 5
+777;Plafond triangle métal;P6;1191.9;1034.6;2400.0;210;plancher de toit anneau 5
+778;Plafond triangle métal;P6;1809.3;-300.0;2400.0;0;plancher de toit anneau 6
+779;Plafond triangle métal;P6;1809.3;0.0;2400.0;0;plancher de toit anneau 6
+780;Plafond triangle métal;P6;1809.3;300.0;2400.0;0;plancher de toit anneau 6
+781;Plafond triangle métal;P6;1809.3;-450.0;2400.0;180;plancher de toit anneau 6
+782;Plafond triangle métal;P6;1809.3;-150.0;2400.0;180;plancher de toit anneau 6
+783;Plafond triangle métal;P6;1809.3;150.0;2400.0;180;plancher de toit anneau 6
+784;Plafond triangle métal;P6;1809.3;450.0;2400.0;180;plancher de toit anneau 6
+785;Plafond métal;P6;1734.3;654.9;2400.0;30;plancher de toit anneau 6
+786;Plafond métal;P6;1584.3;914.7;2400.0;30;plancher de toit anneau 6
+787;Plafond métal;P6;1434.3;1174.5;2400.0;30;plancher de toit anneau 6
+788;Plafond métal;P6;2089.2;-450.0;2400.0;0;plancher de toit anneau 7
+789;Plafond métal;P6;2089.2;-150.0;2400.0;0;plancher de toit anneau 7
+790;Plafond métal;P6;2089.2;150.0;2400.0;0;plancher de toit anneau 7
+791;Plafond métal;P6;2089.2;450.0;2400.0;0;plancher de toit anneau 7
+792;Plafond triangle métal;P6;1976.7;794.9;2400.0;30;plancher de toit anneau 7
+793;Plafond triangle métal;P6;1826.7;1054.7;2400.0;30;plancher de toit anneau 7
+794;Plafond triangle métal;P6;1676.7;1314.5;2400.0;30;plancher de toit anneau 7
+795;Plafond triangle métal;P6;2051.7;665.0;2400.0;210;plancher de toit anneau 7
+796;Plafond triangle métal;P6;1901.7;924.8;2400.0;210;plancher de toit anneau 7
+797;Plafond triangle métal;P6;1751.7;1184.6;2400.0;210;plancher de toit anneau 7
+798;Plafond triangle métal;P6;1601.7;1444.4;2400.0;210;plancher de toit anneau 7
+799;Rampe inclinée métal (Sloped Railing);P6;2949.0;-600.0;2400.0;270;toit rampes r0 c0 t-2
+800;Rampe inclinée métal (Sloped Railing);P6;2949.0;-300.0;2400.0;270;toit rampes r0 c0 t-1
+801;Rampe inclinée métal (Sloped Railing);P6;2949.0;0.0;2400.0;270;toit rampes r0 c0 t0
+802;Rampe inclinée métal (Sloped Railing);P6;2949.0;300.0;2400.0;270;toit rampes r0 c0 t1
+803;Rampe inclinée métal (Sloped Railing);P6;2949.0;600.0;2400.0;270;toit rampes r0 c0 t2
+804;Rampe inclinée métal (Sloped Railing);P6;2853.9;954.9;2400.0;300;toit rampes r0 c1 t-2
+805;Rampe inclinée métal (Sloped Railing);P6;2703.9;1214.7;2400.0;300;toit rampes r0 c1 t-1
+806;Rampe inclinée métal (Sloped Railing);P6;2553.9;1474.5;2400.0;300;toit rampes r0 c1 t0
+807;Rampe inclinée métal (Sloped Railing);P6;2403.9;1734.3;2400.0;300;toit rampes r0 c1 t1
+808;Rampe inclinée métal (Sloped Railing);P6;2253.9;1994.1;2400.0;300;toit rampes r0 c1 t2
+809;Rampe inclinée métal (Sloped Railing);P6;2649.0;-600.0;2700.0;270;toit rampes r1 c0 t-2
+810;Rampe inclinée métal (Sloped Railing);P6;2649.0;-300.0;2700.0;270;toit rampes r1 c0 t-1
+811;Rampe inclinée métal (Sloped Railing);P6;2649.0;0.0;2700.0;270;toit rampes r1 c0 t0
+812;Rampe inclinée métal (Sloped Railing);P6;2649.0;300.0;2700.0;270;toit rampes r1 c0 t1
+813;Rampe inclinée métal (Sloped Railing);P6;2649.0;600.0;2700.0;270;toit rampes r1 c0 t2
+814;Rampe inclinée métal (Sloped Railing);P6;2594.1;804.9;2700.0;300;toit rampes r1 c1 t-2
+815;Rampe inclinée métal (Sloped Railing);P6;2444.1;1064.7;2700.0;300;toit rampes r1 c1 t-1
+816;Rampe inclinée métal (Sloped Railing);P6;2294.1;1324.5;2700.0;300;toit rampes r1 c1 t0
+817;Rampe inclinée métal (Sloped Railing);P6;2144.1;1584.3;2700.0;300;toit rampes r1 c1 t1
+818;Rampe inclinée métal (Sloped Railing);P6;1994.1;1844.1;2700.0;300;toit rampes r1 c1 t2
+819;Rampe inclinée métal (Sloped Railing);P6;2349.0;-600.0;3000.0;270;toit rampes r2 c0 t-2
+820;Rampe inclinée métal (Sloped Railing);P6;2349.0;-300.0;3000.0;270;toit rampes r2 c0 t-1
+821;Rampe inclinée métal (Sloped Railing);P6;2349.0;0.0;3000.0;270;toit rampes r2 c0 t0
+822;Rampe inclinée métal (Sloped Railing);P6;2349.0;300.0;3000.0;270;toit rampes r2 c0 t1
+823;Rampe inclinée métal (Sloped Railing);P6;2349.0;600.0;3000.0;270;toit rampes r2 c0 t2
+824;Rampe inclinée métal (Sloped Railing);P6;2334.3;654.9;3000.0;300;toit rampes r2 c1 t-2
+825;Rampe inclinée métal (Sloped Railing);P6;2184.3;914.7;3000.0;300;toit rampes r2 c1 t-1
+826;Rampe inclinée métal (Sloped Railing);P6;2034.3;1174.5;3000.0;300;toit rampes r2 c1 t0
+827;Rampe inclinée métal (Sloped Railing);P6;1884.3;1434.3;3000.0;300;toit rampes r2 c1 t1
+828;Rampe inclinée métal (Sloped Railing);P6;1734.3;1694.1;3000.0;300;toit rampes r2 c1 t2
+829;Rampe inclinée métal (Sloped Railing);P6;2049.0;-300.0;3300.0;270;toit rampes r3 c0 t-1
+830;Rampe inclinée métal (Sloped Railing);P6;2049.0;0.0;3300.0;270;toit rampes r3 c0 t0
+831;Rampe inclinée métal (Sloped Railing);P6;2049.0;300.0;3300.0;270;toit rampes r3 c0 t1
+832;Rampe inclinée métal (Sloped Railing);P6;1924.5;764.7;3300.0;300;toit rampes r3 c1 t-1
+833;Rampe inclinée métal (Sloped Railing);P6;1774.5;1024.5;3300.0;300;toit rampes r3 c1 t0
+834;Rampe inclinée métal (Sloped Railing);P6;1624.5;1284.3;3300.0;300;toit rampes r3 c1 t1
+835;Rampe inclinée métal (Sloped Railing);P6;1749.0;-300.0;3600.0;270;toit rampes r4 c0 t-1
+836;Rampe inclinée métal (Sloped Railing);P6;1749.0;0.0;3600.0;270;toit rampes r4 c0 t0
+837;Rampe inclinée métal (Sloped Railing);P6;1749.0;300.0;3600.0;270;toit rampes r4 c0 t1
+838;Rampe inclinée métal (Sloped Railing);P6;1664.7;614.7;3600.0;300;toit rampes r4 c1 t-1
+839;Rampe inclinée métal (Sloped Railing);P6;1514.7;874.5;3600.0;300;toit rampes r4 c1 t0
+840;Rampe inclinée métal (Sloped Railing);P6;1364.7;1134.3;3600.0;300;toit rampes r4 c1 t1
+841;Rampe inclinée métal (Sloped Railing);P6;1449.0;-300.0;3900.0;270;toit rampes r5 c0 t-1
+842;Rampe inclinée métal (Sloped Railing);P6;1449.0;0.0;3900.0;270;toit rampes r5 c0 t0
+843;Rampe inclinée métal (Sloped Railing);P6;1449.0;300.0;3900.0;270;toit rampes r5 c0 t1
+844;Rampe inclinée métal (Sloped Railing);P6;1404.9;464.7;3900.0;300;toit rampes r5 c1 t-1
+845;Rampe inclinée métal (Sloped Railing);P6;1254.9;724.5;3900.0;300;toit rampes r5 c1 t0
+846;Rampe inclinée métal (Sloped Railing);P6;1104.9;984.3;3900.0;300;toit rampes r5 c1 t1
+847;Rampe inclinée métal (Sloped Railing);P6;1149.0;0.0;4200.0;270;toit rampes r6 c0 t0
+848;Rampe inclinée métal (Sloped Railing);P6;1149.0;300.0;4200.0;270;toit rampes r6 c0 t1
+849;Rampe inclinée métal (Sloped Railing);P6;1145.1;314.7;4200.0;300;toit rampes r6 c1 t-1
+850;Rampe inclinée métal (Sloped Railing);P6;995.1;574.5;4200.0;300;toit rampes r6 c1 t0
+851;Rampe inclinée métal (Sloped Railing);P6;845.1;834.3;4200.0;300;toit rampes r6 c1 t1
+852;Rampe inclinée métal (Sloped Railing);P6;834.3;845.1;4200.0;330;toit rampes r6 c2 t-1
+853;Rampe inclinée métal (Sloped Railing);P6;849.0;0.0;4500.0;270;toit rampes r7 c0 t0
+854;Rampe inclinée métal (Sloped Railing);P6;735.3;424.5;4500.0;300;toit rampes r7 c1 t0
+855;Rampe inclinée métal (Sloped Railing);P6;549.0;0.0;4800.0;270;toit rampes r8 c0 t0
+856;Rampe inclinée métal (Sloped Railing);P6;475.5;274.5;4800.0;300;toit rampes r8 c1 t0
+857;Rampe inclinée métal (Sloped Railing);P6;249.0;0.0;5100.0;270;toit rampes r9 c0 t0
+858;Rampe inclinée métal (Sloped Railing);P6;215.7;124.5;5100.0;300;toit rampes r9 c1 t0

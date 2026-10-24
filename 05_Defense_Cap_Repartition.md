@@ -105,10 +105,10 @@ Le motif est le même dans chaque part : sur L1, Tek et Heavy alternent sans int
 | L1 | −49,0° → +38,2°, ≈ 180° en azimut par tourelle | pente A en bas, bout de casquette en haut |
 | JUPE-ext | −89,9° → +17,0° vers la mer | plafond de jupe |
 | JUPE-int | −89,9° → +37,2° vers le piton et le dessous de la plateforme | plafond de jupe ; sous-face de plateforme non modélisée |
-| Tesla | toute la bande décaissée (3 919 → 4 479 UU) | poche fermée sous l'overhang |
+| Tesla | palier 1 entier (3 919 → 4 179 UU, Z −150) et palier 2 de 4 230 à 4 479 UU (Z −300) | poche fermée sous l'overhang ; 51 UU du palier 2 masqués derrière la marche de Ø 28 |
 
 **Zones d'ombre traitées**
-- Pied de rive : 6 Tesla et 84 pics.
+- Pied de rive : 6 Tesla et 84 pics. Les 51 UU masqués au pied de la marche de Ø 28 sont trop étroits pour un dino, mais un joueur collé à la marche y échappe à la Tesla. Pour fermer ce recoin, posez une rangée de pics au pied de la marche (à la main, hors template).
 - Dessous de la plateforme : 18 Heavy tournées vers le piton (3 par part).
 - Mer au pied du piton : 12 Heavy tournées vers l'extérieur, plus L1 jusqu'à −49°.
 

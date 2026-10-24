@@ -3,8 +3,9 @@
 Template : `templates/04_cage_casquette.json`, réparti dans les phases :
 - **P2** : fût ;
 - **P3** : plancher Z1800 ;
-- **P5** : planchers 2100/2400, double doorframes L2, casquette ;
-- **P6** : reprise.
+- **P5** : planchers 2100/2400, double doorframes L2, casquette.
+
+Au-dessus de la cage, le toit en rampes inclinées couvre le pod et la cage d'un seul tenant (module 02 §8). Il remplace l'ancienne reprise.
 
 Les 60 tourelles de L1 et leurs murs de chaume sont dans `templates/05_tourelles_scenario_B.json` (phase **P7**).
 Coordonnées : `donnees/04_cage_casquette.csv`, `donnees/05_matrice_tourelles.csv`.
@@ -44,7 +45,7 @@ Les planchers reprennent les anneaux 8 et 9 du pavage, en plafonds : 54 plafonds
 |---|---|---|
 | Galerie L1 | 1800 (P3) | coursive de service derrière les tourelles ; accès depuis la mezzanine par les 12 cadres du niveau 6 du pod |
 | Galerie L2 | 2100 (P5) | coursive derrière les double doorframes ; 6 plafonds à trappe (1 par part, côtés E1) + échelles |
-| Toit de cage | 2400 (P5) | ferme la cage ; porte la casquette et la reprise |
+| Toit de cage | 2400 (P5) | ferme la cage ; prolonge le plancher de toit du pod ; porte la casquette et le premier rang du toit en rampes |
 
 Le plancher Z2100 est porté par le mur de pod et par les pièces des anneaux 8-9 qui s'y accrochent. Il ne dépend pas de L1 : la démolition du chaume ne le fragilise pas.
 
@@ -77,8 +78,7 @@ Après démolition, L1 devient une bande d'ouvertures où chaque tourelle occupe
 |---|---|---|---|---|
 | Casquette r−1 (défaut) | 3 099,0 | 2100 → 2400 | 6 | 72 |
 | Casquette r−2 (option `--casquette 2`) | 3 399,0 | 1800 → 2100 | 7 | 84 |
-| Reprise r0 | 2 799,0 | 2400 → 2700 | 5 | 60 |
-| Reprise r1 | 2 499,0 | 2700 → 3000 (s'encastre de 40 UU dans le mur de pod) | 5 | 60 |
+| Toit en rampes (au-dessus) | pivots à partir de 2 949,0 | 2400 → 5150 | lames au pas de 300 | 360 rampes (module 02 §8) |
 
 **Pourquoi rien ne s'accroche aux tourelles**
 1. Les tourelles sont sous le toit de cage (Z2400) et sous la casquette. Rien ne tombe sur elles par le haut.

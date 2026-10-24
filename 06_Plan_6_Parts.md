@@ -2,7 +2,7 @@
 
 Ce plan contient sol, structure, colonnade, toitures et tourelles. Les outils de production et de stockage n'en font pas partie : ils figurent au [module 07](07_Bilan_Materiaux.md).
 
-**Principe.** La forteresse est découpée en **6 parts identiques de 60°**. On passe de l'une à la suivante par une rotation de 60° autour du centre. Un seul élément n'entre pas dans ce découpage : le **noyau central** (Coeur Base, escalier, centre de la mezzanine, pointe du cône), qui n'a pas de symétrie et se pose une seule fois.
+**Principe.** La forteresse est découpée en **6 parts identiques de 60°**. On passe de l'une à la suivante par une rotation de 60° autour du centre. Un seul élément n'entre pas dans ce découpage : le **noyau central** (Coeur Base, escalier, centre de la mezzanine), qui n'a pas de symétrie et se pose une seule fois.
 
 Templates : `templates/parts/`. Coordonnées de la part 1, avec la phase de chaque pièce : `donnees/06_part_1_structure.csv`. La part k s'obtient en tournant la part 1 de 60°·(k − 1).
 
@@ -25,15 +25,15 @@ Templates : `templates/parts/`. Coordonnées de la part 1, avec la phase de chaq
 
 ## 2. Contenu d'une part (identique pour les 6)
 
-### Structure : 971 pièces
+### Structure : 857 pièces
 
 | Élément | Pièces par part | Détail | Phase |
 |---|---|---|---|
-| Sol (étoile, anneaux 1-15, dont la bande décaissée) | 192 | 64 fondations + 128 triangles | P1 |
-| Mur de pod D4 (10 niveaux) | 80 | 77 murs + 3 cadres doubles (1 porte au sol, 2 accès galerie) | P2 / P6 |
-| Piliers PA (2 colonnes) | 28 | 26 piliers + 2 demi-piliers | P2 / P6 |
-| Piliers PB (2 colonnes) | 20 | 18 piliers + 2 demi-piliers | P6 |
-| **Colonnade** (40 colonnes, 1 passage à θ 30°) | 160 | 128 piliers + 32 demi-piliers | P2 |
+| Sol (étoile, anneaux 1-15, dont les 2 paliers de bord) | 192 | 64 fondations + 128 triangles | P1 |
+| Mur de pod D4 (8 niveaux) | 64 | 61 murs + 3 cadres doubles (1 porte au sol, 2 accès galerie) | P2 / P6 |
+| Piliers PA (2 colonnes, Z0 → 2400) | 16 | piliers | P2 / P6 |
+| Piliers PB (2 colonnes, Z1800 → 2400) | 4 | piliers | P6 |
+| **Colonnade** (40 colonnes de 1 pilier, 1 passage à θ 30°) | 40 | piliers | P2 |
 | Fût D5 (6 niveaux) | 60 | 59 murs + 1 cadre double (porte au sol) | P2 |
 | Rive D7 (2 niveaux) | 27 | 27 murs. Il reste 1 emplacement libre au niveau 1 pour la Tesla | P2 |
 | Mezzanine Z1800 (hors centre) | 45 | 15 plafonds + 30 triangles | P3 |
@@ -43,9 +43,11 @@ Templates : `templates/parts/`. Coordonnées de la part 1, avec la phase de chaq
 | Jupe | 74 | 36 murs + 38 plafonds | P4 |
 | Cage L2 | 10 | cadres doubles | P5 |
 | Casquette | 12 | toits | P5 |
-| Reprise | 20 | toits | P6 |
-| Cône (7 rangs) | 38 | toits | P6 |
-| **Total** | **971** | lingots ≈ 27 595 ; pâte ≈ 7 983 | |
+| Plancher de toit Z2400 (sur le pod) | 48 | 16 plafonds + 32 triangles | P6 |
+| **Toit en rampes inclinées** (2 pans sur 12) | 60 | rampes (Sloped Railing) | P6 |
+| **Total** | **857** | lingots ≈ 23 753 ; pâte ≈ 6 863 | |
+
+Par rapport à la version précédente (971 pièces, 7 983 pâte), une part perd le cône (38 toits) et la reprise (20 toits), 2 niveaux de mur de pod (16 murs), le haut des piliers PA/PB (28 pièces) et 120 pièces de colonnade. Elle gagne le plancher de toit (48 plafonds) et les 60 rampes.
 
 ### Tourelles : 16 par part, chacune avec son mur de chaume
 
@@ -64,14 +66,15 @@ Templates : `templates/parts/`. Coordonnées de la part 1, avec la phase de chaq
 
 ## 3. Noyau central (posé une seule fois)
 
-`templates/parts/Noyau_central.json`, 106 pièces :
+`templates/parts/Noyau_central.json`, 101 pièces :
 
 | Élément | Pièces |
 |---|---|
 | Coeur Base sans ses fondations ni son coffre (le coffre est compté dans les 20 coffres-forts, module 07) | 35 murs, 3 portes secrètes, 1 escalier, 40 plafonds triangles, 5 plafonds |
 | Escalier prolongé jusqu'à Z1800 | 5 escaliers |
 | Centre de la mezzanine Z1800, avec la trémie de l'escalier | 4 plafonds + 8 plafonds triangles |
-| Capuchon et pointe du cône | 1 plafond + 4 demi-toits |
+
+Le toit en rampes n'a pas de pièce centrale : ses 12 lames de faîtage s'arrêtent à 99 UU du centre. Il est donc entièrement réparti dans les 6 parts.
 
 ## 4. Ce que la symétrie a changé
 
@@ -98,12 +101,12 @@ Six parts égales imposent que tout élément unique soit présent dans chaque p
 |---|---|---|
 | 1 | `parts/Part_1_structure.json` | contient la pile d'ancrage de 2 demi-piliers en (0 ; 300) (`snapOverrides [0,1]`) |
 | 2 à 6 | `parts/Part_2_structure.json` … `Part_6_structure.json` | chacun a 1 demi-pilier qui se pose sur la pile (`snapOverrides [0]`) ; ils sont déjà tournés, aucune rotation à faire |
-| 7 | `parts/Noyau_central.json` | Coeur Base, escalier, centre de la mezzanine, pointe |
+| 7 | `parts/Noyau_central.json` | Coeur Base, escalier, centre de la mezzanine |
 | 8 à 13 | `parts/Part_1_tourelles.json` … `Part_6_tourelles.json` | 16 paires mur de chaume + tourelle par part. 96 tourelles au total, sous le cap |
 | 14 | à la main | démolition des 96 murs de chaume, 84 pics, portes doubles, échelles, équipements (module 07), démolition de la pile d'ancrage |
 
-- Dans chaque template de part, les pièces sont **triées par phase** (sol → piliers et murs → plafonds → rampes → cage → dôme). L'ordre des accroches est donc respecté à l'intérieur de la part.
-- ⚠ Une part posée d'un bloc contient des pièces dont l'appui est en partie dans la part voisine : toits des arêtes, plafonds en limite. Si Template Hammer refuse des pièces faute d'appui, utilisez les templates par phase (`templates/phases/P1` à `P7`). Ils contiennent exactement les mêmes pièces, posées couche par couche sur tout le tour.
+- Dans chaque template de part, les pièces sont **triées par phase** (sol → piliers et murs → plafonds → pentes de glisse → cage → toit en rampes). L'ordre des accroches est donc respecté à l'intérieur de la part.
+- ⚠ Une part posée d'un bloc contient des pièces dont l'appui est en partie dans la part voisine : toits des arêtes, plafonds en limite, rampes près du faîtage. Si Template Hammer refuse des pièces faute d'appui, utilisez les templates par phase (`templates/phases/P1` à `P7`). Ils contiennent exactement les mêmes pièces, posées couche par couche sur tout le tour.
 
 ## 6. Contrôles
 

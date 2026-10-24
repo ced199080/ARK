@@ -10,12 +10,13 @@
   "cage_niveaux": 2,
   "casquette": 1,
   "debord": 2,
-  "pod_niveaux": 10,
+  "pod_niveaux": 8,
   "mezzanine": 1800.0,
   "jupe": true,
   "coeur": "references/Coeur_Base.json",
   "coeur_rotation": 0.0,
   "colonnade_rayon": 3360.0,
+  "colonnade_hauteur": 300.0,
   "largeur_pilier": 39.269908169872416,
   "colonnade_passages": [
    30,
@@ -64,7 +65,22 @@
   "A": 4518.653347947321,
   "Z": -600.0
  },
- "Z_capuchon": 5100.0,
+ "Z_plancher_toit": 2400.0,
+ "Z_sommet_toit": 5249.038105676658,
+ "paliers_bord": [
+  {
+   "anneau": 14,
+   "apo_E0_int": 3918.7,
+   "apo_E0_ext": 4178.5,
+   "Z": -150.0
+  },
+  {
+   "anneau": 15,
+   "apo_E0_int": 4178.5,
+   "apo_E0_ext": 4478.5,
+   "Z": -300.0
+  }
+ ],
  "modules": {
   "01_sol_D8_complet": {
    "pieces": {
@@ -91,35 +107,34 @@
   },
   "02_pod_central": {
    "pieces": {
-    "demi_pilier": 25,
-    "mur": 497,
+    "demi_pilier": 1,
+    "mur": 401,
     "porte_secrete": 3,
     "escalier": 6,
-    "plafond_tri": 228,
-    "plafond": 100,
+    "plafond_tri": 420,
+    "plafond": 195,
     "cadre_double": 18,
-    "pilier": 264,
-    "toit": 228,
-    "demi_toit": 4
+    "pilier": 120,
+    "rampe": 360
    },
-   "total": 1373,
+   "total": 1524,
    "bilan": {
-    "MI": 35831,
-    "PC": 10104
+    "MI": 32568,
+    "PC": 9018
    }
   },
   "03_rive_colonnade_pente_overhang2": {
    "pieces": {
-    "demi_pilier": 193,
+    "demi_pilier": 1,
     "mur": 378,
-    "pilier": 768,
+    "pilier": 240,
     "toit": 744,
     "plafond": 228
    },
-   "total": 2311,
+   "total": 1591,
    "bilan": {
-    "MI": 65179,
-    "PC": 18514
+    "MI": 49483,
+    "PC": 14050
    }
   },
   "04_cage_casquette": {
@@ -130,12 +145,12 @@
     "plafond_tri": 324,
     "plafond": 156,
     "trappe": 6,
-    "toit": 192
+    "toit": 72
    },
-   "total": 1099,
+   "total": 979,
    "bilan": {
-    "MI": 28735,
-    "PC": 8104
+    "MI": 24535,
+    "PC": 6904
    }
   },
   "05_tourelles_scenario_B": {
@@ -189,8 +204,16 @@
    38.2
   ],
   "RIVE": [
-   3918.7,
-   4478.5
+   [
+    3918.7,
+    4178.5,
+    -150.0
+   ],
+   [
+    4229.5,
+    4478.5,
+    -300.0
+   ]
   ],
   "JUPE-ext": [
    -89.9,
@@ -207,10 +230,9 @@
   "pas_angulaire": 1.364,
   "pas_arc": 79.968,
   "colonnes": 240,
-  "pieces": 960,
+  "pieces": 240,
   "hauteurs": [
-   1050,
-   1200
+   300
   ]
  },
  "escalier": {
@@ -279,18 +301,18 @@
    }
   },
   "P2": {
-   "total": 1864,
+   "total": 1144,
    "pieces": {
-    "demi_pilier": 193,
+    "demi_pilier": 1,
     "mur": 815,
     "porte_secrete": 3,
     "escalier": 1,
     "cadre_double": 12,
-    "pilier": 840
+    "pilier": 312
    },
    "bilan": {
-    "MI": 44309,
-    "PC": 12477
+    "MI": 28613,
+    "PC": 8013
    }
   },
   "P3": {
@@ -336,19 +358,19 @@
    }
   },
   "P6": {
-   "total": 762,
+   "total": 793,
    "pieces": {
-    "demi_pilier": 25,
-    "mur": 180,
+    "demi_pilier": 1,
+    "mur": 84,
     "cadre_double": 12,
-    "pilier": 192,
-    "toit": 348,
-    "plafond": 1,
-    "demi_toit": 4
+    "pilier": 48,
+    "plafond_tri": 192,
+    "plafond": 96,
+    "rampe": 360
    },
    "bilan": {
-    "MI": 22212,
-    "PC": 6298
+    "MI": 14749,
+    "PC": 4012
    }
   },
   "P7": {
@@ -385,7 +407,7 @@
    "apo_E0": 559.8,
    "apo_E1": 559.8,
    "zone": "pod",
-   "Z": 0
+   "Z": -0.0
   },
   {
    "anneau": 2,
@@ -398,7 +420,7 @@
    "apo_E0": 819.6,
    "apo_E1": 859.8,
    "zone": "pod",
-   "Z": 0
+   "Z": -0.0
   },
   {
    "anneau": 3,
@@ -411,7 +433,7 @@
    "apo_E0": 1119.6,
    "apo_E1": 1119.6,
    "zone": "pod",
-   "Z": 0
+   "Z": -0.0
   },
   {
    "anneau": 4,
@@ -424,7 +446,7 @@
    "apo_E0": 1379.4,
    "apo_E1": 1419.6,
    "zone": "pod",
-   "Z": 0
+   "Z": -0.0
   },
   {
    "anneau": 5,
@@ -437,7 +459,7 @@
    "apo_E0": 1679.4,
    "apo_E1": 1679.4,
    "zone": "pod",
-   "Z": 0
+   "Z": -0.0
   },
   {
    "anneau": 6,
@@ -450,7 +472,7 @@
    "apo_E0": 1939.2,
    "apo_E1": 1979.4,
    "zone": "pod",
-   "Z": 0
+   "Z": -0.0
   },
   {
    "anneau": 7,
@@ -463,7 +485,7 @@
    "apo_E0": 2239.2,
    "apo_E1": 2239.2,
    "zone": "pod",
-   "Z": 0
+   "Z": -0.0
   },
   {
    "anneau": 8,
@@ -476,7 +498,7 @@
    "apo_E0": 2499.0,
    "apo_E1": 2539.2,
    "zone": "couronne",
-   "Z": 0
+   "Z": -0.0
   },
   {
    "anneau": 9,
@@ -489,7 +511,7 @@
    "apo_E0": 2799.0,
    "apo_E1": 2799.0,
    "zone": "couronne",
-   "Z": 0
+   "Z": -0.0
   },
   {
    "anneau": 10,
@@ -502,7 +524,7 @@
    "apo_E0": 3058.8,
    "apo_E1": 3099.0,
    "zone": "couronne",
-   "Z": 0
+   "Z": -0.0
   },
   {
    "anneau": 11,
@@ -515,7 +537,7 @@
    "apo_E0": 3358.8,
    "apo_E1": 3358.8,
    "zone": "couronne",
-   "Z": 0
+   "Z": -0.0
   },
   {
    "anneau": 12,
@@ -528,7 +550,7 @@
    "apo_E0": 3618.7,
    "apo_E1": 3658.8,
    "zone": "couronne",
-   "Z": 0
+   "Z": -0.0
   },
   {
    "anneau": 13,
@@ -541,7 +563,7 @@
    "apo_E0": 3918.7,
    "apo_E1": 3918.7,
    "zone": "couronne",
-   "Z": 0
+   "Z": -0.0
   },
   {
    "anneau": 14,
@@ -553,7 +575,7 @@
    "par_cote_E1": 7,
    "apo_E0": 4178.5,
    "apo_E1": 4218.7,
-   "zone": "décaissement",
+   "zone": "palier 1",
    "Z": -150.0
   },
   {
@@ -566,8 +588,8 @@
    "par_cote_E1": 8,
    "apo_E0": 4478.5,
    "apo_E1": 4478.5,
-   "zone": "décaissement",
-   "Z": -150.0
+   "zone": "palier 2",
+   "Z": -300.0
   }
  ],
  "gabarits": [
@@ -659,18 +681,18 @@
    "pieces": {
     "fond_tri": 768,
     "fond": 384,
-    "mur": 1194,
+    "mur": 1098,
     "cadre_double": 84,
-    "pilier": 1032,
-    "demi_pilier": 216,
-    "plafond_tri": 504,
-    "plafond": 474,
-    "toit": 1164,
-    "trappe": 6
+    "pilier": 360,
+    "plafond_tri": 696,
+    "plafond": 570,
+    "toit": 816,
+    "trappe": 6,
+    "rampe": 360
    },
    "bilan": {
-    "MI": 165570,
-    "PC": 47898
+    "MI": 142518,
+    "PC": 41178
    }
   },
   "part_tourelles_chaume": {
@@ -704,12 +726,11 @@
     "porte_secrete": 3,
     "escalier": 6,
     "plafond_tri": 48,
-    "plafond": 10,
-    "demi_toit": 4
+    "plafond": 9
    },
    "bilan": {
-    "MI": 2536,
-    "PC": 716
+    "MI": 2429,
+    "PC": 686
    }
   },
   "ancres_temporaires": {
@@ -755,8 +776,8 @@
  },
  "bilan_total": {
   "sans_tourelles": {
-   "MI": 196388,
-   "PC": 51570,
+   "MI": 173229,
+   "PC": 44820,
    "CH": 672,
    "FI": 2904,
    "BO": 384,
@@ -770,8 +791,8 @@
    "HU": 1400
   },
   "avec_tourelles": {
-   "MI": 234788,
-   "PC": 65070,
+   "MI": 211629,
+   "PC": 58320,
    "CH": 672,
    "FI": 2904,
    "BO": 384,
@@ -785,11 +806,11 @@
    "HU": 1400
   },
   "brut_sans_tourelles": {
-   "minerai_metal": 393216,
+   "minerai_metal": 346898,
    "perles_silice": 660,
    "obsidienne": 11700,
-   "chitine_ou_keratine": 253080,
-   "pierre": 506260,
+   "chitine_ou_keratine": 226080,
+   "pierre": 452260,
    "silex": 200,
    "cristal": 3350,
    "element": 220,
@@ -797,15 +818,15 @@
    "huile": 1400,
    "cuir": 1680,
    "fibre": 2904,
-   "lingots_total": 196608,
-   "pate_totale": 63270
+   "lingots_total": 173449,
+   "pate_totale": 56520
   },
   "brut_avec_tourelles": {
-   "minerai_metal": 509616,
+   "minerai_metal": 463298,
    "perles_silice": 60060,
    "obsidienne": 26700,
-   "chitine_ou_keratine": 367080,
-   "pierre": 734260,
+   "chitine_ou_keratine": 340080,
+   "pierre": 680260,
    "silex": 200,
    "cristal": 4550,
    "element": 310,
@@ -813,30 +834,30 @@
    "huile": 1400,
    "cuir": 1680,
    "fibre": 2904,
-   "lingots_total": 254808,
-   "pate_totale": 91770
+   "lingots_total": 231649,
+   "pate_totale": 85020
   }
  },
  "parts": {
   "nombre": 6,
   "debut": -14.5,
   "structure_par_part": {
-   "total": 971,
+   "total": 857,
    "pieces": {
     "fond_tri": 128,
     "fond": 64,
-    "mur": 199,
+    "mur": 183,
     "cadre_double": 14,
-    "pilier": 172,
-    "demi_pilier": 36,
-    "plafond_tri": 84,
-    "plafond": 79,
-    "toit": 194,
-    "trappe": 1
+    "pilier": 60,
+    "plafond_tri": 116,
+    "plafond": 95,
+    "toit": 136,
+    "trappe": 1,
+    "rampe": 60
    },
    "bilan": {
-    "MI": 27595,
-    "PC": 7983
+    "MI": 23753,
+    "PC": 6863
    }
   },
   "tourelles_par_part": {
@@ -860,18 +881,17 @@
    }
   },
   "noyau": {
-   "total": 106,
+   "total": 101,
    "pieces": {
     "mur": 35,
     "porte_secrete": 3,
     "escalier": 6,
     "plafond_tri": 48,
-    "plafond": 10,
-    "demi_toit": 4
+    "plafond": 9
    },
    "bilan": {
-    "MI": 2536,
-    "PC": 716
+    "MI": 2429,
+    "PC": 686
    }
   }
  }

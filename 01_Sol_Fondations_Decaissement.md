@@ -1,4 +1,4 @@
-# Module 01 — Sol et nivellement (calpinage Ø30, décaissement périphérique)
+# Module 01 — Sol et nivellement (calpinage Ø30, bord abaissé en 2 paliers)
 
 Templates :
 - `templates/phases/P1.json` : sol complet (anneaux 1 à 15) avec la pile d'ancrage ;
@@ -45,9 +45,9 @@ Les apothèmes sont mesurés depuis le centre jusqu'au contour extérieur de l'a
 | 10 | E1 | 30 | 66 (30 / 36) | 6 / 5 | 3 058,8 / 3 099,0 | couronne | 0 |
 | 11 | E0 | 36 | 66 (30 / 36) | 6 / 6 → D6 | 3 358,8 / 3 358,8 | couronne | 0 |
 | 12 | E1 | 36 | 78 (36 / 42) | 7 / 6 | 3 618,7 / 3 658,8 | couronne | 0 |
-| 13 | E0 | 42 | 78 (36 / 42) | 7 / 7 → **D7 = rive** | 3 918,7 / 3 918,7 | couronne | 0 |
-| **14** | E1 | 42 | 90 (42 / 48) | 8 / 7 | 4 178,5 / 4 218,7 | **décaissement** | **−150** |
-| **15** | E0 | 48 | 90 (42 / 48) | 8 / 8 → **D8 = bord** | 4 478,5 / 4 478,5 | **décaissement** | **−150** |
+| 13 | E0 | 42 | 78 (36 / 42) | 7 / 7 → **D7 = rive** | 3 918,7 / 3 918,7 (Ø 26) | couronne | 0 |
+| **14** | E1 | 42 | 90 (42 / 48) | 8 / 7 | 4 178,5 / 4 218,7 (Ø 28) | **palier 1** | **−150** |
+| **15** | E0 | 48 | 90 (42 / 48) | 8 / 8 → **D8 = bord** | 4 478,5 / 4 478,5 (Ø 30) | **palier 2** | **−300** |
 | **Total** | | **384** | **768** (dont 6 au centre) | | | | |
 
 Répartition par zone :
@@ -56,7 +56,8 @@ Répartition par zone :
 |---|---|---|---|
 | Pod (identique au 481, + 6 triangles au centre) | 1-7 | 96 | 192 |
 | Couronne au niveau 0 | 8-13 | 198 | 396 |
-| Décaissement | 14-15 | 90 | 180 |
+| Palier 1 (−150) | 14 | 42 | 90 |
+| Palier 2 (−300) | 15 | 48 | 90 |
 
 Contrôle géométrique : l'aire couverte vaut 64 489 838 UU², soit exactement l'aire du dodécagone D8. Il n'y a ni recouvrement ni jour.
 
@@ -67,18 +68,22 @@ Contrôle géométrique : l'aire couverte vaut 64 489 838 UU², soit exactement 
 3. **Contrôle tous les 2 anneaux.** Le contour doit compter `n` pièces sur chaque côté (D1 = 1, D2 = 2… D8 = 8). Si un côté en compte n + 1 alors que son voisin en compte n − 1, une rangée de carrés a été posée sur le mauvais jeu de côtés : reprenez l'anneau.
 4. Les murs des modules 02 à 04 s'accrochent ensuite sur les arêtes D4, D5 et D7. Posez **tout le sol avant les murs** : ainsi aucune accroche de fondation n'est masquée par un mur déjà en place.
 
-## 4. Décaissement périphérique (−1 niveau sur les 2 dernières fondations)
+## 4. Bord abaissé en 2 paliers (Ø 26 et Ø 28)
 
-- **Quoi.** Les anneaux 14 et 15 forment une bande de 559,8 UU de profondeur entre D7 et D8. Sur chaque rayon, cela fait 1 carré + 1 rangée de triangles, ou l'inverse : ce sont bien les deux dernières fondations. La bande est abaissée de **150 UU** (un demi-mur, la « hauteur de fondation » du premier brief).
-  Avec `--decaissement 300`, la bande descend d'un mur complet.
+| Palier | Anneau | Du diamètre… | … au diamètre | Z du dessus | z template des fondations |
+|---|---|---|---|---|---|
+| 1 | 14 | Ø 26 (D7, pied du mur de rive) | Ø 28 | **−150** | −110 |
+| 2 | 15 | Ø 28 | Ø 30 (D8, bord) | **−300** | −260 |
+
+- **Quoi.** Les fondations descendent deux fois : une marche de 150 UU au pied de la rive (Ø 26), puis une seconde de 150 UU à Ø 28. Sur chaque rayon, chaque palier fait une fondation de profondeur : un carré ou une rangée de triangles, selon le côté. `--decaissement 300` donne des marches d'un mur complet (−300 puis −600).
 - **Pourquoi.**
-  - Côté extérieur, le mur de rive D7 se dresse sur l'arête des fondations hautes : il gagne 150 UU de hauteur apparente.
-  - La marche de 150 UU sous la rive interdit d'engager un dino ou un radeau contre le pied de mur.
-  - La bande basse forme la **ligne de pose protégée des pics**, abritée sous l'overhang (module 03 §5).
-- **Cotes Template Hammer.** Le pivot des fondations abaissées est à z = −110 (−150 + 40), contre 40 pour l'intérieur.
-- **Pose manuelle.** Il faut que la bande puisse descendre de 150 UU sous l'étoile :
-  - **Étoile surélevée** (cas du 481, dont le plancher est à +900 au-dessus de sa dalle) : posez la bande sur des demi-piliers (150 UU) accrochés sous l'arête de l'anneau 13, puis accrochez les fondations des anneaux 14-15 sur ces demi-piliers.
-  - **Étoile posée à même la plateforme** : la bande abaissée entrerait dans la tôle de la plateforme. Le décaissement n'est alors réalisable qu'avec Template Hammer, en vérifiant en solo que les pièces apparaissent. Sinon, régénérez avec `--decaissement 0` et marquez la rive par un demi-mur.
+  - Le mur de rive D7 se dresse sur l'arête haute de la première marche : il gagne 150 UU de hauteur apparente.
+  - Les deux marches empêchent d'engager un dino ou un radeau contre le pied de mur.
+  - Le palier 1 porte la **ligne de pics protégée**, sous l'overhang (module 03 §6). Le palier 2 est sous le rang r−2 de l'overhang.
+  - La Tesla de rive voit tout le palier 1 et le palier 2 de 4 230 UU jusqu'au bord. Seuls 51 UU restent masqués, derrière la marche de Ø 28 (module 05 §7).
+- **Pose manuelle.** Les paliers doivent pouvoir descendre sous l'étoile :
+  - **Étoile surélevée** (cas du 481, dont le plancher est à +900 au-dessus de sa dalle) : posez l'anneau 14 sur des demi-piliers (150 UU) accrochés sous l'arête de l'anneau 13, puis l'anneau 15 sur des demi-piliers accrochés sous l'arête de l'anneau 14.
+  - **Étoile posée à même la plateforme** : les paliers entreraient dans la tôle de la plateforme. Ils ne sont alors réalisables qu'avec Template Hammer, en vérifiant en solo que les pièces apparaissent. Sinon, régénérez avec `--decaissement 0` et marquez la rive par un demi-mur.
   ⚠ Ce choix est à valider en jeu.
 
 ## 5. Alignement avec le centre existant
@@ -112,6 +117,6 @@ Formules pour toute pièce :
 ## 6. Contrôles de fin de module
 
 - [ ] 384 carrés et 768 triangles (ou 288 + 576 pour l'extension 01b).
-- [ ] Contour D8 : 8 pièces par côté, contour D7 (arête haute de la marche) : 7 pièces par côté.
-- [ ] Marche de 150 UU continue sur les 12 côtés.
+- [ ] Contour D8 : 8 pièces par côté, contour D7 (arête haute de la 1re marche) : 7 pièces par côté.
+- [ ] Deux marches de 150 UU continues sur les 12 côtés : à Ø 26 (pied de rive) et à Ø 28.
 - [ ] Les 12 pointes de D8 (4 636 UU) tiennent sur la plateforme. Sinon, laissez vides les 2 triangles de pointe de l'anneau 15 à chaque coin : ce sont des pièces de l'overhang, pas de la structure.

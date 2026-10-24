@@ -1,11 +1,11 @@
-# Module 02 — Pod central de production (Coeur Base, Ø15, hall de 6 murs, cône étanche)
+# Module 02 — Pod central de production (Coeur Base, Ø15, hall de 6 murs, toit en rampes)
 
 Template : `templates/02_pod_central.json`, réparti dans les phases :
 - **P2** : Coeur Base niveau 1, mur de pod niveaux 0-5, piliers PA bas ;
 - **P3** : Coeur Base niveau 2, escalier prolongé, mezzanine ;
-- **P6** : mur niveaux 6-9, piliers hauts, cône, capuchon.
+- **P6** : mur niveaux 6-7, piliers hauts, plancher de toit Z2400, toit en rampes inclinées.
 
-Source du noyau : `references/Coeur_Base.json` (votre template *Coeur Base*). Coordonnées : `donnees/02_pod_central.csv`. Plan : `plans/plan_pod.png`.
+Source du noyau : `references/Coeur_Base.json` (votre template *Coeur Base*). Coordonnées : `donnees/02_pod_central.csv`. Plans : `plans/plan_pod.png`, `plans/plan_toit_rampes.png`.
 
 ![Plan du pod](plans/plan_pod.png)
 
@@ -17,13 +17,13 @@ Source du noyau : `references/Coeur_Base.json` (votre template *Coeur Base*). Co
 | **Escalier central** | (129,9 ; −75), de Z0 à Z1800 | escalier du Coeur Base prolongé jusqu'à la mezzanine |
 | Emprise du pod | Dodécagone **D4** : apothème 2 239,2 UU, Ø 14,93 fondations entre plats | c'est l'étoile existante (anneaux 1 à 7) |
 | **Hall d'atelier** | Z0 → Z1800 : **6 murs pleins de hauteur libre** autour du Coeur Base | aucun plancher intermédiaire |
-| Mezzanine / étage technique | Z1800 → Z3000 (4 murs) | même niveau que la galerie de tourelles |
-| Cône | Z3000 → Z5100, 7 rangs de toits à 45° | fermé et étanche |
-| Capuchon et pointe | plafond à Z5100 + 4 demi-toits → sommet Z5250 | — |
+| Mezzanine / étage technique | Z1800 → Z2400 (2 murs) | même niveau que la galerie de tourelles |
+| **Plancher de toit** | Z2400, sur tout le pod | au niveau du toit de cage : un seul plancher fermé du centre jusqu'à D5 |
+| **Toit en rampes inclinées** | Z2400 → Z5150, sur tout le contour D5 (pod + cage) | comme le toit des tours 1201 / 1809 ; remplace le cône et la reprise |
 
 ## 2. Coeur Base intégré au centre
 
-Votre template est repris **entrée par entrée** : coordonnées, rotations, skins et couleurs sont conservés. Il forme avec l'escalier, le centre de la mezzanine et la pointe du cône le **noyau central**, posé une seule fois (module 06 §3). Son origine (0 ; 0) coïncide avec le centre de l'étoile, et ses cotes Z suivent déjà la même convention (fondation z 40, mur z 240).
+Votre template est repris **entrée par entrée** : coordonnées, rotations, skins et couleurs sont conservés. Il forme avec l'escalier et le centre de la mezzanine le **noyau central**, posé une seule fois (module 06 §3). Son origine (0 ; 0) coïncide avec le centre de l'étoile, et ses cotes Z suivent déjà la même convention (fondation z 40, mur z 240).
 
 **Modifications.** Le coffre « Matiere Premiere 1 » est sorti du template : c'est un équipement, posé à sa place d'origine et compté dans les 20 coffres-forts (module 07). Ses 10 fondations sont retirées. Elles suivent une grille carrée tournée de −30°, incompatible avec l'étoile, et la chevauchaient. Les murs du Coeur Base reposent donc sur les fondations de l'étoile (anneaux 1 à 3). Ce n'est pas une accroche d'arête : **la pose se fait en Template Hammer**, comme le template d'origine.
 
@@ -60,23 +60,21 @@ L'escalier du Coeur Base est prolongé, à la verticale, jusqu'à la mezzanine.
 
 ## 4. Mur de pod (D4)
 
-- **48 positions par niveau** (12 côtés × 4), **10 niveaux** de Z0 à Z3000, soit 462 murs + 18 cadres de porte doubles (3 par part).
+- **48 positions par niveau** (12 côtés × 4), **8 niveaux** de Z0 à Z2400, soit 366 murs + 18 cadres de porte doubles (3 par part).
 
 | Niveau | Z | Ouvertures |
 |---|---|---|
 | 0 | 0 → 300 | **6 cadres doubles**, 1 par part (côtés E1, position 1 : θ ≈ 26°, 86°, 146°…) : hall ↔ couloir annulaire |
 | 1 à 5 | 300 → 1800 | aucune |
 | **6** | 1800 → 2100 | **12 cadres doubles** (position 1 de chaque côté) : mezzanine ↔ galerie de tourelles |
-| 7 à 9 | 2100 → 3000 | aucune ; la reprise de toiture (module 04) s'encastre de 40 UU à Z ≈ 2960 |
+| 7 | 2100 → 2400 | aucune ; le plancher de toit Z2400 se pose dessus |
 
 ## 5. Système porteur à piliers intérieurs
 
 | Couronne | Position | Hauteur | Pièces | Rôle |
 |---|---|---|---|---|
-| **PA** | 12 coins de D2 : rayon 1 159,1, θ = 15° + 30°·k | Z0 → 4050 : 13 piliers + 1 demi-pilier | 156 + 12 | porte la mezzanine, puis le cône ; entoure le Coeur Base |
-| **PB** | 12 coins de D1 : rayon 579,6, θ = 15° + 30°·k | Z1800 → 4650 : 9 piliers + 1 demi-pilier | 108 + 12 | porte le haut du cône ; posés sur la mezzanine, ils ne gênent ni le Coeur Base ni l'escalier |
-
-- Il reste un jeu de 70 UU (PA) et 29 UU (PB) sous le cône. En Template Hammer, il n'a aucun effet.
+| **PA** | 12 coins de D2 : rayon 1 159,1, θ = 15° + 30°·k | Z0 → 2400 : 8 piliers | 96 | porte la mezzanine et le plancher de toit ; entoure le Coeur Base |
+| **PB** | 12 coins de D1 : rayon 579,6, θ = 15° + 30°·k | Z1800 → 2400 : 2 piliers | 24 | porte le centre du plancher de toit ; posés sur la mezzanine, ils ne gênent ni le Coeur Base ni l'escalier |
 - La colonnade circulaire entre le pod et les pics est décrite au module 03 §3.
 
 ## 6. Gabarits de placement des machines (hall Z0 → 1800)
@@ -98,22 +96,38 @@ Sur la mezzanine (Z1800) se trouvent le **générateur Tek n°2** en (−900 ; 0
 
 Elle reprend le centre et les anneaux 1 à 7 en plafonds, **moins la trémie de l'escalier** : 94 plafonds + 188 plafonds triangles.
 
-## 8. Toiture conique fermée et étanche
+## 8. Toit en rampes inclinées (comme les tours 1201 / 1809)
 
-| Rang | Apothème du bord bas | Z bas → haut | Toits par côté | Total |
+Le cône de 228 toits, son capuchon et la reprise de la cage sont remplacés par :
+1. un **plancher de toit fermé à Z2400** sur le pod (96 plafonds + 192 triangles). Il prolonge le toit de cage (module 04) : le bloc central a un seul plancher étanche du centre jusqu'à D5 ;
+2. au-dessus, un **toit en rampes inclinées** (`StructureBP_Railing_Sloped_Metal`, la pièce des tours 1201 et 1809).
+
+**Principe relevé sur la tour 1201.**
+- Le toit est fait de **lames** : des files de rampes inclinées, parallèles à la pente, espacées de 300 UU.
+- Chaque rampe monte de 300 UU sur 300 UU. La rampe suivante est 300 UU plus loin vers le faîtage et 300 UU plus haut.
+- La première rampe a son pivot **150 UU devant le bord du plancher** et **10 UU sous son dessus** (z template = Z plancher + 80). Elle déborde comme une rive de toit.
+- On ne peut ni se poser, ni tenir debout sur des lames : un dino largué n'y trouve aucune surface. Ce qui passe entre deux lames tombe sur le plancher fermé Z2400.
+
+**Adaptation au dodécagone.** Il y a 12 pans, un par côté de D5. Sur chaque pan, les lames sont aux positions t = 0, ±300, ±600 le long du côté. Une lame s'arrête au faîtage, ou dès que sa rampe suivante sortirait de son pan.
+
+| Rang | Apothème du pivot | Z plancher → rampe | Lames par pan | Rampes |
 |---|---|---|---|---|
-| r0 | 2 239,2 (sur le mur de pod) | 3000 → 3300 | 4 | 48 |
-| r1 | 1 939,2 | 3300 → 3600 | 4 | 48 |
-| r2 | 1 639,2 | 3600 → 3900 | 3 | 36 |
-| r3 | 1 339,2 | 3900 → 4200 | 3 | 36 |
-| r4 | 1 039,2 | 4200 → 4500 | 2 | 24 |
-| r5 | 739,2 | 4500 → 4800 | 2 | 24 |
-| r6 | 439,2 | 4800 → 5100 | 1 | 12 |
-| capuchon + pointe | plafond centré à Z5100 + 4 demi-toits | 5100 → 5250 | — | 5 |
+| r0 | 2 949,0 (150 devant D5) | 2400 | 5 | 60 |
+| r1 | 2 649,0 | 2700 | 5 | 60 |
+| r2 | 2 349,0 | 3000 | 5 | 60 |
+| r3 | 2 049,0 | 3300 | 3 | 36 |
+| r4 | 1 749,0 | 3600 | 3 | 36 |
+| r5 | 1 449,0 | 3900 | 3 | 36 |
+| r6 | 1 149,0 | 4200 | 3 | 36 |
+| r7 | 849,0 | 4500 | 1 | 12 |
+| r8 | 549,0 | 4800 | 1 | 12 |
+| r9 | 249,0 | 5100 | 1 | 12 |
+| **Total** | | sommet ≈ Z5150 | | **360** |
 
-- Les toits se chevauchent aux 12 arêtes, comme dans les templates 563 et 717 : aucun jour.
-- Le capuchon ferme l'ouverture résiduelle du rang 6, qui fait 144 UU au plus.
-- Contrôle : de l'intérieur, aucune lumière ne doit passer.
+- Rotation : **yaw = θ du pan − 90°** ; la rampe monte vers le centre, comme les rampes `Sloped` de la tour 1201 (yaw −90° sur le pan θ = 0°).
+- Le premier rang passe au-dessus de la casquette (module 04 §5), à environ 50 UU, parallèlement à elle.
+- Coût : une rampe vaut environ **12 lingots + 3 pâte**, contre 35 + 10 pour un toit. ⚠ Le coût de la rampe inclinée est une estimation : c'est celui de la rambarde métal (Metal Railing).
+- ⚠ À valider en solo : le décalage de 150 UU et de 10 UU vient du template 1201, posé sur des cadres de porte. Si la première rampe apparaît trop haute ou trop basse au-dessus de la casquette, corrigez `- 100` dans `toit_rampes()` et régénérez.
 
 ## 9. Contrôles de fin de module
 
@@ -121,5 +135,6 @@ Elle reprend le centre et les anneaux 1 à 7 en plafonds, **moins la trémie de 
 - [ ] 6 escaliers empilés de Z0 à Z1800 ; la trémie de la mezzanine est ouverte au-dessus.
 - [ ] 6 murs libres sous la mezzanine autour du Coeur Base.
 - [ ] 6 cadres doubles au sol (1 par part) et 12 à Z1800.
-- [ ] 24 colonnes de piliers PA/PB.
-- [ ] Cône : 228 toits + capuchon + 4 demi-toits, sans jour.
+- [ ] 24 colonnes de piliers PA/PB, toutes arrêtées à Z2400.
+- [ ] Plancher de toit Z2400 fermé, sans jour.
+- [ ] Toit : 360 rampes en 12 pans, lames au pas de 300 UU.

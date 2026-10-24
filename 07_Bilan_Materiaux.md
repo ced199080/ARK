@@ -11,8 +11,8 @@ Les chiffres sont recalculés par le script : `donnees/synthese.json`, clés `bi
 
 | Ressource | Sans les tourelles (déjà en inventaire) | **Avec les 96 tourelles** |
 |---|---|---|
-| Lingots de métal | 196 388 | **234 788** |
-| Pâte cimentée | 51 570 | **65 070** |
+| Lingots de métal | 173 229 | **211 629** |
+| Pâte cimentée | 44 820 | **58 320** |
 | Électroniques | 220 | **20 020** |
 | Polymère | 5 850 | **13 350** |
 | Cristal | 3 350 | **4 550** |
@@ -27,19 +27,44 @@ Les chiffres sont recalculés par le script : `donnees/synthese.json`, clés `bi
 
 Le script crée les tourelles du plan (60 Heavy, 30 Tek, 6 Tesla), mais elles sont **déjà dans votre inventaire**. Ne fabriquez que la colonne de gauche. La réserve (20 Heavy, 5 Tek, 4 Tesla) n'est comptée nulle part.
 
+Si votre étoile (anneaux 1 à 7, 96 fondations et 192 triangles) est déjà construite, retirez 9 600 lingots et 2 976 pâte.
+
+## 1 bis. Allègement de la structure
+
+| Changement | Pièces retirées | Pièces ajoutées | Pâte | Lingots |
+|---|---|---|---|---|
+| Cône (228 toits), capuchon et pointe → **toit en rampes inclinées** | 228 toits, 1 plafond, 4 demi-toits | 360 rampes | −1 230 | −3 767 |
+| Reprise de la cage (2 rangs de toits) | 120 toits | — | −1 200 | −4 200 |
+| Pod arrêté à Z2400, fermé par un plancher de toit | 96 murs | 96 plafonds + 192 triangles | +1 248 | +4 416 |
+| Piliers PA et PB arrêtés à Z2400 | 144 piliers, 24 demi-piliers | — | −1 104 | −3 912 |
+| Colonnade : 1 pilier de haut au lieu de 4 | 528 piliers, 192 demi-piliers | — | −4 464 | −15 696 |
+| **Total** | | | **−6 750** | **−23 159** |
+
+Le métal retiré ne portait plus rien, ou faisait double emploi :
+- La reprise et le cône étaient deux toits superposés au-dessus du même volume. Le toit en rampes les remplace d'un seul tenant, sur un plancher fermé. Une rampe coûte environ trois fois moins qu'un toit.
+- La colonnade ne sert plus d'appui à la pente A. Un rang de piliers suffit à faire grille : c'est la hauteur des cercles de piliers fournis (704, 701).
+
+**Allègements possibles en plus** (non appliqués : ils retirent une fonction de défense) :
+
+| Option | Pâte | Ce qu'on perd |
+|---|---|---|
+| Supprimer la jupe (216 murs + 228 plafonds) | −3 792 | l'abri des 30 Heavy sous la plateforme ; elles restent posables mais exposées |
+| Overhang d'un seul rang dans le vide (`--debord 1`, supprime aussi la jupe) | −4 992 | la jupe et ses 30 Heavy (le script ne les place plus), et 300 UU de dégagement des chutes |
+| Fût remplacé par des piliers aux coins et milieux de côtés | ≈ −1 500 | le 2e mur entre l'attique A et le couloir |
+
 ## 2. Détail par poste
 
 | Poste | Contenu | Lingots | Pâte | Autres |
 |---|---|---|---|---|
-| **6 parts : structure** | 5 826 pièces : 384 fondations, 768 triangles, 1 194 murs, 84 cadres doubles, 1 032 piliers, 216 demi-piliers, 474 plafonds, 504 plafonds triangles, 6 trappes, 1 164 toits | 165 570 | 47 898 | — |
-| **Noyau central** | 35 murs, 3 portes secrètes, 6 escaliers, 58 plafonds (dont 48 triangles), 4 demi-toits | 2 536 | 716 | — |
+| **6 parts : structure** | 5 142 pièces : 384 fondations, 768 triangles, 1 098 murs, 84 cadres doubles, 360 piliers, 570 plafonds, 696 plafonds triangles, 6 trappes, 816 toits, 360 rampes inclinées | 142 518 | 41 178 | — |
+| **Noyau central** | 35 murs, 3 portes secrètes, 6 escaliers, 57 plafonds (dont 48 triangles) | 2 429 | 686 | — |
 | Ancres temporaires | 14 demi-piliers (démolis à la fin) | 182 | 56 | — |
 | **Murs de pics** | 84 Metal Spike Walls | 2 100 | — | 1 680 cuir, 2 520 fibre |
 | Gabarits de pose | 96 murs de chaume (démolis ensuite) | — | — | ~672 chaume, ~384 fibre, ~384 bois |
 | **Équipements** | voir §3 | 26 000 | 2 900 | 220 élément, 3 350 cristal, 470 perles noires, 5 850 polymère, 220 électroniques, 100 poudre étincelante, 1 400 huile |
 | *Tourelles (inventaire)* | *60 Heavy, 30 Tek, 6 Tesla* | *38 400* | *13 500* | *19 800 électroniques, 7 500 polymère, 1 200 cristal, 90 élément* |
 
-Par part, la structure représente ≈ 27 600 lingots et ≈ 8 000 pâte. On peut donc construire et financer la base part par part.
+Par part, la structure représente ≈ 23 750 lingots et ≈ 6 860 pâte. On peut donc construire et financer la base part par part.
 
 ## 3. Équipements
 
@@ -89,9 +114,9 @@ Recettes usuelles, à vérifier sur votre serveur :
 
 | Ressource brute | Sans les tourelles | Avec les tourelles |
 |---|---|---|
-| Minerai de métal | **≈ 393 000** | ≈ 510 000 |
-| Chitine ou kératine | **≈ 253 000** | ≈ 367 000 |
-| Pierre | **≈ 506 000** | ≈ 734 000 |
+| Minerai de métal | **≈ 347 000** | ≈ 463 000 |
+| Chitine ou kératine | **≈ 226 000** | ≈ 340 000 |
+| Pierre | **≈ 452 000** | ≈ 680 000 |
 | Obsidienne | ≈ 11 700 | ≈ 26 700 |
 | Perles de silice | ≈ 660 | ≈ 60 000 |
 | Silex | 200 | 200 |
@@ -109,7 +134,8 @@ Avec du polymère organique ou de la pâte d'Achatina, la pierre, la chitine et 
 | Donnée | Statut |
 |---|---|
 | Fondation, triangle, mur, plafond, pilier, toit | sources concordantes (wikily.gg, dododex, ark-unity) |
-| Plafond triangle, demi-pilier, demi-toit, cadre double, trappe, escalier, porte secrète, mur de chaume | **estimations** : pièce absente des sources consultées |
+| Plafond triangle, demi-pilier, cadre double, trappe, escalier, porte secrète, mur de chaume | **estimations** : pièce absente des sources consultées |
+| Rampe inclinée (Sloped Railing) | **estimation** : coût de la rambarde métal (12 lingots + 3 pâte, dododex) |
 | Heavy, Tek, Tesla, Réplicateur, forge à vapeur, labo, stockage dédié Tek, générateur Tek | sources concordantes ; ark.wiki.gg donne une variante pour le labo et la Tek |
 | Coffre-fort | une seule source (Sportskeeda) |
 
@@ -118,4 +144,5 @@ Sources :
 - [ark.wiki.gg — Steam Forge](https://ark.wiki.gg/wiki/Steam_Forge), [Makeshift Megalab](https://ark.wiki.gg/wiki/Makeshift_Megalab), [Tek Generator](https://ark.wiki.gg/wiki/Tek_Generator), [Tek Replicator](https://ark.wiki.gg/wiki/Tek_Replicator), [Tek Dedicated Storage](https://ark.wiki.gg/wiki/Tek_Dedicated_Storage)
 - [dododex — Steam Forge](https://www.dododex.com/item/2168/steam-forge), [Makeshift Megalab](https://www.dododex.com/item/2137/makeshift-megalab), [Tek Replicator](https://www.dododex.com/item/1840/tek-replicator), [Tek Dedicated Storage](https://www.dododex.com/item/1808/tek-dedicated-storage)
 - [Sportskeeda — storage structures (Vault)](https://www.sportskeeda.com/mmo/all-storage-structures-ark-survival-ascended-craft)
+- [dododex — Metal Railing](https://www.dododex.com/item/1482/metal-railing)
 - Autres coûts : sources du README §9.
