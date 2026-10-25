@@ -36,7 +36,7 @@ La colonne d'escaliers garde la place de l'ancien escalier du Coeur Base : une c
 
 - Même x, y et yaw (−120°) pour les 6 escaliers.
 - **Trémie de la mezzanine** : le script retire les 6 pièces du plancher Z1800 traversées par la cellule d'escalier. Ce sont 4 triangles du centre et 2 carrés de l'anneau 1 (θ 0° et θ 300°), tracés en violet sur le plan. On sort de l'escalier directement sur la mezzanine, puis on gagne la galerie de tourelles par les 11 cadres du niveau 6 du mur de pod.
-- L'escalier monte en colonne libre dans le hall. Fermez-le si besoin par 4 murs : il reste plus de 800 UU jusqu'aux piliers PA (les piliers PB ne commencent qu'à la mezzanine).
+- L'escalier monte en colonne libre dans le hall. Fermez-le si besoin par 4 murs : il reste 260 UU jusqu'aux piliers PB les plus proches.
 - **Pilier de référence.** La pile d'ancrage est en (0 ; 300), à 186 UU de la cellule d'escalier. Démolissez-la à la fin.
 
 ## 3. Mur de pod (D4)
@@ -56,7 +56,7 @@ La colonne d'escaliers garde la place de l'ancien escalier du Coeur Base : une c
 | Couronne | Position | Hauteur | Pièces | Rôle |
 |---|---|---|---|---|
 | **PA** | 12 coins de D2 : rayon 1 159,1, θ = 15° + 30°·k | Z0 → 2400 : 8 piliers | 96 | porte la mezzanine et le plancher de toit |
-| **PB** | 12 coins de D1 : rayon 579,6, θ = 15° + 30°·k | Z1800 → 2400 : 2 piliers | 24 | porte le centre du plancher de toit ; posés sur la mezzanine, ils ne gênent pas l'escalier |
+| **PB** | 12 coins de D1 : rayon 579,6, θ = 15° + 30°·k | Z0 → 2400 : 8 piliers | 96 | porte le centre de la mezzanine et du plancher de toit. Ils descendent jusqu'au sol pour qu'aucun plafond ne soit à plus de 2 cases d'un appui relié au sol (module 09) ; ils passent à 260 UU de la cellule d'escalier |
 
 - Les 2 piliers PA à θ 165° et 195° sont aux sommets du bord du trou, en (−1 119,6 ; ±300) : ils restent en place et portent les murs de bord.
 - La colonnade circulaire est décrite au module 03 §3.
@@ -162,6 +162,6 @@ La rampe de rive, 150 UU devant le bord du plancher, est la casquette du module 
 - [ ] 6 escaliers empilés de Z0 à Z1800 ; la trémie de la mezzanine est ouverte au-dessus.
 - [ ] 6 murs libres sous la mezzanine ; 6 cadres doubles au sol et 11 à Z1800.
 - [ ] Murs de bord du trou : 8 niveaux, du sol au plancher de toit, sans jour.
-- [ ] 24 colonnes de piliers PA/PB, toutes arrêtées à Z2400.
+- [ ] 24 colonnes de piliers PA/PB, toutes du sol (Z0) à Z2400.
 - [ ] Plancher de toit Z2400 fermé, sans jour, jusqu'aux murs de bord.
 - [ ] Toit : 263 rampes en 12 pans, lignes au pas de 300 UU, 21 poteaux (43 piliers fins) ; casquette du trou : 12 lames. Aucun toit incliné.

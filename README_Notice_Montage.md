@@ -15,9 +15,10 @@ Le centre est repris à zéro, sans le Coeur Base. À l'avant de la plateforme, 
 | 02 | [02_Pod_Central_Atelier.md](02_Pod_Central_Atelier.md) | Pod Ø15, colonne d'escaliers, piliers porteurs, hall, emplacements des machines, plancher de toit et **toit en rampes inclinées** (tours 1201/1809) |
 | 03 | [03_Rampe_Glisse_Overhang.md](03_Rampe_Glisse_Overhang.md) | Mur de rive, colonnade circulaire de piliers côte à côte (1 rang), **rampes de glisse** (pente A et overhang en rampes inclinées), mur de jupe, ligne de pics |
 | 04 | [04_Tourelles_DoubleDoorframes.md](04_Tourelles_DoubleDoorframes.md) | Cage : L1 = tourelles verticales, L2 = double doorframes, casquette anti-accroche |
-| 05 | [05_Defense_Cap_Repartition.md](05_Defense_Cap_Repartition.md) | Cap 100 (Tesla comptées), 96 tourelles verticales, ordre de pose, couverture, câblage |
+| 05 | [05_Defense_Cap_Repartition.md](05_Defense_Cap_Repartition.md) | Cap 100 (Heavy + Tek, Tesla en plus), 110 tourelles, ordre de pose, couverture, câblage |
 | **06** | [06_Plans_et_Trou.md](06_Plans_et_Trou.md) | **Trou à l'avant** (124 fondations retirées, murs de bord, casquette du trou, tourelles face au gouffre), **plateforme verte** et **8 plans** |
 | **07** | [07_Bilan_Materiaux.md](07_Bilan_Materiaux.md) | **Bilan matériaux complet**, équipements compris : réplicateur, forge à vapeur, labo de fortune, 20 stockages dédiés, 20 coffres-forts, 2 générateurs Tek |
+| **09** | [09_Audit_Limites_Moteur.md](09_Audit_Limites_Moteur.md) | **Audit des limites moteur** : 8 400 structures, 100 tourelles, plafonds à 2 cases d'un appui au sol, 70 murs de haut ; bilan avant / après |
 | **08** | [08_Revue_Constructibilite.md](08_Revue_Constructibilite.md) | **Revue de constructibilité** : comparaison avec vos templates, appuis des rampes, murs de chaume à démolir, contrôle des collisions |
 
 ![Trou et plans](plans/plan_trou_et_plans.png)
@@ -32,11 +33,11 @@ Le centre est repris à zéro, sans le Coeur Base. À l'avant de la plateforme, 
    - **10 fondations de plateforme** (en vert) posées au milieu du trou, sans rien dessus, pour un projet futur ;
    - la base est fermée sur le bord du gouffre par **136 murs de bord**, de toute la hauteur, avec une **casquette en rampes** au-dessus du gouffre ;
    - votre export *trou* (60 fondations) retombe à 60/60 sur l'étoile, autour de votre pilier de référence.
-3. **96 tourelles** (cap 100, Tesla comptées) : 60 Heavy, 30 Tek et 6 Tesla. Les 12 emplacements tombés dans le trou sont reposés sur les murs de bord, **face au gouffre**. Restent en réserve 20 Heavy, 5 Tek et 4 Tesla ; les 4 Tesla peuvent être ajoutées à la main pour atteindre 100.
+3. **110 tourelles : les 100 places du cap** (65 Heavy, 35 Tek) **et les 10 Tesla**, qui ne comptent pas. Les 12 emplacements tombés dans le trou sont reposés sur les murs de bord, face au gouffre, et 10 tourelles debout sous le toit couvrent le dessus du centre. Il reste en réserve 15 Heavy (module 09).
 4. **L'étoile existante est reproduite à l'identique** : les anneaux 1 à 7 retombent pièce pour pièce sur le template SkunkHD 481, moins les 27 pièces du trou.
 5. **Les tourelles sont verticales**, comme dans le template *Straight Heavy* (2727) et la tour 1809 :
    - elles sont posées sur un mur de chaume de pose ;
-   - **vous démolissez les 96 murs de chaume en jeu** (liste : `donnees/08_chaume_a_demolir.csv`).
+   - **vous démolissez les 100 murs de chaume en jeu** (liste : `donnees/08_chaume_a_demolir.csv`).
 6. **Aucun toit incliné : des rampes partout.** Sur un toit à 45°, on tient debout ; sur des rampes inclinées (Sloped Railing), rien ne tient et tout glisse. Le toit, la casquette, la pente A, l'overhang et le débord sont donc faits de **892 rampes inclinées** en lignes de lames, comme sur les tours 1201 et 1809.
    - **Chaque ligne de lames est tenue comme sur les tours** : elle part d'un appui (haut de mur, bord de plancher, poutre fine). Elle monte ensuite librement de 6 lames au plus, ou pend d'une seule lame.
    - Il y a 104 poteaux en piliers fins et 94 poutres fines.
@@ -89,8 +90,8 @@ Le centre est repris à zéro, sans le Coeur Base. À l'avant de la plateforme, 
 | `references/Trou_fondations.json` | Fondations du trou relevées sur votre image : `retirees` (blanc), `plateforme` (vert) |
 | `donnees/Plan_*.csv` | Toutes les pièces de chaque plan, avec leur phase |
 | `donnees/06_bord_du_trou.csv` | Murs de bord du trou : position, sens, hauteur |
-| `donnees/05_matrice_tourelles.csv` | Les 96 tourelles : ordre, type, couche, chaume, tourelle, sens de tir |
-| `donnees/08_chaume_a_demolir.csv` | Les 96 murs de chaume à démolir : plan, n° d'entrée, tourelle portée, ce qui est posé au-dessus |
+| `donnees/05_matrice_tourelles.csv` | Les 110 tourelles : ordre, type, couche, chaume, tourelle, sens de tir |
+| `donnees/08_chaume_a_demolir.csv` | Les 100 murs de chaume à démolir : plan, n° d'entrée, tourelle portée, ce qui est posé au-dessus |
 | `templates/test/Secteur_test_theta_-15_45.json` | Essai en solo : un secteur de 60° de tous les plans (module 08 §6) |
 | `donnees/07_equipements.csv` | Positions des équipements, hors plan |
 | `donnees/03_colonnade.csv`, `donnees/03_ligne_pics.csv`, `donnees/synthese.json` | Colonnade, pics, toutes les cotes et tous les bilans |
@@ -105,7 +106,7 @@ Le centre est repris à zéro, sans le Coeur Base. À l'avant de la plateforme, 
   - Tous les autres plans portent 1 demi-pilier qui se pose sur cette pile (`snapOverrides [0]`).
   - Démolissez la pile à la fin.
 - **Orientation** : l'axe 0° des templates correspond à la branche de carrés orientée vers la droite sur `plans/plan_calpinage.png`, à l'opposé du trou. Votre export *trou* est tourné de −150° par rapport à ce repère (module 06 §1).
-- **Réglages serveur** : `LimitTurretsNum`, `LimitTurretsRange`, limite de structures. La base compte ≈ 4 700 structures, plus 96 tourelles et 96 murs de chaume temporaires.
+- **Réglages serveur** : `LimitTurretsNum`, `LimitTurretsRange`, limite de structures. La base compte 4 966 structures en tout (dont 110 tourelles, 74 pics et 45 équipements), 5 075 au plus fort du chantier : plafond retenu de 8 400 (module 09).
 - **Étoile déjà construite** : dans le plan 3, sautez les pièces déjà en place et retirez de votre étoile les 27 pièces qui tombent dans le trou (anneaux 4 à 7, côté θ 180° ; `donnees/synthese.json` → `trou`).
 
 ## 5. Séquence de pose : 3 phases, du bas vers le haut
@@ -122,8 +123,8 @@ Le centre est repris à zéro, sans le Coeur Base. À l'avant de la plateforme, 
 | Phase | Fichier | Hauteur | Contenu | Entrées |
 |---|---|---|---|---|
 | **1** | `Phase_1_sol_et_dessous.json` | sous Z0 | toutes les fondations (paliers et plateforme verte compris), pile d'ancrage ; sous le bord : 83 pieds de poteaux de l'overhang, mur de jupe (166), 94 poutres et 188 rampes du débord, 26 murs de chaume + 26 Heavy de jupe | 1 613 |
-| **2** | `Phase_2_du_sol_a_la_mezzanine.json` | Z0 → 1800 | murs du pod et du fût, murs de bord du trou, rive, colonnade, piliers PA, escaliers, haut des poteaux de l'overhang, pente A et overhang (376 rampes), 10 murs de chaume + 6 Tesla + 4 Heavy (rive et bord du trou) | 1 612 |
-| **3** | `Phase_3_de_la_mezzanine_au_faitage.json` | Z1800 → 5100 | mezzanine, galeries, 60 murs de chaume + 60 tourelles de L1, cadres L2, murs du haut du pod et du bord du trou, piliers PB, plancher de toit Z2400, poteaux et toit en rampes, casquettes | 1 640 |
+| **2** | `Phase_2_du_sol_a_la_mezzanine.json` | Z0 → 1800 | murs du pod et du fût, murs de bord du trou, rive, colonnade, piliers PA et PB (du sol), escaliers, haut des poteaux de l'overhang, pente A et overhang (376 rampes), 14 murs de chaume + 10 Tesla + 4 Heavy (rive et bord du trou) | 1 688 |
+| **3** | `Phase_3_de_la_mezzanine_au_faitage.json` | Z1800 → 5100 | mezzanine, galeries, 60 murs de chaume + 60 tourelles de L1, cadres L2, murs du haut du pod et du bord du trou, haut des piliers PA et PB, plancher de toit Z2400, 10 tourelles debout, poteaux et toit en rampes, casquettes | 1 650 |
 
 - **Ancrage** : la phase 1 pose la pile d'ancrage sur votre pilier de référence en (0 ; 300). Les phases 2 et 3 portent un demi-pilier qui se pose dessus.
 - **Démolition du chaume** : démolissez les murs de chaume **à la fin**, une fois les 3 phases posées (`donnees/08_chaume_a_demolir.csv`). Au-dessus des murs de chaume de L1 et du bord du trou sont posés des cadres et des murs.
@@ -131,7 +132,7 @@ Le centre est repris à zéro, sans le Coeur Base. À l'avant de la plateforme, 
 
 ### Finitions
 
-1. **Démolissez les 96 murs de chaume** (`donnees/08_chaume_a_demolir.csv` : plan 2 → 36, plan 7 → 60). Testez d'abord sur une tourelle qu'elle reste en place, avec ce qui est posé au-dessus. Rien d'autre n'est en chaume dans les plans.
+1. **Démolissez les 100 murs de chaume** (`donnees/08_chaume_a_demolir.csv` : plan 2 → 40, plan 7 → 60). Testez d'abord sur une tourelle qu'elle reste en place, avec ce qui est posé au-dessus. Rien d'autre n'est en chaume dans les plans.
 2. Posez les 74 Metal Spike Walls (`donnees/03_ligne_pics.csv`).
 3. Posez les portes doubles : 6 au sol du pod, 6 au sol du fût, 11 accès galerie, cadres de L2. Ajoutez les échelles sous les 5 trappes.
 4. Posez les équipements aux emplacements prévus (module 07 §3) et le câblage (module 05 §8).
@@ -141,17 +142,17 @@ Le centre est repris à zéro, sans le Coeur Base. À l'avant de la plateforme, 
 
 | Poste | Lingots | Pâte | Autres |
 |---|---|---|---|
-| Structure des 8 plans (4 669 pièces, dont 104 poteaux et 94 poutres d'appui des rampes) | 108 712 | 31 285 | — |
+| Structure des 8 plans (4 737 pièces, dont 104 poteaux et 94 poutres d'appui des rampes) | 110 412 | 31 761 | — |
 | Ancres (9 demi-piliers, temporaires) | 117 | 36 | — |
 | 74 murs de pics | 1 850 | — | 1 480 cuir, 2 220 fibre |
-| 96 murs de chaume (gabarits) | — | — | ~672 chaume, ~384 fibre, ~384 bois |
+| 100 murs de chaume (gabarits) | — | — | ~700 chaume, ~400 fibre, ~400 bois |
 | Équipements : 1 réplicateur, 1 forge à vapeur, 1 labo de fortune, 20 stockages dédiés, 20 coffres-forts, 2 générateurs Tek | 26 000 | 2 900 | 220 élément, 3 350 cristal, 470 perles noires, 5 850 polymère, 220 électroniques, 100 poudre étincelante, 1 400 huile |
-| **Total à fabriquer** | **136 679** | **34 221** | — |
-| *Tourelles (60 H, 30 T, 6 S), en inventaire* | *38 400* | *13 500* | *19 800 électroniques, 7 500 polymère, 1 200 cristal, 90 élément* |
+| **Total à fabriquer** | **138 379** | **34 697** | — |
+| *Tourelles (65 H, 35 T, 10 S), en inventaire* | *43 600* | *14 750* | *22 050 électroniques, 9 300 polymère, 2 000 cristal, 105 élément* |
 
-Équivalent brut (hors tourelles) : ≈ 274 000 minerai de métal, ≈ 184 000 chitine ou kératine, ≈ 367 000 pierre.
+Équivalent brut (hors tourelles) : ≈ 277 000 minerai de métal, ≈ 186 000 chitine ou kératine, ≈ 371 000 pierre.
 
-Avec `--appuis prudent` : 144 037 lingots et 36 485 pâte.
+Avec `--appuis prudent` : 145 737 lingots et 36 961 pâte, en 4 phases de pose.
 
 Si votre étoile (anneaux 1 à 7) est déjà construite, retirez encore 87 fondations et 174 triangles : 8 700 lingots et 2 697 pâte.
 
@@ -192,10 +193,12 @@ python3 outils/forteresse.py --verifier-481 chemin/template-481-building-0.json
 
 Les autres paramètres (inventaire, cap, colonnade, emplacements des équipements, générateurs) sont en tête du script : `P`, `GABARITS`, `GENERATEURS`. Le découpage en plans est dans `PLANS`.
 
-À chaque régénération, le script refuse d'écrire des plans qui ne passent pas ses contrôles (module 08) :
+À chaque régénération, le script refuse d'écrire des plans qui ne passent pas ses contrôles (modules 08 et 09) :
 - aucune pièce au-dessus du trou ;
 - aucune collision entre pièces ;
-- chaque rampe tenue par ses appuis.
+- chaque rampe tenue par ses appuis ;
+- au plus 8 400 structures, 100 tourelles comptées, 70 murs de haut ;
+- aucun plafond à plus de 2 cases d'un appui relié au sol.
 
 ## 9. Sources
 

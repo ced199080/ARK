@@ -40,9 +40,9 @@ Il suit votre schéma (lignes 30 → 32) :
 | Niveau | Z | Contenu (84 positions = 12 côtés × 7, dont 10 au-dessus du trou) |
 |---|---|---|
 | 0 | 0 → 300 | **74 murs**. Pas de sas : l'accès se fait par Tek Teleporter, ou par un sas percé à la main hors template |
-| 1 | 300 → 600 | **69 murs** + **5 emplacements laissés libres** (au milieu des côtés E0) pour les Tesla verticales. Chacun reçoit en P7 un mur de chaume de pose et une Tesla fixée sur sa face extérieure |
+| 1 | 300 → 600 | **65 murs** + **9 emplacements laissés libres** (au milieu des côtés E0, et des côtés E1 à 30°, 90°, 270°, 330°) pour les Tesla verticales. Chacun reçoit en P7 un mur de chaume de pose et une Tesla fixée sur sa face extérieure |
 
-- Les emplacements Tesla sont à θ = 0° · 60° · 120° · 240° · 300°. Celui de 180° tombe dans le trou : sa Tesla est reposée sur un mur de bord du trou, face au gouffre (module 06 §4).
+- Les emplacements Tesla sont à θ = 0° · 30° · 60° · 90° · 120° · 240° · 270° · 300° · 330°. Les Tesla ne comptent pas dans le cap : les 10 de l'inventaire sont posées (module 05 §3). Celui de 180° tombe dans le trou : sa Tesla est reposée sur un mur de bord du trou, face au gouffre (module 06 §4).
 - Au droit du trou, la rive est remplacée par les **murs de bord du trou** (module 06 §3), qui ferment la base sur le gouffre.
 - Hauteur apparente de la rive depuis l'extérieur : 750 UU.
 - **Après démolition du chaume**, chaque emplacement Tesla est une ouverture de 300 × 300 entre 450 et 750 UU au-dessus de la bande, la Tesla au nu du mur.
@@ -135,7 +135,7 @@ Les lignes de lames sont sur les **joints des murs de rive** (t = ±150, ±450, 
 - **74 Metal Spike Walls**, 7 par côté sauf au droit du trou (84 sans trou), à l'apothème **4 068,7** et à **Z −150** sur le palier 1, pointes vers l'extérieur.
 - Coordonnées : `donnees/03_ligne_pics.csv`.
 - Le rang r−1 passe 600 UU au-dessus d'eux. Ce qui glisse sur ses lames tombe au-delà ; ce qui passe entre deux lames tombe sur les pics, sous le tir de la Tesla. Les poteaux de l'overhang sont 150 UU plus loin, sur les joints des murs de rive : ils ne gênent pas les pics.
-- Avec les 5 Tesla de rive, qui voient tout le palier 1 et le palier 2 à partir de 4 230 UU, ils couvrent l'angle mort de la cage.
+- Avec les 9 Tesla de rive, qui voient tout le palier 1 et le palier 2 à partir de 4 230 UU, ils couvrent l'angle mort de la cage.
 - ⚠ La pose d'un mur de pics métal sur fondation est à valider en solo. Repli : bord de plateforme à l'apothème 4 520, sous le rang r−2.
 
 ## 7. Glissement : du faîtage jusqu'au vide
@@ -163,7 +163,7 @@ Sur une lame inclinée à 45°, ni un joueur ni un dino ne tient debout. Ce qui 
 
 ## 8. Contrôles de fin de module
 
-- [ ] Rive : 2 niveaux (143 murs), 5 emplacements Tesla libres au niveau 1 (θ 0°, 60°, 120°, 240°, 300°) ; remplacée par les murs de bord au droit du trou.
+- [ ] Rive : 2 niveaux (139 murs), 9 emplacements Tesla libres au niveau 1 (θ 0°, 30°, 60°, 90°, 120°, 240°, 270°, 300°, 330°) ; remplacée par les murs de bord au droit du trou.
 - [ ] Colonnade : 226 piliers sur un rang, 6 passages à θ 30° + 60°·k, interrompue au-dessus du trou.
 - [ ] Pente A : 208 rampes sur 3 rangs, chaque ligne sur le haut de la rive. Overhang : 168 rampes et 83 poteaux sur les paliers. Débord : 188 rampes et 94 poutres fines. Mur de jupe : 166 murs sur le bord D8. Aucun toit incliné, aucune rampe au-dessus du trou.
 - [ ] Aucune lame ne touche une Tesla de rive ni ne prend appui sur un mur de chaume.

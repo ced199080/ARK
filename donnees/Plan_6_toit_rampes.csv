@@ -579,3 +579,13 @@ entree;piece;phase;x;y;Z_plan;yaw;theta;rayon;repere
 577;Rampe inclinée métal (Sloped Railing);P6;-2294.1;-804.9;2100.0;30.0;199.33;2431.2;casquette du trou θ202.8
 578;Rampe inclinée métal (Sloped Railing);P6;-1939.2;-709.8;2100.0;0.0;200.1;2065.1;casquette du trou θ203.9
 579;Rampe inclinée métal (Sloped Railing);P6;-1734.3;-654.9;2100.0;30.0;200.69;1853.9;casquette du trou θ205.3
+580;Tourelle Tek;P7;951.1;309.0;2400.0;18.0;18.0;1000.0;#101 TOIT c1 p0
+581;Tourelle Tek;P7;587.8;-809.0;2400.0;306.0;306.0;1000.0;#102 TOIT c10 p8
+582;Tourelle Tek;P7;-951.1;309.0;2400.0;162.0;162.0;1000.0;#103 TOIT c5 p4
+583;Tourelle Tek;P7;0.0;1000.0;2400.0;90.0;90.0;1000.0;#104 TOIT c3 p2
+584;Tourelle Tek;P7;-587.8;-809.0;2400.0;234.0;234.0;1000.0;#105 TOIT c8 p6
+585;Tourelle lourde (Heavy);P7;587.8;809.0;2400.0;54.0;54.0;1000.0;#106 TOIT c2 p1
+586;Tourelle lourde (Heavy);P7;951.1;-309.0;2400.0;342.0;342.0;1000.0;#107 TOIT c11 p9
+587;Tourelle lourde (Heavy);P7;-951.1;-309.0;2400.0;198.0;198.0;1000.0;#108 TOIT c7 p5
+588;Tourelle lourde (Heavy);P7;-587.8;809.0;2400.0;126.0;126.0;1000.0;#109 TOIT c4 p3
+589;Tourelle lourde (Heavy);P7;-0.0;-1000.0;2400.0;270.0;270.0;1000.0;#110 TOIT c9 p7

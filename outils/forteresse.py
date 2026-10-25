@@ -98,8 +98,13 @@ P = dict(
     colonnade_passages=(30, 90, 150, 210, 270, 330),   # 1 passage par part (axe des portes du fût)
     colonnade_largeur_passage=300.0,
     appuis='tours',            # appuis des rampes : 'tours' (comme les tours 1201 / 1809) ou 'prudent' (poteau en bout)
-    cap=100, tesla_comptee=True,             # scénario B retenu
+    cap=100, tesla_comptee=False,            # cap moteur : 100 tourelles Heavy / Tek / Plante X ; Tesla non comptées
     inventaire=(80, 35, 10),                 # Heavy, Tek, Tesla disponibles
+    tesla_rive_E1=(1, 3, 9, 11),             # côtés E1 de la rive qui reçoivent aussi une Tesla (θ 30°, 90°, 270°, 330°)
+    toit_tourelles=dict(n=10, rayon=1000.0, tek=5),   # tourelles debout sur le plancher de toit, sous les rampes
+    plafond_structures=8400,                 # 10 500 structures moins 20 % de réserve (mobilier, câbles, ajouts)
+    hauteur_max_murs=70,
+    portee_plafond_max=2,                    # cases au plus entre un plafond et un appui relié au sol
 )
 ANCRE = (0.0, F)               # sommet de l'hexagone central à θ = 90° : pilier de référence de tous les plans
 ESCALIER = (129.907, -75.004, -119.998)   # colonne d'escaliers du pod (x, y, yaw), à l'ancienne place du Coeur Base
@@ -668,8 +673,16 @@ def _lame(x, y, z, yaw, bout=0.0):
     return Solide(s_, [_vect(u, l), _vect(l, v), _vect(v, u)], [u, l, v])
 
 
-def volume(cle, x, y, z, yaw, noyau=False):
-    """Volume d'une pièce posée (z : cote template), ou son noyau. None : pièce non contrôlée."""
+def debout(cle, rep_):
+    """Tourelle posée debout sur un plancher (toit), et non sur la face d'un mur de chaume."""
+    return cle in ('heavy', 'tek') and ' TOIT ' in rep_
+
+
+def volume(cle, x, y, z, yaw, noyau=False, droite=False):
+    """Volume d'une pièce posée (z : cote template), ou son noyau. None : pièce non contrôlée.
+    droite=True : tourelle debout sur un plancher (bloc de 110 × 110 × 150 au-dessus du pivot)."""
+    if droite:
+        return _boite(x, y, z + 75, yaw, 110, 110, 150)
     c = 1.0 if noyau else 0.0
     if cle in ('fond', 'fond_tri', 'plafond', 'plafond_tri', 'trappe'):
         poly = polygone(dict(type='tri' if cle.endswith('_tri') else 'carre', x=x, y=y, yaw=yaw))
@@ -712,11 +725,11 @@ class Encombrement:
         return [(gx, gy) for gx in range(int(b[0] // 400), int(b[1] // 400) + 1)
                 for gy in range(int(b[2] // 400), int(b[3] // 400) + 1)]
 
-    def ajouter(self, ref, cle, x, y, z, yaw):
-        S = volume(cle, x, y, z, yaw)
+    def ajouter(self, ref, cle, x, y, z, yaw, droite=False):
+        S = volume(cle, x, y, z, yaw, droite=droite)
         if S is None:
             return
-        self.p[ref] = (cle, x, y, S, volume(cle, x, y, z, yaw, noyau=True))
+        self.p[ref] = (cle, x, y, S, volume(cle, x, y, z, yaw, noyau=True, droite=droite))
         for c in self._cases(S):
             self.grille.setdefault(c, set()).add(ref)
 
@@ -792,7 +805,7 @@ def consolider_rampes(p, modules):
     for mi, (_, m) in enumerate(modules):
         for e, (cle, *_, rep_), meta in zip(m.entries, m.lignes, m.metas):
             l, r = e['loc'], e['rot']
-            E.ajouter(id(e), cle, l['x'], l['y'], l['z'], r['yaw'])
+            E.ajouter(id(e), cle, l['x'], l['y'], l['z'], r['yaw'], droite=debout(cle, rep_))
             info[id(e)] = (mi, cle, meta, rep_)
     retraits = {}
     # 1. colonnade : une colonne qui heurte autre chose (hors colonnade et rampes) est retirée
@@ -979,7 +992,7 @@ def verifier_collisions(plans):
     P_ = _pieces_plans(plans)
     E = Encombrement()
     for n, q in enumerate(P_):
-        E.ajouter(n, q[2], q[3], q[4], q[5], q[6])
+        E.ajouter(n, q[2], q[3], q[4], q[5], q[6], droite=debout(q[2], q[7]))
     vus, erreurs, admis = set(), [], {}
     for n in list(E.p):
         for r in E.heurts(n):
@@ -1159,8 +1172,9 @@ def module_pod(p, contours):
             if dans_trou(p, x, y, bord=True):
                 continue                       # coupé par le trou : le mur de bord du trou ferme le pod
             t.add(cle, x, y, Zb + Z_TPL + F / 2, nu, Z=Zb, repere=f'pod niv{niv} c{k} p{i}')
-    # piliers : couronne PA aux sommets de D2 (Z0 -> 2400), couronne PB aux sommets de D1 (mezzanine -> 2400)
-    for nom, n, Zb, Zh in (('PA', 2, 0.0, Ztop), ('PB', 1, zmez, Ztop)):
+    # piliers : couronne PA aux sommets de D2, couronne PB aux sommets de D1, toutes deux du sol (Z0) au plancher de
+    # toit (Z2400) : aucun plafond du centre n'est à plus de 2 cases d'un appui relié au sol
+    for nom, n, Zb, Zh in (('PA', 2, 0.0, Ztop), ('PB', 1, 0.0, Ztop)):
         R = rayon_coin(n)
         for k in range(12):
             cx, cy = vec(15 + 30 * k)
@@ -1439,9 +1453,27 @@ def emplacements_cage(p, contours):
     return [emplacement(x, y, p['mezzanine'], nu, 'L1', k, i) for x, y, nu, k, i in cotes_contour(contours[p['anneau_cage']])]
 
 
-def murs_tesla(murs):
-    """Index des murs de rive (niveau 1) au milieu des côtés E0 (θ = 0°, 60°…) : 1 Tesla par part."""
-    return [j for j, m in enumerate(murs) if m[3] % 2 == 0 and m[4] == 3]
+def murs_tesla(murs, p):
+    """Index des murs de rive (niveau 1) au milieu des côtés E0 (θ = 0°, 60°…), plus ceux des côtés E1 de
+    p['tesla_rive_E1'] : les Tesla ne comptent pas dans le cap, on pose donc tout l'inventaire."""
+    return [j for j, m in enumerate(murs) if m[4] == 3 and (m[3] % 2 == 0 or m[3] in p['tesla_rive_E1'])]
+
+
+def emplacements_toit(p):
+    """Tourelles debout (pitch 0) sur le plancher de toit Z2400, sous les rampes du toit : elles couvrent le toit, le
+    ciel au-dessus du centre et le comble (ce qui passe entre les lames). Les lames, espacées de 300 UU, ne masquent pas
+    le tir (même hypothèse que pour L1). Tek et Heavy alternées sur un cercle."""
+    q = p['toit_tourelles']
+    Ztop = p['pod_niveaux'] * F
+    out = []
+    for i in range(q['n']):
+        th = 360 / q['n'] * (i + 0.5)
+        x, y = q['rayon'] * vec(th)[0], q['rayon'] * vec(th)[1]
+        assert not dans_trou(p, x, y), th
+        s_ = dict(xm=x, ym=y, x=x, y=y, Zb=Ztop, Z=Ztop + 75, sortie=th, couche='TOIT', cote=round(th / 30) % 12, idx=i)
+        s_['type'] = 'tek' if i % 2 == 0 and sum(1 for o in out if o['type'] == 'tek') < q['tek'] else 'heavy'
+        out.append(s_)
+    return out
 
 
 def emplacements_jupe(p, jupe):
@@ -1548,6 +1580,7 @@ def matrice(p, contours, murs, tesla_murs, jupe, trou_slots):
                 if not dans_trou(p, murs[j][0], murs[j][1], bord=True)), key=angle)
     T_h = sorted((s for s in trou_slots if s['couche'] == 'TROU' and s['type'] == 'heavy'), key=angle)
     T_s = sorted((s for s in trou_slots if s['couche'] == 'TROU' and s['type'] == 'tesla'), key=angle)
+    TO = sorted(emplacements_toit(p), key=angle)
     # L1 : Tek / Heavy alternées (côté E0 : T H T H T ; côté E1 : H T H T H) = 5 Tek + 5 Heavy par part
     for s in L1:
         if s['couche'] == 'L1':
@@ -1556,13 +1589,14 @@ def matrice(p, contours, murs, tesla_murs, jupe, trou_slots):
         s['type'] = 'heavy'
     for s in S:
         s['type'] = 'tesla'
-    besoin = {k: sum(1 for s in L1 + J + S + T_h + T_s if s['type'] == k) for k in ('heavy', 'tek', 'tesla')}
+    besoin = {k: sum(1 for s in L1 + J + S + T_h + T_s + TO if s['type'] == k) for k in ('heavy', 'tek', 'tesla')}
     assert besoin['heavy'] <= nH and besoin['tek'] <= nT and besoin['tesla'] <= nS, besoin
     # priorités : 1 jupe et bord du trou (dessous de la plateforme, gouffre) 2 Tek L1 3 Tesla 4 Heavy L1
     groupes = [('P1 jupe et bord du trou : Heavy', sorted(J + T_h, key=angle)),
                ('P2 L1 Tek', [s for s in L1 if s['type'] == 'tek']),
                ('P3 Tesla (rive et bord du trou)', sorted(S + T_s, key=angle)),
-               ('P4 L1 Heavy', [s for s in L1 if s['type'] == 'heavy'])]
+               ('P4 L1 Heavy', [s for s in L1 if s['type'] == 'heavy']),
+               ('P5 toit : Tek et Heavy debout', TO)]
     ordre = []
     for nom, g in groupes:
         for i in ordre_vdc(len(g)):
@@ -1576,6 +1610,7 @@ def matrice(p, contours, murs, tesla_murs, jupe, trou_slots):
         s['posee'] = not (compte_s and compte >= p['cap'])
         compte += compte_s and s['posee']
     poses = {k: sum(1 for s in ordre if s['posee'] and s['type'] == k) for k in ('heavy', 'tek', 'tesla')}
+    assert compte <= p['cap'] and all(s['posee'] for s in ordre), (compte, p['cap'])
     reserve = {'heavy': nH - poses['heavy'], 'tek': nT - poses['tek'], 'tesla': nS - poses['tesla']}
     return ordre, poses, reserve
 
@@ -1588,9 +1623,13 @@ def template_tourelles(nom, ordre):
     for s in ordre:
         if not s['posee']:
             continue
+        rep = f"#{s['ordre']} {s['couche']} c{s['cote']} p{s['idx']}"
+        if s['couche'] == 'TOIT':                # debout sur le plancher de toit, sans mur de chaume
+            t.groupe = 'toit'
+            t.add(s['type'], s['x'], s['y'], s['Zb'] + Z_TPL + 10, s['sortie'], Z=s['Zb'], repere=rep)
+            continue
         t.groupe = 'tourelles_cage' if s['couche'] in ('L1', 'TROU-L1') else 'ext'
         z = s['Zb'] + Z_TPL + F / 2
-        rep = f"#{s['ordre']} {s['couche']} c{s['cote']} p{s['idx']}"
         t.add('chaume_mur', s['xm'], s['ym'], z, s['sortie'], Z=s['Zb'], repere=rep + ' (chaume a demolir)')
         rot = ROT_TESLA if s['type'] == 'tesla' else ROT_TOURELLE
         t.add(s['type'], s['x'], s['y'], z, s['sortie'] + 90, Z=s['Zb'], repere=rep, **rot)
@@ -1721,6 +1760,71 @@ def assembler_plans(p, modules):
     return plans
 
 
+def verifier_limites(p, plans, n_pics, n_equipements):
+    """Limites du moteur et règles d'ancrage :
+    - structures : bâti (8 plans, tourelles, pics, équipements) ≤ p['plafond_structures'] (10 500 − 20 % de réserve),
+      y compris au pic du chantier (murs de chaume et pile d'ancrage pas encore démolis) ;
+    - tourelles comptées par le cap (Heavy, Tek ; Tesla si tesla_comptee) = p['cap'] exactement ;
+    - hauteur ≤ p['hauteur_max_murs'] murs au-dessus du sol ;
+    - aucun plafond à plus de p['portee_plafond_max'] cases d'un appui relié au sol : une fondation, ou une colonne de
+      murs, de cadres ou de piliers qui descend sans interruption jusqu'à une fondation (le chaume, démoli, coupe la
+      colonne ; la plateforme verte ne compte pas)."""
+    P, ordre, par = ordre_de_pose(plans)
+    au_sol = {}
+    for i in ordre:
+        cle = P[i][2]
+        if cle in ('fond', 'fond_tri'):
+            au_sol[i] = P[i][0] != 'plateforme'
+        elif cle in ('mur', 'cadre_double', 'escalier') or cle in PILIERS:
+            au_sol[i] = any(au_sol.get(j) and P[j][2] in ('fond', 'fond_tri', 'mur', 'cadre_double') + PILIERS
+                            for j in par[i])
+    plaf = [i for i in range(len(P)) if P[i][2] in ('plafond', 'plafond_tri', 'trappe')]
+    k5 = lambda *v: tuple(round(c / 5) for c in v)
+    aretes = {}
+    for i in plaf:
+        cle, x, y, z, yaw = P[i][2:7]
+        poly = polygone(dict(type='tri' if cle.endswith('_tri') else 'carre', x=x, y=y, yaw=yaw))
+        for m in range(len(poly)):
+            (x1, y1), (x2, y2) = poly[m], poly[(m + 1) % len(poly)]
+            aretes.setdefault(k5((x1 + x2) / 2, (y1 + y2) / 2, z), set()).add(i)
+    dist = {i: 0 for i in plaf if any(au_sol.get(j) for j in par[i])}
+    file = list(dist)
+    while file:
+        i = file.pop(0)
+        cle, x, y, z, yaw = P[i][2:7]
+        poly = polygone(dict(type='tri' if cle.endswith('_tri') else 'carre', x=x, y=y, yaw=yaw))
+        for m in range(len(poly)):
+            (x1, y1), (x2, y2) = poly[m], poly[(m + 1) % len(poly)]
+            for j in aretes[k5((x1 + x2) / 2, (y1 + y2) / 2, z)]:
+                if j not in dist:
+                    dist[j] = dist[i] + 1
+                    file.append(j)
+    portee = max(dist.get(i, 99) for i in plaf)
+    loin = [P[i][7] for i in plaf if dist.get(i, 99) > p['portee_plafond_max']]
+    assert not loin, (len(loin), loin[:5])
+    n = {}
+    for q in P:
+        n[q[2]] = n.get(q[2], 0) + 1
+    tourelles = sum(n.get(k, 0) for k in ('heavy', 'tek', 'tesla'))
+    temporaires = n.get('chaume_mur', 0) + sum(1 for t in plans.values() for l_ in t.lignes if l_[5].startswith('ancre'))
+    bati = len(P) - n.get('chaume_mur', 0) + n_pics + n_equipements
+    pic = bati + temporaires
+    comptees = sum(n.get(k, 0) for k in ('heavy', 'tek')) + (n.get('tesla', 0) if p['tesla_comptee'] else 0)
+    zmax = max(q[5] - Z_TPL + (100 if q[2] == 'rampe' else HAUT_PILIER.get(q[2], F) / 2) for q in P)
+    assert pic <= p['plafond_structures'], pic
+    assert comptees == p['cap'], comptees
+    assert zmax <= p['hauteur_max_murs'] * F, zmax
+    out = dict(structures_bati=bati, dont_tourelles=tourelles, structures_pic_chantier=pic,
+               plafond=p['plafond_structures'], marge=p['plafond_structures'] - bati, tourelles_comptees=comptees,
+               tesla_non_comptees=0 if p['tesla_comptee'] else n.get('tesla', 0), hauteur_max_Z=zmax,
+               hauteur_max_murs=zmax / F, portee_plafond_max_cases=portee,
+               plafonds_par_portee={d: sum(1 for i in plaf if dist[i] == d) for d in sorted(set(dist.values()))})
+    print(f"  Limites : {bati} structures de bâti ({pic} au pic du chantier) pour un plafond de {p['plafond_structures']}, "
+          f"{comptees} tourelles comptées (+ {out['tesla_non_comptees']} Tesla), hauteur {zmax / F:.0f} murs, "
+          f"plafonds à {portee} cases au plus d'un appui au sol")
+    return out
+
+
 def secteur_test(plans, th0=-15.0, th1=45.0):
     """Template d'essai en solo : toutes les pièces dont le pivot est entre θ0 et θ1 (2 côtés et l'arête θ 15°, hors
     du trou), dans l'ordre de pose des phases (chaque pièce après ses porteurs). On y retrouve chaque sorte de pièce et
@@ -1842,19 +1946,20 @@ def porteurs(P):
             par[i] = [j for q in bouts_lame(x, y, z, yaw) for j in appuis_point(q)]
             lames.append(i)
         elif cle in ('heavy', 'tek', 'tesla'):
-            par[i] = [j for j in range(n) if P[j][2] == 'chaume_mur' and abs(P[j][5] - z) < 2
-                      and math.hypot(P[j][3] - x, P[j][4] - y) < 15][:1]
+            par[i] = (sous(x, y, z - 10) if debout(cle, rep_) else
+                      [j for j in range(n) if P[j][2] == 'chaume_mur' and abs(P[j][5] - z) < 2
+                       and math.hypot(P[j][3] - x, P[j][4] - y) < 15][:1])
 
-    debout = set()
+    tenus = set()
     for i in sorted((i for i in range(n) if P[i][2] in MURS), key=lambda i: P[i][5]):
         pl, nn, cle, x, y, z, yaw, rep_ = P[i]
         bas = z - F / 2
         r = [j for poly, zt, j in polys if abs(zt - bas) < 2 and any(
             _dist_seg(x, y, *poly[m], *poly[(m + 1) % len(poly)]) < 2 for m in range(len(poly)))]
-        if (k := k5(x, y, bas - F)) in mur_a and mur_a[k] in debout:
+        if (k := k5(x, y, bas - F)) in mur_a and mur_a[k] in tenus:
             r.append(mur_a[k])
         if r:
-            debout.add(i)
+            tenus.add(i)
             par[i] = r
     for i in sorted((i for i in range(n) if P[i][2] in MURS and not par[i]), key=lambda i: -P[i][5]):
         pl, nn, cle, x, y, z, yaw, rep_ = P[i]
@@ -1971,12 +2076,25 @@ def phases_de_pose(plans):
     assert all(pos[j] < pos[i] for i in final for j in par[i]), 'une pièce passe avant son porteur'
     out = []
     for n, (z0, z1, nom, desc) in enumerate(BANDES):
-        ph = [i for i in ordre if phase[i] == n]
-        assert len(ph) + (2 if n == 0 else 1) <= TAILLE_MAX, (nom, len(ph))
-        cles = {}
-        for i in ph:
-            cles[P[i][2]] = cles.get(P[i][2], 0) + 1
-        out.append((n, nom, desc, [src[(P[i][0], P[i][1])] for i in ph], cles))
+        bande = [i for i in ordre if phase[i] == n]
+        # une tranche trop grosse est coupée en sous-phases (2a, 2b…), au dernier changement de cote avant la limite
+        morceaux = []
+        while bande:
+            cap = TAILLE_MAX - (2 if not out and not morceaux else 1)
+            if len(bande) <= cap:
+                morceaux.append(bande)
+                break
+            k = max((k for k in range(cap // 2, cap + 1) if round(pied(bande[k])) != round(pied(bande[k - 1]))),
+                    default=cap)
+            morceaux.append(bande[:k])
+            bande = bande[k:]
+        for m, ph in enumerate(morceaux):
+            cles = {}
+            for i in ph:
+                cles[P[i][2]] = cles.get(P[i][2], 0) + 1
+            suffixe = '' if len(morceaux) == 1 else 'abcdefgh'[m]
+            out.append((len(out), nom + (f'_{suffixe}' if suffixe else ''), desc,
+                        [src[(P[i][0], P[i][1])] for i in ph], cles))
     return out
 
 
@@ -2543,7 +2661,7 @@ def main():
         assert releve[3] == 0, 'des fondations du relevé tombent dans le trou : revoir references/Trou_fondations.json'
     pod, infos_pod = module_pod(p, contours)
     murs_rive = cotes_contour(contours[p['anneau_rive']])
-    tesla_murs = murs_tesla(murs_rive)
+    tesla_murs = murs_tesla(murs_rive, p)
     rampe, murs, sas, ob, jupe, col, bord, trou_slots = module_rampe(p, contours, set(tesla_murs))
     cage, gal = module_cage(p, contours)
     ordre, poses, reserve = matrice(p, contours, murs, tesla_murs, jupe, trou_slots)
@@ -2632,7 +2750,7 @@ def main():
                                                        'total': releve[2], 'dans_le_trou': releve[3]}},
            'tourelles': {'posees': poses, 'reserve': reserve,
                          'par_couche': {cch: sum(1 for s in ordre if s['posee'] and s['couche'] == cch)
-                                        for cch in ('JUPE-int', 'JUPE-ext', 'L1', 'RIVE', 'TROU', 'TROU-L1')}},
+                                        for cch in ('JUPE-int', 'JUPE-ext', 'L1', 'RIVE', 'TROU', 'TROU-L1', 'TOIT')}},
            'cap': {'distance_max_entre_tourelles': round(dmax, 1), 'rayon_max_tourelle': round(rmax, 1),
                    'distance_min_avant_poste': round(10000 + rmax, 1)},
            'secteurs': secteurs(p, ob, jupe),
@@ -2667,6 +2785,7 @@ def main():
                 c[cle] = c.get(cle, 0) + 1
         return c
 
+    syn['limites_moteur'] = verifier_limites(p, plans, len(pics), len(equip))
     syn['plans'] = {}
     structure = {}
     for cle, fichier, desc in PLANS:

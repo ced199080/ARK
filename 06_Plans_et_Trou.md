@@ -83,7 +83,7 @@ Le trou est à l'avant, centré sur θ = 180°. Il entame le pod dès l'anneau 4
 
 **Pourquoi fermer la base sur le bord du gouffre.** Le trou est une défense naturelle : rien ne tient au-dessus. Mais il ouvre un passage par le dessous de la plateforme et une face de la base sans glacis. On ferme donc la base sur le bord du trou par des murs pleins de toute la hauteur, et on y repose les tourelles qui tombaient dans le trou, tournées vers le gouffre.
 
-## 4. Tourelles : 96, comme avant
+## 4. Tourelles : 100 comptées par le cap, plus 10 Tesla
 
 Le trou supprime 12 emplacements : 7 de la cage L1 (côté 150° p4, côté 180° en entier, côté 210° p0), 4 Heavy de jupe et 1 Tesla de rive. Ils sont **reposés sur les murs de bord, face au gouffre** :
 
@@ -97,11 +97,12 @@ Le trou supprime 12 emplacements : 7 de la cage L1 (côté 150° p4, côté 180�
 | L1 (cage), hors trou | 7 | 26 | 27 | — |
 | **TROU-L1** (bord du trou, Z1800) | 7 | **4** | **3** | — |
 | Jupe, hors trou | 2 | 26 | — | — |
-| Rive, hors trou | 2 | — | — | 5 |
+| Rive, hors trou (côtés E0 et 4 côtés E1) | 2 | — | — | 9 |
 | **TROU** (bord du trou, Z0 / Z300) | 2 | **4** | — | **1** |
-| **Total** | | **60** | **30** | **6** |
+| Toit (debout sur le plancher Z2400) | 6 | 5 | 5 | — |
+| **Total** | | **65** | **35** | **10** |
 
-Le cap reste respecté : 96 tourelles, toutes à moins de 9 101 UU les unes des autres (module 05). La réserve reste de 20 Heavy, 5 Tek et 4 Tesla.
+Le cap est plein : 100 Heavy et Tek (et 10 Tesla, non comptées), toutes à moins de 9 101 UU les unes des autres (module 05). Il reste en réserve 15 Heavy.
 
 ## 5. Les 8 plans
 
@@ -112,11 +113,11 @@ Chaque plan contient le **pilier de référence**. Le plan 1 pose la pile de 2 d
 | Plan | Fichier `templates/plans/` | Contenu | Pièces | Lingots | Pâte |
 |---|---|---|---|---|---|
 | **1** | `Plan_1_sol_anneaux_12-15.json` | sol des anneaux 12 à 15 : 147 fondations + 294 triangles, dont les paliers à −150 (anneau 14) et −300 (anneau 15), sans le trou | 441 | 14 700 | 4 557 |
-| **2** | `Plan_2_murs_rampes_tourelles_anneaux_12-15.json` | anneaux 12 à 15 : rive (143 murs), murs de bord du trou (10), colonnade (226 piliers), mur de jupe (166), appuis (83 poteaux sur les paliers : 123 piliers fins + 43 demi-piliers fins ; 94 poutres fines), **toute la pente A** (208 rampes, de la rive vers la cage), overhang et débord (356 rampes), puis **36 murs de chaume + 30 Heavy + 6 Tesla** | 1 441 | 23 515 | 6 461 |
+| **2** | `Plan_2_murs_rampes_tourelles_anneaux_12-15.json` | anneaux 12 à 15 : rive (139 murs), murs de bord du trou (10), colonnade (226 piliers), mur de jupe (166), appuis (83 poteaux sur les paliers : 123 piliers fins + 43 demi-piliers fins ; 94 poutres fines), **toute la pente A** (208 rampes, de la rive vers la cage), overhang et débord (356 rampes), puis **40 murs de chaume + 30 Heavy + 10 Tesla** | 1 445 | 23 415 | 6 433 |
 | **3** | `Plan_3_sol_centre_anneaux_0-11.json` | sol du centre : hexagone central et anneaux 1 à 11, sans le trou ni la plateforme (192 fondations + 385 triangles) | 577 | 19 225 | 5 960 |
-| **4** | `Plan_4_pod_central.json` | pod : mur de pod (319 murs + 17 cadres doubles), murs de bord du trou dans le pod (77), piliers PA/PB (120), colonne de 6 escaliers, mezzanine Z1800 (255 plafonds) | 794 | 19 660 | 5 521 |
+| **4** | `Plan_4_pod_central.json` | pod : mur de pod (319 murs + 17 cadres doubles), murs de bord du trou dans le pod (77), piliers PA/PB du sol à Z2400 (192), colonne de 6 escaliers, mezzanine Z1800 (255 plafonds) | 866 | 21 460 | 6 025 |
 | **5** | `Plan_5_cage_et_casquette.json` | cage : fût (312 murs + 6 cadres), murs de bord du trou dans le couloir (49), galeries Z1800 / 2100 / 2400 (426 pièces, dont 5 trappes), 53 cadres doubles L2, casquette (53 rampes) | 899 | 21 201 | 5 934 |
-| **6** | `Plan_6_toit_rampes.json` | plancher de toit Z2400 du pod (261), 21 poteaux (43 piliers fins), toit en rampes inclinées (263) et **casquette du trou (12 rampes)** | 579 | 10 036 | 2 737 |
+| **6** | `Plan_6_toit_rampes.json` | plancher de toit Z2400 du pod (261), 21 poteaux (43 piliers fins), toit en rampes inclinées (263), **casquette du trou (12 rampes)** et **10 tourelles debout** (5 Tek, 5 Heavy) | 589 | 10 036 | 2 737 |
 | **7** | `Plan_7_tourelles_cage_L1.json` | **60 murs de chaume + 30 Tek + 30 Heavy** : cage L1 (53) et bord du trou au niveau L1 (7) | 120 | — | — |
 | **8** | `Plan_8_plateforme_future_anneaux_9-11.json` | **plateforme verte** : 5 fondations + 5 triangles, rien dessus | 10 | 375 | 115 |
 
@@ -129,7 +130,7 @@ Les lingots et la pâte des plans 2 et 7 ne comprennent pas les tourelles, déj�
 4. Plan 6 : plancher de toit, toit et casquette du trou.
 5. Plan 7 : tourelles de la cage et du bord du trou (niveau L1).
 6. Plan 8 : la plateforme verte, quand vous en aurez besoin.
-7. À la main : démolition des 96 murs de chaume (liste et ordre : `donnees/08_chaume_a_demolir.csv`), 74 murs de pics (`donnees/03_ligne_pics.csv`), portes doubles, échelles, équipements (module 07), puis démolition de la pile d'ancrage.
+7. À la main : démolition des 100 murs de chaume (liste et ordre : `donnees/08_chaume_a_demolir.csv`), 74 murs de pics (`donnees/03_ligne_pics.csv`), portes doubles, échelles, équipements (module 07), puis démolition de la pile d'ancrage.
 
 ⚠ Les plans s'appuient les uns sur les autres :
 - la pente A est entière dans le plan 2 : chaque ligne de lames y est posée depuis son appui sur la rive ;
@@ -145,6 +146,6 @@ Si Template Hammer refuse des pièces faute d'appui, posez d'abord le plan conce
 - [ ] Plateforme verte : 10 fondations, rien dessus.
 - [ ] Murs de bord du trou fermés de la rive à la rive, 8 niveaux dans le pod et le couloir ; plancher de toit fermé.
 - [ ] Casquette du trou : 12 lames au-dessus du gouffre ; aucune autre rampe au-dessus du trou.
-- [ ] 12 tourelles face au gouffre (7 à Z1800, 5 à Z0 / Z300) ; 96 tourelles en tout.
-- [ ] 96 murs de chaume démolis ; les tourelles restent en place.
+- [ ] 12 tourelles face au gouffre (7 à Z1800, 5 à Z0 / Z300) ; 110 tourelles en tout, dont 100 comptées par le cap.
+- [ ] 100 murs de chaume démolis ; les tourelles restent en place.
 - [ ] Contrôles du générateur (module 08) : aucune collision entre pièces, chaque ligne de rampes sur ses appuis, rien ne repose sur un mur de chaume.
