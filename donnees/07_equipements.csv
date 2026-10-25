@@ -1,46 +1,46 @@
 n;equipement;lieu;x;y;Z_plan;yaw
 0;Réplicateur Tek;hall;1650.0;0.0;0.0;180
-1;Forge à vapeur (Steam Forge);hall;-800.0;1385.6;0.0;300
-2;Labo de fortune (Makeshift Megalab);hall;-1650.0;0.0;0.0;0
-3;Stockage dédié Tek (Tek Dedicated Storage);hall;615.2;-1665.5;0.0;120
-4;Stockage dédié Tek (Tek Dedicated Storage);hall;875.0;-1515.5;0.0;120
-5;Stockage dédié Tek (Tek Dedicated Storage);hall;1134.8;-1365.5;0.0;120
-6;Générateur Tek;hall;900.0;1558.8;0.0;240
-7;Générateur Tek;hall;-900.0;-1558.8;0.0;60
-8;Coffre-fort (Vault);Coeur Base (Matiere Premiere 1);1.5;-306.8;0.0;60.0
-9;Coffre-fort (Vault);hall extérieur;2389.2;150.0;0.0;0
-10;Stockage dédié Tek (Tek Dedicated Storage);hall extérieur;2389.2;450.0;0.0;0
-11;Coffre-fort (Vault);hall extérieur;2294.1;804.9;0.0;30
-12;Stockage dédié Tek (Tek Dedicated Storage);hall extérieur;1994.1;1324.5;0.0;30
-13;Coffre-fort (Vault);hall extérieur;1844.1;1584.3;0.0;30
-14;Stockage dédié Tek (Tek Dedicated Storage);hall extérieur;1584.3;1844.1;0.0;60
-15;Coffre-fort (Vault);hall extérieur;1064.7;2144.1;0.0;60
-16;Stockage dédié Tek (Tek Dedicated Storage);hall extérieur;804.9;2294.1;0.0;60
-17;Coffre-fort (Vault);hall extérieur;450.0;2389.2;0.0;90
-18;Stockage dédié Tek (Tek Dedicated Storage);hall extérieur;-150.0;2389.2;0.0;90
-19;Coffre-fort (Vault);hall extérieur;-450.0;2389.2;0.0;90
-20;Stockage dédié Tek (Tek Dedicated Storage);hall extérieur;-804.9;2294.1;0.0;120
-21;Coffre-fort (Vault);hall extérieur;-1324.5;1994.1;0.0;120
-22;Stockage dédié Tek (Tek Dedicated Storage);hall extérieur;-1584.3;1844.1;0.0;120
-23;Coffre-fort (Vault);hall extérieur;-1844.1;1584.3;0.0;150
-24;Stockage dédié Tek (Tek Dedicated Storage);hall extérieur;-2144.1;1064.7;0.0;150
-25;Coffre-fort (Vault);hall extérieur;-2294.1;804.9;0.0;150
-26;Stockage dédié Tek (Tek Dedicated Storage);hall extérieur;-2389.2;450.0;0.0;180
-27;Coffre-fort (Vault);hall extérieur;-2389.2;-150.0;0.0;180
-28;Stockage dédié Tek (Tek Dedicated Storage);hall extérieur;-2389.2;-450.0;0.0;180
-29;Coffre-fort (Vault);hall extérieur;-2294.1;-804.9;0.0;210
-30;Stockage dédié Tek (Tek Dedicated Storage);hall extérieur;-1994.1;-1324.5;0.0;210
-31;Coffre-fort (Vault);hall extérieur;-1844.1;-1584.3;0.0;210
-32;Stockage dédié Tek (Tek Dedicated Storage);hall extérieur;-1584.3;-1844.1;0.0;240
-33;Coffre-fort (Vault);hall extérieur;-1064.7;-2144.1;0.0;240
-34;Stockage dédié Tek (Tek Dedicated Storage);hall extérieur;-804.9;-2294.1;0.0;240
-35;Coffre-fort (Vault);hall extérieur;-450.0;-2389.2;0.0;270
-36;Stockage dédié Tek (Tek Dedicated Storage);hall extérieur;150.0;-2389.2;0.0;270
-37;Coffre-fort (Vault);hall extérieur;450.0;-2389.2;0.0;270
-38;Stockage dédié Tek (Tek Dedicated Storage);hall extérieur;804.9;-2294.1;0.0;300
-39;Coffre-fort (Vault);hall extérieur;1324.5;-1994.1;0.0;300
-40;Stockage dédié Tek (Tek Dedicated Storage);hall extérieur;1584.3;-1844.1;0.0;300
-41;Coffre-fort (Vault);hall extérieur;1844.1;-1584.3;0.0;330
-42;Stockage dédié Tek (Tek Dedicated Storage);hall extérieur;2144.1;-1064.7;0.0;330
-43;Coffre-fort (Vault);hall extérieur;2294.1;-804.9;0.0;330
-44;Coffre-fort (Vault);hall extérieur;2389.2;-450.0;0.0;0
+1;Forge à vapeur (Steam Forge);hall;-825.0;1428.9;0.0;300
+2;Labo de fortune (Makeshift Megalab);hall;-825.0;-1428.9;0.0;60
+3;Stockage dédié Tek (Tek Dedicated Storage);hall;485.3;-1740.5;0.0;120
+4;Stockage dédié Tek (Tek Dedicated Storage);hall;745.1;-1590.5;0.0;120
+5;Stockage dédié Tek (Tek Dedicated Storage);hall;1004.9;-1440.5;0.0;120
+6;Stockage dédié Tek (Tek Dedicated Storage);hall;1264.7;-1290.5;0.0;120
+7;Stockage dédié Tek (Tek Dedicated Storage);hall;205.4;-1555.7;0.0;120
+8;Stockage dédié Tek (Tek Dedicated Storage);hall;465.2;-1405.7;0.0;120
+9;Stockage dédié Tek (Tek Dedicated Storage);hall;725.0;-1255.7;0.0;120
+10;Stockage dédié Tek (Tek Dedicated Storage);hall;984.8;-1105.7;0.0;120
+11;Stockage dédié Tek (Tek Dedicated Storage);hall;1244.6;-955.7;0.0;120
+12;Générateur Tek;hall;900.0;1558.8;0.0;240
+13;Générateur Tek;mezzanine;-900.0;0.0;1800.0;0
+14;Coffre-fort (Vault);mezzanine;2089.2;150.0;1800.0;180
+15;Stockage dédié Tek (Tek Dedicated Storage);mezzanine;2089.2;450.0;1800.0;180
+16;Coffre-fort (Vault);mezzanine;2034.3;654.9;1800.0;210
+17;Coffre-fort (Vault);mezzanine;1734.3;1174.5;1800.0;210
+18;Stockage dédié Tek (Tek Dedicated Storage);mezzanine;1584.3;1434.3;1800.0;210
+19;Coffre-fort (Vault);mezzanine;1434.3;1584.3;1800.0;240
+20;Coffre-fort (Vault);mezzanine;914.7;1884.3;1800.0;240
+21;Stockage dédié Tek (Tek Dedicated Storage);mezzanine;654.9;2034.3;1800.0;240
+22;Coffre-fort (Vault);mezzanine;450.0;2089.2;1800.0;270
+23;Stockage dédié Tek (Tek Dedicated Storage);mezzanine;-150.0;2089.2;1800.0;270
+24;Coffre-fort (Vault);mezzanine;-450.0;2089.2;1800.0;270
+25;Coffre-fort (Vault);mezzanine;-654.9;2034.3;1800.0;300
+26;Stockage dédié Tek (Tek Dedicated Storage);mezzanine;-1174.5;1734.3;1800.0;300
+27;Coffre-fort (Vault);mezzanine;-1434.3;1584.3;1800.0;300
+28;Coffre-fort (Vault);mezzanine;-1584.3;1434.3;1800.0;330
+29;Stockage dédié Tek (Tek Dedicated Storage);mezzanine;-1884.3;914.7;1800.0;330
+30;Coffre-fort (Vault);mezzanine;-1734.3;-1174.5;1800.0;30
+31;Coffre-fort (Vault);mezzanine;-1584.3;-1434.3;1800.0;30
+32;Stockage dédié Tek (Tek Dedicated Storage);mezzanine;-1434.3;-1584.3;1800.0;60
+33;Coffre-fort (Vault);mezzanine;-914.7;-1884.3;1800.0;60
+34;Coffre-fort (Vault);mezzanine;-654.9;-2034.3;1800.0;60
+35;Stockage dédié Tek (Tek Dedicated Storage);mezzanine;-450.0;-2089.2;1800.0;90
+36;Coffre-fort (Vault);mezzanine;150.0;-2089.2;1800.0;90
+37;Stockage dédié Tek (Tek Dedicated Storage);mezzanine;450.0;-2089.2;1800.0;90
+38;Coffre-fort (Vault);mezzanine;654.9;-2034.3;1800.0;120
+39;Coffre-fort (Vault);mezzanine;1174.5;-1734.3;1800.0;120
+40;Stockage dédié Tek (Tek Dedicated Storage);mezzanine;1434.3;-1584.3;1800.0;120
+41;Coffre-fort (Vault);mezzanine;1584.3;-1434.3;1800.0;150
+42;Coffre-fort (Vault);mezzanine;1884.3;-914.7;1800.0;150
+43;Stockage dédié Tek (Tek Dedicated Storage);mezzanine;2034.3;-654.9;1800.0;150
+44;Coffre-fort (Vault);mezzanine;2089.2;-450.0;1800.0;180

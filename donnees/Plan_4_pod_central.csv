@@ -1,0 +1,796 @@
+entree;piece;phase;x;y;Z_plan;yaw;theta;rayon;repere
+0;Demi-pilier métal;;0.0;300.0;225;0;90.0;300.0;ancre module (se pose sur l'ancre du sol)
+1;Escalier métal;P2;129.9;-75.0;0.0;240.0;330.0;150.0;escalier niv0
+2;Mur métal;P2;2239.2;-450.0;0.0;0;348.64;2284.0;pod niv0 c0 p0
+3;Mur métal;P2;2239.2;-150.0;0.0;0;356.17;2244.2;pod niv0 c0 p1
+4;Mur métal;P2;2239.2;150.0;0.0;0;3.83;2244.2;pod niv0 c0 p2
+5;Mur métal;P2;2239.2;450.0;0.0;0;11.36;2284.0;pod niv0 c0 p3
+6;Mur métal;P2;2164.2;729.9;0.0;30;18.64;2284.0;pod niv0 c1 p0
+7;Cadre de porte double métal;P2;2014.2;989.7;0.0;30;26.17;2244.2;pod niv0 c1 p1
+8;Mur métal;P2;1864.2;1249.5;0.0;30;33.83;2244.2;pod niv0 c1 p2
+9;Mur métal;P2;1714.2;1509.3;0.0;30;41.36;2284.0;pod niv0 c1 p3
+10;Mur métal;P2;1509.3;1714.2;0.0;60;48.64;2284.0;pod niv0 c2 p0
+11;Mur métal;P2;1249.5;1864.2;0.0;60;56.17;2244.2;pod niv0 c2 p1
+12;Mur métal;P2;989.7;2014.2;0.0;60;63.83;2244.2;pod niv0 c2 p2
+13;Mur métal;P2;729.9;2164.2;0.0;60;71.36;2284.0;pod niv0 c2 p3
+14;Mur métal;P2;450.0;2239.2;0.0;90;78.64;2284.0;pod niv0 c3 p0
+15;Cadre de porte double métal;P2;150.0;2239.2;0.0;90;86.17;2244.2;pod niv0 c3 p1
+16;Mur métal;P2;-150.0;2239.2;0.0;90;93.83;2244.2;pod niv0 c3 p2
+17;Mur métal;P2;-450.0;2239.2;0.0;90;101.36;2284.0;pod niv0 c3 p3
+18;Mur métal;P2;-729.9;2164.2;0.0;120;108.64;2284.0;pod niv0 c4 p0
+19;Mur métal;P2;-989.7;2014.2;0.0;120;116.17;2244.2;pod niv0 c4 p1
+20;Mur métal;P2;-1249.5;1864.2;0.0;120;123.83;2244.2;pod niv0 c4 p2
+21;Mur métal;P2;-1509.3;1714.2;0.0;120;131.36;2284.0;pod niv0 c4 p3
+22;Mur métal;P2;-1714.2;1509.3;0.0;150;138.64;2284.0;pod niv0 c5 p0
+23;Cadre de porte double métal;P2;-1864.2;1249.5;0.0;150;146.17;2244.2;pod niv0 c5 p1
+24;Mur métal;P2;-2014.2;989.7;0.0;150;153.83;2244.2;pod niv0 c5 p2
+25;Cadre de porte double métal;P2;-2014.2;-989.7;0.0;210;206.17;2244.2;pod niv0 c7 p1
+26;Mur métal;P2;-1864.2;-1249.5;0.0;210;213.83;2244.2;pod niv0 c7 p2
+27;Mur métal;P2;-1714.2;-1509.3;0.0;210;221.36;2284.0;pod niv0 c7 p3
+28;Mur métal;P2;-1509.3;-1714.2;0.0;240;228.64;2284.0;pod niv0 c8 p0
+29;Mur métal;P2;-1249.5;-1864.2;0.0;240;236.17;2244.2;pod niv0 c8 p1
+30;Mur métal;P2;-989.7;-2014.2;0.0;240;243.83;2244.2;pod niv0 c8 p2
+31;Mur métal;P2;-729.9;-2164.2;0.0;240;251.36;2284.0;pod niv0 c8 p3
+32;Mur métal;P2;-450.0;-2239.2;0.0;270;258.64;2284.0;pod niv0 c9 p0
+33;Cadre de porte double métal;P2;-150.0;-2239.2;0.0;270;266.17;2244.2;pod niv0 c9 p1
+34;Mur métal;P2;150.0;-2239.2;0.0;270;273.83;2244.2;pod niv0 c9 p2
+35;Mur métal;P2;450.0;-2239.2;0.0;270;281.36;2284.0;pod niv0 c9 p3
+36;Mur métal;P2;729.9;-2164.2;0.0;300;288.64;2284.0;pod niv0 c10 p0
+37;Mur métal;P2;989.7;-2014.2;0.0;300;296.17;2244.2;pod niv0 c10 p1
+38;Mur métal;P2;1249.5;-1864.2;0.0;300;303.83;2244.2;pod niv0 c10 p2
+39;Mur métal;P2;1509.3;-1714.2;0.0;300;311.36;2284.0;pod niv0 c10 p3
+40;Mur métal;P2;1714.2;-1509.3;0.0;330;318.64;2284.0;pod niv0 c11 p0
+41;Cadre de porte double métal;P2;1864.2;-1249.5;0.0;330;326.17;2244.2;pod niv0 c11 p1
+42;Mur métal;P2;2014.2;-989.7;0.0;330;333.83;2244.2;pod niv0 c11 p2
+43;Mur métal;P2;2164.2;-729.9;0.0;330;341.36;2284.0;pod niv0 c11 p3
+44;Mur métal;P2;2239.2;-450.0;300.0;0;348.64;2284.0;pod niv1 c0 p0
+45;Mur métal;P2;2239.2;-150.0;300.0;0;356.17;2244.2;pod niv1 c0 p1
+46;Mur métal;P2;2239.2;150.0;300.0;0;3.83;2244.2;pod niv1 c0 p2
+47;Mur métal;P2;2239.2;450.0;300.0;0;11.36;2284.0;pod niv1 c0 p3
+48;Mur métal;P2;2164.2;729.9;300.0;30;18.64;2284.0;pod niv1 c1 p0
+49;Mur métal;P2;2014.2;989.7;300.0;30;26.17;2244.2;pod niv1 c1 p1
+50;Mur métal;P2;1864.2;1249.5;300.0;30;33.83;2244.2;pod niv1 c1 p2
+51;Mur métal;P2;1714.2;1509.3;300.0;30;41.36;2284.0;pod niv1 c1 p3
+52;Mur métal;P2;1509.3;1714.2;300.0;60;48.64;2284.0;pod niv1 c2 p0
+53;Mur métal;P2;1249.5;1864.2;300.0;60;56.17;2244.2;pod niv1 c2 p1
+54;Mur métal;P2;989.7;2014.2;300.0;60;63.83;2244.2;pod niv1 c2 p2
+55;Mur métal;P2;729.9;2164.2;300.0;60;71.36;2284.0;pod niv1 c2 p3
+56;Mur métal;P2;450.0;2239.2;300.0;90;78.64;2284.0;pod niv1 c3 p0
+57;Mur métal;P2;150.0;2239.2;300.0;90;86.17;2244.2;pod niv1 c3 p1
+58;Mur métal;P2;-150.0;2239.2;300.0;90;93.83;2244.2;pod niv1 c3 p2
+59;Mur métal;P2;-450.0;2239.2;300.0;90;101.36;2284.0;pod niv1 c3 p3
+60;Mur métal;P2;-729.9;2164.2;300.0;120;108.64;2284.0;pod niv1 c4 p0
+61;Mur métal;P2;-989.7;2014.2;300.0;120;116.17;2244.2;pod niv1 c4 p1
+62;Mur métal;P2;-1249.5;1864.2;300.0;120;123.83;2244.2;pod niv1 c4 p2
+63;Mur métal;P2;-1509.3;1714.2;300.0;120;131.36;2284.0;pod niv1 c4 p3
+64;Mur métal;P2;-1714.2;1509.3;300.0;150;138.64;2284.0;pod niv1 c5 p0
+65;Mur métal;P2;-1864.2;1249.5;300.0;150;146.17;2244.2;pod niv1 c5 p1
+66;Mur métal;P2;-2014.2;989.7;300.0;150;153.83;2244.2;pod niv1 c5 p2
+67;Mur métal;P2;-2014.2;-989.7;300.0;210;206.17;2244.2;pod niv1 c7 p1
+68;Mur métal;P2;-1864.2;-1249.5;300.0;210;213.83;2244.2;pod niv1 c7 p2
+69;Mur métal;P2;-1714.2;-1509.3;300.0;210;221.36;2284.0;pod niv1 c7 p3
+70;Mur métal;P2;-1509.3;-1714.2;300.0;240;228.64;2284.0;pod niv1 c8 p0
+71;Mur métal;P2;-1249.5;-1864.2;300.0;240;236.17;2244.2;pod niv1 c8 p1
+72;Mur métal;P2;-989.7;-2014.2;300.0;240;243.83;2244.2;pod niv1 c8 p2
+73;Mur métal;P2;-729.9;-2164.2;300.0;240;251.36;2284.0;pod niv1 c8 p3
+74;Mur métal;P2;-450.0;-2239.2;300.0;270;258.64;2284.0;pod niv1 c9 p0
+75;Mur métal;P2;-150.0;-2239.2;300.0;270;266.17;2244.2;pod niv1 c9 p1
+76;Mur métal;P2;150.0;-2239.2;300.0;270;273.83;2244.2;pod niv1 c9 p2
+77;Mur métal;P2;450.0;-2239.2;300.0;270;281.36;2284.0;pod niv1 c9 p3
+78;Mur métal;P2;729.9;-2164.2;300.0;300;288.64;2284.0;pod niv1 c10 p0
+79;Mur métal;P2;989.7;-2014.2;300.0;300;296.17;2244.2;pod niv1 c10 p1
+80;Mur métal;P2;1249.5;-1864.2;300.0;300;303.83;2244.2;pod niv1 c10 p2
+81;Mur métal;P2;1509.3;-1714.2;300.0;300;311.36;2284.0;pod niv1 c10 p3
+82;Mur métal;P2;1714.2;-1509.3;300.0;330;318.64;2284.0;pod niv1 c11 p0
+83;Mur métal;P2;1864.2;-1249.5;300.0;330;326.17;2244.2;pod niv1 c11 p1
+84;Mur métal;P2;2014.2;-989.7;300.0;330;333.83;2244.2;pod niv1 c11 p2
+85;Mur métal;P2;2164.2;-729.9;300.0;330;341.36;2284.0;pod niv1 c11 p3
+86;Mur métal;P2;2239.2;-450.0;600.0;0;348.64;2284.0;pod niv2 c0 p0
+87;Mur métal;P2;2239.2;-150.0;600.0;0;356.17;2244.2;pod niv2 c0 p1
+88;Mur métal;P2;2239.2;150.0;600.0;0;3.83;2244.2;pod niv2 c0 p2
+89;Mur métal;P2;2239.2;450.0;600.0;0;11.36;2284.0;pod niv2 c0 p3
+90;Mur métal;P2;2164.2;729.9;600.0;30;18.64;2284.0;pod niv2 c1 p0
+91;Mur métal;P2;2014.2;989.7;600.0;30;26.17;2244.2;pod niv2 c1 p1
+92;Mur métal;P2;1864.2;1249.5;600.0;30;33.83;2244.2;pod niv2 c1 p2
+93;Mur métal;P2;1714.2;1509.3;600.0;30;41.36;2284.0;pod niv2 c1 p3
+94;Mur métal;P2;1509.3;1714.2;600.0;60;48.64;2284.0;pod niv2 c2 p0
+95;Mur métal;P2;1249.5;1864.2;600.0;60;56.17;2244.2;pod niv2 c2 p1
+96;Mur métal;P2;989.7;2014.2;600.0;60;63.83;2244.2;pod niv2 c2 p2
+97;Mur métal;P2;729.9;2164.2;600.0;60;71.36;2284.0;pod niv2 c2 p3
+98;Mur métal;P2;450.0;2239.2;600.0;90;78.64;2284.0;pod niv2 c3 p0
+99;Mur métal;P2;150.0;2239.2;600.0;90;86.17;2244.2;pod niv2 c3 p1
+100;Mur métal;P2;-150.0;2239.2;600.0;90;93.83;2244.2;pod niv2 c3 p2
+101;Mur métal;P2;-450.0;2239.2;600.0;90;101.36;2284.0;pod niv2 c3 p3
+102;Mur métal;P2;-729.9;2164.2;600.0;120;108.64;2284.0;pod niv2 c4 p0
+103;Mur métal;P2;-989.7;2014.2;600.0;120;116.17;2244.2;pod niv2 c4 p1
+104;Mur métal;P2;-1249.5;1864.2;600.0;120;123.83;2244.2;pod niv2 c4 p2
+105;Mur métal;P2;-1509.3;1714.2;600.0;120;131.36;2284.0;pod niv2 c4 p3
+106;Mur métal;P2;-1714.2;1509.3;600.0;150;138.64;2284.0;pod niv2 c5 p0
+107;Mur métal;P2;-1864.2;1249.5;600.0;150;146.17;2244.2;pod niv2 c5 p1
+108;Mur métal;P2;-2014.2;989.7;600.0;150;153.83;2244.2;pod niv2 c5 p2
+109;Mur métal;P2;-2014.2;-989.7;600.0;210;206.17;2244.2;pod niv2 c7 p1
+110;Mur métal;P2;-1864.2;-1249.5;600.0;210;213.83;2244.2;pod niv2 c7 p2
+111;Mur métal;P2;-1714.2;-1509.3;600.0;210;221.36;2284.0;pod niv2 c7 p3
+112;Mur métal;P2;-1509.3;-1714.2;600.0;240;228.64;2284.0;pod niv2 c8 p0
+113;Mur métal;P2;-1249.5;-1864.2;600.0;240;236.17;2244.2;pod niv2 c8 p1
+114;Mur métal;P2;-989.7;-2014.2;600.0;240;243.83;2244.2;pod niv2 c8 p2
+115;Mur métal;P2;-729.9;-2164.2;600.0;240;251.36;2284.0;pod niv2 c8 p3
+116;Mur métal;P2;-450.0;-2239.2;600.0;270;258.64;2284.0;pod niv2 c9 p0
+117;Mur métal;P2;-150.0;-2239.2;600.0;270;266.17;2244.2;pod niv2 c9 p1
+118;Mur métal;P2;150.0;-2239.2;600.0;270;273.83;2244.2;pod niv2 c9 p2
+119;Mur métal;P2;450.0;-2239.2;600.0;270;281.36;2284.0;pod niv2 c9 p3
+120;Mur métal;P2;729.9;-2164.2;600.0;300;288.64;2284.0;pod niv2 c10 p0
+121;Mur métal;P2;989.7;-2014.2;600.0;300;296.17;2244.2;pod niv2 c10 p1
+122;Mur métal;P2;1249.5;-1864.2;600.0;300;303.83;2244.2;pod niv2 c10 p2
+123;Mur métal;P2;1509.3;-1714.2;600.0;300;311.36;2284.0;pod niv2 c10 p3
+124;Mur métal;P2;1714.2;-1509.3;600.0;330;318.64;2284.0;pod niv2 c11 p0
+125;Mur métal;P2;1864.2;-1249.5;600.0;330;326.17;2244.2;pod niv2 c11 p1
+126;Mur métal;P2;2014.2;-989.7;600.0;330;333.83;2244.2;pod niv2 c11 p2
+127;Mur métal;P2;2164.2;-729.9;600.0;330;341.36;2284.0;pod niv2 c11 p3
+128;Mur métal;P2;2239.2;-450.0;900.0;0;348.64;2284.0;pod niv3 c0 p0
+129;Mur métal;P2;2239.2;-150.0;900.0;0;356.17;2244.2;pod niv3 c0 p1
+130;Mur métal;P2;2239.2;150.0;900.0;0;3.83;2244.2;pod niv3 c0 p2
+131;Mur métal;P2;2239.2;450.0;900.0;0;11.36;2284.0;pod niv3 c0 p3
+132;Mur métal;P2;2164.2;729.9;900.0;30;18.64;2284.0;pod niv3 c1 p0
+133;Mur métal;P2;2014.2;989.7;900.0;30;26.17;2244.2;pod niv3 c1 p1
+134;Mur métal;P2;1864.2;1249.5;900.0;30;33.83;2244.2;pod niv3 c1 p2
+135;Mur métal;P2;1714.2;1509.3;900.0;30;41.36;2284.0;pod niv3 c1 p3
+136;Mur métal;P2;1509.3;1714.2;900.0;60;48.64;2284.0;pod niv3 c2 p0
+137;Mur métal;P2;1249.5;1864.2;900.0;60;56.17;2244.2;pod niv3 c2 p1
+138;Mur métal;P2;989.7;2014.2;900.0;60;63.83;2244.2;pod niv3 c2 p2
+139;Mur métal;P2;729.9;2164.2;900.0;60;71.36;2284.0;pod niv3 c2 p3
+140;Mur métal;P2;450.0;2239.2;900.0;90;78.64;2284.0;pod niv3 c3 p0
+141;Mur métal;P2;150.0;2239.2;900.0;90;86.17;2244.2;pod niv3 c3 p1
+142;Mur métal;P2;-150.0;2239.2;900.0;90;93.83;2244.2;pod niv3 c3 p2
+143;Mur métal;P2;-450.0;2239.2;900.0;90;101.36;2284.0;pod niv3 c3 p3
+144;Mur métal;P2;-729.9;2164.2;900.0;120;108.64;2284.0;pod niv3 c4 p0
+145;Mur métal;P2;-989.7;2014.2;900.0;120;116.17;2244.2;pod niv3 c4 p1
+146;Mur métal;P2;-1249.5;1864.2;900.0;120;123.83;2244.2;pod niv3 c4 p2
+147;Mur métal;P2;-1509.3;1714.2;900.0;120;131.36;2284.0;pod niv3 c4 p3
+148;Mur métal;P2;-1714.2;1509.3;900.0;150;138.64;2284.0;pod niv3 c5 p0
+149;Mur métal;P2;-1864.2;1249.5;900.0;150;146.17;2244.2;pod niv3 c5 p1
+150;Mur métal;P2;-2014.2;989.7;900.0;150;153.83;2244.2;pod niv3 c5 p2
+151;Mur métal;P2;-2014.2;-989.7;900.0;210;206.17;2244.2;pod niv3 c7 p1
+152;Mur métal;P2;-1864.2;-1249.5;900.0;210;213.83;2244.2;pod niv3 c7 p2
+153;Mur métal;P2;-1714.2;-1509.3;900.0;210;221.36;2284.0;pod niv3 c7 p3
+154;Mur métal;P2;-1509.3;-1714.2;900.0;240;228.64;2284.0;pod niv3 c8 p0
+155;Mur métal;P2;-1249.5;-1864.2;900.0;240;236.17;2244.2;pod niv3 c8 p1
+156;Mur métal;P2;-989.7;-2014.2;900.0;240;243.83;2244.2;pod niv3 c8 p2
+157;Mur métal;P2;-729.9;-2164.2;900.0;240;251.36;2284.0;pod niv3 c8 p3
+158;Mur métal;P2;-450.0;-2239.2;900.0;270;258.64;2284.0;pod niv3 c9 p0
+159;Mur métal;P2;-150.0;-2239.2;900.0;270;266.17;2244.2;pod niv3 c9 p1
+160;Mur métal;P2;150.0;-2239.2;900.0;270;273.83;2244.2;pod niv3 c9 p2
+161;Mur métal;P2;450.0;-2239.2;900.0;270;281.36;2284.0;pod niv3 c9 p3
+162;Mur métal;P2;729.9;-2164.2;900.0;300;288.64;2284.0;pod niv3 c10 p0
+163;Mur métal;P2;989.7;-2014.2;900.0;300;296.17;2244.2;pod niv3 c10 p1
+164;Mur métal;P2;1249.5;-1864.2;900.0;300;303.83;2244.2;pod niv3 c10 p2
+165;Mur métal;P2;1509.3;-1714.2;900.0;300;311.36;2284.0;pod niv3 c10 p3
+166;Mur métal;P2;1714.2;-1509.3;900.0;330;318.64;2284.0;pod niv3 c11 p0
+167;Mur métal;P2;1864.2;-1249.5;900.0;330;326.17;2244.2;pod niv3 c11 p1
+168;Mur métal;P2;2014.2;-989.7;900.0;330;333.83;2244.2;pod niv3 c11 p2
+169;Mur métal;P2;2164.2;-729.9;900.0;330;341.36;2284.0;pod niv3 c11 p3
+170;Mur métal;P2;2239.2;-450.0;1200.0;0;348.64;2284.0;pod niv4 c0 p0
+171;Mur métal;P2;2239.2;-150.0;1200.0;0;356.17;2244.2;pod niv4 c0 p1
+172;Mur métal;P2;2239.2;150.0;1200.0;0;3.83;2244.2;pod niv4 c0 p2
+173;Mur métal;P2;2239.2;450.0;1200.0;0;11.36;2284.0;pod niv4 c0 p3
+174;Mur métal;P2;2164.2;729.9;1200.0;30;18.64;2284.0;pod niv4 c1 p0
+175;Mur métal;P2;2014.2;989.7;1200.0;30;26.17;2244.2;pod niv4 c1 p1
+176;Mur métal;P2;1864.2;1249.5;1200.0;30;33.83;2244.2;pod niv4 c1 p2
+177;Mur métal;P2;1714.2;1509.3;1200.0;30;41.36;2284.0;pod niv4 c1 p3
+178;Mur métal;P2;1509.3;1714.2;1200.0;60;48.64;2284.0;pod niv4 c2 p0
+179;Mur métal;P2;1249.5;1864.2;1200.0;60;56.17;2244.2;pod niv4 c2 p1
+180;Mur métal;P2;989.7;2014.2;1200.0;60;63.83;2244.2;pod niv4 c2 p2
+181;Mur métal;P2;729.9;2164.2;1200.0;60;71.36;2284.0;pod niv4 c2 p3
+182;Mur métal;P2;450.0;2239.2;1200.0;90;78.64;2284.0;pod niv4 c3 p0
+183;Mur métal;P2;150.0;2239.2;1200.0;90;86.17;2244.2;pod niv4 c3 p1
+184;Mur métal;P2;-150.0;2239.2;1200.0;90;93.83;2244.2;pod niv4 c3 p2
+185;Mur métal;P2;-450.0;2239.2;1200.0;90;101.36;2284.0;pod niv4 c3 p3
+186;Mur métal;P2;-729.9;2164.2;1200.0;120;108.64;2284.0;pod niv4 c4 p0
+187;Mur métal;P2;-989.7;2014.2;1200.0;120;116.17;2244.2;pod niv4 c4 p1
+188;Mur métal;P2;-1249.5;1864.2;1200.0;120;123.83;2244.2;pod niv4 c4 p2
+189;Mur métal;P2;-1509.3;1714.2;1200.0;120;131.36;2284.0;pod niv4 c4 p3
+190;Mur métal;P2;-1714.2;1509.3;1200.0;150;138.64;2284.0;pod niv4 c5 p0
+191;Mur métal;P2;-1864.2;1249.5;1200.0;150;146.17;2244.2;pod niv4 c5 p1
+192;Mur métal;P2;-2014.2;989.7;1200.0;150;153.83;2244.2;pod niv4 c5 p2
+193;Mur métal;P2;-2014.2;-989.7;1200.0;210;206.17;2244.2;pod niv4 c7 p1
+194;Mur métal;P2;-1864.2;-1249.5;1200.0;210;213.83;2244.2;pod niv4 c7 p2
+195;Mur métal;P2;-1714.2;-1509.3;1200.0;210;221.36;2284.0;pod niv4 c7 p3
+196;Mur métal;P2;-1509.3;-1714.2;1200.0;240;228.64;2284.0;pod niv4 c8 p0
+197;Mur métal;P2;-1249.5;-1864.2;1200.0;240;236.17;2244.2;pod niv4 c8 p1
+198;Mur métal;P2;-989.7;-2014.2;1200.0;240;243.83;2244.2;pod niv4 c8 p2
+199;Mur métal;P2;-729.9;-2164.2;1200.0;240;251.36;2284.0;pod niv4 c8 p3
+200;Mur métal;P2;-450.0;-2239.2;1200.0;270;258.64;2284.0;pod niv4 c9 p0
+201;Mur métal;P2;-150.0;-2239.2;1200.0;270;266.17;2244.2;pod niv4 c9 p1
+202;Mur métal;P2;150.0;-2239.2;1200.0;270;273.83;2244.2;pod niv4 c9 p2
+203;Mur métal;P2;450.0;-2239.2;1200.0;270;281.36;2284.0;pod niv4 c9 p3
+204;Mur métal;P2;729.9;-2164.2;1200.0;300;288.64;2284.0;pod niv4 c10 p0
+205;Mur métal;P2;989.7;-2014.2;1200.0;300;296.17;2244.2;pod niv4 c10 p1
+206;Mur métal;P2;1249.5;-1864.2;1200.0;300;303.83;2244.2;pod niv4 c10 p2
+207;Mur métal;P2;1509.3;-1714.2;1200.0;300;311.36;2284.0;pod niv4 c10 p3
+208;Mur métal;P2;1714.2;-1509.3;1200.0;330;318.64;2284.0;pod niv4 c11 p0
+209;Mur métal;P2;1864.2;-1249.5;1200.0;330;326.17;2244.2;pod niv4 c11 p1
+210;Mur métal;P2;2014.2;-989.7;1200.0;330;333.83;2244.2;pod niv4 c11 p2
+211;Mur métal;P2;2164.2;-729.9;1200.0;330;341.36;2284.0;pod niv4 c11 p3
+212;Mur métal;P2;2239.2;-450.0;1500.0;0;348.64;2284.0;pod niv5 c0 p0
+213;Mur métal;P2;2239.2;-150.0;1500.0;0;356.17;2244.2;pod niv5 c0 p1
+214;Mur métal;P2;2239.2;150.0;1500.0;0;3.83;2244.2;pod niv5 c0 p2
+215;Mur métal;P2;2239.2;450.0;1500.0;0;11.36;2284.0;pod niv5 c0 p3
+216;Mur métal;P2;2164.2;729.9;1500.0;30;18.64;2284.0;pod niv5 c1 p0
+217;Mur métal;P2;2014.2;989.7;1500.0;30;26.17;2244.2;pod niv5 c1 p1
+218;Mur métal;P2;1864.2;1249.5;1500.0;30;33.83;2244.2;pod niv5 c1 p2
+219;Mur métal;P2;1714.2;1509.3;1500.0;30;41.36;2284.0;pod niv5 c1 p3
+220;Mur métal;P2;1509.3;1714.2;1500.0;60;48.64;2284.0;pod niv5 c2 p0
+221;Mur métal;P2;1249.5;1864.2;1500.0;60;56.17;2244.2;pod niv5 c2 p1
+222;Mur métal;P2;989.7;2014.2;1500.0;60;63.83;2244.2;pod niv5 c2 p2
+223;Mur métal;P2;729.9;2164.2;1500.0;60;71.36;2284.0;pod niv5 c2 p3
+224;Mur métal;P2;450.0;2239.2;1500.0;90;78.64;2284.0;pod niv5 c3 p0
+225;Mur métal;P2;150.0;2239.2;1500.0;90;86.17;2244.2;pod niv5 c3 p1
+226;Mur métal;P2;-150.0;2239.2;1500.0;90;93.83;2244.2;pod niv5 c3 p2
+227;Mur métal;P2;-450.0;2239.2;1500.0;90;101.36;2284.0;pod niv5 c3 p3
+228;Mur métal;P2;-729.9;2164.2;1500.0;120;108.64;2284.0;pod niv5 c4 p0
+229;Mur métal;P2;-989.7;2014.2;1500.0;120;116.17;2244.2;pod niv5 c4 p1
+230;Mur métal;P2;-1249.5;1864.2;1500.0;120;123.83;2244.2;pod niv5 c4 p2
+231;Mur métal;P2;-1509.3;1714.2;1500.0;120;131.36;2284.0;pod niv5 c4 p3
+232;Mur métal;P2;-1714.2;1509.3;1500.0;150;138.64;2284.0;pod niv5 c5 p0
+233;Mur métal;P2;-1864.2;1249.5;1500.0;150;146.17;2244.2;pod niv5 c5 p1
+234;Mur métal;P2;-2014.2;989.7;1500.0;150;153.83;2244.2;pod niv5 c5 p2
+235;Mur métal;P2;-2014.2;-989.7;1500.0;210;206.17;2244.2;pod niv5 c7 p1
+236;Mur métal;P2;-1864.2;-1249.5;1500.0;210;213.83;2244.2;pod niv5 c7 p2
+237;Mur métal;P2;-1714.2;-1509.3;1500.0;210;221.36;2284.0;pod niv5 c7 p3
+238;Mur métal;P2;-1509.3;-1714.2;1500.0;240;228.64;2284.0;pod niv5 c8 p0
+239;Mur métal;P2;-1249.5;-1864.2;1500.0;240;236.17;2244.2;pod niv5 c8 p1
+240;Mur métal;P2;-989.7;-2014.2;1500.0;240;243.83;2244.2;pod niv5 c8 p2
+241;Mur métal;P2;-729.9;-2164.2;1500.0;240;251.36;2284.0;pod niv5 c8 p3
+242;Mur métal;P2;-450.0;-2239.2;1500.0;270;258.64;2284.0;pod niv5 c9 p0
+243;Mur métal;P2;-150.0;-2239.2;1500.0;270;266.17;2244.2;pod niv5 c9 p1
+244;Mur métal;P2;150.0;-2239.2;1500.0;270;273.83;2244.2;pod niv5 c9 p2
+245;Mur métal;P2;450.0;-2239.2;1500.0;270;281.36;2284.0;pod niv5 c9 p3
+246;Mur métal;P2;729.9;-2164.2;1500.0;300;288.64;2284.0;pod niv5 c10 p0
+247;Mur métal;P2;989.7;-2014.2;1500.0;300;296.17;2244.2;pod niv5 c10 p1
+248;Mur métal;P2;1249.5;-1864.2;1500.0;300;303.83;2244.2;pod niv5 c10 p2
+249;Mur métal;P2;1509.3;-1714.2;1500.0;300;311.36;2284.0;pod niv5 c10 p3
+250;Mur métal;P2;1714.2;-1509.3;1500.0;330;318.64;2284.0;pod niv5 c11 p0
+251;Mur métal;P2;1864.2;-1249.5;1500.0;330;326.17;2244.2;pod niv5 c11 p1
+252;Mur métal;P2;2014.2;-989.7;1500.0;330;333.83;2244.2;pod niv5 c11 p2
+253;Mur métal;P2;2164.2;-729.9;1500.0;330;341.36;2284.0;pod niv5 c11 p3
+254;Pilier métal;P2;1119.6;300.0;0.0;0;15.0;1159.1;pilier PA0
+255;Pilier métal;P2;1119.6;300.0;300.0;0;15.0;1159.1;pilier PA0
+256;Pilier métal;P2;1119.6;300.0;600.0;0;15.0;1159.1;pilier PA0
+257;Pilier métal;P2;1119.6;300.0;900.0;0;15.0;1159.1;pilier PA0
+258;Pilier métal;P2;1119.6;300.0;1200.0;0;15.0;1159.1;pilier PA0
+259;Pilier métal;P2;1119.6;300.0;1500.0;0;15.0;1159.1;pilier PA0
+260;Pilier métal;P2;819.6;819.6;0.0;0;45.0;1159.1;pilier PA1
+261;Pilier métal;P2;819.6;819.6;300.0;0;45.0;1159.1;pilier PA1
+262;Pilier métal;P2;819.6;819.6;600.0;0;45.0;1159.1;pilier PA1
+263;Pilier métal;P2;819.6;819.6;900.0;0;45.0;1159.1;pilier PA1
+264;Pilier métal;P2;819.6;819.6;1200.0;0;45.0;1159.1;pilier PA1
+265;Pilier métal;P2;819.6;819.6;1500.0;0;45.0;1159.1;pilier PA1
+266;Pilier métal;P2;300.0;1119.6;0.0;0;75.0;1159.1;pilier PA2
+267;Pilier métal;P2;300.0;1119.6;300.0;0;75.0;1159.1;pilier PA2
+268;Pilier métal;P2;300.0;1119.6;600.0;0;75.0;1159.1;pilier PA2
+269;Pilier métal;P2;300.0;1119.6;900.0;0;75.0;1159.1;pilier PA2
+270;Pilier métal;P2;300.0;1119.6;1200.0;0;75.0;1159.1;pilier PA2
+271;Pilier métal;P2;300.0;1119.6;1500.0;0;75.0;1159.1;pilier PA2
+272;Pilier métal;P2;-300.0;1119.6;0.0;0;105.0;1159.1;pilier PA3
+273;Pilier métal;P2;-300.0;1119.6;300.0;0;105.0;1159.1;pilier PA3
+274;Pilier métal;P2;-300.0;1119.6;600.0;0;105.0;1159.1;pilier PA3
+275;Pilier métal;P2;-300.0;1119.6;900.0;0;105.0;1159.1;pilier PA3
+276;Pilier métal;P2;-300.0;1119.6;1200.0;0;105.0;1159.1;pilier PA3
+277;Pilier métal;P2;-300.0;1119.6;1500.0;0;105.0;1159.1;pilier PA3
+278;Pilier métal;P2;-819.6;819.6;0.0;0;135.0;1159.1;pilier PA4
+279;Pilier métal;P2;-819.6;819.6;300.0;0;135.0;1159.1;pilier PA4
+280;Pilier métal;P2;-819.6;819.6;600.0;0;135.0;1159.1;pilier PA4
+281;Pilier métal;P2;-819.6;819.6;900.0;0;135.0;1159.1;pilier PA4
+282;Pilier métal;P2;-819.6;819.6;1200.0;0;135.0;1159.1;pilier PA4
+283;Pilier métal;P2;-819.6;819.6;1500.0;0;135.0;1159.1;pilier PA4
+284;Pilier métal;P2;-1119.6;300.0;0.0;0;165.0;1159.1;pilier PA5
+285;Pilier métal;P2;-1119.6;300.0;300.0;0;165.0;1159.1;pilier PA5
+286;Pilier métal;P2;-1119.6;300.0;600.0;0;165.0;1159.1;pilier PA5
+287;Pilier métal;P2;-1119.6;300.0;900.0;0;165.0;1159.1;pilier PA5
+288;Pilier métal;P2;-1119.6;300.0;1200.0;0;165.0;1159.1;pilier PA5
+289;Pilier métal;P2;-1119.6;300.0;1500.0;0;165.0;1159.1;pilier PA5
+290;Pilier métal;P2;-1119.6;-300.0;0.0;0;195.0;1159.1;pilier PA6
+291;Pilier métal;P2;-1119.6;-300.0;300.0;0;195.0;1159.1;pilier PA6
+292;Pilier métal;P2;-1119.6;-300.0;600.0;0;195.0;1159.1;pilier PA6
+293;Pilier métal;P2;-1119.6;-300.0;900.0;0;195.0;1159.1;pilier PA6
+294;Pilier métal;P2;-1119.6;-300.0;1200.0;0;195.0;1159.1;pilier PA6
+295;Pilier métal;P2;-1119.6;-300.0;1500.0;0;195.0;1159.1;pilier PA6
+296;Pilier métal;P2;-819.6;-819.6;0.0;0;225.0;1159.1;pilier PA7
+297;Pilier métal;P2;-819.6;-819.6;300.0;0;225.0;1159.1;pilier PA7
+298;Pilier métal;P2;-819.6;-819.6;600.0;0;225.0;1159.1;pilier PA7
+299;Pilier métal;P2;-819.6;-819.6;900.0;0;225.0;1159.1;pilier PA7
+300;Pilier métal;P2;-819.6;-819.6;1200.0;0;225.0;1159.1;pilier PA7
+301;Pilier métal;P2;-819.6;-819.6;1500.0;0;225.0;1159.1;pilier PA7
+302;Pilier métal;P2;-300.0;-1119.6;0.0;0;255.0;1159.1;pilier PA8
+303;Pilier métal;P2;-300.0;-1119.6;300.0;0;255.0;1159.1;pilier PA8
+304;Pilier métal;P2;-300.0;-1119.6;600.0;0;255.0;1159.1;pilier PA8
+305;Pilier métal;P2;-300.0;-1119.6;900.0;0;255.0;1159.1;pilier PA8
+306;Pilier métal;P2;-300.0;-1119.6;1200.0;0;255.0;1159.1;pilier PA8
+307;Pilier métal;P2;-300.0;-1119.6;1500.0;0;255.0;1159.1;pilier PA8
+308;Pilier métal;P2;300.0;-1119.6;0.0;0;285.0;1159.1;pilier PA9
+309;Pilier métal;P2;300.0;-1119.6;300.0;0;285.0;1159.1;pilier PA9
+310;Pilier métal;P2;300.0;-1119.6;600.0;0;285.0;1159.1;pilier PA9
+311;Pilier métal;P2;300.0;-1119.6;900.0;0;285.0;1159.1;pilier PA9
+312;Pilier métal;P2;300.0;-1119.6;1200.0;0;285.0;1159.1;pilier PA9
+313;Pilier métal;P2;300.0;-1119.6;1500.0;0;285.0;1159.1;pilier PA9
+314;Pilier métal;P2;819.6;-819.6;0.0;0;315.0;1159.1;pilier PA10
+315;Pilier métal;P2;819.6;-819.6;300.0;0;315.0;1159.1;pilier PA10
+316;Pilier métal;P2;819.6;-819.6;600.0;0;315.0;1159.1;pilier PA10
+317;Pilier métal;P2;819.6;-819.6;900.0;0;315.0;1159.1;pilier PA10
+318;Pilier métal;P2;819.6;-819.6;1200.0;0;315.0;1159.1;pilier PA10
+319;Pilier métal;P2;819.6;-819.6;1500.0;0;315.0;1159.1;pilier PA10
+320;Pilier métal;P2;1119.6;-300.0;0.0;0;345.0;1159.1;pilier PA11
+321;Pilier métal;P2;1119.6;-300.0;300.0;0;345.0;1159.1;pilier PA11
+322;Pilier métal;P2;1119.6;-300.0;600.0;0;345.0;1159.1;pilier PA11
+323;Pilier métal;P2;1119.6;-300.0;900.0;0;345.0;1159.1;pilier PA11
+324;Pilier métal;P2;1119.6;-300.0;1200.0;0;345.0;1159.1;pilier PA11
+325;Pilier métal;P2;1119.6;-300.0;1500.0;0;345.0;1159.1;pilier PA11
+326;Mur métal;P2;-1659.3;784.8;0.0;240.0;154.69;1835.6;bord du trou niv0 θ154.7
+327;Mur métal;P2;-1659.3;784.8;300.0;240.0;154.69;1835.6;bord du trou niv1 θ154.7
+328;Mur métal;P2;-1659.3;784.8;600.0;240.0;154.69;1835.6;bord du trou niv2 θ154.7
+329;Mur métal;P2;-1659.3;784.8;900.0;240.0;154.69;1835.6;bord du trou niv3 θ154.7
+330;Mur métal;P2;-1659.3;784.8;1200.0;240.0;154.69;1835.6;bord du trou niv4 θ154.7
+331;Mur métal;P2;-1659.3;784.8;1500.0;240.0;154.69;1835.6;bord du trou niv5 θ154.7
+332;Mur métal;P2;-1659.3;784.8;1800.0;240.0;154.69;1835.6;bord du trou niv6 θ154.7
+333;Mur métal;P2;-1659.3;784.8;2100.0;240.0;154.69;1835.6;bord du trou niv7 θ154.7
+334;Mur métal;P2;-1939.2;859.8;0.0;270.0;156.09;2121.3;bord du trou niv0 θ156.1
+335;Mur métal;P2;-1939.2;859.8;300.0;270.0;156.09;2121.3;bord du trou niv1 θ156.1
+336;Mur métal;P2;-1939.2;859.8;600.0;270.0;156.09;2121.3;bord du trou niv2 θ156.1
+337;Mur métal;P2;-1939.2;859.8;900.0;270.0;156.09;2121.3;bord du trou niv3 θ156.1
+338;Mur métal;P2;-1939.2;859.8;1200.0;270.0;156.09;2121.3;bord du trou niv4 θ156.1
+339;Mur métal;P2;-1939.2;859.8;1500.0;270.0;156.09;2121.3;bord du trou niv5 θ156.1
+340;Mur métal;P2;-1939.2;859.8;2100.0;270.0;156.09;2121.3;bord du trou niv7 θ156.1
+341;Mur métal;P2;-1454.4;579.9;0.0;210.0;158.26;1565.8;bord du trou niv0 θ158.3
+342;Mur métal;P2;-1454.4;579.9;300.0;210.0;158.26;1565.8;bord du trou niv1 θ158.3
+343;Mur métal;P2;-1454.4;579.9;600.0;210.0;158.26;1565.8;bord du trou niv2 θ158.3
+344;Mur métal;P2;-1454.4;579.9;900.0;210.0;158.26;1565.8;bord du trou niv3 θ158.3
+345;Mur métal;P2;-1454.4;579.9;1200.0;210.0;158.26;1565.8;bord du trou niv4 θ158.3
+346;Mur métal;P2;-1454.4;579.9;1500.0;210.0;158.26;1565.8;bord du trou niv5 θ158.3
+347;Mur métal;P2;-1454.4;579.9;1800.0;210.0;158.26;1565.8;bord du trou niv6 θ158.3
+348;Mur métal;P2;-1454.4;579.9;2100.0;210.0;158.26;1565.8;bord du trou niv7 θ158.3
+349;Mur métal;P2;-1249.5;375.0;0.0;240.0;163.29;1304.6;bord du trou niv0 θ163.3
+350;Mur métal;P2;-1249.5;375.0;300.0;240.0;163.29;1304.6;bord du trou niv1 θ163.3
+351;Mur métal;P2;-1249.5;375.0;600.0;240.0;163.29;1304.6;bord du trou niv2 θ163.3
+352;Mur métal;P2;-1249.5;375.0;900.0;240.0;163.29;1304.6;bord du trou niv3 θ163.3
+353;Mur métal;P2;-1249.5;375.0;1200.0;240.0;163.29;1304.6;bord du trou niv4 θ163.3
+354;Mur métal;P2;-1249.5;375.0;1500.0;240.0;163.29;1304.6;bord du trou niv5 θ163.3
+355;Mur métal;P2;-1249.5;375.0;1800.0;240.0;163.29;1304.6;bord du trou niv6 θ163.3
+356;Mur métal;P2;-1249.5;375.0;2100.0;240.0;163.29;1304.6;bord du trou niv7 θ163.3
+357;Mur métal;P2;-1119.6;150.0;0.0;180.0;172.37;1129.6;bord du trou niv0 θ172.4
+358;Mur métal;P2;-1119.6;150.0;300.0;180.0;172.37;1129.6;bord du trou niv1 θ172.4
+359;Mur métal;P2;-1119.6;150.0;600.0;180.0;172.37;1129.6;bord du trou niv2 θ172.4
+360;Mur métal;P2;-1119.6;150.0;900.0;180.0;172.37;1129.6;bord du trou niv3 θ172.4
+361;Mur métal;P2;-1119.6;150.0;1200.0;180.0;172.37;1129.6;bord du trou niv4 θ172.4
+362;Mur métal;P2;-1119.6;150.0;1500.0;180.0;172.37;1129.6;bord du trou niv5 θ172.4
+363;Mur métal;P2;-1119.6;150.0;1800.0;180.0;172.37;1129.6;bord du trou niv6 θ172.4
+364;Mur métal;P2;-1119.6;150.0;2100.0;180.0;172.37;1129.6;bord du trou niv7 θ172.4
+365;Mur métal;P2;-1119.6;-150.0;0.0;180.0;187.63;1129.6;bord du trou niv0 θ187.6
+366;Mur métal;P2;-1119.6;-150.0;300.0;180.0;187.63;1129.6;bord du trou niv1 θ187.6
+367;Mur métal;P2;-1119.6;-150.0;600.0;180.0;187.63;1129.6;bord du trou niv2 θ187.6
+368;Mur métal;P2;-1119.6;-150.0;900.0;180.0;187.63;1129.6;bord du trou niv3 θ187.6
+369;Mur métal;P2;-1119.6;-150.0;1200.0;180.0;187.63;1129.6;bord du trou niv4 θ187.6
+370;Mur métal;P2;-1119.6;-150.0;1500.0;180.0;187.63;1129.6;bord du trou niv5 θ187.6
+371;Mur métal;P2;-1119.6;-150.0;1800.0;180.0;187.63;1129.6;bord du trou niv6 θ187.6
+372;Mur métal;P2;-1119.6;-150.0;2100.0;180.0;187.63;1129.6;bord du trou niv7 θ187.6
+373;Mur métal;P2;-1249.5;-375.0;0.0;120.0;196.71;1304.6;bord du trou niv0 θ196.7
+374;Mur métal;P2;-1249.5;-375.0;300.0;120.0;196.71;1304.6;bord du trou niv1 θ196.7
+375;Mur métal;P2;-1249.5;-375.0;600.0;120.0;196.71;1304.6;bord du trou niv2 θ196.7
+376;Mur métal;P2;-1249.5;-375.0;900.0;120.0;196.71;1304.6;bord du trou niv3 θ196.7
+377;Mur métal;P2;-1249.5;-375.0;1200.0;120.0;196.71;1304.6;bord du trou niv4 θ196.7
+378;Mur métal;P2;-1249.5;-375.0;1500.0;120.0;196.71;1304.6;bord du trou niv5 θ196.7
+379;Mur métal;P2;-1249.5;-375.0;1800.0;120.0;196.71;1304.6;bord du trou niv6 θ196.7
+380;Mur métal;P2;-1249.5;-375.0;2100.0;120.0;196.71;1304.6;bord du trou niv7 θ196.7
+381;Mur métal;P2;-1454.4;-579.9;0.0;150.0;201.74;1565.8;bord du trou niv0 θ201.7
+382;Mur métal;P2;-1454.4;-579.9;300.0;150.0;201.74;1565.8;bord du trou niv1 θ201.7
+383;Mur métal;P2;-1454.4;-579.9;600.0;150.0;201.74;1565.8;bord du trou niv2 θ201.7
+384;Mur métal;P2;-1454.4;-579.9;900.0;150.0;201.74;1565.8;bord du trou niv3 θ201.7
+385;Mur métal;P2;-1454.4;-579.9;1200.0;150.0;201.74;1565.8;bord du trou niv4 θ201.7
+386;Mur métal;P2;-1454.4;-579.9;1500.0;150.0;201.74;1565.8;bord du trou niv5 θ201.7
+387;Mur métal;P2;-1454.4;-579.9;1800.0;150.0;201.74;1565.8;bord du trou niv6 θ201.7
+388;Mur métal;P2;-1454.4;-579.9;2100.0;150.0;201.74;1565.8;bord du trou niv7 θ201.7
+389;Mur métal;P2;-1939.2;-859.8;0.0;90.0;203.91;2121.3;bord du trou niv0 θ203.9
+390;Mur métal;P2;-1939.2;-859.8;300.0;90.0;203.91;2121.3;bord du trou niv1 θ203.9
+391;Mur métal;P2;-1939.2;-859.8;600.0;90.0;203.91;2121.3;bord du trou niv2 θ203.9
+392;Mur métal;P2;-1939.2;-859.8;900.0;90.0;203.91;2121.3;bord du trou niv3 θ203.9
+393;Mur métal;P2;-1939.2;-859.8;1200.0;90.0;203.91;2121.3;bord du trou niv4 θ203.9
+394;Mur métal;P2;-1939.2;-859.8;1500.0;90.0;203.91;2121.3;bord du trou niv5 θ203.9
+395;Mur métal;P2;-1939.2;-859.8;2100.0;90.0;203.91;2121.3;bord du trou niv7 θ203.9
+396;Mur métal;P2;-1659.3;-784.8;0.0;120.0;205.31;1835.6;bord du trou niv0 θ205.3
+397;Mur métal;P2;-1659.3;-784.8;300.0;120.0;205.31;1835.6;bord du trou niv1 θ205.3
+398;Mur métal;P2;-1659.3;-784.8;600.0;120.0;205.31;1835.6;bord du trou niv2 θ205.3
+399;Mur métal;P2;-1659.3;-784.8;900.0;120.0;205.31;1835.6;bord du trou niv3 θ205.3
+400;Mur métal;P2;-1659.3;-784.8;1200.0;120.0;205.31;1835.6;bord du trou niv4 θ205.3
+401;Mur métal;P2;-1659.3;-784.8;1500.0;120.0;205.31;1835.6;bord du trou niv5 θ205.3
+402;Mur métal;P2;-1659.3;-784.8;2100.0;120.0;205.31;1835.6;bord du trou niv7 θ205.3
+403;Escalier métal;P3;129.9;-75.0;300.0;240.0;330.0;150.0;escalier niv1
+404;Escalier métal;P3;129.9;-75.0;600.0;240.0;330.0;150.0;escalier niv2
+405;Escalier métal;P3;129.9;-75.0;900.0;240.0;330.0;150.0;escalier niv3
+406;Escalier métal;P3;129.9;-75.0;1200.0;240.0;330.0;150.0;escalier niv4
+407;Escalier métal;P3;129.9;-75.0;1500.0;240.0;330.0;150.0;escalier niv5
+408;Plafond triangle métal;P3;-65.0;112.5;1800.0;300;120.0;129.9;mezzanine anneau 0
+409;Plafond triangle métal;P3;-129.9;0.0;1800.0;0;180.0;129.9;mezzanine anneau 0
+410;Plafond triangle métal;P3;372.3;215.0;1800.0;210;30.0;429.9;mezzanine anneau 1
+411;Plafond métal;P3;204.9;354.9;1800.0;60;60.0;409.8;mezzanine anneau 1
+412;Plafond triangle métal;P3;0.0;429.9;1800.0;270;90.0;429.9;mezzanine anneau 1
+413;Plafond métal;P3;-204.9;354.9;1800.0;120;120.0;409.8;mezzanine anneau 1
+414;Plafond triangle métal;P3;-372.3;215.0;1800.0;330;150.0;429.9;mezzanine anneau 1
+415;Plafond métal;P3;-409.8;0.0;1800.0;180;180.0;409.8;mezzanine anneau 1
+416;Plafond triangle métal;P3;-372.3;-215.0;1800.0;30;210.0;429.9;mezzanine anneau 1
+417;Plafond métal;P3;-204.9;-354.9;1800.0;240;240.0;409.8;mezzanine anneau 1
+418;Plafond triangle métal;P3;-0.0;-429.9;1800.0;90;270.0;429.9;mezzanine anneau 1
+419;Plafond triangle métal;P3;372.3;-215.0;1800.0;150;330.0;429.9;mezzanine anneau 1
+420;Plafond triangle métal;P3;689.7;0.0;1800.0;0;0.0;689.7;mezzanine anneau 2
+421;Plafond triangle métal;P3;689.7;-150.0;1800.0;180;347.73;705.8;mezzanine anneau 2
+422;Plafond triangle métal;P3;689.7;150.0;1800.0;180;12.27;705.8;mezzanine anneau 2
+423;Plafond métal;P3;614.7;354.9;1800.0;30;30.0;709.8;mezzanine anneau 2
+424;Plafond triangle métal;P3;344.9;597.3;1800.0;60;60.0;689.7;mezzanine anneau 2
+425;Plafond triangle métal;P3;474.8;522.3;1800.0;240;47.73;705.8;mezzanine anneau 2
+426;Plafond triangle métal;P3;215.0;672.3;1800.0;240;72.27;705.8;mezzanine anneau 2
+427;Plafond métal;P3;0.0;709.8;1800.0;90;90.0;709.8;mezzanine anneau 2
+428;Plafond triangle métal;P3;-344.9;597.3;1800.0;120;120.0;689.7;mezzanine anneau 2
+429;Plafond triangle métal;P3;-215.0;672.3;1800.0;300;107.73;705.8;mezzanine anneau 2
+430;Plafond triangle métal;P3;-474.8;522.3;1800.0;300;132.27;705.8;mezzanine anneau 2
+431;Plafond métal;P3;-614.7;354.9;1800.0;150;150.0;709.8;mezzanine anneau 2
+432;Plafond triangle métal;P3;-689.7;0.0;1800.0;180;180.0;689.7;mezzanine anneau 2
+433;Plafond triangle métal;P3;-689.7;150.0;1800.0;0;167.73;705.8;mezzanine anneau 2
+434;Plafond triangle métal;P3;-689.7;-150.0;1800.0;0;192.27;705.8;mezzanine anneau 2
+435;Plafond métal;P3;-614.7;-354.9;1800.0;210;210.0;709.8;mezzanine anneau 2
+436;Plafond triangle métal;P3;-344.9;-597.3;1800.0;240;240.0;689.7;mezzanine anneau 2
+437;Plafond triangle métal;P3;-474.8;-522.3;1800.0;60;227.73;705.8;mezzanine anneau 2
+438;Plafond triangle métal;P3;-215.0;-672.3;1800.0;60;252.27;705.8;mezzanine anneau 2
+439;Plafond métal;P3;-0.0;-709.8;1800.0;270;270.0;709.8;mezzanine anneau 2
+440;Plafond triangle métal;P3;344.9;-597.3;1800.0;300;300.0;689.7;mezzanine anneau 2
+441;Plafond triangle métal;P3;215.0;-672.3;1800.0;120;287.73;705.8;mezzanine anneau 2
+442;Plafond triangle métal;P3;474.8;-522.3;1800.0;120;312.27;705.8;mezzanine anneau 2
+443;Plafond métal;P3;614.7;-354.9;1800.0;330;330.0;709.8;mezzanine anneau 2
+444;Plafond métal;P3;969.6;-150.0;1800.0;0;351.21;981.1;mezzanine anneau 3
+445;Plafond métal;P3;969.6;150.0;1800.0;0;8.79;981.1;mezzanine anneau 3
+446;Plafond triangle métal;P3;857.1;494.9;1800.0;30;30.0;989.7;mezzanine anneau 3
+447;Plafond triangle métal;P3;932.1;365.0;1800.0;210;21.38;1001.0;mezzanine anneau 3
+448;Plafond triangle métal;P3;782.1;624.8;1800.0;210;38.62;1001.0;mezzanine anneau 3
+449;Plafond métal;P3;614.7;764.7;1800.0;60;51.21;981.1;mezzanine anneau 3
+450;Plafond métal;P3;354.9;914.7;1800.0;60;68.79;981.1;mezzanine anneau 3
+451;Plafond triangle métal;P3;0.0;989.7;1800.0;90;90.0;989.7;mezzanine anneau 3
+452;Plafond triangle métal;P3;150.0;989.7;1800.0;270;81.38;1001.0;mezzanine anneau 3
+453;Plafond triangle métal;P3;-150.0;989.7;1800.0;270;98.62;1001.0;mezzanine anneau 3
+454;Plafond métal;P3;-354.9;914.7;1800.0;120;111.21;981.1;mezzanine anneau 3
+455;Plafond métal;P3;-614.7;764.7;1800.0;120;128.79;981.1;mezzanine anneau 3
+456;Plafond triangle métal;P3;-857.1;494.9;1800.0;150;150.0;989.7;mezzanine anneau 3
+457;Plafond triangle métal;P3;-782.1;624.8;1800.0;330;141.38;1001.0;mezzanine anneau 3
+458;Plafond triangle métal;P3;-932.1;365.0;1800.0;330;158.62;1001.0;mezzanine anneau 3
+459;Plafond métal;P3;-969.6;150.0;1800.0;180;171.21;981.1;mezzanine anneau 3
+460;Plafond métal;P3;-969.6;-150.0;1800.0;180;188.79;981.1;mezzanine anneau 3
+461;Plafond triangle métal;P3;-857.1;-494.9;1800.0;210;210.0;989.7;mezzanine anneau 3
+462;Plafond triangle métal;P3;-932.1;-365.0;1800.0;30;201.38;1001.0;mezzanine anneau 3
+463;Plafond triangle métal;P3;-782.1;-624.8;1800.0;30;218.62;1001.0;mezzanine anneau 3
+464;Plafond métal;P3;-614.7;-764.7;1800.0;240;231.21;981.1;mezzanine anneau 3
+465;Plafond métal;P3;-354.9;-914.7;1800.0;240;248.79;981.1;mezzanine anneau 3
+466;Plafond triangle métal;P3;-0.0;-989.7;1800.0;270;270.0;989.7;mezzanine anneau 3
+467;Plafond triangle métal;P3;-150.0;-989.7;1800.0;90;261.38;1001.0;mezzanine anneau 3
+468;Plafond triangle métal;P3;150.0;-989.7;1800.0;90;278.62;1001.0;mezzanine anneau 3
+469;Plafond métal;P3;354.9;-914.7;1800.0;300;291.21;981.1;mezzanine anneau 3
+470;Plafond métal;P3;614.7;-764.7;1800.0;300;308.79;981.1;mezzanine anneau 3
+471;Plafond triangle métal;P3;857.1;-494.9;1800.0;330;330.0;989.7;mezzanine anneau 3
+472;Plafond triangle métal;P3;782.1;-624.8;1800.0;150;321.38;1001.0;mezzanine anneau 3
+473;Plafond triangle métal;P3;932.1;-365.0;1800.0;150;338.62;1001.0;mezzanine anneau 3
+474;Plafond triangle métal;P3;1249.5;-150.0;1800.0;0;353.15;1258.5;mezzanine anneau 4
+475;Plafond triangle métal;P3;1249.5;150.0;1800.0;0;6.85;1258.5;mezzanine anneau 4
+476;Plafond triangle métal;P3;1249.5;-300.0;1800.0;180;346.5;1285.0;mezzanine anneau 4
+477;Plafond triangle métal;P3;1249.5;0.0;1800.0;180;0.0;1249.5;mezzanine anneau 4
+478;Plafond triangle métal;P3;1249.5;300.0;1800.0;180;13.5;1285.0;mezzanine anneau 4
+479;Plafond métal;P3;1174.5;504.9;1800.0;30;23.26;1278.4;mezzanine anneau 4
+480;Plafond métal;P3;1024.5;764.7;1800.0;30;36.74;1278.4;mezzanine anneau 4
+481;Plafond triangle métal;P3;754.7;1007.1;1800.0;60;53.15;1258.5;mezzanine anneau 4
+482;Plafond triangle métal;P3;494.9;1157.1;1800.0;60;66.85;1258.5;mezzanine anneau 4
+483;Plafond triangle métal;P3;884.6;932.1;1800.0;240;46.5;1285.0;mezzanine anneau 4
+484;Plafond triangle métal;P3;624.8;1082.1;1800.0;240;60.0;1249.5;mezzanine anneau 4
+485;Plafond triangle métal;P3;365.0;1232.1;1800.0;240;73.5;1285.0;mezzanine anneau 4
+486;Plafond métal;P3;150.0;1269.6;1800.0;90;83.26;1278.4;mezzanine anneau 4
+487;Plafond métal;P3;-150.0;1269.6;1800.0;90;96.74;1278.4;mezzanine anneau 4
+488;Plafond triangle métal;P3;-494.9;1157.1;1800.0;120;113.15;1258.5;mezzanine anneau 4
+489;Plafond triangle métal;P3;-754.7;1007.1;1800.0;120;126.85;1258.5;mezzanine anneau 4
+490;Plafond triangle métal;P3;-365.0;1232.1;1800.0;300;106.5;1285.0;mezzanine anneau 4
+491;Plafond triangle métal;P3;-624.8;1082.1;1800.0;300;120.0;1249.5;mezzanine anneau 4
+492;Plafond triangle métal;P3;-884.6;932.1;1800.0;300;133.5;1285.0;mezzanine anneau 4
+493;Plafond métal;P3;-1024.5;764.7;1800.0;150;143.26;1278.4;mezzanine anneau 4
+494;Plafond métal;P3;-1174.5;504.9;1800.0;150;156.74;1278.4;mezzanine anneau 4
+495;Plafond métal;P3;-1174.5;-504.9;1800.0;210;203.26;1278.4;mezzanine anneau 4
+496;Plafond métal;P3;-1024.5;-764.7;1800.0;210;216.74;1278.4;mezzanine anneau 4
+497;Plafond triangle métal;P3;-754.7;-1007.1;1800.0;240;233.15;1258.5;mezzanine anneau 4
+498;Plafond triangle métal;P3;-494.9;-1157.1;1800.0;240;246.85;1258.5;mezzanine anneau 4
+499;Plafond triangle métal;P3;-884.6;-932.1;1800.0;60;226.5;1285.0;mezzanine anneau 4
+500;Plafond triangle métal;P3;-624.8;-1082.1;1800.0;60;240.0;1249.5;mezzanine anneau 4
+501;Plafond triangle métal;P3;-365.0;-1232.1;1800.0;60;253.5;1285.0;mezzanine anneau 4
+502;Plafond métal;P3;-150.0;-1269.6;1800.0;270;263.26;1278.4;mezzanine anneau 4
+503;Plafond métal;P3;150.0;-1269.6;1800.0;270;276.74;1278.4;mezzanine anneau 4
+504;Plafond triangle métal;P3;494.9;-1157.1;1800.0;300;293.15;1258.5;mezzanine anneau 4
+505;Plafond triangle métal;P3;754.7;-1007.1;1800.0;300;306.85;1258.5;mezzanine anneau 4
+506;Plafond triangle métal;P3;365.0;-1232.1;1800.0;120;286.5;1285.0;mezzanine anneau 4
+507;Plafond triangle métal;P3;624.8;-1082.1;1800.0;120;300.0;1249.5;mezzanine anneau 4
+508;Plafond triangle métal;P3;884.6;-932.1;1800.0;120;313.5;1285.0;mezzanine anneau 4
+509;Plafond métal;P3;1024.5;-764.7;1800.0;330;323.26;1278.4;mezzanine anneau 4
+510;Plafond métal;P3;1174.5;-504.9;1800.0;330;336.74;1278.4;mezzanine anneau 4
+511;Plafond métal;P3;1529.4;-300.0;1800.0;0;348.9;1558.6;mezzanine anneau 5
+512;Plafond métal;P3;1529.4;0.0;1800.0;0;0.0;1529.4;mezzanine anneau 5
+513;Plafond métal;P3;1529.4;300.0;1800.0;0;11.1;1558.6;mezzanine anneau 5
+514;Plafond triangle métal;P3;1416.9;644.9;1800.0;30;24.47;1556.8;mezzanine anneau 5
+515;Plafond triangle métal;P3;1266.9;904.7;1800.0;30;35.53;1556.8;mezzanine anneau 5
+516;Plafond triangle métal;P3;1491.9;515.0;1800.0;210;19.04;1578.3;mezzanine anneau 5
+517;Plafond triangle métal;P3;1341.9;774.8;1800.0;210;30.0;1549.5;mezzanine anneau 5
+518;Plafond triangle métal;P3;1191.9;1034.6;1800.0;210;40.96;1578.3;mezzanine anneau 5
+519;Plafond métal;P3;1024.5;1174.5;1800.0;60;48.9;1558.6;mezzanine anneau 5
+520;Plafond métal;P3;764.7;1324.5;1800.0;60;60.0;1529.4;mezzanine anneau 5
+521;Plafond métal;P3;504.9;1474.5;1800.0;60;71.1;1558.6;mezzanine anneau 5
+522;Plafond triangle métal;P3;150.0;1549.5;1800.0;90;84.47;1556.8;mezzanine anneau 5
+523;Plafond triangle métal;P3;-150.0;1549.5;1800.0;90;95.53;1556.8;mezzanine anneau 5
+524;Plafond triangle métal;P3;300.0;1549.5;1800.0;270;79.04;1578.3;mezzanine anneau 5
+525;Plafond triangle métal;P3;0.0;1549.5;1800.0;270;90.0;1549.5;mezzanine anneau 5
+526;Plafond triangle métal;P3;-300.0;1549.5;1800.0;270;100.96;1578.3;mezzanine anneau 5
+527;Plafond métal;P3;-504.9;1474.5;1800.0;120;108.9;1558.6;mezzanine anneau 5
+528;Plafond métal;P3;-764.7;1324.5;1800.0;120;120.0;1529.4;mezzanine anneau 5
+529;Plafond métal;P3;-1024.5;1174.5;1800.0;120;131.1;1558.6;mezzanine anneau 5
+530;Plafond triangle métal;P3;-1266.9;904.7;1800.0;150;144.47;1556.8;mezzanine anneau 5
+531;Plafond triangle métal;P3;-1416.9;644.9;1800.0;150;155.53;1556.8;mezzanine anneau 5
+532;Plafond triangle métal;P3;-1191.9;1034.6;1800.0;330;139.04;1578.3;mezzanine anneau 5
+533;Plafond triangle métal;P3;-1341.9;774.8;1800.0;330;150.0;1549.5;mezzanine anneau 5
+534;Plafond triangle métal;P3;-1416.9;-644.9;1800.0;210;204.47;1556.8;mezzanine anneau 5
+535;Plafond triangle métal;P3;-1266.9;-904.7;1800.0;210;215.53;1556.8;mezzanine anneau 5
+536;Plafond triangle métal;P3;-1341.9;-774.8;1800.0;30;210.0;1549.5;mezzanine anneau 5
+537;Plafond triangle métal;P3;-1191.9;-1034.6;1800.0;30;220.96;1578.3;mezzanine anneau 5
+538;Plafond métal;P3;-1024.5;-1174.5;1800.0;240;228.9;1558.6;mezzanine anneau 5
+539;Plafond métal;P3;-764.7;-1324.5;1800.0;240;240.0;1529.4;mezzanine anneau 5
+540;Plafond métal;P3;-504.9;-1474.5;1800.0;240;251.1;1558.6;mezzanine anneau 5
+541;Plafond triangle métal;P3;-150.0;-1549.5;1800.0;270;264.47;1556.8;mezzanine anneau 5
+542;Plafond triangle métal;P3;150.0;-1549.5;1800.0;270;275.53;1556.8;mezzanine anneau 5
+543;Plafond triangle métal;P3;-300.0;-1549.5;1800.0;90;259.04;1578.3;mezzanine anneau 5
+544;Plafond triangle métal;P3;-0.0;-1549.5;1800.0;90;270.0;1549.5;mezzanine anneau 5
+545;Plafond triangle métal;P3;300.0;-1549.5;1800.0;90;280.96;1578.3;mezzanine anneau 5
+546;Plafond métal;P3;504.9;-1474.5;1800.0;300;288.9;1558.6;mezzanine anneau 5
+547;Plafond métal;P3;764.7;-1324.5;1800.0;300;300.0;1529.4;mezzanine anneau 5
+548;Plafond métal;P3;1024.5;-1174.5;1800.0;300;311.1;1558.6;mezzanine anneau 5
+549;Plafond triangle métal;P3;1266.9;-904.7;1800.0;330;324.47;1556.8;mezzanine anneau 5
+550;Plafond triangle métal;P3;1416.9;-644.9;1800.0;330;335.53;1556.8;mezzanine anneau 5
+551;Plafond triangle métal;P3;1191.9;-1034.6;1800.0;150;319.04;1578.3;mezzanine anneau 5
+552;Plafond triangle métal;P3;1341.9;-774.8;1800.0;150;330.0;1549.5;mezzanine anneau 5
+553;Plafond triangle métal;P3;1491.9;-515.0;1800.0;150;340.96;1578.3;mezzanine anneau 5
+554;Plafond triangle métal;P3;1809.3;-300.0;1800.0;0;350.59;1834.0;mezzanine anneau 6
+555;Plafond triangle métal;P3;1809.3;0.0;1800.0;0;0.0;1809.3;mezzanine anneau 6
+556;Plafond triangle métal;P3;1809.3;300.0;1800.0;0;9.41;1834.0;mezzanine anneau 6
+557;Plafond triangle métal;P3;1809.3;-450.0;1800.0;180;346.03;1864.4;mezzanine anneau 6
+558;Plafond triangle métal;P3;1809.3;-150.0;1800.0;180;355.26;1815.5;mezzanine anneau 6
+559;Plafond triangle métal;P3;1809.3;150.0;1800.0;180;4.74;1815.5;mezzanine anneau 6
+560;Plafond triangle métal;P3;1809.3;450.0;1800.0;180;13.97;1864.4;mezzanine anneau 6
+561;Plafond métal;P3;1734.3;654.9;1800.0;30;20.69;1853.9;mezzanine anneau 6
+562;Plafond métal;P3;1584.3;914.7;1800.0;30;30.0;1829.4;mezzanine anneau 6
+563;Plafond métal;P3;1434.3;1174.5;1800.0;30;39.31;1853.9;mezzanine anneau 6
+564;Plafond triangle métal;P3;1164.5;1416.9;1800.0;60;50.59;1834.0;mezzanine anneau 6
+565;Plafond triangle métal;P3;904.7;1566.9;1800.0;60;60.0;1809.3;mezzanine anneau 6
+566;Plafond triangle métal;P3;644.9;1716.9;1800.0;60;69.41;1834.0;mezzanine anneau 6
+567;Plafond triangle métal;P3;1294.4;1341.9;1800.0;240;46.03;1864.4;mezzanine anneau 6
+568;Plafond triangle métal;P3;1034.6;1491.9;1800.0;240;55.26;1815.5;mezzanine anneau 6
+569;Plafond triangle métal;P3;774.8;1641.9;1800.0;240;64.74;1815.5;mezzanine anneau 6
+570;Plafond triangle métal;P3;515.0;1791.9;1800.0;240;73.97;1864.4;mezzanine anneau 6
+571;Plafond métal;P3;300.0;1829.4;1800.0;90;80.69;1853.9;mezzanine anneau 6
+572;Plafond métal;P3;0.0;1829.4;1800.0;90;90.0;1829.4;mezzanine anneau 6
+573;Plafond métal;P3;-300.0;1829.4;1800.0;90;99.31;1853.9;mezzanine anneau 6
+574;Plafond triangle métal;P3;-644.9;1716.9;1800.0;120;110.59;1834.0;mezzanine anneau 6
+575;Plafond triangle métal;P3;-904.7;1566.9;1800.0;120;120.0;1809.3;mezzanine anneau 6
+576;Plafond triangle métal;P3;-1164.5;1416.9;1800.0;120;129.41;1834.0;mezzanine anneau 6
+577;Plafond triangle métal;P3;-515.0;1791.9;1800.0;300;106.03;1864.4;mezzanine anneau 6
+578;Plafond triangle métal;P3;-774.8;1641.9;1800.0;300;115.26;1815.5;mezzanine anneau 6
+579;Plafond triangle métal;P3;-1034.6;1491.9;1800.0;300;124.74;1815.5;mezzanine anneau 6
+580;Plafond triangle métal;P3;-1294.4;1341.9;1800.0;300;133.97;1864.4;mezzanine anneau 6
+581;Plafond métal;P3;-1434.3;1174.5;1800.0;150;140.69;1853.9;mezzanine anneau 6
+582;Plafond métal;P3;-1584.3;914.7;1800.0;150;150.0;1829.4;mezzanine anneau 6
+583;Plafond métal;P3;-1584.3;-914.7;1800.0;210;210.0;1829.4;mezzanine anneau 6
+584;Plafond métal;P3;-1434.3;-1174.5;1800.0;210;219.31;1853.9;mezzanine anneau 6
+585;Plafond triangle métal;P3;-1164.5;-1416.9;1800.0;240;230.59;1834.0;mezzanine anneau 6
+586;Plafond triangle métal;P3;-904.7;-1566.9;1800.0;240;240.0;1809.3;mezzanine anneau 6
+587;Plafond triangle métal;P3;-644.9;-1716.9;1800.0;240;249.41;1834.0;mezzanine anneau 6
+588;Plafond triangle métal;P3;-1294.4;-1341.9;1800.0;60;226.03;1864.4;mezzanine anneau 6
+589;Plafond triangle métal;P3;-1034.6;-1491.9;1800.0;60;235.26;1815.5;mezzanine anneau 6
+590;Plafond triangle métal;P3;-774.8;-1641.9;1800.0;60;244.74;1815.5;mezzanine anneau 6
+591;Plafond triangle métal;P3;-515.0;-1791.9;1800.0;60;253.97;1864.4;mezzanine anneau 6
+592;Plafond métal;P3;-300.0;-1829.4;1800.0;270;260.69;1853.9;mezzanine anneau 6
+593;Plafond métal;P3;-0.0;-1829.4;1800.0;270;270.0;1829.4;mezzanine anneau 6
+594;Plafond métal;P3;300.0;-1829.4;1800.0;270;279.31;1853.9;mezzanine anneau 6
+595;Plafond triangle métal;P3;644.9;-1716.9;1800.0;300;290.59;1834.0;mezzanine anneau 6
+596;Plafond triangle métal;P3;904.7;-1566.9;1800.0;300;300.0;1809.3;mezzanine anneau 6
+597;Plafond triangle métal;P3;1164.5;-1416.9;1800.0;300;309.41;1834.0;mezzanine anneau 6
+598;Plafond triangle métal;P3;515.0;-1791.9;1800.0;120;286.03;1864.4;mezzanine anneau 6
+599;Plafond triangle métal;P3;774.8;-1641.9;1800.0;120;295.26;1815.5;mezzanine anneau 6
+600;Plafond triangle métal;P3;1034.6;-1491.9;1800.0;120;304.74;1815.5;mezzanine anneau 6
+601;Plafond triangle métal;P3;1294.4;-1341.9;1800.0;120;313.97;1864.4;mezzanine anneau 6
+602;Plafond métal;P3;1434.3;-1174.5;1800.0;330;320.69;1853.9;mezzanine anneau 6
+603;Plafond métal;P3;1584.3;-914.7;1800.0;330;330.0;1829.4;mezzanine anneau 6
+604;Plafond métal;P3;1734.3;-654.9;1800.0;330;339.31;1853.9;mezzanine anneau 6
+605;Plafond métal;P3;2089.2;-450.0;1800.0;0;347.84;2137.1;mezzanine anneau 7
+606;Plafond métal;P3;2089.2;-150.0;1800.0;0;355.89;2094.6;mezzanine anneau 7
+607;Plafond métal;P3;2089.2;150.0;1800.0;0;4.11;2094.6;mezzanine anneau 7
+608;Plafond métal;P3;2089.2;450.0;1800.0;0;12.16;2137.1;mezzanine anneau 7
+609;Plafond triangle métal;P3;1976.7;794.9;1800.0;30;21.91;2130.6;mezzanine anneau 7
+610;Plafond triangle métal;P3;1826.7;1054.7;1800.0;30;30.0;2109.3;mezzanine anneau 7
+611;Plafond triangle métal;P3;1676.7;1314.5;1800.0;30;38.09;2130.6;mezzanine anneau 7
+612;Plafond triangle métal;P3;2051.7;665.0;1800.0;210;17.96;2156.8;mezzanine anneau 7
+613;Plafond triangle métal;P3;1901.7;924.8;1800.0;210;25.93;2114.7;mezzanine anneau 7
+614;Plafond triangle métal;P3;1751.7;1184.6;1800.0;210;34.07;2114.7;mezzanine anneau 7
+615;Plafond triangle métal;P3;1601.7;1444.4;1800.0;210;42.04;2156.8;mezzanine anneau 7
+616;Plafond métal;P3;1434.3;1584.3;1800.0;60;47.84;2137.1;mezzanine anneau 7
+617;Plafond métal;P3;1174.5;1734.3;1800.0;60;55.89;2094.6;mezzanine anneau 7
+618;Plafond métal;P3;914.7;1884.3;1800.0;60;64.11;2094.6;mezzanine anneau 7
+619;Plafond métal;P3;654.9;2034.3;1800.0;60;72.16;2137.1;mezzanine anneau 7
+620;Plafond triangle métal;P3;300.0;2109.3;1800.0;90;81.91;2130.6;mezzanine anneau 7
+621;Plafond triangle métal;P3;0.0;2109.3;1800.0;90;90.0;2109.3;mezzanine anneau 7
+622;Plafond triangle métal;P3;-300.0;2109.3;1800.0;90;98.09;2130.6;mezzanine anneau 7
+623;Plafond triangle métal;P3;450.0;2109.3;1800.0;270;77.96;2156.8;mezzanine anneau 7
+624;Plafond triangle métal;P3;150.0;2109.3;1800.0;270;85.93;2114.7;mezzanine anneau 7
+625;Plafond triangle métal;P3;-150.0;2109.3;1800.0;270;94.07;2114.7;mezzanine anneau 7
+626;Plafond triangle métal;P3;-450.0;2109.3;1800.0;270;102.04;2156.8;mezzanine anneau 7
+627;Plafond métal;P3;-654.9;2034.3;1800.0;120;107.84;2137.1;mezzanine anneau 7
+628;Plafond métal;P3;-914.7;1884.3;1800.0;120;115.89;2094.6;mezzanine anneau 7
+629;Plafond métal;P3;-1174.5;1734.3;1800.0;120;124.11;2094.6;mezzanine anneau 7
+630;Plafond métal;P3;-1434.3;1584.3;1800.0;120;132.16;2137.1;mezzanine anneau 7
+631;Plafond triangle métal;P3;-1676.7;1314.5;1800.0;150;141.91;2130.6;mezzanine anneau 7
+632;Plafond triangle métal;P3;-1826.7;1054.7;1800.0;150;150.0;2109.3;mezzanine anneau 7
+633;Plafond triangle métal;P3;-1601.7;1444.4;1800.0;330;137.96;2156.8;mezzanine anneau 7
+634;Plafond triangle métal;P3;-1751.7;1184.6;1800.0;330;145.93;2114.7;mezzanine anneau 7
+635;Plafond triangle métal;P3;-1901.7;924.8;1800.0;330;154.07;2114.7;mezzanine anneau 7
+636;Plafond triangle métal;P3;-1826.7;-1054.7;1800.0;210;210.0;2109.3;mezzanine anneau 7
+637;Plafond triangle métal;P3;-1676.7;-1314.5;1800.0;210;218.09;2130.6;mezzanine anneau 7
+638;Plafond triangle métal;P3;-1901.7;-924.8;1800.0;30;205.93;2114.7;mezzanine anneau 7
+639;Plafond triangle métal;P3;-1751.7;-1184.6;1800.0;30;214.07;2114.7;mezzanine anneau 7
+640;Plafond triangle métal;P3;-1601.7;-1444.4;1800.0;30;222.04;2156.8;mezzanine anneau 7
+641;Plafond métal;P3;-1434.3;-1584.3;1800.0;240;227.84;2137.1;mezzanine anneau 7
+642;Plafond métal;P3;-1174.5;-1734.3;1800.0;240;235.89;2094.6;mezzanine anneau 7
+643;Plafond métal;P3;-914.7;-1884.3;1800.0;240;244.11;2094.6;mezzanine anneau 7
+644;Plafond métal;P3;-654.9;-2034.3;1800.0;240;252.16;2137.1;mezzanine anneau 7
+645;Plafond triangle métal;P3;-300.0;-2109.3;1800.0;270;261.91;2130.6;mezzanine anneau 7
+646;Plafond triangle métal;P3;-0.0;-2109.3;1800.0;270;270.0;2109.3;mezzanine anneau 7
+647;Plafond triangle métal;P3;300.0;-2109.3;1800.0;270;278.09;2130.6;mezzanine anneau 7
+648;Plafond triangle métal;P3;-450.0;-2109.3;1800.0;90;257.96;2156.8;mezzanine anneau 7
+649;Plafond triangle métal;P3;-150.0;-2109.3;1800.0;90;265.93;2114.7;mezzanine anneau 7
+650;Plafond triangle métal;P3;150.0;-2109.3;1800.0;90;274.07;2114.7;mezzanine anneau 7
+651;Plafond triangle métal;P3;450.0;-2109.3;1800.0;90;282.04;2156.8;mezzanine anneau 7
+652;Plafond métal;P3;654.9;-2034.3;1800.0;300;287.84;2137.1;mezzanine anneau 7
+653;Plafond métal;P3;914.7;-1884.3;1800.0;300;295.89;2094.6;mezzanine anneau 7
+654;Plafond métal;P3;1174.5;-1734.3;1800.0;300;304.11;2094.6;mezzanine anneau 7
+655;Plafond métal;P3;1434.3;-1584.3;1800.0;300;312.16;2137.1;mezzanine anneau 7
+656;Plafond triangle métal;P3;1676.7;-1314.5;1800.0;330;321.91;2130.6;mezzanine anneau 7
+657;Plafond triangle métal;P3;1826.7;-1054.7;1800.0;330;330.0;2109.3;mezzanine anneau 7
+658;Plafond triangle métal;P3;1976.7;-794.9;1800.0;330;338.09;2130.6;mezzanine anneau 7
+659;Plafond triangle métal;P3;1601.7;-1444.4;1800.0;150;317.96;2156.8;mezzanine anneau 7
+660;Plafond triangle métal;P3;1751.7;-1184.6;1800.0;150;325.93;2114.7;mezzanine anneau 7
+661;Plafond triangle métal;P3;1901.7;-924.8;1800.0;150;334.07;2114.7;mezzanine anneau 7
+662;Plafond triangle métal;P3;2051.7;-665.0;1800.0;150;342.04;2156.8;mezzanine anneau 7
+663;Mur métal;P6;2239.2;-450.0;1800.0;0;348.64;2284.0;pod niv6 c0 p0
+664;Cadre de porte double métal;P6;2239.2;-150.0;1800.0;0;356.17;2244.2;pod niv6 c0 p1
+665;Mur métal;P6;2239.2;150.0;1800.0;0;3.83;2244.2;pod niv6 c0 p2
+666;Mur métal;P6;2239.2;450.0;1800.0;0;11.36;2284.0;pod niv6 c0 p3
+667;Mur métal;P6;2164.2;729.9;1800.0;30;18.64;2284.0;pod niv6 c1 p0
+668;Cadre de porte double métal;P6;2014.2;989.7;1800.0;30;26.17;2244.2;pod niv6 c1 p1
+669;Mur métal;P6;1864.2;1249.5;1800.0;30;33.83;2244.2;pod niv6 c1 p2
+670;Mur métal;P6;1714.2;1509.3;1800.0;30;41.36;2284.0;pod niv6 c1 p3
+671;Mur métal;P6;1509.3;1714.2;1800.0;60;48.64;2284.0;pod niv6 c2 p0
+672;Cadre de porte double métal;P6;1249.5;1864.2;1800.0;60;56.17;2244.2;pod niv6 c2 p1
+673;Mur métal;P6;989.7;2014.2;1800.0;60;63.83;2244.2;pod niv6 c2 p2
+674;Mur métal;P6;729.9;2164.2;1800.0;60;71.36;2284.0;pod niv6 c2 p3
+675;Mur métal;P6;450.0;2239.2;1800.0;90;78.64;2284.0;pod niv6 c3 p0
+676;Cadre de porte double métal;P6;150.0;2239.2;1800.0;90;86.17;2244.2;pod niv6 c3 p1
+677;Mur métal;P6;-150.0;2239.2;1800.0;90;93.83;2244.2;pod niv6 c3 p2
+678;Mur métal;P6;-450.0;2239.2;1800.0;90;101.36;2284.0;pod niv6 c3 p3
+679;Mur métal;P6;-729.9;2164.2;1800.0;120;108.64;2284.0;pod niv6 c4 p0
+680;Cadre de porte double métal;P6;-989.7;2014.2;1800.0;120;116.17;2244.2;pod niv6 c4 p1
+681;Mur métal;P6;-1249.5;1864.2;1800.0;120;123.83;2244.2;pod niv6 c4 p2
+682;Mur métal;P6;-1509.3;1714.2;1800.0;120;131.36;2284.0;pod niv6 c4 p3
+683;Mur métal;P6;-1714.2;1509.3;1800.0;150;138.64;2284.0;pod niv6 c5 p0
+684;Cadre de porte double métal;P6;-1864.2;1249.5;1800.0;150;146.17;2244.2;pod niv6 c5 p1
+685;Mur métal;P6;-2014.2;989.7;1800.0;150;153.83;2244.2;pod niv6 c5 p2
+686;Cadre de porte double métal;P6;-2014.2;-989.7;1800.0;210;206.17;2244.2;pod niv6 c7 p1
+687;Mur métal;P6;-1864.2;-1249.5;1800.0;210;213.83;2244.2;pod niv6 c7 p2
+688;Mur métal;P6;-1714.2;-1509.3;1800.0;210;221.36;2284.0;pod niv6 c7 p3
+689;Mur métal;P6;-1509.3;-1714.2;1800.0;240;228.64;2284.0;pod niv6 c8 p0
+690;Cadre de porte double métal;P6;-1249.5;-1864.2;1800.0;240;236.17;2244.2;pod niv6 c8 p1
+691;Mur métal;P6;-989.7;-2014.2;1800.0;240;243.83;2244.2;pod niv6 c8 p2
+692;Mur métal;P6;-729.9;-2164.2;1800.0;240;251.36;2284.0;pod niv6 c8 p3
+693;Mur métal;P6;-450.0;-2239.2;1800.0;270;258.64;2284.0;pod niv6 c9 p0
+694;Cadre de porte double métal;P6;-150.0;-2239.2;1800.0;270;266.17;2244.2;pod niv6 c9 p1
+695;Mur métal;P6;150.0;-2239.2;1800.0;270;273.83;2244.2;pod niv6 c9 p2
+696;Mur métal;P6;450.0;-2239.2;1800.0;270;281.36;2284.0;pod niv6 c9 p3
+697;Mur métal;P6;729.9;-2164.2;1800.0;300;288.64;2284.0;pod niv6 c10 p0
+698;Cadre de porte double métal;P6;989.7;-2014.2;1800.0;300;296.17;2244.2;pod niv6 c10 p1
+699;Mur métal;P6;1249.5;-1864.2;1800.0;300;303.83;2244.2;pod niv6 c10 p2
+700;Mur métal;P6;1509.3;-1714.2;1800.0;300;311.36;2284.0;pod niv6 c10 p3
+701;Mur métal;P6;1714.2;-1509.3;1800.0;330;318.64;2284.0;pod niv6 c11 p0
+702;Cadre de porte double métal;P6;1864.2;-1249.5;1800.0;330;326.17;2244.2;pod niv6 c11 p1
+703;Mur métal;P6;2014.2;-989.7;1800.0;330;333.83;2244.2;pod niv6 c11 p2
+704;Mur métal;P6;2164.2;-729.9;1800.0;330;341.36;2284.0;pod niv6 c11 p3
+705;Mur métal;P6;2239.2;-450.0;2100.0;0;348.64;2284.0;pod niv7 c0 p0
+706;Mur métal;P6;2239.2;-150.0;2100.0;0;356.17;2244.2;pod niv7 c0 p1
+707;Mur métal;P6;2239.2;150.0;2100.0;0;3.83;2244.2;pod niv7 c0 p2
+708;Mur métal;P6;2239.2;450.0;2100.0;0;11.36;2284.0;pod niv7 c0 p3
+709;Mur métal;P6;2164.2;729.9;2100.0;30;18.64;2284.0;pod niv7 c1 p0
+710;Mur métal;P6;2014.2;989.7;2100.0;30;26.17;2244.2;pod niv7 c1 p1
+711;Mur métal;P6;1864.2;1249.5;2100.0;30;33.83;2244.2;pod niv7 c1 p2
+712;Mur métal;P6;1714.2;1509.3;2100.0;30;41.36;2284.0;pod niv7 c1 p3
+713;Mur métal;P6;1509.3;1714.2;2100.0;60;48.64;2284.0;pod niv7 c2 p0
+714;Mur métal;P6;1249.5;1864.2;2100.0;60;56.17;2244.2;pod niv7 c2 p1
+715;Mur métal;P6;989.7;2014.2;2100.0;60;63.83;2244.2;pod niv7 c2 p2
+716;Mur métal;P6;729.9;2164.2;2100.0;60;71.36;2284.0;pod niv7 c2 p3
+717;Mur métal;P6;450.0;2239.2;2100.0;90;78.64;2284.0;pod niv7 c3 p0
+718;Mur métal;P6;150.0;2239.2;2100.0;90;86.17;2244.2;pod niv7 c3 p1
+719;Mur métal;P6;-150.0;2239.2;2100.0;90;93.83;2244.2;pod niv7 c3 p2
+720;Mur métal;P6;-450.0;2239.2;2100.0;90;101.36;2284.0;pod niv7 c3 p3
+721;Mur métal;P6;-729.9;2164.2;2100.0;120;108.64;2284.0;pod niv7 c4 p0
+722;Mur métal;P6;-989.7;2014.2;2100.0;120;116.17;2244.2;pod niv7 c4 p1
+723;Mur métal;P6;-1249.5;1864.2;2100.0;120;123.83;2244.2;pod niv7 c4 p2
+724;Mur métal;P6;-1509.3;1714.2;2100.0;120;131.36;2284.0;pod niv7 c4 p3
+725;Mur métal;P6;-1714.2;1509.3;2100.0;150;138.64;2284.0;pod niv7 c5 p0
+726;Mur métal;P6;-1864.2;1249.5;2100.0;150;146.17;2244.2;pod niv7 c5 p1
+727;Mur métal;P6;-2014.2;989.7;2100.0;150;153.83;2244.2;pod niv7 c5 p2
+728;Mur métal;P6;-2014.2;-989.7;2100.0;210;206.17;2244.2;pod niv7 c7 p1
+729;Mur métal;P6;-1864.2;-1249.5;2100.0;210;213.83;2244.2;pod niv7 c7 p2
+730;Mur métal;P6;-1714.2;-1509.3;2100.0;210;221.36;2284.0;pod niv7 c7 p3
+731;Mur métal;P6;-1509.3;-1714.2;2100.0;240;228.64;2284.0;pod niv7 c8 p0
+732;Mur métal;P6;-1249.5;-1864.2;2100.0;240;236.17;2244.2;pod niv7 c8 p1
+733;Mur métal;P6;-989.7;-2014.2;2100.0;240;243.83;2244.2;pod niv7 c8 p2
+734;Mur métal;P6;-729.9;-2164.2;2100.0;240;251.36;2284.0;pod niv7 c8 p3
+735;Mur métal;P6;-450.0;-2239.2;2100.0;270;258.64;2284.0;pod niv7 c9 p0
+736;Mur métal;P6;-150.0;-2239.2;2100.0;270;266.17;2244.2;pod niv7 c9 p1
+737;Mur métal;P6;150.0;-2239.2;2100.0;270;273.83;2244.2;pod niv7 c9 p2
+738;Mur métal;P6;450.0;-2239.2;2100.0;270;281.36;2284.0;pod niv7 c9 p3
+739;Mur métal;P6;729.9;-2164.2;2100.0;300;288.64;2284.0;pod niv7 c10 p0
+740;Mur métal;P6;989.7;-2014.2;2100.0;300;296.17;2244.2;pod niv7 c10 p1
+741;Mur métal;P6;1249.5;-1864.2;2100.0;300;303.83;2244.2;pod niv7 c10 p2
+742;Mur métal;P6;1509.3;-1714.2;2100.0;300;311.36;2284.0;pod niv7 c10 p3
+743;Mur métal;P6;1714.2;-1509.3;2100.0;330;318.64;2284.0;pod niv7 c11 p0
+744;Mur métal;P6;1864.2;-1249.5;2100.0;330;326.17;2244.2;pod niv7 c11 p1
+745;Mur métal;P6;2014.2;-989.7;2100.0;330;333.83;2244.2;pod niv7 c11 p2
+746;Mur métal;P6;2164.2;-729.9;2100.0;330;341.36;2284.0;pod niv7 c11 p3
+747;Pilier métal;P6;1119.6;300.0;1800.0;0;15.0;1159.1;pilier PA0
+748;Pilier métal;P6;1119.6;300.0;2100.0;0;15.0;1159.1;pilier PA0
+749;Pilier métal;P6;819.6;819.6;1800.0;0;45.0;1159.1;pilier PA1
+750;Pilier métal;P6;819.6;819.6;2100.0;0;45.0;1159.1;pilier PA1
+751;Pilier métal;P6;300.0;1119.6;1800.0;0;75.0;1159.1;pilier PA2
+752;Pilier métal;P6;300.0;1119.6;2100.0;0;75.0;1159.1;pilier PA2
+753;Pilier métal;P6;-300.0;1119.6;1800.0;0;105.0;1159.1;pilier PA3
+754;Pilier métal;P6;-300.0;1119.6;2100.0;0;105.0;1159.1;pilier PA3
+755;Pilier métal;P6;-819.6;819.6;1800.0;0;135.0;1159.1;pilier PA4
+756;Pilier métal;P6;-819.6;819.6;2100.0;0;135.0;1159.1;pilier PA4
+757;Pilier métal;P6;-1119.6;300.0;1800.0;0;165.0;1159.1;pilier PA5
+758;Pilier métal;P6;-1119.6;300.0;2100.0;0;165.0;1159.1;pilier PA5
+759;Pilier métal;P6;-1119.6;-300.0;1800.0;0;195.0;1159.1;pilier PA6
+760;Pilier métal;P6;-1119.6;-300.0;2100.0;0;195.0;1159.1;pilier PA6
+761;Pilier métal;P6;-819.6;-819.6;1800.0;0;225.0;1159.1;pilier PA7
+762;Pilier métal;P6;-819.6;-819.6;2100.0;0;225.0;1159.1;pilier PA7
+763;Pilier métal;P6;-300.0;-1119.6;1800.0;0;255.0;1159.1;pilier PA8
+764;Pilier métal;P6;-300.0;-1119.6;2100.0;0;255.0;1159.1;pilier PA8
+765;Pilier métal;P6;300.0;-1119.6;1800.0;0;285.0;1159.1;pilier PA9
+766;Pilier métal;P6;300.0;-1119.6;2100.0;0;285.0;1159.1;pilier PA9
+767;Pilier métal;P6;819.6;-819.6;1800.0;0;315.0;1159.1;pilier PA10
+768;Pilier métal;P6;819.6;-819.6;2100.0;0;315.0;1159.1;pilier PA10
+769;Pilier métal;P6;1119.6;-300.0;1800.0;0;345.0;1159.1;pilier PA11
+770;Pilier métal;P6;1119.6;-300.0;2100.0;0;345.0;1159.1;pilier PA11
+771;Pilier métal;P6;559.8;150.0;1800.0;0;15.0;579.6;pilier PB0
+772;Pilier métal;P6;559.8;150.0;2100.0;0;15.0;579.6;pilier PB0
+773;Pilier métal;P6;409.8;409.8;1800.0;0;45.0;579.6;pilier PB1
+774;Pilier métal;P6;409.8;409.8;2100.0;0;45.0;579.6;pilier PB1
+775;Pilier métal;P6;150.0;559.8;1800.0;0;75.0;579.6;pilier PB2
+776;Pilier métal;P6;150.0;559.8;2100.0;0;75.0;579.6;pilier PB2
+777;Pilier métal;P6;-150.0;559.8;1800.0;0;105.0;579.6;pilier PB3
+778;Pilier métal;P6;-150.0;559.8;2100.0;0;105.0;579.6;pilier PB3
+779;Pilier métal;P6;-409.8;409.8;1800.0;0;135.0;579.6;pilier PB4
+780;Pilier métal;P6;-409.8;409.8;2100.0;0;135.0;579.6;pilier PB4
+781;Pilier métal;P6;-559.8;150.0;1800.0;0;165.0;579.6;pilier PB5
+782;Pilier métal;P6;-559.8;150.0;2100.0;0;165.0;579.6;pilier PB5
+783;Pilier métal;P6;-559.8;-150.0;1800.0;0;195.0;579.6;pilier PB6
+784;Pilier métal;P6;-559.8;-150.0;2100.0;0;195.0;579.6;pilier PB6
+785;Pilier métal;P6;-409.8;-409.8;1800.0;0;225.0;579.6;pilier PB7
+786;Pilier métal;P6;-409.8;-409.8;2100.0;0;225.0;579.6;pilier PB7
+787;Pilier métal;P6;-150.0;-559.8;1800.0;0;255.0;579.6;pilier PB8
+788;Pilier métal;P6;-150.0;-559.8;2100.0;0;255.0;579.6;pilier PB8
+789;Pilier métal;P6;150.0;-559.8;1800.0;0;285.0;579.6;pilier PB9
+790;Pilier métal;P6;150.0;-559.8;2100.0;0;285.0;579.6;pilier PB9
+791;Pilier métal;P6;409.8;-409.8;1800.0;0;315.0;579.6;pilier PB10
+792;Pilier métal;P6;409.8;-409.8;2100.0;0;315.0;579.6;pilier PB10
+793;Pilier métal;P6;559.8;-150.0;1800.0;0;345.0;579.6;pilier PB11
+794;Pilier métal;P6;559.8;-150.0;2100.0;0;345.0;579.6;pilier PB11

@@ -1,0 +1,12 @@
+entree;piece;phase;x;y;Z_plan;yaw;theta;rayon;repere
+0;Demi-pilier métal;;0.0;300.0;225;0;90.0;300.0;ancre module (se pose sur l'ancre du sol)
+1;Fondation métal;P1;-2649.0;0.0;-0.0;180;180.0;2649.0;anneau 9 cote 6 n2
+2;Fondation métal;P1;-2649.0;-300.0;-0.0;180;186.46;2666.0;anneau 9 cote 6 n3
+3;Fondation triangle métal;P1;-2928.9;0.0;-0.0;180;180.0;2928.9;anneau 10 cote 6 n2
+4;Fondation triangle métal;P1;-2928.9;-300.0;-0.0;180;185.85;2944.3;anneau 10 cote 6 n3
+5;Fondation triangle métal;P1;-2928.9;150.0;-0.0;0;177.07;2932.8;anneau 10 cote 6 n7
+6;Fondation triangle métal;P1;-2928.9;-150.0;-0.0;0;182.93;2932.8;anneau 10 cote 6 n8
+7;Fondation triangle métal;P1;-2928.9;-450.0;-0.0;0;188.73;2963.3;anneau 10 cote 6 n9
+8;Fondation métal;P1;-3208.8;150.0;-0.0;180;177.32;3212.3;anneau 11 cote 6 n2
+9;Fondation métal;P1;-3208.8;-150.0;-0.0;180;182.68;3212.3;anneau 11 cote 6 n3
+10;Fondation métal;P1;-3208.8;-450.0;-0.0;180;187.98;3240.2;anneau 11 cote 6 n4

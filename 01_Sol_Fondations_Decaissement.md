@@ -1,11 +1,14 @@
 # Module 01 — Sol et nivellement (calpinage Ø30, bord abaissé en 2 paliers)
 
-Templates :
-- `templates/phases/P1.json` : sol complet (anneaux 1 à 15) avec la pile d'ancrage ;
-- `templates/01b_sol_extension_D4_D8.json` : anneaux 8 à 15 seulement, pour une étoile déjà posée.
+Templates (`templates/plans/`, module 06) :
+- `Plan_1_sol_anneaux_12-15.json` : anneaux 12 à 15, paliers compris, avec la pile d'ancrage ;
+- `Plan_3_sol_centre_anneaux_0-11.json` : hexagone central et anneaux 1 à 11 ;
+- `Plan_8_plateforme_future_anneaux_9-11.json` : les 10 fondations vertes au milieu du trou.
 
-Coordonnées pièce par pièce : `donnees/01_sol_D8_complet.csv`, `donnees/01b_sol_extension_D4_D8.csv`.
-Plan : `plans/plan_calpinage.png`.
+Les **124 fondations du trou** (en blanc sur votre image) ne sont dans aucun plan (§6).
+
+Coordonnées pièce par pièce : `donnees/Plan_1_*.csv`, `donnees/Plan_3_*.csv`, `donnees/Plan_8_*.csv`.
+Plan : `plans/plan_calpinage.png` (trou en pointillés rouges, plateforme en vert).
 
 ![Plan de calpinage](plans/plan_calpinage.png)
 
@@ -40,22 +43,24 @@ Les apothèmes sont mesurés depuis le centre jusqu'au contour extérieur de l'a
 | 5 | E0 | 18 | 30 (12 / 18) | 3 / 3 → D3 | 1 679,4 / 1 679,4 | pod | 0 |
 | 6 | E1 | 18 | 42 (18 / 24) | 4 / 3 | 1 939,2 / 1 979,4 | pod | 0 |
 | 7 | E0 | 24 | 42 (18 / 24) | 4 / 4 → **D4 = mur du pod** | 2 239,2 / 2 239,2 | pod | 0 |
-| 8 | E1 | 24 | 54 (24 / 30) | 5 / 4 | 2 499,0 / 2 539,2 | hall extérieur | 0 |
-| 9 | E0 | 30 | 54 (24 / 30) | 5 / 5 → D5 (poteaux) | 2 799,0 / 2 799,0 | hall extérieur | 0 |
-| 10 | E1 | 30 | 66 (30 / 36) | 6 / 5 | 3 058,8 / 3 099,0 | hall extérieur | 0 |
-| 11 | E0 | 36 | 66 (30 / 36) | 6 / 6 → D6 (poteaux) | 3 358,8 / 3 358,8 | hall extérieur | 0 |
-| 12 | E1 | 36 | 78 (36 / 42) | 7 / 6 | 3 618,7 / 3 658,8 | sous la galerie L1 | 0 |
-| 13 | E0 | 42 | 78 (36 / 42) | 7 / 7 → **D7 = rive et cage** | 3 918,7 / 3 918,7 (Ø 26) | sous la galerie L1 | 0 |
+| 8 | E1 | 24 | 54 (24 / 30) | 5 / 4 | 2 499,0 / 2 539,2 | couronne (galerie) | 0 |
+| 9 | E0 | 30 | 54 (24 / 30) | 5 / 5 → **D5 = cage** | 2 799,0 / 2 799,0 | couronne (galerie) | 0 |
+| 10 | E1 | 30 | 66 (30 / 36) | 6 / 5 | 3 058,8 / 3 099,0 | couronne | 0 |
+| 11 | E0 | 36 | 66 (30 / 36) | 6 / 6 → D6 | 3 358,8 / 3 358,8 | couronne | 0 |
+| 12 | E1 | 36 | 78 (36 / 42) | 7 / 6 | 3 618,7 / 3 658,8 | couronne | 0 |
+| 13 | E0 | 42 | 78 (36 / 42) | 7 / 7 → **D7 = rive** | 3 918,7 / 3 918,7 (Ø 26) | couronne | 0 |
 | **14** | E1 | 42 | 90 (42 / 48) | 8 / 7 | 4 178,5 / 4 218,7 (Ø 28) | **palier 1** | **−150** |
 | **15** | E0 | 48 | 90 (42 / 48) | 8 / 8 → **D8 = bord** | 4 478,5 / 4 478,5 (Ø 30) | **palier 2** | **−300** |
 | **Total** | | **384** | **768** (dont 6 au centre) | | | | |
+
+Le tableau décrit l'étoile complète. Le trou en retire 40 carrés et 84 triangles (§6) : **344 carrés et 684 triangles sont posés**, dont les 10 pièces de la plateforme verte.
 
 Répartition par zone :
 
 | Zone | Anneaux | Carrés | Triangles |
 |---|---|---|---|
 | Pod (identique au 481, + 6 triangles au centre) | 1-7 | 96 | 192 |
-| Hall extérieur et dessous de la galerie (Z0) | 8-13 | 198 | 396 |
+| Couronne au niveau 0 | 8-13 | 198 | 396 |
 | Palier 1 (−150) | 14 | 42 | 90 |
 | Palier 2 (−300) | 15 | 48 | 90 |
 
@@ -63,10 +68,10 @@ Contrôle géométrique : l'aire couverte vaut 64 489 838 UU², soit exactement 
 
 ## 3. Pose manuelle (vanilla)
 
-1. **Centre.** Les 6 triangles du centre, pointes au centre, forment un hexagone de côté 300. Le Coeur Base (module 02) repose dessus : ses propres fondations sont remplacées par l'étoile. Si la plateforme a un relief au centre (le 481 laisse l'hexagone vide), sautez-les : l'anneau 1 s'accroche aussi sur les arêtes d'une étoile existante.
-2. **Anneau par anneau, dans l'ordre**, en appliquant le tableau du §1. Travaillez par secteur de 60° (un côté E0 et un côté E1) puis répétez 6 fois : chaque secteur est identique, à une rotation de 60° près.
+1. **Centre.** Les 6 triangles du centre, pointes au centre, forment un hexagone de côté 300. Si la plateforme a un relief au centre (le 481 laisse l'hexagone vide), sautez-les : l'anneau 1 s'accroche aussi sur les arêtes d'une étoile existante.
+2. **Anneau par anneau, dans l'ordre**, en appliquant le tableau du §1. Travaillez par secteur de 60° (un côté E0 et un côté E1) puis répétez 6 fois : chaque secteur est identique, à une rotation de 60° près, **sauf à l'avant (θ 150° à 210°), où les pièces du trou ne sont pas posées** (§6).
 3. **Contrôle tous les 2 anneaux.** Le contour doit compter `n` pièces sur chaque côté (D1 = 1, D2 = 2… D8 = 8). Si un côté en compte n + 1 alors que son voisin en compte n − 1, une rangée de carrés a été posée sur le mauvais jeu de côtés : reprenez l'anneau.
-4. Les murs des modules 02 à 04 s'accrochent ensuite sur les arêtes D4 (pod) et D7 (rive et cage). Posez **tout le sol avant les murs** : ainsi aucune accroche de fondation n'est masquée par un mur déjà en place.
+4. Les murs des modules 02 à 04 s'accrochent ensuite sur les arêtes D4, D5 et D7. Posez **tout le sol avant les murs** : ainsi aucune accroche de fondation n'est masquée par un mur déjà en place.
 
 ## 4. Bord abaissé en 2 paliers (Ø 26 et Ø 28)
 
@@ -90,9 +95,11 @@ Contrôle géométrique : l'aire couverte vaut 64 489 838 UU², soit exactement 
 
 | Situation | Procédure |
 |---|---|
-| Étoile 481 (ou identique) déjà posée | Importez `01b_sol_extension_D4_D8.json`. Sa pièce d'accroche (`snapOverrides [9]`) est le **1er carré de l'anneau 8 sur le côté θ = 30°**, centre (2 294,1 ; 804,9), z 40, yaw 30°. Accrochez-la sur la base du 1er triangle de l'anneau 7 posé sur le contour D4, en partant du coin à 15° (θ croissants). |
-| Plateforme vierge | Importez `phases/P1.json`. Sa pièce d'accroche est la pile de 2 demi-piliers (`snapOverrides [0,1]`), posée **au sommet de l'hexagone central situé à θ = 90°**, en (0 ; 300). Le centre exact est occupé par la porte secrète centrale du Coeur Base. Le centre de l'étoile est donc à 300 UU de la pile, dans l'axe 270°. Sur une Metal Cliff Platform, le centre se repère avec les points d'accroche de fondation de la plateforme. |
-| Étoile différente du 481 | Comparez avec `donnees/01_sol_D8_complet.csv` (anneaux 1 à 7) ou avec le contrôle `--verifier-481` appliqué à votre propre export. Si l'écart est une rotation, tournez le template à l'import jusqu'à superposer l'anneau 7 généré sur votre contour. |
+| Plateforme vierge | Importez `Plan_1`, puis `Plan_3`. La pièce d'accroche de `Plan_1` est la pile de 2 demi-piliers (`snapOverrides [0,1]`), posée **au sommet de l'hexagone central situé à θ = 90°**, en (0 ; 300) : c'est votre **pilier de référence**, celui de votre export *trou*. Le centre de l'étoile est à 300 UU de la pile, dans l'axe 270°. Les autres plans portent 1 demi-pilier qui se pose sur la pile (`snapOverrides [0]`). |
+| Étoile 481 (ou identique) déjà posée | Importez `Plan_1`, puis `Plan_3` en sautant les pièces déjà en place (anneaux 1 à 7). **Retirez de votre étoile les 27 pièces du trou** (anneaux 4 à 7 : 9 carrés et 18 triangles, côté θ 180°). |
+| Étoile différente du 481 | Comparez avec `donnees/Plan_3_sol_centre_anneaux_0-11.csv` (anneaux 1 à 7) ou avec le contrôle `--verifier-481` appliqué à votre propre export. Si l'écart est une rotation, tournez le template à l'import jusqu'à superposer l'anneau 7 généré sur votre contour. |
+
+Le recalage de votre export *trou* confirme ce repère : ses 60 fondations retombent sur l'étoile à moins de 5 UU, autour de votre pilier de référence (module 06 §1).
 
 ### Coordonnées de snap utiles
 
@@ -107,16 +114,29 @@ Formules pour toute pièce :
 
 | Repère | x | y | z template | Remarque |
 |---|---|---|---|---|
-| Ancre basse / haute (P1) | 0 | 300 | 15 / 165 | 2 demi-piliers empilés au sommet de l'hexagone central (θ 90°) |
-| Ancre des phases P2 à P7 | 0 | 300 | 315 | se pose sur la pile |
+| Ancre basse / haute (plan 1) | 0 | 300 | 15 / 165 | 2 demi-piliers empilés au sommet de l'hexagone central (θ 90°) = pilier de référence |
+| Ancre des plans 2 à 8 | 0 | 300 | 315 | se pose sur la pile |
 | Milieu du côté 0° de D4 | 2 239,2 | 0 | — | arête où s'accroche le mur de pod |
-| Sommet de D5 à 15° | 2 799,0 | 750,0 | — | poteau du plancher de toit |
-| Milieu du côté 0° de D7 | 3 918,7 | 0 | — | mur de rive, cage à tourelles au-dessus |
+| Milieu du côté 0° de D5 | 2 799,0 | 0 | — | ligne des double doorframes |
+| Milieu du côté 0° de D7 | 3 918,7 | 0 | — | mur de rive |
 | Coin à 15° de D8 | 4 478,5 | 1 200,0 | — | pointe la plus éloignée : 4 636,4 UU du centre |
 
-## 6. Contrôles de fin de module
+## 6. Fondations du trou
 
-- [ ] 384 carrés et 768 triangles (ou 288 + 576 pour l'extension 01b).
-- [ ] Contour D8 : 8 pièces par côté, contour D7 (arête haute de la 1re marche) : 7 pièces par côté.
-- [ ] Deux marches de 150 UU continues sur les 12 côtés : à Ø 26 (pied de rive) et à Ø 28.
+Le trou est relevé sur votre image annotée (`references/Trou_fondations.json`, module 06) :
+
+| Anneau | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | **Total** |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| **Retirées** (blanc) | 5 | 5 | 9 | 8 | 11 | 7 | 8 | 8 | 16 | 13 | 18 | 16 | **124** |
+| **Plateforme** (vert, plan 8) | — | — | — | — | — | 2 | 5 | 3 | — | — | — | — | **10** |
+
+- Les fondations blanches ne sont posées dans aucun plan : c'est le gouffre.
+- Les fondations vertes sont posées (plan 8), au niveau Z0, mais rien ne s'y accroche. Entourées de fondations blanches, elles ne touchent la base par aucune arête : Template Hammer obligatoire.
+- La colonne `retirees_trou` de `donnees/synthese.json` → `anneaux` donne ces chiffres anneau par anneau.
+
+## 7. Contrôles de fin de module
+
+- [ ] 344 carrés et 684 triangles posés (dont 5 + 5 pour la plateforme verte) ; 124 pièces du trou absentes.
+- [ ] Contour D8 : 8 pièces par côté, contour D7 (arête haute de la 1re marche) : 7 pièces par côté, sauf au droit du trou.
+- [ ] Deux marches de 150 UU continues sur les 12 côtés, sauf au droit du trou : à Ø 26 (pied de rive) et à Ø 28.
 - [ ] Les 12 pointes de D8 (4 636 UU) tiennent sur la plateforme. Sinon, laissez vides les 2 triangles de pointe de l'anneau 15 à chaque coin : ce sont des pièces de l'overhang, pas de la structure.

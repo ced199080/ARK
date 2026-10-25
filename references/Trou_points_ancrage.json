@@ -1,0 +1,1840 @@
+{
+	"dataVersion": 1,
+	"name": "trou",
+	"creator": "Humain",
+	"description": "",
+	"miscData": "",
+	"snapOverrides": [],
+	"entries": [
+		{
+			"structure": "/Game/PrimalEarth/StructuresPlus/Structures/Foundations/Triangle/Metal/BP_TriFoundation_Metal.BP_TriFoundation_Metal_C",
+			"loc":
+			{
+				"x": 1489.3149962117325,
+				"y": 592.77788903783312,
+				"z": 340
+			},
+			"rot":
+			{
+				"pitch": 0,
+				"yaw": 0,
+				"roll": -0
+			},
+			"bIsFlipped": false,
+			"variant": "None",
+			"skin": "None",
+			"skinId": 0,
+			"skinVariant": 0,
+			"skinData":
+			{
+				"floatParams": [],
+				"stringParams": [],
+				"objectParams": [],
+				"nameParams": []
+			},
+			"colors": [],
+			"containerName": "",
+			"miscEntryData": ""
+		},
+		{
+			"structure": "/Game/PrimalEarth/Structures/Metal/Floor_Metal.Floor_Metal_C",
+			"loc":
+			{
+				"x": 1769.2201471108042,
+				"y": 742.77798555914751,
+				"z": 340
+			},
+			"rot":
+			{
+				"pitch": -0,
+				"yaw": -3.5075926944051419e-06,
+				"roll": 0
+			},
+			"bIsFlipped": false,
+			"variant": "None",
+			"skin": "None",
+			"skinId": 0,
+			"skinVariant": 0,
+			"skinData":
+			{
+				"floatParams": [],
+				"stringParams": [],
+				"objectParams": [],
+				"nameParams": []
+			},
+			"colors": [],
+			"containerName": "",
+			"miscEntryData": ""
+		},
+		{
+			"structure": "/Game/PrimalEarth/StructuresPlus/Structures/Foundations/Triangle/Metal/BP_TriFoundation_Metal.BP_TriFoundation_Metal_C",
+			"loc":
+			{
+				"x": 1489.3149937307137,
+				"y": 742.77788903784267,
+				"z": 340
+			},
+			"rot":
+			{
+				"pitch": 0,
+				"yaw": -179.99999904870839,
+				"roll": 0
+			},
+			"bIsFlipped": false,
+			"variant": "None",
+			"skin": "None",
+			"skinId": 0,
+			"skinVariant": 0,
+			"skinData":
+			{
+				"floatParams": [],
+				"stringParams": [],
+				"objectParams": [],
+				"nameParams": []
+			},
+			"colors": [],
+			"containerName": "",
+			"miscEntryData": ""
+		},
+		{
+			"structure": "/Game/PrimalEarth/StructuresPlus/Structures/Foundations/Triangle/Metal/BP_TriFoundation_Metal.BP_TriFoundation_Metal_C",
+			"loc":
+			{
+				"x": 2049.1231489833481,
+				"y": 592.7779820881251,
+				"z": 340
+			},
+			"rot":
+			{
+				"pitch": 0,
+				"yaw": -179.99999951349034,
+				"roll": 0
+			},
+			"bIsFlipped": false,
+			"variant": "None",
+			"skin": "None",
+			"skinId": 0,
+			"skinVariant": 0,
+			"skinData":
+			{
+				"floatParams": [],
+				"stringParams": [],
+				"objectParams": [],
+				"nameParams": []
+			},
+			"colors": [],
+			"containerName": "",
+			"miscEntryData": ""
+		},
+		{
+			"structure": "/Game/PrimalEarth/StructuresPlus/Structures/Foundations/Triangle/Metal/BP_TriFoundation_Metal.BP_TriFoundation_Metal_C",
+			"loc":
+			{
+				"x": 2049.1231471107249,
+				"y": 742.77798208812328,
+				"z": 340
+			},
+			"rot":
+			{
+				"pitch": 0,
+				"yaw": 0,
+				"roll": -0
+			},
+			"bIsFlipped": false,
+			"variant": "None",
+			"skin": "None",
+			"skinId": 0,
+			"skinVariant": 0,
+			"skinData":
+			{
+				"floatParams": [],
+				"stringParams": [],
+				"objectParams": [],
+				"nameParams": []
+			},
+			"colors": [],
+			"containerName": "",
+			"miscEntryData": ""
+		},
+		{
+			"structure": "/Game/PrimalEarth/Structures/Metal/Floor_Metal.Floor_Metal_C",
+			"loc":
+			{
+				"x": 2329.0282592687963,
+				"y": 592.77790168050342,
+				"z": 190
+			},
+			"rot":
+			{
+				"pitch": 0,
+				"yaw": 1.2279880236933116e-05,
+				"roll": -0
+			},
+			"bIsFlipped": false,
+			"variant": "None",
+			"skin": "None",
+			"skinId": 0,
+			"skinVariant": 0,
+			"skinData":
+			{
+				"floatParams": [],
+				"stringParams": [],
+				"objectParams": [],
+				"nameParams": []
+			},
+			"colors": [],
+			"containerName": "",
+			"miscEntryData": ""
+		},
+		{
+			"structure": "/Game/PrimalEarth/StructuresPlus/Structures/Foundations/Triangle/Metal/BP_TriFoundation_Metal.BP_TriFoundation_Metal_C",
+			"loc":
+			{
+				"x": 2608.9312592687215,
+				"y": 592.77795942982493,
+				"z": 40
+			},
+			"rot":
+			{
+				"pitch": 0,
+				"yaw": 8.7722877906112256e-06,
+				"roll": -0
+			},
+			"bIsFlipped": false,
+			"variant": "None",
+			"skin": "None",
+			"skinId": 0,
+			"skinVariant": 0,
+			"skinData":
+			{
+				"floatParams": [],
+				"stringParams": [],
+				"objectParams": [],
+				"nameParams": []
+			},
+			"colors": [],
+			"containerName": "",
+			"miscEntryData": ""
+		},
+		{
+			"structure": "/Game/PrimalEarth/StructuresPlus/Structures/Foundations/Triangle/Metal/BP_TriFoundation_Metal.BP_TriFoundation_Metal_C",
+			"loc":
+			{
+				"x": 929.5080811738311,
+				"y": 742.77809206355005,
+				"z": 340
+			},
+			"rot":
+			{
+				"pitch": -0,
+				"yaw": -3.5075926944051419e-06,
+				"roll": 0
+			},
+			"bIsFlipped": false,
+			"variant": "None",
+			"skin": "None",
+			"skinId": 0,
+			"skinVariant": 0,
+			"skinData":
+			{
+				"floatParams": [],
+				"stringParams": [],
+				"objectParams": [],
+				"nameParams": []
+			},
+			"colors": [],
+			"containerName": "",
+			"miscEntryData": ""
+		},
+		{
+			"structure": "/Game/PrimalEarth/StructuresPlus/Structures/Foundations/Triangle/Metal/BP_TriFoundation_Metal.BP_TriFoundation_Metal_C",
+			"loc":
+			{
+				"x": 929.50807386355768,
+				"y": 592.77809206356005,
+				"z": 340
+			},
+			"rot":
+			{
+				"pitch": 0,
+				"yaw": 179.99999697891707,
+				"roll": -0
+			},
+			"bIsFlipped": false,
+			"variant": "None",
+			"skin": "None",
+			"skinId": 0,
+			"skinVariant": 0,
+			"skinData":
+			{
+				"floatParams": [],
+				"stringParams": [],
+				"objectParams": [],
+				"nameParams": []
+			},
+			"colors": [],
+			"containerName": "",
+			"miscEntryData": ""
+		},
+		{
+			"structure": "/Game/PrimalEarth/Structures/Metal/Floor_Metal.Floor_Metal_C",
+			"loc":
+			{
+				"x": 1209.411996211812,
+				"y": 592.77789250885803,
+				"z": 340
+			},
+			"rot":
+			{
+				"pitch": -0,
+				"yaw": -3.5075926944051419e-06,
+				"roll": 0
+			},
+			"bIsFlipped": false,
+			"variant": "None",
+			"skin": "None",
+			"skinId": 0,
+			"skinVariant": 0,
+			"skinData":
+			{
+				"floatParams": [],
+				"stringParams": [],
+				"objectParams": [],
+				"nameParams": []
+			},
+			"colors": [],
+			"containerName": "",
+			"miscEntryData": ""
+		},
+		{
+			"structure": "/Game/PrimalEarth/Structures/Metal/Floor_Metal.Floor_Metal_C",
+			"loc":
+			{
+				"x": 649.60508117389577,
+				"y": 742.77809430426055,
+				"z": 340
+			},
+			"rot":
+			{
+				"pitch": 0,
+				"yaw": 0,
+				"roll": -0
+			},
+			"bIsFlipped": false,
+			"variant": "None",
+			"skin": "None",
+			"skinId": 0,
+			"skinVariant": 0,
+			"skinData":
+			{
+				"floatParams": [],
+				"stringParams": [],
+				"objectParams": [],
+				"nameParams": []
+			},
+			"colors": [],
+			"containerName": "",
+			"miscEntryData": ""
+		},
+		{
+			"structure": "/Game/PrimalEarth/StructuresPlus/Structures/Foundations/Triangle/Metal/BP_TriFoundation_Metal.BP_TriFoundation_Metal_C",
+			"loc":
+			{
+				"x": 369.69998820331557,
+				"y": 892.7778591499623,
+				"z": 340
+			},
+			"rot":
+			{
+				"pitch": 0,
+				"yaw": 0,
+				"roll": -0
+			},
+			"bIsFlipped": false,
+			"variant": "None",
+			"skin": "None",
+			"skinId": 0,
+			"skinVariant": 0,
+			"skinData":
+			{
+				"floatParams": [],
+				"stringParams": [],
+				"objectParams": [],
+				"nameParams": []
+			},
+			"colors": [],
+			"containerName": "",
+			"miscEntryData": ""
+		},
+		{
+			"structure": "/Game/PrimalEarth/StructuresPlus/Structures/Foundations/Triangle/Metal/BP_TriFoundation_Metal.BP_TriFoundation_Metal_C",
+			"loc":
+			{
+				"x": 369.69999007593873,
+				"y": 742.77785914996446,
+				"z": 340
+			},
+			"rot":
+			{
+				"pitch": 0,
+				"yaw": -179.99999951349034,
+				"roll": 0
+			},
+			"bIsFlipped": false,
+			"variant": "None",
+			"skin": "None",
+			"skinId": 0,
+			"skinVariant": 0,
+			"skinData":
+			{
+				"floatParams": [],
+				"stringParams": [],
+				"objectParams": [],
+				"nameParams": []
+			},
+			"colors": [],
+			"containerName": "",
+			"miscEntryData": ""
+		},
+		{
+			"structure": "/Game/PrimalEarth/Structures/Metal/Floor_Metal.Floor_Metal_C",
+			"loc":
+			{
+				"x": -470.00964071651674,
+				"y": 742.77860233534807,
+				"z": 340
+			},
+			"rot":
+			{
+				"pitch": 0,
+				"yaw": 0,
+				"roll": -0
+			},
+			"bIsFlipped": false,
+			"variant": "None",
+			"skin": "None",
+			"skinId": 0,
+			"skinVariant": 0,
+			"skinData":
+			{
+				"floatParams": [],
+				"stringParams": [],
+				"objectParams": [],
+				"nameParams": []
+			},
+			"colors": [],
+			"containerName": "",
+			"miscEntryData": ""
+		},
+		{
+			"structure": "/Game/PrimalEarth/StructuresPlus/Structures/Foundations/Triangle/Metal/BP_TriFoundation_Metal.BP_TriFoundation_Metal_C",
+			"loc":
+			{
+				"x": -190.10663401471766,
+				"y": 892.77860009461449,
+				"z": 340
+			},
+			"rot":
+			{
+				"pitch": 0,
+				"yaw": 179.99999744369902,
+				"roll": -0
+			},
+			"bIsFlipped": false,
+			"variant": "None",
+			"skin": "None",
+			"skinId": 0,
+			"skinVariant": 0,
+			"skinData":
+			{
+				"floatParams": [],
+				"stringParams": [],
+				"objectParams": [],
+				"nameParams": []
+			},
+			"colors": [],
+			"containerName": "",
+			"miscEntryData": ""
+		},
+		{
+			"structure": "/Game/PrimalEarth/StructuresPlus/Structures/Foundations/Triangle/Metal/BP_TriFoundation_Metal.BP_TriFoundation_Metal_C",
+			"loc":
+			{
+				"x": -190.10664071658152,
+				"y": 742.7786000946378,
+				"z": 340
+			},
+			"rot":
+			{
+				"pitch": -0,
+				"yaw": -3.5075926944051419e-06,
+				"roll": 0
+			},
+			"bIsFlipped": false,
+			"variant": "None",
+			"skin": "None",
+			"skinId": 0,
+			"skinVariant": 0,
+			"skinData":
+			{
+				"floatParams": [],
+				"stringParams": [],
+				"objectParams": [],
+				"nameParams": []
+			},
+			"colors": [],
+			"containerName": "",
+			"miscEntryData": ""
+		},
+		{
+			"structure": "/Game/PrimalEarth/Structures/Metal/Floor_Metal.Floor_Metal_C",
+			"loc":
+			{
+				"x": 89.796988203395017,
+				"y": 892.77786262098721,
+				"z": 340
+			},
+			"rot":
+			{
+				"pitch": -0,
+				"yaw": -3.5075926944051419e-06,
+				"roll": 0
+			},
+			"bIsFlipped": false,
+			"variant": "None",
+			"skin": "None",
+			"skinId": 0,
+			"skinVariant": 0,
+			"skinData":
+			{
+				"floatParams": [],
+				"stringParams": [],
+				"objectParams": [],
+				"nameParams": []
+			},
+			"colors": [],
+			"containerName": "",
+			"miscEntryData": ""
+		},
+		{
+			"structure": "/Game/PrimalEarth/Structures/Metal/Floor_Metal.Floor_Metal_C",
+			"loc":
+			{
+				"x": -824.91474561991936,
+				"y": 537.8747828189089,
+				"z": 340
+			},
+			"rot":
+			{
+				"pitch": 0,
+				"yaw": -30.000004662305145,
+				"roll": 0
+			},
+			"bIsFlipped": false,
+			"variant": "None",
+			"skin": "None",
+			"skinId": 0,
+			"skinVariant": 0,
+			"skinData":
+			{
+				"floatParams": [],
+				"stringParams": [],
+				"objectParams": [],
+				"nameParams": []
+			},
+			"colors": [],
+			"containerName": "",
+			"miscEntryData": ""
+		},
+		{
+			"structure": "/Game/PrimalEarth/StructuresPlus/Structures/Foundations/Triangle/Metal/BP_TriFoundation_Metal.BP_TriFoundation_Metal_C",
+			"loc":
+			{
+				"x": -749.91264071648629,
+				"y": 742.77860131623879,
+				"z": 340
+			},
+			"rot":
+			{
+				"pitch": 0,
+				"yaw": 179.99999932455466,
+				"roll": -0
+			},
+			"bIsFlipped": false,
+			"variant": "None",
+			"skin": "None",
+			"skinId": 0,
+			"skinVariant": 0,
+			"skinData":
+			{
+				"floatParams": [],
+				"stringParams": [],
+				"objectParams": [],
+				"nameParams": []
+			},
+			"colors": [],
+			"containerName": "",
+			"miscEntryData": ""
+		},
+		{
+			"structure": "/Game/PrimalEarth/StructuresPlus/Structures/Foundations/Triangle/Metal/BP_TriFoundation_Metal.BP_TriFoundation_Metal_C",
+			"loc":
+			{
+				"x": -1142.3178468938138,
+				"y": 547.92249791760071,
+				"z": 340
+			},
+			"rot":
+			{
+				"pitch": 0,
+				"yaw": -30.000009041521171,
+				"roll": 0
+			},
+			"bIsFlipped": false,
+			"variant": "None",
+			"skin": "None",
+			"skinId": 0,
+			"skinVariant": 0,
+			"skinData":
+			{
+				"floatParams": [],
+				"stringParams": [],
+				"objectParams": [],
+				"nameParams": []
+			},
+			"colors": [],
+			"containerName": "",
+			"miscEntryData": ""
+		},
+		{
+			"structure": "/Game/PrimalEarth/StructuresPlus/Structures/Foundations/Triangle/Metal/BP_TriFoundation_Metal.BP_TriFoundation_Metal_C",
+			"loc":
+			{
+				"x": -1067.3178235376781,
+				"y": 677.82629500059284,
+				"z": 340
+			},
+			"rot":
+			{
+				"pitch": 0,
+				"yaw": 149.99998981825166,
+				"roll": -0
+			},
+			"bIsFlipped": false,
+			"variant": "None",
+			"skin": "None",
+			"skinId": 0,
+			"skinVariant": 0,
+			"skinData":
+			{
+				"floatParams": [],
+				"stringParams": [],
+				"objectParams": [],
+				"nameParams": []
+			},
+			"colors": [],
+			"containerName": "",
+			"miscEntryData": ""
+		},
+		{
+			"structure": "/Game/PrimalEarth/StructuresPlus/Structures/Foundations/Triangle/Metal/BP_TriFoundation_Metal.BP_TriFoundation_Metal_C",
+			"loc":
+			{
+				"x": -1627.1239959708525,
+				"y": 827.82561589423608,
+				"z": 340
+			},
+			"rot":
+			{
+				"pitch": 0,
+				"yaw": 149.99998403020464,
+				"roll": -0
+			},
+			"bIsFlipped": false,
+			"variant": "None",
+			"skin": "None",
+			"skinId": 0,
+			"skinVariant": 0,
+			"skinData":
+			{
+				"floatParams": [],
+				"stringParams": [],
+				"objectParams": [],
+				"nameParams": []
+			},
+			"colors": [],
+			"containerName": "",
+			"miscEntryData": ""
+		},
+		{
+			"structure": "/Game/PrimalEarth/StructuresPlus/Structures/Foundations/Triangle/Metal/BP_TriFoundation_Metal.BP_TriFoundation_Metal_C",
+			"loc":
+			{
+				"x": -1739.6258739505865,
+				"y": 762.87366869132109,
+				"z": 340
+			},
+			"rot":
+			{
+				"pitch": 0,
+				"yaw": 89.999993028270083,
+				"roll": -0
+			},
+			"bIsFlipped": false,
+			"variant": "None",
+			"skin": "None",
+			"skinId": 0,
+			"skinVariant": 0,
+			"skinData":
+			{
+				"floatParams": [],
+				"stringParams": [],
+				"objectParams": [],
+				"nameParams": []
+			},
+			"colors": [],
+			"containerName": "",
+			"miscEntryData": ""
+		},
+		{
+			"structure": "/Game/PrimalEarth/StructuresPlus/Structures/Foundations/Triangle/Metal/BP_TriFoundation_Metal.BP_TriFoundation_Metal_C",
+			"loc":
+			{
+				"x": -1627.1258543780084,
+				"y": 957.73039735312909,
+				"z": 340
+			},
+			"rot":
+			{
+				"pitch": 0,
+				"yaw": -150.00000513432974,
+				"roll": 0
+			},
+			"bIsFlipped": false,
+			"variant": "None",
+			"skin": "None",
+			"skinId": 0,
+			"skinVariant": 0,
+			"skinData":
+			{
+				"floatParams": [],
+				"stringParams": [],
+				"objectParams": [],
+				"nameParams": []
+			},
+			"colors": [],
+			"containerName": "",
+			"miscEntryData": ""
+		},
+		{
+			"structure": "/Game/PrimalEarth/Structures/Metal/Floor_Metal.Floor_Metal_C",
+			"loc":
+			{
+				"x": -1739.6259057600248,
+				"y": 482.97066869132664,
+				"z": 340
+			},
+			"rot":
+			{
+				"pitch": 0,
+				"yaw": -90.000005599111759,
+				"roll": 0
+			},
+			"bIsFlipped": false,
+			"variant": "None",
+			"skin": "None",
+			"skinId": 0,
+			"skinVariant": 0,
+			"skinData":
+			{
+				"floatParams": [],
+				"stringParams": [],
+				"objectParams": [],
+				"nameParams": []
+			},
+			"colors": [],
+			"containerName": "",
+			"miscEntryData": ""
+		},
+		{
+			"structure": "/Game/PrimalEarth/StructuresPlus/Structures/Foundations/Triangle/Metal/BP_TriFoundation_Metal.BP_TriFoundation_Metal_C",
+			"loc":
+			{
+				"x": -1524.6737860086521,
+				"y": 520.47063848337609,
+				"z": 340
+			},
+			"rot":
+			{
+				"pitch": 0,
+				"yaw": 119.99999556284334,
+				"roll": -0
+			},
+			"bIsFlipped": false,
+			"variant": "None",
+			"skin": "None",
+			"skinId": 0,
+			"skinVariant": 0,
+			"skinData":
+			{
+				"floatParams": [],
+				"stringParams": [],
+				"objectParams": [],
+				"nameParams": []
+			},
+			"colors": [],
+			"containerName": "",
+			"miscEntryData": ""
+		},
+		{
+			"structure": "/Game/PrimalEarth/Structures/Metal/Floor_Metal.Floor_Metal_C",
+			"loc":
+			{
+				"x": -1384.7209245690358,
+				"y": 687.87405147303525,
+				"z": 340
+			},
+			"rot":
+			{
+				"pitch": 0,
+				"yaw": -30.000013202831312,
+				"roll": 0
+			},
+			"bIsFlipped": false,
+			"variant": "None",
+			"skin": "None",
+			"skinId": 0,
+			"skinVariant": 0,
+			"skinData":
+			{
+				"floatParams": [],
+				"stringParams": [],
+				"objectParams": [],
+				"nameParams": []
+			},
+			"colors": [],
+			"containerName": "",
+			"miscEntryData": ""
+		},
+		{
+			"structure": "/Game/PrimalEarth/StructuresPlus/Structures/Foundations/Triangle/Metal/BP_TriFoundation_Metal.BP_TriFoundation_Metal_C",
+			"loc":
+			{
+				"x": -1739.6260131377146,
+				"y": 1022.682406521801,
+				"z": 340
+			},
+			"rot":
+			{
+				"pitch": 0,
+				"yaw": -90.000005599111759,
+				"roll": 0
+			},
+			"bIsFlipped": false,
+			"variant": "None",
+			"skin": "None",
+			"skinId": 0,
+			"skinVariant": 0,
+			"skinData":
+			{
+				"floatParams": [],
+				"stringParams": [],
+				"objectParams": [],
+				"nameParams": []
+			},
+			"colors": [],
+			"containerName": "",
+			"miscEntryData": ""
+		},
+		{
+			"structure": "/Game/PrimalEarth/StructuresPlus/Structures/Foundations/Triangle/Metal/BP_TriFoundation_Metal.BP_TriFoundation_Metal_C",
+			"loc":
+			{
+				"x": -1852.1260290183166,
+				"y": 827.8266998389746,
+				"z": 340
+			},
+			"rot":
+			{
+				"pitch": 0,
+				"yaw": 29.999996260016282,
+				"roll": -0
+			},
+			"bIsFlipped": false,
+			"variant": "None",
+			"skin": "None",
+			"skinId": 0,
+			"skinVariant": 0,
+			"skinData":
+			{
+				"floatParams": [],
+				"stringParams": [],
+				"objectParams": [],
+				"nameParams": []
+			},
+			"colors": [],
+			"containerName": "",
+			"miscEntryData": ""
+		},
+		{
+			"structure": "/Game/PrimalEarth/Structures/Tileset/Pillars/Half/Pillar_Half_Metal.Pillar_Half_Metal_C",
+			"loc":
+			{
+				"x": -1889.6259628721916,
+				"y": 632.97093968556862,
+				"z": 315
+			},
+			"rot":
+			{
+				"pitch": 0,
+				"yaw": 149.99999530148193,
+				"roll": -0
+			},
+			"bIsFlipped": false,
+			"variant": "None",
+			"skin": "None",
+			"skinId": 0,
+			"skinVariant": 0,
+			"skinData":
+			{
+				"floatParams": [],
+				"stringParams": [],
+				"objectParams": [],
+				"nameParams": []
+			},
+			"colors": [],
+			"containerName": "",
+			"miscEntryData": ""
+		},
+		{
+			"structure": "/Game/PrimalEarth/StructuresPlus/Structures/Foundations/Triangle/Metal/BP_TriFoundation_Metal.BP_TriFoundation_Metal_C",
+			"loc":
+			{
+				"x": -1852.1261004578687,
+				"y": 957.7305577647237,
+				"z": 340
+			},
+			"rot":
+			{
+				"pitch": 0,
+				"yaw": -30.00000327520172,
+				"roll": 0
+			},
+			"bIsFlipped": false,
+			"variant": "None",
+			"skin": "None",
+			"skinId": 0,
+			"skinVariant": 0,
+			"skinData":
+			{
+				"floatParams": [],
+				"stringParams": [],
+				"objectParams": [],
+				"nameParams": []
+			},
+			"colors": [],
+			"containerName": "",
+			"miscEntryData": ""
+		},
+		{
+			"structure": "/Game/PrimalEarth/StructuresPlus/Structures/Foundations/Triangle/Metal/BP_TriFoundation_Metal.BP_TriFoundation_Metal_C",
+			"loc":
+			{
+				"x": -1217.3178655572256,
+				"y": 418.01869812526485,
+				"z": 340
+			},
+			"rot":
+			{
+				"pitch": 0,
+				"yaw": 149.99999395783405,
+				"roll": -0
+			},
+			"bIsFlipped": false,
+			"variant": "None",
+			"skin": "None",
+			"skinId": 0,
+			"skinVariant": 0,
+			"skinData":
+			{
+				"floatParams": [],
+				"stringParams": [],
+				"objectParams": [],
+				"nameParams": []
+			},
+			"colors": [],
+			"containerName": "",
+			"miscEntryData": ""
+		},
+		{
+			"structure": "/Game/PrimalEarth/Structures/Metal/Floor_Metal.Floor_Metal_C",
+			"loc":
+			{
+				"x": -974.91476990602541,
+				"y": 278.06717570519243,
+				"z": 340
+			},
+			"rot":
+			{
+				"pitch": 0,
+				"yaw": -30.00000327520172,
+				"roll": 0
+			},
+			"bIsFlipped": false,
+			"variant": "None",
+			"skin": "None",
+			"skinId": 0,
+			"skinVariant": 0,
+			"skinData":
+			{
+				"floatParams": [],
+				"stringParams": [],
+				"objectParams": [],
+				"nameParams": []
+			},
+			"colors": [],
+			"containerName": "",
+			"miscEntryData": ""
+		},
+		{
+			"structure": "/Game/PrimalEarth/StructuresPlus/Structures/Foundations/Triangle/Metal/BP_TriFoundation_Metal.BP_TriFoundation_Metal_C",
+			"loc":
+			{
+				"x": -1114.8642896831657,
+				"y": 110.66040273175088,
+				"z": 340
+			},
+			"rot":
+			{
+				"pitch": 0,
+				"yaw": 119.99997967995981,
+				"roll": -0
+			},
+			"bIsFlipped": false,
+			"variant": "None",
+			"skin": "None",
+			"skinId": 0,
+			"skinVariant": 0,
+			"skinData":
+			{
+				"floatParams": [],
+				"stringParams": [],
+				"objectParams": [],
+				"nameParams": []
+			},
+			"colors": [],
+			"containerName": "",
+			"miscEntryData": ""
+		},
+		{
+			"structure": "/Game/PrimalEarth/Structures/Metal/Floor_Metal.Floor_Metal_C",
+			"loc":
+			{
+				"x": -974.91287310651603,
+				"y": -131.74275402828744,
+				"z": 340
+			},
+			"rot":
+			{
+				"pitch": 0,
+				"yaw": -60.00001825024929,
+				"roll": 0
+			},
+			"bIsFlipped": false,
+			"variant": "None",
+			"skin": "None",
+			"skinId": 0,
+			"skinVariant": 0,
+			"skinData":
+			{
+				"floatParams": [],
+				"stringParams": [],
+				"objectParams": [],
+				"nameParams": []
+			},
+			"colors": [],
+			"containerName": "",
+			"miscEntryData": ""
+		},
+		{
+			"structure": "/Game/PrimalEarth/Structures/Metal/Floor_Metal.Floor_Metal_C",
+			"loc":
+			{
+				"x": 1264.3161121361613,
+				"y": -321.93326451917119,
+				"z": 340
+			},
+			"rot":
+			{
+				"pitch": 0,
+				"yaw": -30.00000327520172,
+				"roll": 0
+			},
+			"bIsFlipped": false,
+			"variant": "None",
+			"skin": "None",
+			"skinId": 0,
+			"skinVariant": 0,
+			"skinData":
+			{
+				"floatParams": [],
+				"stringParams": [],
+				"objectParams": [],
+				"nameParams": []
+			},
+			"colors": [],
+			"containerName": "",
+			"miscEntryData": ""
+		},
+		{
+			"structure": "/Game/PrimalEarth/StructuresPlus/Structures/Foundations/Triangle/Metal/BP_TriFoundation_Metal.BP_TriFoundation_Metal_C",
+			"loc":
+			{
+				"x": 1021.9130164849606,
+				"y": -181.98174209909882,
+				"z": 340
+			},
+			"rot":
+			{
+				"pitch": 0,
+				"yaw": 149.99999395783405,
+				"roll": -0
+			},
+			"bIsFlipped": false,
+			"variant": "None",
+			"skin": "None",
+			"skinId": 0,
+			"skinVariant": 0,
+			"skinData":
+			{
+				"floatParams": [],
+				"stringParams": [],
+				"objectParams": [],
+				"nameParams": []
+			},
+			"colors": [],
+			"containerName": "",
+			"miscEntryData": ""
+		},
+		{
+			"structure": "/Game/PrimalEarth/StructuresPlus/Structures/Foundations/Triangle/Metal/BP_TriFoundation_Metal.BP_TriFoundation_Metal_C",
+			"loc":
+			{
+				"x": 946.91300150969278,
+				"y": -311.88554402076267,
+				"z": 340
+			},
+			"rot":
+			{
+				"pitch": 0,
+				"yaw": -30.000005788047222,
+				"roll": 0
+			},
+			"bIsFlipped": false,
+			"variant": "None",
+			"skin": "None",
+			"skinId": 0,
+			"skinVariant": 0,
+			"skinData":
+			{
+				"floatParams": [],
+				"stringParams": [],
+				"objectParams": [],
+				"nameParams": []
+			},
+			"colors": [],
+			"containerName": "",
+			"miscEntryData": ""
+		},
+		{
+			"structure": "/Game/PrimalEarth/Structures/Metal/Floor_Metal.Floor_Metal_C",
+			"loc":
+			{
+				"x": 704.50817511921844,
+				"y": -171.93302946303839,
+				"z": 340
+			},
+			"rot":
+			{
+				"pitch": 0,
+				"yaw": -30.00000327520172,
+				"roll": 0
+			},
+			"bIsFlipped": false,
+			"variant": "None",
+			"skin": "None",
+			"skinId": 0,
+			"skinVariant": 0,
+			"skinData":
+			{
+				"floatParams": [],
+				"stringParams": [],
+				"objectParams": [],
+				"nameParams": []
+			},
+			"colors": [],
+			"containerName": "",
+			"miscEntryData": ""
+		},
+		{
+			"structure": "/Game/PrimalEarth/StructuresPlus/Structures/Foundations/Triangle/Metal/BP_TriFoundation_Metal.BP_TriFoundation_Metal_C",
+			"loc":
+			{
+				"x": -964.86528134268633,
+				"y": -449.14586734402974,
+				"z": 340
+			},
+			"rot":
+			{
+				"pitch": 0,
+				"yaw": 119.9999815173597,
+				"roll": -0
+			},
+			"bIsFlipped": false,
+			"variant": "None",
+			"skin": "None",
+			"skinId": 0,
+			"skinVariant": 0,
+			"skinData":
+			{
+				"floatParams": [],
+				"stringParams": [],
+				"objectParams": [],
+				"nameParams": []
+			},
+			"colors": [],
+			"containerName": "",
+			"miscEntryData": ""
+		},
+		{
+			"structure": "/Game/PrimalEarth/StructuresPlus/Structures/Foundations/Triangle/Metal/BP_TriFoundation_Metal.BP_TriFoundation_Metal_C",
+			"loc":
+			{
+				"x": -834.96144840185343,
+				"y": -374.14590609562151,
+				"z": 340
+			},
+			"rot":
+			{
+				"pitch": 0,
+				"yaw": -60.00001478611231,
+				"roll": 0
+			},
+			"bIsFlipped": false,
+			"variant": "None",
+			"skin": "None",
+			"skinId": 0,
+			"skinVariant": 0,
+			"skinData":
+			{
+				"floatParams": [],
+				"stringParams": [],
+				"objectParams": [],
+				"nameParams": []
+			},
+			"colors": [],
+			"containerName": "",
+			"miscEntryData": ""
+		},
+		{
+			"structure": "/Game/PrimalEarth/Structures/Metal/Floor_Metal.Floor_Metal_C",
+			"loc":
+			{
+				"x": 1114.3160878500548,
+				"y": -581.74087163288766,
+				"z": 340
+			},
+			"rot":
+			{
+				"pitch": 0,
+				"yaw": -30.000004662305145,
+				"roll": 0
+			},
+			"bIsFlipped": false,
+			"variant": "None",
+			"skin": "None",
+			"skinId": 0,
+			"skinVariant": 0,
+			"skinData":
+			{
+				"floatParams": [],
+				"stringParams": [],
+				"objectParams": [],
+				"nameParams": []
+			},
+			"colors": [],
+			"containerName": "",
+			"miscEntryData": ""
+		},
+		{
+			"structure": "/Game/PrimalEarth/StructuresPlus/Structures/Foundations/Triangle/Metal/BP_TriFoundation_Metal.BP_TriFoundation_Metal_C",
+			"loc":
+			{
+				"x": 796.91296696492805,
+				"y": -571.6931452116537,
+				"z": 340
+			},
+			"rot":
+			{
+				"pitch": 0,
+				"yaw": -30.000007138937683,
+				"roll": 0
+			},
+			"bIsFlipped": false,
+			"variant": "None",
+			"skin": "None",
+			"skinId": 0,
+			"skinVariant": 0,
+			"skinData":
+			{
+				"floatParams": [],
+				"stringParams": [],
+				"objectParams": [],
+				"nameParams": []
+			},
+			"colors": [],
+			"containerName": "",
+			"miscEntryData": ""
+		},
+		{
+			"structure": "/Game/PrimalEarth/Structures/Metal/Floor_Metal.Floor_Metal_C",
+			"loc":
+			{
+				"x": 554.50815394517508,
+				"y": -431.74063837354709,
+				"z": 340
+			},
+			"rot":
+			{
+				"pitch": 0,
+				"yaw": -30.00000327520172,
+				"roll": 0
+			},
+			"bIsFlipped": false,
+			"variant": "None",
+			"skin": "None",
+			"skinId": 0,
+			"skinVariant": 0,
+			"skinData":
+			{
+				"floatParams": [],
+				"stringParams": [],
+				"objectParams": [],
+				"nameParams": []
+			},
+			"colors": [],
+			"containerName": "",
+			"miscEntryData": ""
+		},
+		{
+			"structure": "/Game/PrimalEarth/StructuresPlus/Structures/Foundations/Triangle/Metal/BP_TriFoundation_Metal.BP_TriFoundation_Metal_C",
+			"loc":
+			{
+				"x": 871.91298500298126,
+				"y": -441.78934505826203,
+				"z": 340
+			},
+			"rot":
+			{
+				"pitch": 0,
+				"yaw": 149.99999260694352,
+				"roll": -0
+			},
+			"bIsFlipped": false,
+			"variant": "None",
+			"skin": "None",
+			"skinId": 0,
+			"skinVariant": 0,
+			"skinData":
+			{
+				"floatParams": [],
+				"stringParams": [],
+				"objectParams": [],
+				"nameParams": []
+			},
+			"colors": [],
+			"containerName": "",
+			"miscEntryData": ""
+		},
+		{
+			"structure": "/Game/PrimalEarth/Structures/Metal/Floor_Metal.Floor_Metal_C",
+			"loc":
+			{
+				"x": -824.91384274490315,
+				"y": -691.54901747169811,
+				"z": 340
+			},
+			"rot":
+			{
+				"pitch": 0,
+				"yaw": -60.000014822325632,
+				"roll": 0
+			},
+			"bIsFlipped": false,
+			"variant": "None",
+			"skin": "None",
+			"skinId": 0,
+			"skinVariant": 0,
+			"skinData":
+			{
+				"floatParams": [],
+				"stringParams": [],
+				"objectParams": [],
+				"nameParams": []
+			},
+			"colors": [],
+			"containerName": "",
+			"miscEntryData": ""
+		},
+		{
+			"structure": "/Game/PrimalEarth/StructuresPlus/Structures/Foundations/Triangle/Metal/BP_TriFoundation_Metal.BP_TriFoundation_Metal_C",
+			"loc":
+			{
+				"x": 721.91294739544537,
+				"y": -701.59694448085565,
+				"z": 340
+			},
+			"rot":
+			{
+				"pitch": 0,
+				"yaw": 149.99999125605314,
+				"roll": -0
+			},
+			"bIsFlipped": false,
+			"variant": "None",
+			"skin": "None",
+			"skinId": 0,
+			"skinVariant": 0,
+			"skinData":
+			{
+				"floatParams": [],
+				"stringParams": [],
+				"objectParams": [],
+				"nameParams": []
+			},
+			"colors": [],
+			"containerName": "",
+			"miscEntryData": ""
+		},
+		{
+			"structure": "/Game/PrimalEarth/Structures/Metal/Floor_Metal.Floor_Metal_C",
+			"loc":
+			{
+				"x": 964.31605727414694,
+				"y": -841.54847511518483,
+				"z": 340
+			},
+			"rot":
+			{
+				"pitch": 0,
+				"yaw": -30.000006049408615,
+				"roll": 0
+			},
+			"bIsFlipped": false,
+			"variant": "None",
+			"skin": "None",
+			"skinId": 0,
+			"skinVariant": 0,
+			"skinData":
+			{
+				"floatParams": [],
+				"stringParams": [],
+				"objectParams": [],
+				"nameParams": []
+			},
+			"colors": [],
+			"containerName": "",
+			"miscEntryData": ""
+		},
+		{
+			"structure": "/Game/PrimalEarth/StructuresPlus/Structures/Foundations/Triangle/Metal/BP_TriFoundation_Metal.BP_TriFoundation_Metal_C",
+			"loc":
+			{
+				"x": -684.96241714130952,
+				"y": -933.95216901989852,
+				"z": 340
+			},
+			"rot":
+			{
+				"pitch": 0,
+				"yaw": -60.000018286462598,
+				"roll": 0
+			},
+			"bIsFlipped": false,
+			"variant": "None",
+			"skin": "None",
+			"skinId": 0,
+			"skinVariant": 0,
+			"skinData":
+			{
+				"floatParams": [],
+				"stringParams": [],
+				"objectParams": [],
+				"nameParams": []
+			},
+			"colors": [],
+			"containerName": "",
+			"miscEntryData": ""
+		},
+		{
+			"structure": "/Game/PrimalEarth/StructuresPlus/Structures/Foundations/Triangle/Metal/BP_TriFoundation_Metal.BP_TriFoundation_Metal_C",
+			"loc":
+			{
+				"x": -555.05856021697696,
+				"y": -858.95220661386861,
+				"z": 340
+			},
+			"rot":
+			{
+				"pitch": 0,
+				"yaw": 119.99999209870606,
+				"roll": -0
+			},
+			"bIsFlipped": false,
+			"variant": "None",
+			"skin": "None",
+			"skinId": 0,
+			"skinVariant": 0,
+			"skinData":
+			{
+				"floatParams": [],
+				"stringParams": [],
+				"objectParams": [],
+				"nameParams": []
+			},
+			"colors": [],
+			"containerName": "",
+			"miscEntryData": ""
+		},
+		{
+			"structure": "/Game/PrimalEarth/Structures/Metal/Floor_Metal.Floor_Metal_C",
+			"loc":
+			{
+				"x": -415.1070911000985,
+				"y": -1101.3553330396244,
+				"z": 340
+			},
+			"rot":
+			{
+				"pitch": 0,
+				"yaw": -60.000005831502754,
+				"roll": 0
+			},
+			"bIsFlipped": false,
+			"variant": "None",
+			"skin": "None",
+			"skinId": 0,
+			"skinVariant": 0,
+			"skinData":
+			{
+				"floatParams": [],
+				"stringParams": [],
+				"objectParams": [],
+				"nameParams": []
+			},
+			"colors": [],
+			"containerName": "",
+			"miscEntryData": ""
+		},
+		{
+			"structure": "/Game/PrimalEarth/StructuresPlus/Structures/Foundations/Triangle/Metal/BP_TriFoundation_Metal.BP_TriFoundation_Metal_C",
+			"loc":
+			{
+				"x": -145.2494570041199,
+				"y": -1268.7616061277822,
+				"z": 340
+			},
+			"rot":
+			{
+				"pitch": 0,
+				"yaw": 119.99998751606957,
+				"roll": -0
+			},
+			"bIsFlipped": false,
+			"variant": "None",
+			"skin": "None",
+			"skinId": 0,
+			"skinVariant": 0,
+			"skinData":
+			{
+				"floatParams": [],
+				"stringParams": [],
+				"objectParams": [],
+				"nameParams": []
+			},
+			"colors": [],
+			"containerName": "",
+			"miscEntryData": ""
+		},
+		{
+			"structure": "/Game/PrimalEarth/StructuresPlus/Structures/Foundations/Triangle/Metal/BP_TriFoundation_Metal.BP_TriFoundation_Metal_C",
+			"loc":
+			{
+				"x": -275.15328388949831,
+				"y": -1343.7615778646602,
+				"z": 340
+			},
+			"rot":
+			{
+				"pitch": 0,
+				"yaw": -60.000011532638524,
+				"roll": 0
+			},
+			"bIsFlipped": false,
+			"variant": "None",
+			"skin": "None",
+			"skinId": 0,
+			"skinVariant": 0,
+			"skinData":
+			{
+				"floatParams": [],
+				"stringParams": [],
+				"objectParams": [],
+				"nameParams": []
+			},
+			"colors": [],
+			"containerName": "",
+			"miscEntryData": ""
+		},
+		{
+			"structure": "/Game/PrimalEarth/Structures/Metal/Floor_Metal.Floor_Metal_C",
+			"loc":
+			{
+				"x": -5.2980072750365252,
+				"y": -1511.1647437472175,
+				"z": 340
+			},
+			"rot":
+			{
+				"pitch": 0,
+				"yaw": -60.000010414139361,
+				"roll": 0
+			},
+			"bIsFlipped": false,
+			"variant": "None",
+			"skin": "None",
+			"skinId": 0,
+			"skinVariant": 0,
+			"skinData":
+			{
+				"floatParams": [],
+				"stringParams": [],
+				"objectParams": [],
+				"nameParams": []
+			},
+			"colors": [],
+			"containerName": "",
+			"miscEntryData": ""
+		},
+		{
+			"structure": "/Game/PrimalEarth/Structures/Metal/Floor_Metal.Floor_Metal_C",
+			"loc":
+			{
+				"x": 404.50874058561249,
+				"y": -1920.9710209728255,
+				"z": 340
+			},
+			"rot":
+			{
+				"pitch": 0,
+				"yaw": -60.000005831502754,
+				"roll": 0
+			},
+			"bIsFlipped": false,
+			"variant": "None",
+			"skin": "None",
+			"skinId": 0,
+			"skinVariant": 0,
+			"skinData":
+			{
+				"floatParams": [],
+				"stringParams": [],
+				"objectParams": [],
+				"nameParams": []
+			},
+			"colors": [],
+			"containerName": "",
+			"miscEntryData": ""
+		},
+		{
+			"structure": "/Game/PrimalEarth/StructuresPlus/Structures/Foundations/Triangle/Metal/BP_TriFoundation_Metal.BP_TriFoundation_Metal_C",
+			"loc":
+			{
+				"x": 264.55727146873437,
+				"y": -1678.5678945470695,
+				"z": 340
+			},
+			"rot":
+			{
+				"pitch": 0,
+				"yaw": 119.99999209870606,
+				"roll": -0
+			},
+			"bIsFlipped": false,
+			"variant": "None",
+			"skin": "None",
+			"skinId": 0,
+			"skinVariant": 0,
+			"skinData":
+			{
+				"floatParams": [],
+				"stringParams": [],
+				"objectParams": [],
+				"nameParams": []
+			},
+			"colors": [],
+			"containerName": "",
+			"miscEntryData": ""
+		},
+		{
+			"structure": "/Game/PrimalEarth/StructuresPlus/Structures/Foundations/Triangle/Metal/BP_TriFoundation_Metal.BP_TriFoundation_Metal_C",
+			"loc":
+			{
+				"x": 134.65345058206003,
+				"y": -1753.5678766739488,
+				"z": 340
+			},
+			"rot":
+			{
+				"pitch": 0,
+				"yaw": -60.000006950002174,
+				"roll": 0
+			},
+			"bIsFlipped": false,
+			"variant": "None",
+			"skin": "None",
+			"skinId": 0,
+			"skinVariant": 0,
+			"skinData":
+			{
+				"floatParams": [],
+				"stringParams": [],
+				"objectParams": [],
+				"nameParams": []
+			},
+			"colors": [],
+			"containerName": "",
+			"miscEntryData": ""
+		},
+		{
+			"structure": "/Game/PrimalEarth/StructuresPlus/Structures/Foundations/Triangle/Metal/BP_TriFoundation_Metal.BP_TriFoundation_Metal_C",
+			"loc":
+			{
+				"x": 544.46105015483181,
+				"y": -2163.3760728465368,
+				"z": 340
+			},
+			"rot":
+			{
+				"pitch": 0,
+				"yaw": -60.000010414139219,
+				"roll": 0
+			},
+			"bIsFlipped": false,
+			"variant": "None",
+			"skin": "None",
+			"skinId": 0,
+			"skinVariant": 0,
+			"skinData":
+			{
+				"floatParams": [],
+				"stringParams": [],
+				"objectParams": [],
+				"nameParams": []
+			},
+			"colors": [],
+			"containerName": "",
+			"miscEntryData": ""
+		},
+		{
+			"structure": "/Game/PrimalEarth/Structures/Metal/Floor_Metal.Floor_Metal_C",
+			"loc":
+			{
+				"x": 814.31633003725392,
+				"y": -2330.7792334610795,
+				"z": 190
+			},
+			"rot":
+			{
+				"pitch": 0,
+				"yaw": -60.00000929563997,
+				"roll": 0
+			},
+			"bIsFlipped": false,
+			"variant": "None",
+			"skin": "None",
+			"skinId": 0,
+			"skinVariant": 0,
+			"skinData":
+			{
+				"floatParams": [],
+				"stringParams": [],
+				"objectParams": [],
+				"nameParams": []
+			},
+			"colors": [],
+			"containerName": "",
+			"miscEntryData": ""
+		},
+		{
+			"structure": "/Game/PrimalEarth/StructuresPlus/Structures/Foundations/Triangle/Metal/BP_TriFoundation_Metal.BP_TriFoundation_Metal_C",
+			"loc":
+			{
+				"x": 674.36487557612827,
+				"y": -2088.3760985737458,
+				"z": 340
+			},
+			"rot":
+			{
+				"pitch": 0,
+				"yaw": 119.99998863456892,
+				"roll": -0
+			},
+			"bIsFlipped": false,
+			"variant": "None",
+			"skin": "None",
+			"skinId": 0,
+			"skinVariant": 0,
+			"skinData":
+			{
+				"floatParams": [],
+				"stringParams": [],
+				"objectParams": [],
+				"nameParams": []
+			},
+			"colors": [],
+			"containerName": "",
+			"miscEntryData": ""
+		},
+		{
+			"structure": "/Game/PrimalEarth/StructuresPlus/Structures/Foundations/Triangle/Metal/BP_TriFoundation_Metal.BP_TriFoundation_Metal_C",
+			"loc":
+			{
+				"x": 954.26779262637729,
+				"y": -2573.1823636557338,
+				"z": 40
+			},
+			"rot":
+			{
+				"pitch": 0,
+				"yaw": -60.000005831502754,
+				"roll": 0
+			},
+			"bIsFlipped": false,
+			"variant": "None",
+			"skin": "None",
+			"skinId": 0,
+			"skinVariant": 0,
+			"skinData":
+			{
+				"floatParams": [],
+				"stringParams": [],
+				"objectParams": [],
+				"nameParams": []
+			},
+			"colors": [],
+			"containerName": "",
+			"miscEntryData": ""
+		}
+	]
+}
