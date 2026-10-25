@@ -76,6 +76,7 @@ Le centre est repris à zéro, sans le Coeur Base. À l'avant de la plateforme, 
 
 | Chemin | Contenu |
 |---|---|
+| `templates/Forteresse_complete.json` | **Toute la forteresse en un seul template** (4 863 entrées) : les 8 plans à la suite, dans l'ordre de pose, avec la pile d'ancrage |
 | `templates/plans/Plan_1_sol_anneaux_12-15.json` | Sol des anneaux 12 à 15 (paliers compris), avec la pile d'ancrage |
 | `templates/plans/Plan_2_murs_rampes_tourelles_anneaux_12-15.json` | Rive, bord du trou extérieur, colonnade, jupe, appuis, pente A, overhang et débord, tourelles extérieures |
 | `templates/plans/Plan_3_sol_centre_anneaux_0-11.json` | Sol du centre (hexagone et anneaux 1 à 11) |
@@ -124,6 +125,8 @@ Chaque plan est trié par phase (sol → murs et piliers → plafonds → rampes
 | 9 | à la main | voir « Finitions » ci-dessous | |
 
 Si Template Hammer refuse des pièces faute d'appui, posez d'abord le plan qui porte l'appui (module 06 §5).
+
+**En un seul coup** : `templates/Forteresse_complete.json` contient les 8 plans à la suite, dans l'ordre 1, 3, 4, 5, 2, 6, 7, 8, et trié par phase dans chaque plan. Il pose une seule pile d'ancrage. C'est le même contenu, en 4 863 entrées : vérifiez que votre serveur et Template Hammer acceptent un template de cette taille. Les finitions à la main restent à faire.
 
 ### Finitions
 

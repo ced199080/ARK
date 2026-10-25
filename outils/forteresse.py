@@ -1744,6 +1744,25 @@ def secteur_test(plans, th0=-15.0, th1=45.0):
     return t
 
 
+def plan_complet(plans):
+    """Toute la forteresse en un seul template : les 8 plans à la suite, dans l'ordre de pose conseillé (1, 3, 4, 5, 2,
+    6, 7, puis 8), chacun trié par phase, avec une seule pile d'ancrage (snapOverrides [0, 1])."""
+    t = Template('Forteresse complete', "Les 8 plans en un seul template, dans l'ordre de pose : sol 12-15, sol du "
+                 'centre, pod, cage, rive et rampes exterieures, toit, tourelles de la cage, plateforme verte. Murs de '
+                 "chaume a demolir apres la pose des tourelles. Pilier de reference : pile d'ancrage en (0 ; 300).")
+    ancre(t, empilee=True)
+    for cle in ('sol_ext', 'sol_centre', 'pod', 'cage', 'ext', 'toit', 'tourelles_cage', 'plateforme'):
+        src = plans[cle]
+        for e, l_, ph in zip(src.entries, src.lignes, src.phases):
+            if not l_[5].startswith('ancre'):
+                t.entries.append(e)
+                t.lignes.append(l_)
+                t.phases.append(ph)
+                t.groupes.append(cle)
+                t.metas.append(None)
+    return t
+
+
 def verifier_plans(p, plans, modules):
     """Chaque entrée des modules est dans un seul plan ; rien n'est posé au-dessus du trou."""
     total_modules = sum(1 for _, m in modules for ph in m.phases if ph is not None)
@@ -2309,6 +2328,9 @@ def main():
     essai = secteur_test(plans)
     essai.ecrire(os.path.join(rep_test, 'Secteur_test_theta_-15_45.json'))
     print(f"  Secteur d'essai θ -15° → 45° : {len(essai.entries)} entrées (templates/test/)")
+    complet = plan_complet(plans)
+    complet.ecrire(os.path.join(rep_t, 'Forteresse_complete.json'))
+    print(f"  Plan complet : {len(complet.entries)} entrées (templates/Forteresse_complete.json)")
     equip = equipements(p, contours)
 
     # CSV de pose : un par plan
