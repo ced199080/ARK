@@ -128,6 +128,14 @@ Si Template Hammer refuse des pièces faute d'appui, posez d'abord le plan qui p
 
 **En un seul coup** : `templates/Forteresse_complete.json` contient les 8 plans à la suite, dans l'ordre 1, 3, 4, 5, 2, 6, 7, 8, et trié par phase dans chaque plan. Il pose une seule pile d'ancrage. C'est le même contenu, en 4 863 entrées : vérifiez que votre serveur et Template Hammer acceptent un template de cette taille. Les finitions à la main restent à faire.
 
+Si la pose s'arrête avant la fin (toit et tourelles manquants : ce sont les dernières entrées), utilisez `templates/forteresse_en_4_parties/`. Ce sont 4 templates de 2 000 entrées au plus, à poser dans l'ordre :
+1. sol (1 030 entrées) ;
+2. pod et cage (1 694) ;
+3. rive, rampes et tourelles extérieures (1 442) ;
+4. toit et tourelles de la cage (700).
+
+Le plus gros template fourni qui se pose, la gacha 695, a 1 996 entrées.
+
 ### Finitions
 
 1. **Démolissez les 96 murs de chaume** (`donnees/08_chaume_a_demolir.csv` : plan 2 → 36, plan 7 → 60). Testez d'abord sur une tourelle qu'elle reste en place, avec ce qui est posé au-dessus. Rien d'autre n'est en chaume dans les plans.

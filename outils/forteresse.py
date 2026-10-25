@@ -1744,6 +1744,30 @@ def secteur_test(plans, th0=-15.0, th1=45.0):
     return t
 
 
+PARTIES = [('1_sol', ('sol_ext', 'sol_centre', 'plateforme')), ('2_pod_cage', ('pod', 'cage')),
+           ('3_rive_rampes_tourelles_ext', ('ext',)), ('4_toit_tourelles_cage', ('toit', 'tourelles_cage'))]
+TAILLE_MAX = 2000              # entrées par template : le plus gros template fourni qui se pose en a 1 996 (gacha 695)
+
+
+def partie(plans, nom, cles, n):
+    """Un morceau de la forteresse complète (plans entiers, dans l'ordre de pose), avec sa pile d'ancrage : empilée
+    pour la 1re partie, 1 demi-pilier posé dessus pour les suivantes."""
+    t = Template(f'Forteresse partie {nom}', f"Forteresse en {len(PARTIES)} parties, partie {nom} : a poser dans l'ordre "
+                 "1, 2, 3, 4. Pilier de reference : pile d'ancrage en (0 ; 300).")
+    ancre(t, empilee=(n == 0))
+    for cle in cles:
+        src = plans[cle]
+        for e, l_, ph in zip(src.entries, src.lignes, src.phases):
+            if not l_[5].startswith('ancre'):
+                t.entries.append(e)
+                t.lignes.append(l_)
+                t.phases.append(ph)
+                t.groupes.append(cle)
+                t.metas.append(None)
+    assert len(t.entries) <= TAILLE_MAX, (nom, len(t.entries))
+    return t
+
+
 def plan_complet(plans):
     """Toute la forteresse en un seul template : les 8 plans à la suite, dans l'ordre de pose conseillé (1, 3, 4, 5, 2,
     6, 7, puis 8), chacun trié par phase, avec une seule pile d'ancrage (snapOverrides [0, 1])."""
@@ -2331,6 +2355,12 @@ def main():
     complet = plan_complet(plans)
     complet.ecrire(os.path.join(rep_t, 'Forteresse_complete.json'))
     print(f"  Plan complet : {len(complet.entries)} entrées (templates/Forteresse_complete.json)")
+    rep_parties = os.path.join(rep_t, 'forteresse_en_4_parties')
+    os.makedirs(rep_parties, exist_ok=True)
+    for n, (nom, cles) in enumerate(PARTIES):
+        q = partie(plans, nom, cles, n)
+        q.ecrire(os.path.join(rep_parties, f'Forteresse_partie_{nom}.json'))
+        print(f"  Partie {nom} : {len(q.entries)} entrées")
     equip = equipements(p, contours)
 
     # CSV de pose : un par plan
