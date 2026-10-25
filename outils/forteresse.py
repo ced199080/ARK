@@ -1722,69 +1722,289 @@ def assembler_plans(p, modules):
 
 
 def secteur_test(plans, th0=-15.0, th1=45.0):
-    """Template d'essai en solo : toutes les pièces des plans 1, 3, 4, 5, 2, 6 et 7 (dans l'ordre de pose) dont le
-    pivot est entre θ0 et θ1, soit 2 côtés et une arête du dodécagone (θ 15°), hors du trou. On y retrouve chaque sorte
-    de pièce et d'appui : rive, colonnade, pente A et ses poteaux, overhang et poteaux sur les paliers, jupe, poutres et
-    débord, cage, tourelles et murs de chaume, toit et ses poteaux jusqu'au faîtage."""
-    t = Template(f'Secteur test θ{th0:.0f}-{th1:.0f}', 'Essai en solo : un secteur de 60 degres de tous les plans, '
+    """Template d'essai en solo : toutes les pièces dont le pivot est entre θ0 et θ1 (2 côtés et l'arête θ 15°, hors
+    du trou), dans l'ordre de pose des phases (chaque pièce après ses porteurs). On y retrouve chaque sorte de pièce et
+    d'appui : rive, colonnade, pente A, overhang et poteaux sur les paliers, jupe, poutres et débord, cage, tourelles et
+    murs de chaume, toit et ses poteaux."""
+    t = Template(f'Secteur test θ{th0:.0f}-{th1:.0f}', 'Essai en solo : un secteur de 60 degres de la forteresse, '
                  "dans l'ordre de pose. Pilier de reference : pile d'ancrage en (0 ; 300).")
     ancre(t, empilee=True)
-    for cle in ('sol_ext', 'sol_centre', 'pod', 'cage', 'ext', 'toit', 'tourelles_cage'):
-        src = plans[cle]
-        for e, l_, ph in zip(src.entries, src.lignes, src.phases):
-            if l_[5].startswith('ancre'):
-                continue
-            th = math.degrees(math.atan2(l_[2], l_[1]))
-            if th0 <= th <= th1 or math.hypot(l_[1], l_[2]) < 150:
-                t.entries.append(e)
-                t.lignes.append(l_)
-                t.phases.append(ph)
-                t.groupes.append(cle)
-                t.metas.append(None)
+    P, ordre, par = ordre_de_pose(plans)
+    src = {(cle, n): (e, l_, ph) for cle, tt in plans.items() for n, (e, l_, ph) in enumerate(zip(tt.entries, tt.lignes,
+                                                                                                     tt.phases))}
+    for i in ordre:
+        x, y = P[i][3], P[i][4]
+        if th0 <= math.degrees(math.atan2(y, x)) <= th1 or math.hypot(x, y) < 150:
+            e, l_, ph = src[(P[i][0], P[i][1])]
+            t.entries.append(e)
+            t.lignes.append(l_)
+            t.phases.append(ph)
+            t.groupes.append(None)
+            t.metas.append(None)
     return t
 
 
-PARTIES = [('1_sol', ('sol_ext', 'sol_centre', 'plateforme')), ('2_pod_cage', ('pod', 'cage')),
-           ('3_rive_rampes_tourelles_ext', ('ext',)), ('4_toit_tourelles_cage', ('toit', 'tourelles_cage'))]
-TAILLE_MAX = 2000              # entrées par template : le plus gros template fourni qui se pose en a 1 996 (gacha 695)
+# ---------------------------------------------------------------- phases de pose : du bas vers le haut, ≤ 2 000 entrées
+TAILLE_MAX = 2000              # entrées par template (limite de Template Hammer constatée en jeu)
+MURS = ('mur', 'cadre_double', 'chaume_mur')
+PILIERS = ('pilier', 'demi_pilier', 'pilier_fin', 'demi_pilier_fin')
+SOLS = ('fond', 'fond_tri', 'plafond', 'plafond_tri', 'trappe')
+HAUT_PILIER = {'pilier': F, 'demi_pilier': F / 2, 'pilier_fin': F, 'demi_pilier_fin': F / 2}
 
 
-def partie(plans, nom, cles, n):
-    """Un morceau de la forteresse complète (plans entiers, dans l'ordre de pose), avec sa pile d'ancrage : empilée
-    pour la 1re partie, 1 demi-pilier posé dessus pour les suivantes."""
-    t = Template(f'Forteresse partie {nom}', f"Forteresse en {len(PARTIES)} parties, partie {nom} : a poser dans l'ordre "
-                 "1, 2, 3, 4. Pilier de reference : pile d'ancrage en (0 ; 300).")
-    ancre(t, empilee=(n == 0))
-    for cle in cles:
-        src = plans[cle]
-        for e, l_, ph in zip(src.entries, src.lignes, src.phases):
-            if not l_[5].startswith('ancre'):
-                t.entries.append(e)
-                t.lignes.append(l_)
-                t.phases.append(ph)
-                t.groupes.append(cle)
-                t.metas.append(None)
-    assert len(t.entries) <= TAILLE_MAX, (nom, len(t.entries))
-    return t
+def porteurs(P):
+    """Pour chaque pièce posée, les pièces qui la portent (ce sur quoi elle se snappe), d'après la géométrie :
+    - fondation : le sol ;
+    - mur, cadre, chaume : le mur du dessous ou l'arête d'un plancher à sa base ; à défaut il pend sous le mur du
+      dessus (jupe) ;
+    - pilier, escalier : la pièce du dessous, ou le plancher sous son pied ;
+    - plafond : un mur ou un pilier sous une arête ou un coin ; à défaut, le plafond voisin déjà porté ;
+    - rampe : l'appui sous l'un de ses bouts (haut de mur, bord de plancher, tête de pilier, bout de poutre) ; à défaut,
+      la lame voisine de sa ligne déjà portée ;
+    - poutre fine : le mur dont le haut est sous son bout intérieur ; tourelle : son mur de chaume.
+    Renvoie (liste des porteurs par pièce, pièces sans porteur)."""
+    k5 = lambda *v: tuple(round(c / 5) for c in v)
+    n = len(P)
+    par = [[] for _ in range(n)]
+    mur_a, pil_a, esc_a = {}, {}, {}            # (x, y, z bas) -> pièce
+    aretes, coins, sommets_mur = {}, {}, {}      # (milieu ou coin, z du dessus) -> pièces
+    segs = []                                    # hauts de mur et bords de plancher : (x1, y1, x2, y2, z, pièce)
+    tetes = []                                   # têtes de pilier et bouts de poutre : (x, y, z, pièce)
+    polys = []
+    for i, (pl, nn, cle, x, y, z, yaw, rep_) in enumerate(P):
+        if cle in MURS:
+            mur_a[k5(x, y, z - F / 2)] = i
+            if cle != 'chaume_mur':
+                lx, ly = vec(yaw + 90)
+                segs.append((x - F / 2 * lx, y - F / 2 * ly, x + F / 2 * lx, y + F / 2 * ly, z + F / 2, i))
+                aretes.setdefault(k5(x, y, z + F / 2), []).append(i)
+                for sg in (-1, 1):
+                    sommets_mur.setdefault(k5(x + sg * F / 2 * lx, y + sg * F / 2 * ly, z + F / 2), []).append(i)
+        elif cle in PILIERS:
+            hp = HAUT_PILIER[cle]
+            pil_a[k5(x, y, z - hp / 2)] = i
+            if not rep_.startswith('ancre'):
+                tetes.append((x, y, z + hp / 2, i))
+                coins.setdefault(k5(x, y, z + hp / 2), []).append(i)
+        elif cle == 'poutre_fine':
+            lx, ly = vec(yaw + 90)
+            tetes += [(x - F / 2 * lx, y - F / 2 * ly, z, i), (x + F / 2 * lx, y + F / 2 * ly, z, i)]
+        elif cle == 'escalier':
+            esc_a[k5(x, y, z - F / 2)] = i
+        elif cle in SOLS:
+            poly = polygone(dict(type='tri' if cle.endswith('_tri') else 'carre', x=x, y=y, yaw=yaw))
+            zt = z + (50 if cle.startswith('fond') else 0)
+            polys.append((poly, zt, i))
+            if pl != 'plateforme':
+                segs += [(*poly[j], *poly[(j + 1) % len(poly)], zt, i) for j in range(len(poly))]
+    grille = {}
+    for sg in segs:
+        for gx in range(int(min(sg[0], sg[2]) // 400), int(max(sg[0], sg[2]) // 400) + 1):
+            for gy in range(int(min(sg[1], sg[3]) // 400), int(max(sg[1], sg[3]) // 400) + 1):
+                grille.setdefault((gx, gy), []).append(sg)
+
+    def sous(x, y, z):                           # plancher dont le dessus est à z sous (x, y)
+        return [i for poly, zt, i in polys if abs(zt - z) < 2 and _dans_poly(poly, x, y, -1.0)]
+
+    def appuis_point(q):
+        out = [sg[5] for sg in grille.get((int(q[0] // 400), int(q[1] // 400)), [])
+               if abs(q[2] - sg[4]) < 12 and _dist_seg(q[0], q[1], *sg[:4]) < 15]
+        out += [t[3] for t in tetes if abs(q[2] - t[2]) < 12 and math.hypot(q[0] - t[0], q[1] - t[1]) < 25]
+        return out
+
+    plafonds, lames = [], []
+    for i, (pl, nn, cle, x, y, z, yaw, rep_) in enumerate(P):
+        if cle in ('fond', 'fond_tri') or rep_.startswith('ancre'):
+            continue
+        if cle in MURS:
+            continue                             # murs : plus bas, du bas vers le haut (porté par dessous ou pendu)
+        elif cle in PILIERS or cle == 'escalier':
+            h = HAUT_PILIER.get(cle, F)
+            bas = z - h / 2
+            k = k5(x, y, bas)
+            r = [d[kk] for d in (pil_a, esc_a) for kk in [k5(x, y, bas - F), k5(x, y, bas - F / 2)] if kk in d
+                 and d[kk] != i and abs(P[d[kk]][5] + HAUT_PILIER.get(P[d[kk]][2], F) / 2 - bas) < 2]
+            par[i] = r or sous(x, y, bas)
+        elif cle in SOLS:
+            poly = polygone(dict(type='tri' if cle.endswith('_tri') else 'carre', x=x, y=y, yaw=yaw))
+            r = []
+            for m in range(len(poly)):
+                (x1, y1), (x2, y2) = poly[m], poly[(m + 1) % len(poly)]
+                r += aretes.get(k5((x1 + x2) / 2, (y1 + y2) / 2, z), [])
+                r += coins.get(k5(x1, y1, z), [])
+            par[i] = r
+            plafonds.append(i)
+        elif cle == 'poutre_fine':
+            lx, ly = vec(yaw + 90)
+            par[i] = [j for q in ((x - F / 2 * lx, y - F / 2 * ly, z), (x + F / 2 * lx, y + F / 2 * ly, z))
+                      for j in appuis_point(q) if P[j][2] in MURS]
+        elif cle == 'rampe':
+            par[i] = [j for q in bouts_lame(x, y, z, yaw) for j in appuis_point(q)]
+            lames.append(i)
+        elif cle in ('heavy', 'tek', 'tesla'):
+            par[i] = [j for j in range(n) if P[j][2] == 'chaume_mur' and abs(P[j][5] - z) < 2
+                      and math.hypot(P[j][3] - x, P[j][4] - y) < 15][:1]
+
+    debout = set()
+    for i in sorted((i for i in range(n) if P[i][2] in MURS), key=lambda i: P[i][5]):
+        pl, nn, cle, x, y, z, yaw, rep_ = P[i]
+        bas = z - F / 2
+        r = [j for poly, zt, j in polys if abs(zt - bas) < 2 and any(
+            _dist_seg(x, y, *poly[m], *poly[(m + 1) % len(poly)]) < 2 for m in range(len(poly)))]
+        if (k := k5(x, y, bas - F)) in mur_a and mur_a[k] in debout:
+            r.append(mur_a[k])
+        if r:
+            debout.add(i)
+            par[i] = r
+    for i in sorted((i for i in range(n) if P[i][2] in MURS and not par[i]), key=lambda i: -P[i][5]):
+        pl, nn, cle, x, y, z, yaw, rep_ = P[i]
+        if (k := k5(x, y, z + F / 2)) in mur_a:
+            par[i] = [mur_a[k]]                  # pend sous le mur du dessus (jupe)
+
+    def propager(groupe, voisins):
+        """Pièces portées de proche en proche (plafonds, lames) : chacune reçoit pour porteur le voisin déjà porté."""
+        file = [i for i in groupe if par[i]]
+        vu = set(file)
+        while file:
+            i = file.pop(0)
+            for j in voisins(i):
+                if j not in vu and not par[j]:
+                    par[j] = [i]
+                    vu.add(j)
+                    file.append(j)
+
+    arete_pl = {}
+    for i in plafonds:
+        pl, nn, cle, x, y, z, yaw, rep_ = P[i]
+        poly = polygone(dict(type='tri' if cle.endswith('_tri') else 'carre', x=x, y=y, yaw=yaw))
+        for m in range(len(poly)):
+            (x1, y1), (x2, y2) = poly[m], poly[(m + 1) % len(poly)]
+            arete_pl.setdefault(k5((x1 + x2) / 2, (y1 + y2) / 2, z), []).append(i)
+
+    def vois_pl(i):
+        pl, nn, cle, x, y, z, yaw, rep_ = P[i]
+        poly = polygone(dict(type='tri' if cle.endswith('_tri') else 'carre', x=x, y=y, yaw=yaw))
+        return [j for m in range(len(poly)) for j in arete_pl.get(
+            k5((poly[m][0] + poly[(m + 1) % len(poly)][0]) / 2, (poly[m][1] + poly[(m + 1) % len(poly)][1]) / 2, z), [])
+                if j != i]
+    propager(plafonds, vois_pl)
+    bout_l = {}
+    for i in lames:
+        for q in bouts_lame(*P[i][3:7]):
+            bout_l.setdefault((k5(*q), round(P[i][6] % 360)), []).append(i)
+    propager(lames, lambda i: [j for q in bouts_lame(*P[i][3:7])
+                               for j in bout_l[(k5(*q), round(P[i][6] % 360))] if j != i])
+    sans = [i for i in range(n) if not par[i] and P[i][2] not in ('fond', 'fond_tri') and not P[i][7].startswith('ancre')]
+    return par, sans
 
 
-def plan_complet(plans):
-    """Toute la forteresse en un seul template : les 8 plans à la suite, dans l'ordre de pose conseillé (1, 3, 4, 5, 2,
-    6, 7, puis 8), chacun trié par phase, avec une seule pile d'ancrage (snapOverrides [0, 1])."""
-    t = Template('Forteresse complete', "Les 8 plans en un seul template, dans l'ordre de pose : sol 12-15, sol du "
-                 'centre, pod, cage, rive et rampes exterieures, toit, tourelles de la cage, plateforme verte. Murs de '
-                 "chaume a demolir apres la pose des tourelles. Pilier de reference : pile d'ancrage en (0 ; 300).")
-    ancre(t, empilee=True)
-    for cle in ('sol_ext', 'sol_centre', 'pod', 'cage', 'ext', 'toit', 'tourelles_cage', 'plateforme'):
-        src = plans[cle]
-        for e, l_, ph in zip(src.entries, src.lignes, src.phases):
-            if not l_[5].startswith('ancre'):
-                t.entries.append(e)
-                t.lignes.append(l_)
-                t.phases.append(ph)
-                t.groupes.append(cle)
-                t.metas.append(None)
-    return t
+def ordre_de_pose(plans):
+    """Toutes les pièces des 8 plans dans un ordre où chacune vient après ce qui la porte : du bas vers le haut (cote du
+    pied), et à cote égale dans l'ordre des plans ; les pièces suspendues suivent leur porteur."""
+    import heapq
+    P = [q for q in _pieces_plans(plans) if not q[7].startswith('ancre')]
+    par, sans = porteurs(P)
+    assert not sans, [P[i][7] for i in sans[:10]]
+    rang_plan = {cle: n for n, (cle, *_) in enumerate(PLANS)}
+
+    def pied(i):
+        pl, nn, cle, x, y, z, yaw, rep_ = P[i]
+        if cle == 'rampe':
+            return z - 200
+        if cle in ('fond', 'fond_tri'):
+            return -1e6                          # le sol d'abord
+        if cle in SOLS:
+            return z - 15
+        if cle in ('heavy', 'tek', 'tesla'):
+            return z - F / 2
+        if cle == 'poutre_fine':
+            return z - 20
+        return z - (HAUT_PILIER.get(cle, F) / 2)
+    enfants = [[] for _ in P]
+    reste = [0] * len(P)
+    for i, ps in enumerate(par):
+        for j in set(ps):
+            enfants[j].append(i)
+            reste[i] += 1
+    tas = [(pied(i), rang_plan[P[i][0]], P[i][1], i) for i in range(len(P)) if reste[i] == 0]
+    heapq.heapify(tas)
+    ordre = []
+    while tas:
+        *_, i = heapq.heappop(tas)
+        ordre.append(i)
+        for j in enfants[i]:
+            reste[j] -= 1
+            if reste[j] == 0:
+                heapq.heappush(tas, (pied(j), rang_plan[P[j][0]], P[j][1], j))
+    assert len(ordre) == len(P), 'cycle dans les appuis'
+    return P, ordre, par
+
+
+BANDES = [(-1e9, 0.0, 'sol_et_dessous', "Sol (toutes les fondations, plateforme verte comprise) et dessous du bord : "
+            "poteaux de l'overhang sur les paliers, mur de jupe, poutres et rampes du debord, Heavy de jupe"),
+           (0.0, 1800.0, 'du_sol_a_la_mezzanine', "Du sol a Z1800 : murs du pod, fut, murs de bord du trou, rive, "
+            "colonnade, piliers, escaliers, pente A et overhang, Tesla de rive et tourelles du bord du trou a Z0 / Z300"),
+           (1800.0, 1e9, 'de_la_mezzanine_au_faitage', "De Z1800 au faitage : mezzanine, galeries, tourelles L1, "
+            "cadres L2, plancher de toit, poteaux et toit en rampes, casquettes")]
+
+
+def phases_de_pose(plans):
+    """Découpe l'ordre de pose en phases par tranche de hauteur (BANDES, d'après la cote du pied de chaque pièce). Une
+    pièce n'est jamais dans une phase antérieure à celle d'un de ses porteurs ; dans chaque phase, l'ordre de pose est
+    conservé. Chaque phase doit tenir dans TAILLE_MAX entrées, pile d'ancrage comprise."""
+    P, ordre, par = ordre_de_pose(plans)
+    src = {(cle, n): (e, l_, ph) for cle, t in plans.items() for n, (e, l_, ph) in enumerate(zip(t.entries, t.lignes,
+                                                                                                    t.phases))}
+
+    def pied(i):
+        cle, z = P[i][2], P[i][5]
+        if cle in ('fond', 'fond_tri'):
+            return -1e6
+        bas = {'rampe': 200, 'poutre_fine': 20}.get(cle, 0 if cle in SOLS else HAUT_PILIER.get(cle, F) / 2)
+        return z - bas - Z_TPL
+    phase = {}
+    for i in ordre:                              # ordre topologique : les porteurs sont déjà classés
+        b = next(n for n, (z0, z1, *_) in enumerate(BANDES) if z0 <= pied(i) + 1 < z1)
+        phase[i] = max([b] + [phase[j] for j in par[i]])
+    final = [i for n in range(len(BANDES)) for i in ordre if phase[i] == n]
+    pos = {i: k for k, i in enumerate(final)}
+    assert all(pos[j] < pos[i] for i in final for j in par[i]), 'une pièce passe avant son porteur'
+    out = []
+    for n, (z0, z1, nom, desc) in enumerate(BANDES):
+        ph = [i for i in ordre if phase[i] == n]
+        assert len(ph) + (2 if n == 0 else 1) <= TAILLE_MAX, (nom, len(ph))
+        cles = {}
+        for i in ph:
+            cles[P[i][2]] = cles.get(P[i][2], 0) + 1
+        out.append((n, nom, desc, [src[(P[i][0], P[i][1])] for i in ph], cles))
+    return out
+
+
+def ecrire_phases(rep, plans):
+    """Écrit les phases de pose (templates/phases/Phase_n_….json) : la 1re avec la pile d'ancrage, les suivantes avec
+    1 demi-pilier posé dessus ; chacune ≤ TAILLE_MAX entrées."""
+    os.makedirs(rep, exist_ok=True)
+    for f in os.listdir(rep):
+        if f.endswith('.json'):
+            os.remove(os.path.join(rep, f))
+    ph = phases_de_pose(plans)
+    resume = []
+    for n, nom, desc, entrees, cles in ph:
+        t = Template(f'Forteresse phase {n + 1} sur {len(ph)} : {nom.replace("_", " ")}',
+                     f"Phase {n + 1}/{len(ph)}. {desc}. Chaque piece est posee apres ce qui la porte ; a poser dans "
+                     "l'ordre des phases. Pilier de reference : pile d'ancrage en (0 ; 300).")
+        ancre(t, empilee=(n == 0))
+        for e, l_, phs in entrees:
+            t.entries.append(e)
+            t.lignes.append(l_)
+            t.phases.append(phs)
+            t.groupes.append(None)
+            t.metas.append(None)
+        assert len(t.entries) <= TAILLE_MAX, len(t.entries)
+        fichier = f'Phase_{n + 1}_{nom}.json'
+        t.ecrire(os.path.join(rep, fichier))
+        resume.append(dict(phase=n + 1, fichier=fichier, entrees=len(t.entries), pieces=cles, description=desc))
+    return resume
 
 
 def verifier_plans(p, plans, modules):
@@ -2352,15 +2572,9 @@ def main():
     essai = secteur_test(plans)
     essai.ecrire(os.path.join(rep_test, 'Secteur_test_theta_-15_45.json'))
     print(f"  Secteur d'essai θ -15° → 45° : {len(essai.entries)} entrées (templates/test/)")
-    complet = plan_complet(plans)
-    complet.ecrire(os.path.join(rep_t, 'Forteresse_complete.json'))
-    print(f"  Plan complet : {len(complet.entries)} entrées (templates/Forteresse_complete.json)")
-    rep_parties = os.path.join(rep_t, 'forteresse_en_4_parties')
-    os.makedirs(rep_parties, exist_ok=True)
-    for n, (nom, cles) in enumerate(PARTIES):
-        q = partie(plans, nom, cles, n)
-        q.ecrire(os.path.join(rep_parties, f'Forteresse_partie_{nom}.json'))
-        print(f"  Partie {nom} : {len(q.entries)} entrées")
+    phases = ecrire_phases(os.path.join(rep_t, 'phases'), plans)
+    print('  Phases de pose (≤ 2 000 entrées, du bas vers le haut, chaque pièce après ses porteurs) : ' +
+          ', '.join(f"{q['phase']} = {q['entrees']}" for q in phases))
     equip = equipements(p, contours)
 
     # CSV de pose : un par plan
@@ -2436,6 +2650,7 @@ def main():
                                                                for pl in sorted({c['plan'] for c in chaume})},
                              'pose_au_dessus': {d: sum(1 for c in chaume if c['dessus'] == d)
                                                 for d in sorted({c['dessus'] for c in chaume})}}}
+    syn['phases_de_pose'] = phases
     syn['colonnade']['colonnes'] = len(col['colonnes'])
     syn['colonnade']['pieces'] = sum(len(c['elements']) for c in col['colonnes'])
     syn['anneaux'] = tableau_anneaux(p)

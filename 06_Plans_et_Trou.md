@@ -105,6 +105,8 @@ Le cap reste respecté : 96 tourelles, toutes à moins de 9 101 UU les unes des 
 
 ## 5. Les 8 plans
 
+**Pour poser la base, utilisez plutôt les 3 phases de `templates/phases/`** (README §5) : elles contiennent les mêmes pièces, en moins de 2 000 entrées chacune, du bas vers le haut. Les 8 plans ci-dessous découpent la base par zone.
+
 Chaque plan contient le **pilier de référence**. Le plan 1 pose la pile de 2 demi-piliers en (0 ; 300) (`snapOverrides [0,1]`). Les plans 2 à 8 ont 1 demi-pilier qui se pose sur cette pile (`snapOverrides [0]`). Dans chaque plan, les pièces sont triées par phase : sol → murs et piliers → plafonds → rampes → cage → toit → tourelles.
 
 | Plan | Fichier `templates/plans/` | Contenu | Pièces | Lingots | Pâte |

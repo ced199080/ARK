@@ -309,6 +309,61 @@
    }
   }
  },
+ "phases_de_pose": [
+  {
+   "phase": 1,
+   "fichier": "Phase_1_sol_et_dessous.json",
+   "entrees": 1613,
+   "pieces": {
+    "fond_tri": 684,
+    "fond": 344,
+    "mur": 166,
+    "poutre_fine": 94,
+    "rampe": 188,
+    "chaume_mur": 26,
+    "heavy": 26,
+    "pilier_fin": 83
+   },
+   "description": "Sol (toutes les fondations, plateforme verte comprise) et dessous du bord : poteaux de l'overhang sur les paliers, mur de jupe, poutres et rampes du debord, Heavy de jupe"
+  },
+  {
+   "phase": 2,
+   "fichier": "Phase_2_du_sol_a_la_mezzanine.json",
+   "entrees": 1612,
+   "pieces": {
+    "mur": 816,
+    "pilier": 298,
+    "pilier_fin": 40,
+    "rampe": 376,
+    "chaume_mur": 10,
+    "heavy": 4,
+    "escalier": 6,
+    "cadre_double": 12,
+    "demi_pilier_fin": 43,
+    "tesla": 6
+   },
+   "description": "Du sol a Z1800 : murs du pod, fut, murs de bord du trou, rive, colonnade, piliers, escaliers, pente A et overhang, Tesla de rive et tourelles du bord du trou a Z0 / Z300"
+  },
+  {
+   "phase": 3,
+   "fichier": "Phase_3_de_la_mezzanine_au_faitage.json",
+   "entrees": 1640,
+   "pieces": {
+    "plafond": 308,
+    "plafond_tri": 629,
+    "mur": 94,
+    "cadre_double": 64,
+    "pilier": 48,
+    "chaume_mur": 60,
+    "tek": 30,
+    "heavy": 30,
+    "trappe": 5,
+    "rampe": 328,
+    "pilier_fin": 43
+   },
+   "description": "De Z1800 au faitage : mezzanine, galeries, tourelles L1, cadres L2, plancher de toit, poteaux et toit en rampes, casquettes"
+  }
+ ],
  "anneaux": [
   {
    "anneau": 1,

@@ -140,8 +140,8 @@ Il donne aussi à chaque pièce un **noyau** : son volume sans les bords qui se 
 | Le niveau bas de la jupe pend sous le bord de l'anneau 15 | La tour 481 a des murs sous sa plateforme, mais on ne sait pas comment ils tiennent | Garder seulement le niveau haut, et suspendre les chaumes de jupe dessous |
 | Les tourelles et les cadres L2 restent en place après la démolition du chaume | Comportement de la tour 1809 et du template 2727 | Laisser le chaume |
 
-**Template d'essai :** `templates/test/Secteur_test_theta_-15_45.json`, 907 entrées.
-- Il prend toutes les pièces des plans 1, 3, 4, 5, 2, 6 et 7, dans cet ordre de pose, entre θ −15° et 45°, avec la pile d'ancrage.
+**Template d'essai :** `templates/test/Secteur_test_theta_-15_45.json`, 899 entrées.
+- Il prend toutes les pièces entre θ −15° et 45°, dans l'ordre de pose des phases (chaque pièce après ses porteurs), avec la pile d'ancrage.
 - Cela fait 2 côtés et une arête du dodécagone.
 - On y trouve chaque sorte de pièce et d'appui : rive, colonnade, pente A, overhang et ses poteaux sur les paliers, jupe, poutres et débord, cage, 16 tourelles (10 Heavy, 5 Tek, 1 Tesla) avec leurs 16 murs de chaume, toit et ses poteaux.
 

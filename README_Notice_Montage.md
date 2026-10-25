@@ -76,7 +76,7 @@ Le centre est repris à zéro, sans le Coeur Base. À l'avant de la plateforme, 
 
 | Chemin | Contenu |
 |---|---|
-| `templates/Forteresse_complete.json` | **Toute la forteresse en un seul template** (4 863 entrées) : les 8 plans à la suite, dans l'ordre de pose, avec la pile d'ancrage |
+| `templates/phases/Phase_1…3_*.json` | **Les 3 phases de pose** (moins de 2 000 entrées chacune), du bas vers le haut : à poser dans l'ordre |
 | `templates/plans/Plan_1_sol_anneaux_12-15.json` | Sol des anneaux 12 à 15 (paliers compris), avec la pile d'ancrage |
 | `templates/plans/Plan_2_murs_rampes_tourelles_anneaux_12-15.json` | Rive, bord du trou extérieur, colonnade, jupe, appuis, pente A, overhang et débord, tourelles extérieures |
 | `templates/plans/Plan_3_sol_centre_anneaux_0-11.json` | Sol du centre (hexagone et anneaux 1 à 11) |
@@ -101,40 +101,33 @@ Le centre est repris à zéro, sans le Coeur Base. À l'avant de la plateforme, 
 
 - Mod **Template Hammer**. Testez d'abord en solo, avec la même plateforme.
 - **Pile d'ancrage en (0 ; 300)**, au sommet de l'hexagone central situé à θ 90°. C'est votre **pilier de référence**, celui de votre export *trou*.
-  - `Plan_1` pose 2 demi-piliers empilés (`snapOverrides [0,1]`).
+  - La phase 1 (ou `Plan_1`) pose 2 demi-piliers empilés (`snapOverrides [0,1]`).
   - Tous les autres plans portent 1 demi-pilier qui se pose sur cette pile (`snapOverrides [0]`).
   - Démolissez la pile à la fin.
 - **Orientation** : l'axe 0° des templates correspond à la branche de carrés orientée vers la droite sur `plans/plan_calpinage.png`, à l'opposé du trou. Votre export *trou* est tourné de −150° par rapport à ce repère (module 06 §1).
 - **Réglages serveur** : `LimitTurretsNum`, `LimitTurretsRange`, limite de structures. La base compte ≈ 4 700 structures, plus 96 tourelles et 96 murs de chaume temporaires.
 - **Étoile déjà construite** : dans le plan 3, sautez les pièces déjà en place et retirez de votre étoile les 27 pièces qui tombent dans le trou (anneaux 4 à 7, côté θ 180° ; `donnees/synthese.json` → `trou`).
 
-## 5. Séquence de pose
+## 5. Séquence de pose : 3 phases, du bas vers le haut
 
-Chaque plan est trié par phase (sol → murs et piliers → plafonds → rampes → cage → toit → tourelles).
+**Posez les 3 phases de `templates/phases/`, dans l'ordre.** Chacune a moins de 2 000 entrées, la limite de Template Hammer.
 
-| Étape | Plan | Contenu | Pièces |
-|---|---|---|---|
-| 1 | `Plan_1_sol_anneaux_12-15` | sol des anneaux 12 à 15 ; contient la pile d'ancrage | 441 |
-| 2 | `Plan_3_sol_centre_anneaux_0-11` | sol du centre | 577 |
-| 3 | `Plan_4_pod_central` | mur de pod, murs de bord du trou dans le pod, piliers PA/PB, escaliers, mezzanine | 794 |
-| 4 | `Plan_5_cage_et_casquette` | fût, murs de bord dans le couloir, galeries, L2, casquette | 899 |
-| 5 | `Plan_2_murs_rampes_tourelles_anneaux_12-15` | rive, murs de bord extérieurs, colonnade, jupe, poteaux et poutres, pente A, overhang et débord, 30 Heavy + 6 Tesla | 1 441 |
-| 6 | `Plan_6_toit_rampes` | plancher de toit, poteaux, toit en rampes, casquette du trou | 579 |
-| 7 | `Plan_7_tourelles_cage_L1` | 30 Tek + 30 Heavy (cage L1 et bord du trou à Z1800) | 120 |
-| 8 | `Plan_8_plateforme_future_anneaux_9-11` | plateforme verte, quand vous en aurez besoin | 10 |
-| 9 | à la main | voir « Finitions » ci-dessous | |
+- **Une seule règle** : chaque pièce est posée après ce qui la porte.
+  - le sol avant les murs, et le mur du dessous avant celui du dessus ;
+  - le mur ou le pilier avant le plafond qui repose dessus ;
+  - l'appui avant la rampe ;
+  - le mur de chaume avant sa tourelle.
+- Le générateur déduit ces appuis de la géométrie (`porteurs()`) et vérifie qu'aucune pièce ne passe avant son porteur, ni dans la même phase ni d'une phase à l'autre. Une pièce suspendue (niveau bas de la jupe, chaume sous la jupe) vient juste après la pièce à laquelle elle pend.
 
-Si Template Hammer refuse des pièces faute d'appui, posez d'abord le plan qui porte l'appui (module 06 §5).
+| Phase | Fichier | Hauteur | Contenu | Entrées |
+|---|---|---|---|---|
+| **1** | `Phase_1_sol_et_dessous.json` | sous Z0 | toutes les fondations (paliers et plateforme verte compris), pile d'ancrage ; sous le bord : 83 pieds de poteaux de l'overhang, mur de jupe (166), 94 poutres et 188 rampes du débord, 26 murs de chaume + 26 Heavy de jupe | 1 613 |
+| **2** | `Phase_2_du_sol_a_la_mezzanine.json` | Z0 → 1800 | murs du pod et du fût, murs de bord du trou, rive, colonnade, piliers PA, escaliers, haut des poteaux de l'overhang, pente A et overhang (376 rampes), 10 murs de chaume + 6 Tesla + 4 Heavy (rive et bord du trou) | 1 612 |
+| **3** | `Phase_3_de_la_mezzanine_au_faitage.json` | Z1800 → 5100 | mezzanine, galeries, 60 murs de chaume + 60 tourelles de L1, cadres L2, murs du haut du pod et du bord du trou, piliers PB, plancher de toit Z2400, poteaux et toit en rampes, casquettes | 1 640 |
 
-**En un seul coup** : `templates/Forteresse_complete.json` contient les 8 plans à la suite, dans l'ordre 1, 3, 4, 5, 2, 6, 7, 8, et trié par phase dans chaque plan. Il pose une seule pile d'ancrage. C'est le même contenu, en 4 863 entrées : vérifiez que votre serveur et Template Hammer acceptent un template de cette taille. Les finitions à la main restent à faire.
-
-Si la pose s'arrête avant la fin (toit et tourelles manquants : ce sont les dernières entrées), utilisez `templates/forteresse_en_4_parties/`. Ce sont 4 templates de 2 000 entrées au plus, à poser dans l'ordre :
-1. sol (1 030 entrées) ;
-2. pod et cage (1 694) ;
-3. rive, rampes et tourelles extérieures (1 442) ;
-4. toit et tourelles de la cage (700).
-
-Le plus gros template fourni qui se pose, la gacha 695, a 1 996 entrées.
+- **Ancrage** : la phase 1 pose la pile d'ancrage sur votre pilier de référence en (0 ; 300). Les phases 2 et 3 portent un demi-pilier qui se pose dessus.
+- **Démolition du chaume** : démolissez les murs de chaume **à la fin**, une fois les 3 phases posées (`donnees/08_chaume_a_demolir.csv`). Au-dessus des murs de chaume de L1 et du bord du trou sont posés des cadres et des murs.
+- **Contenu** : les 3 phases contiennent exactement les mêmes pièces que les 8 plans par zone de `templates/plans/`. Ceux-ci restent disponibles pour reprendre une zone, mais ne les posez pas en plus des phases.
 
 ### Finitions
 
