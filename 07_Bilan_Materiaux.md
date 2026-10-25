@@ -11,8 +11,8 @@ Les chiffres sont recalculés par le script : `donnees/synthese.json`, clés `bi
 
 | Ressource | Sans les tourelles (déjà en inventaire) | **Avec les 96 tourelles** |
 |---|---|---|
-| Lingots de métal | 135 938 | **174 338** |
-| Pâte cimentée | 33 848 | **47 348** |
+| Lingots de métal | 136 679 | **175 079** |
+| Pâte cimentée | 34 221 | **47 721** |
 | Électroniques | 220 | **20 020** |
 | Polymère | 5 850 | **13 350** |
 | Cristal | 3 350 | **4 550** |
@@ -29,7 +29,22 @@ Le script crée les tourelles du plan (60 Heavy, 30 Tek, 6 Tesla), mais elles so
 
 Si votre étoile (anneaux 1 à 7) est déjà construite, retirez ses 87 fondations et 174 triangles hors du trou : 8 700 lingots et 2 697 pâte.
 
-## 1 bis. Ce qui a changé : centre repris à zéro et trou à l'avant
+## 1 bis. Ce qui a changé avec la revue de constructibilité (module 08)
+
+Par rapport à la version du trou (135 938 lingots, 33 848 pâte) :
+
+| Changement | Pièces | Lingots | Pâte |
+|---|---|---|---|
+| **Appuis des rampes**, comme sur les tours 1201 / 1809 : poteaux en piliers fins sur les paliers (overhang) et sur le plancher du toit, poutres fines du débord | +166 piliers fins, +43 demi-piliers fins, +94 poutres fines | +3 681 | +1 126 |
+| Rampes qui ne pouvaient pas être posées : 4e rang de la pente A (dans le fût), lames croisées aux 12 arêtes, lames accrochées au-delà des angles, lames au droit des Tesla | 1 087 → 892 rampes (−195) | −2 340 | −585 |
+| **Mur de jupe** ramené sur le bord D8, 8 murs par côté (ils se croisaient aux angles) | 188 → 166 murs | −550 | −154 |
+| Colonnade : 2 colonnes contre un mur de chaume du bord du trou | −2 piliers | −50 | −14 |
+| **Total** | | **+741** | **+373** |
+
+- Les coûts des piliers fins et des poutres fines sont des estimations (13 lingots + 4 pâte, comme un demi-pilier), à vérifier en jeu.
+- **Option `--appuis prudent`** : un poteau sous le bout de chaque ligne montante, soit 566 piliers fins de plus. Coût : +7 358 lingots et +2 264 pâte. Le total sans tourelles passe alors à 144 037 lingots et 36 485 pâte.
+
+## 1 ter. Version précédente : centre repris à zéro et trou à l'avant
 
 Par rapport à la version précédente (toutes les pentes en rampes, avec le Coeur Base : 147 057 lingots, 36 972 pâte) :
 
@@ -50,15 +65,15 @@ Par rapport à la version précédente (toutes les pentes en rampes, avec le Coe
 
 | Option | Pâte | Ce qu'on perd |
 |---|---|---|
-| Supprimer le mur de jupe (188 murs) | −1 316 | le support des 26 Heavy sous la plateforme : leurs murs de chaume flotteraient |
-| Overhang d'un seul rang dans le vide (`--debord 1`, supprime aussi le mur de jupe) | ≈ −1 600 | les Heavy de jupe (le script ne les place plus), et 300 UU de dégagement des chutes |
+| Supprimer le mur de jupe (166 murs) et le débord qui y est accroché | ≈ −2 100 | le support des 26 Heavy sous la plateforme (leurs murs de chaume flotteraient) et l'accroche du débord |
+| Débord d'un seul rang dans le vide (`--debord 1`) : −94 rampes, −94 poutres fines | −658 | 300 UU de dégagement des chutes : ce qui glisse tombe à ≈ 150 UU devant les têtes des Heavy de jupe extérieures |
 | Fût remplacé par des piliers aux coins et milieux de côtés | ≈ −1 300 | le 2e mur entre l'attique A et le couloir |
 
 ## 2. Détail par poste
 
 | Poste | Contenu | Lingots | Pâte | Autres |
 |---|---|---|---|---|
-| **Structure des 8 plans** | 4 585 pièces : 344 fondations, 684 triangles (dont les 10 pièces de la plateforme verte), 1 098 murs, 76 cadres doubles, 348 piliers, 308 plafonds, 629 plafonds triangles, 5 trappes, 6 escaliers, 1 087 rampes inclinées (aucun toit) | 107 971 | 30 912 | — |
+| **Structure des 8 plans** | 4 669 pièces : 344 fondations, 684 triangles (dont les 10 pièces de la plateforme verte), 1 076 murs, 76 cadres doubles, 346 piliers, 308 plafonds, 629 plafonds triangles, 5 trappes, 6 escaliers, 892 rampes inclinées (aucun toit), 166 piliers fins, 43 demi-piliers fins, 94 poutres fines | 108 712 | 31 285 | — |
 | Ancres temporaires | 9 demi-piliers (démolis à la fin) | 117 | 36 | — |
 | **Murs de pics** | 74 Metal Spike Walls | 1 850 | — | 1 480 cuir, 2 220 fibre |
 | Gabarits de pose | 96 murs de chaume (démolis ensuite) | — | — | ~672 chaume, ~384 fibre, ~384 bois |
@@ -96,8 +111,8 @@ Distances mesurées sur le plan, pivot à pivot :
 
 | Générateur | Tek de L1, bord du trou compris (alimentation Tek obligatoire) | Heavy de jupe | Tesla de rive |
 |---|---|---|---|
-| n°2, mezzanine (−900 ; 0), Z1800 | **1 351 → 3 760 UU** : couvre les 30 Tek s'il porte à 3 800 UU | 4 520 → 6 028 UU | 3 812 → 5 014 UU |
-| n°1, hall (900 ; 1 559), Z0 | 2 196 → 5 040 UU | 2 811 → 6 401 UU | 2 176 → 5 746 UU |
+| n°2, mezzanine (−900 ; 0), Z1800 | **1 351 → 3 760 UU** : couvre les 30 Tek s'il porte à 3 800 UU | 4 485 → 6 008 UU | 3 812 → 5 014 UU |
+| n°1, hall (900 ; 1 559), Z0 | 2 196 → 5 040 UU | 2 776 → 6 377 UU | 2 176 → 5 746 UU |
 
 Les 12 tourelles du bord du trou sont à 1 100 → 3 436 UU du générateur n°2.
 
@@ -116,9 +131,9 @@ Recettes usuelles, à vérifier sur votre serveur :
 
 | Ressource brute | Sans les tourelles | Avec les tourelles |
 |---|---|---|
-| Minerai de métal | **≈ 272 000** | ≈ 389 000 |
-| Chitine ou kératine | **≈ 182 000** | ≈ 296 000 |
-| Pierre | **≈ 364 000** | ≈ 592 000 |
+| Minerai de métal | **≈ 274 000** | ≈ 390 000 |
+| Chitine ou kératine | **≈ 184 000** | ≈ 298 000 |
+| Pierre | **≈ 367 000** | ≈ 595 000 |
 | Obsidienne | ≈ 11 700 | ≈ 26 700 |
 | Perles de silice | ≈ 660 | ≈ 60 000 |
 | Silex | 200 | 200 |
@@ -138,6 +153,7 @@ Avec du polymère organique ou de la pâte d'Achatina, la pierre, la chitine et 
 | Fondation, triangle, mur, plafond, pilier | sources concordantes (wikily.gg, dododex, ark-unity) |
 | Plafond triangle, demi-pilier, cadre double, trappe, escalier, porte secrète, mur de chaume | **estimations** : pièce absente des sources consultées |
 | Rampe inclinée (Sloped Railing) | **estimation** : coût de la rambarde métal (12 lingots + 3 pâte, dododex) |
+| Pilier fin, demi-pilier fin, pilier fin couché (Thin / Half Thin / Flat Thin Pillar) | **estimations** : moitié d'un pilier métal (13 + 4), quart pour le demi-pilier fin (7 + 2) |
 | Heavy, Tek, Tesla, Réplicateur, forge à vapeur, labo, stockage dédié Tek, générateur Tek | sources concordantes ; ark.wiki.gg donne une variante pour le labo et la Tek |
 | Coffre-fort | une seule source (Sportskeeda) |
 

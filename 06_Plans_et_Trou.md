@@ -63,9 +63,9 @@ Le trou est à l'avant, centré sur θ = 180°. Il entame le pod dès l'anneau 4
 | Mur de pod D4, fût D5, cadres L2, rive D7 | inchangés | coupés là où ils passent au-dessus du trou |
 | **Murs de bord du trou** | — | **22 arêtes** entre une fondation gardée (anneaux ≤ 13) et le trou. Chaque mur ferme la coupe jusqu'à l'enveloppe (détail ci-dessous). **136 murs + 12 emplacements de tourelles** |
 | Mezzanine Z1800, plancher de toit Z2400, galeries | pièces pleines | pièces au-dessus du trou retirées ; le bord est porté par les murs de bord |
-| Piliers PA / PB, colonnade | 120 piliers, cercle de rayon 3 600 | piliers PA / PB tous gardés (les sommets du bord restent appuyés) ; colonnade interrompue (36 positions) |
+| Piliers PA / PB, colonnade | 120 piliers, cercle de rayon 3 600 | piliers PA / PB tous gardés (les sommets du bord restent appuyés) ; colonnade interrompue (36 positions), et 2 colonnes retirées parce qu'elles heurtaient le mur de chaume d'une tourelle TROU |
 | Toit, casquette, pente A, overhang | rampes inclinées | **aucune rampe au-dessus du trou**, sauf la casquette du trou ci-dessous |
-| Mur de jupe, pics, Tesla de rive | 4 518,7 / 4 068,7 / D7 | interrompus |
+| Mur de jupe, pics, Tesla de rive | 4 478,5 (bord D8) / 4 068,7 / D7 | interrompus |
 
 **Hauteur des murs de bord** (`donnees/06_bord_du_trou.csv`) :
 
@@ -77,9 +77,9 @@ Le trou est à l'avant, centré sur θ = 180°. Il entame le pod dès l'anneau 4
 
 ### Toiture en rampes adaptée
 
-1. **Pyramide du toit** (plan 6). Les lames qui passent au-dessus du trou sont retirées : 332 rampes au lieu de 372. Le plancher de toit Z2400 s'arrête sur les murs de bord, et ces murs montent justement jusqu'à Z2400 : le bloc central reste fermé.
+1. **Pyramide du toit** (plan 6). Chaque ligne de lames s'arrête à sa première rampe au-dessus du trou : 263 rampes au lieu de 300. Le plancher de toit Z2400 s'arrête sur les murs de bord, et ces murs montent justement jusqu'à Z2400 : le bloc central reste fermé. Les poteaux du toit sont tous sur le plancher, aucun au-dessus du gouffre.
 2. **Casquette du trou** (plan 6, nouveau). Le long des 14 murs de bord qui montent à Z2400, une lame de rampe part du haut du mur et descend de 300 UU au-dessus du gouffre, de Z2400 à Z2100. C'est la même règle que la casquette de D5 (module 04 §5) : ce qui glisse sur le toit passe devant les tourelles du bord et tombe dans le trou. **12 lames.** Les 2 lames des angles rentrants du trou (θ ≈ 172° et 197°) croiseraient un mur ou une lame voisine : elles ne sont pas posées.
-3. **Casquette de D5, pente A, overhang.** Ils s'arrêtent au bord du trou : 73, 294 et 376 rampes (au lieu de 84, 336 et 432). Ce qui glisse tombe directement dans le gouffre.
+3. **Casquette de D5, pente A, overhang et débord.** Ils s'arrêtent au bord du trou : 53, 208 et 356 rampes (au lieu de 60, 240 et 408). Ce qui glisse tombe directement dans le gouffre.
 
 **Pourquoi fermer la base sur le bord du gouffre.** Le trou est une défense naturelle : rien ne tient au-dessus. Mais il ouvre un passage par le dessous de la plateforme et une face de la base sans glacis. On ferme donc la base sur le bord du trou par des murs pleins de toute la hauteur, et on y repose les tourelles qui tombaient dans le trou, tournées vers le gouffre.
 
@@ -90,7 +90,7 @@ Le trou supprime 12 emplacements : 7 de la cage L1 (côté 150° p4, côté 180�
 | Couche | Emplacements | Où | Plan |
 |---|---|---|---|
 | **TROU-L1** | 3 Tek + 4 Heavy | murs de bord du pod et du couloir, **niveau 6 (Z1800 → 2100)**, celui de L1. On les recharge depuis la mezzanine et la galerie. La casquette du trou passe au-dessus | 7 |
-| **TROU** | 4 Heavy au niveau 0 (Z0 → 300) + 1 Tesla au niveau 1 (Z300 → 600) | murs de bord les plus proches du bord de la plateforme (θ ≈ 160° et 204°) | 2 |
+| **TROU** | 4 Heavy au niveau 0 (Z0 → 300) + 1 Tesla au niveau 1 (Z300 → 600), sur 5 murs différents | murs de bord les plus proches du bord de la plateforme (θ ≈ 159° à 205°) | 2 |
 
 | Couche | Plan | Heavy | Tek | Tesla |
 |---|---|---|---|---|
@@ -101,7 +101,7 @@ Le trou supprime 12 emplacements : 7 de la cage L1 (côté 150° p4, côté 180�
 | **TROU** (bord du trou, Z0 / Z300) | 2 | **4** | — | **1** |
 | **Total** | | **60** | **30** | **6** |
 
-Le cap reste respecté : 96 tourelles, toutes à moins de 9 137 UU les unes des autres (module 05). La réserve reste de 20 Heavy, 5 Tek et 4 Tesla.
+Le cap reste respecté : 96 tourelles, toutes à moins de 9 101 UU les unes des autres (module 05). La réserve reste de 20 Heavy, 5 Tek et 4 Tesla.
 
 ## 5. Les 8 plans
 
@@ -110,11 +110,11 @@ Chaque plan contient le **pilier de référence**. Le plan 1 pose la pile de 2 d
 | Plan | Fichier `templates/plans/` | Contenu | Pièces | Lingots | Pâte |
 |---|---|---|---|---|---|
 | **1** | `Plan_1_sol_anneaux_12-15.json` | sol des anneaux 12 à 15 : 147 fondations + 294 triangles, dont les paliers à −150 (anneau 14) et −300 (anneau 15), sans le trou | 441 | 14 700 | 4 557 |
-| **2** | `Plan_2_murs_rampes_tourelles_anneaux_12-15.json` | anneaux 12 à 15 : rive (143 murs), murs de bord du trou (9), colonnade (228 piliers), pente A extérieure (148 rampes), overhang (376 rampes), mur de jupe (188), puis **36 murs de chaume + 30 Heavy + 6 Tesla** | 1 164 | 20 488 | 5 548 |
+| **2** | `Plan_2_murs_rampes_tourelles_anneaux_12-15.json` | anneaux 12 à 15 : rive (143 murs), murs de bord du trou (10), colonnade (226 piliers), mur de jupe (166), appuis (83 poteaux sur les paliers : 123 piliers fins + 43 demi-piliers fins ; 94 poutres fines), **toute la pente A** (208 rampes, de la rive vers la cage), overhang et débord (356 rampes), puis **36 murs de chaume + 30 Heavy + 6 Tesla** | 1 441 | 23 515 | 6 461 |
 | **3** | `Plan_3_sol_centre_anneaux_0-11.json` | sol du centre : hexagone central et anneaux 1 à 11, sans le trou ni la plateforme (192 fondations + 385 triangles) | 577 | 19 225 | 5 960 |
 | **4** | `Plan_4_pod_central.json` | pod : mur de pod (319 murs + 17 cadres doubles), murs de bord du trou dans le pod (77), piliers PA/PB (120), colonne de 6 escaliers, mezzanine Z1800 (255 plafonds) | 794 | 19 660 | 5 521 |
-| **5** | `Plan_5_cage_et_pente_interieure.json` | cage : fût (312 murs + 6 cadres), murs de bord du trou dans le couloir (50), galeries Z1800 / 2100 / 2400 (426 pièces, dont 5 trappes), 53 cadres doubles L2, casquette (73 rampes), pente A intérieure (146 rampes) | 1 066 | 23 218 | 6 439 |
-| **6** | `Plan_6_toit_rampes.json` | plancher de toit Z2400 du pod (261), toit en rampes inclinées (332) et **casquette du trou (12 rampes)** | 605 | 10 305 | 2 772 |
+| **5** | `Plan_5_cage_et_casquette.json` | cage : fût (312 murs + 6 cadres), murs de bord du trou dans le couloir (49), galeries Z1800 / 2100 / 2400 (426 pièces, dont 5 trappes), 53 cadres doubles L2, casquette (53 rampes) | 899 | 21 201 | 5 934 |
+| **6** | `Plan_6_toit_rampes.json` | plancher de toit Z2400 du pod (261), 21 poteaux (43 piliers fins), toit en rampes inclinées (263) et **casquette du trou (12 rampes)** | 579 | 10 036 | 2 737 |
 | **7** | `Plan_7_tourelles_cage_L1.json` | **60 murs de chaume + 30 Tek + 30 Heavy** : cage L1 (53) et bord du trou au niveau L1 (7) | 120 | — | — |
 | **8** | `Plan_8_plateforme_future_anneaux_9-11.json` | **plateforme verte** : 5 fondations + 5 triangles, rien dessus | 10 | 375 | 115 |
 
@@ -127,10 +127,12 @@ Les lingots et la pâte des plans 2 et 7 ne comprennent pas les tourelles, déj�
 4. Plan 6 : plancher de toit, toit et casquette du trou.
 5. Plan 7 : tourelles de la cage et du bord du trou (niveau L1).
 6. Plan 8 : la plateforme verte, quand vous en aurez besoin.
-7. À la main : démolition des 96 murs de chaume, 74 murs de pics (`donnees/03_ligne_pics.csv`), portes doubles, échelles, équipements (module 07), puis démolition de la pile d'ancrage.
+7. À la main : démolition des 96 murs de chaume (liste et ordre : `donnees/08_chaume_a_demolir.csv`), 74 murs de pics (`donnees/03_ligne_pics.csv`), portes doubles, échelles, équipements (module 07), puis démolition de la pile d'ancrage.
 
 ⚠ Les plans s'appuient les uns sur les autres :
-- la pente A extérieure (plan 2) prolonge la pente intérieure (plan 5) ;
+- la pente A est entière dans le plan 2 : chaque ligne de lames y est posée depuis son appui sur la rive ;
+- les poteaux de l'overhang (plan 2) sont debout sur les paliers (plan 1), ceux du toit (plan 6) sur le plancher Z2400 du même plan ;
+- la Tesla S66 du bord du trou (plan 2) est sur un mur de bord du couloir (plan 5) : posez le plan 5 avant le plan 2 ;
 - les murs de bord des anneaux 12-13 (plan 2) reposent sur l'anneau 11 (plan 3) ;
 - la casquette du trou (plan 6) s'accroche en haut des murs de bord (plans 4 et 5).
 Si Template Hammer refuse des pièces faute d'appui, posez d'abord le plan concerné.
@@ -143,3 +145,4 @@ Si Template Hammer refuse des pièces faute d'appui, posez d'abord le plan conce
 - [ ] Casquette du trou : 12 lames au-dessus du gouffre ; aucune autre rampe au-dessus du trou.
 - [ ] 12 tourelles face au gouffre (7 à Z1800, 5 à Z0 / Z300) ; 96 tourelles en tout.
 - [ ] 96 murs de chaume démolis ; les tourelles restent en place.
+- [ ] Contrôles du générateur (module 08) : aucune collision entre pièces, chaque ligne de rampes sur ses appuis, rien ne repose sur un mur de chaume.

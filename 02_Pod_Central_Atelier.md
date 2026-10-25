@@ -23,7 +23,7 @@ Le Coeur Base n'est plus dans le projet : le centre du hall est libre. Coordonn�
 | **Hall d'atelier** | Z0 → Z1800 : **6 murs pleins de hauteur libre** | aucun plancher intermédiaire |
 | Mezzanine / étage technique | Z1800 → Z2400 (2 murs) | même niveau que la galerie de tourelles |
 | **Plancher de toit** | Z2400, sur tout le pod | au niveau du toit de cage : un seul plancher fermé du centre jusqu'à D5 |
-| **Toit en rampes inclinées** | Z2400 → Z5150, sur tout le contour D5 (pod + cage) | comme le toit des tours 1201 / 1809 ; aucun toit incliné |
+| **Toit en rampes inclinées** | Z2400 → Z5100, sur tout le contour D5 (pod + cage), 21 poteaux en piliers fins | comme le toit des tours 1201 / 1809 ; aucun toit incliné |
 
 ## 2. Colonne d'escaliers
 
@@ -96,37 +96,52 @@ Elle reprend le centre et les anneaux 1 à 7 en plafonds, **moins la trémie de 
 
 **Aucun toit incliné dans toute la base.** Sur un toit à 45°, on tient debout et rien ne glisse. Le bloc central est donc couvert par :
 1. un **plancher de toit fermé à Z2400** sur le pod (87 plafonds + 174 triangles, sans le trou). Il prolonge le toit de cage (module 04) : le bloc central a un seul plancher étanche, du centre jusqu'à D5. Au droit du trou, il s'arrête sur les murs de bord, qui montent aussi à Z2400 ;
-2. au-dessus, un **toit en rampes inclinées** (`StructureBP_Railing_Sloped_Metal`, la pièce des tours 1201 et 1809) ;
+2. au-dessus, un **toit en rampes inclinées** (`StructureBP_Railing_Sloped_Metal`, la pièce des tours 1201 et 1809), tenu comme le toit des tours : chaque ligne de lames part du bord du plancher, et les lignes de plus de 6 lames ont un **poteau en piliers fins** debout sur le plancher Z2400 ;
 3. au bord du trou, la **casquette du trou** : 12 lames qui descendent de Z2400 à Z2100 au-dessus du gouffre (§8.3).
 
 La même règle sert pour la casquette, la pente A et l'overhang (modules 03 et 04).
 
-### 8.1 Règle de pose, relevée sur la tour 1201
+### 8.1 Règle de pose, relevée sur les tours 1201 et 1809
 
-- Le toit est fait de **lames** : des files de rampes inclinées, parallèles à la pente, espacées de 300 UU (t = 0, ±300, ±600… le long de chaque côté).
-- Chaque rampe monte de 300 UU sur 300 UU vers le centre. La rampe suivante d'une lame est 300 UU plus loin et 300 UU plus haut.
-- Pivot : au milieu de la rampe, 150 UU en retrait de son bas, à z template = Z du bas + 290. Sur la tour 1201, cela met la rampe de rive 150 UU devant le bord du plancher et 10 UU sous son dessus.
-- Rotation : **yaw = θ du côté − 90°**, ce qui fait monter la rampe vers le centre. C'est le cas de la tour 1201 : yaw −90° sur le côté θ = 0°.
-- Une lame peut dépasser l'arête de son côté de 150 UU au plus. Aux 12 arêtes, l'écart entre lames reste donc ≤ 300 UU.
-- **On ne tient pas debout sur une lame** : un dino largué n'y trouve aucune surface et glisse vers l'extérieur. Ce qui passe entre deux lames tombe sur le plancher fermé Z2400.
-- **Au-dessus du trou, aucune lame** : le script retire les rampes dont le pivot tombe au-dessus du gouffre.
+- Le toit est fait de **lignes de lames** : des files de rampes inclinées bout à bout, parallèles à la pente, espacées de 300 UU (t = 0, ±300, ±600 le long de chaque côté).
+- Chaque rampe monte de 300 UU sur 300 UU vers le centre. La rampe suivante d'une ligne est 300 UU plus loin et 300 UU plus haut.
+- Pivot : au milieu de la rampe, 150 UU en retrait de son bas, à z template = Z du bas + 290. Sur la tour 1809, cela met le bas de la première rampe sur le dessus de la poutre fine d'égout (z 3 990).
+- Rotation : **yaw = θ du côté − 90°**, ce qui fait monter la rampe vers le centre. C'est le cas de la tour 1201 : yaw −90° sur le côté θ = 0°. Les tours utilisent aussi la variante « Right » de la rampe : elle ne change que le côté de la ligne où se trouve la lame, pas sa position.
+- **Appuis, comme sur les tours** (module 08 §3). Sur la tour 1809, chaque ligne part d'une poutre fine à l'égout. Sur un pan, elle finit sur un pilier fin debout sur la poutre de faîtage ; sur l'autre pan, elle monte librement, 6 lames depuis l'égout. La 1201 fait de même, avec 5 lames libres. D'où la règle appliquée au toit :
+  - chaque ligne part d'un appui : ici le bord du plancher Z2400 à D5 ;
+  - **au plus 6 lames libres** au-dessus du dernier appui ;
+  - les lignes plus longues reçoivent un **poteau en piliers fins** debout sur le plancher Z2400, sous une jonction ;
+  - au plus 7 lames entre deux appuis.
+  - Option `--appuis prudent` : un poteau sous le bout haut de chaque ligne, comme le pan « faîtage » des tours.
+- **Arêtes.** Aux 12 arêtes du toit, les lignes de deux côtés voisins se rejoignent. Deux lames qui se croiseraient ne peuvent pas être posées toutes les deux : le script retire la plus haute, en bout de ligne, si bien que chaque ligne reste continue depuis le plancher. Les lignes s'arrêtent donc un rang sur deux près des arêtes (5 lignes par côté au bas du toit, 3 au milieu, 1 au faîtage).
+- **On ne tient pas debout sur une lame** : un dino largué n'y trouve aucune surface et glisse vers l'extérieur. Ce qui passe entre deux lames tombe sur le plancher fermé Z2400, au milieu des poteaux.
+- **Au-dessus du trou, aucune lame** : une ligne s'arrête à sa première rampe au-dessus du gouffre.
 
 ### 8.2 Rangs du toit
 
 La rampe de rive, 150 UU devant le bord du plancher, est la casquette du module 04.
 
-| Rang | Apothème du pivot | Z du bas | Lames par côté | Rampes sans trou | **Rampes posées** |
-|---|---|---|---|---|---|
-| r0 | 2 649,0 | 2400 | 5 | 60 | 53 |
-| r1 | 2 349,0 | 2700 | 5 | 60 | 53 |
-| r2 | 2 049,0 | 3000 | 5 | 60 | 51 |
-| r3 | 1 749,0 | 3300 | 5 | 60 | 51 |
-| r4 | 1 449,0 | 3600 | 3 | 36 | 31 |
-| r5 | 1 149,0 | 3900 | 3 | 36 | 33 |
-| r6 | 849,0 | 4200 | 3 | 36 | 36 |
-| r7 | 549,0 | 4500 | 1 | 12 | 12 |
-| r8 | 249,0 | 4800 | 1 | 12 | 12 |
-| **Total** | | sommet ≈ Z5150 | | 372 | **332** |
+| Rang | Apothème du pivot | Z du bas | Lignes par côté (hors trou) | **Rampes posées** |
+|---|---|---|---|---|
+| r0 | 2 649,0 | 2400 | 5 | 53 |
+| r1 | 2 349,0 | 2700 | 3 à 5 | 43 |
+| r2 | 2 049,0 | 3000 | 3 à 5 | 41 |
+| r3 | 1 749,0 | 3300 | 3 | 31 |
+| r4 | 1 449,0 | 3600 | 3 | 31 |
+| r5 | 1 149,0 | 3900 | 1 à 3 | 21 |
+| r6 | 849,0 | 4200 | 1 à 3 | 21 |
+| r7 | 549,0 | 4500 | 1 | 11 |
+| r8 | 249,0 | 4800 | 1 | 11 |
+| **Total** | | faîtage Z5100 | | **263** |
+
+**Poteaux du toit** : 21 poteaux, 43 piliers fins, tous debout sur le plancher Z2400.
+
+| Ligne | Bout haut | Poteau (défaut) | Avec `--appuis prudent` |
+|---|---|---|---|
+| t = 0 (11 lignes, 9 lames) | Z5100, à 99 UU du centre | 3 piliers fins sous la 3e jonction (Z3300) : 6 lames libres au-dessus | 9 piliers fins sous le bout haut + 4 sous la 4e jonction |
+| t = ±300 (10 lignes, 7 lames) | Z4500 | 1 pilier fin sous la 1re jonction (Z2700) | 7 piliers fins sous le bout haut |
+| lignes de 6 lames ou moins | Z4200 au plus | aucun : la ligne monte librement depuis le bord du plancher | un poteau sous le bout haut |
+| **Total** | | **21 poteaux, 43 piliers fins** | 54 poteaux, 295 piliers fins |
 
 ### 8.3 Casquette du trou
 
@@ -137,10 +152,10 @@ La rampe de rive, 150 UU devant le bord du plancher, est la casquette du module 
 | Rampes | **12** ; les 2 lames des angles rentrants (θ ≈ 172° et 197°) croiseraient un mur ou une lame voisine et ne sont pas posées |
 | Rôle | comme la casquette de D5 : ce qui glisse quitte le bord 300 UU devant les tourelles reposées au niveau 6 et tombe dans le gouffre |
 
-- Coût : une rampe vaut environ **12 lingots + 3 pâte**, contre 35 + 10 pour un toit. ⚠ C'est une estimation : le coût de la rambarde métal (Metal Railing).
+- Coût : une rampe vaut environ **12 lingots + 3 pâte**, contre 35 + 10 pour un toit ; un pilier fin environ 13 + 4. ⚠ Ce sont des estimations : rambarde métal (Metal Railing) et demi-pilier métal.
 - ⚠ À valider en solo :
-  - le décalage de la rampe (+290 en z template) vient de la tour 1201, où les rampes reposent sur des cadres de porte. Si les rampes apparaissent trop haut ou trop bas, corrigez `+ 200` dans `rang_rampes()` et régénérez ;
-  - la casquette du trou est en porte-à-faux sur le haut des murs de bord : Template Hammer obligatoire.
+  - le décalage de la rampe (+290 en z template) vient des tours 1201 et 1809. Si les rampes apparaissent trop haut ou trop bas, corrigez `+ 200` dans `pente()` et `bouts_lame()` et régénérez ;
+  - la casquette du trou pend d'une lame au haut des murs de bord, comme la lame de rive de la tour 1201 : Template Hammer obligatoire.
 
 ## 9. Contrôles de fin de module
 
@@ -149,4 +164,4 @@ La rampe de rive, 150 UU devant le bord du plancher, est la casquette du module 
 - [ ] Murs de bord du trou : 8 niveaux, du sol au plancher de toit, sans jour.
 - [ ] 24 colonnes de piliers PA/PB, toutes arrêtées à Z2400.
 - [ ] Plancher de toit Z2400 fermé, sans jour, jusqu'aux murs de bord.
-- [ ] Toit : 332 rampes en 12 pans, lames au pas de 300 UU ; casquette du trou : 12 lames. Aucun toit incliné.
+- [ ] Toit : 263 rampes en 12 pans, lignes au pas de 300 UU, 21 poteaux (43 piliers fins) ; casquette du trou : 12 lames. Aucun toit incliné.

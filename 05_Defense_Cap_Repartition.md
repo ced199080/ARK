@@ -5,6 +5,7 @@ Templates (`templates/plans/`, module 06) :
 - `Plan_7_tourelles_cage_L1.json` : les 60 tourelles de la cage L1 (dont 7 sur les murs de bord du trou).
 
 Chaque tourelle y est précédée de son **mur de chaume de pose**, à démolir en jeu.
+Les 96 murs de chaume à démolir sont listés dans `donnees/08_chaume_a_demolir.csv`, avec leur plan, leur n° d'entrée dans le JSON, la tourelle qu'ils portent et ce qui est posé au-dessus (module 08 §4).
 Liste maîtresse : `donnees/05_matrice_tourelles.csv`. Elle donne l'ordre, le type, la couche, les coordonnées du chaume et de la tourelle, et le sens de tir.
 Plan : `plans/plan_tourelles.png`.
 
@@ -26,9 +27,9 @@ Plan : `plans/plan_tourelles.png`.
 
 | Mesure (sur les 96 tourelles) | Valeur |
 |---|---|
-| Distance 3D maximale entre deux tourelles | **9 137 UU** (< 10 000) |
-| Rayon horizontal maximal (jupe) | 4 568 UU |
-| Distance minimale d'une tourelle étrangère pour n'entrer dans aucune sphère | **14 568 UU ≈ 48,6 fondations du centre** |
+| Distance 3D maximale entre deux tourelles | **9 101 UU** (< 10 000) |
+| Rayon horizontal maximal (jupe) | 4 551 UU |
+| Distance minimale d'une tourelle étrangère pour n'entrer dans aucune sphère | **14 551 UU ≈ 48,5 fondations du centre** |
 
 Toutes les tourelles se voient entre elles : la base entière compte pour un seul cap de 100. Gardez une zone d'exclusion d'environ 50 fondations pour toute autre tourelle de votre tribu.
 
@@ -60,10 +61,12 @@ Toutes les tourelles se voient entre elles : la base entière compte pour un seu
 |---|---|---|
 | L1 | ligne D5 (2 799,0), Z1800 → 2100, z 2040 | apothème 2 809,0, z 2040 |
 | RIVE | ligne D7 (3 918,7), milieu des côtés E0, Z300 → 600, z 540 | apothème 3 928,7, z 540 |
-| JUPE-ext | sous le mur d'about (4 518,7), suspendu Z −900 → −600, z −660 | apothème 4 528,7, vers la mer |
-| JUPE-int | sous le mur d'about (4 518,7), suspendu Z −900 → −600, z −660, face côté piton | apothème 4 508,7, vers le piton |
+| JUPE-ext | sous le mur de jupe, au bord D8 (4 478,5), au milieu d'un mur de jupe (t = ±750), suspendu Z −900 → −600, z −660 | apothème 4 488,5, vers la mer |
+| JUPE-int | sous le mur de jupe (4 478,5), au milieu d'un mur (t = ±450 sur les côtés impairs, ±150 sur les côtés pairs), suspendu Z −900 → −600, z −660, face côté piton | apothème 4 468,5, vers le piton |
 | TROU-L1 | mur de bord du trou, niveau 6 : Z1800 → 2100, z 2040 | 10 UU devant le mur, côté gouffre, z 2040 |
-| TROU | mur de bord du trou, niveau 0 (Heavy, Z0 → 300, z 240) ou niveau 1 (Tesla, Z300 → 600, z 540) | 10 UU devant le mur, côté gouffre |
+| TROU | mur de bord du trou, niveau 0 (Heavy, Z0 → 300, z 240) ou niveau 1 (Tesla, Z300 → 600, z 540), jamais les deux sur le même mur | 10 UU devant le mur, côté gouffre |
+
+**Ce qui est posé au-dessus du chaume** (`donnees/08_chaume_a_demolir.csv`, colonne `pose_au_dessus`) : comme sur la tour 1809, où 78 des 86 murs de chaume ont un cadre de porte posé dessus, chaque mur de chaume L1 porte un cadre double L2. Une colonne de murs de bord du trou n'a jamais qu'un mur de chaume. Rien d'autre ne repose sur du chaume : aucune rampe n'y prend appui (module 08 §4).
 
 ⚠ **À valider en solo** :
 - l'accroche d'un mur de chaume sous le mur de jupe ;
@@ -83,22 +86,22 @@ Toutes les tourelles se voient entre elles : la base entière compte pour un seu
 
 ## 6. Matrice détaillée
 
-H = Heavy, T = Tek, S = Tesla, suivi du n° d'ordre. L1 : positions p0 à p4 dans le sens des θ croissants. Jupe : dans l'ordre t = −600 → +600. *trou* : emplacement au-dessus du gouffre, reposé sur un mur de bord (tableau suivant).
+H = Heavy, T = Tek, S = Tesla, suivi du n° d'ordre. L1 : positions p0 à p4 dans le sens des θ croissants. Jupe : dans l'ordre des t croissants (−750 → +750). *trou* : emplacement au-dessus du gouffre, reposé sur un mur de bord (tableau suivant).
 
 | Côté (θ) | L1 p0 | p1 | p2 | p3 | p4 | Jupe | Rive |
 |---|---|---|---|---|---|---|---|
-| 0° | T42 | H85 | T31 | H67 | T46 | ext 23, int 1, ext 16 | S61 |
-| 30° | H82 | T39 | H75 | T54 | H90 | int 9, int 24 | — |
-| 60° | T35 | H71 | T50 | H86 | T43 | ext 5, int 20, ext 13 | S64 |
-| 90° | H79 | T58 | H94 | T33 | H69 | int 28, int 3 | — |
-| 120° | T48 | H84 | T41 | H77 | T56 | ext 18, int 11, ext 26 | S63 |
-| 150° | H92 | T37 | H73 | T52 | *trou* | int 7, int 22 | — |
+| 0° | T42 | H85 | T31 | H67 | T46 | ext 8, int 23, ext 1 | S61 |
+| 30° | H82 | T39 | H75 | T54 | H90 | int 16, int 9 | — |
+| 60° | T35 | H71 | T50 | H86 | T43 | ext 24, int 5, ext 20 | S64 |
+| 90° | H79 | T58 | H94 | T33 | H69 | int 13, int 28 | — |
+| 120° | T48 | H84 | T41 | H77 | T56 | ext 3, int 18, ext 11 | S63 |
+| 150° | H92 | T37 | H73 | T52 | *trou* | int 26, int 7 | — |
 | 180° | *trou* | *trou* | *trou* | *trou* | *trou* | *trou* (3) | *trou* |
-| 210° | *trou* | T45 | H88 | T60 | H81 | int 10, *trou* (1) | — |
-| 240° | T32 | H96 | T47 | H68 | T40 | ext 25, int 6, ext 21 | S62 |
-| 270° | H83 | T55 | H76 | T36 | H91 | int 14, int 29 | — |
-| 300° | T51 | H72 | T44 | H87 | T59 | ext 4, int 19, ext 12 | S65 |
-| 330° | H80 | T34 | H95 | T49 | H70 | int 27, int 8 | — |
+| 210° | *trou* | T45 | H88 | T60 | H81 | int 17, *trou* (1) | — |
+| 240° | T32 | H96 | T47 | H68 | T40 | ext 10, int 25, ext 6 | S62 |
+| 270° | H83 | T55 | H76 | T36 | H91 | int 21, int 14 | — |
+| 300° | T51 | H72 | T44 | H87 | T59 | ext 29, int 4, ext 19 | S65 |
+| 330° | H80 | T34 | H95 | T49 | H70 | int 12, int 27 | — |
 
 Sur L1, Tek et Heavy alternent sans interruption hors du trou.
 
@@ -106,26 +109,28 @@ Sur L1, Tek et Heavy alternent sans interruption hors du trou.
 
 | N° | Couche | θ | Mur de chaume (x ; y) | Z bas du chaume | Sens de tir | Plan |
 |---|---|---|---|---|---|---|
-| H2 | TROU | 204,2° | (−3 468,7 ; −1 569,6) | 0 | 90° | 2 |
-| H15 | TROU | 159,9° | (−3 338,7 ; 1 234,8) | 0 | 240° | 2 |
-| H17 | TROU | 204,9° | (−3 188,7 ; −1 494,6) | 0 | 120° | 2 |
-| H30 | TROU | 160,2° | (−3 618,7 ; 1 309,8) | 0 | 270° | 2 |
-| S66 | TROU | 160,2° | (−3 618,7 ; 1 309,8) | 300 | 270° | 2 |
+| H2 | TROU | 204,9° | (−3 188,7 ; −1 494,6) | 0 | 120° | 2 |
+| H15 | TROU | 160,2° | (−3 618,7 ; 1 309,8) | 0 | 270° | 2 |
+| H22 | TROU | 159,9° | (−3 338,7 ; 1 234,8) | 0 | 240° | 2 |
+| H30 | TROU | 204,2° | (−3 468,7 ; −1 569,6) | 0 | 90° | 2 |
 | T38 | TROU-L1 | 201,8° | (−2 499,0 ; −1 009,8) | 1800 | 90° | 7 |
 | T53 | TROU-L1 | 202,6° | (−2 219,1 ; −934,8) | 1800 | 120° | 7 |
 | T57 | TROU-L1 | 156,3° | (−1 939,2 ; 859,8) | 1800 | 270° | 7 |
+| S66 | TROU | 159,4° | (−3 058,8 ; 1 159,8) | 300 | 270° | 2 |
 | H74 | TROU-L1 | 203,7° | (−1 939,2 ; −859,8) | 1800 | 90° | 7 |
 | H78 | TROU-L1 | 157,4° | (−2 219,1 ; 934,8) | 1800 | 240° | 7 |
 | H89 | TROU-L1 | 205,0° | (−1 659,3 ; −784,8) | 1800 | 120° | 7 |
 | H93 | TROU-L1 | 158,2° | (−2 499,0 ; 1 009,8) | 1800 | 270° | 7 |
+
+La Tesla S66 est sur un autre mur de bord que les 4 Heavy : un mur ne porte jamais deux murs de chaume superposés.
 
 ## 7. Couverture et zones d'ombre
 
 | Couche | Couverture verticale | Limite |
 |---|---|---|
 | L1 | −50,4° → +89,9°, ≈ 180° en azimut par tourelle | en bas, le haut du mur de jupe ; plus bas, le tir voit l'attique A et les paliers entre les rampes. En haut, rien : les rampes de la casquette ne masquent pas le ciel |
-| JUPE-ext | −89,9° → +89,9° vers la mer | aucune : les rampes de l'overhang ne masquent rien |
-| JUPE-int | −89,9° → +9,6° vers le piton et le dessous de la plateforme | dessous de la base ; sous-face de plateforme non modélisée |
+| JUPE-ext | −89,9° → +89,9° vers la mer | aucune : les rampes de l'overhang et du débord ne masquent rien |
+| JUPE-int | −89,9° → +9,7° vers le piton et le dessous de la plateforme | dessous de la base ; sous-face de plateforme non modélisée |
 | Tesla | palier 1 entier (3 919 → 4 179 UU, Z −150) et palier 2 de 4 230 à 4 479 UU (Z −300) | poche fermée sous l'overhang ; 51 UU du palier 2 masqués derrière la marche de Ø 28 |
 
 **Zones d'ombre traitées**
@@ -144,7 +149,7 @@ Sur L1, Tek et Heavy alternent sans interruption hors du trou.
 | **Générateur Tek n°1** (hall) | (900 ; 1 559), Z0 | réplicateur, forge à vapeur, labo, puis secours de L1 jusqu'à 5 040 UU | maximum |
 
 - Les **Tek** exigent un générateur Tek.
-- Les **Heavy et Tesla** sont électriques. Celles de la jupe sont à 2 800–5 650 UU du générateur le plus proche, les Tesla de rive à 2 200–4 650 UU, les tourelles du bord du trou à 1 100–3 450 UU.
+- Les **Heavy et Tesla** sont électriques. Celles de la jupe sont à 2 780–5 600 UU du générateur le plus proche, les Tesla de rive à 2 180–4 650 UU, les tourelles du bord du trou à 1 100–3 440 UU.
 - Le trou coupe la boucle de câbles de la galerie (anneau 8) à l'avant : elle devient un arc ouvert de θ ≈ 205° à 155°.
 - Si les sphères ne les couvrent pas, posez des câbles électriques :
   - boucle sous le plancher Z1800 ;

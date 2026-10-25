@@ -6,7 +6,7 @@
   "anneau_rive": 13,
   "decaissement": 150.0,
   "rive_niveaux": 2,
-  "rangs_pente_A": 4,
+  "rangs_pente_A": 3,
   "cage_niveaux": 2,
   "casquette": 1,
   "debord": 2,
@@ -28,6 +28,7 @@
    330
   ],
   "colonnade_largeur_passage": 300.0,
+  "appuis": "tours",
   "cap": 100,
   "tesla_comptee": true,
   "inventaire": [
@@ -57,15 +58,16 @@
   "D8": 4636.4
  },
  "overhang": {
-  "A_bout": 5118.653347947321,
+  "A_bout": 5078.460969082653,
   "Z_bout": -600.0
  },
  "jupe": {
-  "A": 4518.653347947321,
-  "Z": -600.0
+  "A": 4478.460969082653,
+  "Z": -600.0,
+  "Z_haut": 0.0
  },
  "Z_plancher_toit": 2400.0,
- "Z_sommet_toit": 5149.038105676658,
+ "Z_sommet_toit": 5100.0,
  "paliers_bord": [
   {
    "anneau": 14,
@@ -183,13 +185,13 @@
   }
  },
  "cap": {
-  "distance_max_entre_tourelles": 9136.5,
-  "rayon_max_tourelle": 4568.2,
-  "distance_min_avant_poste": 14568.2
+  "distance_max_entre_tourelles": 9101.4,
+  "rayon_max_tourelle": 4550.7,
+  "distance_min_avant_poste": 14550.7
  },
  "secteurs": {
   "L1": [
-   -50.4,
+   -51.1,
    89.9
   ],
   "RIVE": [
@@ -210,7 +212,7 @@
   ],
   "JUPE-int": [
    -89.9,
-   9.6
+   9.7
   ]
  },
  "colonnade": {
@@ -218,8 +220,8 @@
   "n": 288,
   "pas_angulaire": 1.25,
   "pas_arc": 78.54,
-  "colonnes": 228,
-  "pieces": 228
+  "colonnes": 226,
+  "pieces": 226
  },
  "escalier": {
   "x": 129.907,
@@ -269,6 +271,43 @@
   "nombre": 74,
   "apotheme_ligne": 4068.7,
   "Z": -150.0
+ },
+ "constructibilite": {
+  "rampes_retirees": {
+   "colonnade": 2,
+   "croise une lame": 80,
+   "heurte mur": 1
+  },
+  "lignes_raccourcies_faute_d_appui": 0,
+  "appuis": {
+   "poteaux": 104,
+   "piliers_fins": 166,
+   "demi_piliers_fins": 43,
+   "poutres_fines": 94
+  },
+  "controle_appuis": {
+   "mode": "tours",
+   "rampes": 892,
+   "portee_max": 3,
+   "pendues": 244,
+   "montee_libre_max": 6,
+   "montantes_libres": 428
+  },
+  "recouvrements_admis": {
+   "jupe sous la plateforme": 83
+  },
+  "chaume_a_demolir": {
+   "total": 96,
+   "par_plan": {
+    "Plan_2": 36,
+    "Plan_7": 60
+   },
+   "pose_au_dessus": {
+    "Cadre de porte double métal": 53,
+    "Mur métal": 38,
+    "rien": 5
+   }
+  }
  },
  "anneaux": [
   {
@@ -563,18 +602,21 @@
    }
   },
   "Plan_2_murs_rampes_tourelles_anneaux_12-15": {
-   "total": 1164,
+   "total": 1441,
    "pieces": {
-    "mur": 340,
-    "pilier": 228,
-    "rampe": 524,
+    "mur": 319,
+    "pilier": 226,
+    "poutre_fine": 94,
+    "pilier_fin": 123,
+    "demi_pilier_fin": 43,
+    "rampe": 564,
     "chaume_mur": 36,
     "heavy": 30,
     "tesla": 6
    },
    "bilan": {
-    "MI": 20488,
-    "PC": 5548,
+    "MI": 23515,
+    "PC": 6461,
     "CH": 252,
     "FI": 144,
     "BO": 144
@@ -606,31 +648,32 @@
     "PC": 5521
    }
   },
-  "Plan_5_cage_et_pente_interieure": {
-   "total": 1066,
+  "Plan_5_cage_et_casquette": {
+   "total": 899,
    "pieces": {
-    "mur": 362,
+    "mur": 361,
     "cadre_double": 59,
     "plafond_tri": 285,
     "plafond": 136,
-    "rampe": 219,
-    "trappe": 5
+    "trappe": 5,
+    "rampe": 53
    },
    "bilan": {
-    "MI": 23218,
-    "PC": 6439
+    "MI": 21201,
+    "PC": 5934
    }
   },
   "Plan_6_toit_rampes": {
-   "total": 605,
+   "total": 579,
    "pieces": {
     "plafond_tri": 174,
     "plafond": 87,
-    "rampe": 344
+    "pilier_fin": 43,
+    "rampe": 275
    },
    "bilan": {
-    "MI": 10305,
-    "PC": 2772
+    "MI": 10036,
+    "PC": 2737
    }
   },
   "Plan_7_tourelles_cage_L1": {
@@ -663,9 +706,12 @@
    "pieces": {
     "fond_tri": 684,
     "fond": 344,
-    "mur": 1098,
-    "pilier": 348,
-    "rampe": 1087,
+    "mur": 1076,
+    "pilier": 346,
+    "poutre_fine": 94,
+    "pilier_fin": 166,
+    "demi_pilier_fin": 43,
+    "rampe": 892,
     "escalier": 6,
     "cadre_double": 76,
     "plafond_tri": 629,
@@ -673,8 +719,8 @@
     "trappe": 5
    },
    "bilan": {
-    "MI": 107971,
-    "PC": 30912
+    "MI": 108712,
+    "PC": 31285
    }
   },
   "tourelles_chaume": {
@@ -745,8 +791,8 @@
  },
  "bilan_total": {
   "sans_tourelles": {
-   "MI": 135938,
-   "PC": 33848,
+   "MI": 136679,
+   "PC": 34221,
    "CH": 672,
    "FI": 2604,
    "BO": 384,
@@ -760,8 +806,8 @@
    "HU": 1400
   },
   "avec_tourelles": {
-   "MI": 174338,
-   "PC": 47348,
+   "MI": 175079,
+   "PC": 47721,
    "CH": 672,
    "FI": 2604,
    "BO": 384,
@@ -775,11 +821,11 @@
    "HU": 1400
   },
   "brut_sans_tourelles": {
-   "minerai_metal": 272316,
+   "minerai_metal": 273798,
    "perles_silice": 660,
    "obsidienne": 11700,
-   "chitine_ou_keratine": 182192,
-   "pierre": 364484,
+   "chitine_ou_keratine": 183684,
+   "pierre": 367468,
    "silex": 200,
    "cristal": 3350,
    "element": 220,
@@ -787,15 +833,15 @@
    "huile": 1400,
    "cuir": 1480,
    "fibre": 2604,
-   "lingots_total": 136158,
-   "pate_totale": 45548
+   "lingots_total": 136899,
+   "pate_totale": 45921
   },
   "brut_avec_tourelles": {
-   "minerai_metal": 388716,
+   "minerai_metal": 390198,
    "perles_silice": 60060,
    "obsidienne": 26700,
-   "chitine_ou_keratine": 296192,
-   "pierre": 592484,
+   "chitine_ou_keratine": 297684,
+   "pierre": 595468,
    "silex": 200,
    "cristal": 4550,
    "element": 310,
@@ -803,8 +849,8 @@
    "huile": 1400,
    "cuir": 1480,
    "fibre": 2604,
-   "lingots_total": 194358,
-   "pate_totale": 74048
+   "lingots_total": 195099,
+   "pate_totale": 74421
   }
  }
 }

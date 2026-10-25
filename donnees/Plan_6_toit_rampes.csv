@@ -261,347 +261,321 @@ entree;piece;phase;x;y;Z_plan;yaw;theta;rayon;repere
 259;Plafond triangle métal;P6;1751.7;-1184.6;2400.0;150;325.93;2114.7;plancher de toit anneau 7
 260;Plafond triangle métal;P6;1901.7;-924.8;2400.0;150;334.07;2114.7;plancher de toit anneau 7
 261;Plafond triangle métal;P6;2051.7;-665.0;2400.0;150;342.04;2156.8;plancher de toit anneau 7
-262;Rampe inclinée métal (Sloped Railing);P6;2649.0;-600.0;2400.0;270;347.24;2716.1;toit rampes r0 c0 t-2
-263;Rampe inclinée métal (Sloped Railing);P6;2649.0;-300.0;2400.0;270;353.54;2666.0;toit rampes r0 c0 t-1
-264;Rampe inclinée métal (Sloped Railing);P6;2649.0;0.0;2400.0;270;0.0;2649.0;toit rampes r0 c0 t0
-265;Rampe inclinée métal (Sloped Railing);P6;2649.0;300.0;2400.0;270;6.46;2666.0;toit rampes r0 c0 t1
-266;Rampe inclinée métal (Sloped Railing);P6;2649.0;600.0;2400.0;270;12.76;2716.1;toit rampes r0 c0 t2
-267;Rampe inclinée métal (Sloped Railing);P6;2594.1;804.9;2400.0;300;17.24;2716.1;toit rampes r0 c1 t-2
-268;Rampe inclinée métal (Sloped Railing);P6;2444.1;1064.7;2400.0;300;23.54;2666.0;toit rampes r0 c1 t-1
-269;Rampe inclinée métal (Sloped Railing);P6;2294.1;1324.5;2400.0;300;30.0;2649.0;toit rampes r0 c1 t0
-270;Rampe inclinée métal (Sloped Railing);P6;2144.1;1584.3;2400.0;300;36.46;2666.0;toit rampes r0 c1 t1
-271;Rampe inclinée métal (Sloped Railing);P6;1994.1;1844.1;2400.0;300;42.76;2716.1;toit rampes r0 c1 t2
-272;Rampe inclinée métal (Sloped Railing);P6;1844.1;1994.1;2400.0;330;47.24;2716.1;toit rampes r0 c2 t-2
-273;Rampe inclinée métal (Sloped Railing);P6;1584.3;2144.1;2400.0;330;53.54;2666.0;toit rampes r0 c2 t-1
-274;Rampe inclinée métal (Sloped Railing);P6;1324.5;2294.1;2400.0;330;60.0;2649.0;toit rampes r0 c2 t0
-275;Rampe inclinée métal (Sloped Railing);P6;1064.7;2444.1;2400.0;330;66.46;2666.0;toit rampes r0 c2 t1
-276;Rampe inclinée métal (Sloped Railing);P6;804.9;2594.1;2400.0;330;72.76;2716.1;toit rampes r0 c2 t2
-277;Rampe inclinée métal (Sloped Railing);P6;600.0;2649.0;2400.0;0;77.24;2716.1;toit rampes r0 c3 t-2
-278;Rampe inclinée métal (Sloped Railing);P6;300.0;2649.0;2400.0;0;83.54;2666.0;toit rampes r0 c3 t-1
-279;Rampe inclinée métal (Sloped Railing);P6;0.0;2649.0;2400.0;0;90.0;2649.0;toit rampes r0 c3 t0
-280;Rampe inclinée métal (Sloped Railing);P6;-300.0;2649.0;2400.0;0;96.46;2666.0;toit rampes r0 c3 t1
-281;Rampe inclinée métal (Sloped Railing);P6;-600.0;2649.0;2400.0;0;102.76;2716.1;toit rampes r0 c3 t2
-282;Rampe inclinée métal (Sloped Railing);P6;-804.9;2594.1;2400.0;30;107.24;2716.1;toit rampes r0 c4 t-2
-283;Rampe inclinée métal (Sloped Railing);P6;-1064.7;2444.1;2400.0;30;113.54;2666.0;toit rampes r0 c4 t-1
-284;Rampe inclinée métal (Sloped Railing);P6;-1324.5;2294.1;2400.0;30;120.0;2649.0;toit rampes r0 c4 t0
-285;Rampe inclinée métal (Sloped Railing);P6;-1584.3;2144.1;2400.0;30;126.46;2666.0;toit rampes r0 c4 t1
-286;Rampe inclinée métal (Sloped Railing);P6;-1844.1;1994.1;2400.0;30;132.76;2716.1;toit rampes r0 c4 t2
-287;Rampe inclinée métal (Sloped Railing);P6;-1994.1;1844.1;2400.0;60;137.24;2716.1;toit rampes r0 c5 t-2
-288;Rampe inclinée métal (Sloped Railing);P6;-2144.1;1584.3;2400.0;60;143.54;2666.0;toit rampes r0 c5 t-1
-289;Rampe inclinée métal (Sloped Railing);P6;-2294.1;1324.5;2400.0;60;150.0;2649.0;toit rampes r0 c5 t0
-290;Rampe inclinée métal (Sloped Railing);P6;-2444.1;1064.7;2400.0;60;156.46;2666.0;toit rampes r0 c5 t1
-291;Rampe inclinée métal (Sloped Railing);P6;-2444.1;-1064.7;2400.0;120;203.54;2666.0;toit rampes r0 c7 t-1
-292;Rampe inclinée métal (Sloped Railing);P6;-2294.1;-1324.5;2400.0;120;210.0;2649.0;toit rampes r0 c7 t0
-293;Rampe inclinée métal (Sloped Railing);P6;-2144.1;-1584.3;2400.0;120;216.46;2666.0;toit rampes r0 c7 t1
-294;Rampe inclinée métal (Sloped Railing);P6;-1994.1;-1844.1;2400.0;120;222.76;2716.1;toit rampes r0 c7 t2
-295;Rampe inclinée métal (Sloped Railing);P6;-1844.1;-1994.1;2400.0;150;227.24;2716.1;toit rampes r0 c8 t-2
-296;Rampe inclinée métal (Sloped Railing);P6;-1584.3;-2144.1;2400.0;150;233.54;2666.0;toit rampes r0 c8 t-1
-297;Rampe inclinée métal (Sloped Railing);P6;-1324.5;-2294.1;2400.0;150;240.0;2649.0;toit rampes r0 c8 t0
-298;Rampe inclinée métal (Sloped Railing);P6;-1064.7;-2444.1;2400.0;150;246.46;2666.0;toit rampes r0 c8 t1
-299;Rampe inclinée métal (Sloped Railing);P6;-804.9;-2594.1;2400.0;150;252.76;2716.1;toit rampes r0 c8 t2
-300;Rampe inclinée métal (Sloped Railing);P6;-600.0;-2649.0;2400.0;180;257.24;2716.1;toit rampes r0 c9 t-2
-301;Rampe inclinée métal (Sloped Railing);P6;-300.0;-2649.0;2400.0;180;263.54;2666.0;toit rampes r0 c9 t-1
-302;Rampe inclinée métal (Sloped Railing);P6;-0.0;-2649.0;2400.0;180;270.0;2649.0;toit rampes r0 c9 t0
-303;Rampe inclinée métal (Sloped Railing);P6;300.0;-2649.0;2400.0;180;276.46;2666.0;toit rampes r0 c9 t1
-304;Rampe inclinée métal (Sloped Railing);P6;600.0;-2649.0;2400.0;180;282.76;2716.1;toit rampes r0 c9 t2
-305;Rampe inclinée métal (Sloped Railing);P6;804.9;-2594.1;2400.0;210;287.24;2716.1;toit rampes r0 c10 t-2
-306;Rampe inclinée métal (Sloped Railing);P6;1064.7;-2444.1;2400.0;210;293.54;2666.0;toit rampes r0 c10 t-1
-307;Rampe inclinée métal (Sloped Railing);P6;1324.5;-2294.1;2400.0;210;300.0;2649.0;toit rampes r0 c10 t0
-308;Rampe inclinée métal (Sloped Railing);P6;1584.3;-2144.1;2400.0;210;306.46;2666.0;toit rampes r0 c10 t1
-309;Rampe inclinée métal (Sloped Railing);P6;1844.1;-1994.1;2400.0;210;312.76;2716.1;toit rampes r0 c10 t2
-310;Rampe inclinée métal (Sloped Railing);P6;1994.1;-1844.1;2400.0;240;317.24;2716.1;toit rampes r0 c11 t-2
-311;Rampe inclinée métal (Sloped Railing);P6;2144.1;-1584.3;2400.0;240;323.54;2666.0;toit rampes r0 c11 t-1
-312;Rampe inclinée métal (Sloped Railing);P6;2294.1;-1324.5;2400.0;240;330.0;2649.0;toit rampes r0 c11 t0
-313;Rampe inclinée métal (Sloped Railing);P6;2444.1;-1064.7;2400.0;240;336.46;2666.0;toit rampes r0 c11 t1
-314;Rampe inclinée métal (Sloped Railing);P6;2594.1;-804.9;2400.0;240;342.76;2716.1;toit rampes r0 c11 t2
-315;Rampe inclinée métal (Sloped Railing);P6;2349.0;-600.0;2700.0;270;345.67;2424.5;toit rampes r1 c0 t-2
-316;Rampe inclinée métal (Sloped Railing);P6;2349.0;-300.0;2700.0;270;352.72;2368.1;toit rampes r1 c0 t-1
-317;Rampe inclinée métal (Sloped Railing);P6;2349.0;0.0;2700.0;270;0.0;2349.0;toit rampes r1 c0 t0
-318;Rampe inclinée métal (Sloped Railing);P6;2349.0;300.0;2700.0;270;7.28;2368.1;toit rampes r1 c0 t1
-319;Rampe inclinée métal (Sloped Railing);P6;2349.0;600.0;2700.0;270;14.33;2424.5;toit rampes r1 c0 t2
-320;Rampe inclinée métal (Sloped Railing);P6;2334.3;654.9;2700.0;300;15.67;2424.5;toit rampes r1 c1 t-2
-321;Rampe inclinée métal (Sloped Railing);P6;2184.3;914.7;2700.0;300;22.72;2368.1;toit rampes r1 c1 t-1
-322;Rampe inclinée métal (Sloped Railing);P6;2034.3;1174.5;2700.0;300;30.0;2349.0;toit rampes r1 c1 t0
-323;Rampe inclinée métal (Sloped Railing);P6;1884.3;1434.3;2700.0;300;37.28;2368.1;toit rampes r1 c1 t1
-324;Rampe inclinée métal (Sloped Railing);P6;1734.3;1694.1;2700.0;300;44.33;2424.5;toit rampes r1 c1 t2
-325;Rampe inclinée métal (Sloped Railing);P6;1694.1;1734.3;2700.0;330;45.67;2424.5;toit rampes r1 c2 t-2
-326;Rampe inclinée métal (Sloped Railing);P6;1434.3;1884.3;2700.0;330;52.72;2368.1;toit rampes r1 c2 t-1
-327;Rampe inclinée métal (Sloped Railing);P6;1174.5;2034.3;2700.0;330;60.0;2349.0;toit rampes r1 c2 t0
-328;Rampe inclinée métal (Sloped Railing);P6;914.7;2184.3;2700.0;330;67.28;2368.1;toit rampes r1 c2 t1
-329;Rampe inclinée métal (Sloped Railing);P6;654.9;2334.3;2700.0;330;74.33;2424.5;toit rampes r1 c2 t2
-330;Rampe inclinée métal (Sloped Railing);P6;600.0;2349.0;2700.0;0;75.67;2424.5;toit rampes r1 c3 t-2
-331;Rampe inclinée métal (Sloped Railing);P6;300.0;2349.0;2700.0;0;82.72;2368.1;toit rampes r1 c3 t-1
-332;Rampe inclinée métal (Sloped Railing);P6;0.0;2349.0;2700.0;0;90.0;2349.0;toit rampes r1 c3 t0
-333;Rampe inclinée métal (Sloped Railing);P6;-300.0;2349.0;2700.0;0;97.28;2368.1;toit rampes r1 c3 t1
-334;Rampe inclinée métal (Sloped Railing);P6;-600.0;2349.0;2700.0;0;104.33;2424.5;toit rampes r1 c3 t2
-335;Rampe inclinée métal (Sloped Railing);P6;-654.9;2334.3;2700.0;30;105.67;2424.5;toit rampes r1 c4 t-2
-336;Rampe inclinée métal (Sloped Railing);P6;-914.7;2184.3;2700.0;30;112.72;2368.1;toit rampes r1 c4 t-1
-337;Rampe inclinée métal (Sloped Railing);P6;-1174.5;2034.3;2700.0;30;120.0;2349.0;toit rampes r1 c4 t0
-338;Rampe inclinée métal (Sloped Railing);P6;-1434.3;1884.3;2700.0;30;127.28;2368.1;toit rampes r1 c4 t1
-339;Rampe inclinée métal (Sloped Railing);P6;-1694.1;1734.3;2700.0;30;134.33;2424.5;toit rampes r1 c4 t2
-340;Rampe inclinée métal (Sloped Railing);P6;-1734.3;1694.1;2700.0;60;135.67;2424.5;toit rampes r1 c5 t-2
-341;Rampe inclinée métal (Sloped Railing);P6;-1884.3;1434.3;2700.0;60;142.72;2368.1;toit rampes r1 c5 t-1
-342;Rampe inclinée métal (Sloped Railing);P6;-2034.3;1174.5;2700.0;60;150.0;2349.0;toit rampes r1 c5 t0
-343;Rampe inclinée métal (Sloped Railing);P6;-2184.3;914.7;2700.0;60;157.28;2368.1;toit rampes r1 c5 t1
-344;Rampe inclinée métal (Sloped Railing);P6;-2184.3;-914.7;2700.0;120;202.72;2368.1;toit rampes r1 c7 t-1
-345;Rampe inclinée métal (Sloped Railing);P6;-2034.3;-1174.5;2700.0;120;210.0;2349.0;toit rampes r1 c7 t0
-346;Rampe inclinée métal (Sloped Railing);P6;-1884.3;-1434.3;2700.0;120;217.28;2368.1;toit rampes r1 c7 t1
-347;Rampe inclinée métal (Sloped Railing);P6;-1734.3;-1694.1;2700.0;120;224.33;2424.5;toit rampes r1 c7 t2
-348;Rampe inclinée métal (Sloped Railing);P6;-1694.1;-1734.3;2700.0;150;225.67;2424.5;toit rampes r1 c8 t-2
-349;Rampe inclinée métal (Sloped Railing);P6;-1434.3;-1884.3;2700.0;150;232.72;2368.1;toit rampes r1 c8 t-1
-350;Rampe inclinée métal (Sloped Railing);P6;-1174.5;-2034.3;2700.0;150;240.0;2349.0;toit rampes r1 c8 t0
-351;Rampe inclinée métal (Sloped Railing);P6;-914.7;-2184.3;2700.0;150;247.28;2368.1;toit rampes r1 c8 t1
-352;Rampe inclinée métal (Sloped Railing);P6;-654.9;-2334.3;2700.0;150;254.33;2424.5;toit rampes r1 c8 t2
-353;Rampe inclinée métal (Sloped Railing);P6;-600.0;-2349.0;2700.0;180;255.67;2424.5;toit rampes r1 c9 t-2
-354;Rampe inclinée métal (Sloped Railing);P6;-300.0;-2349.0;2700.0;180;262.72;2368.1;toit rampes r1 c9 t-1
-355;Rampe inclinée métal (Sloped Railing);P6;-0.0;-2349.0;2700.0;180;270.0;2349.0;toit rampes r1 c9 t0
-356;Rampe inclinée métal (Sloped Railing);P6;300.0;-2349.0;2700.0;180;277.28;2368.1;toit rampes r1 c9 t1
-357;Rampe inclinée métal (Sloped Railing);P6;600.0;-2349.0;2700.0;180;284.33;2424.5;toit rampes r1 c9 t2
-358;Rampe inclinée métal (Sloped Railing);P6;654.9;-2334.3;2700.0;210;285.67;2424.5;toit rampes r1 c10 t-2
-359;Rampe inclinée métal (Sloped Railing);P6;914.7;-2184.3;2700.0;210;292.72;2368.1;toit rampes r1 c10 t-1
-360;Rampe inclinée métal (Sloped Railing);P6;1174.5;-2034.3;2700.0;210;300.0;2349.0;toit rampes r1 c10 t0
-361;Rampe inclinée métal (Sloped Railing);P6;1434.3;-1884.3;2700.0;210;307.28;2368.1;toit rampes r1 c10 t1
-362;Rampe inclinée métal (Sloped Railing);P6;1694.1;-1734.3;2700.0;210;314.33;2424.5;toit rampes r1 c10 t2
-363;Rampe inclinée métal (Sloped Railing);P6;1734.3;-1694.1;2700.0;240;315.67;2424.5;toit rampes r1 c11 t-2
-364;Rampe inclinée métal (Sloped Railing);P6;1884.3;-1434.3;2700.0;240;322.72;2368.1;toit rampes r1 c11 t-1
-365;Rampe inclinée métal (Sloped Railing);P6;2034.3;-1174.5;2700.0;240;330.0;2349.0;toit rampes r1 c11 t0
-366;Rampe inclinée métal (Sloped Railing);P6;2184.3;-914.7;2700.0;240;337.28;2368.1;toit rampes r1 c11 t1
-367;Rampe inclinée métal (Sloped Railing);P6;2334.3;-654.9;2700.0;240;344.33;2424.5;toit rampes r1 c11 t2
-368;Rampe inclinée métal (Sloped Railing);P6;2049.0;-600.0;3000.0;270;343.68;2135.1;toit rampes r2 c0 t-2
-369;Rampe inclinée métal (Sloped Railing);P6;2049.0;-300.0;3000.0;270;351.67;2070.9;toit rampes r2 c0 t-1
-370;Rampe inclinée métal (Sloped Railing);P6;2049.0;0.0;3000.0;270;0.0;2049.0;toit rampes r2 c0 t0
-371;Rampe inclinée métal (Sloped Railing);P6;2049.0;300.0;3000.0;270;8.33;2070.9;toit rampes r2 c0 t1
-372;Rampe inclinée métal (Sloped Railing);P6;2049.0;600.0;3000.0;270;16.32;2135.1;toit rampes r2 c0 t2
-373;Rampe inclinée métal (Sloped Railing);P6;2074.5;504.9;3000.0;300;13.68;2135.1;toit rampes r2 c1 t-2
-374;Rampe inclinée métal (Sloped Railing);P6;1924.5;764.7;3000.0;300;21.67;2070.9;toit rampes r2 c1 t-1
-375;Rampe inclinée métal (Sloped Railing);P6;1774.5;1024.5;3000.0;300;30.0;2049.0;toit rampes r2 c1 t0
-376;Rampe inclinée métal (Sloped Railing);P6;1624.5;1284.3;3000.0;300;38.33;2070.9;toit rampes r2 c1 t1
-377;Rampe inclinée métal (Sloped Railing);P6;1474.5;1544.1;3000.0;300;46.32;2135.1;toit rampes r2 c1 t2
-378;Rampe inclinée métal (Sloped Railing);P6;1544.1;1474.5;3000.0;330;43.68;2135.1;toit rampes r2 c2 t-2
-379;Rampe inclinée métal (Sloped Railing);P6;1284.3;1624.5;3000.0;330;51.67;2070.9;toit rampes r2 c2 t-1
-380;Rampe inclinée métal (Sloped Railing);P6;1024.5;1774.5;3000.0;330;60.0;2049.0;toit rampes r2 c2 t0
-381;Rampe inclinée métal (Sloped Railing);P6;764.7;1924.5;3000.0;330;68.33;2070.9;toit rampes r2 c2 t1
-382;Rampe inclinée métal (Sloped Railing);P6;504.9;2074.5;3000.0;330;76.32;2135.1;toit rampes r2 c2 t2
-383;Rampe inclinée métal (Sloped Railing);P6;600.0;2049.0;3000.0;0;73.68;2135.1;toit rampes r2 c3 t-2
-384;Rampe inclinée métal (Sloped Railing);P6;300.0;2049.0;3000.0;0;81.67;2070.9;toit rampes r2 c3 t-1
-385;Rampe inclinée métal (Sloped Railing);P6;0.0;2049.0;3000.0;0;90.0;2049.0;toit rampes r2 c3 t0
-386;Rampe inclinée métal (Sloped Railing);P6;-300.0;2049.0;3000.0;0;98.33;2070.9;toit rampes r2 c3 t1
-387;Rampe inclinée métal (Sloped Railing);P6;-600.0;2049.0;3000.0;0;106.32;2135.1;toit rampes r2 c3 t2
-388;Rampe inclinée métal (Sloped Railing);P6;-504.9;2074.5;3000.0;30;103.68;2135.1;toit rampes r2 c4 t-2
-389;Rampe inclinée métal (Sloped Railing);P6;-764.7;1924.5;3000.0;30;111.67;2070.9;toit rampes r2 c4 t-1
-390;Rampe inclinée métal (Sloped Railing);P6;-1024.5;1774.5;3000.0;30;120.0;2049.0;toit rampes r2 c4 t0
-391;Rampe inclinée métal (Sloped Railing);P6;-1284.3;1624.5;3000.0;30;128.33;2070.9;toit rampes r2 c4 t1
-392;Rampe inclinée métal (Sloped Railing);P6;-1544.1;1474.5;3000.0;30;136.32;2135.1;toit rampes r2 c4 t2
-393;Rampe inclinée métal (Sloped Railing);P6;-1474.5;1544.1;3000.0;60;133.68;2135.1;toit rampes r2 c5 t-2
-394;Rampe inclinée métal (Sloped Railing);P6;-1624.5;1284.3;3000.0;60;141.67;2070.9;toit rampes r2 c5 t-1
-395;Rampe inclinée métal (Sloped Railing);P6;-1774.5;1024.5;3000.0;60;150.0;2049.0;toit rampes r2 c5 t0
-396;Rampe inclinée métal (Sloped Railing);P6;-1774.5;-1024.5;3000.0;120;210.0;2049.0;toit rampes r2 c7 t0
-397;Rampe inclinée métal (Sloped Railing);P6;-1624.5;-1284.3;3000.0;120;218.33;2070.9;toit rampes r2 c7 t1
-398;Rampe inclinée métal (Sloped Railing);P6;-1474.5;-1544.1;3000.0;120;226.32;2135.1;toit rampes r2 c7 t2
-399;Rampe inclinée métal (Sloped Railing);P6;-1544.1;-1474.5;3000.0;150;223.68;2135.1;toit rampes r2 c8 t-2
-400;Rampe inclinée métal (Sloped Railing);P6;-1284.3;-1624.5;3000.0;150;231.67;2070.9;toit rampes r2 c8 t-1
-401;Rampe inclinée métal (Sloped Railing);P6;-1024.5;-1774.5;3000.0;150;240.0;2049.0;toit rampes r2 c8 t0
-402;Rampe inclinée métal (Sloped Railing);P6;-764.7;-1924.5;3000.0;150;248.33;2070.9;toit rampes r2 c8 t1
-403;Rampe inclinée métal (Sloped Railing);P6;-504.9;-2074.5;3000.0;150;256.32;2135.1;toit rampes r2 c8 t2
-404;Rampe inclinée métal (Sloped Railing);P6;-600.0;-2049.0;3000.0;180;253.68;2135.1;toit rampes r2 c9 t-2
-405;Rampe inclinée métal (Sloped Railing);P6;-300.0;-2049.0;3000.0;180;261.67;2070.9;toit rampes r2 c9 t-1
-406;Rampe inclinée métal (Sloped Railing);P6;-0.0;-2049.0;3000.0;180;270.0;2049.0;toit rampes r2 c9 t0
-407;Rampe inclinée métal (Sloped Railing);P6;300.0;-2049.0;3000.0;180;278.33;2070.9;toit rampes r2 c9 t1
-408;Rampe inclinée métal (Sloped Railing);P6;600.0;-2049.0;3000.0;180;286.32;2135.1;toit rampes r2 c9 t2
-409;Rampe inclinée métal (Sloped Railing);P6;504.9;-2074.5;3000.0;210;283.68;2135.1;toit rampes r2 c10 t-2
-410;Rampe inclinée métal (Sloped Railing);P6;764.7;-1924.5;3000.0;210;291.67;2070.9;toit rampes r2 c10 t-1
-411;Rampe inclinée métal (Sloped Railing);P6;1024.5;-1774.5;3000.0;210;300.0;2049.0;toit rampes r2 c10 t0
-412;Rampe inclinée métal (Sloped Railing);P6;1284.3;-1624.5;3000.0;210;308.33;2070.9;toit rampes r2 c10 t1
-413;Rampe inclinée métal (Sloped Railing);P6;1544.1;-1474.5;3000.0;210;316.32;2135.1;toit rampes r2 c10 t2
-414;Rampe inclinée métal (Sloped Railing);P6;1474.5;-1544.1;3000.0;240;313.68;2135.1;toit rampes r2 c11 t-2
-415;Rampe inclinée métal (Sloped Railing);P6;1624.5;-1284.3;3000.0;240;321.67;2070.9;toit rampes r2 c11 t-1
-416;Rampe inclinée métal (Sloped Railing);P6;1774.5;-1024.5;3000.0;240;330.0;2049.0;toit rampes r2 c11 t0
-417;Rampe inclinée métal (Sloped Railing);P6;1924.5;-764.7;3000.0;240;338.33;2070.9;toit rampes r2 c11 t1
-418;Rampe inclinée métal (Sloped Railing);P6;2074.5;-504.9;3000.0;240;346.32;2135.1;toit rampes r2 c11 t2
-419;Rampe inclinée métal (Sloped Railing);P6;1749.0;-600.0;3300.0;270;341.07;1849.1;toit rampes r3 c0 t-2
-420;Rampe inclinée métal (Sloped Railing);P6;1749.0;-300.0;3300.0;270;350.27;1774.6;toit rampes r3 c0 t-1
-421;Rampe inclinée métal (Sloped Railing);P6;1749.0;0.0;3300.0;270;0.0;1749.0;toit rampes r3 c0 t0
-422;Rampe inclinée métal (Sloped Railing);P6;1749.0;300.0;3300.0;270;9.73;1774.6;toit rampes r3 c0 t1
-423;Rampe inclinée métal (Sloped Railing);P6;1749.0;600.0;3300.0;270;18.93;1849.1;toit rampes r3 c0 t2
-424;Rampe inclinée métal (Sloped Railing);P6;1814.7;354.9;3300.0;300;11.07;1849.1;toit rampes r3 c1 t-2
-425;Rampe inclinée métal (Sloped Railing);P6;1664.7;614.7;3300.0;300;20.27;1774.6;toit rampes r3 c1 t-1
-426;Rampe inclinée métal (Sloped Railing);P6;1514.7;874.5;3300.0;300;30.0;1749.0;toit rampes r3 c1 t0
-427;Rampe inclinée métal (Sloped Railing);P6;1364.7;1134.3;3300.0;300;39.73;1774.6;toit rampes r3 c1 t1
-428;Rampe inclinée métal (Sloped Railing);P6;1214.7;1394.1;3300.0;300;48.93;1849.1;toit rampes r3 c1 t2
-429;Rampe inclinée métal (Sloped Railing);P6;1394.1;1214.7;3300.0;330;41.07;1849.1;toit rampes r3 c2 t-2
-430;Rampe inclinée métal (Sloped Railing);P6;1134.3;1364.7;3300.0;330;50.27;1774.6;toit rampes r3 c2 t-1
-431;Rampe inclinée métal (Sloped Railing);P6;874.5;1514.7;3300.0;330;60.0;1749.0;toit rampes r3 c2 t0
-432;Rampe inclinée métal (Sloped Railing);P6;614.7;1664.7;3300.0;330;69.73;1774.6;toit rampes r3 c2 t1
-433;Rampe inclinée métal (Sloped Railing);P6;354.9;1814.7;3300.0;330;78.93;1849.1;toit rampes r3 c2 t2
-434;Rampe inclinée métal (Sloped Railing);P6;600.0;1749.0;3300.0;0;71.07;1849.1;toit rampes r3 c3 t-2
-435;Rampe inclinée métal (Sloped Railing);P6;300.0;1749.0;3300.0;0;80.27;1774.6;toit rampes r3 c3 t-1
-436;Rampe inclinée métal (Sloped Railing);P6;0.0;1749.0;3300.0;0;90.0;1749.0;toit rampes r3 c3 t0
-437;Rampe inclinée métal (Sloped Railing);P6;-300.0;1749.0;3300.0;0;99.73;1774.6;toit rampes r3 c3 t1
-438;Rampe inclinée métal (Sloped Railing);P6;-600.0;1749.0;3300.0;0;108.93;1849.1;toit rampes r3 c3 t2
-439;Rampe inclinée métal (Sloped Railing);P6;-354.9;1814.7;3300.0;30;101.07;1849.1;toit rampes r3 c4 t-2
-440;Rampe inclinée métal (Sloped Railing);P6;-614.7;1664.7;3300.0;30;110.27;1774.6;toit rampes r3 c4 t-1
-441;Rampe inclinée métal (Sloped Railing);P6;-874.5;1514.7;3300.0;30;120.0;1749.0;toit rampes r3 c4 t0
-442;Rampe inclinée métal (Sloped Railing);P6;-1134.3;1364.7;3300.0;30;129.73;1774.6;toit rampes r3 c4 t1
-443;Rampe inclinée métal (Sloped Railing);P6;-1394.1;1214.7;3300.0;30;138.93;1849.1;toit rampes r3 c4 t2
-444;Rampe inclinée métal (Sloped Railing);P6;-1214.7;1394.1;3300.0;60;131.07;1849.1;toit rampes r3 c5 t-2
-445;Rampe inclinée métal (Sloped Railing);P6;-1364.7;1134.3;3300.0;60;140.27;1774.6;toit rampes r3 c5 t-1
-446;Rampe inclinée métal (Sloped Railing);P6;-1514.7;874.5;3300.0;60;150.0;1749.0;toit rampes r3 c5 t0
-447;Rampe inclinée métal (Sloped Railing);P6;-1514.7;-874.5;3300.0;120;210.0;1749.0;toit rampes r3 c7 t0
-448;Rampe inclinée métal (Sloped Railing);P6;-1364.7;-1134.3;3300.0;120;219.73;1774.6;toit rampes r3 c7 t1
-449;Rampe inclinée métal (Sloped Railing);P6;-1214.7;-1394.1;3300.0;120;228.93;1849.1;toit rampes r3 c7 t2
-450;Rampe inclinée métal (Sloped Railing);P6;-1394.1;-1214.7;3300.0;150;221.07;1849.1;toit rampes r3 c8 t-2
-451;Rampe inclinée métal (Sloped Railing);P6;-1134.3;-1364.7;3300.0;150;230.27;1774.6;toit rampes r3 c8 t-1
-452;Rampe inclinée métal (Sloped Railing);P6;-874.5;-1514.7;3300.0;150;240.0;1749.0;toit rampes r3 c8 t0
-453;Rampe inclinée métal (Sloped Railing);P6;-614.7;-1664.7;3300.0;150;249.73;1774.6;toit rampes r3 c8 t1
-454;Rampe inclinée métal (Sloped Railing);P6;-354.9;-1814.7;3300.0;150;258.93;1849.1;toit rampes r3 c8 t2
-455;Rampe inclinée métal (Sloped Railing);P6;-600.0;-1749.0;3300.0;180;251.07;1849.1;toit rampes r3 c9 t-2
-456;Rampe inclinée métal (Sloped Railing);P6;-300.0;-1749.0;3300.0;180;260.27;1774.6;toit rampes r3 c9 t-1
-457;Rampe inclinée métal (Sloped Railing);P6;-0.0;-1749.0;3300.0;180;270.0;1749.0;toit rampes r3 c9 t0
-458;Rampe inclinée métal (Sloped Railing);P6;300.0;-1749.0;3300.0;180;279.73;1774.6;toit rampes r3 c9 t1
-459;Rampe inclinée métal (Sloped Railing);P6;600.0;-1749.0;3300.0;180;288.93;1849.1;toit rampes r3 c9 t2
-460;Rampe inclinée métal (Sloped Railing);P6;354.9;-1814.7;3300.0;210;281.07;1849.1;toit rampes r3 c10 t-2
-461;Rampe inclinée métal (Sloped Railing);P6;614.7;-1664.7;3300.0;210;290.27;1774.6;toit rampes r3 c10 t-1
-462;Rampe inclinée métal (Sloped Railing);P6;874.5;-1514.7;3300.0;210;300.0;1749.0;toit rampes r3 c10 t0
-463;Rampe inclinée métal (Sloped Railing);P6;1134.3;-1364.7;3300.0;210;309.73;1774.6;toit rampes r3 c10 t1
-464;Rampe inclinée métal (Sloped Railing);P6;1394.1;-1214.7;3300.0;210;318.93;1849.1;toit rampes r3 c10 t2
-465;Rampe inclinée métal (Sloped Railing);P6;1214.7;-1394.1;3300.0;240;311.07;1849.1;toit rampes r3 c11 t-2
-466;Rampe inclinée métal (Sloped Railing);P6;1364.7;-1134.3;3300.0;240;320.27;1774.6;toit rampes r3 c11 t-1
-467;Rampe inclinée métal (Sloped Railing);P6;1514.7;-874.5;3300.0;240;330.0;1749.0;toit rampes r3 c11 t0
-468;Rampe inclinée métal (Sloped Railing);P6;1664.7;-614.7;3300.0;240;339.73;1774.6;toit rampes r3 c11 t1
-469;Rampe inclinée métal (Sloped Railing);P6;1814.7;-354.9;3300.0;240;348.93;1849.1;toit rampes r3 c11 t2
-470;Rampe inclinée métal (Sloped Railing);P6;1449.0;-300.0;3600.0;270;348.3;1479.8;toit rampes r4 c0 t-1
-471;Rampe inclinée métal (Sloped Railing);P6;1449.0;0.0;3600.0;270;0.0;1449.0;toit rampes r4 c0 t0
-472;Rampe inclinée métal (Sloped Railing);P6;1449.0;300.0;3600.0;270;11.7;1479.8;toit rampes r4 c0 t1
-473;Rampe inclinée métal (Sloped Railing);P6;1404.9;464.7;3600.0;300;18.3;1479.8;toit rampes r4 c1 t-1
-474;Rampe inclinée métal (Sloped Railing);P6;1254.9;724.5;3600.0;300;30.0;1449.0;toit rampes r4 c1 t0
-475;Rampe inclinée métal (Sloped Railing);P6;1104.9;984.3;3600.0;300;41.7;1479.8;toit rampes r4 c1 t1
-476;Rampe inclinée métal (Sloped Railing);P6;984.3;1104.9;3600.0;330;48.3;1479.8;toit rampes r4 c2 t-1
-477;Rampe inclinée métal (Sloped Railing);P6;724.5;1254.9;3600.0;330;60.0;1449.0;toit rampes r4 c2 t0
-478;Rampe inclinée métal (Sloped Railing);P6;464.7;1404.9;3600.0;330;71.7;1479.8;toit rampes r4 c2 t1
-479;Rampe inclinée métal (Sloped Railing);P6;300.0;1449.0;3600.0;0;78.3;1479.8;toit rampes r4 c3 t-1
-480;Rampe inclinée métal (Sloped Railing);P6;0.0;1449.0;3600.0;0;90.0;1449.0;toit rampes r4 c3 t0
-481;Rampe inclinée métal (Sloped Railing);P6;-300.0;1449.0;3600.0;0;101.7;1479.8;toit rampes r4 c3 t1
-482;Rampe inclinée métal (Sloped Railing);P6;-464.7;1404.9;3600.0;30;108.3;1479.8;toit rampes r4 c4 t-1
-483;Rampe inclinée métal (Sloped Railing);P6;-724.5;1254.9;3600.0;30;120.0;1449.0;toit rampes r4 c4 t0
-484;Rampe inclinée métal (Sloped Railing);P6;-984.3;1104.9;3600.0;30;131.7;1479.8;toit rampes r4 c4 t1
-485;Rampe inclinée métal (Sloped Railing);P6;-1104.9;984.3;3600.0;60;138.3;1479.8;toit rampes r4 c5 t-1
-486;Rampe inclinée métal (Sloped Railing);P6;-1254.9;724.5;3600.0;60;150.0;1449.0;toit rampes r4 c5 t0
-487;Rampe inclinée métal (Sloped Railing);P6;-1254.9;-724.5;3600.0;120;210.0;1449.0;toit rampes r4 c7 t0
-488;Rampe inclinée métal (Sloped Railing);P6;-1104.9;-984.3;3600.0;120;221.7;1479.8;toit rampes r4 c7 t1
-489;Rampe inclinée métal (Sloped Railing);P6;-984.3;-1104.9;3600.0;150;228.3;1479.8;toit rampes r4 c8 t-1
-490;Rampe inclinée métal (Sloped Railing);P6;-724.5;-1254.9;3600.0;150;240.0;1449.0;toit rampes r4 c8 t0
-491;Rampe inclinée métal (Sloped Railing);P6;-464.7;-1404.9;3600.0;150;251.7;1479.8;toit rampes r4 c8 t1
-492;Rampe inclinée métal (Sloped Railing);P6;-300.0;-1449.0;3600.0;180;258.3;1479.8;toit rampes r4 c9 t-1
-493;Rampe inclinée métal (Sloped Railing);P6;-0.0;-1449.0;3600.0;180;270.0;1449.0;toit rampes r4 c9 t0
-494;Rampe inclinée métal (Sloped Railing);P6;300.0;-1449.0;3600.0;180;281.7;1479.8;toit rampes r4 c9 t1
-495;Rampe inclinée métal (Sloped Railing);P6;464.7;-1404.9;3600.0;210;288.3;1479.8;toit rampes r4 c10 t-1
-496;Rampe inclinée métal (Sloped Railing);P6;724.5;-1254.9;3600.0;210;300.0;1449.0;toit rampes r4 c10 t0
-497;Rampe inclinée métal (Sloped Railing);P6;984.3;-1104.9;3600.0;210;311.7;1479.8;toit rampes r4 c10 t1
-498;Rampe inclinée métal (Sloped Railing);P6;1104.9;-984.3;3600.0;240;318.3;1479.8;toit rampes r4 c11 t-1
-499;Rampe inclinée métal (Sloped Railing);P6;1254.9;-724.5;3600.0;240;330.0;1449.0;toit rampes r4 c11 t0
-500;Rampe inclinée métal (Sloped Railing);P6;1404.9;-464.7;3600.0;240;341.7;1479.8;toit rampes r4 c11 t1
-501;Rampe inclinée métal (Sloped Railing);P6;1149.0;-300.0;3900.0;270;345.37;1187.6;toit rampes r5 c0 t-1
-502;Rampe inclinée métal (Sloped Railing);P6;1149.0;0.0;3900.0;270;0.0;1149.0;toit rampes r5 c0 t0
-503;Rampe inclinée métal (Sloped Railing);P6;1149.0;300.0;3900.0;270;14.63;1187.6;toit rampes r5 c0 t1
-504;Rampe inclinée métal (Sloped Railing);P6;1145.1;314.7;3900.0;300;15.37;1187.6;toit rampes r5 c1 t-1
-505;Rampe inclinée métal (Sloped Railing);P6;995.1;574.5;3900.0;300;30.0;1149.0;toit rampes r5 c1 t0
-506;Rampe inclinée métal (Sloped Railing);P6;845.1;834.3;3900.0;300;44.63;1187.6;toit rampes r5 c1 t1
-507;Rampe inclinée métal (Sloped Railing);P6;834.3;845.1;3900.0;330;45.37;1187.6;toit rampes r5 c2 t-1
-508;Rampe inclinée métal (Sloped Railing);P6;574.5;995.1;3900.0;330;60.0;1149.0;toit rampes r5 c2 t0
-509;Rampe inclinée métal (Sloped Railing);P6;314.7;1145.1;3900.0;330;74.63;1187.6;toit rampes r5 c2 t1
-510;Rampe inclinée métal (Sloped Railing);P6;300.0;1149.0;3900.0;0;75.37;1187.6;toit rampes r5 c3 t-1
-511;Rampe inclinée métal (Sloped Railing);P6;0.0;1149.0;3900.0;0;90.0;1149.0;toit rampes r5 c3 t0
-512;Rampe inclinée métal (Sloped Railing);P6;-300.0;1149.0;3900.0;0;104.63;1187.6;toit rampes r5 c3 t1
-513;Rampe inclinée métal (Sloped Railing);P6;-314.7;1145.1;3900.0;30;105.37;1187.6;toit rampes r5 c4 t-1
-514;Rampe inclinée métal (Sloped Railing);P6;-574.5;995.1;3900.0;30;120.0;1149.0;toit rampes r5 c4 t0
-515;Rampe inclinée métal (Sloped Railing);P6;-834.3;845.1;3900.0;30;134.63;1187.6;toit rampes r5 c4 t1
-516;Rampe inclinée métal (Sloped Railing);P6;-845.1;834.3;3900.0;60;135.37;1187.6;toit rampes r5 c5 t-1
-517;Rampe inclinée métal (Sloped Railing);P6;-995.1;574.5;3900.0;60;150.0;1149.0;toit rampes r5 c5 t0
-518;Rampe inclinée métal (Sloped Railing);P6;-1145.1;314.7;3900.0;60;164.63;1187.6;toit rampes r5 c5 t1
-519;Rampe inclinée métal (Sloped Railing);P6;-1145.1;-314.7;3900.0;120;195.37;1187.6;toit rampes r5 c7 t-1
-520;Rampe inclinée métal (Sloped Railing);P6;-995.1;-574.5;3900.0;120;210.0;1149.0;toit rampes r5 c7 t0
-521;Rampe inclinée métal (Sloped Railing);P6;-845.1;-834.3;3900.0;120;224.63;1187.6;toit rampes r5 c7 t1
-522;Rampe inclinée métal (Sloped Railing);P6;-834.3;-845.1;3900.0;150;225.37;1187.6;toit rampes r5 c8 t-1
-523;Rampe inclinée métal (Sloped Railing);P6;-574.5;-995.1;3900.0;150;240.0;1149.0;toit rampes r5 c8 t0
-524;Rampe inclinée métal (Sloped Railing);P6;-314.7;-1145.1;3900.0;150;254.63;1187.6;toit rampes r5 c8 t1
-525;Rampe inclinée métal (Sloped Railing);P6;-300.0;-1149.0;3900.0;180;255.37;1187.6;toit rampes r5 c9 t-1
-526;Rampe inclinée métal (Sloped Railing);P6;-0.0;-1149.0;3900.0;180;270.0;1149.0;toit rampes r5 c9 t0
-527;Rampe inclinée métal (Sloped Railing);P6;300.0;-1149.0;3900.0;180;284.63;1187.6;toit rampes r5 c9 t1
-528;Rampe inclinée métal (Sloped Railing);P6;314.7;-1145.1;3900.0;210;285.37;1187.6;toit rampes r5 c10 t-1
-529;Rampe inclinée métal (Sloped Railing);P6;574.5;-995.1;3900.0;210;300.0;1149.0;toit rampes r5 c10 t0
-530;Rampe inclinée métal (Sloped Railing);P6;834.3;-845.1;3900.0;210;314.63;1187.6;toit rampes r5 c10 t1
-531;Rampe inclinée métal (Sloped Railing);P6;845.1;-834.3;3900.0;240;315.37;1187.6;toit rampes r5 c11 t-1
-532;Rampe inclinée métal (Sloped Railing);P6;995.1;-574.5;3900.0;240;330.0;1149.0;toit rampes r5 c11 t0
-533;Rampe inclinée métal (Sloped Railing);P6;1145.1;-314.7;3900.0;240;344.63;1187.6;toit rampes r5 c11 t1
-534;Rampe inclinée métal (Sloped Railing);P6;849.0;-300.0;4200.0;270;340.54;900.5;toit rampes r6 c0 t-1
-535;Rampe inclinée métal (Sloped Railing);P6;849.0;0.0;4200.0;270;0.0;849.0;toit rampes r6 c0 t0
-536;Rampe inclinée métal (Sloped Railing);P6;849.0;300.0;4200.0;270;19.46;900.5;toit rampes r6 c0 t1
-537;Rampe inclinée métal (Sloped Railing);P6;885.3;164.7;4200.0;300;10.54;900.5;toit rampes r6 c1 t-1
-538;Rampe inclinée métal (Sloped Railing);P6;735.3;424.5;4200.0;300;30.0;849.0;toit rampes r6 c1 t0
-539;Rampe inclinée métal (Sloped Railing);P6;585.3;684.3;4200.0;300;49.46;900.5;toit rampes r6 c1 t1
-540;Rampe inclinée métal (Sloped Railing);P6;684.3;585.3;4200.0;330;40.54;900.5;toit rampes r6 c2 t-1
-541;Rampe inclinée métal (Sloped Railing);P6;424.5;735.3;4200.0;330;60.0;849.0;toit rampes r6 c2 t0
-542;Rampe inclinée métal (Sloped Railing);P6;164.7;885.3;4200.0;330;79.46;900.5;toit rampes r6 c2 t1
-543;Rampe inclinée métal (Sloped Railing);P6;300.0;849.0;4200.0;0;70.54;900.5;toit rampes r6 c3 t-1
-544;Rampe inclinée métal (Sloped Railing);P6;0.0;849.0;4200.0;0;90.0;849.0;toit rampes r6 c3 t0
-545;Rampe inclinée métal (Sloped Railing);P6;-300.0;849.0;4200.0;0;109.46;900.5;toit rampes r6 c3 t1
-546;Rampe inclinée métal (Sloped Railing);P6;-164.7;885.3;4200.0;30;100.54;900.5;toit rampes r6 c4 t-1
-547;Rampe inclinée métal (Sloped Railing);P6;-424.5;735.3;4200.0;30;120.0;849.0;toit rampes r6 c4 t0
-548;Rampe inclinée métal (Sloped Railing);P6;-684.3;585.3;4200.0;30;139.46;900.5;toit rampes r6 c4 t1
-549;Rampe inclinée métal (Sloped Railing);P6;-585.3;684.3;4200.0;60;130.54;900.5;toit rampes r6 c5 t-1
-550;Rampe inclinée métal (Sloped Railing);P6;-735.3;424.5;4200.0;60;150.0;849.0;toit rampes r6 c5 t0
-551;Rampe inclinée métal (Sloped Railing);P6;-885.3;164.7;4200.0;60;169.46;900.5;toit rampes r6 c5 t1
-552;Rampe inclinée métal (Sloped Railing);P6;-849.0;300.0;4200.0;90;160.54;900.5;toit rampes r6 c6 t-1
-553;Rampe inclinée métal (Sloped Railing);P6;-849.0;0.0;4200.0;90;180.0;849.0;toit rampes r6 c6 t0
-554;Rampe inclinée métal (Sloped Railing);P6;-849.0;-300.0;4200.0;90;199.46;900.5;toit rampes r6 c6 t1
-555;Rampe inclinée métal (Sloped Railing);P6;-885.3;-164.7;4200.0;120;190.54;900.5;toit rampes r6 c7 t-1
-556;Rampe inclinée métal (Sloped Railing);P6;-735.3;-424.5;4200.0;120;210.0;849.0;toit rampes r6 c7 t0
-557;Rampe inclinée métal (Sloped Railing);P6;-585.3;-684.3;4200.0;120;229.46;900.5;toit rampes r6 c7 t1
-558;Rampe inclinée métal (Sloped Railing);P6;-684.3;-585.3;4200.0;150;220.54;900.5;toit rampes r6 c8 t-1
-559;Rampe inclinée métal (Sloped Railing);P6;-424.5;-735.3;4200.0;150;240.0;849.0;toit rampes r6 c8 t0
-560;Rampe inclinée métal (Sloped Railing);P6;-164.7;-885.3;4200.0;150;259.46;900.5;toit rampes r6 c8 t1
-561;Rampe inclinée métal (Sloped Railing);P6;-300.0;-849.0;4200.0;180;250.54;900.5;toit rampes r6 c9 t-1
-562;Rampe inclinée métal (Sloped Railing);P6;-0.0;-849.0;4200.0;180;270.0;849.0;toit rampes r6 c9 t0
-563;Rampe inclinée métal (Sloped Railing);P6;300.0;-849.0;4200.0;180;289.46;900.5;toit rampes r6 c9 t1
-564;Rampe inclinée métal (Sloped Railing);P6;164.7;-885.3;4200.0;210;280.54;900.5;toit rampes r6 c10 t-1
-565;Rampe inclinée métal (Sloped Railing);P6;424.5;-735.3;4200.0;210;300.0;849.0;toit rampes r6 c10 t0
-566;Rampe inclinée métal (Sloped Railing);P6;684.3;-585.3;4200.0;210;319.46;900.5;toit rampes r6 c10 t1
-567;Rampe inclinée métal (Sloped Railing);P6;585.3;-684.3;4200.0;240;310.54;900.5;toit rampes r6 c11 t-1
-568;Rampe inclinée métal (Sloped Railing);P6;735.3;-424.5;4200.0;240;330.0;849.0;toit rampes r6 c11 t0
-569;Rampe inclinée métal (Sloped Railing);P6;885.3;-164.7;4200.0;240;349.46;900.5;toit rampes r6 c11 t1
-570;Rampe inclinée métal (Sloped Railing);P6;549.0;0.0;4500.0;270;0.0;549.0;toit rampes r7 c0 t0
-571;Rampe inclinée métal (Sloped Railing);P6;475.5;274.5;4500.0;300;30.0;549.0;toit rampes r7 c1 t0
-572;Rampe inclinée métal (Sloped Railing);P6;274.5;475.5;4500.0;330;60.0;549.0;toit rampes r7 c2 t0
-573;Rampe inclinée métal (Sloped Railing);P6;0.0;549.0;4500.0;0;90.0;549.0;toit rampes r7 c3 t0
-574;Rampe inclinée métal (Sloped Railing);P6;-274.5;475.5;4500.0;30;120.0;549.0;toit rampes r7 c4 t0
-575;Rampe inclinée métal (Sloped Railing);P6;-475.5;274.5;4500.0;60;150.0;549.0;toit rampes r7 c5 t0
-576;Rampe inclinée métal (Sloped Railing);P6;-549.0;0.0;4500.0;90;180.0;549.0;toit rampes r7 c6 t0
-577;Rampe inclinée métal (Sloped Railing);P6;-475.5;-274.5;4500.0;120;210.0;549.0;toit rampes r7 c7 t0
-578;Rampe inclinée métal (Sloped Railing);P6;-274.5;-475.5;4500.0;150;240.0;549.0;toit rampes r7 c8 t0
-579;Rampe inclinée métal (Sloped Railing);P6;-0.0;-549.0;4500.0;180;270.0;549.0;toit rampes r7 c9 t0
-580;Rampe inclinée métal (Sloped Railing);P6;274.5;-475.5;4500.0;210;300.0;549.0;toit rampes r7 c10 t0
-581;Rampe inclinée métal (Sloped Railing);P6;475.5;-274.5;4500.0;240;330.0;549.0;toit rampes r7 c11 t0
-582;Rampe inclinée métal (Sloped Railing);P6;249.0;0.0;4800.0;270;0.0;249.0;toit rampes r8 c0 t0
-583;Rampe inclinée métal (Sloped Railing);P6;215.7;124.5;4800.0;300;30.0;249.0;toit rampes r8 c1 t0
-584;Rampe inclinée métal (Sloped Railing);P6;124.5;215.7;4800.0;330;60.0;249.0;toit rampes r8 c2 t0
-585;Rampe inclinée métal (Sloped Railing);P6;0.0;249.0;4800.0;0;90.0;249.0;toit rampes r8 c3 t0
-586;Rampe inclinée métal (Sloped Railing);P6;-124.5;215.7;4800.0;30;120.0;249.0;toit rampes r8 c4 t0
-587;Rampe inclinée métal (Sloped Railing);P6;-215.7;124.5;4800.0;60;150.0;249.0;toit rampes r8 c5 t0
-588;Rampe inclinée métal (Sloped Railing);P6;-249.0;0.0;4800.0;90;180.0;249.0;toit rampes r8 c6 t0
-589;Rampe inclinée métal (Sloped Railing);P6;-215.7;-124.5;4800.0;120;210.0;249.0;toit rampes r8 c7 t0
-590;Rampe inclinée métal (Sloped Railing);P6;-124.5;-215.7;4800.0;150;240.0;249.0;toit rampes r8 c8 t0
-591;Rampe inclinée métal (Sloped Railing);P6;-0.0;-249.0;4800.0;180;270.0;249.0;toit rampes r8 c9 t0
-592;Rampe inclinée métal (Sloped Railing);P6;124.5;-215.7;4800.0;210;300.0;249.0;toit rampes r8 c10 t0
-593;Rampe inclinée métal (Sloped Railing);P6;215.7;-124.5;4800.0;240;330.0;249.0;toit rampes r8 c11 t0
-594;Rampe inclinée métal (Sloped Railing);P6;-1734.3;654.9;2100.0;150.0;159.31;1853.9;casquette du trou θ154.7
-595;Rampe inclinée métal (Sloped Railing);P6;-1939.2;709.8;2100.0;180.0;159.9;2065.1;casquette du trou θ156.1
-596;Rampe inclinée métal (Sloped Railing);P6;-2294.1;804.9;2100.0;150.0;160.67;2431.2;casquette du trou θ157.2
-597;Rampe inclinée métal (Sloped Railing);P6;-2499.0;859.8;2100.0;180.0;161.01;2642.8;casquette du trou θ158.0
-598;Rampe inclinée métal (Sloped Railing);P6;-1584.3;504.9;2100.0;120.0;162.32;1662.8;casquette du trou θ158.3
-599;Rampe inclinée métal (Sloped Railing);P6;-1324.5;245.1;2100.0;150.0;169.52;1347.0;casquette du trou θ163.3
-600;Rampe inclinée métal (Sloped Railing);P6;-1269.6;-150.0;2100.0;90.0;186.74;1278.4;casquette du trou θ187.6
-601;Rampe inclinée métal (Sloped Railing);P6;-1584.3;-504.9;2100.0;60.0;197.68;1662.8;casquette du trou θ201.7
-602;Rampe inclinée métal (Sloped Railing);P6;-2499.0;-859.8;2100.0;0.0;198.99;2642.8;casquette du trou θ202.0
-603;Rampe inclinée métal (Sloped Railing);P6;-2294.1;-804.9;2100.0;30.0;199.33;2431.2;casquette du trou θ202.8
-604;Rampe inclinée métal (Sloped Railing);P6;-1939.2;-709.8;2100.0;0.0;200.1;2065.1;casquette du trou θ203.9
-605;Rampe inclinée métal (Sloped Railing);P6;-1734.3;-654.9;2100.0;30.0;200.69;1853.9;casquette du trou θ205.3
+262;Pilier fin métal (Thin Pillar);P6;2499.0;-300.0;2400.0;0;353.15;2517.0;appui toit c0 t-300 : poteau
+263;Pilier fin métal (Thin Pillar);P6;1899.0;0.0;2400.0;0;0.0;1899.0;appui toit c0 t-0 : poteau
+264;Pilier fin métal (Thin Pillar);P6;1899.0;0.0;2700.0;0;0.0;1899.0;appui toit c0 t-0 : poteau
+265;Pilier fin métal (Thin Pillar);P6;1899.0;0.0;3000.0;0;0.0;1899.0;appui toit c0 t-0 : poteau
+266;Pilier fin métal (Thin Pillar);P6;2499.0;300.0;2400.0;0;6.85;2517.0;appui toit c0 t+300 : poteau
+267;Pilier fin métal (Thin Pillar);P6;1644.6;949.5;2400.0;30;30.0;1899.0;appui toit c1 t-0 : poteau
+268;Pilier fin métal (Thin Pillar);P6;1644.6;949.5;2700.0;30;30.0;1899.0;appui toit c1 t-0 : poteau
+269;Pilier fin métal (Thin Pillar);P6;1644.6;949.5;3000.0;30;30.0;1899.0;appui toit c1 t-0 : poteau
+270;Pilier fin métal (Thin Pillar);P6;2014.2;1509.3;2400.0;30;36.85;2517.0;appui toit c1 t+300 : poteau
+271;Pilier fin métal (Thin Pillar);P6;949.5;1644.6;2400.0;60;60.0;1899.0;appui toit c2 t-0 : poteau
+272;Pilier fin métal (Thin Pillar);P6;949.5;1644.6;2700.0;60;60.0;1899.0;appui toit c2 t-0 : poteau
+273;Pilier fin métal (Thin Pillar);P6;949.5;1644.6;3000.0;60;60.0;1899.0;appui toit c2 t-0 : poteau
+274;Pilier fin métal (Thin Pillar);P6;300.0;2499.0;2400.0;90;83.15;2517.0;appui toit c3 t-300 : poteau
+275;Pilier fin métal (Thin Pillar);P6;-0.0;1899.0;2400.0;90;90.0;1899.0;appui toit c3 t-0 : poteau
+276;Pilier fin métal (Thin Pillar);P6;-0.0;1899.0;2700.0;90;90.0;1899.0;appui toit c3 t-0 : poteau
+277;Pilier fin métal (Thin Pillar);P6;-0.0;1899.0;3000.0;90;90.0;1899.0;appui toit c3 t-0 : poteau
+278;Pilier fin métal (Thin Pillar);P6;-300.0;2499.0;2400.0;90;96.85;2517.0;appui toit c3 t+300 : poteau
+279;Pilier fin métal (Thin Pillar);P6;-949.5;1644.6;2400.0;120;120.0;1899.0;appui toit c4 t-0 : poteau
+280;Pilier fin métal (Thin Pillar);P6;-949.5;1644.6;2700.0;120;120.0;1899.0;appui toit c4 t-0 : poteau
+281;Pilier fin métal (Thin Pillar);P6;-949.5;1644.6;3000.0;120;120.0;1899.0;appui toit c4 t-0 : poteau
+282;Pilier fin métal (Thin Pillar);P6;-2014.2;1509.3;2400.0;150;143.15;2517.0;appui toit c5 t-300 : poteau
+283;Pilier fin métal (Thin Pillar);P6;-1644.6;949.5;2400.0;150;150.0;1899.0;appui toit c5 t-0 : poteau
+284;Pilier fin métal (Thin Pillar);P6;-1644.6;949.5;2700.0;150;150.0;1899.0;appui toit c5 t-0 : poteau
+285;Pilier fin métal (Thin Pillar);P6;-1644.6;949.5;3000.0;150;150.0;1899.0;appui toit c5 t-0 : poteau
+286;Pilier fin métal (Thin Pillar);P6;-1644.6;-949.5;2400.0;210;210.0;1899.0;appui toit c7 t-0 : poteau
+287;Pilier fin métal (Thin Pillar);P6;-1644.6;-949.5;2700.0;210;210.0;1899.0;appui toit c7 t-0 : poteau
+288;Pilier fin métal (Thin Pillar);P6;-1644.6;-949.5;3000.0;210;210.0;1899.0;appui toit c7 t-0 : poteau
+289;Pilier fin métal (Thin Pillar);P6;-1509.3;-2014.2;2400.0;240;233.15;2517.0;appui toit c8 t-300 : poteau
+290;Pilier fin métal (Thin Pillar);P6;-949.5;-1644.6;2400.0;240;240.0;1899.0;appui toit c8 t-0 : poteau
+291;Pilier fin métal (Thin Pillar);P6;-949.5;-1644.6;2700.0;240;240.0;1899.0;appui toit c8 t-0 : poteau
+292;Pilier fin métal (Thin Pillar);P6;-949.5;-1644.6;3000.0;240;240.0;1899.0;appui toit c8 t-0 : poteau
+293;Pilier fin métal (Thin Pillar);P6;-300.0;-2499.0;2400.0;270;263.15;2517.0;appui toit c9 t-300 : poteau
+294;Pilier fin métal (Thin Pillar);P6;-0.0;-1899.0;2400.0;270;270.0;1899.0;appui toit c9 t-0 : poteau
+295;Pilier fin métal (Thin Pillar);P6;-0.0;-1899.0;2700.0;270;270.0;1899.0;appui toit c9 t-0 : poteau
+296;Pilier fin métal (Thin Pillar);P6;-0.0;-1899.0;3000.0;270;270.0;1899.0;appui toit c9 t-0 : poteau
+297;Pilier fin métal (Thin Pillar);P6;300.0;-2499.0;2400.0;270;276.85;2517.0;appui toit c9 t+300 : poteau
+298;Pilier fin métal (Thin Pillar);P6;949.5;-1644.6;2400.0;300;300.0;1899.0;appui toit c10 t-0 : poteau
+299;Pilier fin métal (Thin Pillar);P6;949.5;-1644.6;2700.0;300;300.0;1899.0;appui toit c10 t-0 : poteau
+300;Pilier fin métal (Thin Pillar);P6;949.5;-1644.6;3000.0;300;300.0;1899.0;appui toit c10 t-0 : poteau
+301;Pilier fin métal (Thin Pillar);P6;2014.2;-1509.3;2400.0;330;323.15;2517.0;appui toit c11 t-300 : poteau
+302;Pilier fin métal (Thin Pillar);P6;1644.6;-949.5;2400.0;330;330.0;1899.0;appui toit c11 t-0 : poteau
+303;Pilier fin métal (Thin Pillar);P6;1644.6;-949.5;2700.0;330;330.0;1899.0;appui toit c11 t-0 : poteau
+304;Pilier fin métal (Thin Pillar);P6;1644.6;-949.5;3000.0;330;330.0;1899.0;appui toit c11 t-0 : poteau
+305;Rampe inclinée métal (Sloped Railing);P6;2649.0;-600.0;2400.0;270;347.24;2716.1;toit rampes r0 c0 t-600
+306;Rampe inclinée métal (Sloped Railing);P6;2649.0;-300.0;2400.0;270;353.54;2666.0;toit rampes r0 c0 t-300
+307;Rampe inclinée métal (Sloped Railing);P6;2349.0;-300.0;2700.0;270;352.72;2368.1;toit rampes r1 c0 t-300
+308;Rampe inclinée métal (Sloped Railing);P6;2049.0;-300.0;3000.0;270;351.67;2070.9;toit rampes r2 c0 t-300
+309;Rampe inclinée métal (Sloped Railing);P6;1749.0;-300.0;3300.0;270;350.27;1774.6;toit rampes r3 c0 t-300
+310;Rampe inclinée métal (Sloped Railing);P6;1449.0;-300.0;3600.0;270;348.3;1479.8;toit rampes r4 c0 t-300
+311;Rampe inclinée métal (Sloped Railing);P6;1149.0;-300.0;3900.0;270;345.37;1187.6;toit rampes r5 c0 t-300
+312;Rampe inclinée métal (Sloped Railing);P6;849.0;-300.0;4200.0;270;340.54;900.5;toit rampes r6 c0 t-300
+313;Rampe inclinée métal (Sloped Railing);P6;2649.0;0.0;2400.0;270;0.0;2649.0;toit rampes r0 c0 t-0
+314;Rampe inclinée métal (Sloped Railing);P6;2349.0;0.0;2700.0;270;0.0;2349.0;toit rampes r1 c0 t-0
+315;Rampe inclinée métal (Sloped Railing);P6;2049.0;0.0;3000.0;270;0.0;2049.0;toit rampes r2 c0 t-0
+316;Rampe inclinée métal (Sloped Railing);P6;1749.0;0.0;3300.0;270;0.0;1749.0;toit rampes r3 c0 t-0
+317;Rampe inclinée métal (Sloped Railing);P6;1449.0;0.0;3600.0;270;0.0;1449.0;toit rampes r4 c0 t-0
+318;Rampe inclinée métal (Sloped Railing);P6;1149.0;0.0;3900.0;270;0.0;1149.0;toit rampes r5 c0 t-0
+319;Rampe inclinée métal (Sloped Railing);P6;849.0;0.0;4200.0;270;0.0;849.0;toit rampes r6 c0 t-0
+320;Rampe inclinée métal (Sloped Railing);P6;549.0;0.0;4500.0;270;0.0;549.0;toit rampes r7 c0 t-0
+321;Rampe inclinée métal (Sloped Railing);P6;249.0;0.0;4800.0;270;0.0;249.0;toit rampes r8 c0 t-0
+322;Rampe inclinée métal (Sloped Railing);P6;2649.0;300.0;2400.0;270;6.46;2666.0;toit rampes r0 c0 t+300
+323;Rampe inclinée métal (Sloped Railing);P6;2349.0;300.0;2700.0;270;7.28;2368.1;toit rampes r1 c0 t+300
+324;Rampe inclinée métal (Sloped Railing);P6;2049.0;300.0;3000.0;270;8.33;2070.9;toit rampes r2 c0 t+300
+325;Rampe inclinée métal (Sloped Railing);P6;1749.0;300.0;3300.0;270;9.73;1774.6;toit rampes r3 c0 t+300
+326;Rampe inclinée métal (Sloped Railing);P6;1449.0;300.0;3600.0;270;11.7;1479.8;toit rampes r4 c0 t+300
+327;Rampe inclinée métal (Sloped Railing);P6;1149.0;300.0;3900.0;270;14.63;1187.6;toit rampes r5 c0 t+300
+328;Rampe inclinée métal (Sloped Railing);P6;849.0;300.0;4200.0;270;19.46;900.5;toit rampes r6 c0 t+300
+329;Rampe inclinée métal (Sloped Railing);P6;2649.0;600.0;2400.0;270;12.76;2716.1;toit rampes r0 c0 t+600
+330;Rampe inclinée métal (Sloped Railing);P6;2594.1;804.9;2400.0;300;17.24;2716.1;toit rampes r0 c1 t-600
+331;Rampe inclinée métal (Sloped Railing);P6;2334.3;654.9;2700.0;300;15.67;2424.5;toit rampes r1 c1 t-600
+332;Rampe inclinée métal (Sloped Railing);P6;2074.5;504.9;3000.0;300;13.68;2135.1;toit rampes r2 c1 t-600
+333;Rampe inclinée métal (Sloped Railing);P6;2444.1;1064.7;2400.0;300;23.54;2666.0;toit rampes r0 c1 t-300
+334;Rampe inclinée métal (Sloped Railing);P6;2184.3;914.7;2700.0;300;22.72;2368.1;toit rampes r1 c1 t-300
+335;Rampe inclinée métal (Sloped Railing);P6;1924.5;764.7;3000.0;300;21.67;2070.9;toit rampes r2 c1 t-300
+336;Rampe inclinée métal (Sloped Railing);P6;1664.7;614.7;3300.0;300;20.27;1774.6;toit rampes r3 c1 t-300
+337;Rampe inclinée métal (Sloped Railing);P6;1404.9;464.7;3600.0;300;18.3;1479.8;toit rampes r4 c1 t-300
+338;Rampe inclinée métal (Sloped Railing);P6;2294.1;1324.5;2400.0;300;30.0;2649.0;toit rampes r0 c1 t-0
+339;Rampe inclinée métal (Sloped Railing);P6;2034.3;1174.5;2700.0;300;30.0;2349.0;toit rampes r1 c1 t-0
+340;Rampe inclinée métal (Sloped Railing);P6;1774.5;1024.5;3000.0;300;30.0;2049.0;toit rampes r2 c1 t-0
+341;Rampe inclinée métal (Sloped Railing);P6;1514.7;874.5;3300.0;300;30.0;1749.0;toit rampes r3 c1 t-0
+342;Rampe inclinée métal (Sloped Railing);P6;1254.9;724.5;3600.0;300;30.0;1449.0;toit rampes r4 c1 t-0
+343;Rampe inclinée métal (Sloped Railing);P6;995.1;574.5;3900.0;300;30.0;1149.0;toit rampes r5 c1 t-0
+344;Rampe inclinée métal (Sloped Railing);P6;735.3;424.5;4200.0;300;30.0;849.0;toit rampes r6 c1 t-0
+345;Rampe inclinée métal (Sloped Railing);P6;475.5;274.5;4500.0;300;30.0;549.0;toit rampes r7 c1 t-0
+346;Rampe inclinée métal (Sloped Railing);P6;215.7;124.5;4800.0;300;30.0;249.0;toit rampes r8 c1 t-0
+347;Rampe inclinée métal (Sloped Railing);P6;2144.1;1584.3;2400.0;300;36.46;2666.0;toit rampes r0 c1 t+300
+348;Rampe inclinée métal (Sloped Railing);P6;1884.3;1434.3;2700.0;300;37.28;2368.1;toit rampes r1 c1 t+300
+349;Rampe inclinée métal (Sloped Railing);P6;1624.5;1284.3;3000.0;300;38.33;2070.9;toit rampes r2 c1 t+300
+350;Rampe inclinée métal (Sloped Railing);P6;1364.7;1134.3;3300.0;300;39.73;1774.6;toit rampes r3 c1 t+300
+351;Rampe inclinée métal (Sloped Railing);P6;1104.9;984.3;3600.0;300;41.7;1479.8;toit rampes r4 c1 t+300
+352;Rampe inclinée métal (Sloped Railing);P6;845.1;834.3;3900.0;300;44.63;1187.6;toit rampes r5 c1 t+300
+353;Rampe inclinée métal (Sloped Railing);P6;585.3;684.3;4200.0;300;49.46;900.5;toit rampes r6 c1 t+300
+354;Rampe inclinée métal (Sloped Railing);P6;1994.1;1844.1;2400.0;300;42.76;2716.1;toit rampes r0 c1 t+600
+355;Rampe inclinée métal (Sloped Railing);P6;1844.1;1994.1;2400.0;330;47.24;2716.1;toit rampes r0 c2 t-600
+356;Rampe inclinée métal (Sloped Railing);P6;1694.1;1734.3;2700.0;330;45.67;2424.5;toit rampes r1 c2 t-600
+357;Rampe inclinée métal (Sloped Railing);P6;1544.1;1474.5;3000.0;330;43.68;2135.1;toit rampes r2 c2 t-600
+358;Rampe inclinée métal (Sloped Railing);P6;1584.3;2144.1;2400.0;330;53.54;2666.0;toit rampes r0 c2 t-300
+359;Rampe inclinée métal (Sloped Railing);P6;1434.3;1884.3;2700.0;330;52.72;2368.1;toit rampes r1 c2 t-300
+360;Rampe inclinée métal (Sloped Railing);P6;1284.3;1624.5;3000.0;330;51.67;2070.9;toit rampes r2 c2 t-300
+361;Rampe inclinée métal (Sloped Railing);P6;1134.3;1364.7;3300.0;330;50.27;1774.6;toit rampes r3 c2 t-300
+362;Rampe inclinée métal (Sloped Railing);P6;984.3;1104.9;3600.0;330;48.3;1479.8;toit rampes r4 c2 t-300
+363;Rampe inclinée métal (Sloped Railing);P6;1324.5;2294.1;2400.0;330;60.0;2649.0;toit rampes r0 c2 t-0
+364;Rampe inclinée métal (Sloped Railing);P6;1174.5;2034.3;2700.0;330;60.0;2349.0;toit rampes r1 c2 t-0
+365;Rampe inclinée métal (Sloped Railing);P6;1024.5;1774.5;3000.0;330;60.0;2049.0;toit rampes r2 c2 t-0
+366;Rampe inclinée métal (Sloped Railing);P6;874.5;1514.7;3300.0;330;60.0;1749.0;toit rampes r3 c2 t-0
+367;Rampe inclinée métal (Sloped Railing);P6;724.5;1254.9;3600.0;330;60.0;1449.0;toit rampes r4 c2 t-0
+368;Rampe inclinée métal (Sloped Railing);P6;574.5;995.1;3900.0;330;60.0;1149.0;toit rampes r5 c2 t-0
+369;Rampe inclinée métal (Sloped Railing);P6;424.5;735.3;4200.0;330;60.0;849.0;toit rampes r6 c2 t-0
+370;Rampe inclinée métal (Sloped Railing);P6;274.5;475.5;4500.0;330;60.0;549.0;toit rampes r7 c2 t-0
+371;Rampe inclinée métal (Sloped Railing);P6;124.5;215.7;4800.0;330;60.0;249.0;toit rampes r8 c2 t-0
+372;Rampe inclinée métal (Sloped Railing);P6;1064.7;2444.1;2400.0;330;66.46;2666.0;toit rampes r0 c2 t+300
+373;Rampe inclinée métal (Sloped Railing);P6;914.7;2184.3;2700.0;330;67.28;2368.1;toit rampes r1 c2 t+300
+374;Rampe inclinée métal (Sloped Railing);P6;764.7;1924.5;3000.0;330;68.33;2070.9;toit rampes r2 c2 t+300
+375;Rampe inclinée métal (Sloped Railing);P6;614.7;1664.7;3300.0;330;69.73;1774.6;toit rampes r3 c2 t+300
+376;Rampe inclinée métal (Sloped Railing);P6;464.7;1404.9;3600.0;330;71.7;1479.8;toit rampes r4 c2 t+300
+377;Rampe inclinée métal (Sloped Railing);P6;804.9;2594.1;2400.0;330;72.76;2716.1;toit rampes r0 c2 t+600
+378;Rampe inclinée métal (Sloped Railing);P6;654.9;2334.3;2700.0;330;74.33;2424.5;toit rampes r1 c2 t+600
+379;Rampe inclinée métal (Sloped Railing);P6;504.9;2074.5;3000.0;330;76.32;2135.1;toit rampes r2 c2 t+600
+380;Rampe inclinée métal (Sloped Railing);P6;600.0;2649.0;2400.0;0;77.24;2716.1;toit rampes r0 c3 t-600
+381;Rampe inclinée métal (Sloped Railing);P6;300.0;2649.0;2400.0;0;83.54;2666.0;toit rampes r0 c3 t-300
+382;Rampe inclinée métal (Sloped Railing);P6;300.0;2349.0;2700.0;0;82.72;2368.1;toit rampes r1 c3 t-300
+383;Rampe inclinée métal (Sloped Railing);P6;300.0;2049.0;3000.0;0;81.67;2070.9;toit rampes r2 c3 t-300
+384;Rampe inclinée métal (Sloped Railing);P6;300.0;1749.0;3300.0;0;80.27;1774.6;toit rampes r3 c3 t-300
+385;Rampe inclinée métal (Sloped Railing);P6;300.0;1449.0;3600.0;0;78.3;1479.8;toit rampes r4 c3 t-300
+386;Rampe inclinée métal (Sloped Railing);P6;300.0;1149.0;3900.0;0;75.37;1187.6;toit rampes r5 c3 t-300
+387;Rampe inclinée métal (Sloped Railing);P6;300.0;849.0;4200.0;0;70.54;900.5;toit rampes r6 c3 t-300
+388;Rampe inclinée métal (Sloped Railing);P6;0.0;2649.0;2400.0;0;90.0;2649.0;toit rampes r0 c3 t-0
+389;Rampe inclinée métal (Sloped Railing);P6;0.0;2349.0;2700.0;0;90.0;2349.0;toit rampes r1 c3 t-0
+390;Rampe inclinée métal (Sloped Railing);P6;0.0;2049.0;3000.0;0;90.0;2049.0;toit rampes r2 c3 t-0
+391;Rampe inclinée métal (Sloped Railing);P6;0.0;1749.0;3300.0;0;90.0;1749.0;toit rampes r3 c3 t-0
+392;Rampe inclinée métal (Sloped Railing);P6;0.0;1449.0;3600.0;0;90.0;1449.0;toit rampes r4 c3 t-0
+393;Rampe inclinée métal (Sloped Railing);P6;0.0;1149.0;3900.0;0;90.0;1149.0;toit rampes r5 c3 t-0
+394;Rampe inclinée métal (Sloped Railing);P6;0.0;849.0;4200.0;0;90.0;849.0;toit rampes r6 c3 t-0
+395;Rampe inclinée métal (Sloped Railing);P6;0.0;549.0;4500.0;0;90.0;549.0;toit rampes r7 c3 t-0
+396;Rampe inclinée métal (Sloped Railing);P6;0.0;249.0;4800.0;0;90.0;249.0;toit rampes r8 c3 t-0
+397;Rampe inclinée métal (Sloped Railing);P6;-300.0;2649.0;2400.0;0;96.46;2666.0;toit rampes r0 c3 t+300
+398;Rampe inclinée métal (Sloped Railing);P6;-300.0;2349.0;2700.0;0;97.28;2368.1;toit rampes r1 c3 t+300
+399;Rampe inclinée métal (Sloped Railing);P6;-300.0;2049.0;3000.0;0;98.33;2070.9;toit rampes r2 c3 t+300
+400;Rampe inclinée métal (Sloped Railing);P6;-300.0;1749.0;3300.0;0;99.73;1774.6;toit rampes r3 c3 t+300
+401;Rampe inclinée métal (Sloped Railing);P6;-300.0;1449.0;3600.0;0;101.7;1479.8;toit rampes r4 c3 t+300
+402;Rampe inclinée métal (Sloped Railing);P6;-300.0;1149.0;3900.0;0;104.63;1187.6;toit rampes r5 c3 t+300
+403;Rampe inclinée métal (Sloped Railing);P6;-300.0;849.0;4200.0;0;109.46;900.5;toit rampes r6 c3 t+300
+404;Rampe inclinée métal (Sloped Railing);P6;-600.0;2649.0;2400.0;0;102.76;2716.1;toit rampes r0 c3 t+600
+405;Rampe inclinée métal (Sloped Railing);P6;-804.9;2594.1;2400.0;30;107.24;2716.1;toit rampes r0 c4 t-600
+406;Rampe inclinée métal (Sloped Railing);P6;-654.9;2334.3;2700.0;30;105.67;2424.5;toit rampes r1 c4 t-600
+407;Rampe inclinée métal (Sloped Railing);P6;-504.9;2074.5;3000.0;30;103.68;2135.1;toit rampes r2 c4 t-600
+408;Rampe inclinée métal (Sloped Railing);P6;-1064.7;2444.1;2400.0;30;113.54;2666.0;toit rampes r0 c4 t-300
+409;Rampe inclinée métal (Sloped Railing);P6;-914.7;2184.3;2700.0;30;112.72;2368.1;toit rampes r1 c4 t-300
+410;Rampe inclinée métal (Sloped Railing);P6;-764.7;1924.5;3000.0;30;111.67;2070.9;toit rampes r2 c4 t-300
+411;Rampe inclinée métal (Sloped Railing);P6;-614.7;1664.7;3300.0;30;110.27;1774.6;toit rampes r3 c4 t-300
+412;Rampe inclinée métal (Sloped Railing);P6;-464.7;1404.9;3600.0;30;108.3;1479.8;toit rampes r4 c4 t-300
+413;Rampe inclinée métal (Sloped Railing);P6;-1324.5;2294.1;2400.0;30;120.0;2649.0;toit rampes r0 c4 t-0
+414;Rampe inclinée métal (Sloped Railing);P6;-1174.5;2034.3;2700.0;30;120.0;2349.0;toit rampes r1 c4 t-0
+415;Rampe inclinée métal (Sloped Railing);P6;-1024.5;1774.5;3000.0;30;120.0;2049.0;toit rampes r2 c4 t-0
+416;Rampe inclinée métal (Sloped Railing);P6;-874.5;1514.7;3300.0;30;120.0;1749.0;toit rampes r3 c4 t-0
+417;Rampe inclinée métal (Sloped Railing);P6;-724.5;1254.9;3600.0;30;120.0;1449.0;toit rampes r4 c4 t-0
+418;Rampe inclinée métal (Sloped Railing);P6;-574.5;995.1;3900.0;30;120.0;1149.0;toit rampes r5 c4 t-0
+419;Rampe inclinée métal (Sloped Railing);P6;-424.5;735.3;4200.0;30;120.0;849.0;toit rampes r6 c4 t-0
+420;Rampe inclinée métal (Sloped Railing);P6;-274.5;475.5;4500.0;30;120.0;549.0;toit rampes r7 c4 t-0
+421;Rampe inclinée métal (Sloped Railing);P6;-124.5;215.7;4800.0;30;120.0;249.0;toit rampes r8 c4 t-0
+422;Rampe inclinée métal (Sloped Railing);P6;-1584.3;2144.1;2400.0;30;126.46;2666.0;toit rampes r0 c4 t+300
+423;Rampe inclinée métal (Sloped Railing);P6;-1434.3;1884.3;2700.0;30;127.28;2368.1;toit rampes r1 c4 t+300
+424;Rampe inclinée métal (Sloped Railing);P6;-1284.3;1624.5;3000.0;30;128.33;2070.9;toit rampes r2 c4 t+300
+425;Rampe inclinée métal (Sloped Railing);P6;-1134.3;1364.7;3300.0;30;129.73;1774.6;toit rampes r3 c4 t+300
+426;Rampe inclinée métal (Sloped Railing);P6;-984.3;1104.9;3600.0;30;131.7;1479.8;toit rampes r4 c4 t+300
+427;Rampe inclinée métal (Sloped Railing);P6;-1844.1;1994.1;2400.0;30;132.76;2716.1;toit rampes r0 c4 t+600
+428;Rampe inclinée métal (Sloped Railing);P6;-1694.1;1734.3;2700.0;30;134.33;2424.5;toit rampes r1 c4 t+600
+429;Rampe inclinée métal (Sloped Railing);P6;-1544.1;1474.5;3000.0;30;136.32;2135.1;toit rampes r2 c4 t+600
+430;Rampe inclinée métal (Sloped Railing);P6;-1994.1;1844.1;2400.0;60;137.24;2716.1;toit rampes r0 c5 t-600
+431;Rampe inclinée métal (Sloped Railing);P6;-2144.1;1584.3;2400.0;60;143.54;2666.0;toit rampes r0 c5 t-300
+432;Rampe inclinée métal (Sloped Railing);P6;-1884.3;1434.3;2700.0;60;142.72;2368.1;toit rampes r1 c5 t-300
+433;Rampe inclinée métal (Sloped Railing);P6;-1624.5;1284.3;3000.0;60;141.67;2070.9;toit rampes r2 c5 t-300
+434;Rampe inclinée métal (Sloped Railing);P6;-1364.7;1134.3;3300.0;60;140.27;1774.6;toit rampes r3 c5 t-300
+435;Rampe inclinée métal (Sloped Railing);P6;-1104.9;984.3;3600.0;60;138.3;1479.8;toit rampes r4 c5 t-300
+436;Rampe inclinée métal (Sloped Railing);P6;-845.1;834.3;3900.0;60;135.37;1187.6;toit rampes r5 c5 t-300
+437;Rampe inclinée métal (Sloped Railing);P6;-585.3;684.3;4200.0;60;130.54;900.5;toit rampes r6 c5 t-300
+438;Rampe inclinée métal (Sloped Railing);P6;-2294.1;1324.5;2400.0;60;150.0;2649.0;toit rampes r0 c5 t-0
+439;Rampe inclinée métal (Sloped Railing);P6;-2034.3;1174.5;2700.0;60;150.0;2349.0;toit rampes r1 c5 t-0
+440;Rampe inclinée métal (Sloped Railing);P6;-1774.5;1024.5;3000.0;60;150.0;2049.0;toit rampes r2 c5 t-0
+441;Rampe inclinée métal (Sloped Railing);P6;-1514.7;874.5;3300.0;60;150.0;1749.0;toit rampes r3 c5 t-0
+442;Rampe inclinée métal (Sloped Railing);P6;-1254.9;724.5;3600.0;60;150.0;1449.0;toit rampes r4 c5 t-0
+443;Rampe inclinée métal (Sloped Railing);P6;-995.1;574.5;3900.0;60;150.0;1149.0;toit rampes r5 c5 t-0
+444;Rampe inclinée métal (Sloped Railing);P6;-735.3;424.5;4200.0;60;150.0;849.0;toit rampes r6 c5 t-0
+445;Rampe inclinée métal (Sloped Railing);P6;-475.5;274.5;4500.0;60;150.0;549.0;toit rampes r7 c5 t-0
+446;Rampe inclinée métal (Sloped Railing);P6;-215.7;124.5;4800.0;60;150.0;249.0;toit rampes r8 c5 t-0
+447;Rampe inclinée métal (Sloped Railing);P6;-2444.1;1064.7;2400.0;60;156.46;2666.0;toit rampes r0 c5 t+300
+448;Rampe inclinée métal (Sloped Railing);P6;-2184.3;914.7;2700.0;60;157.28;2368.1;toit rampes r1 c5 t+300
+449;Rampe inclinée métal (Sloped Railing);P6;-2444.1;-1064.7;2400.0;120;203.54;2666.0;toit rampes r0 c7 t-300
+450;Rampe inclinée métal (Sloped Railing);P6;-2184.3;-914.7;2700.0;120;202.72;2368.1;toit rampes r1 c7 t-300
+451;Rampe inclinée métal (Sloped Railing);P6;-2294.1;-1324.5;2400.0;120;210.0;2649.0;toit rampes r0 c7 t-0
+452;Rampe inclinée métal (Sloped Railing);P6;-2034.3;-1174.5;2700.0;120;210.0;2349.0;toit rampes r1 c7 t-0
+453;Rampe inclinée métal (Sloped Railing);P6;-1774.5;-1024.5;3000.0;120;210.0;2049.0;toit rampes r2 c7 t-0
+454;Rampe inclinée métal (Sloped Railing);P6;-1514.7;-874.5;3300.0;120;210.0;1749.0;toit rampes r3 c7 t-0
+455;Rampe inclinée métal (Sloped Railing);P6;-1254.9;-724.5;3600.0;120;210.0;1449.0;toit rampes r4 c7 t-0
+456;Rampe inclinée métal (Sloped Railing);P6;-995.1;-574.5;3900.0;120;210.0;1149.0;toit rampes r5 c7 t-0
+457;Rampe inclinée métal (Sloped Railing);P6;-735.3;-424.5;4200.0;120;210.0;849.0;toit rampes r6 c7 t-0
+458;Rampe inclinée métal (Sloped Railing);P6;-475.5;-274.5;4500.0;120;210.0;549.0;toit rampes r7 c7 t-0
+459;Rampe inclinée métal (Sloped Railing);P6;-215.7;-124.5;4800.0;120;210.0;249.0;toit rampes r8 c7 t-0
+460;Rampe inclinée métal (Sloped Railing);P6;-2144.1;-1584.3;2400.0;120;216.46;2666.0;toit rampes r0 c7 t+300
+461;Rampe inclinée métal (Sloped Railing);P6;-1884.3;-1434.3;2700.0;120;217.28;2368.1;toit rampes r1 c7 t+300
+462;Rampe inclinée métal (Sloped Railing);P6;-1624.5;-1284.3;3000.0;120;218.33;2070.9;toit rampes r2 c7 t+300
+463;Rampe inclinée métal (Sloped Railing);P6;-1364.7;-1134.3;3300.0;120;219.73;1774.6;toit rampes r3 c7 t+300
+464;Rampe inclinée métal (Sloped Railing);P6;-1104.9;-984.3;3600.0;120;221.7;1479.8;toit rampes r4 c7 t+300
+465;Rampe inclinée métal (Sloped Railing);P6;-1994.1;-1844.1;2400.0;120;222.76;2716.1;toit rampes r0 c7 t+600
+466;Rampe inclinée métal (Sloped Railing);P6;-1734.3;-1694.1;2700.0;120;224.33;2424.5;toit rampes r1 c7 t+600
+467;Rampe inclinée métal (Sloped Railing);P6;-1474.5;-1544.1;3000.0;120;226.32;2135.1;toit rampes r2 c7 t+600
+468;Rampe inclinée métal (Sloped Railing);P6;-1844.1;-1994.1;2400.0;150;227.24;2716.1;toit rampes r0 c8 t-600
+469;Rampe inclinée métal (Sloped Railing);P6;-1584.3;-2144.1;2400.0;150;233.54;2666.0;toit rampes r0 c8 t-300
+470;Rampe inclinée métal (Sloped Railing);P6;-1434.3;-1884.3;2700.0;150;232.72;2368.1;toit rampes r1 c8 t-300
+471;Rampe inclinée métal (Sloped Railing);P6;-1284.3;-1624.5;3000.0;150;231.67;2070.9;toit rampes r2 c8 t-300
+472;Rampe inclinée métal (Sloped Railing);P6;-1134.3;-1364.7;3300.0;150;230.27;1774.6;toit rampes r3 c8 t-300
+473;Rampe inclinée métal (Sloped Railing);P6;-984.3;-1104.9;3600.0;150;228.3;1479.8;toit rampes r4 c8 t-300
+474;Rampe inclinée métal (Sloped Railing);P6;-834.3;-845.1;3900.0;150;225.37;1187.6;toit rampes r5 c8 t-300
+475;Rampe inclinée métal (Sloped Railing);P6;-684.3;-585.3;4200.0;150;220.54;900.5;toit rampes r6 c8 t-300
+476;Rampe inclinée métal (Sloped Railing);P6;-1324.5;-2294.1;2400.0;150;240.0;2649.0;toit rampes r0 c8 t-0
+477;Rampe inclinée métal (Sloped Railing);P6;-1174.5;-2034.3;2700.0;150;240.0;2349.0;toit rampes r1 c8 t-0
+478;Rampe inclinée métal (Sloped Railing);P6;-1024.5;-1774.5;3000.0;150;240.0;2049.0;toit rampes r2 c8 t-0
+479;Rampe inclinée métal (Sloped Railing);P6;-874.5;-1514.7;3300.0;150;240.0;1749.0;toit rampes r3 c8 t-0
+480;Rampe inclinée métal (Sloped Railing);P6;-724.5;-1254.9;3600.0;150;240.0;1449.0;toit rampes r4 c8 t-0
+481;Rampe inclinée métal (Sloped Railing);P6;-574.5;-995.1;3900.0;150;240.0;1149.0;toit rampes r5 c8 t-0
+482;Rampe inclinée métal (Sloped Railing);P6;-424.5;-735.3;4200.0;150;240.0;849.0;toit rampes r6 c8 t-0
+483;Rampe inclinée métal (Sloped Railing);P6;-274.5;-475.5;4500.0;150;240.0;549.0;toit rampes r7 c8 t-0
+484;Rampe inclinée métal (Sloped Railing);P6;-124.5;-215.7;4800.0;150;240.0;249.0;toit rampes r8 c8 t-0
+485;Rampe inclinée métal (Sloped Railing);P6;-1064.7;-2444.1;2400.0;150;246.46;2666.0;toit rampes r0 c8 t+300
+486;Rampe inclinée métal (Sloped Railing);P6;-914.7;-2184.3;2700.0;150;247.28;2368.1;toit rampes r1 c8 t+300
+487;Rampe inclinée métal (Sloped Railing);P6;-764.7;-1924.5;3000.0;150;248.33;2070.9;toit rampes r2 c8 t+300
+488;Rampe inclinée métal (Sloped Railing);P6;-614.7;-1664.7;3300.0;150;249.73;1774.6;toit rampes r3 c8 t+300
+489;Rampe inclinée métal (Sloped Railing);P6;-464.7;-1404.9;3600.0;150;251.7;1479.8;toit rampes r4 c8 t+300
+490;Rampe inclinée métal (Sloped Railing);P6;-804.9;-2594.1;2400.0;150;252.76;2716.1;toit rampes r0 c8 t+600
+491;Rampe inclinée métal (Sloped Railing);P6;-654.9;-2334.3;2700.0;150;254.33;2424.5;toit rampes r1 c8 t+600
+492;Rampe inclinée métal (Sloped Railing);P6;-504.9;-2074.5;3000.0;150;256.32;2135.1;toit rampes r2 c8 t+600
+493;Rampe inclinée métal (Sloped Railing);P6;-600.0;-2649.0;2400.0;180;257.24;2716.1;toit rampes r0 c9 t-600
+494;Rampe inclinée métal (Sloped Railing);P6;-300.0;-2649.0;2400.0;180;263.54;2666.0;toit rampes r0 c9 t-300
+495;Rampe inclinée métal (Sloped Railing);P6;-300.0;-2349.0;2700.0;180;262.72;2368.1;toit rampes r1 c9 t-300
+496;Rampe inclinée métal (Sloped Railing);P6;-300.0;-2049.0;3000.0;180;261.67;2070.9;toit rampes r2 c9 t-300
+497;Rampe inclinée métal (Sloped Railing);P6;-300.0;-1749.0;3300.0;180;260.27;1774.6;toit rampes r3 c9 t-300
+498;Rampe inclinée métal (Sloped Railing);P6;-300.0;-1449.0;3600.0;180;258.3;1479.8;toit rampes r4 c9 t-300
+499;Rampe inclinée métal (Sloped Railing);P6;-300.0;-1149.0;3900.0;180;255.37;1187.6;toit rampes r5 c9 t-300
+500;Rampe inclinée métal (Sloped Railing);P6;-300.0;-849.0;4200.0;180;250.54;900.5;toit rampes r6 c9 t-300
+501;Rampe inclinée métal (Sloped Railing);P6;-0.0;-2649.0;2400.0;180;270.0;2649.0;toit rampes r0 c9 t-0
+502;Rampe inclinée métal (Sloped Railing);P6;-0.0;-2349.0;2700.0;180;270.0;2349.0;toit rampes r1 c9 t-0
+503;Rampe inclinée métal (Sloped Railing);P6;-0.0;-2049.0;3000.0;180;270.0;2049.0;toit rampes r2 c9 t-0
+504;Rampe inclinée métal (Sloped Railing);P6;-0.0;-1749.0;3300.0;180;270.0;1749.0;toit rampes r3 c9 t-0
+505;Rampe inclinée métal (Sloped Railing);P6;-0.0;-1449.0;3600.0;180;270.0;1449.0;toit rampes r4 c9 t-0
+506;Rampe inclinée métal (Sloped Railing);P6;-0.0;-1149.0;3900.0;180;270.0;1149.0;toit rampes r5 c9 t-0
+507;Rampe inclinée métal (Sloped Railing);P6;-0.0;-849.0;4200.0;180;270.0;849.0;toit rampes r6 c9 t-0
+508;Rampe inclinée métal (Sloped Railing);P6;-0.0;-549.0;4500.0;180;270.0;549.0;toit rampes r7 c9 t-0
+509;Rampe inclinée métal (Sloped Railing);P6;-0.0;-249.0;4800.0;180;270.0;249.0;toit rampes r8 c9 t-0
+510;Rampe inclinée métal (Sloped Railing);P6;300.0;-2649.0;2400.0;180;276.46;2666.0;toit rampes r0 c9 t+300
+511;Rampe inclinée métal (Sloped Railing);P6;300.0;-2349.0;2700.0;180;277.28;2368.1;toit rampes r1 c9 t+300
+512;Rampe inclinée métal (Sloped Railing);P6;300.0;-2049.0;3000.0;180;278.33;2070.9;toit rampes r2 c9 t+300
+513;Rampe inclinée métal (Sloped Railing);P6;300.0;-1749.0;3300.0;180;279.73;1774.6;toit rampes r3 c9 t+300
+514;Rampe inclinée métal (Sloped Railing);P6;300.0;-1449.0;3600.0;180;281.7;1479.8;toit rampes r4 c9 t+300
+515;Rampe inclinée métal (Sloped Railing);P6;300.0;-1149.0;3900.0;180;284.63;1187.6;toit rampes r5 c9 t+300
+516;Rampe inclinée métal (Sloped Railing);P6;300.0;-849.0;4200.0;180;289.46;900.5;toit rampes r6 c9 t+300
+517;Rampe inclinée métal (Sloped Railing);P6;600.0;-2649.0;2400.0;180;282.76;2716.1;toit rampes r0 c9 t+600
+518;Rampe inclinée métal (Sloped Railing);P6;804.9;-2594.1;2400.0;210;287.24;2716.1;toit rampes r0 c10 t-600
+519;Rampe inclinée métal (Sloped Railing);P6;654.9;-2334.3;2700.0;210;285.67;2424.5;toit rampes r1 c10 t-600
+520;Rampe inclinée métal (Sloped Railing);P6;504.9;-2074.5;3000.0;210;283.68;2135.1;toit rampes r2 c10 t-600
+521;Rampe inclinée métal (Sloped Railing);P6;1064.7;-2444.1;2400.0;210;293.54;2666.0;toit rampes r0 c10 t-300
+522;Rampe inclinée métal (Sloped Railing);P6;914.7;-2184.3;2700.0;210;292.72;2368.1;toit rampes r1 c10 t-300
+523;Rampe inclinée métal (Sloped Railing);P6;764.7;-1924.5;3000.0;210;291.67;2070.9;toit rampes r2 c10 t-300
+524;Rampe inclinée métal (Sloped Railing);P6;614.7;-1664.7;3300.0;210;290.27;1774.6;toit rampes r3 c10 t-300
+525;Rampe inclinée métal (Sloped Railing);P6;464.7;-1404.9;3600.0;210;288.3;1479.8;toit rampes r4 c10 t-300
+526;Rampe inclinée métal (Sloped Railing);P6;1324.5;-2294.1;2400.0;210;300.0;2649.0;toit rampes r0 c10 t-0
+527;Rampe inclinée métal (Sloped Railing);P6;1174.5;-2034.3;2700.0;210;300.0;2349.0;toit rampes r1 c10 t-0
+528;Rampe inclinée métal (Sloped Railing);P6;1024.5;-1774.5;3000.0;210;300.0;2049.0;toit rampes r2 c10 t-0
+529;Rampe inclinée métal (Sloped Railing);P6;874.5;-1514.7;3300.0;210;300.0;1749.0;toit rampes r3 c10 t-0
+530;Rampe inclinée métal (Sloped Railing);P6;724.5;-1254.9;3600.0;210;300.0;1449.0;toit rampes r4 c10 t-0
+531;Rampe inclinée métal (Sloped Railing);P6;574.5;-995.1;3900.0;210;300.0;1149.0;toit rampes r5 c10 t-0
+532;Rampe inclinée métal (Sloped Railing);P6;424.5;-735.3;4200.0;210;300.0;849.0;toit rampes r6 c10 t-0
+533;Rampe inclinée métal (Sloped Railing);P6;274.5;-475.5;4500.0;210;300.0;549.0;toit rampes r7 c10 t-0
+534;Rampe inclinée métal (Sloped Railing);P6;124.5;-215.7;4800.0;210;300.0;249.0;toit rampes r8 c10 t-0
+535;Rampe inclinée métal (Sloped Railing);P6;1584.3;-2144.1;2400.0;210;306.46;2666.0;toit rampes r0 c10 t+300
+536;Rampe inclinée métal (Sloped Railing);P6;1434.3;-1884.3;2700.0;210;307.28;2368.1;toit rampes r1 c10 t+300
+537;Rampe inclinée métal (Sloped Railing);P6;1284.3;-1624.5;3000.0;210;308.33;2070.9;toit rampes r2 c10 t+300
+538;Rampe inclinée métal (Sloped Railing);P6;1134.3;-1364.7;3300.0;210;309.73;1774.6;toit rampes r3 c10 t+300
+539;Rampe inclinée métal (Sloped Railing);P6;984.3;-1104.9;3600.0;210;311.7;1479.8;toit rampes r4 c10 t+300
+540;Rampe inclinée métal (Sloped Railing);P6;1844.1;-1994.1;2400.0;210;312.76;2716.1;toit rampes r0 c10 t+600
+541;Rampe inclinée métal (Sloped Railing);P6;1694.1;-1734.3;2700.0;210;314.33;2424.5;toit rampes r1 c10 t+600
+542;Rampe inclinée métal (Sloped Railing);P6;1544.1;-1474.5;3000.0;210;316.32;2135.1;toit rampes r2 c10 t+600
+543;Rampe inclinée métal (Sloped Railing);P6;1994.1;-1844.1;2400.0;240;317.24;2716.1;toit rampes r0 c11 t-600
+544;Rampe inclinée métal (Sloped Railing);P6;2144.1;-1584.3;2400.0;240;323.54;2666.0;toit rampes r0 c11 t-300
+545;Rampe inclinée métal (Sloped Railing);P6;1884.3;-1434.3;2700.0;240;322.72;2368.1;toit rampes r1 c11 t-300
+546;Rampe inclinée métal (Sloped Railing);P6;1624.5;-1284.3;3000.0;240;321.67;2070.9;toit rampes r2 c11 t-300
+547;Rampe inclinée métal (Sloped Railing);P6;1364.7;-1134.3;3300.0;240;320.27;1774.6;toit rampes r3 c11 t-300
+548;Rampe inclinée métal (Sloped Railing);P6;1104.9;-984.3;3600.0;240;318.3;1479.8;toit rampes r4 c11 t-300
+549;Rampe inclinée métal (Sloped Railing);P6;845.1;-834.3;3900.0;240;315.37;1187.6;toit rampes r5 c11 t-300
+550;Rampe inclinée métal (Sloped Railing);P6;585.3;-684.3;4200.0;240;310.54;900.5;toit rampes r6 c11 t-300
+551;Rampe inclinée métal (Sloped Railing);P6;2294.1;-1324.5;2400.0;240;330.0;2649.0;toit rampes r0 c11 t-0
+552;Rampe inclinée métal (Sloped Railing);P6;2034.3;-1174.5;2700.0;240;330.0;2349.0;toit rampes r1 c11 t-0
+553;Rampe inclinée métal (Sloped Railing);P6;1774.5;-1024.5;3000.0;240;330.0;2049.0;toit rampes r2 c11 t-0
+554;Rampe inclinée métal (Sloped Railing);P6;1514.7;-874.5;3300.0;240;330.0;1749.0;toit rampes r3 c11 t-0
+555;Rampe inclinée métal (Sloped Railing);P6;1254.9;-724.5;3600.0;240;330.0;1449.0;toit rampes r4 c11 t-0
+556;Rampe inclinée métal (Sloped Railing);P6;995.1;-574.5;3900.0;240;330.0;1149.0;toit rampes r5 c11 t-0
+557;Rampe inclinée métal (Sloped Railing);P6;735.3;-424.5;4200.0;240;330.0;849.0;toit rampes r6 c11 t-0
+558;Rampe inclinée métal (Sloped Railing);P6;475.5;-274.5;4500.0;240;330.0;549.0;toit rampes r7 c11 t-0
+559;Rampe inclinée métal (Sloped Railing);P6;215.7;-124.5;4800.0;240;330.0;249.0;toit rampes r8 c11 t-0
+560;Rampe inclinée métal (Sloped Railing);P6;2444.1;-1064.7;2400.0;240;336.46;2666.0;toit rampes r0 c11 t+300
+561;Rampe inclinée métal (Sloped Railing);P6;2184.3;-914.7;2700.0;240;337.28;2368.1;toit rampes r1 c11 t+300
+562;Rampe inclinée métal (Sloped Railing);P6;1924.5;-764.7;3000.0;240;338.33;2070.9;toit rampes r2 c11 t+300
+563;Rampe inclinée métal (Sloped Railing);P6;1664.7;-614.7;3300.0;240;339.73;1774.6;toit rampes r3 c11 t+300
+564;Rampe inclinée métal (Sloped Railing);P6;1404.9;-464.7;3600.0;240;341.7;1479.8;toit rampes r4 c11 t+300
+565;Rampe inclinée métal (Sloped Railing);P6;2594.1;-804.9;2400.0;240;342.76;2716.1;toit rampes r0 c11 t+600
+566;Rampe inclinée métal (Sloped Railing);P6;2334.3;-654.9;2700.0;240;344.33;2424.5;toit rampes r1 c11 t+600
+567;Rampe inclinée métal (Sloped Railing);P6;2074.5;-504.9;3000.0;240;346.32;2135.1;toit rampes r2 c11 t+600
+568;Rampe inclinée métal (Sloped Railing);P6;-1734.3;654.9;2100.0;150.0;159.31;1853.9;casquette du trou θ154.7
+569;Rampe inclinée métal (Sloped Railing);P6;-1939.2;709.8;2100.0;180.0;159.9;2065.1;casquette du trou θ156.1
+570;Rampe inclinée métal (Sloped Railing);P6;-2294.1;804.9;2100.0;150.0;160.67;2431.2;casquette du trou θ157.2
+571;Rampe inclinée métal (Sloped Railing);P6;-2499.0;859.8;2100.0;180.0;161.01;2642.8;casquette du trou θ158.0
+572;Rampe inclinée métal (Sloped Railing);P6;-1584.3;504.9;2100.0;120.0;162.32;1662.8;casquette du trou θ158.3
+573;Rampe inclinée métal (Sloped Railing);P6;-1324.5;245.1;2100.0;150.0;169.52;1347.0;casquette du trou θ163.3
+574;Rampe inclinée métal (Sloped Railing);P6;-1269.6;-150.0;2100.0;90.0;186.74;1278.4;casquette du trou θ187.6
+575;Rampe inclinée métal (Sloped Railing);P6;-1584.3;-504.9;2100.0;60.0;197.68;1662.8;casquette du trou θ201.7
+576;Rampe inclinée métal (Sloped Railing);P6;-2499.0;-859.8;2100.0;0.0;198.99;2642.8;casquette du trou θ202.0
+577;Rampe inclinée métal (Sloped Railing);P6;-2294.1;-804.9;2100.0;30.0;199.33;2431.2;casquette du trou θ202.8
+578;Rampe inclinée métal (Sloped Railing);P6;-1939.2;-709.8;2100.0;0.0;200.1;2065.1;casquette du trou θ203.9
+579;Rampe inclinée métal (Sloped Railing);P6;-1734.3;-654.9;2100.0;30.0;200.69;1853.9;casquette du trou θ205.3
