@@ -110,7 +110,7 @@ Le centre est une **tour** (le pod), dont vous pouvez faire varier la hauteur. �
 | `donnees/05_couverture.csv` | Couverture : tourelles qui voient chaque point d'approche, tous les 10° |
 | `donnees/06_bord_du_trou.csv` | Murs de bord du trou : position, sens, hauteur |
 | `donnees/08_chaume_a_demolir.csv` | Les 79 murs de chaume à démolir : plan, n° d'entrée, tourelle portée, ce qui est posé au-dessus |
-| `donnees/07_bilan_materiaux.xlsx` | Bilan matériaux en Excel (synthèse, détail modifiable, par plan) |
+| `donnees/07_bilan_materiaux.xlsx` | Bilan matériaux en Excel : synthèse, coût et nombre de structures de chaque plan avec récapitulatif, détail modifiable |
 | `donnees/07_equipements.csv`, `03_colonnade.csv`, `03_ligne_pics.csv`, `synthese.json` | Équipements, colonnade, pics, toutes les cotes et tous les bilans |
 | `plans/*.png` | Coupe radiale, calpinage, trou et sol, pod, rampes, tourelles et câblage, couverture |
 | `outils/forteresse.py` | Générateur (Python 3) |

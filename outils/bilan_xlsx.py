@@ -230,6 +230,130 @@ pp.column_dimensions['A'].width = 40
 for j in range(2, 5 + nj): pp.column_dimensions[L(j)].width = 11
 pp.freeze_panes = 'B7'
 
+# ------------------------------------------------------------------ Coût par plan + récapitulatif
+# Un tableau par plan (pièces, nombre, coût unitaire repris de l'onglet Détail, total), puis un tableau final qui
+# regroupe tous les plans, les options et ce qui est posé hors plans.
+TOURELLES = ('heavy', 'tek', 'tesla')
+blocs = [(nom.replace('_', ' '), v['pieces'], v['entrees'], 'option' if 'option' in nom else 'plan')
+         for nom, v in S['plans'].items()]
+reh = S['options']['rehausse_par_niveau']
+blocs.append(('Option rehausse pod +1 niveau (par niveau)', reh['pieces'], reh['total'], 'option'))
+hors = {}
+for poste in ('pics', 'equipements', 'ancres_temporaires'):
+    for k, n in S['bilan_complet'][poste]['pieces'].items():
+        hors[k] = hors.get(k, 0) + n
+blocs.append(('Hors plans : pics, équipements, ancres temporaires', hors, None, 'hors'))
+codes = [c for c, _ in RES if any(fz.COUTS[k].get(c) for _, pc, *_ in blocs for k in pc)]
+nom_res = dict(RES)
+cp = wb.create_sheet('Coût par plan', 1)
+cp['A1'] = 'Coût et nombre de structures, plan par plan'; cp['A1'].font = title
+cp['A2'] = ("Nombre de pièces (bleu) et coût unitaire repris de l'onglet Détail (vert) : modifiez l'onglet Détail, tout se "
+            "recalcule. Tourelles = déjà en inventaire : la ligne « à fabriquer » les exclut. Récapitulatif en bas.")
+cp['A2'].font = Font(name=F_, size=9, italic=True)
+hdr = ['Pièce', 'Nombre'] + [f'{nom_res[c]} / u' for c in codes] + [f'{nom_res[c]} total' for c in codes]
+nc = len(codes)
+col_n = 2
+col_u = {c: 3 + i for i, c in enumerate(codes)}
+col_t = {c: 3 + nc + i for i, c in enumerate(codes)}
+nom_piece = dict(NOMS, demi_pilier='Demi-pilier métal (ancre)')
+r = 4
+recap = []
+for titre_b, pieces, entrees, sorte in blocs:
+    cp.cell(r, 1, titre_b).font = Font(name=F_, size=11, bold=True)
+    if entrees is not None:
+        cp.cell(r, 3, f'{entrees} entrées dans le template').font = Font(name=F_, size=9, italic=True)
+    r += 1
+    for j, v in enumerate(hdr, 1):
+        c = cp.cell(r, j, v); c.font = bold; c.fill = head_fill; c.border = box
+        c.alignment = Alignment(wrap_text=True, vertical='center')
+    cp.row_dimensions[r].height = 30
+    r += 1
+    r0 = r
+    for k, n in sorted(pieces.items(), key=lambda kv: -kv[1]):
+        cp.cell(r, 1, nom_piece[k] + (' (inventaire)' if k in TOURELLES else '')).font = base
+        x = cp.cell(r, col_n, n); x.font = blue; x.number_format = NUM
+        for c in codes:
+            ci = 5 + [c_ for c_, _ in RES].index(c)
+            u = cp.cell(r, col_u[c], f'=IFERROR(INDEX(Détail!${L(ci)}${first}:${L(ci)}${last},'
+                                     f'MATCH("{nom_piece[k]}",Détail!$B${first}:$B${last},0)),0)')
+            u.font = green; u.number_format = NUM
+            t = cp.cell(r, col_t[c], f'=$B{r}*{L(col_u[c])}{r}'); t.font = base; t.number_format = NUM
+        for j in range(1, len(hdr) + 1):
+            cp.cell(r, j).border = box
+        r += 1
+    r1 = r - 1
+    lignes_tot = [('Total', None), ('À fabriquer (hors tourelles)', ' (inventaire)')]
+    rows = {}
+    for lib, excl in lignes_tot:
+        cp.cell(r, 1, lib).font = bold
+        if excl:
+            f_n = f'=SUM(B{r0}:B{r1})-SUMIF(A{r0}:A{r1},"*{excl}",B{r0}:B{r1})'
+        else:
+            f_n = f'=SUM(B{r0}:B{r1})'
+        x = cp.cell(r, col_n, f_n); x.font = bold; x.number_format = NUM
+        for c in codes:
+            colL = L(col_t[c])
+            f_ = (f'=SUM({colL}{r0}:{colL}{r1})-SUMIF(A{r0}:A{r1},"*{excl}",{colL}{r0}:{colL}{r1})' if excl
+                  else f'=SUM({colL}{r0}:{colL}{r1})')
+            x = cp.cell(r, col_t[c], f_); x.font = bold; x.number_format = NUM
+        for j in range(1, len(hdr) + 1):
+            cp.cell(r, j).fill = tot_fill; cp.cell(r, j).border = box
+        rows[lib] = r
+        r += 1
+    recap.append((titre_b, entrees, sorte, rows['Total'], rows['À fabriquer (hors tourelles)'], r0, r1))
+    r += 1
+
+# récapitulatif final
+r += 1
+cp.cell(r, 1, 'Récapitulatif : tous les plans').font = Font(name=F_, size=13, bold=True)
+r += 1
+hdr2 = ['Plan', 'Entrées template', 'Structures', 'dont tourelles (inventaire)'] + \
+       [nom_res[c] for c in codes] + ['Lingots à fabriquer', 'Pâte à fabriquer']
+for j, v in enumerate(hdr2, 1):
+    c = cp.cell(r, j, v); c.font = bold; c.fill = head_fill; c.border = box
+    c.alignment = Alignment(wrap_text=True, vertical='center')
+cp.row_dimensions[r].height = 42
+r += 1
+g0 = r
+idx = {}
+for titre_b, entrees, sorte, rt, rf, r0, r1 in recap:
+    cp.cell(r, 1, titre_b).font = base if sorte == 'plan' else Font(name=F_, size=10, italic=True)
+    if entrees is not None:
+        x = cp.cell(r, 2, entrees); x.number_format = NUM
+    x = cp.cell(r, 3, f'=B{rt}'); x.number_format = NUM
+    x = cp.cell(r, 4, f'=B{rt}-B{rf}'); x.number_format = NUM
+    for i, c in enumerate(codes):
+        x = cp.cell(r, 5 + i, f'={L(col_t[c])}{rt}'); x.number_format = NUM
+    for i, c in enumerate(('MI', 'PC')):
+        x = cp.cell(r, 5 + nc + i, f'={L(col_t[c])}{rf}' if c in col_t else 0); x.number_format = NUM
+    for j in range(1, len(hdr2) + 1):
+        cp.cell(r, j).border = box
+    idx.setdefault(sorte, []).append(r)
+    r += 1
+g1 = r - 1
+
+
+def ligne_somme(lib, lignes_):
+    global r
+    cp.cell(r, 1, lib).font = bold
+    for j in range(2, len(hdr2) + 1):
+        x = cp.cell(r, j, '=' + '+'.join(f'{L(j)}{k}' for k in lignes_)); x.font = bold; x.number_format = NUM
+    for j in range(1, len(hdr2) + 1):
+        cp.cell(r, j).fill = tot_fill; cp.cell(r, j).border = box
+    r += 1
+
+
+ligne_somme('Total des plans (sans les options)', idx['plan'])
+ligne_somme('Total de la base (plans + hors plans)', idx['plan'] + idx['hors'])
+ligne_somme('Total avec la colonnade et 1 rehausse', idx['plan'] + idx['hors'] + idx['option'])
+cp.cell(r + 1, 1, "Structures : pièces posées, ancres comprises dans « hors plans », murs de chaume compris dans les "
+                  "plans (démolis ensuite). Les Plant X comptent dans le cap de 100 mais leur carré de culture est la "
+                  "seule structure posée.").font = Font(name=F_, size=9, italic=True)
+cp.column_dimensions['A'].width = 46
+for j in range(2, len(hdr) + 2):
+    cp.column_dimensions[L(j)].width = 12
+cp.freeze_panes = 'B4'
+
 for ws in wb.worksheets:
     for row in ws.iter_rows():
         for c in row:

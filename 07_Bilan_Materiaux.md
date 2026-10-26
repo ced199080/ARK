@@ -68,7 +68,7 @@ Par rapport à la version précédente (138 479 lingots, 34 725 pâte, colonnade
 | **Équipements** | voir §3 | 26 000 | 2 900 | 220 élément, 3 350 cristal, 470 perles noires, 5 850 polymère, 220 électroniques, 100 poudre étincelante, 1 400 huile |
 | *Tourelles (inventaire)* | *52 Heavy, 23 Tek, 10 Tesla* | *35 380* | *11 550* | *17 340 électroniques, 7 790 polymère, 2 000 cristal, 69 élément* |
 
-Le détail plan par plan (pièces, lingots, pâte) est au module 06 §5 et dans l'onglet « Par plan » du classeur : on peut construire et financer la base plan par plan.
+Le détail plan par plan (pièces, nombre de structures, coût de chaque pièce, total du plan, puis récapitulatif de tous les plans) est dans l'onglet « Coût par plan » du classeur, et au module 06 §5 : on peut construire et financer la base plan par plan.
 
 ## 3. Équipements
 
