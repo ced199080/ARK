@@ -1,0 +1,1031 @@
+entree;piece;x;y;Z_plan;yaw;theta;rayon;repere
+0;Demi-pilier métal;0.0;300.0;-75;0;90.0;300.0;ancre basse
+1;Demi-pilier métal;0.0;300.0;75;0;90.0;300.0;ancre haute
+2;Fondation triangle métal;129.9;0.0;-0.0;180;0.0;129.9;anneau 0 cote 0 n0
+3;Fondation triangle métal;65.0;112.5;-0.0;240;60.0;129.9;anneau 0 cote 2 n0
+4;Fondation triangle métal;-65.0;112.5;-0.0;300;120.0;129.9;anneau 0 cote 4 n0
+5;Fondation triangle métal;-129.9;0.0;-0.0;0;180.0;129.9;anneau 0 cote 6 n0
+6;Fondation triangle métal;-65.0;-112.5;-0.0;60;240.0;129.9;anneau 0 cote 8 n0
+7;Fondation triangle métal;65.0;-112.5;-0.0;120;300.0;129.9;anneau 0 cote 10 n0
+8;Fondation métal;409.8;0.0;-0.0;0;0.0;409.8;anneau 1 cote 0 n0
+9;Fondation triangle métal;372.3;215.0;-0.0;210;30.0;429.9;anneau 1 cote 1 n0
+10;Fondation métal;204.9;354.9;-0.0;60;60.0;409.8;anneau 1 cote 2 n0
+11;Fondation triangle métal;0.0;429.9;-0.0;270;90.0;429.9;anneau 1 cote 3 n0
+12;Fondation métal;-204.9;354.9;-0.0;120;120.0;409.8;anneau 1 cote 4 n0
+13;Fondation triangle métal;-372.3;215.0;-0.0;330;150.0;429.9;anneau 1 cote 5 n0
+14;Fondation métal;-409.8;0.0;-0.0;180;180.0;409.8;anneau 1 cote 6 n0
+15;Fondation triangle métal;-372.3;-215.0;-0.0;30;210.0;429.9;anneau 1 cote 7 n0
+16;Fondation métal;-204.9;-354.9;-0.0;240;240.0;409.8;anneau 1 cote 8 n0
+17;Fondation triangle métal;-0.0;-429.9;-0.0;90;270.0;429.9;anneau 1 cote 9 n0
+18;Fondation métal;204.9;-354.9;-0.0;300;300.0;409.8;anneau 1 cote 10 n0
+19;Fondation triangle métal;372.3;-215.0;-0.0;150;330.0;429.9;anneau 1 cote 11 n0
+20;Fondation triangle métal;689.7;0.0;-0.0;0;0.0;689.7;anneau 2 cote 0 n0
+21;Fondation triangle métal;689.7;-150.0;-0.0;180;347.73;705.8;anneau 2 cote 0 n1
+22;Fondation triangle métal;689.7;150.0;-0.0;180;12.27;705.8;anneau 2 cote 0 n2
+23;Fondation métal;614.7;354.9;-0.0;30;30.0;709.8;anneau 2 cote 1 n0
+24;Fondation triangle métal;344.9;597.3;-0.0;60;60.0;689.7;anneau 2 cote 2 n0
+25;Fondation triangle métal;474.8;522.3;-0.0;240;47.73;705.8;anneau 2 cote 2 n1
+26;Fondation triangle métal;215.0;672.3;-0.0;240;72.27;705.8;anneau 2 cote 2 n2
+27;Fondation métal;0.0;709.8;-0.0;90;90.0;709.8;anneau 2 cote 3 n0
+28;Fondation triangle métal;-344.9;597.3;-0.0;120;120.0;689.7;anneau 2 cote 4 n0
+29;Fondation triangle métal;-215.0;672.3;-0.0;300;107.73;705.8;anneau 2 cote 4 n1
+30;Fondation triangle métal;-474.8;522.3;-0.0;300;132.27;705.8;anneau 2 cote 4 n2
+31;Fondation métal;-614.7;354.9;-0.0;150;150.0;709.8;anneau 2 cote 5 n0
+32;Fondation triangle métal;-689.7;0.0;-0.0;180;180.0;689.7;anneau 2 cote 6 n0
+33;Fondation triangle métal;-689.7;150.0;-0.0;0;167.73;705.8;anneau 2 cote 6 n1
+34;Fondation triangle métal;-689.7;-150.0;-0.0;0;192.27;705.8;anneau 2 cote 6 n2
+35;Fondation métal;-614.7;-354.9;-0.0;210;210.0;709.8;anneau 2 cote 7 n0
+36;Fondation triangle métal;-344.9;-597.3;-0.0;240;240.0;689.7;anneau 2 cote 8 n0
+37;Fondation triangle métal;-474.8;-522.3;-0.0;60;227.73;705.8;anneau 2 cote 8 n1
+38;Fondation triangle métal;-215.0;-672.3;-0.0;60;252.27;705.8;anneau 2 cote 8 n2
+39;Fondation métal;-0.0;-709.8;-0.0;270;270.0;709.8;anneau 2 cote 9 n0
+40;Fondation triangle métal;344.9;-597.3;-0.0;300;300.0;689.7;anneau 2 cote 10 n0
+41;Fondation triangle métal;215.0;-672.3;-0.0;120;287.73;705.8;anneau 2 cote 10 n1
+42;Fondation triangle métal;474.8;-522.3;-0.0;120;312.27;705.8;anneau 2 cote 10 n2
+43;Fondation métal;614.7;-354.9;-0.0;330;330.0;709.8;anneau 2 cote 11 n0
+44;Fondation métal;969.6;-150.0;-0.0;0;351.21;981.1;anneau 3 cote 0 n0
+45;Fondation métal;969.6;150.0;-0.0;0;8.79;981.1;anneau 3 cote 0 n1
+46;Fondation triangle métal;857.1;494.9;-0.0;30;30.0;989.7;anneau 3 cote 1 n0
+47;Fondation triangle métal;932.1;365.0;-0.0;210;21.38;1001.0;anneau 3 cote 1 n1
+48;Fondation triangle métal;782.1;624.8;-0.0;210;38.62;1001.0;anneau 3 cote 1 n2
+49;Fondation métal;614.7;764.7;-0.0;60;51.21;981.1;anneau 3 cote 2 n0
+50;Fondation métal;354.9;914.7;-0.0;60;68.79;981.1;anneau 3 cote 2 n1
+51;Fondation triangle métal;0.0;989.7;-0.0;90;90.0;989.7;anneau 3 cote 3 n0
+52;Fondation triangle métal;150.0;989.7;-0.0;270;81.38;1001.0;anneau 3 cote 3 n1
+53;Fondation triangle métal;-150.0;989.7;-0.0;270;98.62;1001.0;anneau 3 cote 3 n2
+54;Fondation métal;-354.9;914.7;-0.0;120;111.21;981.1;anneau 3 cote 4 n0
+55;Fondation métal;-614.7;764.7;-0.0;120;128.79;981.1;anneau 3 cote 4 n1
+56;Fondation triangle métal;-857.1;494.9;-0.0;150;150.0;989.7;anneau 3 cote 5 n0
+57;Fondation triangle métal;-782.1;624.8;-0.0;330;141.38;1001.0;anneau 3 cote 5 n1
+58;Fondation triangle métal;-932.1;365.0;-0.0;330;158.62;1001.0;anneau 3 cote 5 n2
+59;Fondation métal;-969.6;150.0;-0.0;180;171.21;981.1;anneau 3 cote 6 n0
+60;Fondation métal;-969.6;-150.0;-0.0;180;188.79;981.1;anneau 3 cote 6 n1
+61;Fondation triangle métal;-857.1;-494.9;-0.0;210;210.0;989.7;anneau 3 cote 7 n0
+62;Fondation triangle métal;-932.1;-365.0;-0.0;30;201.38;1001.0;anneau 3 cote 7 n1
+63;Fondation triangle métal;-782.1;-624.8;-0.0;30;218.62;1001.0;anneau 3 cote 7 n2
+64;Fondation métal;-614.7;-764.7;-0.0;240;231.21;981.1;anneau 3 cote 8 n0
+65;Fondation métal;-354.9;-914.7;-0.0;240;248.79;981.1;anneau 3 cote 8 n1
+66;Fondation triangle métal;-0.0;-989.7;-0.0;270;270.0;989.7;anneau 3 cote 9 n0
+67;Fondation triangle métal;-150.0;-989.7;-0.0;90;261.38;1001.0;anneau 3 cote 9 n1
+68;Fondation triangle métal;150.0;-989.7;-0.0;90;278.62;1001.0;anneau 3 cote 9 n2
+69;Fondation métal;354.9;-914.7;-0.0;300;291.21;981.1;anneau 3 cote 10 n0
+70;Fondation métal;614.7;-764.7;-0.0;300;308.79;981.1;anneau 3 cote 10 n1
+71;Fondation triangle métal;857.1;-494.9;-0.0;330;330.0;989.7;anneau 3 cote 11 n0
+72;Fondation triangle métal;782.1;-624.8;-0.0;150;321.38;1001.0;anneau 3 cote 11 n1
+73;Fondation triangle métal;932.1;-365.0;-0.0;150;338.62;1001.0;anneau 3 cote 11 n2
+74;Fondation triangle métal;1249.5;-150.0;-0.0;0;353.15;1258.5;anneau 4 cote 0 n0
+75;Fondation triangle métal;1249.5;150.0;-0.0;0;6.85;1258.5;anneau 4 cote 0 n1
+76;Fondation triangle métal;1249.5;-300.0;-0.0;180;346.5;1285.0;anneau 4 cote 0 n2
+77;Fondation triangle métal;1249.5;0.0;-0.0;180;0.0;1249.5;anneau 4 cote 0 n3
+78;Fondation triangle métal;1249.5;300.0;-0.0;180;13.5;1285.0;anneau 4 cote 0 n4
+79;Fondation métal;1174.5;504.9;-0.0;30;23.26;1278.4;anneau 4 cote 1 n0
+80;Fondation métal;1024.5;764.7;-0.0;30;36.74;1278.4;anneau 4 cote 1 n1
+81;Fondation triangle métal;754.7;1007.1;-0.0;60;53.15;1258.5;anneau 4 cote 2 n0
+82;Fondation triangle métal;494.9;1157.1;-0.0;60;66.85;1258.5;anneau 4 cote 2 n1
+83;Fondation triangle métal;884.6;932.1;-0.0;240;46.5;1285.0;anneau 4 cote 2 n2
+84;Fondation triangle métal;624.8;1082.1;-0.0;240;60.0;1249.5;anneau 4 cote 2 n3
+85;Fondation triangle métal;365.0;1232.1;-0.0;240;73.5;1285.0;anneau 4 cote 2 n4
+86;Fondation métal;150.0;1269.6;-0.0;90;83.26;1278.4;anneau 4 cote 3 n0
+87;Fondation métal;-150.0;1269.6;-0.0;90;96.74;1278.4;anneau 4 cote 3 n1
+88;Fondation triangle métal;-494.9;1157.1;-0.0;120;113.15;1258.5;anneau 4 cote 4 n0
+89;Fondation triangle métal;-754.7;1007.1;-0.0;120;126.85;1258.5;anneau 4 cote 4 n1
+90;Fondation triangle métal;-365.0;1232.1;-0.0;300;106.5;1285.0;anneau 4 cote 4 n2
+91;Fondation triangle métal;-624.8;1082.1;-0.0;300;120.0;1249.5;anneau 4 cote 4 n3
+92;Fondation triangle métal;-884.6;932.1;-0.0;300;133.5;1285.0;anneau 4 cote 4 n4
+93;Fondation métal;-1024.5;764.7;-0.0;150;143.26;1278.4;anneau 4 cote 5 n0
+94;Fondation métal;-1174.5;504.9;-0.0;150;156.74;1278.4;anneau 4 cote 5 n1
+95;Fondation métal;-1174.5;-504.9;-0.0;210;203.26;1278.4;anneau 4 cote 7 n0
+96;Fondation métal;-1024.5;-764.7;-0.0;210;216.74;1278.4;anneau 4 cote 7 n1
+97;Fondation triangle métal;-754.7;-1007.1;-0.0;240;233.15;1258.5;anneau 4 cote 8 n0
+98;Fondation triangle métal;-494.9;-1157.1;-0.0;240;246.85;1258.5;anneau 4 cote 8 n1
+99;Fondation triangle métal;-884.6;-932.1;-0.0;60;226.5;1285.0;anneau 4 cote 8 n2
+100;Fondation triangle métal;-624.8;-1082.1;-0.0;60;240.0;1249.5;anneau 4 cote 8 n3
+101;Fondation triangle métal;-365.0;-1232.1;-0.0;60;253.5;1285.0;anneau 4 cote 8 n4
+102;Fondation métal;-150.0;-1269.6;-0.0;270;263.26;1278.4;anneau 4 cote 9 n0
+103;Fondation métal;150.0;-1269.6;-0.0;270;276.74;1278.4;anneau 4 cote 9 n1
+104;Fondation triangle métal;494.9;-1157.1;-0.0;300;293.15;1258.5;anneau 4 cote 10 n0
+105;Fondation triangle métal;754.7;-1007.1;-0.0;300;306.85;1258.5;anneau 4 cote 10 n1
+106;Fondation triangle métal;365.0;-1232.1;-0.0;120;286.5;1285.0;anneau 4 cote 10 n2
+107;Fondation triangle métal;624.8;-1082.1;-0.0;120;300.0;1249.5;anneau 4 cote 10 n3
+108;Fondation triangle métal;884.6;-932.1;-0.0;120;313.5;1285.0;anneau 4 cote 10 n4
+109;Fondation métal;1024.5;-764.7;-0.0;330;323.26;1278.4;anneau 4 cote 11 n0
+110;Fondation métal;1174.5;-504.9;-0.0;330;336.74;1278.4;anneau 4 cote 11 n1
+111;Fondation métal;1529.4;-300.0;-0.0;0;348.9;1558.6;anneau 5 cote 0 n0
+112;Fondation métal;1529.4;0.0;-0.0;0;0.0;1529.4;anneau 5 cote 0 n1
+113;Fondation métal;1529.4;300.0;-0.0;0;11.1;1558.6;anneau 5 cote 0 n2
+114;Fondation triangle métal;1416.9;644.9;-0.0;30;24.47;1556.8;anneau 5 cote 1 n0
+115;Fondation triangle métal;1266.9;904.7;-0.0;30;35.53;1556.8;anneau 5 cote 1 n1
+116;Fondation triangle métal;1491.9;515.0;-0.0;210;19.04;1578.3;anneau 5 cote 1 n2
+117;Fondation triangle métal;1341.9;774.8;-0.0;210;30.0;1549.5;anneau 5 cote 1 n3
+118;Fondation triangle métal;1191.9;1034.6;-0.0;210;40.96;1578.3;anneau 5 cote 1 n4
+119;Fondation métal;1024.5;1174.5;-0.0;60;48.9;1558.6;anneau 5 cote 2 n0
+120;Fondation métal;764.7;1324.5;-0.0;60;60.0;1529.4;anneau 5 cote 2 n1
+121;Fondation métal;504.9;1474.5;-0.0;60;71.1;1558.6;anneau 5 cote 2 n2
+122;Fondation triangle métal;150.0;1549.5;-0.0;90;84.47;1556.8;anneau 5 cote 3 n0
+123;Fondation triangle métal;-150.0;1549.5;-0.0;90;95.53;1556.8;anneau 5 cote 3 n1
+124;Fondation triangle métal;300.0;1549.5;-0.0;270;79.04;1578.3;anneau 5 cote 3 n2
+125;Fondation triangle métal;0.0;1549.5;-0.0;270;90.0;1549.5;anneau 5 cote 3 n3
+126;Fondation triangle métal;-300.0;1549.5;-0.0;270;100.96;1578.3;anneau 5 cote 3 n4
+127;Fondation métal;-504.9;1474.5;-0.0;120;108.9;1558.6;anneau 5 cote 4 n0
+128;Fondation métal;-764.7;1324.5;-0.0;120;120.0;1529.4;anneau 5 cote 4 n1
+129;Fondation métal;-1024.5;1174.5;-0.0;120;131.1;1558.6;anneau 5 cote 4 n2
+130;Fondation triangle métal;-1266.9;904.7;-0.0;150;144.47;1556.8;anneau 5 cote 5 n0
+131;Fondation triangle métal;-1416.9;644.9;-0.0;150;155.53;1556.8;anneau 5 cote 5 n1
+132;Fondation triangle métal;-1191.9;1034.6;-0.0;330;139.04;1578.3;anneau 5 cote 5 n2
+133;Fondation triangle métal;-1341.9;774.8;-0.0;330;150.0;1549.5;anneau 5 cote 5 n3
+134;Fondation triangle métal;-1416.9;-644.9;-0.0;210;204.47;1556.8;anneau 5 cote 7 n0
+135;Fondation triangle métal;-1266.9;-904.7;-0.0;210;215.53;1556.8;anneau 5 cote 7 n1
+136;Fondation triangle métal;-1341.9;-774.8;-0.0;30;210.0;1549.5;anneau 5 cote 7 n3
+137;Fondation triangle métal;-1191.9;-1034.6;-0.0;30;220.96;1578.3;anneau 5 cote 7 n4
+138;Fondation métal;-1024.5;-1174.5;-0.0;240;228.9;1558.6;anneau 5 cote 8 n0
+139;Fondation métal;-764.7;-1324.5;-0.0;240;240.0;1529.4;anneau 5 cote 8 n1
+140;Fondation métal;-504.9;-1474.5;-0.0;240;251.1;1558.6;anneau 5 cote 8 n2
+141;Fondation triangle métal;-150.0;-1549.5;-0.0;270;264.47;1556.8;anneau 5 cote 9 n0
+142;Fondation triangle métal;150.0;-1549.5;-0.0;270;275.53;1556.8;anneau 5 cote 9 n1
+143;Fondation triangle métal;-300.0;-1549.5;-0.0;90;259.04;1578.3;anneau 5 cote 9 n2
+144;Fondation triangle métal;-0.0;-1549.5;-0.0;90;270.0;1549.5;anneau 5 cote 9 n3
+145;Fondation triangle métal;300.0;-1549.5;-0.0;90;280.96;1578.3;anneau 5 cote 9 n4
+146;Fondation métal;504.9;-1474.5;-0.0;300;288.9;1558.6;anneau 5 cote 10 n0
+147;Fondation métal;764.7;-1324.5;-0.0;300;300.0;1529.4;anneau 5 cote 10 n1
+148;Fondation métal;1024.5;-1174.5;-0.0;300;311.1;1558.6;anneau 5 cote 10 n2
+149;Fondation triangle métal;1266.9;-904.7;-0.0;330;324.47;1556.8;anneau 5 cote 11 n0
+150;Fondation triangle métal;1416.9;-644.9;-0.0;330;335.53;1556.8;anneau 5 cote 11 n1
+151;Fondation triangle métal;1191.9;-1034.6;-0.0;150;319.04;1578.3;anneau 5 cote 11 n2
+152;Fondation triangle métal;1341.9;-774.8;-0.0;150;330.0;1549.5;anneau 5 cote 11 n3
+153;Fondation triangle métal;1491.9;-515.0;-0.0;150;340.96;1578.3;anneau 5 cote 11 n4
+154;Fondation triangle métal;1809.3;-300.0;-0.0;0;350.59;1834.0;anneau 6 cote 0 n0
+155;Fondation triangle métal;1809.3;0.0;-0.0;0;0.0;1809.3;anneau 6 cote 0 n1
+156;Fondation triangle métal;1809.3;300.0;-0.0;0;9.41;1834.0;anneau 6 cote 0 n2
+157;Fondation triangle métal;1809.3;-450.0;-0.0;180;346.03;1864.4;anneau 6 cote 0 n3
+158;Fondation triangle métal;1809.3;-150.0;-0.0;180;355.26;1815.5;anneau 6 cote 0 n4
+159;Fondation triangle métal;1809.3;150.0;-0.0;180;4.74;1815.5;anneau 6 cote 0 n5
+160;Fondation triangle métal;1809.3;450.0;-0.0;180;13.97;1864.4;anneau 6 cote 0 n6
+161;Fondation métal;1734.3;654.9;-0.0;30;20.69;1853.9;anneau 6 cote 1 n0
+162;Fondation métal;1584.3;914.7;-0.0;30;30.0;1829.4;anneau 6 cote 1 n1
+163;Fondation métal;1434.3;1174.5;-0.0;30;39.31;1853.9;anneau 6 cote 1 n2
+164;Fondation triangle métal;1164.5;1416.9;-0.0;60;50.59;1834.0;anneau 6 cote 2 n0
+165;Fondation triangle métal;904.7;1566.9;-0.0;60;60.0;1809.3;anneau 6 cote 2 n1
+166;Fondation triangle métal;644.9;1716.9;-0.0;60;69.41;1834.0;anneau 6 cote 2 n2
+167;Fondation triangle métal;1294.4;1341.9;-0.0;240;46.03;1864.4;anneau 6 cote 2 n3
+168;Fondation triangle métal;1034.6;1491.9;-0.0;240;55.26;1815.5;anneau 6 cote 2 n4
+169;Fondation triangle métal;774.8;1641.9;-0.0;240;64.74;1815.5;anneau 6 cote 2 n5
+170;Fondation triangle métal;515.0;1791.9;-0.0;240;73.97;1864.4;anneau 6 cote 2 n6
+171;Fondation métal;300.0;1829.4;-0.0;90;80.69;1853.9;anneau 6 cote 3 n0
+172;Fondation métal;0.0;1829.4;-0.0;90;90.0;1829.4;anneau 6 cote 3 n1
+173;Fondation métal;-300.0;1829.4;-0.0;90;99.31;1853.9;anneau 6 cote 3 n2
+174;Fondation triangle métal;-644.9;1716.9;-0.0;120;110.59;1834.0;anneau 6 cote 4 n0
+175;Fondation triangle métal;-904.7;1566.9;-0.0;120;120.0;1809.3;anneau 6 cote 4 n1
+176;Fondation triangle métal;-1164.5;1416.9;-0.0;120;129.41;1834.0;anneau 6 cote 4 n2
+177;Fondation triangle métal;-515.0;1791.9;-0.0;300;106.03;1864.4;anneau 6 cote 4 n3
+178;Fondation triangle métal;-774.8;1641.9;-0.0;300;115.26;1815.5;anneau 6 cote 4 n4
+179;Fondation triangle métal;-1034.6;1491.9;-0.0;300;124.74;1815.5;anneau 6 cote 4 n5
+180;Fondation triangle métal;-1294.4;1341.9;-0.0;300;133.97;1864.4;anneau 6 cote 4 n6
+181;Fondation métal;-1434.3;1174.5;-0.0;150;140.69;1853.9;anneau 6 cote 5 n0
+182;Fondation métal;-1584.3;914.7;-0.0;150;150.0;1829.4;anneau 6 cote 5 n1
+183;Fondation métal;-1584.3;-914.7;-0.0;210;210.0;1829.4;anneau 6 cote 7 n1
+184;Fondation métal;-1434.3;-1174.5;-0.0;210;219.31;1853.9;anneau 6 cote 7 n2
+185;Fondation triangle métal;-1164.5;-1416.9;-0.0;240;230.59;1834.0;anneau 6 cote 8 n0
+186;Fondation triangle métal;-904.7;-1566.9;-0.0;240;240.0;1809.3;anneau 6 cote 8 n1
+187;Fondation triangle métal;-644.9;-1716.9;-0.0;240;249.41;1834.0;anneau 6 cote 8 n2
+188;Fondation triangle métal;-1294.4;-1341.9;-0.0;60;226.03;1864.4;anneau 6 cote 8 n3
+189;Fondation triangle métal;-1034.6;-1491.9;-0.0;60;235.26;1815.5;anneau 6 cote 8 n4
+190;Fondation triangle métal;-774.8;-1641.9;-0.0;60;244.74;1815.5;anneau 6 cote 8 n5
+191;Fondation triangle métal;-515.0;-1791.9;-0.0;60;253.97;1864.4;anneau 6 cote 8 n6
+192;Fondation métal;-300.0;-1829.4;-0.0;270;260.69;1853.9;anneau 6 cote 9 n0
+193;Fondation métal;-0.0;-1829.4;-0.0;270;270.0;1829.4;anneau 6 cote 9 n1
+194;Fondation métal;300.0;-1829.4;-0.0;270;279.31;1853.9;anneau 6 cote 9 n2
+195;Fondation triangle métal;644.9;-1716.9;-0.0;300;290.59;1834.0;anneau 6 cote 10 n0
+196;Fondation triangle métal;904.7;-1566.9;-0.0;300;300.0;1809.3;anneau 6 cote 10 n1
+197;Fondation triangle métal;1164.5;-1416.9;-0.0;300;309.41;1834.0;anneau 6 cote 10 n2
+198;Fondation triangle métal;515.0;-1791.9;-0.0;120;286.03;1864.4;anneau 6 cote 10 n3
+199;Fondation triangle métal;774.8;-1641.9;-0.0;120;295.26;1815.5;anneau 6 cote 10 n4
+200;Fondation triangle métal;1034.6;-1491.9;-0.0;120;304.74;1815.5;anneau 6 cote 10 n5
+201;Fondation triangle métal;1294.4;-1341.9;-0.0;120;313.97;1864.4;anneau 6 cote 10 n6
+202;Fondation métal;1434.3;-1174.5;-0.0;330;320.69;1853.9;anneau 6 cote 11 n0
+203;Fondation métal;1584.3;-914.7;-0.0;330;330.0;1829.4;anneau 6 cote 11 n1
+204;Fondation métal;1734.3;-654.9;-0.0;330;339.31;1853.9;anneau 6 cote 11 n2
+205;Fondation métal;2089.2;-450.0;-0.0;0;347.84;2137.1;anneau 7 cote 0 n0
+206;Fondation métal;2089.2;-150.0;-0.0;0;355.89;2094.6;anneau 7 cote 0 n1
+207;Fondation métal;2089.2;150.0;-0.0;0;4.11;2094.6;anneau 7 cote 0 n2
+208;Fondation métal;2089.2;450.0;-0.0;0;12.16;2137.1;anneau 7 cote 0 n3
+209;Fondation triangle métal;1976.7;794.9;-0.0;30;21.91;2130.6;anneau 7 cote 1 n0
+210;Fondation triangle métal;1826.7;1054.7;-0.0;30;30.0;2109.3;anneau 7 cote 1 n1
+211;Fondation triangle métal;1676.7;1314.5;-0.0;30;38.09;2130.6;anneau 7 cote 1 n2
+212;Fondation triangle métal;2051.7;665.0;-0.0;210;17.96;2156.8;anneau 7 cote 1 n3
+213;Fondation triangle métal;1901.7;924.8;-0.0;210;25.93;2114.7;anneau 7 cote 1 n4
+214;Fondation triangle métal;1751.7;1184.6;-0.0;210;34.07;2114.7;anneau 7 cote 1 n5
+215;Fondation triangle métal;1601.7;1444.4;-0.0;210;42.04;2156.8;anneau 7 cote 1 n6
+216;Fondation métal;1434.3;1584.3;-0.0;60;47.84;2137.1;anneau 7 cote 2 n0
+217;Fondation métal;1174.5;1734.3;-0.0;60;55.89;2094.6;anneau 7 cote 2 n1
+218;Fondation métal;914.7;1884.3;-0.0;60;64.11;2094.6;anneau 7 cote 2 n2
+219;Fondation métal;654.9;2034.3;-0.0;60;72.16;2137.1;anneau 7 cote 2 n3
+220;Fondation triangle métal;300.0;2109.3;-0.0;90;81.91;2130.6;anneau 7 cote 3 n0
+221;Fondation triangle métal;0.0;2109.3;-0.0;90;90.0;2109.3;anneau 7 cote 3 n1
+222;Fondation triangle métal;-300.0;2109.3;-0.0;90;98.09;2130.6;anneau 7 cote 3 n2
+223;Fondation triangle métal;450.0;2109.3;-0.0;270;77.96;2156.8;anneau 7 cote 3 n3
+224;Fondation triangle métal;150.0;2109.3;-0.0;270;85.93;2114.7;anneau 7 cote 3 n4
+225;Fondation triangle métal;-150.0;2109.3;-0.0;270;94.07;2114.7;anneau 7 cote 3 n5
+226;Fondation triangle métal;-450.0;2109.3;-0.0;270;102.04;2156.8;anneau 7 cote 3 n6
+227;Fondation métal;-654.9;2034.3;-0.0;120;107.84;2137.1;anneau 7 cote 4 n0
+228;Fondation métal;-914.7;1884.3;-0.0;120;115.89;2094.6;anneau 7 cote 4 n1
+229;Fondation métal;-1174.5;1734.3;-0.0;120;124.11;2094.6;anneau 7 cote 4 n2
+230;Fondation métal;-1434.3;1584.3;-0.0;120;132.16;2137.1;anneau 7 cote 4 n3
+231;Fondation triangle métal;-1676.7;1314.5;-0.0;150;141.91;2130.6;anneau 7 cote 5 n0
+232;Fondation triangle métal;-1826.7;1054.7;-0.0;150;150.0;2109.3;anneau 7 cote 5 n1
+233;Fondation triangle métal;-1601.7;1444.4;-0.0;330;137.96;2156.8;anneau 7 cote 5 n3
+234;Fondation triangle métal;-1751.7;1184.6;-0.0;330;145.93;2114.7;anneau 7 cote 5 n4
+235;Fondation triangle métal;-1901.7;924.8;-0.0;330;154.07;2114.7;anneau 7 cote 5 n5
+236;Fondation triangle métal;-1826.7;-1054.7;-0.0;210;210.0;2109.3;anneau 7 cote 7 n1
+237;Fondation triangle métal;-1676.7;-1314.5;-0.0;210;218.09;2130.6;anneau 7 cote 7 n2
+238;Fondation triangle métal;-1901.7;-924.8;-0.0;30;205.93;2114.7;anneau 7 cote 7 n4
+239;Fondation triangle métal;-1751.7;-1184.6;-0.0;30;214.07;2114.7;anneau 7 cote 7 n5
+240;Fondation triangle métal;-1601.7;-1444.4;-0.0;30;222.04;2156.8;anneau 7 cote 7 n6
+241;Fondation métal;-1434.3;-1584.3;-0.0;240;227.84;2137.1;anneau 7 cote 8 n0
+242;Fondation métal;-1174.5;-1734.3;-0.0;240;235.89;2094.6;anneau 7 cote 8 n1
+243;Fondation métal;-914.7;-1884.3;-0.0;240;244.11;2094.6;anneau 7 cote 8 n2
+244;Fondation métal;-654.9;-2034.3;-0.0;240;252.16;2137.1;anneau 7 cote 8 n3
+245;Fondation triangle métal;-300.0;-2109.3;-0.0;270;261.91;2130.6;anneau 7 cote 9 n0
+246;Fondation triangle métal;-0.0;-2109.3;-0.0;270;270.0;2109.3;anneau 7 cote 9 n1
+247;Fondation triangle métal;300.0;-2109.3;-0.0;270;278.09;2130.6;anneau 7 cote 9 n2
+248;Fondation triangle métal;-450.0;-2109.3;-0.0;90;257.96;2156.8;anneau 7 cote 9 n3
+249;Fondation triangle métal;-150.0;-2109.3;-0.0;90;265.93;2114.7;anneau 7 cote 9 n4
+250;Fondation triangle métal;150.0;-2109.3;-0.0;90;274.07;2114.7;anneau 7 cote 9 n5
+251;Fondation triangle métal;450.0;-2109.3;-0.0;90;282.04;2156.8;anneau 7 cote 9 n6
+252;Fondation métal;654.9;-2034.3;-0.0;300;287.84;2137.1;anneau 7 cote 10 n0
+253;Fondation métal;914.7;-1884.3;-0.0;300;295.89;2094.6;anneau 7 cote 10 n1
+254;Fondation métal;1174.5;-1734.3;-0.0;300;304.11;2094.6;anneau 7 cote 10 n2
+255;Fondation métal;1434.3;-1584.3;-0.0;300;312.16;2137.1;anneau 7 cote 10 n3
+256;Fondation triangle métal;1676.7;-1314.5;-0.0;330;321.91;2130.6;anneau 7 cote 11 n0
+257;Fondation triangle métal;1826.7;-1054.7;-0.0;330;330.0;2109.3;anneau 7 cote 11 n1
+258;Fondation triangle métal;1976.7;-794.9;-0.0;330;338.09;2130.6;anneau 7 cote 11 n2
+259;Fondation triangle métal;1601.7;-1444.4;-0.0;150;317.96;2156.8;anneau 7 cote 11 n3
+260;Fondation triangle métal;1751.7;-1184.6;-0.0;150;325.93;2114.7;anneau 7 cote 11 n4
+261;Fondation triangle métal;1901.7;-924.8;-0.0;150;334.07;2114.7;anneau 7 cote 11 n5
+262;Fondation triangle métal;2051.7;-665.0;-0.0;150;342.04;2156.8;anneau 7 cote 11 n6
+263;Fondation triangle métal;2369.1;-450.0;-0.0;0;349.25;2411.5;anneau 8 cote 0 n0
+264;Fondation triangle métal;2369.1;-150.0;-0.0;0;356.38;2373.9;anneau 8 cote 0 n1
+265;Fondation triangle métal;2369.1;150.0;-0.0;0;3.62;2373.9;anneau 8 cote 0 n2
+266;Fondation triangle métal;2369.1;450.0;-0.0;0;10.75;2411.5;anneau 8 cote 0 n3
+267;Fondation triangle métal;2369.1;-600.0;-0.0;180;345.79;2443.9;anneau 8 cote 0 n4
+268;Fondation triangle métal;2369.1;-300.0;-0.0;180;352.78;2388.1;anneau 8 cote 0 n5
+269;Fondation triangle métal;2369.1;0.0;-0.0;180;0.0;2369.1;anneau 8 cote 0 n6
+270;Fondation triangle métal;2369.1;300.0;-0.0;180;7.22;2388.1;anneau 8 cote 0 n7
+271;Fondation triangle métal;2369.1;600.0;-0.0;180;14.21;2443.9;anneau 8 cote 0 n8
+272;Fondation métal;2294.1;804.9;-0.0;30;19.33;2431.2;anneau 8 cote 1 n0
+273;Fondation métal;2144.1;1064.7;-0.0;30;26.41;2393.9;anneau 8 cote 1 n1
+274;Fondation métal;1994.1;1324.5;-0.0;30;33.59;2393.9;anneau 8 cote 1 n2
+275;Fondation métal;1844.1;1584.3;-0.0;30;40.67;2431.2;anneau 8 cote 1 n3
+276;Fondation triangle métal;1574.3;1826.7;-0.0;60;49.25;2411.5;anneau 8 cote 2 n0
+277;Fondation triangle métal;1314.5;1976.7;-0.0;60;56.38;2373.9;anneau 8 cote 2 n1
+278;Fondation triangle métal;1054.7;2126.7;-0.0;60;63.62;2373.9;anneau 8 cote 2 n2
+279;Fondation triangle métal;794.9;2276.7;-0.0;60;70.75;2411.5;anneau 8 cote 2 n3
+280;Fondation triangle métal;1704.2;1751.7;-0.0;240;45.79;2443.9;anneau 8 cote 2 n4
+281;Fondation triangle métal;1444.4;1901.7;-0.0;240;52.78;2388.1;anneau 8 cote 2 n5
+282;Fondation triangle métal;1184.6;2051.7;-0.0;240;60.0;2369.1;anneau 8 cote 2 n6
+283;Fondation triangle métal;924.8;2201.7;-0.0;240;67.22;2388.1;anneau 8 cote 2 n7
+284;Fondation triangle métal;665.0;2351.7;-0.0;240;74.21;2443.9;anneau 8 cote 2 n8
+285;Fondation métal;450.0;2389.2;-0.0;90;79.33;2431.2;anneau 8 cote 3 n0
+286;Fondation métal;150.0;2389.2;-0.0;90;86.41;2393.9;anneau 8 cote 3 n1
+287;Fondation métal;-150.0;2389.2;-0.0;90;93.59;2393.9;anneau 8 cote 3 n2
+288;Fondation métal;-450.0;2389.2;-0.0;90;100.67;2431.2;anneau 8 cote 3 n3
+289;Fondation triangle métal;-794.9;2276.7;-0.0;120;109.25;2411.5;anneau 8 cote 4 n0
+290;Fondation triangle métal;-1054.7;2126.7;-0.0;120;116.38;2373.9;anneau 8 cote 4 n1
+291;Fondation triangle métal;-1314.5;1976.7;-0.0;120;123.62;2373.9;anneau 8 cote 4 n2
+292;Fondation triangle métal;-1574.3;1826.7;-0.0;120;130.75;2411.5;anneau 8 cote 4 n3
+293;Fondation triangle métal;-665.0;2351.7;-0.0;300;105.79;2443.9;anneau 8 cote 4 n4
+294;Fondation triangle métal;-924.8;2201.7;-0.0;300;112.78;2388.1;anneau 8 cote 4 n5
+295;Fondation triangle métal;-1184.6;2051.7;-0.0;300;120.0;2369.1;anneau 8 cote 4 n6
+296;Fondation triangle métal;-1444.4;1901.7;-0.0;300;127.22;2388.1;anneau 8 cote 4 n7
+297;Fondation triangle métal;-1704.2;1751.7;-0.0;300;134.21;2443.9;anneau 8 cote 4 n8
+298;Fondation métal;-1844.1;1584.3;-0.0;150;139.33;2431.2;anneau 8 cote 5 n0
+299;Fondation métal;-1994.1;1324.5;-0.0;150;146.41;2393.9;anneau 8 cote 5 n1
+300;Fondation métal;-2144.1;1064.7;-0.0;150;153.59;2393.9;anneau 8 cote 5 n2
+301;Fondation métal;-2144.1;-1064.7;-0.0;210;206.41;2393.9;anneau 8 cote 7 n1
+302;Fondation métal;-1994.1;-1324.5;-0.0;210;213.59;2393.9;anneau 8 cote 7 n2
+303;Fondation métal;-1844.1;-1584.3;-0.0;210;220.67;2431.2;anneau 8 cote 7 n3
+304;Fondation triangle métal;-1574.3;-1826.7;-0.0;240;229.25;2411.5;anneau 8 cote 8 n0
+305;Fondation triangle métal;-1314.5;-1976.7;-0.0;240;236.38;2373.9;anneau 8 cote 8 n1
+306;Fondation triangle métal;-1054.7;-2126.7;-0.0;240;243.62;2373.9;anneau 8 cote 8 n2
+307;Fondation triangle métal;-794.9;-2276.7;-0.0;240;250.75;2411.5;anneau 8 cote 8 n3
+308;Fondation triangle métal;-1704.2;-1751.7;-0.0;60;225.79;2443.9;anneau 8 cote 8 n4
+309;Fondation triangle métal;-1444.4;-1901.7;-0.0;60;232.78;2388.1;anneau 8 cote 8 n5
+310;Fondation triangle métal;-1184.6;-2051.7;-0.0;60;240.0;2369.1;anneau 8 cote 8 n6
+311;Fondation triangle métal;-924.8;-2201.7;-0.0;60;247.22;2388.1;anneau 8 cote 8 n7
+312;Fondation triangle métal;-665.0;-2351.7;-0.0;60;254.21;2443.9;anneau 8 cote 8 n8
+313;Fondation métal;-450.0;-2389.2;-0.0;270;259.33;2431.2;anneau 8 cote 9 n0
+314;Fondation métal;-150.0;-2389.2;-0.0;270;266.41;2393.9;anneau 8 cote 9 n1
+315;Fondation métal;150.0;-2389.2;-0.0;270;273.59;2393.9;anneau 8 cote 9 n2
+316;Fondation métal;450.0;-2389.2;-0.0;270;280.67;2431.2;anneau 8 cote 9 n3
+317;Fondation triangle métal;794.9;-2276.7;-0.0;300;289.25;2411.5;anneau 8 cote 10 n0
+318;Fondation triangle métal;1054.7;-2126.7;-0.0;300;296.38;2373.9;anneau 8 cote 10 n1
+319;Fondation triangle métal;1314.5;-1976.7;-0.0;300;303.62;2373.9;anneau 8 cote 10 n2
+320;Fondation triangle métal;1574.3;-1826.7;-0.0;300;310.75;2411.5;anneau 8 cote 10 n3
+321;Fondation triangle métal;665.0;-2351.7;-0.0;120;285.79;2443.9;anneau 8 cote 10 n4
+322;Fondation triangle métal;924.8;-2201.7;-0.0;120;292.78;2388.1;anneau 8 cote 10 n5
+323;Fondation triangle métal;1184.6;-2051.7;-0.0;120;300.0;2369.1;anneau 8 cote 10 n6
+324;Fondation triangle métal;1444.4;-1901.7;-0.0;120;307.22;2388.1;anneau 8 cote 10 n7
+325;Fondation triangle métal;1704.2;-1751.7;-0.0;120;314.21;2443.9;anneau 8 cote 10 n8
+326;Fondation métal;1844.1;-1584.3;-0.0;330;319.33;2431.2;anneau 8 cote 11 n0
+327;Fondation métal;1994.1;-1324.5;-0.0;330;326.41;2393.9;anneau 8 cote 11 n1
+328;Fondation métal;2144.1;-1064.7;-0.0;330;333.59;2393.9;anneau 8 cote 11 n2
+329;Fondation métal;2294.1;-804.9;-0.0;330;340.67;2431.2;anneau 8 cote 11 n3
+330;Fondation métal;2649.0;-600.0;-0.0;0;347.24;2716.1;anneau 9 cote 0 n0
+331;Fondation métal;2649.0;-300.0;-0.0;0;353.54;2666.0;anneau 9 cote 0 n1
+332;Fondation métal;2649.0;0.0;-0.0;0;0.0;2649.0;anneau 9 cote 0 n2
+333;Fondation métal;2649.0;300.0;-0.0;0;6.46;2666.0;anneau 9 cote 0 n3
+334;Fondation métal;2649.0;600.0;-0.0;0;12.76;2716.1;anneau 9 cote 0 n4
+335;Fondation triangle métal;2536.5;944.9;-0.0;30;20.43;2706.8;anneau 9 cote 1 n0
+336;Fondation triangle métal;2386.5;1204.7;-0.0;30;26.78;2673.3;anneau 9 cote 1 n1
+337;Fondation triangle métal;2236.5;1464.5;-0.0;30;33.22;2673.3;anneau 9 cote 1 n2
+338;Fondation triangle métal;2086.5;1724.3;-0.0;30;39.57;2706.8;anneau 9 cote 1 n3
+339;Fondation triangle métal;2611.5;815.0;-0.0;210;17.33;2735.7;anneau 9 cote 1 n4
+340;Fondation triangle métal;2461.5;1074.8;-0.0;210;23.59;2685.9;anneau 9 cote 1 n5
+341;Fondation triangle métal;2311.5;1334.6;-0.0;210;30.0;2669.1;anneau 9 cote 1 n6
+342;Fondation triangle métal;2161.5;1594.4;-0.0;210;36.41;2685.9;anneau 9 cote 1 n7
+343;Fondation triangle métal;2011.5;1854.2;-0.0;210;42.67;2735.7;anneau 9 cote 1 n8
+344;Fondation métal;1844.1;1994.1;-0.0;60;47.24;2716.1;anneau 9 cote 2 n0
+345;Fondation métal;1584.3;2144.1;-0.0;60;53.54;2666.0;anneau 9 cote 2 n1
+346;Fondation métal;1324.5;2294.1;-0.0;60;60.0;2649.0;anneau 9 cote 2 n2
+347;Fondation métal;1064.7;2444.1;-0.0;60;66.46;2666.0;anneau 9 cote 2 n3
+348;Fondation métal;804.9;2594.1;-0.0;60;72.76;2716.1;anneau 9 cote 2 n4
+349;Fondation triangle métal;450.0;2669.1;-0.0;90;80.43;2706.8;anneau 9 cote 3 n0
+350;Fondation triangle métal;150.0;2669.1;-0.0;90;86.78;2673.3;anneau 9 cote 3 n1
+351;Fondation triangle métal;-150.0;2669.1;-0.0;90;93.22;2673.3;anneau 9 cote 3 n2
+352;Fondation triangle métal;-450.0;2669.1;-0.0;90;99.57;2706.8;anneau 9 cote 3 n3
+353;Fondation triangle métal;600.0;2669.1;-0.0;270;77.33;2735.7;anneau 9 cote 3 n4
+354;Fondation triangle métal;300.0;2669.1;-0.0;270;83.59;2685.9;anneau 9 cote 3 n5
+355;Fondation triangle métal;0.0;2669.1;-0.0;270;90.0;2669.1;anneau 9 cote 3 n6
+356;Fondation triangle métal;-300.0;2669.1;-0.0;270;96.41;2685.9;anneau 9 cote 3 n7
+357;Fondation triangle métal;-600.0;2669.1;-0.0;270;102.67;2735.7;anneau 9 cote 3 n8
+358;Fondation métal;-804.9;2594.1;-0.0;120;107.24;2716.1;anneau 9 cote 4 n0
+359;Fondation métal;-1064.7;2444.1;-0.0;120;113.54;2666.0;anneau 9 cote 4 n1
+360;Fondation métal;-1324.5;2294.1;-0.0;120;120.0;2649.0;anneau 9 cote 4 n2
+361;Fondation métal;-1584.3;2144.1;-0.0;120;126.46;2666.0;anneau 9 cote 4 n3
+362;Fondation métal;-1844.1;1994.1;-0.0;120;132.76;2716.1;anneau 9 cote 4 n4
+363;Fondation triangle métal;-2086.5;1724.3;-0.0;150;140.43;2706.8;anneau 9 cote 5 n0
+364;Fondation triangle métal;-2236.5;1464.5;-0.0;150;146.78;2673.3;anneau 9 cote 5 n1
+365;Fondation triangle métal;-2386.5;1204.7;-0.0;150;153.22;2673.3;anneau 9 cote 5 n2
+366;Fondation triangle métal;-2011.5;1854.2;-0.0;330;137.33;2735.7;anneau 9 cote 5 n4
+367;Fondation triangle métal;-2161.5;1594.4;-0.0;330;143.59;2685.9;anneau 9 cote 5 n5
+368;Fondation triangle métal;-2311.5;1334.6;-0.0;330;150.0;2669.1;anneau 9 cote 5 n6
+369;Fondation triangle métal;-2461.5;1074.8;-0.0;330;156.41;2685.9;anneau 9 cote 5 n7
+370;Fondation métal;-2649.0;0.0;-0.0;180;180.0;2649.0;plateforme verte anneau 9 cote 6 n2
+371;Fondation métal;-2649.0;-300.0;-0.0;180;186.46;2666.0;plateforme verte anneau 9 cote 6 n3
+372;Fondation triangle métal;-2386.5;-1204.7;-0.0;210;206.78;2673.3;anneau 9 cote 7 n1
+373;Fondation triangle métal;-2236.5;-1464.5;-0.0;210;213.22;2673.3;anneau 9 cote 7 n2
+374;Fondation triangle métal;-2086.5;-1724.3;-0.0;210;219.57;2706.8;anneau 9 cote 7 n3
+375;Fondation triangle métal;-2461.5;-1074.8;-0.0;30;203.59;2685.9;anneau 9 cote 7 n5
+376;Fondation triangle métal;-2311.5;-1334.6;-0.0;30;210.0;2669.1;anneau 9 cote 7 n6
+377;Fondation triangle métal;-2161.5;-1594.4;-0.0;30;216.41;2685.9;anneau 9 cote 7 n7
+378;Fondation triangle métal;-2011.5;-1854.2;-0.0;30;222.67;2735.7;anneau 9 cote 7 n8
+379;Fondation métal;-1844.1;-1994.1;-0.0;240;227.24;2716.1;anneau 9 cote 8 n0
+380;Fondation métal;-1584.3;-2144.1;-0.0;240;233.54;2666.0;anneau 9 cote 8 n1
+381;Fondation métal;-1324.5;-2294.1;-0.0;240;240.0;2649.0;anneau 9 cote 8 n2
+382;Fondation métal;-1064.7;-2444.1;-0.0;240;246.46;2666.0;anneau 9 cote 8 n3
+383;Fondation métal;-804.9;-2594.1;-0.0;240;252.76;2716.1;anneau 9 cote 8 n4
+384;Fondation triangle métal;-450.0;-2669.1;-0.0;270;260.43;2706.8;anneau 9 cote 9 n0
+385;Fondation triangle métal;-150.0;-2669.1;-0.0;270;266.78;2673.3;anneau 9 cote 9 n1
+386;Fondation triangle métal;150.0;-2669.1;-0.0;270;273.22;2673.3;anneau 9 cote 9 n2
+387;Fondation triangle métal;450.0;-2669.1;-0.0;270;279.57;2706.8;anneau 9 cote 9 n3
+388;Fondation triangle métal;-600.0;-2669.1;-0.0;90;257.33;2735.7;anneau 9 cote 9 n4
+389;Fondation triangle métal;-300.0;-2669.1;-0.0;90;263.59;2685.9;anneau 9 cote 9 n5
+390;Fondation triangle métal;-0.0;-2669.1;-0.0;90;270.0;2669.1;anneau 9 cote 9 n6
+391;Fondation triangle métal;300.0;-2669.1;-0.0;90;276.41;2685.9;anneau 9 cote 9 n7
+392;Fondation triangle métal;600.0;-2669.1;-0.0;90;282.67;2735.7;anneau 9 cote 9 n8
+393;Fondation métal;804.9;-2594.1;-0.0;300;287.24;2716.1;anneau 9 cote 10 n0
+394;Fondation métal;1064.7;-2444.1;-0.0;300;293.54;2666.0;anneau 9 cote 10 n1
+395;Fondation métal;1324.5;-2294.1;-0.0;300;300.0;2649.0;anneau 9 cote 10 n2
+396;Fondation métal;1584.3;-2144.1;-0.0;300;306.46;2666.0;anneau 9 cote 10 n3
+397;Fondation métal;1844.1;-1994.1;-0.0;300;312.76;2716.1;anneau 9 cote 10 n4
+398;Fondation triangle métal;2086.5;-1724.3;-0.0;330;320.43;2706.8;anneau 9 cote 11 n0
+399;Fondation triangle métal;2236.5;-1464.5;-0.0;330;326.78;2673.3;anneau 9 cote 11 n1
+400;Fondation triangle métal;2386.5;-1204.7;-0.0;330;333.22;2673.3;anneau 9 cote 11 n2
+401;Fondation triangle métal;2536.5;-944.9;-0.0;330;339.57;2706.8;anneau 9 cote 11 n3
+402;Fondation triangle métal;2011.5;-1854.2;-0.0;150;317.33;2735.7;anneau 9 cote 11 n4
+403;Fondation triangle métal;2161.5;-1594.4;-0.0;150;323.59;2685.9;anneau 9 cote 11 n5
+404;Fondation triangle métal;2311.5;-1334.6;-0.0;150;330.0;2669.1;anneau 9 cote 11 n6
+405;Fondation triangle métal;2461.5;-1074.8;-0.0;150;336.41;2685.9;anneau 9 cote 11 n7
+406;Fondation triangle métal;2611.5;-815.0;-0.0;150;342.67;2735.7;anneau 9 cote 11 n8
+407;Fondation triangle métal;2928.9;-600.0;-0.0;0;348.42;2989.8;anneau 10 cote 0 n0
+408;Fondation triangle métal;2928.9;-300.0;-0.0;0;354.15;2944.3;anneau 10 cote 0 n1
+409;Fondation triangle métal;2928.9;0.0;-0.0;0;0.0;2928.9;anneau 10 cote 0 n2
+410;Fondation triangle métal;2928.9;300.0;-0.0;0;5.85;2944.3;anneau 10 cote 0 n3
+411;Fondation triangle métal;2928.9;600.0;-0.0;0;11.58;2989.8;anneau 10 cote 0 n4
+412;Fondation triangle métal;2928.9;-750.0;-0.0;180;345.64;3023.4;anneau 10 cote 0 n5
+413;Fondation triangle métal;2928.9;-450.0;-0.0;180;351.27;2963.3;anneau 10 cote 0 n6
+414;Fondation triangle métal;2928.9;-150.0;-0.0;180;357.07;2932.8;anneau 10 cote 0 n7
+415;Fondation triangle métal;2928.9;150.0;-0.0;180;2.93;2932.8;anneau 10 cote 0 n8
+416;Fondation triangle métal;2928.9;450.0;-0.0;180;8.73;2963.3;anneau 10 cote 0 n9
+417;Fondation triangle métal;2928.9;750.0;-0.0;180;14.36;3023.4;anneau 10 cote 0 n10
+418;Fondation métal;2853.9;954.9;-0.0;30;18.5;3009.5;anneau 10 cote 1 n0
+419;Fondation métal;2703.9;1214.7;-0.0;30;24.19;2964.3;anneau 10 cote 1 n1
+420;Fondation métal;2553.9;1474.5;-0.0;30;30.0;2949.0;anneau 10 cote 1 n2
+421;Fondation métal;2403.9;1734.3;-0.0;30;35.81;2964.3;anneau 10 cote 1 n3
+422;Fondation métal;2253.9;1994.1;-0.0;30;41.5;3009.5;anneau 10 cote 1 n4
+423;Fondation triangle métal;1984.1;2236.5;-0.0;60;48.42;2989.8;anneau 10 cote 2 n0
+424;Fondation triangle métal;1724.3;2386.5;-0.0;60;54.15;2944.3;anneau 10 cote 2 n1
+425;Fondation triangle métal;1464.5;2536.5;-0.0;60;60.0;2928.9;anneau 10 cote 2 n2
+426;Fondation triangle métal;1204.7;2686.5;-0.0;60;65.85;2944.3;anneau 10 cote 2 n3
+427;Fondation triangle métal;944.9;2836.5;-0.0;60;71.58;2989.8;anneau 10 cote 2 n4
+428;Fondation triangle métal;2114.0;2161.5;-0.0;240;45.64;3023.4;anneau 10 cote 2 n5
+429;Fondation triangle métal;1854.2;2311.5;-0.0;240;51.27;2963.3;anneau 10 cote 2 n6
+430;Fondation triangle métal;1594.4;2461.5;-0.0;240;57.07;2932.8;anneau 10 cote 2 n7
+431;Fondation triangle métal;1334.6;2611.5;-0.0;240;62.93;2932.8;anneau 10 cote 2 n8
+432;Fondation triangle métal;1074.8;2761.5;-0.0;240;68.73;2963.3;anneau 10 cote 2 n9
+433;Fondation triangle métal;815.0;2911.5;-0.0;240;74.36;3023.4;anneau 10 cote 2 n10
+434;Fondation métal;600.0;2949.0;-0.0;90;78.5;3009.5;anneau 10 cote 3 n0
+435;Fondation métal;300.0;2949.0;-0.0;90;84.19;2964.3;anneau 10 cote 3 n1
+436;Fondation métal;0.0;2949.0;-0.0;90;90.0;2949.0;anneau 10 cote 3 n2
+437;Fondation métal;-300.0;2949.0;-0.0;90;95.81;2964.3;anneau 10 cote 3 n3
+438;Fondation métal;-600.0;2949.0;-0.0;90;101.5;3009.5;anneau 10 cote 3 n4
+439;Fondation triangle métal;-944.9;2836.5;-0.0;120;108.42;2989.8;anneau 10 cote 4 n0
+440;Fondation triangle métal;-1204.7;2686.5;-0.0;120;114.15;2944.3;anneau 10 cote 4 n1
+441;Fondation triangle métal;-1464.5;2536.5;-0.0;120;120.0;2928.9;anneau 10 cote 4 n2
+442;Fondation triangle métal;-1724.3;2386.5;-0.0;120;125.85;2944.3;anneau 10 cote 4 n3
+443;Fondation triangle métal;-1984.1;2236.5;-0.0;120;131.58;2989.8;anneau 10 cote 4 n4
+444;Fondation triangle métal;-815.0;2911.5;-0.0;300;105.64;3023.4;anneau 10 cote 4 n5
+445;Fondation triangle métal;-1074.8;2761.5;-0.0;300;111.27;2963.3;anneau 10 cote 4 n6
+446;Fondation triangle métal;-1334.6;2611.5;-0.0;300;117.07;2932.8;anneau 10 cote 4 n7
+447;Fondation triangle métal;-1594.4;2461.5;-0.0;300;122.93;2932.8;anneau 10 cote 4 n8
+448;Fondation triangle métal;-1854.2;2311.5;-0.0;300;128.73;2963.3;anneau 10 cote 4 n9
+449;Fondation triangle métal;-2114.0;2161.5;-0.0;300;134.36;3023.4;anneau 10 cote 4 n10
+450;Fondation métal;-2253.9;1994.1;-0.0;150;138.5;3009.5;anneau 10 cote 5 n0
+451;Fondation métal;-2403.9;1734.3;-0.0;150;144.19;2964.3;anneau 10 cote 5 n1
+452;Fondation métal;-2553.9;1474.5;-0.0;150;150.0;2949.0;anneau 10 cote 5 n2
+453;Fondation métal;-2703.9;1214.7;-0.0;150;155.81;2964.3;anneau 10 cote 5 n3
+454;Fondation triangle métal;-2928.9;0.0;-0.0;180;180.0;2928.9;plateforme verte anneau 10 cote 6 n2
+455;Fondation triangle métal;-2928.9;-300.0;-0.0;180;185.85;2944.3;plateforme verte anneau 10 cote 6 n3
+456;Fondation triangle métal;-2928.9;150.0;-0.0;0;177.07;2932.8;plateforme verte anneau 10 cote 6 n7
+457;Fondation triangle métal;-2928.9;-150.0;-0.0;0;182.93;2932.8;plateforme verte anneau 10 cote 6 n8
+458;Fondation triangle métal;-2928.9;-450.0;-0.0;0;188.73;2963.3;plateforme verte anneau 10 cote 6 n9
+459;Fondation métal;-2703.9;-1214.7;-0.0;210;204.19;2964.3;anneau 10 cote 7 n1
+460;Fondation métal;-2553.9;-1474.5;-0.0;210;210.0;2949.0;anneau 10 cote 7 n2
+461;Fondation métal;-2403.9;-1734.3;-0.0;210;215.81;2964.3;anneau 10 cote 7 n3
+462;Fondation métal;-2253.9;-1994.1;-0.0;210;221.5;3009.5;anneau 10 cote 7 n4
+463;Fondation triangle métal;-1984.1;-2236.5;-0.0;240;228.42;2989.8;anneau 10 cote 8 n0
+464;Fondation triangle métal;-1724.3;-2386.5;-0.0;240;234.15;2944.3;anneau 10 cote 8 n1
+465;Fondation triangle métal;-1464.5;-2536.5;-0.0;240;240.0;2928.9;anneau 10 cote 8 n2
+466;Fondation triangle métal;-1204.7;-2686.5;-0.0;240;245.85;2944.3;anneau 10 cote 8 n3
+467;Fondation triangle métal;-944.9;-2836.5;-0.0;240;251.58;2989.8;anneau 10 cote 8 n4
+468;Fondation triangle métal;-2114.0;-2161.5;-0.0;60;225.64;3023.4;anneau 10 cote 8 n5
+469;Fondation triangle métal;-1854.2;-2311.5;-0.0;60;231.27;2963.3;anneau 10 cote 8 n6
+470;Fondation triangle métal;-1594.4;-2461.5;-0.0;60;237.07;2932.8;anneau 10 cote 8 n7
+471;Fondation triangle métal;-1334.6;-2611.5;-0.0;60;242.93;2932.8;anneau 10 cote 8 n8
+472;Fondation triangle métal;-1074.8;-2761.5;-0.0;60;248.73;2963.3;anneau 10 cote 8 n9
+473;Fondation triangle métal;-815.0;-2911.5;-0.0;60;254.36;3023.4;anneau 10 cote 8 n10
+474;Fondation métal;-600.0;-2949.0;-0.0;270;258.5;3009.5;anneau 10 cote 9 n0
+475;Fondation métal;-300.0;-2949.0;-0.0;270;264.19;2964.3;anneau 10 cote 9 n1
+476;Fondation métal;-0.0;-2949.0;-0.0;270;270.0;2949.0;anneau 10 cote 9 n2
+477;Fondation métal;300.0;-2949.0;-0.0;270;275.81;2964.3;anneau 10 cote 9 n3
+478;Fondation métal;600.0;-2949.0;-0.0;270;281.5;3009.5;anneau 10 cote 9 n4
+479;Fondation triangle métal;944.9;-2836.5;-0.0;300;288.42;2989.8;anneau 10 cote 10 n0
+480;Fondation triangle métal;1204.7;-2686.5;-0.0;300;294.15;2944.3;anneau 10 cote 10 n1
+481;Fondation triangle métal;1464.5;-2536.5;-0.0;300;300.0;2928.9;anneau 10 cote 10 n2
+482;Fondation triangle métal;1724.3;-2386.5;-0.0;300;305.85;2944.3;anneau 10 cote 10 n3
+483;Fondation triangle métal;1984.1;-2236.5;-0.0;300;311.58;2989.8;anneau 10 cote 10 n4
+484;Fondation triangle métal;815.0;-2911.5;-0.0;120;285.64;3023.4;anneau 10 cote 10 n5
+485;Fondation triangle métal;1074.8;-2761.5;-0.0;120;291.27;2963.3;anneau 10 cote 10 n6
+486;Fondation triangle métal;1334.6;-2611.5;-0.0;120;297.07;2932.8;anneau 10 cote 10 n7
+487;Fondation triangle métal;1594.4;-2461.5;-0.0;120;302.93;2932.8;anneau 10 cote 10 n8
+488;Fondation triangle métal;1854.2;-2311.5;-0.0;120;308.73;2963.3;anneau 10 cote 10 n9
+489;Fondation triangle métal;2114.0;-2161.5;-0.0;120;314.36;3023.4;anneau 10 cote 10 n10
+490;Fondation métal;2253.9;-1994.1;-0.0;330;318.5;3009.5;anneau 10 cote 11 n0
+491;Fondation métal;2403.9;-1734.3;-0.0;330;324.19;2964.3;anneau 10 cote 11 n1
+492;Fondation métal;2553.9;-1474.5;-0.0;330;330.0;2949.0;anneau 10 cote 11 n2
+493;Fondation métal;2703.9;-1214.7;-0.0;330;335.81;2964.3;anneau 10 cote 11 n3
+494;Fondation métal;2853.9;-954.9;-0.0;330;341.5;3009.5;anneau 10 cote 11 n4
+495;Fondation métal;3208.8;-750.0;-0.0;0;346.84;3295.3;anneau 11 cote 0 n0
+496;Fondation métal;3208.8;-450.0;-0.0;0;352.02;3240.2;anneau 11 cote 0 n1
+497;Fondation métal;3208.8;-150.0;-0.0;0;357.32;3212.3;anneau 11 cote 0 n2
+498;Fondation métal;3208.8;150.0;-0.0;0;2.68;3212.3;anneau 11 cote 0 n3
+499;Fondation métal;3208.8;450.0;-0.0;0;7.98;3240.2;anneau 11 cote 0 n4
+500;Fondation métal;3208.8;750.0;-0.0;0;13.16;3295.3;anneau 11 cote 0 n5
+501;Fondation triangle métal;3096.3;1094.9;-0.0;30;19.47;3284.2;anneau 11 cote 1 n0
+502;Fondation triangle métal;2946.3;1354.7;-0.0;30;24.69;3242.8;anneau 11 cote 1 n1
+503;Fondation triangle métal;2796.3;1614.5;-0.0;30;30.0;3228.9;anneau 11 cote 1 n2
+504;Fondation triangle métal;2646.3;1874.3;-0.0;30;35.31;3242.8;anneau 11 cote 1 n3
+505;Fondation triangle métal;2496.3;2134.1;-0.0;30;40.53;3284.2;anneau 11 cote 1 n4
+506;Fondation triangle métal;3171.3;965.0;-0.0;210;16.92;3314.9;anneau 11 cote 1 n5
+507;Fondation triangle métal;3021.3;1224.8;-0.0;210;22.07;3260.1;anneau 11 cote 1 n6
+508;Fondation triangle métal;2871.3;1484.6;-0.0;210;27.34;3232.4;anneau 11 cote 1 n7
+509;Fondation triangle métal;2721.3;1744.4;-0.0;210;32.66;3232.4;anneau 11 cote 1 n8
+510;Fondation triangle métal;2571.3;2004.2;-0.0;210;37.93;3260.1;anneau 11 cote 1 n9
+511;Fondation triangle métal;2421.3;2264.0;-0.0;210;43.08;3314.9;anneau 11 cote 1 n10
+512;Fondation métal;2253.9;2403.9;-0.0;60;46.84;3295.3;anneau 11 cote 2 n0
+513;Fondation métal;1994.1;2553.9;-0.0;60;52.02;3240.2;anneau 11 cote 2 n1
+514;Fondation métal;1734.3;2703.9;-0.0;60;57.32;3212.3;anneau 11 cote 2 n2
+515;Fondation métal;1474.5;2853.9;-0.0;60;62.68;3212.3;anneau 11 cote 2 n3
+516;Fondation métal;1214.7;3003.9;-0.0;60;67.98;3240.2;anneau 11 cote 2 n4
+517;Fondation métal;954.9;3153.9;-0.0;60;73.16;3295.3;anneau 11 cote 2 n5
+518;Fondation triangle métal;600.0;3228.9;-0.0;90;79.47;3284.2;anneau 11 cote 3 n0
+519;Fondation triangle métal;300.0;3228.9;-0.0;90;84.69;3242.8;anneau 11 cote 3 n1
+520;Fondation triangle métal;0.0;3228.9;-0.0;90;90.0;3228.9;anneau 11 cote 3 n2
+521;Fondation triangle métal;-300.0;3228.9;-0.0;90;95.31;3242.8;anneau 11 cote 3 n3
+522;Fondation triangle métal;-600.0;3228.9;-0.0;90;100.53;3284.2;anneau 11 cote 3 n4
+523;Fondation triangle métal;750.0;3228.9;-0.0;270;76.92;3314.9;anneau 11 cote 3 n5
+524;Fondation triangle métal;450.0;3228.9;-0.0;270;82.07;3260.1;anneau 11 cote 3 n6
+525;Fondation triangle métal;150.0;3228.9;-0.0;270;87.34;3232.4;anneau 11 cote 3 n7
+526;Fondation triangle métal;-150.0;3228.9;-0.0;270;92.66;3232.4;anneau 11 cote 3 n8
+527;Fondation triangle métal;-450.0;3228.9;-0.0;270;97.93;3260.1;anneau 11 cote 3 n9
+528;Fondation triangle métal;-750.0;3228.9;-0.0;270;103.08;3314.9;anneau 11 cote 3 n10
+529;Fondation métal;-954.9;3153.9;-0.0;120;106.84;3295.3;anneau 11 cote 4 n0
+530;Fondation métal;-1214.7;3003.9;-0.0;120;112.02;3240.2;anneau 11 cote 4 n1
+531;Fondation métal;-1474.5;2853.9;-0.0;120;117.32;3212.3;anneau 11 cote 4 n2
+532;Fondation métal;-1734.3;2703.9;-0.0;120;122.68;3212.3;anneau 11 cote 4 n3
+533;Fondation métal;-1994.1;2553.9;-0.0;120;127.98;3240.2;anneau 11 cote 4 n4
+534;Fondation métal;-2253.9;2403.9;-0.0;120;133.16;3295.3;anneau 11 cote 4 n5
+535;Fondation triangle métal;-2496.3;2134.1;-0.0;150;139.47;3284.2;anneau 11 cote 5 n0
+536;Fondation triangle métal;-2646.3;1874.3;-0.0;150;144.69;3242.8;anneau 11 cote 5 n1
+537;Fondation triangle métal;-2796.3;1614.5;-0.0;150;150.0;3228.9;anneau 11 cote 5 n2
+538;Fondation triangle métal;-2946.3;1354.7;-0.0;150;155.31;3242.8;anneau 11 cote 5 n3
+539;Fondation triangle métal;-2421.3;2264.0;-0.0;330;136.92;3314.9;anneau 11 cote 5 n5
+540;Fondation triangle métal;-2571.3;2004.2;-0.0;330;142.07;3260.1;anneau 11 cote 5 n6
+541;Fondation triangle métal;-2721.3;1744.4;-0.0;330;147.34;3232.4;anneau 11 cote 5 n7
+542;Fondation triangle métal;-2871.3;1484.6;-0.0;330;152.66;3232.4;anneau 11 cote 5 n8
+543;Fondation triangle métal;-3021.3;1224.8;-0.0;330;157.93;3260.1;anneau 11 cote 5 n9
+544;Fondation métal;-3208.8;150.0;-0.0;180;177.32;3212.3;plateforme verte anneau 11 cote 6 n2
+545;Fondation métal;-3208.8;-150.0;-0.0;180;182.68;3212.3;plateforme verte anneau 11 cote 6 n3
+546;Fondation métal;-3208.8;-450.0;-0.0;180;187.98;3240.2;plateforme verte anneau 11 cote 6 n4
+547;Fondation triangle métal;-2946.3;-1354.7;-0.0;210;204.69;3242.8;anneau 11 cote 7 n1
+548;Fondation triangle métal;-2796.3;-1614.5;-0.0;210;210.0;3228.9;anneau 11 cote 7 n2
+549;Fondation triangle métal;-2646.3;-1874.3;-0.0;210;215.31;3242.8;anneau 11 cote 7 n3
+550;Fondation triangle métal;-2496.3;-2134.1;-0.0;210;220.53;3284.2;anneau 11 cote 7 n4
+551;Fondation triangle métal;-2871.3;-1484.6;-0.0;30;207.34;3232.4;anneau 11 cote 7 n7
+552;Fondation triangle métal;-2721.3;-1744.4;-0.0;30;212.66;3232.4;anneau 11 cote 7 n8
+553;Fondation triangle métal;-2571.3;-2004.2;-0.0;30;217.93;3260.1;anneau 11 cote 7 n9
+554;Fondation triangle métal;-2421.3;-2264.0;-0.0;30;223.08;3314.9;anneau 11 cote 7 n10
+555;Fondation métal;-2253.9;-2403.9;-0.0;240;226.84;3295.3;anneau 11 cote 8 n0
+556;Fondation métal;-1994.1;-2553.9;-0.0;240;232.02;3240.2;anneau 11 cote 8 n1
+557;Fondation métal;-1734.3;-2703.9;-0.0;240;237.32;3212.3;anneau 11 cote 8 n2
+558;Fondation métal;-1474.5;-2853.9;-0.0;240;242.68;3212.3;anneau 11 cote 8 n3
+559;Fondation métal;-1214.7;-3003.9;-0.0;240;247.98;3240.2;anneau 11 cote 8 n4
+560;Fondation métal;-954.9;-3153.9;-0.0;240;253.16;3295.3;anneau 11 cote 8 n5
+561;Fondation triangle métal;-600.0;-3228.9;-0.0;270;259.47;3284.2;anneau 11 cote 9 n0
+562;Fondation triangle métal;-300.0;-3228.9;-0.0;270;264.69;3242.8;anneau 11 cote 9 n1
+563;Fondation triangle métal;-0.0;-3228.9;-0.0;270;270.0;3228.9;anneau 11 cote 9 n2
+564;Fondation triangle métal;300.0;-3228.9;-0.0;270;275.31;3242.8;anneau 11 cote 9 n3
+565;Fondation triangle métal;600.0;-3228.9;-0.0;270;280.53;3284.2;anneau 11 cote 9 n4
+566;Fondation triangle métal;-750.0;-3228.9;-0.0;90;256.92;3314.9;anneau 11 cote 9 n5
+567;Fondation triangle métal;-450.0;-3228.9;-0.0;90;262.07;3260.1;anneau 11 cote 9 n6
+568;Fondation triangle métal;-150.0;-3228.9;-0.0;90;267.34;3232.4;anneau 11 cote 9 n7
+569;Fondation triangle métal;150.0;-3228.9;-0.0;90;272.66;3232.4;anneau 11 cote 9 n8
+570;Fondation triangle métal;450.0;-3228.9;-0.0;90;277.93;3260.1;anneau 11 cote 9 n9
+571;Fondation triangle métal;750.0;-3228.9;-0.0;90;283.08;3314.9;anneau 11 cote 9 n10
+572;Fondation métal;954.9;-3153.9;-0.0;300;286.84;3295.3;anneau 11 cote 10 n0
+573;Fondation métal;1214.7;-3003.9;-0.0;300;292.02;3240.2;anneau 11 cote 10 n1
+574;Fondation métal;1474.5;-2853.9;-0.0;300;297.32;3212.3;anneau 11 cote 10 n2
+575;Fondation métal;1734.3;-2703.9;-0.0;300;302.68;3212.3;anneau 11 cote 10 n3
+576;Fondation métal;1994.1;-2553.9;-0.0;300;307.98;3240.2;anneau 11 cote 10 n4
+577;Fondation métal;2253.9;-2403.9;-0.0;300;313.16;3295.3;anneau 11 cote 10 n5
+578;Fondation triangle métal;2496.3;-2134.1;-0.0;330;319.47;3284.2;anneau 11 cote 11 n0
+579;Fondation triangle métal;2646.3;-1874.3;-0.0;330;324.69;3242.8;anneau 11 cote 11 n1
+580;Fondation triangle métal;2796.3;-1614.5;-0.0;330;330.0;3228.9;anneau 11 cote 11 n2
+581;Fondation triangle métal;2946.3;-1354.7;-0.0;330;335.31;3242.8;anneau 11 cote 11 n3
+582;Fondation triangle métal;3096.3;-1094.9;-0.0;330;340.53;3284.2;anneau 11 cote 11 n4
+583;Fondation triangle métal;2421.3;-2264.0;-0.0;150;316.92;3314.9;anneau 11 cote 11 n5
+584;Fondation triangle métal;2571.3;-2004.2;-0.0;150;322.07;3260.1;anneau 11 cote 11 n6
+585;Fondation triangle métal;2721.3;-1744.4;-0.0;150;327.34;3232.4;anneau 11 cote 11 n7
+586;Fondation triangle métal;2871.3;-1484.6;-0.0;150;332.66;3232.4;anneau 11 cote 11 n8
+587;Fondation triangle métal;3021.3;-1224.8;-0.0;150;337.93;3260.1;anneau 11 cote 11 n9
+588;Fondation triangle métal;3171.3;-965.0;-0.0;150;343.08;3314.9;anneau 11 cote 11 n10
+589;Fondation triangle métal;3488.7;-750.0;-0.0;0;347.87;3568.5;anneau 12 cote 0 n0
+590;Fondation triangle métal;3488.7;-450.0;-0.0;0;352.65;3517.7;anneau 12 cote 0 n1
+591;Fondation triangle métal;3488.7;-150.0;-0.0;0;357.54;3492.0;anneau 12 cote 0 n2
+592;Fondation triangle métal;3488.7;150.0;-0.0;0;2.46;3492.0;anneau 12 cote 0 n3
+593;Fondation triangle métal;3488.7;450.0;-0.0;0;7.35;3517.7;anneau 12 cote 0 n4
+594;Fondation triangle métal;3488.7;750.0;-0.0;0;12.13;3568.5;anneau 12 cote 0 n5
+595;Fondation triangle métal;3488.7;-900.0;-0.0;180;345.53;3603.0;anneau 12 cote 0 n6
+596;Fondation triangle métal;3488.7;-600.0;-0.0;180;350.24;3540.0;anneau 12 cote 0 n7
+597;Fondation triangle métal;3488.7;-300.0;-0.0;180;355.09;3501.6;anneau 12 cote 0 n8
+598;Fondation triangle métal;3488.7;0.0;-0.0;180;0.0;3488.7;anneau 12 cote 0 n9
+599;Fondation triangle métal;3488.7;300.0;-0.0;180;4.91;3501.6;anneau 12 cote 0 n10
+600;Fondation triangle métal;3488.7;600.0;-0.0;180;9.76;3540.0;anneau 12 cote 0 n11
+601;Fondation triangle métal;3488.7;900.0;-0.0;180;14.47;3603.0;anneau 12 cote 0 n12
+602;Fondation métal;3413.7;1104.9;-0.0;30;17.93;3588.1;anneau 12 cote 1 n0
+603;Fondation métal;3263.7;1364.7;-0.0;30;22.69;3537.6;anneau 12 cote 1 n1
+604;Fondation métal;3113.7;1624.5;-0.0;30;27.55;3512.1;anneau 12 cote 1 n2
+605;Fondation métal;2963.7;1884.3;-0.0;30;32.45;3512.1;anneau 12 cote 1 n3
+606;Fondation métal;2813.7;2144.1;-0.0;30;37.31;3537.6;anneau 12 cote 1 n4
+607;Fondation métal;2663.7;2403.9;-0.0;30;42.07;3588.1;anneau 12 cote 1 n5
+608;Fondation triangle métal;2393.9;2646.3;-0.0;60;47.87;3568.5;anneau 12 cote 2 n0
+609;Fondation triangle métal;2134.1;2796.3;-0.0;60;52.65;3517.7;anneau 12 cote 2 n1
+610;Fondation triangle métal;1874.3;2946.3;-0.0;60;57.54;3492.0;anneau 12 cote 2 n2
+611;Fondation triangle métal;1614.5;3096.3;-0.0;60;62.46;3492.0;anneau 12 cote 2 n3
+612;Fondation triangle métal;1354.7;3246.3;-0.0;60;67.35;3517.7;anneau 12 cote 2 n4
+613;Fondation triangle métal;1094.9;3396.3;-0.0;60;72.13;3568.5;anneau 12 cote 2 n5
+614;Fondation triangle métal;2523.8;2571.3;-0.0;240;45.53;3603.0;anneau 12 cote 2 n6
+615;Fondation triangle métal;2264.0;2721.3;-0.0;240;50.24;3540.0;anneau 12 cote 2 n7
+616;Fondation triangle métal;2004.2;2871.3;-0.0;240;55.09;3501.6;anneau 12 cote 2 n8
+617;Fondation triangle métal;1744.4;3021.3;-0.0;240;60.0;3488.7;anneau 12 cote 2 n9
+618;Fondation triangle métal;1484.6;3171.3;-0.0;240;64.91;3501.6;anneau 12 cote 2 n10
+619;Fondation triangle métal;1224.8;3321.3;-0.0;240;69.76;3540.0;anneau 12 cote 2 n11
+620;Fondation triangle métal;965.0;3471.3;-0.0;240;74.47;3603.0;anneau 12 cote 2 n12
+621;Fondation métal;750.0;3508.8;-0.0;90;77.93;3588.1;anneau 12 cote 3 n0
+622;Fondation métal;450.0;3508.8;-0.0;90;82.69;3537.6;anneau 12 cote 3 n1
+623;Fondation métal;150.0;3508.8;-0.0;90;87.55;3512.1;anneau 12 cote 3 n2
+624;Fondation métal;-150.0;3508.8;-0.0;90;92.45;3512.1;anneau 12 cote 3 n3
+625;Fondation métal;-450.0;3508.8;-0.0;90;97.31;3537.6;anneau 12 cote 3 n4
+626;Fondation métal;-750.0;3508.8;-0.0;90;102.07;3588.1;anneau 12 cote 3 n5
+627;Fondation triangle métal;-1094.9;3396.3;-0.0;120;107.87;3568.5;anneau 12 cote 4 n0
+628;Fondation triangle métal;-1354.7;3246.3;-0.0;120;112.65;3517.7;anneau 12 cote 4 n1
+629;Fondation triangle métal;-1614.5;3096.3;-0.0;120;117.54;3492.0;anneau 12 cote 4 n2
+630;Fondation triangle métal;-1874.3;2946.3;-0.0;120;122.46;3492.0;anneau 12 cote 4 n3
+631;Fondation triangle métal;-2134.1;2796.3;-0.0;120;127.35;3517.7;anneau 12 cote 4 n4
+632;Fondation triangle métal;-2393.9;2646.3;-0.0;120;132.13;3568.5;anneau 12 cote 4 n5
+633;Fondation triangle métal;-965.0;3471.3;-0.0;300;105.53;3603.0;anneau 12 cote 4 n6
+634;Fondation triangle métal;-1224.8;3321.3;-0.0;300;110.24;3540.0;anneau 12 cote 4 n7
+635;Fondation triangle métal;-1484.6;3171.3;-0.0;300;115.09;3501.6;anneau 12 cote 4 n8
+636;Fondation triangle métal;-1744.4;3021.3;-0.0;300;120.0;3488.7;anneau 12 cote 4 n9
+637;Fondation triangle métal;-2004.2;2871.3;-0.0;300;124.91;3501.6;anneau 12 cote 4 n10
+638;Fondation triangle métal;-2264.0;2721.3;-0.0;300;129.76;3540.0;anneau 12 cote 4 n11
+639;Fondation triangle métal;-2523.8;2571.3;-0.0;300;134.47;3603.0;anneau 12 cote 4 n12
+640;Fondation métal;-2663.7;2403.9;-0.0;150;137.93;3588.1;anneau 12 cote 5 n0
+641;Fondation métal;-2813.7;2144.1;-0.0;150;142.69;3537.6;anneau 12 cote 5 n1
+642;Fondation métal;-2963.7;1884.3;-0.0;150;147.55;3512.1;anneau 12 cote 5 n2
+643;Fondation métal;-3113.7;1624.5;-0.0;150;152.45;3512.1;anneau 12 cote 5 n3
+644;Fondation métal;-3263.7;1364.7;-0.0;150;157.31;3537.6;anneau 12 cote 5 n4
+645;Fondation métal;-3113.7;-1624.5;-0.0;210;207.55;3512.1;anneau 12 cote 7 n2
+646;Fondation métal;-2963.7;-1884.3;-0.0;210;212.45;3512.1;anneau 12 cote 7 n3
+647;Fondation métal;-2813.7;-2144.1;-0.0;210;217.31;3537.6;anneau 12 cote 7 n4
+648;Fondation métal;-2663.7;-2403.9;-0.0;210;222.07;3588.1;anneau 12 cote 7 n5
+649;Fondation triangle métal;-2393.9;-2646.3;-0.0;240;227.87;3568.5;anneau 12 cote 8 n0
+650;Fondation triangle métal;-2134.1;-2796.3;-0.0;240;232.65;3517.7;anneau 12 cote 8 n1
+651;Fondation triangle métal;-1874.3;-2946.3;-0.0;240;237.54;3492.0;anneau 12 cote 8 n2
+652;Fondation triangle métal;-1614.5;-3096.3;-0.0;240;242.46;3492.0;anneau 12 cote 8 n3
+653;Fondation triangle métal;-1354.7;-3246.3;-0.0;240;247.35;3517.7;anneau 12 cote 8 n4
+654;Fondation triangle métal;-1094.9;-3396.3;-0.0;240;252.13;3568.5;anneau 12 cote 8 n5
+655;Fondation triangle métal;-2523.8;-2571.3;-0.0;60;225.53;3603.0;anneau 12 cote 8 n6
+656;Fondation triangle métal;-2264.0;-2721.3;-0.0;60;230.24;3540.0;anneau 12 cote 8 n7
+657;Fondation triangle métal;-2004.2;-2871.3;-0.0;60;235.09;3501.6;anneau 12 cote 8 n8
+658;Fondation triangle métal;-1744.4;-3021.3;-0.0;60;240.0;3488.7;anneau 12 cote 8 n9
+659;Fondation triangle métal;-1484.6;-3171.3;-0.0;60;244.91;3501.6;anneau 12 cote 8 n10
+660;Fondation triangle métal;-1224.8;-3321.3;-0.0;60;249.76;3540.0;anneau 12 cote 8 n11
+661;Fondation triangle métal;-965.0;-3471.3;-0.0;60;254.47;3603.0;anneau 12 cote 8 n12
+662;Fondation métal;-750.0;-3508.8;-0.0;270;257.93;3588.1;anneau 12 cote 9 n0
+663;Fondation métal;-450.0;-3508.8;-0.0;270;262.69;3537.6;anneau 12 cote 9 n1
+664;Fondation métal;-150.0;-3508.8;-0.0;270;267.55;3512.1;anneau 12 cote 9 n2
+665;Fondation métal;150.0;-3508.8;-0.0;270;272.45;3512.1;anneau 12 cote 9 n3
+666;Fondation métal;450.0;-3508.8;-0.0;270;277.31;3537.6;anneau 12 cote 9 n4
+667;Fondation métal;750.0;-3508.8;-0.0;270;282.07;3588.1;anneau 12 cote 9 n5
+668;Fondation triangle métal;1094.9;-3396.3;-0.0;300;287.87;3568.5;anneau 12 cote 10 n0
+669;Fondation triangle métal;1354.7;-3246.3;-0.0;300;292.65;3517.7;anneau 12 cote 10 n1
+670;Fondation triangle métal;1614.5;-3096.3;-0.0;300;297.54;3492.0;anneau 12 cote 10 n2
+671;Fondation triangle métal;1874.3;-2946.3;-0.0;300;302.46;3492.0;anneau 12 cote 10 n3
+672;Fondation triangle métal;2134.1;-2796.3;-0.0;300;307.35;3517.7;anneau 12 cote 10 n4
+673;Fondation triangle métal;2393.9;-2646.3;-0.0;300;312.13;3568.5;anneau 12 cote 10 n5
+674;Fondation triangle métal;965.0;-3471.3;-0.0;120;285.53;3603.0;anneau 12 cote 10 n6
+675;Fondation triangle métal;1224.8;-3321.3;-0.0;120;290.24;3540.0;anneau 12 cote 10 n7
+676;Fondation triangle métal;1484.6;-3171.3;-0.0;120;295.09;3501.6;anneau 12 cote 10 n8
+677;Fondation triangle métal;1744.4;-3021.3;-0.0;120;300.0;3488.7;anneau 12 cote 10 n9
+678;Fondation triangle métal;2004.2;-2871.3;-0.0;120;304.91;3501.6;anneau 12 cote 10 n10
+679;Fondation triangle métal;2264.0;-2721.3;-0.0;120;309.76;3540.0;anneau 12 cote 10 n11
+680;Fondation triangle métal;2523.8;-2571.3;-0.0;120;314.47;3603.0;anneau 12 cote 10 n12
+681;Fondation métal;2663.7;-2403.9;-0.0;330;317.93;3588.1;anneau 12 cote 11 n0
+682;Fondation métal;2813.7;-2144.1;-0.0;330;322.69;3537.6;anneau 12 cote 11 n1
+683;Fondation métal;2963.7;-1884.3;-0.0;330;327.55;3512.1;anneau 12 cote 11 n2
+684;Fondation métal;3113.7;-1624.5;-0.0;330;332.45;3512.1;anneau 12 cote 11 n3
+685;Fondation métal;3263.7;-1364.7;-0.0;330;337.31;3537.6;anneau 12 cote 11 n4
+686;Fondation métal;3413.7;-1104.9;-0.0;330;342.07;3588.1;anneau 12 cote 11 n5
+687;Fondation métal;3768.7;-900.0;-0.0;0;346.57;3874.6;anneau 13 cote 0 n0
+688;Fondation métal;3768.7;-600.0;-0.0;0;350.95;3816.1;anneau 13 cote 0 n1
+689;Fondation métal;3768.7;-300.0;-0.0;0;355.45;3780.6;anneau 13 cote 0 n2
+690;Fondation métal;3768.7;0.0;-0.0;0;0.0;3768.7;anneau 13 cote 0 n3
+691;Fondation métal;3768.7;300.0;-0.0;0;4.55;3780.6;anneau 13 cote 0 n4
+692;Fondation métal;3768.7;600.0;-0.0;0;9.05;3816.1;anneau 13 cote 0 n5
+693;Fondation métal;3768.7;900.0;-0.0;0;13.43;3874.6;anneau 13 cote 0 n6
+694;Fondation triangle métal;3656.2;1244.9;-0.0;30;18.8;3862.3;anneau 13 cote 1 n0
+695;Fondation triangle métal;3506.2;1504.7;-0.0;30;23.23;3815.4;anneau 13 cote 1 n1
+696;Fondation triangle métal;3356.2;1764.5;-0.0;30;27.73;3791.7;anneau 13 cote 1 n2
+697;Fondation triangle métal;3206.2;2024.3;-0.0;30;32.27;3791.7;anneau 13 cote 1 n3
+698;Fondation triangle métal;3056.2;2284.1;-0.0;30;36.77;3815.4;anneau 13 cote 1 n4
+699;Fondation triangle métal;2906.2;2543.9;-0.0;30;41.2;3862.3;anneau 13 cote 1 n5
+700;Fondation triangle métal;3731.2;1115.0;-0.0;210;16.64;3894.2;anneau 13 cote 1 n6
+701;Fondation triangle métal;3581.2;1374.8;-0.0;210;21.0;3836.0;anneau 13 cote 1 n7
+702;Fondation triangle métal;3431.2;1634.6;-0.0;210;25.47;3800.6;anneau 13 cote 1 n8
+703;Fondation triangle métal;3281.2;1894.4;-0.0;210;30.0;3788.7;anneau 13 cote 1 n9
+704;Fondation triangle métal;3131.2;2154.2;-0.0;210;34.53;3800.6;anneau 13 cote 1 n10
+705;Fondation triangle métal;2981.2;2414.0;-0.0;210;39.0;3836.0;anneau 13 cote 1 n11
+706;Fondation triangle métal;2831.2;2673.8;-0.0;210;43.36;3894.2;anneau 13 cote 1 n12
+707;Fondation métal;2663.7;2813.7;-0.0;60;46.57;3874.6;anneau 13 cote 2 n0
+708;Fondation métal;2403.9;2963.7;-0.0;60;50.95;3816.1;anneau 13 cote 2 n1
+709;Fondation métal;2144.1;3113.7;-0.0;60;55.45;3780.6;anneau 13 cote 2 n2
+710;Fondation métal;1884.3;3263.7;-0.0;60;60.0;3768.7;anneau 13 cote 2 n3
+711;Fondation métal;1624.5;3413.7;-0.0;60;64.55;3780.6;anneau 13 cote 2 n4
+712;Fondation métal;1364.7;3563.7;-0.0;60;69.05;3816.1;anneau 13 cote 2 n5
+713;Fondation métal;1104.9;3713.7;-0.0;60;73.43;3874.6;anneau 13 cote 2 n6
+714;Fondation triangle métal;750.0;3788.7;-0.0;90;78.8;3862.3;anneau 13 cote 3 n0
+715;Fondation triangle métal;450.0;3788.7;-0.0;90;83.23;3815.4;anneau 13 cote 3 n1
+716;Fondation triangle métal;150.0;3788.7;-0.0;90;87.73;3791.7;anneau 13 cote 3 n2
+717;Fondation triangle métal;-150.0;3788.7;-0.0;90;92.27;3791.7;anneau 13 cote 3 n3
+718;Fondation triangle métal;-450.0;3788.7;-0.0;90;96.77;3815.4;anneau 13 cote 3 n4
+719;Fondation triangle métal;-750.0;3788.7;-0.0;90;101.2;3862.3;anneau 13 cote 3 n5
+720;Fondation triangle métal;900.0;3788.7;-0.0;270;76.64;3894.2;anneau 13 cote 3 n6
+721;Fondation triangle métal;600.0;3788.7;-0.0;270;81.0;3836.0;anneau 13 cote 3 n7
+722;Fondation triangle métal;300.0;3788.7;-0.0;270;85.47;3800.6;anneau 13 cote 3 n8
+723;Fondation triangle métal;0.0;3788.7;-0.0;270;90.0;3788.7;anneau 13 cote 3 n9
+724;Fondation triangle métal;-300.0;3788.7;-0.0;270;94.53;3800.6;anneau 13 cote 3 n10
+725;Fondation triangle métal;-600.0;3788.7;-0.0;270;99.0;3836.0;anneau 13 cote 3 n11
+726;Fondation triangle métal;-900.0;3788.7;-0.0;270;103.36;3894.2;anneau 13 cote 3 n12
+727;Fondation métal;-1104.9;3713.7;-0.0;120;106.57;3874.6;anneau 13 cote 4 n0
+728;Fondation métal;-1364.7;3563.7;-0.0;120;110.95;3816.1;anneau 13 cote 4 n1
+729;Fondation métal;-1624.5;3413.7;-0.0;120;115.45;3780.6;anneau 13 cote 4 n2
+730;Fondation métal;-1884.3;3263.7;-0.0;120;120.0;3768.7;anneau 13 cote 4 n3
+731;Fondation métal;-2144.1;3113.7;-0.0;120;124.55;3780.6;anneau 13 cote 4 n4
+732;Fondation métal;-2403.9;2963.7;-0.0;120;129.05;3816.1;anneau 13 cote 4 n5
+733;Fondation métal;-2663.7;2813.7;-0.0;120;133.43;3874.6;anneau 13 cote 4 n6
+734;Fondation triangle métal;-2906.2;2543.9;-0.0;150;138.8;3862.3;anneau 13 cote 5 n0
+735;Fondation triangle métal;-3056.2;2284.1;-0.0;150;143.23;3815.4;anneau 13 cote 5 n1
+736;Fondation triangle métal;-3206.2;2024.3;-0.0;150;147.73;3791.7;anneau 13 cote 5 n2
+737;Fondation triangle métal;-3356.2;1764.5;-0.0;150;152.27;3791.7;anneau 13 cote 5 n3
+738;Fondation triangle métal;-3506.2;1504.7;-0.0;150;156.77;3815.4;anneau 13 cote 5 n4
+739;Fondation triangle métal;-2831.2;2673.8;-0.0;330;136.64;3894.2;anneau 13 cote 5 n6
+740;Fondation triangle métal;-2981.2;2414.0;-0.0;330;141.0;3836.0;anneau 13 cote 5 n7
+741;Fondation triangle métal;-3131.2;2154.2;-0.0;330;145.47;3800.6;anneau 13 cote 5 n8
+742;Fondation triangle métal;-3281.2;1894.4;-0.0;330;150.0;3788.7;anneau 13 cote 5 n9
+743;Fondation triangle métal;-3431.2;1634.6;-0.0;330;154.53;3800.6;anneau 13 cote 5 n10
+744;Fondation triangle métal;-3581.2;1374.8;-0.0;330;159.0;3836.0;anneau 13 cote 5 n11
+745;Fondation triangle métal;-3356.2;-1764.5;-0.0;210;207.73;3791.7;anneau 13 cote 7 n2
+746;Fondation triangle métal;-3206.2;-2024.3;-0.0;210;212.27;3791.7;anneau 13 cote 7 n3
+747;Fondation triangle métal;-3056.2;-2284.1;-0.0;210;216.77;3815.4;anneau 13 cote 7 n4
+748;Fondation triangle métal;-2906.2;-2543.9;-0.0;210;221.2;3862.3;anneau 13 cote 7 n5
+749;Fondation triangle métal;-3431.2;-1634.6;-0.0;30;205.47;3800.6;anneau 13 cote 7 n8
+750;Fondation triangle métal;-3281.2;-1894.4;-0.0;30;210.0;3788.7;anneau 13 cote 7 n9
+751;Fondation triangle métal;-3131.2;-2154.2;-0.0;30;214.53;3800.6;anneau 13 cote 7 n10
+752;Fondation triangle métal;-2981.2;-2414.0;-0.0;30;219.0;3836.0;anneau 13 cote 7 n11
+753;Fondation triangle métal;-2831.2;-2673.8;-0.0;30;223.36;3894.2;anneau 13 cote 7 n12
+754;Fondation métal;-2663.7;-2813.7;-0.0;240;226.57;3874.6;anneau 13 cote 8 n0
+755;Fondation métal;-2403.9;-2963.7;-0.0;240;230.95;3816.1;anneau 13 cote 8 n1
+756;Fondation métal;-2144.1;-3113.7;-0.0;240;235.45;3780.6;anneau 13 cote 8 n2
+757;Fondation métal;-1884.3;-3263.7;-0.0;240;240.0;3768.7;anneau 13 cote 8 n3
+758;Fondation métal;-1624.5;-3413.7;-0.0;240;244.55;3780.6;anneau 13 cote 8 n4
+759;Fondation métal;-1364.7;-3563.7;-0.0;240;249.05;3816.1;anneau 13 cote 8 n5
+760;Fondation métal;-1104.9;-3713.7;-0.0;240;253.43;3874.6;anneau 13 cote 8 n6
+761;Fondation triangle métal;-750.0;-3788.7;-0.0;270;258.8;3862.3;anneau 13 cote 9 n0
+762;Fondation triangle métal;-450.0;-3788.7;-0.0;270;263.23;3815.4;anneau 13 cote 9 n1
+763;Fondation triangle métal;-150.0;-3788.7;-0.0;270;267.73;3791.7;anneau 13 cote 9 n2
+764;Fondation triangle métal;150.0;-3788.7;-0.0;270;272.27;3791.7;anneau 13 cote 9 n3
+765;Fondation triangle métal;450.0;-3788.7;-0.0;270;276.77;3815.4;anneau 13 cote 9 n4
+766;Fondation triangle métal;750.0;-3788.7;-0.0;270;281.2;3862.3;anneau 13 cote 9 n5
+767;Fondation triangle métal;-900.0;-3788.7;-0.0;90;256.64;3894.2;anneau 13 cote 9 n6
+768;Fondation triangle métal;-600.0;-3788.7;-0.0;90;261.0;3836.0;anneau 13 cote 9 n7
+769;Fondation triangle métal;-300.0;-3788.7;-0.0;90;265.47;3800.6;anneau 13 cote 9 n8
+770;Fondation triangle métal;-0.0;-3788.7;-0.0;90;270.0;3788.7;anneau 13 cote 9 n9
+771;Fondation triangle métal;300.0;-3788.7;-0.0;90;274.53;3800.6;anneau 13 cote 9 n10
+772;Fondation triangle métal;600.0;-3788.7;-0.0;90;279.0;3836.0;anneau 13 cote 9 n11
+773;Fondation triangle métal;900.0;-3788.7;-0.0;90;283.36;3894.2;anneau 13 cote 9 n12
+774;Fondation métal;1104.9;-3713.7;-0.0;300;286.57;3874.6;anneau 13 cote 10 n0
+775;Fondation métal;1364.7;-3563.7;-0.0;300;290.95;3816.1;anneau 13 cote 10 n1
+776;Fondation métal;1624.5;-3413.7;-0.0;300;295.45;3780.6;anneau 13 cote 10 n2
+777;Fondation métal;1884.3;-3263.7;-0.0;300;300.0;3768.7;anneau 13 cote 10 n3
+778;Fondation métal;2144.1;-3113.7;-0.0;300;304.55;3780.6;anneau 13 cote 10 n4
+779;Fondation métal;2403.9;-2963.7;-0.0;300;309.05;3816.1;anneau 13 cote 10 n5
+780;Fondation métal;2663.7;-2813.7;-0.0;300;313.43;3874.6;anneau 13 cote 10 n6
+781;Fondation triangle métal;2906.2;-2543.9;-0.0;330;318.8;3862.3;anneau 13 cote 11 n0
+782;Fondation triangle métal;3056.2;-2284.1;-0.0;330;323.23;3815.4;anneau 13 cote 11 n1
+783;Fondation triangle métal;3206.2;-2024.3;-0.0;330;327.73;3791.7;anneau 13 cote 11 n2
+784;Fondation triangle métal;3356.2;-1764.5;-0.0;330;332.27;3791.7;anneau 13 cote 11 n3
+785;Fondation triangle métal;3506.2;-1504.7;-0.0;330;336.77;3815.4;anneau 13 cote 11 n4
+786;Fondation triangle métal;3656.2;-1244.9;-0.0;330;341.2;3862.3;anneau 13 cote 11 n5
+787;Fondation triangle métal;2831.2;-2673.8;-0.0;150;316.64;3894.2;anneau 13 cote 11 n6
+788;Fondation triangle métal;2981.2;-2414.0;-0.0;150;321.0;3836.0;anneau 13 cote 11 n7
+789;Fondation triangle métal;3131.2;-2154.2;-0.0;150;325.47;3800.6;anneau 13 cote 11 n8
+790;Fondation triangle métal;3281.2;-1894.4;-0.0;150;330.0;3788.7;anneau 13 cote 11 n9
+791;Fondation triangle métal;3431.2;-1634.6;-0.0;150;334.53;3800.6;anneau 13 cote 11 n10
+792;Fondation triangle métal;3581.2;-1374.8;-0.0;150;339.0;3836.0;anneau 13 cote 11 n11
+793;Fondation triangle métal;3731.2;-1115.0;-0.0;150;343.36;3894.2;anneau 13 cote 11 n12
+794;Fondation triangle métal;4048.6;-900.0;-150.0;0;347.47;4147.4;anneau 14 cote 0 n0
+795;Fondation triangle métal;4048.6;-600.0;-150.0;0;351.57;4092.8;anneau 14 cote 0 n1
+796;Fondation triangle métal;4048.6;-300.0;-150.0;0;355.76;4059.7;anneau 14 cote 0 n2
+797;Fondation triangle métal;4048.6;0.0;-150.0;0;0.0;4048.6;anneau 14 cote 0 n3
+798;Fondation triangle métal;4048.6;300.0;-150.0;0;4.24;4059.7;anneau 14 cote 0 n4
+799;Fondation triangle métal;4048.6;600.0;-150.0;0;8.43;4092.8;anneau 14 cote 0 n5
+800;Fondation triangle métal;4048.6;900.0;-150.0;0;12.53;4147.4;anneau 14 cote 0 n6
+801;Fondation triangle métal;4048.6;-1050.0;-150.0;180;345.46;4182.5;anneau 14 cote 0 n7
+802;Fondation triangle métal;4048.6;-750.0;-150.0;180;349.5;4117.4;anneau 14 cote 0 n8
+803;Fondation triangle métal;4048.6;-450.0;-150.0;180;353.66;4073.5;anneau 14 cote 0 n9
+804;Fondation triangle métal;4048.6;-150.0;-150.0;180;357.88;4051.3;anneau 14 cote 0 n10
+805;Fondation triangle métal;4048.6;150.0;-150.0;180;2.12;4051.3;anneau 14 cote 0 n11
+806;Fondation triangle métal;4048.6;450.0;-150.0;180;6.34;4073.5;anneau 14 cote 0 n12
+807;Fondation triangle métal;4048.6;750.0;-150.0;180;10.5;4117.4;anneau 14 cote 0 n13
+808;Fondation triangle métal;4048.6;1050.0;-150.0;180;14.54;4182.5;anneau 14 cote 0 n14
+809;Fondation métal;3973.6;1254.9;-150.0;30;17.53;4167.0;anneau 14 cote 1 n0
+810;Fondation métal;3823.6;1514.7;-150.0;30;21.61;4112.7;anneau 14 cote 1 n1
+811;Fondation métal;3673.6;1774.5;-150.0;30;25.78;4079.7;anneau 14 cote 1 n2
+812;Fondation métal;3523.6;2034.3;-150.0;30;30.0;4068.7;anneau 14 cote 1 n3
+813;Fondation métal;3373.6;2294.1;-150.0;30;34.22;4079.7;anneau 14 cote 1 n4
+814;Fondation métal;3223.6;2553.9;-150.0;30;38.39;4112.7;anneau 14 cote 1 n5
+815;Fondation métal;3073.6;2813.7;-150.0;30;42.47;4167.0;anneau 14 cote 1 n6
+816;Fondation triangle métal;2803.7;3056.2;-150.0;60;47.47;4147.4;anneau 14 cote 2 n0
+817;Fondation triangle métal;2543.9;3206.2;-150.0;60;51.57;4092.8;anneau 14 cote 2 n1
+818;Fondation triangle métal;2284.1;3356.2;-150.0;60;55.76;4059.7;anneau 14 cote 2 n2
+819;Fondation triangle métal;2024.3;3506.2;-150.0;60;60.0;4048.6;anneau 14 cote 2 n3
+820;Fondation triangle métal;1764.5;3656.2;-150.0;60;64.24;4059.7;anneau 14 cote 2 n4
+821;Fondation triangle métal;1504.7;3806.2;-150.0;60;68.43;4092.8;anneau 14 cote 2 n5
+822;Fondation triangle métal;1244.9;3956.2;-150.0;60;72.53;4147.4;anneau 14 cote 2 n6
+823;Fondation triangle métal;2933.6;2981.2;-150.0;240;45.46;4182.5;anneau 14 cote 2 n7
+824;Fondation triangle métal;2673.8;3131.2;-150.0;240;49.5;4117.4;anneau 14 cote 2 n8
+825;Fondation triangle métal;2414.0;3281.2;-150.0;240;53.66;4073.5;anneau 14 cote 2 n9
+826;Fondation triangle métal;2154.2;3431.2;-150.0;240;57.88;4051.3;anneau 14 cote 2 n10
+827;Fondation triangle métal;1894.4;3581.2;-150.0;240;62.12;4051.3;anneau 14 cote 2 n11
+828;Fondation triangle métal;1634.6;3731.2;-150.0;240;66.34;4073.5;anneau 14 cote 2 n12
+829;Fondation triangle métal;1374.8;3881.2;-150.0;240;70.5;4117.4;anneau 14 cote 2 n13
+830;Fondation triangle métal;1115.0;4031.2;-150.0;240;74.54;4182.5;anneau 14 cote 2 n14
+831;Fondation métal;900.0;4068.7;-150.0;90;77.53;4167.0;anneau 14 cote 3 n0
+832;Fondation métal;600.0;4068.7;-150.0;90;81.61;4112.7;anneau 14 cote 3 n1
+833;Fondation métal;300.0;4068.7;-150.0;90;85.78;4079.7;anneau 14 cote 3 n2
+834;Fondation métal;0.0;4068.7;-150.0;90;90.0;4068.7;anneau 14 cote 3 n3
+835;Fondation métal;-300.0;4068.7;-150.0;90;94.22;4079.7;anneau 14 cote 3 n4
+836;Fondation métal;-600.0;4068.7;-150.0;90;98.39;4112.7;anneau 14 cote 3 n5
+837;Fondation métal;-900.0;4068.7;-150.0;90;102.47;4167.0;anneau 14 cote 3 n6
+838;Fondation triangle métal;-1244.9;3956.2;-150.0;120;107.47;4147.4;anneau 14 cote 4 n0
+839;Fondation triangle métal;-1504.7;3806.2;-150.0;120;111.57;4092.8;anneau 14 cote 4 n1
+840;Fondation triangle métal;-1764.5;3656.2;-150.0;120;115.76;4059.7;anneau 14 cote 4 n2
+841;Fondation triangle métal;-2024.3;3506.2;-150.0;120;120.0;4048.6;anneau 14 cote 4 n3
+842;Fondation triangle métal;-2284.1;3356.2;-150.0;120;124.24;4059.7;anneau 14 cote 4 n4
+843;Fondation triangle métal;-2543.9;3206.2;-150.0;120;128.43;4092.8;anneau 14 cote 4 n5
+844;Fondation triangle métal;-2803.7;3056.2;-150.0;120;132.53;4147.4;anneau 14 cote 4 n6
+845;Fondation triangle métal;-1115.0;4031.2;-150.0;300;105.46;4182.5;anneau 14 cote 4 n7
+846;Fondation triangle métal;-1374.8;3881.2;-150.0;300;109.5;4117.4;anneau 14 cote 4 n8
+847;Fondation triangle métal;-1634.6;3731.2;-150.0;300;113.66;4073.5;anneau 14 cote 4 n9
+848;Fondation triangle métal;-1894.4;3581.2;-150.0;300;117.88;4051.3;anneau 14 cote 4 n10
+849;Fondation triangle métal;-2154.2;3431.2;-150.0;300;122.12;4051.3;anneau 14 cote 4 n11
+850;Fondation triangle métal;-2414.0;3281.2;-150.0;300;126.34;4073.5;anneau 14 cote 4 n12
+851;Fondation triangle métal;-2673.8;3131.2;-150.0;300;130.5;4117.4;anneau 14 cote 4 n13
+852;Fondation triangle métal;-2933.6;2981.2;-150.0;300;134.54;4182.5;anneau 14 cote 4 n14
+853;Fondation métal;-3073.6;2813.7;-150.0;150;137.53;4167.0;anneau 14 cote 5 n0
+854;Fondation métal;-3223.6;2553.9;-150.0;150;141.61;4112.7;anneau 14 cote 5 n1
+855;Fondation métal;-3373.6;2294.1;-150.0;150;145.78;4079.7;anneau 14 cote 5 n2
+856;Fondation métal;-3523.6;2034.3;-150.0;150;150.0;4068.7;anneau 14 cote 5 n3
+857;Fondation métal;-3673.6;1774.5;-150.0;150;154.22;4079.7;anneau 14 cote 5 n4
+858;Fondation métal;-3823.6;1514.7;-150.0;150;158.39;4112.7;anneau 14 cote 5 n5
+859;Fondation métal;-3673.6;-1774.5;-150.0;210;205.78;4079.7;anneau 14 cote 7 n2
+860;Fondation métal;-3523.6;-2034.3;-150.0;210;210.0;4068.7;anneau 14 cote 7 n3
+861;Fondation métal;-3373.6;-2294.1;-150.0;210;214.22;4079.7;anneau 14 cote 7 n4
+862;Fondation métal;-3223.6;-2553.9;-150.0;210;218.39;4112.7;anneau 14 cote 7 n5
+863;Fondation métal;-3073.6;-2813.7;-150.0;210;222.47;4167.0;anneau 14 cote 7 n6
+864;Fondation triangle métal;-2803.7;-3056.2;-150.0;240;227.47;4147.4;anneau 14 cote 8 n0
+865;Fondation triangle métal;-2543.9;-3206.2;-150.0;240;231.57;4092.8;anneau 14 cote 8 n1
+866;Fondation triangle métal;-2284.1;-3356.2;-150.0;240;235.76;4059.7;anneau 14 cote 8 n2
+867;Fondation triangle métal;-2024.3;-3506.2;-150.0;240;240.0;4048.6;anneau 14 cote 8 n3
+868;Fondation triangle métal;-1764.5;-3656.2;-150.0;240;244.24;4059.7;anneau 14 cote 8 n4
+869;Fondation triangle métal;-1504.7;-3806.2;-150.0;240;248.43;4092.8;anneau 14 cote 8 n5
+870;Fondation triangle métal;-1244.9;-3956.2;-150.0;240;252.53;4147.4;anneau 14 cote 8 n6
+871;Fondation triangle métal;-2933.6;-2981.2;-150.0;60;225.46;4182.5;anneau 14 cote 8 n7
+872;Fondation triangle métal;-2673.8;-3131.2;-150.0;60;229.5;4117.4;anneau 14 cote 8 n8
+873;Fondation triangle métal;-2414.0;-3281.2;-150.0;60;233.66;4073.5;anneau 14 cote 8 n9
+874;Fondation triangle métal;-2154.2;-3431.2;-150.0;60;237.88;4051.3;anneau 14 cote 8 n10
+875;Fondation triangle métal;-1894.4;-3581.2;-150.0;60;242.12;4051.3;anneau 14 cote 8 n11
+876;Fondation triangle métal;-1634.6;-3731.2;-150.0;60;246.34;4073.5;anneau 14 cote 8 n12
+877;Fondation triangle métal;-1374.8;-3881.2;-150.0;60;250.5;4117.4;anneau 14 cote 8 n13
+878;Fondation triangle métal;-1115.0;-4031.2;-150.0;60;254.54;4182.5;anneau 14 cote 8 n14
+879;Fondation métal;-900.0;-4068.7;-150.0;270;257.53;4167.0;anneau 14 cote 9 n0
+880;Fondation métal;-600.0;-4068.7;-150.0;270;261.61;4112.7;anneau 14 cote 9 n1
+881;Fondation métal;-300.0;-4068.7;-150.0;270;265.78;4079.7;anneau 14 cote 9 n2
+882;Fondation métal;-0.0;-4068.7;-150.0;270;270.0;4068.7;anneau 14 cote 9 n3
+883;Fondation métal;300.0;-4068.7;-150.0;270;274.22;4079.7;anneau 14 cote 9 n4
+884;Fondation métal;600.0;-4068.7;-150.0;270;278.39;4112.7;anneau 14 cote 9 n5
+885;Fondation métal;900.0;-4068.7;-150.0;270;282.47;4167.0;anneau 14 cote 9 n6
+886;Fondation triangle métal;1244.9;-3956.2;-150.0;300;287.47;4147.4;anneau 14 cote 10 n0
+887;Fondation triangle métal;1504.7;-3806.2;-150.0;300;291.57;4092.8;anneau 14 cote 10 n1
+888;Fondation triangle métal;1764.5;-3656.2;-150.0;300;295.76;4059.7;anneau 14 cote 10 n2
+889;Fondation triangle métal;2024.3;-3506.2;-150.0;300;300.0;4048.6;anneau 14 cote 10 n3
+890;Fondation triangle métal;2284.1;-3356.2;-150.0;300;304.24;4059.7;anneau 14 cote 10 n4
+891;Fondation triangle métal;2543.9;-3206.2;-150.0;300;308.43;4092.8;anneau 14 cote 10 n5
+892;Fondation triangle métal;2803.7;-3056.2;-150.0;300;312.53;4147.4;anneau 14 cote 10 n6
+893;Fondation triangle métal;1115.0;-4031.2;-150.0;120;285.46;4182.5;anneau 14 cote 10 n7
+894;Fondation triangle métal;1374.8;-3881.2;-150.0;120;289.5;4117.4;anneau 14 cote 10 n8
+895;Fondation triangle métal;1634.6;-3731.2;-150.0;120;293.66;4073.5;anneau 14 cote 10 n9
+896;Fondation triangle métal;1894.4;-3581.2;-150.0;120;297.88;4051.3;anneau 14 cote 10 n10
+897;Fondation triangle métal;2154.2;-3431.2;-150.0;120;302.12;4051.3;anneau 14 cote 10 n11
+898;Fondation triangle métal;2414.0;-3281.2;-150.0;120;306.34;4073.5;anneau 14 cote 10 n12
+899;Fondation triangle métal;2673.8;-3131.2;-150.0;120;310.5;4117.4;anneau 14 cote 10 n13
+900;Fondation triangle métal;2933.6;-2981.2;-150.0;120;314.54;4182.5;anneau 14 cote 10 n14
+901;Fondation métal;3073.6;-2813.7;-150.0;330;317.53;4167.0;anneau 14 cote 11 n0
+902;Fondation métal;3223.6;-2553.9;-150.0;330;321.61;4112.7;anneau 14 cote 11 n1
+903;Fondation métal;3373.6;-2294.1;-150.0;330;325.78;4079.7;anneau 14 cote 11 n2
+904;Fondation métal;3523.6;-2034.3;-150.0;330;330.0;4068.7;anneau 14 cote 11 n3
+905;Fondation métal;3673.6;-1774.5;-150.0;330;334.22;4079.7;anneau 14 cote 11 n4
+906;Fondation métal;3823.6;-1514.7;-150.0;330;338.39;4112.7;anneau 14 cote 11 n5
+907;Fondation métal;3973.6;-1254.9;-150.0;330;342.47;4167.0;anneau 14 cote 11 n6
+908;Fondation métal;4328.5;-1050.0;-300.0;0;346.36;4454.0;anneau 15 cote 0 n0
+909;Fondation métal;4328.5;-750.0;-300.0;0;350.17;4393.0;anneau 15 cote 0 n1
+910;Fondation métal;4328.5;-450.0;-300.0;0;354.06;4351.8;anneau 15 cote 0 n2
+911;Fondation métal;4328.5;-150.0;-300.0;0;358.02;4331.1;anneau 15 cote 0 n3
+912;Fondation métal;4328.5;150.0;-300.0;0;1.98;4331.1;anneau 15 cote 0 n4
+913;Fondation métal;4328.5;450.0;-300.0;0;5.94;4351.8;anneau 15 cote 0 n5
+914;Fondation métal;4328.5;750.0;-300.0;0;9.83;4393.0;anneau 15 cote 0 n6
+915;Fondation métal;4328.5;1050.0;-300.0;0;13.64;4454.0;anneau 15 cote 0 n7
+916;Fondation triangle métal;4216.0;1394.9;-300.0;30;18.31;4440.7;anneau 15 cote 1 n0
+917;Fondation triangle métal;4066.0;1654.7;-300.0;30;22.14;4389.8;anneau 15 cote 1 n1
+918;Fondation triangle métal;3916.0;1914.5;-300.0;30;26.05;4358.9;anneau 15 cote 1 n2
+919;Fondation triangle métal;3766.0;2174.3;-300.0;30;30.0;4348.6;anneau 15 cote 1 n3
+920;Fondation triangle métal;3616.0;2434.1;-300.0;30;33.95;4358.9;anneau 15 cote 1 n4
+921;Fondation triangle métal;3466.0;2693.9;-300.0;30;37.86;4389.8;anneau 15 cote 1 n5
+922;Fondation triangle métal;3316.0;2953.7;-300.0;30;41.69;4440.7;anneau 15 cote 1 n6
+923;Fondation triangle métal;4291.0;1265.0;-300.0;210;16.43;4473.5;anneau 15 cote 1 n7
+924;Fondation triangle métal;4141.0;1524.8;-300.0;210;20.21;4412.8;anneau 15 cote 1 n8
+925;Fondation triangle métal;3991.0;1784.6;-300.0;210;24.09;4371.8;anneau 15 cote 1 n9
+926;Fondation triangle métal;3841.0;2044.4;-300.0;210;28.02;4351.1;anneau 15 cote 1 n10
+927;Fondation triangle métal;3691.0;2304.2;-300.0;210;31.98;4351.1;anneau 15 cote 1 n11
+928;Fondation triangle métal;3541.0;2564.0;-300.0;210;35.91;4371.8;anneau 15 cote 1 n12
+929;Fondation triangle métal;3391.0;2823.8;-300.0;210;39.79;4412.8;anneau 15 cote 1 n13
+930;Fondation triangle métal;3241.0;3083.6;-300.0;210;43.57;4473.5;anneau 15 cote 1 n14
+931;Fondation métal;3073.6;3223.6;-300.0;60;46.36;4454.0;anneau 15 cote 2 n0
+932;Fondation métal;2813.7;3373.6;-300.0;60;50.17;4393.0;anneau 15 cote 2 n1
+933;Fondation métal;2553.9;3523.6;-300.0;60;54.06;4351.8;anneau 15 cote 2 n2
+934;Fondation métal;2294.1;3673.6;-300.0;60;58.02;4331.1;anneau 15 cote 2 n3
+935;Fondation métal;2034.3;3823.6;-300.0;60;61.98;4331.1;anneau 15 cote 2 n4
+936;Fondation métal;1774.5;3973.6;-300.0;60;65.94;4351.8;anneau 15 cote 2 n5
+937;Fondation métal;1514.7;4123.6;-300.0;60;69.83;4393.0;anneau 15 cote 2 n6
+938;Fondation métal;1254.9;4273.6;-300.0;60;73.64;4454.0;anneau 15 cote 2 n7
+939;Fondation triangle métal;900.0;4348.6;-300.0;90;78.31;4440.7;anneau 15 cote 3 n0
+940;Fondation triangle métal;600.0;4348.6;-300.0;90;82.14;4389.8;anneau 15 cote 3 n1
+941;Fondation triangle métal;300.0;4348.6;-300.0;90;86.05;4358.9;anneau 15 cote 3 n2
+942;Fondation triangle métal;0.0;4348.6;-300.0;90;90.0;4348.6;anneau 15 cote 3 n3
+943;Fondation triangle métal;-300.0;4348.6;-300.0;90;93.95;4358.9;anneau 15 cote 3 n4
+944;Fondation triangle métal;-600.0;4348.6;-300.0;90;97.86;4389.8;anneau 15 cote 3 n5
+945;Fondation triangle métal;-900.0;4348.6;-300.0;90;101.69;4440.7;anneau 15 cote 3 n6
+946;Fondation triangle métal;1050.0;4348.6;-300.0;270;76.43;4473.5;anneau 15 cote 3 n7
+947;Fondation triangle métal;750.0;4348.6;-300.0;270;80.21;4412.8;anneau 15 cote 3 n8
+948;Fondation triangle métal;450.0;4348.6;-300.0;270;84.09;4371.8;anneau 15 cote 3 n9
+949;Fondation triangle métal;150.0;4348.6;-300.0;270;88.02;4351.1;anneau 15 cote 3 n10
+950;Fondation triangle métal;-150.0;4348.6;-300.0;270;91.98;4351.1;anneau 15 cote 3 n11
+951;Fondation triangle métal;-450.0;4348.6;-300.0;270;95.91;4371.8;anneau 15 cote 3 n12
+952;Fondation triangle métal;-750.0;4348.6;-300.0;270;99.79;4412.8;anneau 15 cote 3 n13
+953;Fondation triangle métal;-1050.0;4348.6;-300.0;270;103.57;4473.5;anneau 15 cote 3 n14
+954;Fondation métal;-1254.9;4273.6;-300.0;120;106.36;4454.0;anneau 15 cote 4 n0
+955;Fondation métal;-1514.7;4123.6;-300.0;120;110.17;4393.0;anneau 15 cote 4 n1
+956;Fondation métal;-1774.5;3973.6;-300.0;120;114.06;4351.8;anneau 15 cote 4 n2
+957;Fondation métal;-2034.3;3823.6;-300.0;120;118.02;4331.1;anneau 15 cote 4 n3
+958;Fondation métal;-2294.1;3673.6;-300.0;120;121.98;4331.1;anneau 15 cote 4 n4
+959;Fondation métal;-2553.9;3523.6;-300.0;120;125.94;4351.8;anneau 15 cote 4 n5
+960;Fondation métal;-2813.7;3373.6;-300.0;120;129.83;4393.0;anneau 15 cote 4 n6
+961;Fondation métal;-3073.6;3223.6;-300.0;120;133.64;4454.0;anneau 15 cote 4 n7
+962;Fondation triangle métal;-3316.0;2953.7;-300.0;150;138.31;4440.7;anneau 15 cote 5 n0
+963;Fondation triangle métal;-3466.0;2693.9;-300.0;150;142.14;4389.8;anneau 15 cote 5 n1
+964;Fondation triangle métal;-3616.0;2434.1;-300.0;150;146.05;4358.9;anneau 15 cote 5 n2
+965;Fondation triangle métal;-3766.0;2174.3;-300.0;150;150.0;4348.6;anneau 15 cote 5 n3
+966;Fondation triangle métal;-3916.0;1914.5;-300.0;150;153.95;4358.9;anneau 15 cote 5 n4
+967;Fondation triangle métal;-4066.0;1654.7;-300.0;150;157.86;4389.8;anneau 15 cote 5 n5
+968;Fondation triangle métal;-3241.0;3083.6;-300.0;330;136.43;4473.5;anneau 15 cote 5 n7
+969;Fondation triangle métal;-3391.0;2823.8;-300.0;330;140.21;4412.8;anneau 15 cote 5 n8
+970;Fondation triangle métal;-3541.0;2564.0;-300.0;330;144.09;4371.8;anneau 15 cote 5 n9
+971;Fondation triangle métal;-3691.0;2304.2;-300.0;330;148.02;4351.1;anneau 15 cote 5 n10
+972;Fondation triangle métal;-3841.0;2044.4;-300.0;330;151.98;4351.1;anneau 15 cote 5 n11
+973;Fondation triangle métal;-3991.0;1784.6;-300.0;330;155.91;4371.8;anneau 15 cote 5 n12
+974;Fondation triangle métal;-3916.0;-1914.5;-300.0;210;206.05;4358.9;anneau 15 cote 7 n2
+975;Fondation triangle métal;-3766.0;-2174.3;-300.0;210;210.0;4348.6;anneau 15 cote 7 n3
+976;Fondation triangle métal;-3616.0;-2434.1;-300.0;210;213.95;4358.9;anneau 15 cote 7 n4
+977;Fondation triangle métal;-3466.0;-2693.9;-300.0;210;217.86;4389.8;anneau 15 cote 7 n5
+978;Fondation triangle métal;-3316.0;-2953.7;-300.0;210;221.69;4440.7;anneau 15 cote 7 n6
+979;Fondation triangle métal;-3841.0;-2044.4;-300.0;30;208.02;4351.1;anneau 15 cote 7 n10
+980;Fondation triangle métal;-3691.0;-2304.2;-300.0;30;211.98;4351.1;anneau 15 cote 7 n11
+981;Fondation triangle métal;-3541.0;-2564.0;-300.0;30;215.91;4371.8;anneau 15 cote 7 n12
+982;Fondation triangle métal;-3391.0;-2823.8;-300.0;30;219.79;4412.8;anneau 15 cote 7 n13
+983;Fondation triangle métal;-3241.0;-3083.6;-300.0;30;223.57;4473.5;anneau 15 cote 7 n14
+984;Fondation métal;-3073.6;-3223.6;-300.0;240;226.36;4454.0;anneau 15 cote 8 n0
+985;Fondation métal;-2813.7;-3373.6;-300.0;240;230.17;4393.0;anneau 15 cote 8 n1
+986;Fondation métal;-2553.9;-3523.6;-300.0;240;234.06;4351.8;anneau 15 cote 8 n2
+987;Fondation métal;-2294.1;-3673.6;-300.0;240;238.02;4331.1;anneau 15 cote 8 n3
+988;Fondation métal;-2034.3;-3823.6;-300.0;240;241.98;4331.1;anneau 15 cote 8 n4
+989;Fondation métal;-1774.5;-3973.6;-300.0;240;245.94;4351.8;anneau 15 cote 8 n5
+990;Fondation métal;-1514.7;-4123.6;-300.0;240;249.83;4393.0;anneau 15 cote 8 n6
+991;Fondation métal;-1254.9;-4273.6;-300.0;240;253.64;4454.0;anneau 15 cote 8 n7
+992;Fondation triangle métal;-900.0;-4348.6;-300.0;270;258.31;4440.7;anneau 15 cote 9 n0
+993;Fondation triangle métal;-600.0;-4348.6;-300.0;270;262.14;4389.8;anneau 15 cote 9 n1
+994;Fondation triangle métal;-300.0;-4348.6;-300.0;270;266.05;4358.9;anneau 15 cote 9 n2
+995;Fondation triangle métal;-0.0;-4348.6;-300.0;270;270.0;4348.6;anneau 15 cote 9 n3
+996;Fondation triangle métal;300.0;-4348.6;-300.0;270;273.95;4358.9;anneau 15 cote 9 n4
+997;Fondation triangle métal;600.0;-4348.6;-300.0;270;277.86;4389.8;anneau 15 cote 9 n5
+998;Fondation triangle métal;900.0;-4348.6;-300.0;270;281.69;4440.7;anneau 15 cote 9 n6
+999;Fondation triangle métal;-1050.0;-4348.6;-300.0;90;256.43;4473.5;anneau 15 cote 9 n7
+1000;Fondation triangle métal;-750.0;-4348.6;-300.0;90;260.21;4412.8;anneau 15 cote 9 n8
+1001;Fondation triangle métal;-450.0;-4348.6;-300.0;90;264.09;4371.8;anneau 15 cote 9 n9
+1002;Fondation triangle métal;-150.0;-4348.6;-300.0;90;268.02;4351.1;anneau 15 cote 9 n10
+1003;Fondation triangle métal;150.0;-4348.6;-300.0;90;271.98;4351.1;anneau 15 cote 9 n11
+1004;Fondation triangle métal;450.0;-4348.6;-300.0;90;275.91;4371.8;anneau 15 cote 9 n12
+1005;Fondation triangle métal;750.0;-4348.6;-300.0;90;279.79;4412.8;anneau 15 cote 9 n13
+1006;Fondation triangle métal;1050.0;-4348.6;-300.0;90;283.57;4473.5;anneau 15 cote 9 n14
+1007;Fondation métal;1254.9;-4273.6;-300.0;300;286.36;4454.0;anneau 15 cote 10 n0
+1008;Fondation métal;1514.7;-4123.6;-300.0;300;290.17;4393.0;anneau 15 cote 10 n1
+1009;Fondation métal;1774.5;-3973.6;-300.0;300;294.06;4351.8;anneau 15 cote 10 n2
+1010;Fondation métal;2034.3;-3823.6;-300.0;300;298.02;4331.1;anneau 15 cote 10 n3
+1011;Fondation métal;2294.1;-3673.6;-300.0;300;301.98;4331.1;anneau 15 cote 10 n4
+1012;Fondation métal;2553.9;-3523.6;-300.0;300;305.94;4351.8;anneau 15 cote 10 n5
+1013;Fondation métal;2813.7;-3373.6;-300.0;300;309.83;4393.0;anneau 15 cote 10 n6
+1014;Fondation métal;3073.6;-3223.6;-300.0;300;313.64;4454.0;anneau 15 cote 10 n7
+1015;Fondation triangle métal;3316.0;-2953.7;-300.0;330;318.31;4440.7;anneau 15 cote 11 n0
+1016;Fondation triangle métal;3466.0;-2693.9;-300.0;330;322.14;4389.8;anneau 15 cote 11 n1
+1017;Fondation triangle métal;3616.0;-2434.1;-300.0;330;326.05;4358.9;anneau 15 cote 11 n2
+1018;Fondation triangle métal;3766.0;-2174.3;-300.0;330;330.0;4348.6;anneau 15 cote 11 n3
+1019;Fondation triangle métal;3916.0;-1914.5;-300.0;330;333.95;4358.9;anneau 15 cote 11 n4
+1020;Fondation triangle métal;4066.0;-1654.7;-300.0;330;337.86;4389.8;anneau 15 cote 11 n5
+1021;Fondation triangle métal;4216.0;-1394.9;-300.0;330;341.69;4440.7;anneau 15 cote 11 n6
+1022;Fondation triangle métal;3241.0;-3083.6;-300.0;150;316.43;4473.5;anneau 15 cote 11 n7
+1023;Fondation triangle métal;3391.0;-2823.8;-300.0;150;320.21;4412.8;anneau 15 cote 11 n8
+1024;Fondation triangle métal;3541.0;-2564.0;-300.0;150;324.09;4371.8;anneau 15 cote 11 n9
+1025;Fondation triangle métal;3691.0;-2304.2;-300.0;150;328.02;4351.1;anneau 15 cote 11 n10
+1026;Fondation triangle métal;3841.0;-2044.4;-300.0;150;331.98;4351.1;anneau 15 cote 11 n11
+1027;Fondation triangle métal;3991.0;-1784.6;-300.0;150;335.91;4371.8;anneau 15 cote 11 n12
+1028;Fondation triangle métal;4141.0;-1524.8;-300.0;150;339.79;4412.8;anneau 15 cote 11 n13
+1029;Fondation triangle métal;4291.0;-1265.0;-300.0;150;343.57;4473.5;anneau 15 cote 11 n14

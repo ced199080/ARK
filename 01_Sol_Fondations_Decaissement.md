@@ -1,13 +1,10 @@
 # Module 01 — Sol et nivellement (calpinage Ø30, bord abaissé en 2 paliers)
 
-Templates (`templates/plans/`, module 06) :
-- `Plan_1_sol_anneaux_12-15.json` : anneaux 12 à 15, paliers compris, avec la pile d'ancrage ;
-- `Plan_3_sol_centre_anneaux_0-11.json` : hexagone central et anneaux 1 à 11 ;
-- `Plan_8_plateforme_future_anneaux_9-11.json` : les 10 fondations vertes au milieu du trou.
+Template (`templates/plans/`, module 06) : `Plan_01_sol_complet.json`. Il contient tout le sol en un seul plan : hexagone central, anneaux 1 à 15, paliers de bord et les 10 fondations vertes au milieu du trou. Il porte aussi la pile d'ancrage (1 030 entrées).
 
-Les **124 fondations du trou** (en blanc sur votre image) ne sont dans aucun plan (§6).
+Les **124 fondations du trou** (en blanc sur votre image) n'y sont pas (§6).
 
-Coordonnées pièce par pièce : `donnees/Plan_1_*.csv`, `donnees/Plan_3_*.csv`, `donnees/Plan_8_*.csv`.
+Coordonnées pièce par pièce : `donnees/Plan_01_sol_complet.csv`.
 Plan : `plans/plan_calpinage.png` (trou en pointillés rouges, plateforme en vert).
 
 ![Plan de calpinage](plans/plan_calpinage.png)
@@ -96,9 +93,9 @@ Contrôle géométrique : l'aire couverte vaut 64 489 838 UU², soit exactement 
 
 | Situation | Procédure |
 |---|---|
-| Plateforme vierge | Importez `Plan_1`, puis `Plan_3`. La pièce d'accroche de `Plan_1` est la pile de 2 demi-piliers (`snapOverrides [0,1]`), posée **au sommet de l'hexagone central situé à θ = 90°**, en (0 ; 300) : c'est votre **pilier de référence**, celui de votre export *trou*. Le centre de l'étoile est à 300 UU de la pile, dans l'axe 270°. Les autres plans portent 1 demi-pilier qui se pose sur la pile (`snapOverrides [0]`). |
-| Étoile 481 (ou identique) déjà posée | Importez `Plan_1`, puis `Plan_3` en sautant les pièces déjà en place (anneaux 1 à 7). **Retirez de votre étoile les 27 pièces du trou** (anneaux 4 à 7 : 9 carrés et 18 triangles, côté θ 180°). |
-| Étoile différente du 481 | Comparez avec `donnees/Plan_3_sol_centre_anneaux_0-11.csv` (anneaux 1 à 7) ou avec le contrôle `--verifier-481` appliqué à votre propre export. Si l'écart est une rotation, tournez le template à l'import jusqu'à superposer l'anneau 7 généré sur votre contour. |
+| Plateforme vierge | Importez `Plan_01`. Sa pièce d'accroche est la pile de 2 demi-piliers (`snapOverrides [0,1]`), posée **au sommet de l'hexagone central situé à θ = 90°**, en (0 ; 300) : c'est votre **pilier de référence**, celui de votre export *trou*. Le centre de l'étoile est à 300 UU de la pile, dans l'axe 270°. Les plans 2 à 8 portent 1 demi-pilier qui se pose sur la pile (`snapOverrides [0]`) ; les plans 9 à 11 se calent sur un mur de D4 (module 02 §8). |
+| Étoile 481 (ou identique) déjà posée | Importez `Plan_01` en sautant les pièces déjà en place (anneaux 1 à 7). **Retirez de votre étoile les 27 pièces du trou** (anneaux 4 à 7 : 9 carrés et 18 triangles, côté θ 180°). |
+| Étoile différente du 481 | Comparez avec `donnees/Plan_01_sol_complet.csv` (anneaux 1 à 7) ou avec le contrôle `--verifier-481` appliqué à votre propre export. Si l'écart est une rotation, tournez le template à l'import jusqu'à superposer l'anneau 7 généré sur votre contour. |
 
 Le recalage de votre export *trou* confirme ce repère : ses 60 fondations retombent sur l'étoile à moins de 5 UU, autour de votre pilier de référence (module 06 §1).
 
@@ -117,8 +114,9 @@ Formules pour toute pièce :
 |---|---|---|---|---|
 | Ancre basse / haute (plan 1) | 0 | 300 | 15 / 165 | 2 demi-piliers empilés au sommet de l'hexagone central (θ 90°) = pilier de référence |
 | Ancre des plans 2 à 8 | 0 | 300 | 315 | se pose sur la pile |
+| Murs de référence A, B, C (plans 9 à 11, rehausse) | +150, −150, −450 | 2 239,2 | 2 940 | murs de D4 du côté θ 90°, au-dessus de la porte du hall (A) et à sa droite vus de l'extérieur ; ils se snappent sur le haut de la tour du pod |
 | Milieu du côté 0° de D4 | 2 239,2 | 0 | — | arête où s'accroche le mur de pod |
-| Milieu du côté 0° de D5 | 2 799,0 | 0 | — | ligne des double doorframes |
+| Milieu du côté 0° de D5 | 2 799,0 | 0 | — | fût de cage en cadres doubles |
 | Milieu du côté 0° de D7 | 3 918,7 | 0 | — | mur de rive |
 | Coin à 15° de D8 | 4 478,5 | 1 200,0 | — | pointe la plus éloignée : 4 636,4 UU du centre |
 
@@ -129,10 +127,10 @@ Le trou est relevé sur votre image annotée (`references/Trou_fondations.json`,
 | Anneau | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | **Total** |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | **Retirées** (blanc) | 5 | 5 | 9 | 8 | 11 | 7 | 8 | 8 | 16 | 13 | 18 | 16 | **124** |
-| **Plateforme** (vert, plan 8) | — | — | — | — | — | 2 | 5 | 3 | — | — | — | — | **10** |
+| **Plateforme** (vert, plan 1) | — | — | — | — | — | 2 | 5 | 3 | — | — | — | — | **10** |
 
 - Les fondations blanches ne sont posées dans aucun plan : c'est le gouffre.
-- Les fondations vertes sont posées (plan 8), au niveau Z0, mais rien ne s'y accroche. Entourées de fondations blanches, elles ne touchent la base par aucune arête : Template Hammer obligatoire.
+- Les fondations vertes sont posées avec le reste du sol (plan 1), au niveau Z0, mais rien ne s'y accroche. Entourées de fondations blanches, elles ne touchent la base par aucune arête : Template Hammer obligatoire. Si vous ne les voulez pas tout de suite, supprimez-les après la pose (repère `plateforme verte` dans `donnees/Plan_01_sol_complet.csv`).
 - La colonne `retirees_trou` de `donnees/synthese.json` → `anneaux` donne ces chiffres anneau par anneau.
 
 ## 7. Contrôles de fin de module

@@ -1,0 +1,72 @@
+entree;piece;x;y;Z_plan;yaw;theta;rayon;repere
+0;Demi-pilier métal;0.0;300.0;225;0;90.0;300.0;ancre module (se pose sur l'ancre du sol)
+1;Tourelle lourde (Heavy);4488.5;750.0;-900.0;90;9.49;4550.7;#1 JUPE-ext c0 p1
+2;Tourelle lourde (Heavy);2364.1;-3794.8;-900.0;210;301.92;4471.0;#4 JUPE-int c10 p0
+3;Tourelle lourde (Heavy);2104.3;3944.8;-900.0;330;61.92;4471.0;#5 JUPE-int c2 p0
+4;Tourelle lourde (Heavy);-1594.7;-4262.1;-900.0;330;249.49;4550.7;#6 JUPE-ext c8 p1
+5;Tourelle lourde (Heavy);-2893.7;3512.1;-900.0;210;129.49;4550.7;#11 JUPE-ext c4 p1
+6;Tourelle lourde (Heavy);4094.8;1844.5;-900.0;300;24.25;4491.1;#16 JUPE-int c1 p0
+7;Tourelle lourde (Heavy);-3644.8;-2623.9;-900.0;120;215.75;4491.1;#17 JUPE-int c7 p0
+8;Tourelle lourde (Heavy);-2104.3;3944.8;-900.0;30;118.08;4471.0;#18 JUPE-int c4 p0
+9;Tourelle lourde (Heavy);-450.0;-4468.5;-900.0;180;264.25;4491.1;#21 JUPE-int c9 p0
+10;Tourelle lourde (Heavy);4468.5;-150.0;-900.0;270;358.08;4471.0;#23 JUPE-int c0 p0
+11;Tourelle lourde (Heavy);2893.7;3512.1;-900.0;150;50.51;4550.7;#24 JUPE-ext c2 p1
+12;Tourelle lourde (Heavy);-2364.1;-3794.8;-900.0;150;238.08;4471.0;#25 JUPE-int c8 p0
+13;Tourelle lourde (Heavy);-3644.8;2623.9;-900.0;60;144.25;4491.1;#26 JUPE-int c5 p0
+14;Tourelle lourde (Heavy);4094.8;-1844.5;-900.0;240;335.75;4491.1;#27 JUPE-int c11 p0
+15;Tourelle lourde (Heavy);-450.0;4468.5;-900.0;0;95.75;4491.1;#28 JUPE-int c3 p0
+16;Tourelle lourde (Heavy);1594.7;-4262.1;-900.0;30;290.51;4550.7;#29 JUPE-ext c10 p1
+17;Grand carré de culture (Plant Species X);1474.5;2853.9;0.0;60;62.68;3212.3;#88 X-attique c2 p3 (carre de culture : Plant Species X a planter)
+18;Grand carré de culture (Plant Species X);-1734.3;2703.9;0.0;120;122.68;3212.3;#92 X-attique c4 p3 (carre de culture : Plant Species X a planter)
+19;Grand carré de culture (Plant Species X);3208.8;150.0;0.0;0;2.68;3212.3;#94 X-attique c0 p3 (carre de culture : Plant Species X a planter)
+20;Grand carré de culture (Plant Species X);1734.3;-2703.9;0.0;300;302.68;3212.3;#97 X-attique c10 p3 (carre de culture : Plant Species X a planter)
+21;Grand carré de culture (Plant Species X);-1474.5;-2853.9;0.0;240;242.68;3212.3;#99 X-attique c8 p3 (carre de culture : Plant Species X a planter)
+22;Tourelle lourde (Heavy);-3618.7;1299.8;0.0;360.0;160.24;3845.0;#15 TROU c9 p0
+23;Tourelle lourde (Heavy);-3343.7;1226.1;0.0;330.0;159.86;3561.5;#22 TROU c8 p2
+24;Tourelle lourde (Heavy);-3468.7;-1559.6;0.0;180.0;204.21;3803.2;#30 TROU c3 p1
+25;Tourelle lourde (Heavy);-3402.3;-1964.3;300.0;300;210.0;3928.7;#2 RIVE c7 p3
+26;Tourelle lourde (Heavy);-1444.7;3702.3;300.0;210;111.32;3974.2;#3 RIVE c4 p1
+27;Tourelle lourde (Heavy);-3402.3;1964.3;300.0;240;150.0;3928.7;#7 RIVE c5 p3
+28;Tourelle lourde (Heavy);3928.7;-600.0;300.0;90;351.32;3974.2;#8 RIVE c0 p1
+29;Tourelle lourde (Heavy);3402.3;1964.3;300.0;120;30.0;3928.7;#9 RIVE c1 p3
+30;Tourelle lourde (Heavy);-2483.9;-3102.3;300.0;330;231.32;3974.2;#10 RIVE c8 p1
+31;Tourelle lourde (Heavy);3402.3;-1964.3;300.0;60;330.0;3928.7;#12 RIVE c11 p3
+32;Tourelle lourde (Heavy);0.0;3928.7;300.0;180;90.0;3928.7;#13 RIVE c3 p3
+33;Tourelle lourde (Heavy);-0.0;-3928.7;300.0;0;270.0;3928.7;#14 RIVE c9 p3
+34;Tourelle lourde (Heavy);2483.9;-3102.3;300.0;30;308.68;3974.2;#19 RIVE c10 p5
+35;Tourelle lourde (Heavy);1444.7;3702.3;300.0;150;68.68;3974.2;#20 RIVE c2 p5
+36;Bobine Tesla;3928.7;0.0;300.0;90;0.0;3928.7;#46 RIVE c0 p3
+37;Bobine Tesla;-1964.3;-3402.3;300.0;330;240.0;3928.7;#47 RIVE c8 p3
+38;Bobine Tesla;-1964.3;3402.3;300.0;210;120.0;3928.7;#48 RIVE c4 p3
+39;Bobine Tesla;1964.3;3402.3;300.0;150;60.0;3928.7;#49 RIVE c2 p3
+40;Bobine Tesla;1964.3;-3402.3;300.0;30;300.0;3928.7;#50 RIVE c10 p3
+41;Bobine Tesla;-3193.7;-1486.0;300.0;210.0;204.95;3522.5;#51 TROU c4 p0
+42;Tourelle Tek;2809.0;0.0;1800.0;90;0.0;2809.0;#31 L1 c0 p2
+43;Tourelle Tek;-2499.0;-999.8;1800.0;180.0;201.81;2691.6;#32 TROU-L1 c3 p1
+44;Tourelle Tek;-300.0;2809.0;1800.0;180;96.1;2825.0;#33 L1 c3 p3
+45;Tourelle Tek;1144.7;-2582.7;1800.0;30;293.9;2825.0;#34 L1 c10 p1
+46;Tourelle Tek;1924.1;2132.7;1800.0;150;47.94;2872.4;#35 L1 c2 p0
+47;Tourelle Tek;-1144.7;-2582.7;1800.0;330;246.1;2825.0;#36 L1 c8 p3
+48;Tourelle Tek;-2282.7;1664.3;1800.0;240;143.9;2825.0;#37 L1 c5 p1
+49;Tourelle Tek;2732.7;-884.9;1800.0;60;342.06;2872.4;#38 L1 c11 p4
+50;Tourelle Tek;2582.7;1144.7;1800.0;120;23.9;2825.0;#39 L1 c1 p1
+51;Tourelle Tek;-2132.7;-1924.1;1800.0;300;222.06;2872.4;#40 L1 c7 p4
+52;Tourelle Tek;-1404.5;2432.7;1800.0;210;120.0;2809.0;#41 L1 c4 p2
+53;Tourelle Tek;2132.7;-1924.1;1800.0;60;317.94;2872.4;#42 L1 c11 p0
+54;Tourelle Tek;884.9;2732.7;1800.0;150;72.06;2872.4;#43 L1 c2 p4
+55;Tourelle Tek;-0.0;-2809.0;1800.0;0;270.0;2809.0;#44 L1 c9 p2
+56;Tourelle Tek;-2499.0;999.8;1800.0;0.0;158.19;2691.6;#45 TROU-L1 c9 p0
+57;Tourelle lourde (Heavy);2809.0;600.0;1800.0;90;12.06;2872.4;#52 L1 c0 p4
+58;Tourelle lourde (Heavy);-2432.7;-1404.5;1800.0;300;210.0;2809.0;#53 L1 c7 p2
+59;Tourelle lourde (Heavy);-884.9;2732.7;1800.0;210;107.94;2872.4;#54 L1 c4 p0
+60;Tourelle lourde (Heavy);1664.3;-2282.7;1800.0;30;306.1;2825.0;#55 L1 c10 p3
+61;Tourelle lourde (Heavy);1404.5;2432.7;1800.0;150;60.0;2809.0;#56 L1 c2 p2
+62;Tourelle lourde (Heavy);-600.0;-2809.0;1800.0;0;257.94;2872.4;#57 L1 c9 p0
+63;Tourelle lourde (Heavy);-2582.7;1144.7;1800.0;240;156.1;2825.0;#58 L1 c5 p3
+64;Tourelle lourde (Heavy);2282.7;1664.3;1800.0;120;36.1;2825.0;#59 L1 c1 p3
+65;Tourelle lourde (Heavy);-1664.3;-2282.7;1800.0;330;233.9;2825.0;#60 L1 c8 p1
+66;Tourelle lourde (Heavy);-1924.1;2132.7;1800.0;210;132.06;2872.4;#61 L1 c4 p4
+67;Tourelle lourde (Heavy);2432.7;-1404.5;1800.0;60;330.0;2809.0;#62 L1 c11 p2
+68;Tourelle lourde (Heavy);300.0;2809.0;1800.0;180;83.9;2825.0;#63 L1 c3 p1
+69;Tourelle lourde (Heavy);600.0;-2809.0;1800.0;0;282.06;2872.4;#64 L1 c9 p4
+70;Tourelle lourde (Heavy);-2224.1;926.1;1800.0;330.0;157.39;2409.3;#65 TROU-L1 c8 p2

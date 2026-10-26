@@ -1,96 +1,74 @@
 # Module 07 — Bilan matériaux complet et équipements
 
-Ce bilan couvre **tout ce qu'il faut fabriquer** pour la forteresse en 8 plans, adaptée au trou (module 06) :
-- la structure (plateforme verte comprise) et les pics ;
-- les 100 tourelles (62 Heavy, 32 Tek, 6 Tesla) ;
+Ce bilan couvre **tout ce qu'il faut fabriquer** pour la forteresse en plans par zone, adaptée au trou (module 06) :
+- la structure des plans 1 et 3 à 11 (plateforme verte comprise), les pics et les carrés de culture ;
+- les options à part : colonnade (plan 2) et rehausse de la tour ;
+- les 85 tourelles (52 Heavy, 23 Tek, 10 Tesla), plus 15 Plant Species X ;
 - les équipements demandés : 1 Réplicateur Tek, 1 forge à vapeur, 1 labo de fortune, 20 stockages dédiés, 20 coffres-forts, 2 générateurs Tek.
 
-Les chiffres sont recalculés par le script : `donnees/synthese.json`, clés `bilan_complet` et `bilan_total`. Positions des équipements : `donnees/07_equipements.csv`.
+Les chiffres sont recalculés par le script : `donnees/synthese.json`, clés `bilan_complet`, `bilan_total` et `options`. Classeur : `donnees/07_bilan_materiaux.xlsx`, régénéré par `python3 outils/bilan_xlsx.py`. Positions des équipements : `donnees/07_equipements.csv`.
 
 ## 1. Total à réunir
 
-| Ressource | Sans les tourelles (déjà en inventaire) | **Avec les 100 tourelles** |
+| Ressource | Sans les tourelles (déjà en inventaire) | **Avec les tourelles** |
 |---|---|---|
-| Lingots de métal | 138 479 | **178 159** |
-| Pâte cimentée | 34 725 | **48 725** |
-| Électroniques | 220 | **20 760** |
-| Polymère | 5 850 | **13 590** |
-| Cristal | 3 350 | **4 550** |
-| Élément | 220 | **316** |
+| Lingots de métal | **147 504** | **182 884** |
+| Pâte cimentée | **37 576** | **49 126** |
+| Électroniques | 220 | 17 560 |
+| Polymère | 5 850 | 13 640 |
+| Cristal | 3 350 | 5 350 |
+| Élément | 220 | 289 |
 | Perles noires | 470 | 470 |
 | Huile | 1 400 | 1 400 |
 | Poudre étincelante | 100 | 100 |
 | Cuir | 1 480 | 1 480 |
-| Fibre | 2 604 | 2 604 |
-| Chaume (gabarits, démolis ensuite) | 672 | 672 |
-| Bois (gabarits) | 384 | 384 |
+| Fibre | 3 136 | 3 136 |
+| Chaume (murs de chaume démolis ensuite, carrés de culture) | 1 303 | 1 303 |
+| Bois (idem) | 916 | 916 |
+| Pierre (carrés de culture) | 1 500 | 1 500 |
 
-Le script crée les tourelles du plan (62 Heavy, 32 Tek, 6 Tesla), mais elles sont **déjà dans votre inventaire**. Ne fabriquez que la colonne de gauche. Il reste en réserve 18 Heavy, 3 Tek et 4 Tesla.
+Le script place les tourelles (52 Heavy, 23 Tek, 10 Tesla), mais elles sont **déjà dans votre inventaire** : ne fabriquez que la colonne de gauche. Il reste en réserve 28 Heavy, 12 Tek et aucune Tesla. Les 15 graines de Plant Species X se récoltent (marais) et se plantent à la main.
+
+| Option | Pièces | Lingots | Pâte |
+|---|---|---|---|
+| Colonnade (plan 2) | 226 piliers | +5 650 | +1 582 |
+| Rehausse de la tour, par niveau | 52 murs pleins + 24 piliers | +1 900 | +532 |
 
 Si votre étoile (anneaux 1 à 7) est déjà construite, retirez ses 87 fondations et 174 triangles hors du trou : 8 700 lingots et 2 697 pâte.
 
-## 1 bis. Ce qui a changé avec l'audit des limites moteur (module 09)
+## 1 bis. Ce qui a changé avec le découpage par zones
 
-Par rapport à la revue de constructibilité (136 679 lingots, 34 221 pâte) :
-
-| Changement | Pièces | Lingots | Pâte |
-|---|---|---|---|
-| **Piliers PB descendus jusqu'au sol** : plus aucun plafond à plus de 2 cases d'un appui relié au sol | +72 piliers | +1 800 | +504 |
-| 4 tourelles debout sous le toit (2 Tek, 2 Heavy), Tesla comptées dans le cap | inventaire | — | — |
-| **Total** | | **+1 800** | **+504** |
-
-## 1 ter. Ce qui a changé avec la revue de constructibilité (module 08)
-
-Par rapport à la version du trou (135 938 lingots, 33 848 pâte) :
+Par rapport à la version précédente (138 479 lingots, 34 725 pâte, colonnade comprise) :
 
 | Changement | Pièces | Lingots | Pâte |
 |---|---|---|---|
-| **Appuis des rampes**, comme sur les tours 1201 / 1809 : poteaux en piliers fins sur les paliers (overhang) et sur le plancher du toit, poutres fines du débord | +166 piliers fins, +43 demi-piliers fins, +94 poutres fines | +3 681 | +1 126 |
-| Rampes qui ne pouvaient pas être posées : 4e rang de la pente A (dans le fût), lames croisées aux 12 arêtes, lames accrochées au-delà des angles, lames au droit des Tesla | 1 087 → 892 rampes (−195) | −2 340 | −585 |
-| **Mur de jupe** ramené sur le bord D8, 8 murs par côté (ils se croisaient aux angles) | 188 → 166 murs | −550 | −154 |
-| Colonnade : 2 colonnes contre un mur de chaume du bord du trou | −2 piliers | −50 | −14 |
-| **Total** | | **+741** | **+373** |
+| **Poteaux de stabilité** sous les jonctions de lames (pente A, appentis, toit du pod) : chaque ligne montante tient encore si un appui est détruit | +861 piliers fins | +11 193 | +3 444 |
+| **Colonnade passée en option** (plan 2), hors du bilan | −226 piliers | −5 650 | −1 582 |
+| **Tour du pod** : un niveau de plus (anneau de tourelles D4, Z2700) et la couronne du toit ; piliers PA/PB prolongés | +111 murs et cadres, +48 piliers | +3 975 | +1 113 |
+| Toit refait de D4 au centre, appentis au-dessus de la cage | −40 rampes | −480 | −120 |
+| Murs en **cadres doubles** partout sauf la tour du pod (même coût estimé qu'un mur) | — | — | — |
+| Ancre de pile : une de moins (11 plans au lieu de 8, mais 3 calés sur un mur de D4) | −1 demi-pilier | −13 | −4 |
+| **Total** | | **+9 025** | **+2 851** |
 
-- Les coûts des piliers fins et des poutres fines sont des estimations (13 lingots + 4 pâte, comme un demi-pilier), à vérifier en jeu.
-- **Option `--appuis prudent`** : un poteau sous le bout de chaque ligne montante, soit 566 piliers fins de plus. Coût : +7 358 lingots et +2 264 pâte. Le total sans tourelles passe alors à 144 037 lingots et 36 485 pâte.
+- 15 carrés de culture pour les Plant X : 600 bois, 750 chaume, 600 fibre, 1 500 pierre (estimation).
+- Les coûts des piliers fins, des poutres fines et des cadres doubles sont des estimations, à vérifier en jeu.
+- **Option `--appuis tours`** (sans poteaux de stabilité, comme les tours) : 896 piliers fins de moins, soit −11 648 lingots et −3 584 pâte (135 856 lingots et 33 992 pâte à fabriquer). En contrepartie, seules 48 lames du toit sur 170 et aucune de l'appentis tiennent encore si leur appui est détruit.
 
-## 1 quater. Version précédente : centre repris à zéro et trou à l'avant
-
-Par rapport à la version précédente (toutes les pentes en rampes, avec le Coeur Base : 147 057 lingots, 36 972 pâte) :
-
-| Changement | Pièces | Lingots | Pâte |
-|---|---|---|---|
-| **Coeur Base retiré** (la colonne de 6 escaliers reste) | −35 murs, −3 portes secrètes, −57 plafonds | −2 129 | −596 |
-| **Fondations du trou** non posées | −40 carrés, −84 triangles | −4 100 | −1 272 |
-| Structure au-dessus du trou retirée : murs, cadres, plafonds, piliers, rampes | — | −8 119 | −2 224 |
-| **Murs de bord du trou** | +136 murs | +3 400 | +952 |
-| **Casquette du trou** | +12 rampes | +144 | +36 |
-| Pics et ancres | −10 pics, −5 demi-piliers | −315 | −20 |
-| **Total** | | **−11 119** | **−3 124** |
-
-- La plateforme verte (10 fondations, 375 lingots, 115 pâte) est comptée dans la structure : elle est posée.
-- **Pourquoi des rampes et pas des toits** : sur un toit à 45°, on tient debout ; sur une lame de rampes inclinées, non. Seules les rampes font glisser (module 03 §7). Une rampe coûte en plus environ trois fois moins qu'un toit.
-
-**Allègements possibles en plus** (non appliqués : ils retirent une fonction de défense) :
-
-| Option | Pâte | Ce qu'on perd |
-|---|---|---|
-| Supprimer le mur de jupe (166 murs) et le débord qui y est accroché | ≈ −2 100 | le support des 26 Heavy sous la plateforme (leurs murs de chaume flotteraient) et l'accroche du débord |
-| Débord d'un seul rang dans le vide (`--debord 1`) : −94 rampes, −94 poutres fines | −658 | 300 UU de dégagement des chutes : ce qui glisse tombe à ≈ 150 UU devant les têtes des Heavy de jupe extérieures |
-| Fût remplacé par des piliers aux coins et milieux de côtés | ≈ −1 300 | le 2e mur entre l'attique A et le couloir |
+**Pourquoi des rampes et pas des toits** : sur un toit à 45°, on tient debout ; sur une lame de rampes inclinées, non. Seules les rampes font glisser (module 03 §7). Une rampe coûte en plus environ trois fois moins qu'un toit.
 
 ## 2. Détail par poste
 
 | Poste | Contenu | Lingots | Pâte | Autres |
 |---|---|---|---|---|
-| **Structure des 8 plans** | 4 741 pièces : 344 fondations, 684 triangles (dont les 10 pièces de la plateforme verte), 1 076 murs, 76 cadres doubles, 418 piliers, 308 plafonds, 629 plafonds triangles, 5 trappes, 6 escaliers, 892 rampes inclinées (aucun toit), 166 piliers fins, 43 demi-piliers fins, 94 poutres fines | 110 512 | 31 789 | — |
-| Ancres temporaires | 9 demi-piliers (démolis à la fin) | 117 | 36 | — |
+| **Structure des plans** (sans la colonnade) | 5 495 pièces : 344 fondations et 684 triangles (dont les 10 pièces de la plateforme verte), 489 murs pleins, 774 cadres doubles, 240 piliers, 307 plafonds, 629 plafonds triangles, 6 trappes, 6 escaliers, 852 rampes inclinées (aucun toit), 1 027 piliers fins, 43 demi-piliers fins, 94 poutres fines | 119 550 | 34 644 | — |
+| Carrés de culture | 15 grands carrés de culture (Plant X) | — | — | 600 bois, 750 chaume, 600 fibre, 1 500 pierre |
+| Ancres temporaires | 8 demi-piliers (démolis à la fin) | 104 | 32 | — |
 | **Murs de pics** | 74 Metal Spike Walls | 1 850 | — | 1 480 cuir, 2 220 fibre |
-| Gabarits de pose | 96 murs de chaume (démolis ensuite) | — | — | ~672 chaume, ~384 fibre, ~384 bois |
+| Gabarits de pose | 79 murs de chaume (démolis ensuite) | — | — | ~553 chaume, ~316 fibre, ~316 bois |
 | **Équipements** | voir §3 | 26 000 | 2 900 | 220 élément, 3 350 cristal, 470 perles noires, 5 850 polymère, 220 électroniques, 100 poudre étincelante, 1 400 huile |
-| *Tourelles (inventaire)* | *62 Heavy, 32 Tek, 6 Tesla* | *39 680* | *14 000* | *20 540 électroniques, 7 740 polymère, 1 200 cristal, 96 élément* |
+| *Tourelles (inventaire)* | *52 Heavy, 23 Tek, 10 Tesla* | *35 380* | *11 550* | *17 340 électroniques, 7 790 polymère, 2 000 cristal, 69 élément* |
 
-Le détail plan par plan (pièces, lingots, pâte) est au module 06 §5. On peut construire et financer la base plan par plan.
+Le détail plan par plan (pièces, lingots, pâte) est au module 06 §5 et dans l'onglet « Par plan » du classeur : on peut construire et financer la base plan par plan.
 
 ## 3. Équipements
 
@@ -117,14 +95,7 @@ Ordre de fabrication logique :
 
 ### Couverture des 2 générateurs Tek
 
-Distances mesurées sur le plan, pivot à pivot :
-
-| Générateur | Tek de L1, bord du trou compris (alimentation Tek obligatoire) | Heavy de jupe | Tesla de rive |
-|---|---|---|---|
-| n°2, mezzanine (−900 ; 0), Z1800 | **1 050 → 3 760 UU** : couvre les 32 Tek (L1 et toit) s'il porte à 3 800 UU | 4 485 → 6 008 UU | 3 812 → 5 014 UU |
-| n°1, hall (900 ; 1 559), Z0 | 2 196 → 5 040 UU | 2 776 → 6 377 UU | 2 176 → 5 746 UU |
-
-Les 12 tourelles du bord du trou sont à 1 100 → 3 436 UU du générateur n°2.
+Le générateur n°2 (mezzanine, (−900 ; 0), Z1800) alimente les **23 Tek**, à **1 540 → 3 740 UU** : L1, tour D4, bord du trou et dessus. Réglez-le pour qu'il porte à 3 800 UU. Les Heavy et les Tesla sont électriques : distances au générateur le plus proche au module 05 §8.
 
 ⚠ Réglez la portée au maximum et vérifiez la sphère affichée.
 - Si le n°2 n'atteint pas 3 800 UU, rapprochez-le du centre ou ajoutez un 3ᵉ générateur.
@@ -141,19 +112,19 @@ Recettes usuelles, à vérifier sur votre serveur :
 
 | Ressource brute | Sans les tourelles | Avec les tourelles |
 |---|---|---|
-| Minerai de métal | **≈ 277 000** | ≈ 398 000 |
-| Chitine ou kératine | **≈ 186 000** | ≈ 304 000 |
-| Pierre | **≈ 372 000** | ≈ 607 000 |
-| Obsidienne | ≈ 11 700 | ≈ 27 200 |
-| Perles de silice | ≈ 660 | ≈ 62 300 |
+| Minerai de métal | **≈ 295 000** | ≈ 401 000 |
+| Chitine ou kératine | **≈ 197 000** | ≈ 306 000 |
+| Pierre | **≈ 396 000** | ≈ 613 000 |
+| Obsidienne | ≈ 11 700 | ≈ 27 300 |
+| Perles de silice | ≈ 660 | ≈ 52 700 |
 | Silex | 200 | 200 |
-| Cristal / élément / perles noires / huile | 3 350 / 220 / 470 / 1 400 | 4 550 / 316 / 470 / 1 400 |
+| Cristal / élément / perles noires / huile | 3 350 / 220 / 470 / 1 400 | 5 350 / 289 / 470 / 1 400 |
 
 Avec du polymère organique ou de la pâte d'Achatina, la pierre, la chitine et l'obsidienne baissent fortement.
 
 ## 5. Consommables (non chiffrés)
 
-- Balles de fusil avancé (Heavy), fragments d'élément (Tek), cristal (Tesla, munition indiquée par wikily.gg).
+- Balles de fusil avancé (Heavy), fragments d'élément (Tek), cristal (Tesla, munition indiquée par wikily.gg), eau et engrais (Plant X).
 - Élément pour les 2 générateurs Tek et la forge à vapeur.
 
 ## 6. Fiabilité des chiffres
@@ -161,7 +132,7 @@ Avec du polymère organique ou de la pâte d'Achatina, la pierre, la chitine et 
 | Donnée | Statut |
 |---|---|
 | Fondation, triangle, mur, plafond, pilier | sources concordantes (wikily.gg, dododex, ark-unity) |
-| Plafond triangle, demi-pilier, cadre double, trappe, escalier, porte secrète, mur de chaume | **estimations** : pièce absente des sources consultées |
+| Plafond triangle, demi-pilier, cadre double, trappe, escalier, porte secrète, mur de chaume, grand carré de culture | **estimations** : pièce absente des sources consultées |
 | Rampe inclinée (Sloped Railing) | **estimation** : coût de la rambarde métal (12 lingots + 3 pâte, dododex) |
 | Pilier fin, demi-pilier fin, pilier fin couché (Thin / Half Thin / Flat Thin Pillar) | **estimations** : moitié d'un pilier métal (13 + 4), quart pour le demi-pilier fin (7 + 2) |
 | Heavy, Tek, Tesla, Réplicateur, forge à vapeur, labo, stockage dédié Tek, générateur Tek | sources concordantes ; ark.wiki.gg donne une variante pour le labo et la Tek |

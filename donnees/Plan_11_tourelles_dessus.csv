@@ -1,0 +1,12 @@
+entree;piece;x;y;Z_plan;yaw;theta;rayon;repere
+0;Mur métal;-150.0;2239.2;2700.0;90;93.83;2244.2;reference B : mur de D4 a snapper sur le haut du mur de pod (niv9 c3 p2)
+1;Grand carré de culture (Plant Species X);1500.0;0.0;3000.0;0;0.0;1500.0;#86 DESSUS c0 p0 (carre de culture : Plant Species X a planter)
+2;Grand carré de culture (Plant Species X);-750.0;-1299.0;3000.0;240;240.0;1500.0;#91 DESSUS c8 p7 (carre de culture : Plant Species X a planter)
+3;Grand carré de culture (Plant Species X);750.0;1299.0;3000.0;60;60.0;1500.0;#98 DESSUS c2 p2 (carre de culture : Plant Species X a planter)
+4;Grand carré de culture (Plant Species X);-1299.0;750.0;3000.0;150;150.0;1500.0;#100 DESSUS c5 p5 (carre de culture : Plant Species X a planter)
+5;Tourelle lourde (Heavy);1299.0;750.0;3000.0;30;30.0;1500.0;#80 DESSUS c1 p1
+6;Tourelle Tek;-0.0;-1500.0;3000.0;270;270.0;1500.0;#81 DESSUS c9 p8
+7;Bobine Tesla;-750.0;1299.0;3000.0;120;120.0;1500.0;#82 DESSUS c4 p4
+8;Tourelle Tek;0.0;1500.0;3000.0;90;90.0;1500.0;#83 DESSUS c3 p3
+9;Bobine Tesla;750.0;-1299.0;3000.0;300;300.0;1500.0;#84 DESSUS c10 p9
+10;Tourelle lourde (Heavy);-1299.0;-750.0;3000.0;210;210.0;1500.0;#85 DESSUS c7 p6

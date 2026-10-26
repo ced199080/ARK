@@ -1,58 +1,58 @@
-# Module 04 — Cage à tourelles verticales, double doorframes et casquette anti-accroche
+# Module 04 — Cage D5 → D4 : cadres doubles, tourelles verticales, casquette et appentis
 
-Template : `templates/plans/Plan_5_cage_et_casquette.json` (module 06), réparti dans les phases :
-- **P2** : fût ;
-- **P3** : plancher Z1800 ;
-- **P5** : planchers 2100/2400, double doorframes L2, casquette en rampes.
+Template : `templates/plans/Plan_06_D5-D4_cage_et_appentis.json` (module 06). Les tourelles de L1 se posent avec `Plan_07_tourelles_D8-D4.json` (module 05). Leurs murs de chaume sont dans le plan 6, à leur place dans la ligne D5.
 
-**Pour poser la cage seule**, avec son toit en rampes et les cadres et piliers qui le portent, utilisez `templates/cage/` (README §5, « Cage seule »).
+Coordonnées : `donnees/Plan_06_*.csv`, `donnees/Plan_07_*.csv`, `donnees/05_matrice_tourelles.csv`.
 
-Au-dessus de la cage, le toit en rampes inclinées couvre le pod et la cage d'un seul tenant (module 02 §8). Il remplace l'ancienne reprise. La casquette est le premier rang de ce toit.
+La cage est l'anneau entre le fût **D5** et la tour du pod **D4**. Au-dessus de la cage, un **appentis** en rampes monte du haut de D5 vers la tour, et la **casquette** pend vers l'extérieur. La tour du pod dépasse de la cage, et son toit se pose sur la tour (module 02 §8).
 
-Les tourelles de L1 et leurs murs de chaume sont dans `templates/plans/Plan_7_tourelles_cage_L1.json` (phase **P7**).
-Coordonnées : `donnees/Plan_5_cage_et_casquette.csv`, `donnees/Plan_7_tourelles_cage_L1.csv`, `donnees/05_matrice_tourelles.csv`.
-
-**Le trou** (module 06) coupe la cage à l'avant : 7 des 60 emplacements de la ligne D5 (côté 150° p4, côté 180° en entier, côté 210° p0) sont au-dessus du gouffre. La cage y est fermée par les murs de bord du trou, et les 7 tourelles sont reposées sur ces murs, **au même niveau L1**, face au gouffre (couche TROU-L1).
+**Le trou** (module 06) coupe la cage à l'avant : 7 des 60 emplacements de la ligne D5 sont au-dessus du gouffre. La cage y est fermée par les murs de bord du couloir, et les tourelles L1 qui y tombaient sont reposées sur des murs de bord, au même niveau L1, face au gouffre (couche TROU-L1).
 
 ## 1. Principe : la méthode des tours 1201 / 1809 et du template 2727
 
-Dans les tours fournies, les tourelles ne sont pas posées debout dans les cadres. Elles sont **montées à la verticale** :
-1. on remplit un emplacement de mur avec un **mur de chaume** (`Thatch_Wall_Small`), qui sert de gabarit ;
-2. on fixe la tourelle sur la **face extérieure** de ce mur de chaume : pivot à 10 UU devant le plan du mur, à mi-hauteur, axe de la tourelle pointé vers l'extérieur ;
+**Murs : cadres de porte doubles** (`BP_DoubleDoorframe_Metal`), comme les 873 cadres de la tour 1201 et les 802 de la tour 1809. Toute la ligne D5, du sol au toit de cage, est en cadres doubles.
+
+Les tourelles sont **montées à la verticale**, comme dans le template 2727 et la tour 1809 :
+1. un emplacement de mur reçoit un **mur de chaume** (`Thatch_Wall_Small`), qui sert de gabarit ;
+2. la tourelle est fixée sur la **face extérieure** de ce mur de chaume : pivot à 10 UU devant le plan du mur, à mi-hauteur, axe pointé vers l'extérieur ;
 3. on **démolit le mur de chaume** en jeu.
 
-La tourelle reste au nu de la façade, dans une ouverture de 300 × 300, avec un champ de tir d'un demi-espace (≈ 180° en azimut, comme une niche de tir). Dans la tour 1809, les étages de double doorframes et les étages de tourelles alternent. La cage reprend cette alternance :
+La tourelle reste au nu de la façade, dans une ouverture de 300 × 300, avec un champ de tir d'un demi-espace :
 
-| Étage | Z | Contenu (60 emplacements sur la ligne D5) |
+| Étage | Z | Contenu (60 positions sur la ligne D5, 53 hors du trou) |
 |---|---|---|
-| **L1** | 1800 → 2100 | **53 tourelles verticales** sur D5 (27 Tek + 26 Heavy en alternance) + **7 sur les murs de bord du trou** (3 Tek + 4 Heavy), chacune avec son mur de chaume de pose (phase P7) |
-| **L2** | 2100 → 2400 | **53 double doorframes** (phase P5) : à fermer par des portes doubles, ou à garder ouverts pour le tir des joueurs |
+| Fût | 0 → 1800 | **318 cadres doubles** (6 niveaux) |
+| **L1** | 1800 → 2100 | **26 murs de chaume + tourelles** (13 Tek, 13 Heavy, alternées), répartis régulièrement autour du cercle ; **27 cadres doubles** aux autres positions |
+| **L2** | 2100 → 2400 | **53 cadres doubles** |
+
+Les 3 tourelles L1 coupées par le trou (2 Tek, 1 Heavy) sont sur des murs de bord du couloir et du pod, au niveau 6.
 
 ```
- Z2400 ──┬─────────────╲  casquette en rampes (porte-à-faux 300 UU)
+            appentis ╱╲ casquette
+ Z2400 ──┬──────────╱──╲   (rampes : monte vers la tour, pend vers l'extérieur)
          │ L2 ▯ cadres  ╲  bout Z2100
- Z2100 ──┤ L1 ▮[T]►      ·   ← tourelle verticale au nu de la façade (chaume démoli)
+ Z2100 ──┤ L1 ▮[T]► ou ▯  ·   ← tourelle verticale au nu de la façade (chaume démoli)
  Z1800 ──┴───────────── ╲
-  galerie (anneaux 8-9) │fût ╲ pente A
+  galerie (anneaux 8-9) │fût (cadres doubles) ╲ pente A
 ```
 
 ## 2. Fût (support de la cage)
 
-- Murs sur D5 de Z0 à Z1800 : 6 niveaux × 60 = 360 positions, dont 42 au-dessus du trou. Restent **312 murs et 6 cadres doubles au sol** (θ 30° + 60°·k) vers l'attique A, dans l'axe des passages de la colonnade.
-- Au droit du trou, la cage est fermée par les murs de bord du couloir (50 murs, 8 niveaux jusqu'à Z2400 entre D4 et D5, module 06 §3).
-- Le fût porte le plancher Z1800 côté extérieur. Le mur de pod le porte côté intérieur.
+- Cadres doubles sur D5 de Z0 à Z1800 : 6 niveaux × 53 positions hors du trou = **318 cadres doubles**. Chaque cadre est une ouverture vers l'attique A : posez des portes doubles là où vous voulez fermer.
+- Au droit du trou, la cage est fermée par les murs de bord du couloir (4 arêtes, 8 niveaux jusqu'à Z2400, en cadres doubles, module 06 §3).
+- Le fût porte le plancher Z1800 côté extérieur, et la tour du pod le porte côté intérieur.
 
 ## 3. Galerie : planchers et circulation
 
-Les planchers reprennent les anneaux 8 et 9 du pavage, en plafonds : 54 plafonds + 108 plafonds triangles par plancher sans le trou. Le trou en retire 20 par plancher (18 fondations blanches + 2 de la plateforme verte, au-dessus de laquelle rien n'est posé) : **142 pièces par plancher, 426 en tout**.
+Les planchers reprennent les anneaux 8 et 9 du pavage, en plafonds. Le trou retire 20 pièces par plancher : **142 pièces par plancher, 426 en tout** (136 plafonds, 285 triangles, 5 trappes).
 
 | Plancher | Z | Rôle |
 |---|---|---|
-| Galerie L1 | 1800 (P3) | coursive de service derrière les tourelles ; accès depuis la mezzanine par les 11 cadres du niveau 6 du pod |
-| Galerie L2 | 2100 (P5) | coursive derrière les double doorframes ; 5 plafonds à trappe (côtés E1 ; celle du côté 210° tombe dans le trou) + échelles |
-| Toit de cage | 2400 (P5) | ferme la cage ; prolonge le plancher de toit du pod ; porte la casquette et le toit en rampes |
+| Galerie L1 | 1800 | coursive de service derrière les tourelles ; accès depuis la mezzanine par les 11 cadres du niveau 6 de la tour |
+| Galerie L2 | 2100 | coursive derrière les cadres L2 ; 5 plafonds à trappe (côtés E1) + échelles |
+| **Toit de cage** | 2400 | ferme la cage ; porte l'appentis, ses poteaux et les 6 carrés de culture du périmètre de la tour |
 
-Le plancher Z2100 est porté par le mur de pod et par les pièces des anneaux 8-9 qui s'y accrochent. Il ne dépend pas de L1 : la démolition du chaume ne le fragilise pas.
+Le plancher Z2100 est porté par la tour du pod et par les pièces des anneaux 8-9 qui s'y accrochent. Il ne dépend pas de L1 : la démolition du chaume ne le fragilise pas.
 
 ## 4. Emplacements L1 : mur de chaume + tourelle verticale
 
@@ -66,52 +66,43 @@ Le plancher Z2100 est porté par le mur de pod et par les pièces des anneaux 8-
 | 0° : chaume | (2 799,0 ; −600) | (2 799,0 ; −300) | (2 799,0 ; 0) | (2 799,0 ; 300) | (2 799,0 ; 600) |
 | 0° : tourelle | (2 809,0 ; −600) | (2 809,0 ; −300) | (2 809,0 ; 0) | (2 809,0 ; 300) | (2 809,0 ; 600) |
 | 30° : chaume | (2 724,0 ; 879,9) | (2 574,0 ; 1 139,7) | (2 424,0 ; 1 399,5) | (2 274,0 ; 1 659,3) | (2 124,0 ; 1 919,1) |
-| 30° : tourelle | (2 732,7 ; 884,9) | (2 582,7 ; 1 144,7) | (2 432,7 ; 1 404,5) | (2 282,7 ; 1 664,3) | (2 132,7 ; 1 924,1) |
 | autres côtés | rotation de 60°·m du côté 0° ou du côté 30° | | | | |
 
+Les 26 positions occupées sont prises régulièrement autour du cercle, à peu près une sur deux (`donnees/05_matrice_tourelles.csv`, couche L1). C'est la ligne L1 qui complète le cap de 100 (module 05).
+
 **Ordre en jeu**
-1. Posez les murs de chaume des 60 emplacements L1 : 53 sur D5 et 7 sur les murs de bord du trou, au niveau 6 (vanilla : un mur s'accroche sur l'arête du plancher Z1800).
-2. Fixez chaque tourelle sur la face extérieure de son mur de chaume, dans l'ordre du CSV. En Template Hammer, le plan 7 pose les deux.
+1. Le plan 6 pose les murs de chaume dans la ligne D5, au niveau L1, avec les cadres L2 au-dessus.
+2. Le plan 7 pose les tourelles sur la face extérieure de leur mur de chaume.
 3. Rechargez et réglez les tourelles depuis la coursive.
-4. **Démolissez les 60 murs de chaume** (liste : `donnees/08_chaume_a_demolir.csv`). Chacun porte un cadre double L2 au-dessus, exactement comme sur la tour 1809 (78 de ses 86 murs de chaume ont un cadre de porte posé dessus) : le cadre reste tenu par ses voisins et par le plancher de galerie Z2100. ⚠ Faites-le d'abord sur un emplacement en solo pour vérifier que la tourelle et le cadre du dessus restent en place : c'est le comportement de la tour 1809 et du template 2727, mais il dépend du jeu.
+4. **Démolissez les murs de chaume** (liste : `donnees/08_chaume_a_demolir.csv`). Chacun porte un cadre double L2 au-dessus, comme sur la tour 1809 (78 de ses 86 murs de chaume ont un cadre de porte posé dessus). Le cadre reste tenu par ses voisins et par le plancher de galerie Z2100. ⚠ Testez d'abord sur un emplacement en solo : la tourelle et le cadre du dessus doivent rester en place.
 
-Après démolition, L1 devient une bande d'ouvertures où chaque tourelle occupe le centre de la sienne. Au-dessus et en dessous de la fente de tir, il n'y a que des rampes inclinées, où l'on ne tient pas debout.
+## 5. Casquette et appentis (en rampes inclinées)
 
-## 5. Casquette anti-accroche (en rampes inclinées)
+Les deux partent du haut de D5 (Z2400), sur les mêmes lignes de lames (milieu des cadres de D5, t = 0, ±300, ±600) :
 
-Comme toutes les pentes de la base, la casquette n'est plus faite de toits mais de **rampes inclinées** (Sloped Railing), en lignes de lames au pas de 300 UU (module 02 §8). C'est aussi le premier rang du toit : ses lignes continuent celles du toit jusqu'au faîtage. Chaque lame pend du bord du plancher Z2400, au-dessus d'un cadre L2, comme la lame de rive de la tour 1201 (porte-à-faux d'une lame).
-
-| Rang | Apothème du bas | Z bas → haut | Lignes par côté | Rampes |
+| Système | Apothème | Z | Rampes | Appuis |
 |---|---|---|---|---|
-| Casquette r−1 (défaut) | 3 099,0 | 2100 → 2400 | 5 | 53 (60 sans trou) |
-| Casquette r−2 (option `--casquette 2`) | 3 399,0 | 1800 → 2100 | 5 | 60 sans trou, + 1 poteau de 6 piliers fins par ligne, entre les lignes de la pente A |
-| Toit (au-dessus, module 02 §8) | 2 799,0 | 2400 → 5100 | 5 à 1 | 263 |
-| **Casquette du trou** (module 02 §8.3) | bord du trou | 2100 → 2400 | 1 par mur de bord | 12 |
+| **Casquette** (porte-à-faux vers l'extérieur) | 2 799 → 3 099 | 2400 → 2100 | **53** | pend d'une lame du haut de D5, comme la lame de rive de la tour 1201 |
+| **Appentis** (vers la tour du pod) | 2 799 → 2 499 | 2400 → 2700 | **53** | posé sur le haut de D5 ; **1 poteau de stabilité** (1 pilier fin) sous son bout haut, sur le toit de cage : 53 poteaux |
+| Casquette r−2 (option `--casquette 2`) | 3 099 → 3 399 | 2100 → 1800 | 53 | 1 poteau de 6 piliers fins par ligne, entre les lignes de la pente A |
+| **Casquette du trou** (couloir) | bord du trou | 2400 → 2100 | 4 | pend d'une lame du haut des murs de bord |
 
-Les lignes de la casquette ne dépassent plus le sommet de D5 : une lame accrochée au-delà de l'angle du plancher (t = ±900, 2 par côté jusqu'ici) n'avait rien pour la tenir.
+- Le haut de D5 est un faîtage : ce qui tombe sur l'appentis glisse vers D5, puis sur la casquette et hors de la base.
+- Entre le bout haut de l'appentis (2 499) et la tour (2 239), il reste une **poche** de 260 UU sur le toit de cage. Un appentis plus long toucherait la tour. Ce qui tombe du toit du pod ou entre les lames atterrit dans la poche. Elle est couverte à bout portant par l'anneau de tourelles de la tour (Z2400 → 2700, module 05) et par les carrés de culture de Plant X.
+- La casquette dépasse le nu de la façade de 300 UU. Ce qui quitte le bout des lames tombe **≈ 190 UU devant les têtes de L1**, puis sur la pente A.
+- ⚠ Un joueur qui passe *entre* deux lames de la casquette peut tomber sur une tête de tourelle L1. Il est alors à bout portant des tourelles voisines. Repli : `--casquette 2`.
 
-Au droit du trou, la casquette de D5 n'est pas posée : c'est la **casquette du trou** qui protège les 7 tourelles TROU-L1, avec la même saillie de 300 UU au-dessus du gouffre.
+**Secteurs de tir verticaux** (coupe au milieu d'un côté ; tête supposée à 110 UU devant la façade) :
 
-**Pourquoi rien ne s'accroche aux tourelles**
-1. On ne tient pas debout sur une lame inclinée : ce qui touche le toit ou la casquette glisse le long des lames vers l'extérieur.
-2. La casquette dépasse le nu de la façade de 300 UU. La tête d'une tourelle verticale fait saillie d'environ 110 UU (hypothèse : 100 UU au-delà du pivot). Ce qui quitte le bout des lames tombe donc **≈ 190 UU devant les têtes** (≈ 490 UU avec la casquette 2), puis sur les lames de la pente A environ 680 UU plus bas, qui le font glisser jusqu'à l'overhang.
-3. ⚠ Un joueur qui passe *entre* deux lames de la casquette (vide de 300 UU) peut tomber sur une tête de tourelle. Il est alors à bout portant des tourelles voisines. Si ce cas pose problème en test, posez une seconde casquette (`--casquette 2`) : ce qui tombe entre ses lames passe 490 UU devant les têtes.
-
-**Secteurs de tir verticaux de L1** (coupe au milieu d'un côté ; tête supposée à 110 UU devant la façade, à mi-hauteur de L1) :
-
-| Variante | Site min → max | Dégagement devant les têtes |
-|---|---|---|
-| **Casquette 1** (défaut) | **−50,4° → +89,9°** | ≈ 190 UU |
-| Casquette 2 | −50,4° → +89,9° | ≈ 490 UU |
-
-- Les rampes ne masquent ni le ciel ni le sol : le tir de L1 n'est plus limité vers le haut. Vers le bas, la limite vient du haut du mur de jupe. Plus bas encore, le tir voit l'attique A et les paliers entre les lames.
-- **Recommandation** : casquette 1. Passez à la casquette 2 si, en test, des joueurs tombent entre les lames sur les têtes de tourelles.
+| Couche | Site min → max |
+|---|---|
+| L1 (Z1950) | **−51,1° → +89,9°** |
+| Anneau D4 de la tour (Z2550) | **−18,4° → +89,9°** : elle tire par-dessus l'appentis et la casquette |
 
 ## 6. Contrôles de fin de module
 
-- [ ] Fût : 6 niveaux sur D5, 6 portes au sol ; fermé par les murs de bord au droit du trou.
+- [ ] Fût : 318 cadres doubles ; fermé par les murs de bord au droit du trou.
 - [ ] 3 planchers de galerie (Z1800, 2100, 2400), 5 trappes à Z2100.
-- [ ] L2 : 53 double doorframes ; L1 : 53 emplacements libres sur D5 et 7 au niveau 6 des murs de bord, jusqu'à la phase P7.
-- [ ] P7 (plan 7) : 60 murs de chaume + 60 tourelles à 10 UU devant ; murs de chaume démolis à la fin.
-- [ ] Casquette : 53 rampes, bout à 300 UU devant la façade, partout hors du trou ; casquette du trou : 12 rampes.
-- [ ] 60 murs de chaume démolis ; tourelles et cadres L2 restés en place.
+- [ ] L1 : 26 murs de chaume et 27 cadres doubles sur D5 ; L2 : 53 cadres doubles.
+- [ ] Casquette : 53 rampes ; appentis : 53 rampes et 53 poteaux ; casquette du trou du couloir : 4 rampes.
+- [ ] Après le plan 7 : 26 tourelles L1 (+ 3 au bord du trou) ; murs de chaume démolis à la fin, cadres L2 restés en place.

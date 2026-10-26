@@ -1,0 +1,22 @@
+entree;piece;x;y;Z_plan;yaw;theta;rayon;repere
+0;Demi-pilier métal;0.0;300.0;225;0;90.0;300.0;ancre module (se pose sur l'ancre du sol)
+1;Grand carré de culture (Plant Species X);-2144.1;1064.7;2400.0;150;153.59;2393.9;#87 X-D4 c5 p2 (carre de culture : Plant Species X a planter)
+2;Grand carré de culture (Plant Species X);150.0;-2389.2;2400.0;270;273.59;2393.9;#89 X-D4 c9 p2 (carre de culture : Plant Species X a planter)
+3;Grand carré de culture (Plant Species X);1994.1;1324.5;2400.0;30;33.59;2393.9;#90 X-D4 c1 p2 (carre de culture : Plant Species X a planter)
+4;Grand carré de culture (Plant Species X);2144.1;-1064.7;2400.0;330;333.59;2393.9;#93 X-D4 c11 p2 (carre de culture : Plant Species X a planter)
+5;Grand carré de culture (Plant Species X);-1994.1;-1324.5;2400.0;210;213.59;2393.9;#95 X-D4 c7 p2 (carre de culture : Plant Species X a planter)
+6;Grand carré de culture (Plant Species X);-150.0;2389.2;2400.0;90;93.59;2393.9;#96 X-D4 c3 p2 (carre de culture : Plant Species X a planter)
+7;Tourelle lourde (Heavy);2172.9;734.9;2400.0;120;18.69;2293.8;#66 D4 c1 p0
+8;Tourelle Tek;-1514.3;-1722.9;2400.0;330;228.69;2293.8;#67 D4 c8 p0
+9;Tourelle Tek;-734.9;2172.9;2400.0;210;108.69;2293.8;#68 D4 c4 p0
+10;Tourelle lourde (Heavy);1722.9;-1514.3;2400.0;60;318.69;2293.8;#69 D4 c11 p0
+11;Bobine Tesla;994.7;2022.9;2400.0;150;63.82;2254.2;#70 D4 c2 p2
+12;Tourelle Tek;734.9;-2172.9;2400.0;30;288.69;2293.8;#71 D4 c10 p0
+13;Tourelle Tek;-1939.2;-849.8;2400.0;180.0;203.66;2117.3;#72 TROU-D4 c3 p0
+14;Tourelle Tek;1514.3;1722.9;2400.0;150;48.69;2293.8;#73 D4 c2 p0
+15;Tourelle lourde (Heavy);-450.0;-2249.2;2400.0;0;258.69;2293.8;#74 D4 c9 p0
+16;Tourelle lourde (Heavy);-1722.9;1514.3;2400.0;240;138.69;2293.8;#75 D4 c5 p0
+17;Tourelle Tek;2249.2;-450.0;2400.0;90;348.69;2293.8;#76 D4 c0 p0
+18;Tourelle lourde (Heavy);450.0;2249.2;2400.0;180;78.69;2293.8;#77 D4 c3 p0
+19;Bobine Tesla;1254.5;-1872.9;2400.0;30;303.82;2254.2;#78 D4 c10 p2
+20;Tourelle lourde (Heavy);-1722.9;-1514.3;2400.0;300;221.31;2293.8;#79 D4 c7 p3

@@ -1,0 +1,1047 @@
+entree;piece;x;y;Z_plan;yaw;theta;rayon;repere
+0;Demi-pilier métal;0.0;300.0;225;0;90.0;300.0;ancre module (se pose sur l'ancre du sol)
+1;Cadre de porte double métal;-2219.1;934.8;0.0;240.0;157.16;2408.0;bord du trou niv0 θ157.2
+2;Cadre de porte double métal;-2499.0;1009.8;0.0;270.0;158.0;2695.3;bord du trou niv0 θ158.0
+3;Cadre de porte double métal;-2499.0;-1009.8;0.0;90.0;202.0;2695.3;bord du trou niv0 θ202.0
+4;Cadre de porte double métal;-2219.1;-934.8;0.0;120.0;202.84;2408.0;bord du trou niv0 θ202.8
+5;Cadre de porte double métal;2799.0;-600.0;0.0;0;347.9;2862.6;fut niv0 c0 p0
+6;Cadre de porte double métal;2799.0;-300.0;0.0;0;353.88;2815.1;fut niv0 c0 p1
+7;Cadre de porte double métal;2799.0;0.0;0.0;0;0.0;2799.0;fut niv0 c0 p2
+8;Cadre de porte double métal;2799.0;300.0;0.0;0;6.12;2815.1;fut niv0 c0 p3
+9;Cadre de porte double métal;2799.0;600.0;0.0;0;12.1;2862.6;fut niv0 c0 p4
+10;Cadre de porte double métal;2724.0;879.9;0.0;30;17.9;2862.6;fut niv0 c1 p0
+11;Cadre de porte double métal;2574.0;1139.7;0.0;30;23.88;2815.1;fut niv0 c1 p1
+12;Cadre de porte double métal;2424.0;1399.5;0.0;30;30.0;2799.0;fut niv0 c1 p2
+13;Cadre de porte double métal;2274.0;1659.3;0.0;30;36.12;2815.1;fut niv0 c1 p3
+14;Cadre de porte double métal;2124.0;1919.1;0.0;30;42.1;2862.6;fut niv0 c1 p4
+15;Cadre de porte double métal;1919.1;2124.0;0.0;60;47.9;2862.6;fut niv0 c2 p0
+16;Cadre de porte double métal;1659.3;2274.0;0.0;60;53.88;2815.1;fut niv0 c2 p1
+17;Cadre de porte double métal;1399.5;2424.0;0.0;60;60.0;2799.0;fut niv0 c2 p2
+18;Cadre de porte double métal;1139.7;2574.0;0.0;60;66.12;2815.1;fut niv0 c2 p3
+19;Cadre de porte double métal;879.9;2724.0;0.0;60;72.1;2862.6;fut niv0 c2 p4
+20;Cadre de porte double métal;600.0;2799.0;0.0;90;77.9;2862.6;fut niv0 c3 p0
+21;Cadre de porte double métal;300.0;2799.0;0.0;90;83.88;2815.1;fut niv0 c3 p1
+22;Cadre de porte double métal;0.0;2799.0;0.0;90;90.0;2799.0;fut niv0 c3 p2
+23;Cadre de porte double métal;-300.0;2799.0;0.0;90;96.12;2815.1;fut niv0 c3 p3
+24;Cadre de porte double métal;-600.0;2799.0;0.0;90;102.1;2862.6;fut niv0 c3 p4
+25;Cadre de porte double métal;-879.9;2724.0;0.0;120;107.9;2862.6;fut niv0 c4 p0
+26;Cadre de porte double métal;-1139.7;2574.0;0.0;120;113.88;2815.1;fut niv0 c4 p1
+27;Cadre de porte double métal;-1399.5;2424.0;0.0;120;120.0;2799.0;fut niv0 c4 p2
+28;Cadre de porte double métal;-1659.3;2274.0;0.0;120;126.12;2815.1;fut niv0 c4 p3
+29;Cadre de porte double métal;-1919.1;2124.0;0.0;120;132.1;2862.6;fut niv0 c4 p4
+30;Cadre de porte double métal;-2124.0;1919.1;0.0;150;137.9;2862.6;fut niv0 c5 p0
+31;Cadre de porte double métal;-2274.0;1659.3;0.0;150;143.88;2815.1;fut niv0 c5 p1
+32;Cadre de porte double métal;-2424.0;1399.5;0.0;150;150.0;2799.0;fut niv0 c5 p2
+33;Cadre de porte double métal;-2574.0;1139.7;0.0;150;156.12;2815.1;fut niv0 c5 p3
+34;Cadre de porte double métal;-2574.0;-1139.7;0.0;210;203.88;2815.1;fut niv0 c7 p1
+35;Cadre de porte double métal;-2424.0;-1399.5;0.0;210;210.0;2799.0;fut niv0 c7 p2
+36;Cadre de porte double métal;-2274.0;-1659.3;0.0;210;216.12;2815.1;fut niv0 c7 p3
+37;Cadre de porte double métal;-2124.0;-1919.1;0.0;210;222.1;2862.6;fut niv0 c7 p4
+38;Cadre de porte double métal;-1919.1;-2124.0;0.0;240;227.9;2862.6;fut niv0 c8 p0
+39;Cadre de porte double métal;-1659.3;-2274.0;0.0;240;233.88;2815.1;fut niv0 c8 p1
+40;Cadre de porte double métal;-1399.5;-2424.0;0.0;240;240.0;2799.0;fut niv0 c8 p2
+41;Cadre de porte double métal;-1139.7;-2574.0;0.0;240;246.12;2815.1;fut niv0 c8 p3
+42;Cadre de porte double métal;-879.9;-2724.0;0.0;240;252.1;2862.6;fut niv0 c8 p4
+43;Cadre de porte double métal;-600.0;-2799.0;0.0;270;257.9;2862.6;fut niv0 c9 p0
+44;Cadre de porte double métal;-300.0;-2799.0;0.0;270;263.88;2815.1;fut niv0 c9 p1
+45;Cadre de porte double métal;-0.0;-2799.0;0.0;270;270.0;2799.0;fut niv0 c9 p2
+46;Cadre de porte double métal;300.0;-2799.0;0.0;270;276.12;2815.1;fut niv0 c9 p3
+47;Cadre de porte double métal;600.0;-2799.0;0.0;270;282.1;2862.6;fut niv0 c9 p4
+48;Cadre de porte double métal;879.9;-2724.0;0.0;300;287.9;2862.6;fut niv0 c10 p0
+49;Cadre de porte double métal;1139.7;-2574.0;0.0;300;293.88;2815.1;fut niv0 c10 p1
+50;Cadre de porte double métal;1399.5;-2424.0;0.0;300;300.0;2799.0;fut niv0 c10 p2
+51;Cadre de porte double métal;1659.3;-2274.0;0.0;300;306.12;2815.1;fut niv0 c10 p3
+52;Cadre de porte double métal;1919.1;-2124.0;0.0;300;312.1;2862.6;fut niv0 c10 p4
+53;Cadre de porte double métal;2124.0;-1919.1;0.0;330;317.9;2862.6;fut niv0 c11 p0
+54;Cadre de porte double métal;2274.0;-1659.3;0.0;330;323.88;2815.1;fut niv0 c11 p1
+55;Cadre de porte double métal;2424.0;-1399.5;0.0;330;330.0;2799.0;fut niv0 c11 p2
+56;Cadre de porte double métal;2574.0;-1139.7;0.0;330;336.12;2815.1;fut niv0 c11 p3
+57;Cadre de porte double métal;2724.0;-879.9;0.0;330;342.1;2862.6;fut niv0 c11 p4
+58;Cadre de porte double métal;-2219.1;934.8;300.0;240.0;157.16;2408.0;bord du trou niv1 θ157.2
+59;Cadre de porte double métal;-2499.0;1009.8;300.0;270.0;158.0;2695.3;bord du trou niv1 θ158.0
+60;Cadre de porte double métal;-2499.0;-1009.8;300.0;90.0;202.0;2695.3;bord du trou niv1 θ202.0
+61;Cadre de porte double métal;-2219.1;-934.8;300.0;120.0;202.84;2408.0;bord du trou niv1 θ202.8
+62;Cadre de porte double métal;2799.0;-600.0;300.0;0;347.9;2862.6;fut niv1 c0 p0
+63;Cadre de porte double métal;2799.0;-300.0;300.0;0;353.88;2815.1;fut niv1 c0 p1
+64;Cadre de porte double métal;2799.0;0.0;300.0;0;0.0;2799.0;fut niv1 c0 p2
+65;Cadre de porte double métal;2799.0;300.0;300.0;0;6.12;2815.1;fut niv1 c0 p3
+66;Cadre de porte double métal;2799.0;600.0;300.0;0;12.1;2862.6;fut niv1 c0 p4
+67;Cadre de porte double métal;2724.0;879.9;300.0;30;17.9;2862.6;fut niv1 c1 p0
+68;Cadre de porte double métal;2574.0;1139.7;300.0;30;23.88;2815.1;fut niv1 c1 p1
+69;Cadre de porte double métal;2424.0;1399.5;300.0;30;30.0;2799.0;fut niv1 c1 p2
+70;Cadre de porte double métal;2274.0;1659.3;300.0;30;36.12;2815.1;fut niv1 c1 p3
+71;Cadre de porte double métal;2124.0;1919.1;300.0;30;42.1;2862.6;fut niv1 c1 p4
+72;Cadre de porte double métal;1919.1;2124.0;300.0;60;47.9;2862.6;fut niv1 c2 p0
+73;Cadre de porte double métal;1659.3;2274.0;300.0;60;53.88;2815.1;fut niv1 c2 p1
+74;Cadre de porte double métal;1399.5;2424.0;300.0;60;60.0;2799.0;fut niv1 c2 p2
+75;Cadre de porte double métal;1139.7;2574.0;300.0;60;66.12;2815.1;fut niv1 c2 p3
+76;Cadre de porte double métal;879.9;2724.0;300.0;60;72.1;2862.6;fut niv1 c2 p4
+77;Cadre de porte double métal;600.0;2799.0;300.0;90;77.9;2862.6;fut niv1 c3 p0
+78;Cadre de porte double métal;300.0;2799.0;300.0;90;83.88;2815.1;fut niv1 c3 p1
+79;Cadre de porte double métal;0.0;2799.0;300.0;90;90.0;2799.0;fut niv1 c3 p2
+80;Cadre de porte double métal;-300.0;2799.0;300.0;90;96.12;2815.1;fut niv1 c3 p3
+81;Cadre de porte double métal;-600.0;2799.0;300.0;90;102.1;2862.6;fut niv1 c3 p4
+82;Cadre de porte double métal;-879.9;2724.0;300.0;120;107.9;2862.6;fut niv1 c4 p0
+83;Cadre de porte double métal;-1139.7;2574.0;300.0;120;113.88;2815.1;fut niv1 c4 p1
+84;Cadre de porte double métal;-1399.5;2424.0;300.0;120;120.0;2799.0;fut niv1 c4 p2
+85;Cadre de porte double métal;-1659.3;2274.0;300.0;120;126.12;2815.1;fut niv1 c4 p3
+86;Cadre de porte double métal;-1919.1;2124.0;300.0;120;132.1;2862.6;fut niv1 c4 p4
+87;Cadre de porte double métal;-2124.0;1919.1;300.0;150;137.9;2862.6;fut niv1 c5 p0
+88;Cadre de porte double métal;-2274.0;1659.3;300.0;150;143.88;2815.1;fut niv1 c5 p1
+89;Cadre de porte double métal;-2424.0;1399.5;300.0;150;150.0;2799.0;fut niv1 c5 p2
+90;Cadre de porte double métal;-2574.0;1139.7;300.0;150;156.12;2815.1;fut niv1 c5 p3
+91;Cadre de porte double métal;-2574.0;-1139.7;300.0;210;203.88;2815.1;fut niv1 c7 p1
+92;Cadre de porte double métal;-2424.0;-1399.5;300.0;210;210.0;2799.0;fut niv1 c7 p2
+93;Cadre de porte double métal;-2274.0;-1659.3;300.0;210;216.12;2815.1;fut niv1 c7 p3
+94;Cadre de porte double métal;-2124.0;-1919.1;300.0;210;222.1;2862.6;fut niv1 c7 p4
+95;Cadre de porte double métal;-1919.1;-2124.0;300.0;240;227.9;2862.6;fut niv1 c8 p0
+96;Cadre de porte double métal;-1659.3;-2274.0;300.0;240;233.88;2815.1;fut niv1 c8 p1
+97;Cadre de porte double métal;-1399.5;-2424.0;300.0;240;240.0;2799.0;fut niv1 c8 p2
+98;Cadre de porte double métal;-1139.7;-2574.0;300.0;240;246.12;2815.1;fut niv1 c8 p3
+99;Cadre de porte double métal;-879.9;-2724.0;300.0;240;252.1;2862.6;fut niv1 c8 p4
+100;Cadre de porte double métal;-600.0;-2799.0;300.0;270;257.9;2862.6;fut niv1 c9 p0
+101;Cadre de porte double métal;-300.0;-2799.0;300.0;270;263.88;2815.1;fut niv1 c9 p1
+102;Cadre de porte double métal;-0.0;-2799.0;300.0;270;270.0;2799.0;fut niv1 c9 p2
+103;Cadre de porte double métal;300.0;-2799.0;300.0;270;276.12;2815.1;fut niv1 c9 p3
+104;Cadre de porte double métal;600.0;-2799.0;300.0;270;282.1;2862.6;fut niv1 c9 p4
+105;Cadre de porte double métal;879.9;-2724.0;300.0;300;287.9;2862.6;fut niv1 c10 p0
+106;Cadre de porte double métal;1139.7;-2574.0;300.0;300;293.88;2815.1;fut niv1 c10 p1
+107;Cadre de porte double métal;1399.5;-2424.0;300.0;300;300.0;2799.0;fut niv1 c10 p2
+108;Cadre de porte double métal;1659.3;-2274.0;300.0;300;306.12;2815.1;fut niv1 c10 p3
+109;Cadre de porte double métal;1919.1;-2124.0;300.0;300;312.1;2862.6;fut niv1 c10 p4
+110;Cadre de porte double métal;2124.0;-1919.1;300.0;330;317.9;2862.6;fut niv1 c11 p0
+111;Cadre de porte double métal;2274.0;-1659.3;300.0;330;323.88;2815.1;fut niv1 c11 p1
+112;Cadre de porte double métal;2424.0;-1399.5;300.0;330;330.0;2799.0;fut niv1 c11 p2
+113;Cadre de porte double métal;2574.0;-1139.7;300.0;330;336.12;2815.1;fut niv1 c11 p3
+114;Cadre de porte double métal;2724.0;-879.9;300.0;330;342.1;2862.6;fut niv1 c11 p4
+115;Cadre de porte double métal;-2219.1;934.8;600.0;240.0;157.16;2408.0;bord du trou niv2 θ157.2
+116;Cadre de porte double métal;-2499.0;1009.8;600.0;270.0;158.0;2695.3;bord du trou niv2 θ158.0
+117;Cadre de porte double métal;-2499.0;-1009.8;600.0;90.0;202.0;2695.3;bord du trou niv2 θ202.0
+118;Cadre de porte double métal;-2219.1;-934.8;600.0;120.0;202.84;2408.0;bord du trou niv2 θ202.8
+119;Cadre de porte double métal;2799.0;-600.0;600.0;0;347.9;2862.6;fut niv2 c0 p0
+120;Cadre de porte double métal;2799.0;-300.0;600.0;0;353.88;2815.1;fut niv2 c0 p1
+121;Cadre de porte double métal;2799.0;0.0;600.0;0;0.0;2799.0;fut niv2 c0 p2
+122;Cadre de porte double métal;2799.0;300.0;600.0;0;6.12;2815.1;fut niv2 c0 p3
+123;Cadre de porte double métal;2799.0;600.0;600.0;0;12.1;2862.6;fut niv2 c0 p4
+124;Cadre de porte double métal;2724.0;879.9;600.0;30;17.9;2862.6;fut niv2 c1 p0
+125;Cadre de porte double métal;2574.0;1139.7;600.0;30;23.88;2815.1;fut niv2 c1 p1
+126;Cadre de porte double métal;2424.0;1399.5;600.0;30;30.0;2799.0;fut niv2 c1 p2
+127;Cadre de porte double métal;2274.0;1659.3;600.0;30;36.12;2815.1;fut niv2 c1 p3
+128;Cadre de porte double métal;2124.0;1919.1;600.0;30;42.1;2862.6;fut niv2 c1 p4
+129;Cadre de porte double métal;1919.1;2124.0;600.0;60;47.9;2862.6;fut niv2 c2 p0
+130;Cadre de porte double métal;1659.3;2274.0;600.0;60;53.88;2815.1;fut niv2 c2 p1
+131;Cadre de porte double métal;1399.5;2424.0;600.0;60;60.0;2799.0;fut niv2 c2 p2
+132;Cadre de porte double métal;1139.7;2574.0;600.0;60;66.12;2815.1;fut niv2 c2 p3
+133;Cadre de porte double métal;879.9;2724.0;600.0;60;72.1;2862.6;fut niv2 c2 p4
+134;Cadre de porte double métal;600.0;2799.0;600.0;90;77.9;2862.6;fut niv2 c3 p0
+135;Cadre de porte double métal;300.0;2799.0;600.0;90;83.88;2815.1;fut niv2 c3 p1
+136;Cadre de porte double métal;0.0;2799.0;600.0;90;90.0;2799.0;fut niv2 c3 p2
+137;Cadre de porte double métal;-300.0;2799.0;600.0;90;96.12;2815.1;fut niv2 c3 p3
+138;Cadre de porte double métal;-600.0;2799.0;600.0;90;102.1;2862.6;fut niv2 c3 p4
+139;Cadre de porte double métal;-879.9;2724.0;600.0;120;107.9;2862.6;fut niv2 c4 p0
+140;Cadre de porte double métal;-1139.7;2574.0;600.0;120;113.88;2815.1;fut niv2 c4 p1
+141;Cadre de porte double métal;-1399.5;2424.0;600.0;120;120.0;2799.0;fut niv2 c4 p2
+142;Cadre de porte double métal;-1659.3;2274.0;600.0;120;126.12;2815.1;fut niv2 c4 p3
+143;Cadre de porte double métal;-1919.1;2124.0;600.0;120;132.1;2862.6;fut niv2 c4 p4
+144;Cadre de porte double métal;-2124.0;1919.1;600.0;150;137.9;2862.6;fut niv2 c5 p0
+145;Cadre de porte double métal;-2274.0;1659.3;600.0;150;143.88;2815.1;fut niv2 c5 p1
+146;Cadre de porte double métal;-2424.0;1399.5;600.0;150;150.0;2799.0;fut niv2 c5 p2
+147;Cadre de porte double métal;-2574.0;1139.7;600.0;150;156.12;2815.1;fut niv2 c5 p3
+148;Cadre de porte double métal;-2574.0;-1139.7;600.0;210;203.88;2815.1;fut niv2 c7 p1
+149;Cadre de porte double métal;-2424.0;-1399.5;600.0;210;210.0;2799.0;fut niv2 c7 p2
+150;Cadre de porte double métal;-2274.0;-1659.3;600.0;210;216.12;2815.1;fut niv2 c7 p3
+151;Cadre de porte double métal;-2124.0;-1919.1;600.0;210;222.1;2862.6;fut niv2 c7 p4
+152;Cadre de porte double métal;-1919.1;-2124.0;600.0;240;227.9;2862.6;fut niv2 c8 p0
+153;Cadre de porte double métal;-1659.3;-2274.0;600.0;240;233.88;2815.1;fut niv2 c8 p1
+154;Cadre de porte double métal;-1399.5;-2424.0;600.0;240;240.0;2799.0;fut niv2 c8 p2
+155;Cadre de porte double métal;-1139.7;-2574.0;600.0;240;246.12;2815.1;fut niv2 c8 p3
+156;Cadre de porte double métal;-879.9;-2724.0;600.0;240;252.1;2862.6;fut niv2 c8 p4
+157;Cadre de porte double métal;-600.0;-2799.0;600.0;270;257.9;2862.6;fut niv2 c9 p0
+158;Cadre de porte double métal;-300.0;-2799.0;600.0;270;263.88;2815.1;fut niv2 c9 p1
+159;Cadre de porte double métal;-0.0;-2799.0;600.0;270;270.0;2799.0;fut niv2 c9 p2
+160;Cadre de porte double métal;300.0;-2799.0;600.0;270;276.12;2815.1;fut niv2 c9 p3
+161;Cadre de porte double métal;600.0;-2799.0;600.0;270;282.1;2862.6;fut niv2 c9 p4
+162;Cadre de porte double métal;879.9;-2724.0;600.0;300;287.9;2862.6;fut niv2 c10 p0
+163;Cadre de porte double métal;1139.7;-2574.0;600.0;300;293.88;2815.1;fut niv2 c10 p1
+164;Cadre de porte double métal;1399.5;-2424.0;600.0;300;300.0;2799.0;fut niv2 c10 p2
+165;Cadre de porte double métal;1659.3;-2274.0;600.0;300;306.12;2815.1;fut niv2 c10 p3
+166;Cadre de porte double métal;1919.1;-2124.0;600.0;300;312.1;2862.6;fut niv2 c10 p4
+167;Cadre de porte double métal;2124.0;-1919.1;600.0;330;317.9;2862.6;fut niv2 c11 p0
+168;Cadre de porte double métal;2274.0;-1659.3;600.0;330;323.88;2815.1;fut niv2 c11 p1
+169;Cadre de porte double métal;2424.0;-1399.5;600.0;330;330.0;2799.0;fut niv2 c11 p2
+170;Cadre de porte double métal;2574.0;-1139.7;600.0;330;336.12;2815.1;fut niv2 c11 p3
+171;Cadre de porte double métal;2724.0;-879.9;600.0;330;342.1;2862.6;fut niv2 c11 p4
+172;Cadre de porte double métal;-2219.1;934.8;900.0;240.0;157.16;2408.0;bord du trou niv3 θ157.2
+173;Cadre de porte double métal;-2499.0;1009.8;900.0;270.0;158.0;2695.3;bord du trou niv3 θ158.0
+174;Cadre de porte double métal;-2499.0;-1009.8;900.0;90.0;202.0;2695.3;bord du trou niv3 θ202.0
+175;Cadre de porte double métal;-2219.1;-934.8;900.0;120.0;202.84;2408.0;bord du trou niv3 θ202.8
+176;Cadre de porte double métal;2799.0;-600.0;900.0;0;347.9;2862.6;fut niv3 c0 p0
+177;Cadre de porte double métal;2799.0;-300.0;900.0;0;353.88;2815.1;fut niv3 c0 p1
+178;Cadre de porte double métal;2799.0;0.0;900.0;0;0.0;2799.0;fut niv3 c0 p2
+179;Cadre de porte double métal;2799.0;300.0;900.0;0;6.12;2815.1;fut niv3 c0 p3
+180;Cadre de porte double métal;2799.0;600.0;900.0;0;12.1;2862.6;fut niv3 c0 p4
+181;Cadre de porte double métal;2724.0;879.9;900.0;30;17.9;2862.6;fut niv3 c1 p0
+182;Cadre de porte double métal;2574.0;1139.7;900.0;30;23.88;2815.1;fut niv3 c1 p1
+183;Cadre de porte double métal;2424.0;1399.5;900.0;30;30.0;2799.0;fut niv3 c1 p2
+184;Cadre de porte double métal;2274.0;1659.3;900.0;30;36.12;2815.1;fut niv3 c1 p3
+185;Cadre de porte double métal;2124.0;1919.1;900.0;30;42.1;2862.6;fut niv3 c1 p4
+186;Cadre de porte double métal;1919.1;2124.0;900.0;60;47.9;2862.6;fut niv3 c2 p0
+187;Cadre de porte double métal;1659.3;2274.0;900.0;60;53.88;2815.1;fut niv3 c2 p1
+188;Cadre de porte double métal;1399.5;2424.0;900.0;60;60.0;2799.0;fut niv3 c2 p2
+189;Cadre de porte double métal;1139.7;2574.0;900.0;60;66.12;2815.1;fut niv3 c2 p3
+190;Cadre de porte double métal;879.9;2724.0;900.0;60;72.1;2862.6;fut niv3 c2 p4
+191;Cadre de porte double métal;600.0;2799.0;900.0;90;77.9;2862.6;fut niv3 c3 p0
+192;Cadre de porte double métal;300.0;2799.0;900.0;90;83.88;2815.1;fut niv3 c3 p1
+193;Cadre de porte double métal;0.0;2799.0;900.0;90;90.0;2799.0;fut niv3 c3 p2
+194;Cadre de porte double métal;-300.0;2799.0;900.0;90;96.12;2815.1;fut niv3 c3 p3
+195;Cadre de porte double métal;-600.0;2799.0;900.0;90;102.1;2862.6;fut niv3 c3 p4
+196;Cadre de porte double métal;-879.9;2724.0;900.0;120;107.9;2862.6;fut niv3 c4 p0
+197;Cadre de porte double métal;-1139.7;2574.0;900.0;120;113.88;2815.1;fut niv3 c4 p1
+198;Cadre de porte double métal;-1399.5;2424.0;900.0;120;120.0;2799.0;fut niv3 c4 p2
+199;Cadre de porte double métal;-1659.3;2274.0;900.0;120;126.12;2815.1;fut niv3 c4 p3
+200;Cadre de porte double métal;-1919.1;2124.0;900.0;120;132.1;2862.6;fut niv3 c4 p4
+201;Cadre de porte double métal;-2124.0;1919.1;900.0;150;137.9;2862.6;fut niv3 c5 p0
+202;Cadre de porte double métal;-2274.0;1659.3;900.0;150;143.88;2815.1;fut niv3 c5 p1
+203;Cadre de porte double métal;-2424.0;1399.5;900.0;150;150.0;2799.0;fut niv3 c5 p2
+204;Cadre de porte double métal;-2574.0;1139.7;900.0;150;156.12;2815.1;fut niv3 c5 p3
+205;Cadre de porte double métal;-2574.0;-1139.7;900.0;210;203.88;2815.1;fut niv3 c7 p1
+206;Cadre de porte double métal;-2424.0;-1399.5;900.0;210;210.0;2799.0;fut niv3 c7 p2
+207;Cadre de porte double métal;-2274.0;-1659.3;900.0;210;216.12;2815.1;fut niv3 c7 p3
+208;Cadre de porte double métal;-2124.0;-1919.1;900.0;210;222.1;2862.6;fut niv3 c7 p4
+209;Cadre de porte double métal;-1919.1;-2124.0;900.0;240;227.9;2862.6;fut niv3 c8 p0
+210;Cadre de porte double métal;-1659.3;-2274.0;900.0;240;233.88;2815.1;fut niv3 c8 p1
+211;Cadre de porte double métal;-1399.5;-2424.0;900.0;240;240.0;2799.0;fut niv3 c8 p2
+212;Cadre de porte double métal;-1139.7;-2574.0;900.0;240;246.12;2815.1;fut niv3 c8 p3
+213;Cadre de porte double métal;-879.9;-2724.0;900.0;240;252.1;2862.6;fut niv3 c8 p4
+214;Cadre de porte double métal;-600.0;-2799.0;900.0;270;257.9;2862.6;fut niv3 c9 p0
+215;Cadre de porte double métal;-300.0;-2799.0;900.0;270;263.88;2815.1;fut niv3 c9 p1
+216;Cadre de porte double métal;-0.0;-2799.0;900.0;270;270.0;2799.0;fut niv3 c9 p2
+217;Cadre de porte double métal;300.0;-2799.0;900.0;270;276.12;2815.1;fut niv3 c9 p3
+218;Cadre de porte double métal;600.0;-2799.0;900.0;270;282.1;2862.6;fut niv3 c9 p4
+219;Cadre de porte double métal;879.9;-2724.0;900.0;300;287.9;2862.6;fut niv3 c10 p0
+220;Cadre de porte double métal;1139.7;-2574.0;900.0;300;293.88;2815.1;fut niv3 c10 p1
+221;Cadre de porte double métal;1399.5;-2424.0;900.0;300;300.0;2799.0;fut niv3 c10 p2
+222;Cadre de porte double métal;1659.3;-2274.0;900.0;300;306.12;2815.1;fut niv3 c10 p3
+223;Cadre de porte double métal;1919.1;-2124.0;900.0;300;312.1;2862.6;fut niv3 c10 p4
+224;Cadre de porte double métal;2124.0;-1919.1;900.0;330;317.9;2862.6;fut niv3 c11 p0
+225;Cadre de porte double métal;2274.0;-1659.3;900.0;330;323.88;2815.1;fut niv3 c11 p1
+226;Cadre de porte double métal;2424.0;-1399.5;900.0;330;330.0;2799.0;fut niv3 c11 p2
+227;Cadre de porte double métal;2574.0;-1139.7;900.0;330;336.12;2815.1;fut niv3 c11 p3
+228;Cadre de porte double métal;2724.0;-879.9;900.0;330;342.1;2862.6;fut niv3 c11 p4
+229;Cadre de porte double métal;-2219.1;934.8;1200.0;240.0;157.16;2408.0;bord du trou niv4 θ157.2
+230;Cadre de porte double métal;-2499.0;1009.8;1200.0;270.0;158.0;2695.3;bord du trou niv4 θ158.0
+231;Cadre de porte double métal;-2499.0;-1009.8;1200.0;90.0;202.0;2695.3;bord du trou niv4 θ202.0
+232;Cadre de porte double métal;-2219.1;-934.8;1200.0;120.0;202.84;2408.0;bord du trou niv4 θ202.8
+233;Cadre de porte double métal;2799.0;-600.0;1200.0;0;347.9;2862.6;fut niv4 c0 p0
+234;Cadre de porte double métal;2799.0;-300.0;1200.0;0;353.88;2815.1;fut niv4 c0 p1
+235;Cadre de porte double métal;2799.0;0.0;1200.0;0;0.0;2799.0;fut niv4 c0 p2
+236;Cadre de porte double métal;2799.0;300.0;1200.0;0;6.12;2815.1;fut niv4 c0 p3
+237;Cadre de porte double métal;2799.0;600.0;1200.0;0;12.1;2862.6;fut niv4 c0 p4
+238;Cadre de porte double métal;2724.0;879.9;1200.0;30;17.9;2862.6;fut niv4 c1 p0
+239;Cadre de porte double métal;2574.0;1139.7;1200.0;30;23.88;2815.1;fut niv4 c1 p1
+240;Cadre de porte double métal;2424.0;1399.5;1200.0;30;30.0;2799.0;fut niv4 c1 p2
+241;Cadre de porte double métal;2274.0;1659.3;1200.0;30;36.12;2815.1;fut niv4 c1 p3
+242;Cadre de porte double métal;2124.0;1919.1;1200.0;30;42.1;2862.6;fut niv4 c1 p4
+243;Cadre de porte double métal;1919.1;2124.0;1200.0;60;47.9;2862.6;fut niv4 c2 p0
+244;Cadre de porte double métal;1659.3;2274.0;1200.0;60;53.88;2815.1;fut niv4 c2 p1
+245;Cadre de porte double métal;1399.5;2424.0;1200.0;60;60.0;2799.0;fut niv4 c2 p2
+246;Cadre de porte double métal;1139.7;2574.0;1200.0;60;66.12;2815.1;fut niv4 c2 p3
+247;Cadre de porte double métal;879.9;2724.0;1200.0;60;72.1;2862.6;fut niv4 c2 p4
+248;Cadre de porte double métal;600.0;2799.0;1200.0;90;77.9;2862.6;fut niv4 c3 p0
+249;Cadre de porte double métal;300.0;2799.0;1200.0;90;83.88;2815.1;fut niv4 c3 p1
+250;Cadre de porte double métal;0.0;2799.0;1200.0;90;90.0;2799.0;fut niv4 c3 p2
+251;Cadre de porte double métal;-300.0;2799.0;1200.0;90;96.12;2815.1;fut niv4 c3 p3
+252;Cadre de porte double métal;-600.0;2799.0;1200.0;90;102.1;2862.6;fut niv4 c3 p4
+253;Cadre de porte double métal;-879.9;2724.0;1200.0;120;107.9;2862.6;fut niv4 c4 p0
+254;Cadre de porte double métal;-1139.7;2574.0;1200.0;120;113.88;2815.1;fut niv4 c4 p1
+255;Cadre de porte double métal;-1399.5;2424.0;1200.0;120;120.0;2799.0;fut niv4 c4 p2
+256;Cadre de porte double métal;-1659.3;2274.0;1200.0;120;126.12;2815.1;fut niv4 c4 p3
+257;Cadre de porte double métal;-1919.1;2124.0;1200.0;120;132.1;2862.6;fut niv4 c4 p4
+258;Cadre de porte double métal;-2124.0;1919.1;1200.0;150;137.9;2862.6;fut niv4 c5 p0
+259;Cadre de porte double métal;-2274.0;1659.3;1200.0;150;143.88;2815.1;fut niv4 c5 p1
+260;Cadre de porte double métal;-2424.0;1399.5;1200.0;150;150.0;2799.0;fut niv4 c5 p2
+261;Cadre de porte double métal;-2574.0;1139.7;1200.0;150;156.12;2815.1;fut niv4 c5 p3
+262;Cadre de porte double métal;-2574.0;-1139.7;1200.0;210;203.88;2815.1;fut niv4 c7 p1
+263;Cadre de porte double métal;-2424.0;-1399.5;1200.0;210;210.0;2799.0;fut niv4 c7 p2
+264;Cadre de porte double métal;-2274.0;-1659.3;1200.0;210;216.12;2815.1;fut niv4 c7 p3
+265;Cadre de porte double métal;-2124.0;-1919.1;1200.0;210;222.1;2862.6;fut niv4 c7 p4
+266;Cadre de porte double métal;-1919.1;-2124.0;1200.0;240;227.9;2862.6;fut niv4 c8 p0
+267;Cadre de porte double métal;-1659.3;-2274.0;1200.0;240;233.88;2815.1;fut niv4 c8 p1
+268;Cadre de porte double métal;-1399.5;-2424.0;1200.0;240;240.0;2799.0;fut niv4 c8 p2
+269;Cadre de porte double métal;-1139.7;-2574.0;1200.0;240;246.12;2815.1;fut niv4 c8 p3
+270;Cadre de porte double métal;-879.9;-2724.0;1200.0;240;252.1;2862.6;fut niv4 c8 p4
+271;Cadre de porte double métal;-600.0;-2799.0;1200.0;270;257.9;2862.6;fut niv4 c9 p0
+272;Cadre de porte double métal;-300.0;-2799.0;1200.0;270;263.88;2815.1;fut niv4 c9 p1
+273;Cadre de porte double métal;-0.0;-2799.0;1200.0;270;270.0;2799.0;fut niv4 c9 p2
+274;Cadre de porte double métal;300.0;-2799.0;1200.0;270;276.12;2815.1;fut niv4 c9 p3
+275;Cadre de porte double métal;600.0;-2799.0;1200.0;270;282.1;2862.6;fut niv4 c9 p4
+276;Cadre de porte double métal;879.9;-2724.0;1200.0;300;287.9;2862.6;fut niv4 c10 p0
+277;Cadre de porte double métal;1139.7;-2574.0;1200.0;300;293.88;2815.1;fut niv4 c10 p1
+278;Cadre de porte double métal;1399.5;-2424.0;1200.0;300;300.0;2799.0;fut niv4 c10 p2
+279;Cadre de porte double métal;1659.3;-2274.0;1200.0;300;306.12;2815.1;fut niv4 c10 p3
+280;Cadre de porte double métal;1919.1;-2124.0;1200.0;300;312.1;2862.6;fut niv4 c10 p4
+281;Cadre de porte double métal;2124.0;-1919.1;1200.0;330;317.9;2862.6;fut niv4 c11 p0
+282;Cadre de porte double métal;2274.0;-1659.3;1200.0;330;323.88;2815.1;fut niv4 c11 p1
+283;Cadre de porte double métal;2424.0;-1399.5;1200.0;330;330.0;2799.0;fut niv4 c11 p2
+284;Cadre de porte double métal;2574.0;-1139.7;1200.0;330;336.12;2815.1;fut niv4 c11 p3
+285;Cadre de porte double métal;2724.0;-879.9;1200.0;330;342.1;2862.6;fut niv4 c11 p4
+286;Cadre de porte double métal;-2219.1;934.8;1500.0;240.0;157.16;2408.0;bord du trou niv5 θ157.2
+287;Cadre de porte double métal;-2499.0;1009.8;1500.0;270.0;158.0;2695.3;bord du trou niv5 θ158.0
+288;Cadre de porte double métal;-2499.0;-1009.8;1500.0;90.0;202.0;2695.3;bord du trou niv5 θ202.0
+289;Cadre de porte double métal;-2219.1;-934.8;1500.0;120.0;202.84;2408.0;bord du trou niv5 θ202.8
+290;Cadre de porte double métal;2799.0;-600.0;1500.0;0;347.9;2862.6;fut niv5 c0 p0
+291;Cadre de porte double métal;2799.0;-300.0;1500.0;0;353.88;2815.1;fut niv5 c0 p1
+292;Cadre de porte double métal;2799.0;0.0;1500.0;0;0.0;2799.0;fut niv5 c0 p2
+293;Cadre de porte double métal;2799.0;300.0;1500.0;0;6.12;2815.1;fut niv5 c0 p3
+294;Cadre de porte double métal;2799.0;600.0;1500.0;0;12.1;2862.6;fut niv5 c0 p4
+295;Cadre de porte double métal;2724.0;879.9;1500.0;30;17.9;2862.6;fut niv5 c1 p0
+296;Cadre de porte double métal;2574.0;1139.7;1500.0;30;23.88;2815.1;fut niv5 c1 p1
+297;Cadre de porte double métal;2424.0;1399.5;1500.0;30;30.0;2799.0;fut niv5 c1 p2
+298;Cadre de porte double métal;2274.0;1659.3;1500.0;30;36.12;2815.1;fut niv5 c1 p3
+299;Cadre de porte double métal;2124.0;1919.1;1500.0;30;42.1;2862.6;fut niv5 c1 p4
+300;Cadre de porte double métal;1919.1;2124.0;1500.0;60;47.9;2862.6;fut niv5 c2 p0
+301;Cadre de porte double métal;1659.3;2274.0;1500.0;60;53.88;2815.1;fut niv5 c2 p1
+302;Cadre de porte double métal;1399.5;2424.0;1500.0;60;60.0;2799.0;fut niv5 c2 p2
+303;Cadre de porte double métal;1139.7;2574.0;1500.0;60;66.12;2815.1;fut niv5 c2 p3
+304;Cadre de porte double métal;879.9;2724.0;1500.0;60;72.1;2862.6;fut niv5 c2 p4
+305;Cadre de porte double métal;600.0;2799.0;1500.0;90;77.9;2862.6;fut niv5 c3 p0
+306;Cadre de porte double métal;300.0;2799.0;1500.0;90;83.88;2815.1;fut niv5 c3 p1
+307;Cadre de porte double métal;0.0;2799.0;1500.0;90;90.0;2799.0;fut niv5 c3 p2
+308;Cadre de porte double métal;-300.0;2799.0;1500.0;90;96.12;2815.1;fut niv5 c3 p3
+309;Cadre de porte double métal;-600.0;2799.0;1500.0;90;102.1;2862.6;fut niv5 c3 p4
+310;Cadre de porte double métal;-879.9;2724.0;1500.0;120;107.9;2862.6;fut niv5 c4 p0
+311;Cadre de porte double métal;-1139.7;2574.0;1500.0;120;113.88;2815.1;fut niv5 c4 p1
+312;Cadre de porte double métal;-1399.5;2424.0;1500.0;120;120.0;2799.0;fut niv5 c4 p2
+313;Cadre de porte double métal;-1659.3;2274.0;1500.0;120;126.12;2815.1;fut niv5 c4 p3
+314;Cadre de porte double métal;-1919.1;2124.0;1500.0;120;132.1;2862.6;fut niv5 c4 p4
+315;Cadre de porte double métal;-2124.0;1919.1;1500.0;150;137.9;2862.6;fut niv5 c5 p0
+316;Cadre de porte double métal;-2274.0;1659.3;1500.0;150;143.88;2815.1;fut niv5 c5 p1
+317;Cadre de porte double métal;-2424.0;1399.5;1500.0;150;150.0;2799.0;fut niv5 c5 p2
+318;Cadre de porte double métal;-2574.0;1139.7;1500.0;150;156.12;2815.1;fut niv5 c5 p3
+319;Cadre de porte double métal;-2574.0;-1139.7;1500.0;210;203.88;2815.1;fut niv5 c7 p1
+320;Cadre de porte double métal;-2424.0;-1399.5;1500.0;210;210.0;2799.0;fut niv5 c7 p2
+321;Cadre de porte double métal;-2274.0;-1659.3;1500.0;210;216.12;2815.1;fut niv5 c7 p3
+322;Cadre de porte double métal;-2124.0;-1919.1;1500.0;210;222.1;2862.6;fut niv5 c7 p4
+323;Cadre de porte double métal;-1919.1;-2124.0;1500.0;240;227.9;2862.6;fut niv5 c8 p0
+324;Cadre de porte double métal;-1659.3;-2274.0;1500.0;240;233.88;2815.1;fut niv5 c8 p1
+325;Cadre de porte double métal;-1399.5;-2424.0;1500.0;240;240.0;2799.0;fut niv5 c8 p2
+326;Cadre de porte double métal;-1139.7;-2574.0;1500.0;240;246.12;2815.1;fut niv5 c8 p3
+327;Cadre de porte double métal;-879.9;-2724.0;1500.0;240;252.1;2862.6;fut niv5 c8 p4
+328;Cadre de porte double métal;-600.0;-2799.0;1500.0;270;257.9;2862.6;fut niv5 c9 p0
+329;Cadre de porte double métal;-300.0;-2799.0;1500.0;270;263.88;2815.1;fut niv5 c9 p1
+330;Cadre de porte double métal;-0.0;-2799.0;1500.0;270;270.0;2799.0;fut niv5 c9 p2
+331;Cadre de porte double métal;300.0;-2799.0;1500.0;270;276.12;2815.1;fut niv5 c9 p3
+332;Cadre de porte double métal;600.0;-2799.0;1500.0;270;282.1;2862.6;fut niv5 c9 p4
+333;Cadre de porte double métal;879.9;-2724.0;1500.0;300;287.9;2862.6;fut niv5 c10 p0
+334;Cadre de porte double métal;1139.7;-2574.0;1500.0;300;293.88;2815.1;fut niv5 c10 p1
+335;Cadre de porte double métal;1399.5;-2424.0;1500.0;300;300.0;2799.0;fut niv5 c10 p2
+336;Cadre de porte double métal;1659.3;-2274.0;1500.0;300;306.12;2815.1;fut niv5 c10 p3
+337;Cadre de porte double métal;1919.1;-2124.0;1500.0;300;312.1;2862.6;fut niv5 c10 p4
+338;Cadre de porte double métal;2124.0;-1919.1;1500.0;330;317.9;2862.6;fut niv5 c11 p0
+339;Cadre de porte double métal;2274.0;-1659.3;1500.0;330;323.88;2815.1;fut niv5 c11 p1
+340;Cadre de porte double métal;2424.0;-1399.5;1500.0;330;330.0;2799.0;fut niv5 c11 p2
+341;Cadre de porte double métal;2574.0;-1139.7;1500.0;330;336.12;2815.1;fut niv5 c11 p3
+342;Cadre de porte double métal;2724.0;-879.9;1500.0;330;342.1;2862.6;fut niv5 c11 p4
+343;Plafond triangle métal;2369.1;-450.0;1800.0;0;349.25;2411.5;galerie Z1800 anneau 8
+344;Plafond triangle métal;2369.1;-150.0;1800.0;0;356.38;2373.9;galerie Z1800 anneau 8
+345;Plafond triangle métal;2369.1;150.0;1800.0;0;3.62;2373.9;galerie Z1800 anneau 8
+346;Plafond triangle métal;2369.1;450.0;1800.0;0;10.75;2411.5;galerie Z1800 anneau 8
+347;Plafond triangle métal;2369.1;-600.0;1800.0;180;345.79;2443.9;galerie Z1800 anneau 8
+348;Plafond triangle métal;2369.1;-300.0;1800.0;180;352.78;2388.1;galerie Z1800 anneau 8
+349;Plafond triangle métal;2369.1;0.0;1800.0;180;0.0;2369.1;galerie Z1800 anneau 8
+350;Plafond triangle métal;2369.1;300.0;1800.0;180;7.22;2388.1;galerie Z1800 anneau 8
+351;Plafond triangle métal;2369.1;600.0;1800.0;180;14.21;2443.9;galerie Z1800 anneau 8
+352;Plafond métal;2294.1;804.9;1800.0;30;19.33;2431.2;galerie Z1800 anneau 8
+353;Plafond métal;2144.1;1064.7;1800.0;30;26.41;2393.9;galerie Z1800 anneau 8
+354;Plafond métal;1994.1;1324.5;1800.0;30;33.59;2393.9;galerie Z1800 anneau 8
+355;Plafond métal;1844.1;1584.3;1800.0;30;40.67;2431.2;galerie Z1800 anneau 8
+356;Plafond triangle métal;1574.3;1826.7;1800.0;60;49.25;2411.5;galerie Z1800 anneau 8
+357;Plafond triangle métal;1314.5;1976.7;1800.0;60;56.38;2373.9;galerie Z1800 anneau 8
+358;Plafond triangle métal;1054.7;2126.7;1800.0;60;63.62;2373.9;galerie Z1800 anneau 8
+359;Plafond triangle métal;794.9;2276.7;1800.0;60;70.75;2411.5;galerie Z1800 anneau 8
+360;Plafond triangle métal;1704.2;1751.7;1800.0;240;45.79;2443.9;galerie Z1800 anneau 8
+361;Plafond triangle métal;1444.4;1901.7;1800.0;240;52.78;2388.1;galerie Z1800 anneau 8
+362;Plafond triangle métal;1184.6;2051.7;1800.0;240;60.0;2369.1;galerie Z1800 anneau 8
+363;Plafond triangle métal;924.8;2201.7;1800.0;240;67.22;2388.1;galerie Z1800 anneau 8
+364;Plafond triangle métal;665.0;2351.7;1800.0;240;74.21;2443.9;galerie Z1800 anneau 8
+365;Plafond métal;450.0;2389.2;1800.0;90;79.33;2431.2;galerie Z1800 anneau 8
+366;Plafond métal;150.0;2389.2;1800.0;90;86.41;2393.9;galerie Z1800 anneau 8
+367;Plafond métal;-150.0;2389.2;1800.0;90;93.59;2393.9;galerie Z1800 anneau 8
+368;Plafond métal;-450.0;2389.2;1800.0;90;100.67;2431.2;galerie Z1800 anneau 8
+369;Plafond triangle métal;-794.9;2276.7;1800.0;120;109.25;2411.5;galerie Z1800 anneau 8
+370;Plafond triangle métal;-1054.7;2126.7;1800.0;120;116.38;2373.9;galerie Z1800 anneau 8
+371;Plafond triangle métal;-1314.5;1976.7;1800.0;120;123.62;2373.9;galerie Z1800 anneau 8
+372;Plafond triangle métal;-1574.3;1826.7;1800.0;120;130.75;2411.5;galerie Z1800 anneau 8
+373;Plafond triangle métal;-665.0;2351.7;1800.0;300;105.79;2443.9;galerie Z1800 anneau 8
+374;Plafond triangle métal;-924.8;2201.7;1800.0;300;112.78;2388.1;galerie Z1800 anneau 8
+375;Plafond triangle métal;-1184.6;2051.7;1800.0;300;120.0;2369.1;galerie Z1800 anneau 8
+376;Plafond triangle métal;-1444.4;1901.7;1800.0;300;127.22;2388.1;galerie Z1800 anneau 8
+377;Plafond triangle métal;-1704.2;1751.7;1800.0;300;134.21;2443.9;galerie Z1800 anneau 8
+378;Plafond métal;-1844.1;1584.3;1800.0;150;139.33;2431.2;galerie Z1800 anneau 8
+379;Plafond métal;-1994.1;1324.5;1800.0;150;146.41;2393.9;galerie Z1800 anneau 8
+380;Plafond métal;-2144.1;1064.7;1800.0;150;153.59;2393.9;galerie Z1800 anneau 8
+381;Plafond métal;-2144.1;-1064.7;1800.0;210;206.41;2393.9;galerie Z1800 anneau 8
+382;Plafond métal;-1994.1;-1324.5;1800.0;210;213.59;2393.9;galerie Z1800 anneau 8
+383;Plafond métal;-1844.1;-1584.3;1800.0;210;220.67;2431.2;galerie Z1800 anneau 8
+384;Plafond triangle métal;-1574.3;-1826.7;1800.0;240;229.25;2411.5;galerie Z1800 anneau 8
+385;Plafond triangle métal;-1314.5;-1976.7;1800.0;240;236.38;2373.9;galerie Z1800 anneau 8
+386;Plafond triangle métal;-1054.7;-2126.7;1800.0;240;243.62;2373.9;galerie Z1800 anneau 8
+387;Plafond triangle métal;-794.9;-2276.7;1800.0;240;250.75;2411.5;galerie Z1800 anneau 8
+388;Plafond triangle métal;-1704.2;-1751.7;1800.0;60;225.79;2443.9;galerie Z1800 anneau 8
+389;Plafond triangle métal;-1444.4;-1901.7;1800.0;60;232.78;2388.1;galerie Z1800 anneau 8
+390;Plafond triangle métal;-1184.6;-2051.7;1800.0;60;240.0;2369.1;galerie Z1800 anneau 8
+391;Plafond triangle métal;-924.8;-2201.7;1800.0;60;247.22;2388.1;galerie Z1800 anneau 8
+392;Plafond triangle métal;-665.0;-2351.7;1800.0;60;254.21;2443.9;galerie Z1800 anneau 8
+393;Plafond métal;-450.0;-2389.2;1800.0;270;259.33;2431.2;galerie Z1800 anneau 8
+394;Plafond métal;-150.0;-2389.2;1800.0;270;266.41;2393.9;galerie Z1800 anneau 8
+395;Plafond métal;150.0;-2389.2;1800.0;270;273.59;2393.9;galerie Z1800 anneau 8
+396;Plafond métal;450.0;-2389.2;1800.0;270;280.67;2431.2;galerie Z1800 anneau 8
+397;Plafond triangle métal;794.9;-2276.7;1800.0;300;289.25;2411.5;galerie Z1800 anneau 8
+398;Plafond triangle métal;1054.7;-2126.7;1800.0;300;296.38;2373.9;galerie Z1800 anneau 8
+399;Plafond triangle métal;1314.5;-1976.7;1800.0;300;303.62;2373.9;galerie Z1800 anneau 8
+400;Plafond triangle métal;1574.3;-1826.7;1800.0;300;310.75;2411.5;galerie Z1800 anneau 8
+401;Plafond triangle métal;665.0;-2351.7;1800.0;120;285.79;2443.9;galerie Z1800 anneau 8
+402;Plafond triangle métal;924.8;-2201.7;1800.0;120;292.78;2388.1;galerie Z1800 anneau 8
+403;Plafond triangle métal;1184.6;-2051.7;1800.0;120;300.0;2369.1;galerie Z1800 anneau 8
+404;Plafond triangle métal;1444.4;-1901.7;1800.0;120;307.22;2388.1;galerie Z1800 anneau 8
+405;Plafond triangle métal;1704.2;-1751.7;1800.0;120;314.21;2443.9;galerie Z1800 anneau 8
+406;Plafond métal;1844.1;-1584.3;1800.0;330;319.33;2431.2;galerie Z1800 anneau 8
+407;Plafond métal;1994.1;-1324.5;1800.0;330;326.41;2393.9;galerie Z1800 anneau 8
+408;Plafond métal;2144.1;-1064.7;1800.0;330;333.59;2393.9;galerie Z1800 anneau 8
+409;Plafond métal;2294.1;-804.9;1800.0;330;340.67;2431.2;galerie Z1800 anneau 8
+410;Plafond métal;2649.0;-600.0;1800.0;0;347.24;2716.1;galerie Z1800 anneau 9
+411;Plafond métal;2649.0;-300.0;1800.0;0;353.54;2666.0;galerie Z1800 anneau 9
+412;Plafond métal;2649.0;0.0;1800.0;0;0.0;2649.0;galerie Z1800 anneau 9
+413;Plafond métal;2649.0;300.0;1800.0;0;6.46;2666.0;galerie Z1800 anneau 9
+414;Plafond métal;2649.0;600.0;1800.0;0;12.76;2716.1;galerie Z1800 anneau 9
+415;Plafond triangle métal;2536.5;944.9;1800.0;30;20.43;2706.8;galerie Z1800 anneau 9
+416;Plafond triangle métal;2386.5;1204.7;1800.0;30;26.78;2673.3;galerie Z1800 anneau 9
+417;Plafond triangle métal;2236.5;1464.5;1800.0;30;33.22;2673.3;galerie Z1800 anneau 9
+418;Plafond triangle métal;2086.5;1724.3;1800.0;30;39.57;2706.8;galerie Z1800 anneau 9
+419;Plafond triangle métal;2611.5;815.0;1800.0;210;17.33;2735.7;galerie Z1800 anneau 9
+420;Plafond triangle métal;2461.5;1074.8;1800.0;210;23.59;2685.9;galerie Z1800 anneau 9
+421;Plafond triangle métal;2311.5;1334.6;1800.0;210;30.0;2669.1;galerie Z1800 anneau 9
+422;Plafond triangle métal;2161.5;1594.4;1800.0;210;36.41;2685.9;galerie Z1800 anneau 9
+423;Plafond triangle métal;2011.5;1854.2;1800.0;210;42.67;2735.7;galerie Z1800 anneau 9
+424;Plafond métal;1844.1;1994.1;1800.0;60;47.24;2716.1;galerie Z1800 anneau 9
+425;Plafond métal;1584.3;2144.1;1800.0;60;53.54;2666.0;galerie Z1800 anneau 9
+426;Plafond métal;1324.5;2294.1;1800.0;60;60.0;2649.0;galerie Z1800 anneau 9
+427;Plafond métal;1064.7;2444.1;1800.0;60;66.46;2666.0;galerie Z1800 anneau 9
+428;Plafond métal;804.9;2594.1;1800.0;60;72.76;2716.1;galerie Z1800 anneau 9
+429;Plafond triangle métal;450.0;2669.1;1800.0;90;80.43;2706.8;galerie Z1800 anneau 9
+430;Plafond triangle métal;150.0;2669.1;1800.0;90;86.78;2673.3;galerie Z1800 anneau 9
+431;Plafond triangle métal;-150.0;2669.1;1800.0;90;93.22;2673.3;galerie Z1800 anneau 9
+432;Plafond triangle métal;-450.0;2669.1;1800.0;90;99.57;2706.8;galerie Z1800 anneau 9
+433;Plafond triangle métal;600.0;2669.1;1800.0;270;77.33;2735.7;galerie Z1800 anneau 9
+434;Plafond triangle métal;300.0;2669.1;1800.0;270;83.59;2685.9;galerie Z1800 anneau 9
+435;Plafond triangle métal;0.0;2669.1;1800.0;270;90.0;2669.1;galerie Z1800 anneau 9
+436;Plafond triangle métal;-300.0;2669.1;1800.0;270;96.41;2685.9;galerie Z1800 anneau 9
+437;Plafond triangle métal;-600.0;2669.1;1800.0;270;102.67;2735.7;galerie Z1800 anneau 9
+438;Plafond métal;-804.9;2594.1;1800.0;120;107.24;2716.1;galerie Z1800 anneau 9
+439;Plafond métal;-1064.7;2444.1;1800.0;120;113.54;2666.0;galerie Z1800 anneau 9
+440;Plafond métal;-1324.5;2294.1;1800.0;120;120.0;2649.0;galerie Z1800 anneau 9
+441;Plafond métal;-1584.3;2144.1;1800.0;120;126.46;2666.0;galerie Z1800 anneau 9
+442;Plafond métal;-1844.1;1994.1;1800.0;120;132.76;2716.1;galerie Z1800 anneau 9
+443;Plafond triangle métal;-2086.5;1724.3;1800.0;150;140.43;2706.8;galerie Z1800 anneau 9
+444;Plafond triangle métal;-2236.5;1464.5;1800.0;150;146.78;2673.3;galerie Z1800 anneau 9
+445;Plafond triangle métal;-2386.5;1204.7;1800.0;150;153.22;2673.3;galerie Z1800 anneau 9
+446;Plafond triangle métal;-2011.5;1854.2;1800.0;330;137.33;2735.7;galerie Z1800 anneau 9
+447;Plafond triangle métal;-2161.5;1594.4;1800.0;330;143.59;2685.9;galerie Z1800 anneau 9
+448;Plafond triangle métal;-2311.5;1334.6;1800.0;330;150.0;2669.1;galerie Z1800 anneau 9
+449;Plafond triangle métal;-2461.5;1074.8;1800.0;330;156.41;2685.9;galerie Z1800 anneau 9
+450;Plafond triangle métal;-2386.5;-1204.7;1800.0;210;206.78;2673.3;galerie Z1800 anneau 9
+451;Plafond triangle métal;-2236.5;-1464.5;1800.0;210;213.22;2673.3;galerie Z1800 anneau 9
+452;Plafond triangle métal;-2086.5;-1724.3;1800.0;210;219.57;2706.8;galerie Z1800 anneau 9
+453;Plafond triangle métal;-2461.5;-1074.8;1800.0;30;203.59;2685.9;galerie Z1800 anneau 9
+454;Plafond triangle métal;-2311.5;-1334.6;1800.0;30;210.0;2669.1;galerie Z1800 anneau 9
+455;Plafond triangle métal;-2161.5;-1594.4;1800.0;30;216.41;2685.9;galerie Z1800 anneau 9
+456;Plafond triangle métal;-2011.5;-1854.2;1800.0;30;222.67;2735.7;galerie Z1800 anneau 9
+457;Plafond métal;-1844.1;-1994.1;1800.0;240;227.24;2716.1;galerie Z1800 anneau 9
+458;Plafond métal;-1584.3;-2144.1;1800.0;240;233.54;2666.0;galerie Z1800 anneau 9
+459;Plafond métal;-1324.5;-2294.1;1800.0;240;240.0;2649.0;galerie Z1800 anneau 9
+460;Plafond métal;-1064.7;-2444.1;1800.0;240;246.46;2666.0;galerie Z1800 anneau 9
+461;Plafond métal;-804.9;-2594.1;1800.0;240;252.76;2716.1;galerie Z1800 anneau 9
+462;Plafond triangle métal;-450.0;-2669.1;1800.0;270;260.43;2706.8;galerie Z1800 anneau 9
+463;Plafond triangle métal;-150.0;-2669.1;1800.0;270;266.78;2673.3;galerie Z1800 anneau 9
+464;Plafond triangle métal;150.0;-2669.1;1800.0;270;273.22;2673.3;galerie Z1800 anneau 9
+465;Plafond triangle métal;450.0;-2669.1;1800.0;270;279.57;2706.8;galerie Z1800 anneau 9
+466;Plafond triangle métal;-600.0;-2669.1;1800.0;90;257.33;2735.7;galerie Z1800 anneau 9
+467;Plafond triangle métal;-300.0;-2669.1;1800.0;90;263.59;2685.9;galerie Z1800 anneau 9
+468;Plafond triangle métal;-0.0;-2669.1;1800.0;90;270.0;2669.1;galerie Z1800 anneau 9
+469;Plafond triangle métal;300.0;-2669.1;1800.0;90;276.41;2685.9;galerie Z1800 anneau 9
+470;Plafond triangle métal;600.0;-2669.1;1800.0;90;282.67;2735.7;galerie Z1800 anneau 9
+471;Plafond métal;804.9;-2594.1;1800.0;300;287.24;2716.1;galerie Z1800 anneau 9
+472;Plafond métal;1064.7;-2444.1;1800.0;300;293.54;2666.0;galerie Z1800 anneau 9
+473;Plafond métal;1324.5;-2294.1;1800.0;300;300.0;2649.0;galerie Z1800 anneau 9
+474;Plafond métal;1584.3;-2144.1;1800.0;300;306.46;2666.0;galerie Z1800 anneau 9
+475;Plafond métal;1844.1;-1994.1;1800.0;300;312.76;2716.1;galerie Z1800 anneau 9
+476;Plafond triangle métal;2086.5;-1724.3;1800.0;330;320.43;2706.8;galerie Z1800 anneau 9
+477;Plafond triangle métal;2236.5;-1464.5;1800.0;330;326.78;2673.3;galerie Z1800 anneau 9
+478;Plafond triangle métal;2386.5;-1204.7;1800.0;330;333.22;2673.3;galerie Z1800 anneau 9
+479;Plafond triangle métal;2536.5;-944.9;1800.0;330;339.57;2706.8;galerie Z1800 anneau 9
+480;Plafond triangle métal;2011.5;-1854.2;1800.0;150;317.33;2735.7;galerie Z1800 anneau 9
+481;Plafond triangle métal;2161.5;-1594.4;1800.0;150;323.59;2685.9;galerie Z1800 anneau 9
+482;Plafond triangle métal;2311.5;-1334.6;1800.0;150;330.0;2669.1;galerie Z1800 anneau 9
+483;Plafond triangle métal;2461.5;-1074.8;1800.0;150;336.41;2685.9;galerie Z1800 anneau 9
+484;Plafond triangle métal;2611.5;-815.0;1800.0;150;342.67;2735.7;galerie Z1800 anneau 9
+485;Cadre de porte double métal;-2219.1;-934.8;1800.0;120.0;202.84;2408.0;bord du trou niv6 θ202.8
+486;Cadre de porte double métal;2799.0;-600.0;1800.0;0;347.9;2862.6;cage L1 c0 p0
+487;Cadre de porte double métal;2799.0;-300.0;1800.0;0;353.88;2815.1;cage L1 c0 p1
+488;Cadre de porte double métal;2799.0;300.0;1800.0;0;6.12;2815.1;cage L1 c0 p3
+489;Cadre de porte double métal;2724.0;879.9;1800.0;30;17.9;2862.6;cage L1 c1 p0
+490;Cadre de porte double métal;2424.0;1399.5;1800.0;30;30.0;2799.0;cage L1 c1 p2
+491;Cadre de porte double métal;2124.0;1919.1;1800.0;30;42.1;2862.6;cage L1 c1 p4
+492;Cadre de porte double métal;1659.3;2274.0;1800.0;60;53.88;2815.1;cage L1 c2 p1
+493;Cadre de porte double métal;1139.7;2574.0;1800.0;60;66.12;2815.1;cage L1 c2 p3
+494;Cadre de porte double métal;600.0;2799.0;1800.0;90;77.9;2862.6;cage L1 c3 p0
+495;Cadre de porte double métal;0.0;2799.0;1800.0;90;90.0;2799.0;cage L1 c3 p2
+496;Cadre de porte double métal;-600.0;2799.0;1800.0;90;102.1;2862.6;cage L1 c3 p4
+497;Cadre de porte double métal;-1139.7;2574.0;1800.0;120;113.88;2815.1;cage L1 c4 p1
+498;Cadre de porte double métal;-1659.3;2274.0;1800.0;120;126.12;2815.1;cage L1 c4 p3
+499;Cadre de porte double métal;-2124.0;1919.1;1800.0;150;137.9;2862.6;cage L1 c5 p0
+500;Cadre de porte double métal;-2424.0;1399.5;1800.0;150;150.0;2799.0;cage L1 c5 p2
+501;Cadre de porte double métal;-2574.0;-1139.7;1800.0;210;203.88;2815.1;cage L1 c7 p1
+502;Cadre de porte double métal;-2274.0;-1659.3;1800.0;210;216.12;2815.1;cage L1 c7 p3
+503;Cadre de porte double métal;-1919.1;-2124.0;1800.0;240;227.9;2862.6;cage L1 c8 p0
+504;Cadre de porte double métal;-1399.5;-2424.0;1800.0;240;240.0;2799.0;cage L1 c8 p2
+505;Cadre de porte double métal;-879.9;-2724.0;1800.0;240;252.1;2862.6;cage L1 c8 p4
+506;Cadre de porte double métal;-300.0;-2799.0;1800.0;270;263.88;2815.1;cage L1 c9 p1
+507;Cadre de porte double métal;300.0;-2799.0;1800.0;270;276.12;2815.1;cage L1 c9 p3
+508;Cadre de porte double métal;879.9;-2724.0;1800.0;300;287.9;2862.6;cage L1 c10 p0
+509;Cadre de porte double métal;1399.5;-2424.0;1800.0;300;300.0;2799.0;cage L1 c10 p2
+510;Cadre de porte double métal;1919.1;-2124.0;1800.0;300;312.1;2862.6;cage L1 c10 p4
+511;Cadre de porte double métal;2274.0;-1659.3;1800.0;330;323.88;2815.1;cage L1 c11 p1
+512;Cadre de porte double métal;2574.0;-1139.7;1800.0;330;336.12;2815.1;cage L1 c11 p3
+513;Mur de chaume (gabarit de pose, à démolir);2799.0;0.0;1800.0;0;0.0;2799.0;#31 L1 c0 p2 (chaume a demolir)
+514;Mur de chaume (gabarit de pose, à démolir);-2499.0;-1009.8;1800.0;90.0;202.0;2695.3;#32 TROU-L1 c3 p1 (chaume a demolir)
+515;Mur de chaume (gabarit de pose, à démolir);-300.0;2799.0;1800.0;90;96.12;2815.1;#33 L1 c3 p3 (chaume a demolir)
+516;Mur de chaume (gabarit de pose, à démolir);1139.7;-2574.0;1800.0;300;293.88;2815.1;#34 L1 c10 p1 (chaume a demolir)
+517;Mur de chaume (gabarit de pose, à démolir);1919.1;2124.0;1800.0;60;47.9;2862.6;#35 L1 c2 p0 (chaume a demolir)
+518;Mur de chaume (gabarit de pose, à démolir);-1139.7;-2574.0;1800.0;240;246.12;2815.1;#36 L1 c8 p3 (chaume a demolir)
+519;Mur de chaume (gabarit de pose, à démolir);-2274.0;1659.3;1800.0;150;143.88;2815.1;#37 L1 c5 p1 (chaume a demolir)
+520;Mur de chaume (gabarit de pose, à démolir);2724.0;-879.9;1800.0;330;342.1;2862.6;#38 L1 c11 p4 (chaume a demolir)
+521;Mur de chaume (gabarit de pose, à démolir);2574.0;1139.7;1800.0;30;23.88;2815.1;#39 L1 c1 p1 (chaume a demolir)
+522;Mur de chaume (gabarit de pose, à démolir);-2124.0;-1919.1;1800.0;210;222.1;2862.6;#40 L1 c7 p4 (chaume a demolir)
+523;Mur de chaume (gabarit de pose, à démolir);-1399.5;2424.0;1800.0;120;120.0;2799.0;#41 L1 c4 p2 (chaume a demolir)
+524;Mur de chaume (gabarit de pose, à démolir);2124.0;-1919.1;1800.0;330;317.9;2862.6;#42 L1 c11 p0 (chaume a demolir)
+525;Mur de chaume (gabarit de pose, à démolir);879.9;2724.0;1800.0;60;72.1;2862.6;#43 L1 c2 p4 (chaume a demolir)
+526;Mur de chaume (gabarit de pose, à démolir);-0.0;-2799.0;1800.0;270;270.0;2799.0;#44 L1 c9 p2 (chaume a demolir)
+527;Mur de chaume (gabarit de pose, à démolir);-2499.0;1009.8;1800.0;270.0;158.0;2695.3;#45 TROU-L1 c9 p0 (chaume a demolir)
+528;Mur de chaume (gabarit de pose, à démolir);2799.0;600.0;1800.0;0;12.1;2862.6;#52 L1 c0 p4 (chaume a demolir)
+529;Mur de chaume (gabarit de pose, à démolir);-2424.0;-1399.5;1800.0;210;210.0;2799.0;#53 L1 c7 p2 (chaume a demolir)
+530;Mur de chaume (gabarit de pose, à démolir);-879.9;2724.0;1800.0;120;107.9;2862.6;#54 L1 c4 p0 (chaume a demolir)
+531;Mur de chaume (gabarit de pose, à démolir);1659.3;-2274.0;1800.0;300;306.12;2815.1;#55 L1 c10 p3 (chaume a demolir)
+532;Mur de chaume (gabarit de pose, à démolir);1399.5;2424.0;1800.0;60;60.0;2799.0;#56 L1 c2 p2 (chaume a demolir)
+533;Mur de chaume (gabarit de pose, à démolir);-600.0;-2799.0;1800.0;270;257.9;2862.6;#57 L1 c9 p0 (chaume a demolir)
+534;Mur de chaume (gabarit de pose, à démolir);-2574.0;1139.7;1800.0;150;156.12;2815.1;#58 L1 c5 p3 (chaume a demolir)
+535;Mur de chaume (gabarit de pose, à démolir);2274.0;1659.3;1800.0;30;36.12;2815.1;#59 L1 c1 p3 (chaume a demolir)
+536;Mur de chaume (gabarit de pose, à démolir);-1659.3;-2274.0;1800.0;240;233.88;2815.1;#60 L1 c8 p1 (chaume a demolir)
+537;Mur de chaume (gabarit de pose, à démolir);-1919.1;2124.0;1800.0;120;132.1;2862.6;#61 L1 c4 p4 (chaume a demolir)
+538;Mur de chaume (gabarit de pose, à démolir);2424.0;-1399.5;1800.0;330;330.0;2799.0;#62 L1 c11 p2 (chaume a demolir)
+539;Mur de chaume (gabarit de pose, à démolir);300.0;2799.0;1800.0;90;83.88;2815.1;#63 L1 c3 p1 (chaume a demolir)
+540;Mur de chaume (gabarit de pose, à démolir);600.0;-2799.0;1800.0;270;282.1;2862.6;#64 L1 c9 p4 (chaume a demolir)
+541;Mur de chaume (gabarit de pose, à démolir);-2219.1;934.8;1800.0;240.0;157.16;2408.0;#65 TROU-L1 c8 p2 (chaume a demolir)
+542;Plafond triangle métal;2369.1;-450.0;2100.0;0;349.25;2411.5;galerie Z2100 anneau 8
+543;Plafond triangle métal;2369.1;-150.0;2100.0;0;356.38;2373.9;galerie Z2100 anneau 8
+544;Plafond triangle métal;2369.1;150.0;2100.0;0;3.62;2373.9;galerie Z2100 anneau 8
+545;Plafond triangle métal;2369.1;450.0;2100.0;0;10.75;2411.5;galerie Z2100 anneau 8
+546;Plafond triangle métal;2369.1;-600.0;2100.0;180;345.79;2443.9;galerie Z2100 anneau 8
+547;Plafond triangle métal;2369.1;-300.0;2100.0;180;352.78;2388.1;galerie Z2100 anneau 8
+548;Plafond triangle métal;2369.1;0.0;2100.0;180;0.0;2369.1;galerie Z2100 anneau 8
+549;Plafond triangle métal;2369.1;300.0;2100.0;180;7.22;2388.1;galerie Z2100 anneau 8
+550;Plafond triangle métal;2369.1;600.0;2100.0;180;14.21;2443.9;galerie Z2100 anneau 8
+551;Plafond à trappe métal;2294.1;804.9;2100.0;30;19.33;2431.2;galerie Z2100 anneau 8
+552;Plafond métal;2144.1;1064.7;2100.0;30;26.41;2393.9;galerie Z2100 anneau 8
+553;Plafond métal;1994.1;1324.5;2100.0;30;33.59;2393.9;galerie Z2100 anneau 8
+554;Plafond métal;1844.1;1584.3;2100.0;30;40.67;2431.2;galerie Z2100 anneau 8
+555;Plafond triangle métal;1574.3;1826.7;2100.0;60;49.25;2411.5;galerie Z2100 anneau 8
+556;Plafond triangle métal;1314.5;1976.7;2100.0;60;56.38;2373.9;galerie Z2100 anneau 8
+557;Plafond triangle métal;1054.7;2126.7;2100.0;60;63.62;2373.9;galerie Z2100 anneau 8
+558;Plafond triangle métal;794.9;2276.7;2100.0;60;70.75;2411.5;galerie Z2100 anneau 8
+559;Plafond triangle métal;1704.2;1751.7;2100.0;240;45.79;2443.9;galerie Z2100 anneau 8
+560;Plafond triangle métal;1444.4;1901.7;2100.0;240;52.78;2388.1;galerie Z2100 anneau 8
+561;Plafond triangle métal;1184.6;2051.7;2100.0;240;60.0;2369.1;galerie Z2100 anneau 8
+562;Plafond triangle métal;924.8;2201.7;2100.0;240;67.22;2388.1;galerie Z2100 anneau 8
+563;Plafond triangle métal;665.0;2351.7;2100.0;240;74.21;2443.9;galerie Z2100 anneau 8
+564;Plafond à trappe métal;450.0;2389.2;2100.0;90;79.33;2431.2;galerie Z2100 anneau 8
+565;Plafond métal;150.0;2389.2;2100.0;90;86.41;2393.9;galerie Z2100 anneau 8
+566;Plafond métal;-150.0;2389.2;2100.0;90;93.59;2393.9;galerie Z2100 anneau 8
+567;Plafond métal;-450.0;2389.2;2100.0;90;100.67;2431.2;galerie Z2100 anneau 8
+568;Plafond triangle métal;-794.9;2276.7;2100.0;120;109.25;2411.5;galerie Z2100 anneau 8
+569;Plafond triangle métal;-1054.7;2126.7;2100.0;120;116.38;2373.9;galerie Z2100 anneau 8
+570;Plafond triangle métal;-1314.5;1976.7;2100.0;120;123.62;2373.9;galerie Z2100 anneau 8
+571;Plafond triangle métal;-1574.3;1826.7;2100.0;120;130.75;2411.5;galerie Z2100 anneau 8
+572;Plafond triangle métal;-665.0;2351.7;2100.0;300;105.79;2443.9;galerie Z2100 anneau 8
+573;Plafond triangle métal;-924.8;2201.7;2100.0;300;112.78;2388.1;galerie Z2100 anneau 8
+574;Plafond triangle métal;-1184.6;2051.7;2100.0;300;120.0;2369.1;galerie Z2100 anneau 8
+575;Plafond triangle métal;-1444.4;1901.7;2100.0;300;127.22;2388.1;galerie Z2100 anneau 8
+576;Plafond triangle métal;-1704.2;1751.7;2100.0;300;134.21;2443.9;galerie Z2100 anneau 8
+577;Plafond à trappe métal;-1844.1;1584.3;2100.0;150;139.33;2431.2;galerie Z2100 anneau 8
+578;Plafond métal;-1994.1;1324.5;2100.0;150;146.41;2393.9;galerie Z2100 anneau 8
+579;Plafond métal;-2144.1;1064.7;2100.0;150;153.59;2393.9;galerie Z2100 anneau 8
+580;Plafond métal;-2144.1;-1064.7;2100.0;210;206.41;2393.9;galerie Z2100 anneau 8
+581;Plafond métal;-1994.1;-1324.5;2100.0;210;213.59;2393.9;galerie Z2100 anneau 8
+582;Plafond métal;-1844.1;-1584.3;2100.0;210;220.67;2431.2;galerie Z2100 anneau 8
+583;Plafond triangle métal;-1574.3;-1826.7;2100.0;240;229.25;2411.5;galerie Z2100 anneau 8
+584;Plafond triangle métal;-1314.5;-1976.7;2100.0;240;236.38;2373.9;galerie Z2100 anneau 8
+585;Plafond triangle métal;-1054.7;-2126.7;2100.0;240;243.62;2373.9;galerie Z2100 anneau 8
+586;Plafond triangle métal;-794.9;-2276.7;2100.0;240;250.75;2411.5;galerie Z2100 anneau 8
+587;Plafond triangle métal;-1704.2;-1751.7;2100.0;60;225.79;2443.9;galerie Z2100 anneau 8
+588;Plafond triangle métal;-1444.4;-1901.7;2100.0;60;232.78;2388.1;galerie Z2100 anneau 8
+589;Plafond triangle métal;-1184.6;-2051.7;2100.0;60;240.0;2369.1;galerie Z2100 anneau 8
+590;Plafond triangle métal;-924.8;-2201.7;2100.0;60;247.22;2388.1;galerie Z2100 anneau 8
+591;Plafond triangle métal;-665.0;-2351.7;2100.0;60;254.21;2443.9;galerie Z2100 anneau 8
+592;Plafond à trappe métal;-450.0;-2389.2;2100.0;270;259.33;2431.2;galerie Z2100 anneau 8
+593;Plafond métal;-150.0;-2389.2;2100.0;270;266.41;2393.9;galerie Z2100 anneau 8
+594;Plafond métal;150.0;-2389.2;2100.0;270;273.59;2393.9;galerie Z2100 anneau 8
+595;Plafond métal;450.0;-2389.2;2100.0;270;280.67;2431.2;galerie Z2100 anneau 8
+596;Plafond triangle métal;794.9;-2276.7;2100.0;300;289.25;2411.5;galerie Z2100 anneau 8
+597;Plafond triangle métal;1054.7;-2126.7;2100.0;300;296.38;2373.9;galerie Z2100 anneau 8
+598;Plafond triangle métal;1314.5;-1976.7;2100.0;300;303.62;2373.9;galerie Z2100 anneau 8
+599;Plafond triangle métal;1574.3;-1826.7;2100.0;300;310.75;2411.5;galerie Z2100 anneau 8
+600;Plafond triangle métal;665.0;-2351.7;2100.0;120;285.79;2443.9;galerie Z2100 anneau 8
+601;Plafond triangle métal;924.8;-2201.7;2100.0;120;292.78;2388.1;galerie Z2100 anneau 8
+602;Plafond triangle métal;1184.6;-2051.7;2100.0;120;300.0;2369.1;galerie Z2100 anneau 8
+603;Plafond triangle métal;1444.4;-1901.7;2100.0;120;307.22;2388.1;galerie Z2100 anneau 8
+604;Plafond triangle métal;1704.2;-1751.7;2100.0;120;314.21;2443.9;galerie Z2100 anneau 8
+605;Plafond à trappe métal;1844.1;-1584.3;2100.0;330;319.33;2431.2;galerie Z2100 anneau 8
+606;Plafond métal;1994.1;-1324.5;2100.0;330;326.41;2393.9;galerie Z2100 anneau 8
+607;Plafond métal;2144.1;-1064.7;2100.0;330;333.59;2393.9;galerie Z2100 anneau 8
+608;Plafond métal;2294.1;-804.9;2100.0;330;340.67;2431.2;galerie Z2100 anneau 8
+609;Plafond métal;2649.0;-600.0;2100.0;0;347.24;2716.1;galerie Z2100 anneau 9
+610;Plafond métal;2649.0;-300.0;2100.0;0;353.54;2666.0;galerie Z2100 anneau 9
+611;Plafond métal;2649.0;0.0;2100.0;0;0.0;2649.0;galerie Z2100 anneau 9
+612;Plafond métal;2649.0;300.0;2100.0;0;6.46;2666.0;galerie Z2100 anneau 9
+613;Plafond métal;2649.0;600.0;2100.0;0;12.76;2716.1;galerie Z2100 anneau 9
+614;Plafond triangle métal;2536.5;944.9;2100.0;30;20.43;2706.8;galerie Z2100 anneau 9
+615;Plafond triangle métal;2386.5;1204.7;2100.0;30;26.78;2673.3;galerie Z2100 anneau 9
+616;Plafond triangle métal;2236.5;1464.5;2100.0;30;33.22;2673.3;galerie Z2100 anneau 9
+617;Plafond triangle métal;2086.5;1724.3;2100.0;30;39.57;2706.8;galerie Z2100 anneau 9
+618;Plafond triangle métal;2611.5;815.0;2100.0;210;17.33;2735.7;galerie Z2100 anneau 9
+619;Plafond triangle métal;2461.5;1074.8;2100.0;210;23.59;2685.9;galerie Z2100 anneau 9
+620;Plafond triangle métal;2311.5;1334.6;2100.0;210;30.0;2669.1;galerie Z2100 anneau 9
+621;Plafond triangle métal;2161.5;1594.4;2100.0;210;36.41;2685.9;galerie Z2100 anneau 9
+622;Plafond triangle métal;2011.5;1854.2;2100.0;210;42.67;2735.7;galerie Z2100 anneau 9
+623;Plafond métal;1844.1;1994.1;2100.0;60;47.24;2716.1;galerie Z2100 anneau 9
+624;Plafond métal;1584.3;2144.1;2100.0;60;53.54;2666.0;galerie Z2100 anneau 9
+625;Plafond métal;1324.5;2294.1;2100.0;60;60.0;2649.0;galerie Z2100 anneau 9
+626;Plafond métal;1064.7;2444.1;2100.0;60;66.46;2666.0;galerie Z2100 anneau 9
+627;Plafond métal;804.9;2594.1;2100.0;60;72.76;2716.1;galerie Z2100 anneau 9
+628;Plafond triangle métal;450.0;2669.1;2100.0;90;80.43;2706.8;galerie Z2100 anneau 9
+629;Plafond triangle métal;150.0;2669.1;2100.0;90;86.78;2673.3;galerie Z2100 anneau 9
+630;Plafond triangle métal;-150.0;2669.1;2100.0;90;93.22;2673.3;galerie Z2100 anneau 9
+631;Plafond triangle métal;-450.0;2669.1;2100.0;90;99.57;2706.8;galerie Z2100 anneau 9
+632;Plafond triangle métal;600.0;2669.1;2100.0;270;77.33;2735.7;galerie Z2100 anneau 9
+633;Plafond triangle métal;300.0;2669.1;2100.0;270;83.59;2685.9;galerie Z2100 anneau 9
+634;Plafond triangle métal;0.0;2669.1;2100.0;270;90.0;2669.1;galerie Z2100 anneau 9
+635;Plafond triangle métal;-300.0;2669.1;2100.0;270;96.41;2685.9;galerie Z2100 anneau 9
+636;Plafond triangle métal;-600.0;2669.1;2100.0;270;102.67;2735.7;galerie Z2100 anneau 9
+637;Plafond métal;-804.9;2594.1;2100.0;120;107.24;2716.1;galerie Z2100 anneau 9
+638;Plafond métal;-1064.7;2444.1;2100.0;120;113.54;2666.0;galerie Z2100 anneau 9
+639;Plafond métal;-1324.5;2294.1;2100.0;120;120.0;2649.0;galerie Z2100 anneau 9
+640;Plafond métal;-1584.3;2144.1;2100.0;120;126.46;2666.0;galerie Z2100 anneau 9
+641;Plafond métal;-1844.1;1994.1;2100.0;120;132.76;2716.1;galerie Z2100 anneau 9
+642;Plafond triangle métal;-2086.5;1724.3;2100.0;150;140.43;2706.8;galerie Z2100 anneau 9
+643;Plafond triangle métal;-2236.5;1464.5;2100.0;150;146.78;2673.3;galerie Z2100 anneau 9
+644;Plafond triangle métal;-2386.5;1204.7;2100.0;150;153.22;2673.3;galerie Z2100 anneau 9
+645;Plafond triangle métal;-2011.5;1854.2;2100.0;330;137.33;2735.7;galerie Z2100 anneau 9
+646;Plafond triangle métal;-2161.5;1594.4;2100.0;330;143.59;2685.9;galerie Z2100 anneau 9
+647;Plafond triangle métal;-2311.5;1334.6;2100.0;330;150.0;2669.1;galerie Z2100 anneau 9
+648;Plafond triangle métal;-2461.5;1074.8;2100.0;330;156.41;2685.9;galerie Z2100 anneau 9
+649;Plafond triangle métal;-2386.5;-1204.7;2100.0;210;206.78;2673.3;galerie Z2100 anneau 9
+650;Plafond triangle métal;-2236.5;-1464.5;2100.0;210;213.22;2673.3;galerie Z2100 anneau 9
+651;Plafond triangle métal;-2086.5;-1724.3;2100.0;210;219.57;2706.8;galerie Z2100 anneau 9
+652;Plafond triangle métal;-2461.5;-1074.8;2100.0;30;203.59;2685.9;galerie Z2100 anneau 9
+653;Plafond triangle métal;-2311.5;-1334.6;2100.0;30;210.0;2669.1;galerie Z2100 anneau 9
+654;Plafond triangle métal;-2161.5;-1594.4;2100.0;30;216.41;2685.9;galerie Z2100 anneau 9
+655;Plafond métal;-1844.1;-1994.1;2100.0;240;227.24;2716.1;galerie Z2100 anneau 9
+656;Plafond triangle métal;-2011.5;-1854.2;2100.0;30;222.67;2735.7;galerie Z2100 anneau 9
+657;Plafond métal;-1584.3;-2144.1;2100.0;240;233.54;2666.0;galerie Z2100 anneau 9
+658;Plafond métal;-1324.5;-2294.1;2100.0;240;240.0;2649.0;galerie Z2100 anneau 9
+659;Plafond métal;-1064.7;-2444.1;2100.0;240;246.46;2666.0;galerie Z2100 anneau 9
+660;Plafond métal;-804.9;-2594.1;2100.0;240;252.76;2716.1;galerie Z2100 anneau 9
+661;Plafond triangle métal;-450.0;-2669.1;2100.0;270;260.43;2706.8;galerie Z2100 anneau 9
+662;Plafond triangle métal;-150.0;-2669.1;2100.0;270;266.78;2673.3;galerie Z2100 anneau 9
+663;Plafond triangle métal;150.0;-2669.1;2100.0;270;273.22;2673.3;galerie Z2100 anneau 9
+664;Plafond triangle métal;450.0;-2669.1;2100.0;270;279.57;2706.8;galerie Z2100 anneau 9
+665;Plafond triangle métal;-600.0;-2669.1;2100.0;90;257.33;2735.7;galerie Z2100 anneau 9
+666;Plafond triangle métal;-300.0;-2669.1;2100.0;90;263.59;2685.9;galerie Z2100 anneau 9
+667;Plafond triangle métal;-0.0;-2669.1;2100.0;90;270.0;2669.1;galerie Z2100 anneau 9
+668;Plafond triangle métal;300.0;-2669.1;2100.0;90;276.41;2685.9;galerie Z2100 anneau 9
+669;Plafond métal;804.9;-2594.1;2100.0;300;287.24;2716.1;galerie Z2100 anneau 9
+670;Plafond triangle métal;600.0;-2669.1;2100.0;90;282.67;2735.7;galerie Z2100 anneau 9
+671;Plafond métal;1064.7;-2444.1;2100.0;300;293.54;2666.0;galerie Z2100 anneau 9
+672;Plafond métal;1324.5;-2294.1;2100.0;300;300.0;2649.0;galerie Z2100 anneau 9
+673;Plafond métal;1584.3;-2144.1;2100.0;300;306.46;2666.0;galerie Z2100 anneau 9
+674;Plafond métal;1844.1;-1994.1;2100.0;300;312.76;2716.1;galerie Z2100 anneau 9
+675;Plafond triangle métal;2086.5;-1724.3;2100.0;330;320.43;2706.8;galerie Z2100 anneau 9
+676;Plafond triangle métal;2236.5;-1464.5;2100.0;330;326.78;2673.3;galerie Z2100 anneau 9
+677;Plafond triangle métal;2386.5;-1204.7;2100.0;330;333.22;2673.3;galerie Z2100 anneau 9
+678;Plafond triangle métal;2536.5;-944.9;2100.0;330;339.57;2706.8;galerie Z2100 anneau 9
+679;Plafond triangle métal;2011.5;-1854.2;2100.0;150;317.33;2735.7;galerie Z2100 anneau 9
+680;Plafond triangle métal;2161.5;-1594.4;2100.0;150;323.59;2685.9;galerie Z2100 anneau 9
+681;Plafond triangle métal;2311.5;-1334.6;2100.0;150;330.0;2669.1;galerie Z2100 anneau 9
+682;Plafond triangle métal;2461.5;-1074.8;2100.0;150;336.41;2685.9;galerie Z2100 anneau 9
+683;Plafond triangle métal;2611.5;-815.0;2100.0;150;342.67;2735.7;galerie Z2100 anneau 9
+684;Cadre de porte double métal;-2219.1;934.8;2100.0;240.0;157.16;2408.0;bord du trou niv7 θ157.2
+685;Cadre de porte double métal;-2499.0;1009.8;2100.0;270.0;158.0;2695.3;bord du trou niv7 θ158.0
+686;Cadre de porte double métal;-2499.0;-1009.8;2100.0;90.0;202.0;2695.3;bord du trou niv7 θ202.0
+687;Cadre de porte double métal;-2219.1;-934.8;2100.0;120.0;202.84;2408.0;bord du trou niv7 θ202.8
+688;Cadre de porte double métal;2799.0;-600.0;2100.0;0;347.9;2862.6;cage L2 c0 p0
+689;Cadre de porte double métal;2799.0;-300.0;2100.0;0;353.88;2815.1;cage L2 c0 p1
+690;Cadre de porte double métal;2799.0;0.0;2100.0;0;0.0;2799.0;cage L2 c0 p2
+691;Cadre de porte double métal;2799.0;300.0;2100.0;0;6.12;2815.1;cage L2 c0 p3
+692;Cadre de porte double métal;2799.0;600.0;2100.0;0;12.1;2862.6;cage L2 c0 p4
+693;Cadre de porte double métal;2724.0;879.9;2100.0;30;17.9;2862.6;cage L2 c1 p0
+694;Cadre de porte double métal;2574.0;1139.7;2100.0;30;23.88;2815.1;cage L2 c1 p1
+695;Cadre de porte double métal;2424.0;1399.5;2100.0;30;30.0;2799.0;cage L2 c1 p2
+696;Cadre de porte double métal;2274.0;1659.3;2100.0;30;36.12;2815.1;cage L2 c1 p3
+697;Cadre de porte double métal;2124.0;1919.1;2100.0;30;42.1;2862.6;cage L2 c1 p4
+698;Cadre de porte double métal;1919.1;2124.0;2100.0;60;47.9;2862.6;cage L2 c2 p0
+699;Cadre de porte double métal;1659.3;2274.0;2100.0;60;53.88;2815.1;cage L2 c2 p1
+700;Cadre de porte double métal;1399.5;2424.0;2100.0;60;60.0;2799.0;cage L2 c2 p2
+701;Cadre de porte double métal;1139.7;2574.0;2100.0;60;66.12;2815.1;cage L2 c2 p3
+702;Cadre de porte double métal;879.9;2724.0;2100.0;60;72.1;2862.6;cage L2 c2 p4
+703;Cadre de porte double métal;600.0;2799.0;2100.0;90;77.9;2862.6;cage L2 c3 p0
+704;Cadre de porte double métal;300.0;2799.0;2100.0;90;83.88;2815.1;cage L2 c3 p1
+705;Cadre de porte double métal;0.0;2799.0;2100.0;90;90.0;2799.0;cage L2 c3 p2
+706;Cadre de porte double métal;-300.0;2799.0;2100.0;90;96.12;2815.1;cage L2 c3 p3
+707;Cadre de porte double métal;-600.0;2799.0;2100.0;90;102.1;2862.6;cage L2 c3 p4
+708;Cadre de porte double métal;-879.9;2724.0;2100.0;120;107.9;2862.6;cage L2 c4 p0
+709;Cadre de porte double métal;-1139.7;2574.0;2100.0;120;113.88;2815.1;cage L2 c4 p1
+710;Cadre de porte double métal;-1399.5;2424.0;2100.0;120;120.0;2799.0;cage L2 c4 p2
+711;Cadre de porte double métal;-1659.3;2274.0;2100.0;120;126.12;2815.1;cage L2 c4 p3
+712;Cadre de porte double métal;-1919.1;2124.0;2100.0;120;132.1;2862.6;cage L2 c4 p4
+713;Cadre de porte double métal;-2124.0;1919.1;2100.0;150;137.9;2862.6;cage L2 c5 p0
+714;Cadre de porte double métal;-2274.0;1659.3;2100.0;150;143.88;2815.1;cage L2 c5 p1
+715;Cadre de porte double métal;-2424.0;1399.5;2100.0;150;150.0;2799.0;cage L2 c5 p2
+716;Cadre de porte double métal;-2574.0;1139.7;2100.0;150;156.12;2815.1;cage L2 c5 p3
+717;Cadre de porte double métal;-2574.0;-1139.7;2100.0;210;203.88;2815.1;cage L2 c7 p1
+718;Cadre de porte double métal;-2424.0;-1399.5;2100.0;210;210.0;2799.0;cage L2 c7 p2
+719;Cadre de porte double métal;-2274.0;-1659.3;2100.0;210;216.12;2815.1;cage L2 c7 p3
+720;Cadre de porte double métal;-2124.0;-1919.1;2100.0;210;222.1;2862.6;cage L2 c7 p4
+721;Cadre de porte double métal;-1919.1;-2124.0;2100.0;240;227.9;2862.6;cage L2 c8 p0
+722;Cadre de porte double métal;-1659.3;-2274.0;2100.0;240;233.88;2815.1;cage L2 c8 p1
+723;Cadre de porte double métal;-1399.5;-2424.0;2100.0;240;240.0;2799.0;cage L2 c8 p2
+724;Cadre de porte double métal;-1139.7;-2574.0;2100.0;240;246.12;2815.1;cage L2 c8 p3
+725;Cadre de porte double métal;-879.9;-2724.0;2100.0;240;252.1;2862.6;cage L2 c8 p4
+726;Cadre de porte double métal;-600.0;-2799.0;2100.0;270;257.9;2862.6;cage L2 c9 p0
+727;Cadre de porte double métal;-300.0;-2799.0;2100.0;270;263.88;2815.1;cage L2 c9 p1
+728;Cadre de porte double métal;-0.0;-2799.0;2100.0;270;270.0;2799.0;cage L2 c9 p2
+729;Cadre de porte double métal;300.0;-2799.0;2100.0;270;276.12;2815.1;cage L2 c9 p3
+730;Cadre de porte double métal;600.0;-2799.0;2100.0;270;282.1;2862.6;cage L2 c9 p4
+731;Cadre de porte double métal;879.9;-2724.0;2100.0;300;287.9;2862.6;cage L2 c10 p0
+732;Cadre de porte double métal;1139.7;-2574.0;2100.0;300;293.88;2815.1;cage L2 c10 p1
+733;Cadre de porte double métal;1399.5;-2424.0;2100.0;300;300.0;2799.0;cage L2 c10 p2
+734;Cadre de porte double métal;1659.3;-2274.0;2100.0;300;306.12;2815.1;cage L2 c10 p3
+735;Cadre de porte double métal;1919.1;-2124.0;2100.0;300;312.1;2862.6;cage L2 c10 p4
+736;Cadre de porte double métal;2124.0;-1919.1;2100.0;330;317.9;2862.6;cage L2 c11 p0
+737;Cadre de porte double métal;2274.0;-1659.3;2100.0;330;323.88;2815.1;cage L2 c11 p1
+738;Cadre de porte double métal;2424.0;-1399.5;2100.0;330;330.0;2799.0;cage L2 c11 p2
+739;Cadre de porte double métal;2574.0;-1139.7;2100.0;330;336.12;2815.1;cage L2 c11 p3
+740;Cadre de porte double métal;2724.0;-879.9;2100.0;330;342.1;2862.6;cage L2 c11 p4
+741;Plafond triangle métal;2369.1;-450.0;2400.0;0;349.25;2411.5;galerie Z2400 anneau 8
+742;Plafond triangle métal;2369.1;-150.0;2400.0;0;356.38;2373.9;galerie Z2400 anneau 8
+743;Plafond triangle métal;2369.1;150.0;2400.0;0;3.62;2373.9;galerie Z2400 anneau 8
+744;Plafond triangle métal;2369.1;450.0;2400.0;0;10.75;2411.5;galerie Z2400 anneau 8
+745;Plafond triangle métal;2369.1;-600.0;2400.0;180;345.79;2443.9;galerie Z2400 anneau 8
+746;Plafond triangle métal;2369.1;-300.0;2400.0;180;352.78;2388.1;galerie Z2400 anneau 8
+747;Plafond triangle métal;2369.1;0.0;2400.0;180;0.0;2369.1;galerie Z2400 anneau 8
+748;Plafond triangle métal;2369.1;300.0;2400.0;180;7.22;2388.1;galerie Z2400 anneau 8
+749;Plafond triangle métal;2369.1;600.0;2400.0;180;14.21;2443.9;galerie Z2400 anneau 8
+750;Plafond métal;2294.1;804.9;2400.0;30;19.33;2431.2;galerie Z2400 anneau 8
+751;Plafond métal;2144.1;1064.7;2400.0;30;26.41;2393.9;galerie Z2400 anneau 8
+752;Plafond métal;1994.1;1324.5;2400.0;30;33.59;2393.9;galerie Z2400 anneau 8
+753;Plafond métal;1844.1;1584.3;2400.0;30;40.67;2431.2;galerie Z2400 anneau 8
+754;Plafond triangle métal;1574.3;1826.7;2400.0;60;49.25;2411.5;galerie Z2400 anneau 8
+755;Plafond triangle métal;1314.5;1976.7;2400.0;60;56.38;2373.9;galerie Z2400 anneau 8
+756;Plafond triangle métal;1054.7;2126.7;2400.0;60;63.62;2373.9;galerie Z2400 anneau 8
+757;Plafond triangle métal;794.9;2276.7;2400.0;60;70.75;2411.5;galerie Z2400 anneau 8
+758;Plafond triangle métal;1704.2;1751.7;2400.0;240;45.79;2443.9;galerie Z2400 anneau 8
+759;Plafond triangle métal;1444.4;1901.7;2400.0;240;52.78;2388.1;galerie Z2400 anneau 8
+760;Plafond triangle métal;1184.6;2051.7;2400.0;240;60.0;2369.1;galerie Z2400 anneau 8
+761;Plafond triangle métal;924.8;2201.7;2400.0;240;67.22;2388.1;galerie Z2400 anneau 8
+762;Plafond triangle métal;665.0;2351.7;2400.0;240;74.21;2443.9;galerie Z2400 anneau 8
+763;Plafond métal;450.0;2389.2;2400.0;90;79.33;2431.2;galerie Z2400 anneau 8
+764;Plafond métal;150.0;2389.2;2400.0;90;86.41;2393.9;galerie Z2400 anneau 8
+765;Plafond métal;-150.0;2389.2;2400.0;90;93.59;2393.9;galerie Z2400 anneau 8
+766;Plafond métal;-450.0;2389.2;2400.0;90;100.67;2431.2;galerie Z2400 anneau 8
+767;Plafond triangle métal;-794.9;2276.7;2400.0;120;109.25;2411.5;galerie Z2400 anneau 8
+768;Plafond triangle métal;-1054.7;2126.7;2400.0;120;116.38;2373.9;galerie Z2400 anneau 8
+769;Plafond triangle métal;-1314.5;1976.7;2400.0;120;123.62;2373.9;galerie Z2400 anneau 8
+770;Plafond triangle métal;-1574.3;1826.7;2400.0;120;130.75;2411.5;galerie Z2400 anneau 8
+771;Plafond triangle métal;-665.0;2351.7;2400.0;300;105.79;2443.9;galerie Z2400 anneau 8
+772;Plafond triangle métal;-924.8;2201.7;2400.0;300;112.78;2388.1;galerie Z2400 anneau 8
+773;Plafond triangle métal;-1184.6;2051.7;2400.0;300;120.0;2369.1;galerie Z2400 anneau 8
+774;Plafond triangle métal;-1444.4;1901.7;2400.0;300;127.22;2388.1;galerie Z2400 anneau 8
+775;Plafond triangle métal;-1704.2;1751.7;2400.0;300;134.21;2443.9;galerie Z2400 anneau 8
+776;Plafond métal;-1844.1;1584.3;2400.0;150;139.33;2431.2;galerie Z2400 anneau 8
+777;Plafond métal;-1994.1;1324.5;2400.0;150;146.41;2393.9;galerie Z2400 anneau 8
+778;Plafond métal;-2144.1;1064.7;2400.0;150;153.59;2393.9;galerie Z2400 anneau 8
+779;Rampe inclinée métal (Sloped Railing);-2294.1;804.9;2100.0;150.0;160.67;2431.2;casquette du trou θ157.2
+780;Plafond métal;-2144.1;-1064.7;2400.0;210;206.41;2393.9;galerie Z2400 anneau 8
+781;Rampe inclinée métal (Sloped Railing);-2294.1;-804.9;2100.0;30.0;199.33;2431.2;casquette du trou θ202.8
+782;Plafond métal;-1994.1;-1324.5;2400.0;210;213.59;2393.9;galerie Z2400 anneau 8
+783;Plafond métal;-1844.1;-1584.3;2400.0;210;220.67;2431.2;galerie Z2400 anneau 8
+784;Plafond triangle métal;-1574.3;-1826.7;2400.0;240;229.25;2411.5;galerie Z2400 anneau 8
+785;Plafond triangle métal;-1314.5;-1976.7;2400.0;240;236.38;2373.9;galerie Z2400 anneau 8
+786;Plafond triangle métal;-1054.7;-2126.7;2400.0;240;243.62;2373.9;galerie Z2400 anneau 8
+787;Plafond triangle métal;-794.9;-2276.7;2400.0;240;250.75;2411.5;galerie Z2400 anneau 8
+788;Plafond triangle métal;-1704.2;-1751.7;2400.0;60;225.79;2443.9;galerie Z2400 anneau 8
+789;Plafond triangle métal;-1444.4;-1901.7;2400.0;60;232.78;2388.1;galerie Z2400 anneau 8
+790;Plafond triangle métal;-1184.6;-2051.7;2400.0;60;240.0;2369.1;galerie Z2400 anneau 8
+791;Plafond triangle métal;-924.8;-2201.7;2400.0;60;247.22;2388.1;galerie Z2400 anneau 8
+792;Plafond triangle métal;-665.0;-2351.7;2400.0;60;254.21;2443.9;galerie Z2400 anneau 8
+793;Plafond métal;-450.0;-2389.2;2400.0;270;259.33;2431.2;galerie Z2400 anneau 8
+794;Plafond métal;-150.0;-2389.2;2400.0;270;266.41;2393.9;galerie Z2400 anneau 8
+795;Plafond métal;150.0;-2389.2;2400.0;270;273.59;2393.9;galerie Z2400 anneau 8
+796;Plafond métal;450.0;-2389.2;2400.0;270;280.67;2431.2;galerie Z2400 anneau 8
+797;Plafond triangle métal;794.9;-2276.7;2400.0;300;289.25;2411.5;galerie Z2400 anneau 8
+798;Plafond triangle métal;1054.7;-2126.7;2400.0;300;296.38;2373.9;galerie Z2400 anneau 8
+799;Plafond triangle métal;1314.5;-1976.7;2400.0;300;303.62;2373.9;galerie Z2400 anneau 8
+800;Plafond triangle métal;1574.3;-1826.7;2400.0;300;310.75;2411.5;galerie Z2400 anneau 8
+801;Plafond triangle métal;665.0;-2351.7;2400.0;120;285.79;2443.9;galerie Z2400 anneau 8
+802;Plafond triangle métal;924.8;-2201.7;2400.0;120;292.78;2388.1;galerie Z2400 anneau 8
+803;Plafond triangle métal;1184.6;-2051.7;2400.0;120;300.0;2369.1;galerie Z2400 anneau 8
+804;Plafond triangle métal;1444.4;-1901.7;2400.0;120;307.22;2388.1;galerie Z2400 anneau 8
+805;Plafond triangle métal;1704.2;-1751.7;2400.0;120;314.21;2443.9;galerie Z2400 anneau 8
+806;Plafond métal;1844.1;-1584.3;2400.0;330;319.33;2431.2;galerie Z2400 anneau 8
+807;Plafond métal;1994.1;-1324.5;2400.0;330;326.41;2393.9;galerie Z2400 anneau 8
+808;Plafond métal;2144.1;-1064.7;2400.0;330;333.59;2393.9;galerie Z2400 anneau 8
+809;Plafond métal;2294.1;-804.9;2400.0;330;340.67;2431.2;galerie Z2400 anneau 8
+810;Plafond métal;2649.0;-600.0;2400.0;0;347.24;2716.1;galerie Z2400 anneau 9
+811;Rampe inclinée métal (Sloped Railing);2949.0;-600.0;2100.0;270;348.5;3009.5;casquette r-1 c0 t-600
+812;Plafond métal;2649.0;-300.0;2400.0;0;353.54;2666.0;galerie Z2400 anneau 9
+813;Rampe inclinée métal (Sloped Railing);2949.0;-300.0;2100.0;270;354.19;2964.3;casquette r-1 c0 t-300
+814;Plafond métal;2649.0;0.0;2400.0;0;0.0;2649.0;galerie Z2400 anneau 9
+815;Rampe inclinée métal (Sloped Railing);2949.0;0.0;2100.0;270;0.0;2949.0;casquette r-1 c0 t-0
+816;Plafond métal;2649.0;300.0;2400.0;0;6.46;2666.0;galerie Z2400 anneau 9
+817;Rampe inclinée métal (Sloped Railing);2949.0;300.0;2100.0;270;5.81;2964.3;casquette r-1 c0 t+300
+818;Plafond métal;2649.0;600.0;2400.0;0;12.76;2716.1;galerie Z2400 anneau 9
+819;Rampe inclinée métal (Sloped Railing);2949.0;600.0;2100.0;270;11.5;3009.5;casquette r-1 c0 t+600
+820;Plafond triangle métal;2536.5;944.9;2400.0;30;20.43;2706.8;galerie Z2400 anneau 9
+821;Plafond triangle métal;2386.5;1204.7;2400.0;30;26.78;2673.3;galerie Z2400 anneau 9
+822;Plafond triangle métal;2236.5;1464.5;2400.0;30;33.22;2673.3;galerie Z2400 anneau 9
+823;Plafond triangle métal;2086.5;1724.3;2400.0;30;39.57;2706.8;galerie Z2400 anneau 9
+824;Plafond triangle métal;2611.5;815.0;2400.0;210;17.33;2735.7;galerie Z2400 anneau 9
+825;Rampe inclinée métal (Sloped Railing);2853.9;954.9;2100.0;300;18.5;3009.5;casquette r-1 c1 t-600
+826;Plafond triangle métal;2461.5;1074.8;2400.0;210;23.59;2685.9;galerie Z2400 anneau 9
+827;Rampe inclinée métal (Sloped Railing);2703.9;1214.7;2100.0;300;24.19;2964.3;casquette r-1 c1 t-300
+828;Plafond triangle métal;2311.5;1334.6;2400.0;210;30.0;2669.1;galerie Z2400 anneau 9
+829;Rampe inclinée métal (Sloped Railing);2553.9;1474.5;2100.0;300;30.0;2949.0;casquette r-1 c1 t-0
+830;Plafond triangle métal;2161.5;1594.4;2400.0;210;36.41;2685.9;galerie Z2400 anneau 9
+831;Rampe inclinée métal (Sloped Railing);2403.9;1734.3;2100.0;300;35.81;2964.3;casquette r-1 c1 t+300
+832;Plafond triangle métal;2011.5;1854.2;2400.0;210;42.67;2735.7;galerie Z2400 anneau 9
+833;Rampe inclinée métal (Sloped Railing);2253.9;1994.1;2100.0;300;41.5;3009.5;casquette r-1 c1 t+600
+834;Plafond métal;1844.1;1994.1;2400.0;60;47.24;2716.1;galerie Z2400 anneau 9
+835;Rampe inclinée métal (Sloped Railing);1994.1;2253.9;2100.0;330;48.5;3009.5;casquette r-1 c2 t-600
+836;Plafond métal;1584.3;2144.1;2400.0;60;53.54;2666.0;galerie Z2400 anneau 9
+837;Rampe inclinée métal (Sloped Railing);1734.3;2403.9;2100.0;330;54.19;2964.3;casquette r-1 c2 t-300
+838;Plafond métal;1324.5;2294.1;2400.0;60;60.0;2649.0;galerie Z2400 anneau 9
+839;Rampe inclinée métal (Sloped Railing);1474.5;2553.9;2100.0;330;60.0;2949.0;casquette r-1 c2 t-0
+840;Plafond métal;1064.7;2444.1;2400.0;60;66.46;2666.0;galerie Z2400 anneau 9
+841;Rampe inclinée métal (Sloped Railing);1214.7;2703.9;2100.0;330;65.81;2964.3;casquette r-1 c2 t+300
+842;Plafond métal;804.9;2594.1;2400.0;60;72.76;2716.1;galerie Z2400 anneau 9
+843;Rampe inclinée métal (Sloped Railing);954.9;2853.9;2100.0;330;71.5;3009.5;casquette r-1 c2 t+600
+844;Plafond triangle métal;450.0;2669.1;2400.0;90;80.43;2706.8;galerie Z2400 anneau 9
+845;Plafond triangle métal;150.0;2669.1;2400.0;90;86.78;2673.3;galerie Z2400 anneau 9
+846;Plafond triangle métal;-150.0;2669.1;2400.0;90;93.22;2673.3;galerie Z2400 anneau 9
+847;Plafond triangle métal;-450.0;2669.1;2400.0;90;99.57;2706.8;galerie Z2400 anneau 9
+848;Plafond triangle métal;600.0;2669.1;2400.0;270;77.33;2735.7;galerie Z2400 anneau 9
+849;Rampe inclinée métal (Sloped Railing);600.0;2949.0;2100.0;0;78.5;3009.5;casquette r-1 c3 t-600
+850;Plafond triangle métal;300.0;2669.1;2400.0;270;83.59;2685.9;galerie Z2400 anneau 9
+851;Rampe inclinée métal (Sloped Railing);300.0;2949.0;2100.0;0;84.19;2964.3;casquette r-1 c3 t-300
+852;Plafond triangle métal;0.0;2669.1;2400.0;270;90.0;2669.1;galerie Z2400 anneau 9
+853;Rampe inclinée métal (Sloped Railing);0.0;2949.0;2100.0;0;90.0;2949.0;casquette r-1 c3 t-0
+854;Plafond triangle métal;-300.0;2669.1;2400.0;270;96.41;2685.9;galerie Z2400 anneau 9
+855;Rampe inclinée métal (Sloped Railing);-300.0;2949.0;2100.0;0;95.81;2964.3;casquette r-1 c3 t+300
+856;Plafond triangle métal;-600.0;2669.1;2400.0;270;102.67;2735.7;galerie Z2400 anneau 9
+857;Rampe inclinée métal (Sloped Railing);-600.0;2949.0;2100.0;0;101.5;3009.5;casquette r-1 c3 t+600
+858;Plafond métal;-804.9;2594.1;2400.0;120;107.24;2716.1;galerie Z2400 anneau 9
+859;Rampe inclinée métal (Sloped Railing);-954.9;2853.9;2100.0;30;108.5;3009.5;casquette r-1 c4 t-600
+860;Plafond métal;-1064.7;2444.1;2400.0;120;113.54;2666.0;galerie Z2400 anneau 9
+861;Rampe inclinée métal (Sloped Railing);-1214.7;2703.9;2100.0;30;114.19;2964.3;casquette r-1 c4 t-300
+862;Plafond métal;-1324.5;2294.1;2400.0;120;120.0;2649.0;galerie Z2400 anneau 9
+863;Rampe inclinée métal (Sloped Railing);-1474.5;2553.9;2100.0;30;120.0;2949.0;casquette r-1 c4 t-0
+864;Plafond métal;-1584.3;2144.1;2400.0;120;126.46;2666.0;galerie Z2400 anneau 9
+865;Rampe inclinée métal (Sloped Railing);-1734.3;2403.9;2100.0;30;125.81;2964.3;casquette r-1 c4 t+300
+866;Plafond métal;-1844.1;1994.1;2400.0;120;132.76;2716.1;galerie Z2400 anneau 9
+867;Rampe inclinée métal (Sloped Railing);-1994.1;2253.9;2100.0;30;131.5;3009.5;casquette r-1 c4 t+600
+868;Plafond triangle métal;-2086.5;1724.3;2400.0;150;140.43;2706.8;galerie Z2400 anneau 9
+869;Plafond triangle métal;-2236.5;1464.5;2400.0;150;146.78;2673.3;galerie Z2400 anneau 9
+870;Plafond triangle métal;-2386.5;1204.7;2400.0;150;153.22;2673.3;galerie Z2400 anneau 9
+871;Plafond triangle métal;-2011.5;1854.2;2400.0;330;137.33;2735.7;galerie Z2400 anneau 9
+872;Rampe inclinée métal (Sloped Railing);-2253.9;1994.1;2100.0;60;138.5;3009.5;casquette r-1 c5 t-600
+873;Plafond triangle métal;-2161.5;1594.4;2400.0;330;143.59;2685.9;galerie Z2400 anneau 9
+874;Rampe inclinée métal (Sloped Railing);-2403.9;1734.3;2100.0;60;144.19;2964.3;casquette r-1 c5 t-300
+875;Plafond triangle métal;-2311.5;1334.6;2400.0;330;150.0;2669.1;galerie Z2400 anneau 9
+876;Rampe inclinée métal (Sloped Railing);-2553.9;1474.5;2100.0;60;150.0;2949.0;casquette r-1 c5 t-0
+877;Plafond triangle métal;-2461.5;1074.8;2400.0;330;156.41;2685.9;galerie Z2400 anneau 9
+878;Rampe inclinée métal (Sloped Railing);-2703.9;1214.7;2100.0;60;155.81;2964.3;casquette r-1 c5 t+300
+879;Rampe inclinée métal (Sloped Railing);-2499.0;859.8;2100.0;180.0;161.01;2642.8;casquette du trou θ158.0
+880;Plafond triangle métal;-2386.5;-1204.7;2400.0;210;206.78;2673.3;galerie Z2400 anneau 9
+881;Plafond triangle métal;-2236.5;-1464.5;2400.0;210;213.22;2673.3;galerie Z2400 anneau 9
+882;Plafond triangle métal;-2086.5;-1724.3;2400.0;210;219.57;2706.8;galerie Z2400 anneau 9
+883;Plafond triangle métal;-2461.5;-1074.8;2400.0;30;203.59;2685.9;galerie Z2400 anneau 9
+884;Rampe inclinée métal (Sloped Railing);-2703.9;-1214.7;2100.0;120;204.19;2964.3;casquette r-1 c7 t-300
+885;Rampe inclinée métal (Sloped Railing);-2499.0;-859.8;2100.0;0.0;198.99;2642.8;casquette du trou θ202.0
+886;Plafond triangle métal;-2311.5;-1334.6;2400.0;30;210.0;2669.1;galerie Z2400 anneau 9
+887;Rampe inclinée métal (Sloped Railing);-2553.9;-1474.5;2100.0;120;210.0;2949.0;casquette r-1 c7 t-0
+888;Plafond triangle métal;-2161.5;-1594.4;2400.0;30;216.41;2685.9;galerie Z2400 anneau 9
+889;Rampe inclinée métal (Sloped Railing);-2403.9;-1734.3;2100.0;120;215.81;2964.3;casquette r-1 c7 t+300
+890;Plafond triangle métal;-2011.5;-1854.2;2400.0;30;222.67;2735.7;galerie Z2400 anneau 9
+891;Rampe inclinée métal (Sloped Railing);-2253.9;-1994.1;2100.0;120;221.5;3009.5;casquette r-1 c7 t+600
+892;Plafond métal;-1844.1;-1994.1;2400.0;240;227.24;2716.1;galerie Z2400 anneau 9
+893;Rampe inclinée métal (Sloped Railing);-1994.1;-2253.9;2100.0;150;228.5;3009.5;casquette r-1 c8 t-600
+894;Plafond métal;-1584.3;-2144.1;2400.0;240;233.54;2666.0;galerie Z2400 anneau 9
+895;Rampe inclinée métal (Sloped Railing);-1734.3;-2403.9;2100.0;150;234.19;2964.3;casquette r-1 c8 t-300
+896;Plafond métal;-1324.5;-2294.1;2400.0;240;240.0;2649.0;galerie Z2400 anneau 9
+897;Rampe inclinée métal (Sloped Railing);-1474.5;-2553.9;2100.0;150;240.0;2949.0;casquette r-1 c8 t-0
+898;Plafond métal;-1064.7;-2444.1;2400.0;240;246.46;2666.0;galerie Z2400 anneau 9
+899;Rampe inclinée métal (Sloped Railing);-1214.7;-2703.9;2100.0;150;245.81;2964.3;casquette r-1 c8 t+300
+900;Plafond métal;-804.9;-2594.1;2400.0;240;252.76;2716.1;galerie Z2400 anneau 9
+901;Rampe inclinée métal (Sloped Railing);-954.9;-2853.9;2100.0;150;251.5;3009.5;casquette r-1 c8 t+600
+902;Plafond triangle métal;-450.0;-2669.1;2400.0;270;260.43;2706.8;galerie Z2400 anneau 9
+903;Plafond triangle métal;-150.0;-2669.1;2400.0;270;266.78;2673.3;galerie Z2400 anneau 9
+904;Plafond triangle métal;150.0;-2669.1;2400.0;270;273.22;2673.3;galerie Z2400 anneau 9
+905;Plafond triangle métal;450.0;-2669.1;2400.0;270;279.57;2706.8;galerie Z2400 anneau 9
+906;Plafond triangle métal;-600.0;-2669.1;2400.0;90;257.33;2735.7;galerie Z2400 anneau 9
+907;Rampe inclinée métal (Sloped Railing);-600.0;-2949.0;2100.0;180;258.5;3009.5;casquette r-1 c9 t-600
+908;Plafond triangle métal;-300.0;-2669.1;2400.0;90;263.59;2685.9;galerie Z2400 anneau 9
+909;Rampe inclinée métal (Sloped Railing);-300.0;-2949.0;2100.0;180;264.19;2964.3;casquette r-1 c9 t-300
+910;Plafond triangle métal;-0.0;-2669.1;2400.0;90;270.0;2669.1;galerie Z2400 anneau 9
+911;Rampe inclinée métal (Sloped Railing);-0.0;-2949.0;2100.0;180;270.0;2949.0;casquette r-1 c9 t-0
+912;Plafond triangle métal;300.0;-2669.1;2400.0;90;276.41;2685.9;galerie Z2400 anneau 9
+913;Rampe inclinée métal (Sloped Railing);300.0;-2949.0;2100.0;180;275.81;2964.3;casquette r-1 c9 t+300
+914;Plafond triangle métal;600.0;-2669.1;2400.0;90;282.67;2735.7;galerie Z2400 anneau 9
+915;Rampe inclinée métal (Sloped Railing);600.0;-2949.0;2100.0;180;281.5;3009.5;casquette r-1 c9 t+600
+916;Plafond métal;804.9;-2594.1;2400.0;300;287.24;2716.1;galerie Z2400 anneau 9
+917;Rampe inclinée métal (Sloped Railing);954.9;-2853.9;2100.0;210;288.5;3009.5;casquette r-1 c10 t-600
+918;Plafond métal;1064.7;-2444.1;2400.0;300;293.54;2666.0;galerie Z2400 anneau 9
+919;Rampe inclinée métal (Sloped Railing);1214.7;-2703.9;2100.0;210;294.19;2964.3;casquette r-1 c10 t-300
+920;Plafond métal;1324.5;-2294.1;2400.0;300;300.0;2649.0;galerie Z2400 anneau 9
+921;Rampe inclinée métal (Sloped Railing);1474.5;-2553.9;2100.0;210;300.0;2949.0;casquette r-1 c10 t-0
+922;Plafond métal;1584.3;-2144.1;2400.0;300;306.46;2666.0;galerie Z2400 anneau 9
+923;Rampe inclinée métal (Sloped Railing);1734.3;-2403.9;2100.0;210;305.81;2964.3;casquette r-1 c10 t+300
+924;Plafond métal;1844.1;-1994.1;2400.0;300;312.76;2716.1;galerie Z2400 anneau 9
+925;Rampe inclinée métal (Sloped Railing);1994.1;-2253.9;2100.0;210;311.5;3009.5;casquette r-1 c10 t+600
+926;Plafond triangle métal;2086.5;-1724.3;2400.0;330;320.43;2706.8;galerie Z2400 anneau 9
+927;Plafond triangle métal;2236.5;-1464.5;2400.0;330;326.78;2673.3;galerie Z2400 anneau 9
+928;Plafond triangle métal;2386.5;-1204.7;2400.0;330;333.22;2673.3;galerie Z2400 anneau 9
+929;Plafond triangle métal;2536.5;-944.9;2400.0;330;339.57;2706.8;galerie Z2400 anneau 9
+930;Plafond triangle métal;2011.5;-1854.2;2400.0;150;317.33;2735.7;galerie Z2400 anneau 9
+931;Rampe inclinée métal (Sloped Railing);2253.9;-1994.1;2100.0;240;318.5;3009.5;casquette r-1 c11 t-600
+932;Plafond triangle métal;2161.5;-1594.4;2400.0;150;323.59;2685.9;galerie Z2400 anneau 9
+933;Rampe inclinée métal (Sloped Railing);2403.9;-1734.3;2100.0;240;324.19;2964.3;casquette r-1 c11 t-300
+934;Plafond triangle métal;2311.5;-1334.6;2400.0;150;330.0;2669.1;galerie Z2400 anneau 9
+935;Rampe inclinée métal (Sloped Railing);2553.9;-1474.5;2100.0;240;330.0;2949.0;casquette r-1 c11 t-0
+936;Plafond triangle métal;2461.5;-1074.8;2400.0;150;336.41;2685.9;galerie Z2400 anneau 9
+937;Rampe inclinée métal (Sloped Railing);2703.9;-1214.7;2100.0;240;335.81;2964.3;casquette r-1 c11 t+300
+938;Plafond triangle métal;2611.5;-815.0;2400.0;150;342.67;2735.7;galerie Z2400 anneau 9
+939;Rampe inclinée métal (Sloped Railing);2853.9;-954.9;2100.0;240;341.5;3009.5;casquette r-1 c11 t+600
+940;Pilier fin métal (Thin Pillar);2499.0;-600.0;2400.0;0;346.5;2570.1;appui appentis c0 t-600 : poteau
+941;Pilier fin métal (Thin Pillar);2499.0;-300.0;2400.0;0;353.15;2517.0;appui appentis c0 t-300 : poteau
+942;Pilier fin métal (Thin Pillar);2499.0;0.0;2400.0;0;0.0;2499.0;appui appentis c0 t-0 : poteau
+943;Pilier fin métal (Thin Pillar);2499.0;300.0;2400.0;0;6.85;2517.0;appui appentis c0 t+300 : poteau
+944;Pilier fin métal (Thin Pillar);2499.0;600.0;2400.0;0;13.5;2570.1;appui appentis c0 t+600 : poteau
+945;Pilier fin métal (Thin Pillar);2464.2;729.9;2400.0;30;16.5;2570.1;appui appentis c1 t-600 : poteau
+946;Pilier fin métal (Thin Pillar);2314.2;989.7;2400.0;30;23.15;2517.0;appui appentis c1 t-300 : poteau
+947;Pilier fin métal (Thin Pillar);2164.2;1249.5;2400.0;30;30.0;2499.0;appui appentis c1 t-0 : poteau
+948;Pilier fin métal (Thin Pillar);2014.2;1509.3;2400.0;30;36.85;2517.0;appui appentis c1 t+300 : poteau
+949;Pilier fin métal (Thin Pillar);1864.2;1769.1;2400.0;30;43.5;2570.1;appui appentis c1 t+600 : poteau
+950;Pilier fin métal (Thin Pillar);1769.1;1864.2;2400.0;60;46.5;2570.1;appui appentis c2 t-600 : poteau
+951;Pilier fin métal (Thin Pillar);1509.3;2014.2;2400.0;60;53.15;2517.0;appui appentis c2 t-300 : poteau
+952;Pilier fin métal (Thin Pillar);1249.5;2164.2;2400.0;60;60.0;2499.0;appui appentis c2 t-0 : poteau
+953;Pilier fin métal (Thin Pillar);989.7;2314.2;2400.0;60;66.85;2517.0;appui appentis c2 t+300 : poteau
+954;Pilier fin métal (Thin Pillar);729.9;2464.2;2400.0;60;73.5;2570.1;appui appentis c2 t+600 : poteau
+955;Pilier fin métal (Thin Pillar);600.0;2499.0;2400.0;90;76.5;2570.1;appui appentis c3 t-600 : poteau
+956;Pilier fin métal (Thin Pillar);300.0;2499.0;2400.0;90;83.15;2517.0;appui appentis c3 t-300 : poteau
+957;Pilier fin métal (Thin Pillar);-0.0;2499.0;2400.0;90;90.0;2499.0;appui appentis c3 t-0 : poteau
+958;Pilier fin métal (Thin Pillar);-300.0;2499.0;2400.0;90;96.85;2517.0;appui appentis c3 t+300 : poteau
+959;Pilier fin métal (Thin Pillar);-600.0;2499.0;2400.0;90;103.5;2570.1;appui appentis c3 t+600 : poteau
+960;Pilier fin métal (Thin Pillar);-729.9;2464.2;2400.0;120;106.5;2570.1;appui appentis c4 t-600 : poteau
+961;Pilier fin métal (Thin Pillar);-989.7;2314.2;2400.0;120;113.15;2517.0;appui appentis c4 t-300 : poteau
+962;Pilier fin métal (Thin Pillar);-1249.5;2164.2;2400.0;120;120.0;2499.0;appui appentis c4 t-0 : poteau
+963;Pilier fin métal (Thin Pillar);-1509.3;2014.2;2400.0;120;126.85;2517.0;appui appentis c4 t+300 : poteau
+964;Pilier fin métal (Thin Pillar);-1769.1;1864.2;2400.0;120;133.5;2570.1;appui appentis c4 t+600 : poteau
+965;Pilier fin métal (Thin Pillar);-1864.2;1769.1;2400.0;150;136.5;2570.1;appui appentis c5 t-600 : poteau
+966;Pilier fin métal (Thin Pillar);-2014.2;1509.3;2400.0;150;143.15;2517.0;appui appentis c5 t-300 : poteau
+967;Pilier fin métal (Thin Pillar);-2164.2;1249.5;2400.0;150;150.0;2499.0;appui appentis c5 t-0 : poteau
+968;Pilier fin métal (Thin Pillar);-2314.2;989.7;2400.0;150;156.85;2517.0;appui appentis c5 t+300 : poteau
+969;Pilier fin métal (Thin Pillar);-2314.2;-989.7;2400.0;210;203.15;2517.0;appui appentis c7 t-300 : poteau
+970;Pilier fin métal (Thin Pillar);-2164.2;-1249.5;2400.0;210;210.0;2499.0;appui appentis c7 t-0 : poteau
+971;Pilier fin métal (Thin Pillar);-2014.2;-1509.3;2400.0;210;216.85;2517.0;appui appentis c7 t+300 : poteau
+972;Pilier fin métal (Thin Pillar);-1864.2;-1769.1;2400.0;210;223.5;2570.1;appui appentis c7 t+600 : poteau
+973;Pilier fin métal (Thin Pillar);-1769.1;-1864.2;2400.0;240;226.5;2570.1;appui appentis c8 t-600 : poteau
+974;Pilier fin métal (Thin Pillar);-1509.3;-2014.2;2400.0;240;233.15;2517.0;appui appentis c8 t-300 : poteau
+975;Pilier fin métal (Thin Pillar);-1249.5;-2164.2;2400.0;240;240.0;2499.0;appui appentis c8 t-0 : poteau
+976;Pilier fin métal (Thin Pillar);-989.7;-2314.2;2400.0;240;246.85;2517.0;appui appentis c8 t+300 : poteau
+977;Pilier fin métal (Thin Pillar);-729.9;-2464.2;2400.0;240;253.5;2570.1;appui appentis c8 t+600 : poteau
+978;Pilier fin métal (Thin Pillar);-600.0;-2499.0;2400.0;270;256.5;2570.1;appui appentis c9 t-600 : poteau
+979;Pilier fin métal (Thin Pillar);-300.0;-2499.0;2400.0;270;263.15;2517.0;appui appentis c9 t-300 : poteau
+980;Pilier fin métal (Thin Pillar);-0.0;-2499.0;2400.0;270;270.0;2499.0;appui appentis c9 t-0 : poteau
+981;Pilier fin métal (Thin Pillar);300.0;-2499.0;2400.0;270;276.85;2517.0;appui appentis c9 t+300 : poteau
+982;Pilier fin métal (Thin Pillar);600.0;-2499.0;2400.0;270;283.5;2570.1;appui appentis c9 t+600 : poteau
+983;Pilier fin métal (Thin Pillar);729.9;-2464.2;2400.0;300;286.5;2570.1;appui appentis c10 t-600 : poteau
+984;Pilier fin métal (Thin Pillar);989.7;-2314.2;2400.0;300;293.15;2517.0;appui appentis c10 t-300 : poteau
+985;Pilier fin métal (Thin Pillar);1249.5;-2164.2;2400.0;300;300.0;2499.0;appui appentis c10 t-0 : poteau
+986;Pilier fin métal (Thin Pillar);1509.3;-2014.2;2400.0;300;306.85;2517.0;appui appentis c10 t+300 : poteau
+987;Pilier fin métal (Thin Pillar);1769.1;-1864.2;2400.0;300;313.5;2570.1;appui appentis c10 t+600 : poteau
+988;Pilier fin métal (Thin Pillar);1864.2;-1769.1;2400.0;330;316.5;2570.1;appui appentis c11 t-600 : poteau
+989;Pilier fin métal (Thin Pillar);2014.2;-1509.3;2400.0;330;323.15;2517.0;appui appentis c11 t-300 : poteau
+990;Pilier fin métal (Thin Pillar);2164.2;-1249.5;2400.0;330;330.0;2499.0;appui appentis c11 t-0 : poteau
+991;Pilier fin métal (Thin Pillar);2314.2;-989.7;2400.0;330;336.85;2517.0;appui appentis c11 t+300 : poteau
+992;Pilier fin métal (Thin Pillar);2464.2;-729.9;2400.0;330;343.5;2570.1;appui appentis c11 t+600 : poteau
+993;Rampe inclinée métal (Sloped Railing);2649.0;-600.0;2400.0;270;347.24;2716.1;appentis r0 c0 t-600
+994;Rampe inclinée métal (Sloped Railing);2649.0;-300.0;2400.0;270;353.54;2666.0;appentis r0 c0 t-300
+995;Rampe inclinée métal (Sloped Railing);2649.0;0.0;2400.0;270;0.0;2649.0;appentis r0 c0 t-0
+996;Rampe inclinée métal (Sloped Railing);2649.0;300.0;2400.0;270;6.46;2666.0;appentis r0 c0 t+300
+997;Rampe inclinée métal (Sloped Railing);2649.0;600.0;2400.0;270;12.76;2716.1;appentis r0 c0 t+600
+998;Rampe inclinée métal (Sloped Railing);2594.1;804.9;2400.0;300;17.24;2716.1;appentis r0 c1 t-600
+999;Rampe inclinée métal (Sloped Railing);2444.1;1064.7;2400.0;300;23.54;2666.0;appentis r0 c1 t-300
+1000;Rampe inclinée métal (Sloped Railing);2294.1;1324.5;2400.0;300;30.0;2649.0;appentis r0 c1 t-0
+1001;Rampe inclinée métal (Sloped Railing);2144.1;1584.3;2400.0;300;36.46;2666.0;appentis r0 c1 t+300
+1002;Rampe inclinée métal (Sloped Railing);1994.1;1844.1;2400.0;300;42.76;2716.1;appentis r0 c1 t+600
+1003;Rampe inclinée métal (Sloped Railing);1844.1;1994.1;2400.0;330;47.24;2716.1;appentis r0 c2 t-600
+1004;Rampe inclinée métal (Sloped Railing);1584.3;2144.1;2400.0;330;53.54;2666.0;appentis r0 c2 t-300
+1005;Rampe inclinée métal (Sloped Railing);1324.5;2294.1;2400.0;330;60.0;2649.0;appentis r0 c2 t-0
+1006;Rampe inclinée métal (Sloped Railing);1064.7;2444.1;2400.0;330;66.46;2666.0;appentis r0 c2 t+300
+1007;Rampe inclinée métal (Sloped Railing);804.9;2594.1;2400.0;330;72.76;2716.1;appentis r0 c2 t+600
+1008;Rampe inclinée métal (Sloped Railing);600.0;2649.0;2400.0;0;77.24;2716.1;appentis r0 c3 t-600
+1009;Rampe inclinée métal (Sloped Railing);300.0;2649.0;2400.0;0;83.54;2666.0;appentis r0 c3 t-300
+1010;Rampe inclinée métal (Sloped Railing);0.0;2649.0;2400.0;0;90.0;2649.0;appentis r0 c3 t-0
+1011;Rampe inclinée métal (Sloped Railing);-300.0;2649.0;2400.0;0;96.46;2666.0;appentis r0 c3 t+300
+1012;Rampe inclinée métal (Sloped Railing);-600.0;2649.0;2400.0;0;102.76;2716.1;appentis r0 c3 t+600
+1013;Rampe inclinée métal (Sloped Railing);-804.9;2594.1;2400.0;30;107.24;2716.1;appentis r0 c4 t-600
+1014;Rampe inclinée métal (Sloped Railing);-1064.7;2444.1;2400.0;30;113.54;2666.0;appentis r0 c4 t-300
+1015;Rampe inclinée métal (Sloped Railing);-1324.5;2294.1;2400.0;30;120.0;2649.0;appentis r0 c4 t-0
+1016;Rampe inclinée métal (Sloped Railing);-1584.3;2144.1;2400.0;30;126.46;2666.0;appentis r0 c4 t+300
+1017;Rampe inclinée métal (Sloped Railing);-1844.1;1994.1;2400.0;30;132.76;2716.1;appentis r0 c4 t+600
+1018;Rampe inclinée métal (Sloped Railing);-1994.1;1844.1;2400.0;60;137.24;2716.1;appentis r0 c5 t-600
+1019;Rampe inclinée métal (Sloped Railing);-2144.1;1584.3;2400.0;60;143.54;2666.0;appentis r0 c5 t-300
+1020;Rampe inclinée métal (Sloped Railing);-2294.1;1324.5;2400.0;60;150.0;2649.0;appentis r0 c5 t-0
+1021;Rampe inclinée métal (Sloped Railing);-2444.1;1064.7;2400.0;60;156.46;2666.0;appentis r0 c5 t+300
+1022;Rampe inclinée métal (Sloped Railing);-2444.1;-1064.7;2400.0;120;203.54;2666.0;appentis r0 c7 t-300
+1023;Rampe inclinée métal (Sloped Railing);-2294.1;-1324.5;2400.0;120;210.0;2649.0;appentis r0 c7 t-0
+1024;Rampe inclinée métal (Sloped Railing);-2144.1;-1584.3;2400.0;120;216.46;2666.0;appentis r0 c7 t+300
+1025;Rampe inclinée métal (Sloped Railing);-1994.1;-1844.1;2400.0;120;222.76;2716.1;appentis r0 c7 t+600
+1026;Rampe inclinée métal (Sloped Railing);-1844.1;-1994.1;2400.0;150;227.24;2716.1;appentis r0 c8 t-600
+1027;Rampe inclinée métal (Sloped Railing);-1584.3;-2144.1;2400.0;150;233.54;2666.0;appentis r0 c8 t-300
+1028;Rampe inclinée métal (Sloped Railing);-1324.5;-2294.1;2400.0;150;240.0;2649.0;appentis r0 c8 t-0
+1029;Rampe inclinée métal (Sloped Railing);-1064.7;-2444.1;2400.0;150;246.46;2666.0;appentis r0 c8 t+300
+1030;Rampe inclinée métal (Sloped Railing);-804.9;-2594.1;2400.0;150;252.76;2716.1;appentis r0 c8 t+600
+1031;Rampe inclinée métal (Sloped Railing);-600.0;-2649.0;2400.0;180;257.24;2716.1;appentis r0 c9 t-600
+1032;Rampe inclinée métal (Sloped Railing);-300.0;-2649.0;2400.0;180;263.54;2666.0;appentis r0 c9 t-300
+1033;Rampe inclinée métal (Sloped Railing);-0.0;-2649.0;2400.0;180;270.0;2649.0;appentis r0 c9 t-0
+1034;Rampe inclinée métal (Sloped Railing);300.0;-2649.0;2400.0;180;276.46;2666.0;appentis r0 c9 t+300
+1035;Rampe inclinée métal (Sloped Railing);600.0;-2649.0;2400.0;180;282.76;2716.1;appentis r0 c9 t+600
+1036;Rampe inclinée métal (Sloped Railing);804.9;-2594.1;2400.0;210;287.24;2716.1;appentis r0 c10 t-600
+1037;Rampe inclinée métal (Sloped Railing);1064.7;-2444.1;2400.0;210;293.54;2666.0;appentis r0 c10 t-300
+1038;Rampe inclinée métal (Sloped Railing);1324.5;-2294.1;2400.0;210;300.0;2649.0;appentis r0 c10 t-0
+1039;Rampe inclinée métal (Sloped Railing);1584.3;-2144.1;2400.0;210;306.46;2666.0;appentis r0 c10 t+300
+1040;Rampe inclinée métal (Sloped Railing);1844.1;-1994.1;2400.0;210;312.76;2716.1;appentis r0 c10 t+600
+1041;Rampe inclinée métal (Sloped Railing);1994.1;-1844.1;2400.0;240;317.24;2716.1;appentis r0 c11 t-600
+1042;Rampe inclinée métal (Sloped Railing);2144.1;-1584.3;2400.0;240;323.54;2666.0;appentis r0 c11 t-300
+1043;Rampe inclinée métal (Sloped Railing);2294.1;-1324.5;2400.0;240;330.0;2649.0;appentis r0 c11 t-0
+1044;Rampe inclinée métal (Sloped Railing);2444.1;-1064.7;2400.0;240;336.46;2666.0;appentis r0 c11 t+300
+1045;Rampe inclinée métal (Sloped Railing);2594.1;-804.9;2400.0;240;342.76;2716.1;appentis r0 c11 t+600

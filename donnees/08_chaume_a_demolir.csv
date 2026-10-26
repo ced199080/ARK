@@ -1,97 +1,80 @@
 ordre_de_pose;plan;entree_json;couche;tourelle_portee;x;y;Z_bas;pose_au_dessus
-1;Plan_2;1370;JUPE-ext;Tourelle lourde (Heavy);4478.5;750.0;-900.0;Mur métal
-2;Plan_2;1372;TROU;Tourelle lourde (Heavy);-3188.8;-1494.6;0.0;Mur métal
-3;Plan_2;1374;JUPE-ext;Tourelle lourde (Heavy);-1589.7;4253.5;-900.0;Mur métal
-4;Plan_2;1376;JUPE-int;Tourelle lourde (Heavy);2369.1;-3803.5;-900.0;Mur métal
-5;Plan_2;1378;JUPE-int;Tourelle lourde (Heavy);2109.3;3953.5;-900.0;Mur métal
-6;Plan_2;1380;JUPE-ext;Tourelle lourde (Heavy);-1589.7;-4253.5;-900.0;Mur métal
-7;Plan_2;1382;JUPE-int;Tourelle lourde (Heavy);-4103.5;1849.5;-900.0;Mur métal
-8;Plan_2;1384;JUPE-ext;Tourelle lourde (Heavy);4478.5;-750.0;-900.0;Mur métal
-9;Plan_2;1386;JUPE-int;Tourelle lourde (Heavy);3653.5;2628.9;-900.0;Mur métal
-10;Plan_2;1388;JUPE-ext;Tourelle lourde (Heavy);-2888.8;-3503.5;-900.0;Mur métal
-11;Plan_2;1390;JUPE-ext;Tourelle lourde (Heavy);-2888.8;3503.5;-900.0;Mur métal
-12;Plan_2;1392;JUPE-int;Tourelle lourde (Heavy);3653.5;-2628.9;-900.0;Mur métal
-13;Plan_2;1394;JUPE-int;Tourelle lourde (Heavy);450.0;4478.5;-900.0;Mur métal
-14;Plan_2;1396;JUPE-int;Tourelle lourde (Heavy);450.0;-4478.5;-900.0;Mur métal
-15;Plan_2;1398;TROU;Tourelle lourde (Heavy);-3618.7;1309.8;0.0;Mur métal
-16;Plan_2;1400;JUPE-int;Tourelle lourde (Heavy);4103.5;1849.5;-900.0;Mur métal
-17;Plan_2;1402;JUPE-int;Tourelle lourde (Heavy);-3653.5;-2628.9;-900.0;Mur métal
-18;Plan_2;1404;JUPE-int;Tourelle lourde (Heavy);-2109.3;3953.5;-900.0;Mur métal
-19;Plan_2;1406;JUPE-ext;Tourelle lourde (Heavy);2888.8;-3503.5;-900.0;Mur métal
-20;Plan_2;1408;JUPE-ext;Tourelle lourde (Heavy);1589.7;4253.5;-900.0;Mur métal
-21;Plan_2;1410;JUPE-int;Tourelle lourde (Heavy);-450.0;-4478.5;-900.0;Mur métal
-22;Plan_2;1412;TROU;Tourelle lourde (Heavy);-3338.8;1234.8;0.0;Mur métal
-23;Plan_2;1414;JUPE-int;Tourelle lourde (Heavy);4478.5;-150.0;-900.0;Mur métal
-24;Plan_2;1416;JUPE-ext;Tourelle lourde (Heavy);2888.8;3503.5;-900.0;Mur métal
-25;Plan_2;1418;JUPE-int;Tourelle lourde (Heavy);-2369.1;-3803.5;-900.0;Mur métal
-26;Plan_2;1420;JUPE-int;Tourelle lourde (Heavy);-3653.5;2628.9;-900.0;Mur métal
-27;Plan_2;1422;JUPE-int;Tourelle lourde (Heavy);4103.5;-1849.5;-900.0;Mur métal
-28;Plan_2;1424;JUPE-int;Tourelle lourde (Heavy);-450.0;4478.5;-900.0;Mur métal
-29;Plan_2;1426;JUPE-ext;Tourelle lourde (Heavy);1589.7;-4253.5;-900.0;Mur métal
-30;Plan_2;1428;TROU;Tourelle lourde (Heavy);-3468.7;-1569.6;0.0;Mur métal
-31;Plan_7;1;L1;Tourelle Tek;2799.0;0.0;1800.0;Cadre de porte double métal
-32;Plan_7;3;L1;Tourelle Tek;-1919.1;-2124.0;1800.0;Cadre de porte double métal
-33;Plan_7;5;L1;Tourelle Tek;-300.0;2799.0;1800.0;Cadre de porte double métal
-34;Plan_7;7;L1;Tourelle Tek;2274.0;-1659.3;1800.0;Cadre de porte double métal
-35;Plan_7;9;L1;Tourelle Tek;1919.1;2124.0;1800.0;Cadre de porte double métal
-36;Plan_7;11;L1;Tourelle Tek;300.0;-2799.0;1800.0;Cadre de porte double métal
-37;Plan_7;13;L1;Tourelle Tek;-2274.0;1659.3;1800.0;Cadre de porte double métal
-38;Plan_7;15;TROU-L1;Tourelle Tek;-2499.0;-1009.8;1800.0;Mur métal
-39;Plan_7;17;L1;Tourelle Tek;2574.0;1139.7;1800.0;Cadre de porte double métal
-40;Plan_7;19;L1;Tourelle Tek;-879.9;-2724.0;1800.0;Cadre de porte double métal
-41;Plan_7;21;L1;Tourelle Tek;-1399.5;2424.0;1800.0;Cadre de porte double métal
-42;Plan_7;23;L1;Tourelle Tek;2799.0;-600.0;1800.0;Cadre de porte double métal
-43;Plan_7;25;L1;Tourelle Tek;879.9;2724.0;1800.0;Cadre de porte double métal
-44;Plan_7;27;L1;Tourelle Tek;1399.5;-2424.0;1800.0;Cadre de porte double métal
-45;Plan_7;29;L1;Tourelle Tek;-2574.0;-1139.7;1800.0;Cadre de porte double métal
-46;Plan_7;31;L1;Tourelle Tek;2799.0;600.0;1800.0;Cadre de porte double métal
-47;Plan_7;33;L1;Tourelle Tek;-1399.5;-2424.0;1800.0;Cadre de porte double métal
-48;Plan_7;35;L1;Tourelle Tek;-879.9;2724.0;1800.0;Cadre de porte double métal
-49;Plan_7;37;L1;Tourelle Tek;2574.0;-1139.7;1800.0;Cadre de porte double métal
-50;Plan_7;39;L1;Tourelle Tek;1399.5;2424.0;1800.0;Cadre de porte double métal
-51;Plan_7;41;L1;Tourelle Tek;879.9;-2724.0;1800.0;Cadre de porte double métal
-52;Plan_7;43;L1;Tourelle Tek;-2574.0;1139.7;1800.0;Cadre de porte double métal
-53;Plan_7;45;TROU-L1;Tourelle Tek;-2219.1;-934.8;1800.0;Mur métal
-54;Plan_7;47;L1;Tourelle Tek;2274.0;1659.3;1800.0;Cadre de porte double métal
-55;Plan_7;49;L1;Tourelle Tek;-300.0;-2799.0;1800.0;Cadre de porte double métal
-56;Plan_7;51;L1;Tourelle Tek;-1919.1;2124.0;1800.0;Cadre de porte double métal
-57;Plan_7;53;TROU-L1;Tourelle Tek;-1939.2;859.8;1800.0;Mur métal
-58;Plan_7;55;L1;Tourelle Tek;300.0;2799.0;1800.0;Cadre de porte double métal
-59;Plan_7;57;L1;Tourelle Tek;1919.1;-2124.0;1800.0;Cadre de porte double métal
-60;Plan_7;59;L1;Tourelle Tek;-2274.0;-1659.3;1800.0;Cadre de porte double métal
-61;Plan_2;1430;RIVE;Bobine Tesla;3918.7;0.0;300.0;rien
-62;Plan_2;1432;RIVE;Bobine Tesla;-1959.3;-3393.7;300.0;rien
-63;Plan_2;1434;RIVE;Bobine Tesla;-1959.3;3393.7;300.0;rien
-64;Plan_2;1436;RIVE;Bobine Tesla;1959.3;3393.7;300.0;rien
-65;Plan_2;1438;RIVE;Bobine Tesla;1959.3;-3393.7;300.0;rien
-66;Plan_2;1440;TROU;Bobine Tesla;-3058.8;1159.8;300.0;Mur métal
-67;Plan_7;61;L1;Tourelle lourde (Heavy);2799.0;300.0;1800.0;Cadre de porte double métal
-68;Plan_7;63;L1;Tourelle lourde (Heavy);-1139.7;-2574.0;1800.0;Cadre de porte double métal
-69;Plan_7;65;L1;Tourelle lourde (Heavy);-600.0;2799.0;1800.0;Cadre de porte double métal
-70;Plan_7;67;L1;Tourelle lourde (Heavy);2724.0;-879.9;1800.0;Cadre de porte double métal
-71;Plan_7;69;L1;Tourelle lourde (Heavy);1659.3;2274.0;1800.0;Cadre de porte double métal
-72;Plan_7;71;L1;Tourelle lourde (Heavy);1139.7;-2574.0;1800.0;Cadre de porte double métal
-73;Plan_7;73;L1;Tourelle lourde (Heavy);-2424.0;1399.5;1800.0;Cadre de porte double métal
-74;Plan_7;75;TROU-L1;Tourelle lourde (Heavy);-1939.2;-859.8;1800.0;Mur métal
-75;Plan_7;77;L1;Tourelle lourde (Heavy);2424.0;1399.5;1800.0;Cadre de porte double métal
-76;Plan_7;79;L1;Tourelle lourde (Heavy);-0.0;-2799.0;1800.0;Cadre de porte double métal
-77;Plan_7;81;L1;Tourelle lourde (Heavy);-1659.3;2274.0;1800.0;Cadre de porte double métal
-78;Plan_7;83;TROU-L1;Tourelle lourde (Heavy);-2219.1;934.8;1800.0;Mur métal
-79;Plan_7;85;L1;Tourelle lourde (Heavy);600.0;2799.0;1800.0;Cadre de porte double métal
-80;Plan_7;87;L1;Tourelle lourde (Heavy);2124.0;-1919.1;1800.0;Cadre de porte double métal
-81;Plan_7;89;L1;Tourelle lourde (Heavy);-2124.0;-1919.1;1800.0;Cadre de porte double métal
-82;Plan_7;91;L1;Tourelle lourde (Heavy);2724.0;879.9;1800.0;Cadre de porte double métal
-83;Plan_7;93;L1;Tourelle lourde (Heavy);-600.0;-2799.0;1800.0;Cadre de porte double métal
-84;Plan_7;95;L1;Tourelle lourde (Heavy);-1139.7;2574.0;1800.0;Cadre de porte double métal
-85;Plan_7;97;L1;Tourelle lourde (Heavy);2799.0;-300.0;1800.0;Cadre de porte double métal
-86;Plan_7;99;L1;Tourelle lourde (Heavy);1139.7;2574.0;1800.0;Cadre de porte double métal
-87;Plan_7;101;L1;Tourelle lourde (Heavy);1659.3;-2274.0;1800.0;Cadre de porte double métal
-88;Plan_7;103;L1;Tourelle lourde (Heavy);-2424.0;-1399.5;1800.0;Cadre de porte double métal
-89;Plan_7;105;TROU-L1;Tourelle lourde (Heavy);-1659.3;-784.8;1800.0;Mur métal
-90;Plan_7;107;L1;Tourelle lourde (Heavy);2124.0;1919.1;1800.0;Cadre de porte double métal
-91;Plan_7;109;L1;Tourelle lourde (Heavy);600.0;-2799.0;1800.0;Cadre de porte double métal
-92;Plan_7;111;L1;Tourelle lourde (Heavy);-2124.0;1919.1;1800.0;Cadre de porte double métal
-93;Plan_7;113;TROU-L1;Tourelle lourde (Heavy);-2499.0;1009.8;1800.0;Mur métal
-94;Plan_7;115;L1;Tourelle lourde (Heavy);0.0;2799.0;1800.0;Cadre de porte double métal
-95;Plan_7;117;L1;Tourelle lourde (Heavy);2424.0;-1399.5;1800.0;Cadre de porte double métal
-96;Plan_7;119;L1;Tourelle lourde (Heavy);-1659.3;-2274.0;1800.0;Cadre de porte double métal
+1;Plan_03;30;JUPE-ext;Tourelle lourde (Heavy);4478.5;750.0;-900.0;Cadre de porte double métal
+2;Plan_03;931;RIVE;Tourelle lourde (Heavy);-3393.7;-1959.3;300.0;rien
+3;Plan_03;932;RIVE;Tourelle lourde (Heavy);-1439.7;3693.7;300.0;rien
+4;Plan_03;321;JUPE-int;Tourelle lourde (Heavy);2369.1;-3803.5;-900.0;Cadre de porte double métal
+5;Plan_03;93;JUPE-int;Tourelle lourde (Heavy);2109.3;3953.5;-900.0;Cadre de porte double métal
+6;Plan_03;258;JUPE-ext;Tourelle lourde (Heavy);-1589.7;-4253.5;-900.0;Cadre de porte double métal
+7;Plan_03;933;RIVE;Tourelle lourde (Heavy);-3393.7;1959.3;300.0;rien
+8;Plan_03;934;RIVE;Tourelle lourde (Heavy);3918.7;-600.0;300.0;rien
+9;Plan_03;935;RIVE;Tourelle lourde (Heavy);3393.7;1959.3;300.0;rien
+10;Plan_03;936;RIVE;Tourelle lourde (Heavy);-2478.9;-3093.7;300.0;rien
+11;Plan_03;172;JUPE-ext;Tourelle lourde (Heavy);-2888.8;3503.5;-900.0;Cadre de porte double métal
+12;Plan_03;937;RIVE;Tourelle lourde (Heavy);3393.7;-1959.3;300.0;rien
+13;Plan_03;938;RIVE;Tourelle lourde (Heavy);0.0;3918.7;300.0;rien
+14;Plan_03;939;RIVE;Tourelle lourde (Heavy);-0.0;-3918.7;300.0;rien
+15;Plan_04;152;TROU;Tourelle lourde (Heavy);-3618.7;1309.8;0.0;Cadre de porte double métal
+16;Plan_03;49;JUPE-int;Tourelle lourde (Heavy);4103.5;1849.5;-900.0;Cadre de porte double métal
+17;Plan_03;218;JUPE-int;Tourelle lourde (Heavy);-3653.5;-2628.9;-900.0;Cadre de porte double métal
+18;Plan_03;159;JUPE-int;Tourelle lourde (Heavy);-2109.3;3953.5;-900.0;Cadre de porte double métal
+19;Plan_03;940;RIVE;Tourelle lourde (Heavy);2478.9;-3093.7;300.0;rien
+20;Plan_03;941;RIVE;Tourelle lourde (Heavy);1439.7;3693.7;300.0;rien
+21;Plan_03;277;JUPE-int;Tourelle lourde (Heavy);-450.0;-4478.5;-900.0;Cadre de porte double métal
+22;Plan_04;153;TROU;Tourelle lourde (Heavy);-3338.8;1234.8;0.0;Cadre de porte double métal
+23;Plan_03;17;JUPE-int;Tourelle lourde (Heavy);4478.5;-150.0;-900.0;Cadre de porte double métal
+24;Plan_03;80;JUPE-ext;Tourelle lourde (Heavy);2888.8;3503.5;-900.0;Cadre de porte double métal
+25;Plan_03;245;JUPE-int;Tourelle lourde (Heavy);-2369.1;-3803.5;-900.0;Cadre de porte double métal
+26;Plan_03;191;JUPE-int;Tourelle lourde (Heavy);-3653.5;2628.9;-900.0;Cadre de porte double métal
+27;Plan_03;360;JUPE-int;Tourelle lourde (Heavy);4103.5;-1849.5;-900.0;Cadre de porte double métal
+28;Plan_03;132;JUPE-int;Tourelle lourde (Heavy);-450.0;4478.5;-900.0;Cadre de porte double métal
+29;Plan_03;308;JUPE-ext;Tourelle lourde (Heavy);1589.7;-4253.5;-900.0;Cadre de porte double métal
+30;Plan_04;154;TROU;Tourelle lourde (Heavy);-3468.7;-1569.6;0.0;Cadre de porte double métal
+31;Plan_06;513;L1;Tourelle Tek;2799.0;0.0;1800.0;Cadre de porte double métal
+32;Plan_06;514;TROU-L1;Tourelle Tek;-2499.0;-1009.8;1800.0;Cadre de porte double métal
+33;Plan_06;515;L1;Tourelle Tek;-300.0;2799.0;1800.0;Cadre de porte double métal
+34;Plan_06;516;L1;Tourelle Tek;1139.7;-2574.0;1800.0;Cadre de porte double métal
+35;Plan_06;517;L1;Tourelle Tek;1919.1;2124.0;1800.0;Cadre de porte double métal
+36;Plan_06;518;L1;Tourelle Tek;-1139.7;-2574.0;1800.0;Cadre de porte double métal
+37;Plan_06;519;L1;Tourelle Tek;-2274.0;1659.3;1800.0;Cadre de porte double métal
+38;Plan_06;520;L1;Tourelle Tek;2724.0;-879.9;1800.0;Cadre de porte double métal
+39;Plan_06;521;L1;Tourelle Tek;2574.0;1139.7;1800.0;Cadre de porte double métal
+40;Plan_06;522;L1;Tourelle Tek;-2124.0;-1919.1;1800.0;Cadre de porte double métal
+41;Plan_06;523;L1;Tourelle Tek;-1399.5;2424.0;1800.0;Cadre de porte double métal
+42;Plan_06;524;L1;Tourelle Tek;2124.0;-1919.1;1800.0;Cadre de porte double métal
+43;Plan_06;525;L1;Tourelle Tek;879.9;2724.0;1800.0;Cadre de porte double métal
+44;Plan_06;526;L1;Tourelle Tek;-0.0;-2799.0;1800.0;Cadre de porte double métal
+45;Plan_06;527;TROU-L1;Tourelle Tek;-2499.0;1009.8;1800.0;Cadre de porte double métal
+46;Plan_03;942;RIVE;Bobine Tesla;3918.7;0.0;300.0;rien
+47;Plan_03;943;RIVE;Bobine Tesla;-1959.3;-3393.7;300.0;rien
+48;Plan_03;944;RIVE;Bobine Tesla;-1959.3;3393.7;300.0;rien
+49;Plan_03;945;RIVE;Bobine Tesla;1959.3;3393.7;300.0;rien
+50;Plan_03;946;RIVE;Bobine Tesla;1959.3;-3393.7;300.0;rien
+51;Plan_04;308;TROU;Bobine Tesla;-3188.8;-1494.6;300.0;Cadre de porte double métal
+52;Plan_06;528;L1;Tourelle lourde (Heavy);2799.0;600.0;1800.0;Cadre de porte double métal
+53;Plan_06;529;L1;Tourelle lourde (Heavy);-2424.0;-1399.5;1800.0;Cadre de porte double métal
+54;Plan_06;530;L1;Tourelle lourde (Heavy);-879.9;2724.0;1800.0;Cadre de porte double métal
+55;Plan_06;531;L1;Tourelle lourde (Heavy);1659.3;-2274.0;1800.0;Cadre de porte double métal
+56;Plan_06;532;L1;Tourelle lourde (Heavy);1399.5;2424.0;1800.0;Cadre de porte double métal
+57;Plan_06;533;L1;Tourelle lourde (Heavy);-600.0;-2799.0;1800.0;Cadre de porte double métal
+58;Plan_06;534;L1;Tourelle lourde (Heavy);-2574.0;1139.7;1800.0;Cadre de porte double métal
+59;Plan_06;535;L1;Tourelle lourde (Heavy);2274.0;1659.3;1800.0;Cadre de porte double métal
+60;Plan_06;536;L1;Tourelle lourde (Heavy);-1659.3;-2274.0;1800.0;Cadre de porte double métal
+61;Plan_06;537;L1;Tourelle lourde (Heavy);-1919.1;2124.0;1800.0;Cadre de porte double métal
+62;Plan_06;538;L1;Tourelle lourde (Heavy);2424.0;-1399.5;1800.0;Cadre de porte double métal
+63;Plan_06;539;L1;Tourelle lourde (Heavy);300.0;2799.0;1800.0;Cadre de porte double métal
+64;Plan_06;540;L1;Tourelle lourde (Heavy);600.0;-2799.0;1800.0;Cadre de porte double métal
+65;Plan_06;541;TROU-L1;Tourelle lourde (Heavy);-2219.1;934.8;1800.0;Cadre de porte double métal
+66;Plan_05;932;D4;Tourelle lourde (Heavy);2164.2;729.9;2400.0;Mur métal
+67;Plan_05;933;D4;Tourelle Tek;-1509.3;-1714.2;2400.0;Mur métal
+68;Plan_05;934;D4;Tourelle Tek;-729.9;2164.2;2400.0;Mur métal
+69;Plan_05;935;D4;Tourelle lourde (Heavy);1714.2;-1509.3;2400.0;Mur métal
+70;Plan_05;936;D4;Bobine Tesla;989.7;2014.2;2400.0;Mur métal
+71;Plan_05;937;D4;Tourelle Tek;729.9;-2164.2;2400.0;Mur métal
+72;Plan_05;938;TROU-D4;Tourelle Tek;-1939.2;-859.8;2400.0;Mur métal
+73;Plan_05;939;D4;Tourelle Tek;1509.3;1714.2;2400.0;Mur métal
+74;Plan_05;940;D4;Tourelle lourde (Heavy);-450.0;-2239.2;2400.0;Mur métal
+75;Plan_05;941;D4;Tourelle lourde (Heavy);-1714.2;1509.3;2400.0;Mur métal
+76;Plan_05;942;D4;Tourelle Tek;2239.2;-450.0;2400.0;Mur métal
+77;Plan_05;943;D4;Tourelle lourde (Heavy);450.0;2239.2;2400.0;Mur métal
+78;Plan_05;944;D4;Bobine Tesla;1249.5;-1864.2;2400.0;Mur métal
+79;Plan_05;945;D4;Tourelle lourde (Heavy);-1714.2;-1509.3;2400.0;Mur métal
