@@ -22,10 +22,10 @@ La tourelle reste au nu de la façade, dans une ouverture de 300 × 300, avec un
 | Étage | Z | Contenu (60 positions sur la ligne D5, 53 hors du trou) |
 |---|---|---|
 | Fût | 0 → 1800 | **318 cadres doubles** (6 niveaux) |
-| **L1** | 1800 → 2100 | **26 murs de chaume + tourelles** (13 Tek, 13 Heavy, alternées), répartis régulièrement autour du cercle ; **27 cadres doubles** aux autres positions |
+| **L1** | 1800 → 2100 | **31 murs de chaume + tourelles** (16 Tek, 15 Heavy, alternées), répartis régulièrement autour du cercle ; **22 cadres doubles** aux autres positions |
 | **L2** | 2100 → 2400 | **53 cadres doubles** |
 
-Les 3 tourelles L1 coupées par le trou (2 Tek, 1 Heavy) sont sur des murs de bord du couloir et du pod, au niveau 6.
+Les 4 tourelles L1 coupées par le trou (2 Tek, 2 Heavy) sont sur des murs de bord du couloir et du pod, au niveau 6.
 
 ```
             appentis ╱╲ casquette
@@ -68,7 +68,7 @@ Le plancher Z2100 est porté par la tour du pod et par les pièces des anneaux 8
 | 30° : chaume | (2 724,0 ; 879,9) | (2 574,0 ; 1 139,7) | (2 424,0 ; 1 399,5) | (2 274,0 ; 1 659,3) | (2 124,0 ; 1 919,1) |
 | autres côtés | rotation de 60°·m du côté 0° ou du côté 30° | | | | |
 
-Les 26 positions occupées sont prises régulièrement autour du cercle, à peu près une sur deux (`donnees/05_matrice_tourelles.csv`, couche L1). C'est la ligne L1 qui complète le cap de 100 (module 05).
+Les 31 positions occupées sont prises régulièrement autour du cercle, à peu près une sur deux (`donnees/05_matrice_tourelles.csv`, couche L1). C'est la ligne L1 qui complète le cap de 100 (module 05).
 
 **Ordre en jeu**
 1. Le plan 6 pose les murs de chaume dans la ligne D5, au niveau L1, avec les cadres L2 au-dessus.
@@ -103,6 +103,6 @@ Les deux partent du haut de D5 (Z2400), sur les mêmes lignes de lames (milieu d
 
 - [ ] Fût : 318 cadres doubles ; fermé par les murs de bord au droit du trou.
 - [ ] 3 planchers de galerie (Z1800, 2100, 2400), 5 trappes à Z2100.
-- [ ] L1 : 26 murs de chaume et 27 cadres doubles sur D5 ; L2 : 53 cadres doubles.
+- [ ] L1 : 31 murs de chaume et 22 cadres doubles sur D5 ; L2 : 53 cadres doubles.
 - [ ] Casquette : 53 rampes ; appentis : 53 rampes et 53 poteaux ; casquette du trou du couloir : 4 rampes.
-- [ ] Après le plan 7 : 26 tourelles L1 (+ 3 au bord du trou) ; murs de chaume démolis à la fin, cadres L2 restés en place.
+- [ ] Après le plan 7 : 31 tourelles L1 (+ 4 au bord du trou) ; murs de chaume démolis à la fin, cadres L2 restés en place.

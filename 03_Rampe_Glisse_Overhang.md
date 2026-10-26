@@ -4,7 +4,7 @@ Templates (`templates/plans/`, module 06) :
 
 | Plan | Contenu |
 |---|---|
-| `Plan_03_bord_D8-D7.json` | mur de rive D7 et mur de jupe D8 en **cadres doubles**, overhang et débord en rampes, poteaux sur les paliers, poutres fines, murs de chaume des tourelles de la jupe et de la rive |
+| `Plan_03_bord_D8-D7.json` | mur de rive D7 et mur de jupe D8 en **cadres doubles**, overhang et débord en rampes, poteaux sur les paliers, murs de chaume des tourelles de la rive |
 | `Plan_04_D7-D5_pente_A.json` | pente A en rampes, de la rive vers la cage, avec ses **poteaux de stabilité** ; murs de bord du trou entre D5 et D7, en cadres doubles |
 | `Plan_02_colonnade_option.json` | **option** : colonnade circulaire sous la pente A. Les poteaux de stabilité la remplacent |
 
@@ -14,7 +14,9 @@ Templates (`templates/plans/`, module 06) :
 
 **Le trou** (module 06) coupe la rive, la colonnade, la pente A, l'overhang, la jupe et les pics à l'avant, entre θ ≈ 155° et 205°. Les chiffres ci-dessous sont ceux de la base avec le trou.
 
-Les tourelles de la jupe et de la rive se posent avec le plan 7 (module 05). Leurs murs de chaume sont dans le plan 3, à leur place dans la colonne de murs.
+Les tourelles de la rive se posent avec le plan 7 (module 05). Leurs murs de chaume sont dans le plan 3, à leur place dans la colonne de murs.
+
+**Aucune tourelle sous le niveau des fondations centrales (Z0).** Les 16 Heavy de la jupe, qui pendaient sous la plateforme, sont supprimées. Leurs places du cap vont à une 2e Heavy de rive par côté, au niveau 0 (Z0 → 300), et à L1.
 
 Coordonnées : `donnees/Plan_03_*.csv`, `donnees/Plan_04_*.csv`, `donnees/03_colonnade.csv`, `donnees/03_ligne_pics.csv`. Coupe (θ 0°, hors trou) : `plans/coupe_radiale.png`. Rampes : `plans/plan_rampes.png`.
 
@@ -33,16 +35,17 @@ Coordonnées : `donnees/Plan_03_*.csv`, `donnees/Plan_04_*.csv`, `donnees/03_col
 | **Ligne de Metal Spike Walls** | 4 069, sur le palier 1 | §6 |
 | Palier 2 (Z −300) | 4 179 → 4 479 | module 01 §4 |
 | Bord de plateforme D8 : mur de jupe | 4 479 | §5 |
-| Débord de rampes dans le vide | 4 479 → 5 079 | §5 |
+| Débord de rampes dans le vide | 4 479 → 4 779 | §5 |
 
 ## 2. Mur de rive (D7), en cadres doubles
 
 | Niveau | Z | Contenu (84 positions = 12 côtés × 7, dont 10 au-dessus du trou) |
 |---|---|---|
-| 0 | 0 → 300 | **74 cadres doubles**. Pas de sas : l'accès se fait par Tek Teleporter, ou par une porte double dans un cadre |
+| 0 | 0 → 300 | **63 cadres doubles** + **11 murs de chaume** de Heavy, une par côté (mur 1 ou 5 des côtés E0 et E1, à l'opposé de celle du niveau 1). Pas de sas : l'accès se fait par Tek Teleporter, ou par une porte double dans un cadre |
 | 1 | 300 → 600 | **58 cadres doubles** + **16 murs de chaume** de tourelles : 5 Tesla au milieu des côtés E0 (θ 0°, 60°, 120°, 240°, 300°) et 11 Heavy, une par côté (milieu des côtés E1, mur 1 ou 5 des côtés E0) |
 
-- Les 2 emplacements qui tombent dans le trou (la Tesla de 180° et une Heavy) sont reposés sur les murs de bord du trou, face au gouffre (module 06 §4).
+- **2 Heavy par côté**, à 2 niveaux et à 600 UU l'une de l'autre au moins : chaque côté du dodécagone et ses paliers sont vus par 2 tourelles. Elles sont toutes au-dessus de Z0, sur la fondation de l'anneau 13.
+- Les 3 emplacements qui tombent dans le trou (la Tesla de 180° et les 2 Heavy du côté 180°) sont reposés sur les murs de bord du trou, face au gouffre (module 06 §4).
 - Au droit du trou, la rive est remplacée par les **murs de bord du trou** (module 06 §3).
 - **Cadres doubles** : chaque cadre laisse une ouverture de porte double. Les tourelles, qui sont derrière, tirent au travers, comme sur les tours 1201 et 1809. Posez des portes doubles dans les cadres que vous voulez fermer.
 - **Après démolition du chaume**, chaque emplacement de tourelle est une ouverture de 300 × 300, la tourelle au nu du mur.
@@ -101,22 +104,20 @@ Les lignes de lames sont sur les **joints des murs de rive** (t = ±150, ±450, 
 ### 5.2 Mur de jupe : sur le bord de la plateforme
 
 - **Sur l'arête extérieure de l'anneau 15** (bord D8, apothème 4 478,5), 8 cadres doubles par côté.
-- **2 niveaux** : niveau 1, de Z −300 à 0, posé sur le palier 2 ; niveau 0, de Z −600 à −300, suspendu dessous, contre la tranche des fondations. **166 cadres doubles.**
-- Il porte **16 Heavy verticales** du dessous de la plateforme : 11 tournées vers le piton, 5 vers la mer. Leurs murs de chaume pendent sous le niveau 0, au milieu d'un cadre de jupe (module 05). Les 2 qui tombaient dans le trou sont reposées sur des murs de bord du trou (module 06 §4).
+- **1 niveau**, de Z −300 à 0, posé sur le palier 2. **83 cadres doubles.** Rien n'est posé sous les fondations : l'ancien niveau suspendu (Z −600 → −300), que le jeu n'accepte pas forcément, est supprimé.
+- **Aucune tourelle** : les Heavy de la jupe sont remplacées par la 2e Heavy de rive (§2).
 - **Pas de plafonds de jupe.** Sous des rampes, ils formeraient un palier où l'on pourrait se poser.
-- ⚠ À valider en solo : le niveau 0 suspendu sous le bord de l'anneau 15 (le contrôle de collisions l'admet : il touche la tranche des fondations).
 
 ### 5.3 Débord : les rampes dans le vide
 
 | Rang | Apothème du bas | Z bas → haut | **Rampes posées** | Position |
 |---|---|---|---|---|
-| **r−3** | 4 778,5 | −300 → 0 | 94 | 1re structure dans le vide, accrochée au haut de la jupe |
-| **r−4** | 5 078,5 | −600 → −300 | 94 | 2e structure dans le vide (`--debord 2`, défaut) |
-| **Total overhang + débord** | | | **356** | |
+| **r−3** | 4 778,5 | −300 → 0 | 94 | 1 seule lame dans le vide, pendue au haut de la jupe (`--debord 1`, défaut) |
+| **Total overhang + débord** | | | **262** | |
 
 - Les lignes du débord partent du haut de la jupe (Z0), sur les **joints de ses cadres** (t = 0, ±300 … ±1 200), à 150 UU des lignes de l'overhang.
-- **Appui** : une **poutre fine** (Flat Thin Pillar couché) part du niveau 0 de la jupe, à Z −300, et sort de 300 UU dans le vide sous chaque ligne. Elle porte la jonction r−3 / r−4, comme les poutres fines de la tour 1809 : **94 poutres**.
-- Bout du débord : 600 UU au-delà du bord de la plateforme (300 UU avec `--debord 1`). **Pose en Template Hammer uniquement.**
+- **Appui** : le haut de la jupe. Une seule lame pend de son appui, comme la lame de rive de la tour 1201 : elle se pose sans poutre ni Template Hammer.
+- Bout du débord : 300 UU au-delà du bord de la plateforme. L'option `--debord 2` ajoute un 2e rang (r−4, Z −600 → −300) porté par 94 poutres fines accrochées sous la jupe : pose en Template Hammer uniquement, déconseillée.
 
 ## 6. Ligne de pics protégée (bordure basse)
 
@@ -134,7 +135,7 @@ Sur une lame inclinée à 45°, ni un joueur ni un dino ne tient debout. Ce qui 
 | 2 | Appentis, puis casquette (module 04) | Z2700 → D5 (Z2400) → 3 099 (Z2100) | chute sur la pente A, devant la tête des tourelles L1 |
 | 3 | Pente A | 3 099 → 3 919 (Z1420 → 600) | continue sur l'overhang |
 | 4 | Overhang | 3 919 → 4 519 (Z600 → 0) | tombe de 40 UU sur le débord |
-| 5 | Débord | 4 519 → 5 079 (Z −40 → −600) | **dans le vide**, 600 UU au-delà de la plateforme |
+| 5 | Débord | 4 519 → 4 779 (Z −40 → −300) | **dans le vide**, 300 UU au-delà de la plateforme |
 | — | Au droit du trou : toit, casquettes du trou, pente A | jusqu'au bord du gouffre | **dans le trou** |
 
 **Entre les lames** (vide de 300 UU) :
@@ -146,12 +147,12 @@ Sur une lame inclinée à 45°, ni un joueur ni un dino ne tient debout. Ce qui 
 | Casquette | une tête de tourelle L1, ou la pente A | L1 à bout portant |
 | Pente A | l'attique A (Z0) | Plant X, tir de L1 entre les lames |
 | Overhang r−1, r−2 | les paliers de bord | pics, Heavy et Tesla de rive |
-| Débord r−3, r−4 | le vide, le long de la jupe | Heavy de jupe |
+| Débord r−3 | le vide, le long de la jupe | 2 Heavy de rive et L1 tirent vers la mer ; sous la plateforme, aucune tourelle (§5.2) |
 
 ## 8. Contrôles de fin de module
 
-- [ ] Rive : 2 niveaux de cadres doubles (132), 16 murs de chaume au niveau 1 (5 Tesla, 11 Heavy) ; remplacée par les murs de bord au droit du trou.
-- [ ] Pente A : 208 rampes, 146 poteaux de stabilité (563 piliers fins). Overhang : 168 rampes et 83 poteaux sur les paliers. Débord : 188 rampes et 94 poutres fines. Jupe : 166 cadres doubles sur le bord D8. Aucune rampe au-dessus du trou.
+- [ ] Rive : 2 niveaux de cadres doubles (121), 27 murs de chaume (niveau 0 : 11 Heavy ; niveau 1 : 5 Tesla, 11 Heavy) ; remplacée par les murs de bord au droit du trou.
+- [ ] Pente A : 208 rampes, 146 poteaux de stabilité (563 piliers fins). Overhang : 168 rampes et 83 poteaux sur les paliers. Débord : 94 rampes. Jupe : 83 cadres doubles sur le palier 2, rien sous Z0. Aucune rampe au-dessus du trou.
 - [ ] Colonnade : posée ou non (option) ; elle ne gêne aucun poteau.
 - [ ] Aucune lame ne prend appui sur un mur de chaume.
 - [ ] 74 pics posés sous r−1.

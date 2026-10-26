@@ -484,63 +484,63 @@ entree;piece;x;y;Z_plan;yaw;theta;rayon;repere
 482;Plafond triangle métal;2311.5;-1334.6;1800.0;150;330.0;2669.1;galerie Z1800 anneau 9
 483;Plafond triangle métal;2461.5;-1074.8;1800.0;150;336.41;2685.9;galerie Z1800 anneau 9
 484;Plafond triangle métal;2611.5;-815.0;1800.0;150;342.67;2735.7;galerie Z1800 anneau 9
-485;Cadre de porte double métal;-2219.1;-934.8;1800.0;120.0;202.84;2408.0;bord du trou niv6 θ202.8
-486;Cadre de porte double métal;2799.0;-600.0;1800.0;0;347.9;2862.6;cage L1 c0 p0
+485;Cadre de porte double métal;-2219.1;934.8;1800.0;240.0;157.16;2408.0;bord du trou niv6 θ157.2
+486;Cadre de porte double métal;-2499.0;-1009.8;1800.0;90.0;202.0;2695.3;bord du trou niv6 θ202.0
 487;Cadre de porte double métal;2799.0;-300.0;1800.0;0;353.88;2815.1;cage L1 c0 p1
-488;Cadre de porte double métal;2799.0;300.0;1800.0;0;6.12;2815.1;cage L1 c0 p3
-489;Cadre de porte double métal;2724.0;879.9;1800.0;30;17.9;2862.6;cage L1 c1 p0
-490;Cadre de porte double métal;2424.0;1399.5;1800.0;30;30.0;2799.0;cage L1 c1 p2
-491;Cadre de porte double métal;2124.0;1919.1;1800.0;30;42.1;2862.6;cage L1 c1 p4
-492;Cadre de porte double métal;1659.3;2274.0;1800.0;60;53.88;2815.1;cage L1 c2 p1
-493;Cadre de porte double métal;1139.7;2574.0;1800.0;60;66.12;2815.1;cage L1 c2 p3
-494;Cadre de porte double métal;600.0;2799.0;1800.0;90;77.9;2862.6;cage L1 c3 p0
-495;Cadre de porte double métal;0.0;2799.0;1800.0;90;90.0;2799.0;cage L1 c3 p2
-496;Cadre de porte double métal;-600.0;2799.0;1800.0;90;102.1;2862.6;cage L1 c3 p4
-497;Cadre de porte double métal;-1139.7;2574.0;1800.0;120;113.88;2815.1;cage L1 c4 p1
-498;Cadre de porte double métal;-1659.3;2274.0;1800.0;120;126.12;2815.1;cage L1 c4 p3
-499;Cadre de porte double métal;-2124.0;1919.1;1800.0;150;137.9;2862.6;cage L1 c5 p0
-500;Cadre de porte double métal;-2424.0;1399.5;1800.0;150;150.0;2799.0;cage L1 c5 p2
-501;Cadre de porte double métal;-2574.0;-1139.7;1800.0;210;203.88;2815.1;cage L1 c7 p1
-502;Cadre de porte double métal;-2274.0;-1659.3;1800.0;210;216.12;2815.1;cage L1 c7 p3
-503;Cadre de porte double métal;-1919.1;-2124.0;1800.0;240;227.9;2862.6;cage L1 c8 p0
-504;Cadre de porte double métal;-1399.5;-2424.0;1800.0;240;240.0;2799.0;cage L1 c8 p2
-505;Cadre de porte double métal;-879.9;-2724.0;1800.0;240;252.1;2862.6;cage L1 c8 p4
-506;Cadre de porte double métal;-300.0;-2799.0;1800.0;270;263.88;2815.1;cage L1 c9 p1
-507;Cadre de porte double métal;300.0;-2799.0;1800.0;270;276.12;2815.1;cage L1 c9 p3
-508;Cadre de porte double métal;879.9;-2724.0;1800.0;300;287.9;2862.6;cage L1 c10 p0
-509;Cadre de porte double métal;1399.5;-2424.0;1800.0;300;300.0;2799.0;cage L1 c10 p2
-510;Cadre de porte double métal;1919.1;-2124.0;1800.0;300;312.1;2862.6;cage L1 c10 p4
-511;Cadre de porte double métal;2274.0;-1659.3;1800.0;330;323.88;2815.1;cage L1 c11 p1
-512;Cadre de porte double métal;2574.0;-1139.7;1800.0;330;336.12;2815.1;cage L1 c11 p3
-513;Mur de chaume (gabarit de pose, à démolir);2799.0;0.0;1800.0;0;0.0;2799.0;#31 L1 c0 p2 (chaume a demolir)
-514;Mur de chaume (gabarit de pose, à démolir);-2499.0;-1009.8;1800.0;90.0;202.0;2695.3;#32 TROU-L1 c3 p1 (chaume a demolir)
-515;Mur de chaume (gabarit de pose, à démolir);-300.0;2799.0;1800.0;90;96.12;2815.1;#33 L1 c3 p3 (chaume a demolir)
-516;Mur de chaume (gabarit de pose, à démolir);1139.7;-2574.0;1800.0;300;293.88;2815.1;#34 L1 c10 p1 (chaume a demolir)
-517;Mur de chaume (gabarit de pose, à démolir);1919.1;2124.0;1800.0;60;47.9;2862.6;#35 L1 c2 p0 (chaume a demolir)
-518;Mur de chaume (gabarit de pose, à démolir);-1139.7;-2574.0;1800.0;240;246.12;2815.1;#36 L1 c8 p3 (chaume a demolir)
-519;Mur de chaume (gabarit de pose, à démolir);-2274.0;1659.3;1800.0;150;143.88;2815.1;#37 L1 c5 p1 (chaume a demolir)
-520;Mur de chaume (gabarit de pose, à démolir);2724.0;-879.9;1800.0;330;342.1;2862.6;#38 L1 c11 p4 (chaume a demolir)
-521;Mur de chaume (gabarit de pose, à démolir);2574.0;1139.7;1800.0;30;23.88;2815.1;#39 L1 c1 p1 (chaume a demolir)
-522;Mur de chaume (gabarit de pose, à démolir);-2124.0;-1919.1;1800.0;210;222.1;2862.6;#40 L1 c7 p4 (chaume a demolir)
-523;Mur de chaume (gabarit de pose, à démolir);-1399.5;2424.0;1800.0;120;120.0;2799.0;#41 L1 c4 p2 (chaume a demolir)
-524;Mur de chaume (gabarit de pose, à démolir);2124.0;-1919.1;1800.0;330;317.9;2862.6;#42 L1 c11 p0 (chaume a demolir)
-525;Mur de chaume (gabarit de pose, à démolir);879.9;2724.0;1800.0;60;72.1;2862.6;#43 L1 c2 p4 (chaume a demolir)
-526;Mur de chaume (gabarit de pose, à démolir);-0.0;-2799.0;1800.0;270;270.0;2799.0;#44 L1 c9 p2 (chaume a demolir)
-527;Mur de chaume (gabarit de pose, à démolir);-2499.0;1009.8;1800.0;270.0;158.0;2695.3;#45 TROU-L1 c9 p0 (chaume a demolir)
-528;Mur de chaume (gabarit de pose, à démolir);2799.0;600.0;1800.0;0;12.1;2862.6;#52 L1 c0 p4 (chaume a demolir)
-529;Mur de chaume (gabarit de pose, à démolir);-2424.0;-1399.5;1800.0;210;210.0;2799.0;#53 L1 c7 p2 (chaume a demolir)
-530;Mur de chaume (gabarit de pose, à démolir);-879.9;2724.0;1800.0;120;107.9;2862.6;#54 L1 c4 p0 (chaume a demolir)
-531;Mur de chaume (gabarit de pose, à démolir);1659.3;-2274.0;1800.0;300;306.12;2815.1;#55 L1 c10 p3 (chaume a demolir)
-532;Mur de chaume (gabarit de pose, à démolir);1399.5;2424.0;1800.0;60;60.0;2799.0;#56 L1 c2 p2 (chaume a demolir)
-533;Mur de chaume (gabarit de pose, à démolir);-600.0;-2799.0;1800.0;270;257.9;2862.6;#57 L1 c9 p0 (chaume a demolir)
-534;Mur de chaume (gabarit de pose, à démolir);-2574.0;1139.7;1800.0;150;156.12;2815.1;#58 L1 c5 p3 (chaume a demolir)
-535;Mur de chaume (gabarit de pose, à démolir);2274.0;1659.3;1800.0;30;36.12;2815.1;#59 L1 c1 p3 (chaume a demolir)
-536;Mur de chaume (gabarit de pose, à démolir);-1659.3;-2274.0;1800.0;240;233.88;2815.1;#60 L1 c8 p1 (chaume a demolir)
-537;Mur de chaume (gabarit de pose, à démolir);-1919.1;2124.0;1800.0;120;132.1;2862.6;#61 L1 c4 p4 (chaume a demolir)
-538;Mur de chaume (gabarit de pose, à démolir);2424.0;-1399.5;1800.0;330;330.0;2799.0;#62 L1 c11 p2 (chaume a demolir)
-539;Mur de chaume (gabarit de pose, à démolir);300.0;2799.0;1800.0;90;83.88;2815.1;#63 L1 c3 p1 (chaume a demolir)
-540;Mur de chaume (gabarit de pose, à démolir);600.0;-2799.0;1800.0;270;282.1;2862.6;#64 L1 c9 p4 (chaume a demolir)
-541;Mur de chaume (gabarit de pose, à démolir);-2219.1;934.8;1800.0;240.0;157.16;2408.0;#65 TROU-L1 c8 p2 (chaume a demolir)
+488;Cadre de porte double métal;2799.0;600.0;1800.0;0;12.1;2862.6;cage L1 c0 p4
+489;Cadre de porte double métal;2574.0;1139.7;1800.0;30;23.88;2815.1;cage L1 c1 p1
+490;Cadre de porte double métal;2124.0;1919.1;1800.0;30;42.1;2862.6;cage L1 c1 p4
+491;Cadre de porte double métal;1659.3;2274.0;1800.0;60;53.88;2815.1;cage L1 c2 p1
+492;Cadre de porte double métal;1139.7;2574.0;1800.0;60;66.12;2815.1;cage L1 c2 p3
+493;Cadre de porte double métal;300.0;2799.0;1800.0;90;83.88;2815.1;cage L1 c3 p1
+494;Cadre de porte double métal;-300.0;2799.0;1800.0;90;96.12;2815.1;cage L1 c3 p3
+495;Cadre de porte double métal;-1139.7;2574.0;1800.0;120;113.88;2815.1;cage L1 c4 p1
+496;Cadre de porte double métal;-1659.3;2274.0;1800.0;120;126.12;2815.1;cage L1 c4 p3
+497;Cadre de porte double métal;-2124.0;1919.1;1800.0;150;137.9;2862.6;cage L1 c5 p0
+498;Cadre de porte double métal;-2574.0;1139.7;1800.0;150;156.12;2815.1;cage L1 c5 p3
+499;Cadre de porte double métal;-2424.0;-1399.5;1800.0;210;210.0;2799.0;cage L1 c7 p2
+500;Cadre de porte double métal;-1919.1;-2124.0;1800.0;240;227.9;2862.6;cage L1 c8 p0
+501;Cadre de porte double métal;-1399.5;-2424.0;1800.0;240;240.0;2799.0;cage L1 c8 p2
+502;Cadre de porte double métal;-600.0;-2799.0;1800.0;270;257.9;2862.6;cage L1 c9 p0
+503;Cadre de porte double métal;-0.0;-2799.0;1800.0;270;270.0;2799.0;cage L1 c9 p2
+504;Cadre de porte double métal;600.0;-2799.0;1800.0;270;282.1;2862.6;cage L1 c9 p4
+505;Cadre de porte double métal;1399.5;-2424.0;1800.0;300;300.0;2799.0;cage L1 c10 p2
+506;Cadre de porte double métal;1919.1;-2124.0;1800.0;300;312.1;2862.6;cage L1 c10 p4
+507;Cadre de porte double métal;2424.0;-1399.5;1800.0;330;330.0;2799.0;cage L1 c11 p2
+508;Cadre de porte double métal;2724.0;-879.9;1800.0;330;342.1;2862.6;cage L1 c11 p4
+509;Mur de chaume (gabarit de pose, à démolir);2799.0;0.0;1800.0;0;0.0;2799.0;#25 L1 c0 p2 (chaume a demolir)
+510;Mur de chaume (gabarit de pose, à démolir);2274.0;-1659.3;1800.0;330;323.88;2815.1;#26 L1 c11 p1 (chaume a demolir)
+511;Mur de chaume (gabarit de pose, à démolir);600.0;2799.0;1800.0;90;77.9;2862.6;#28 L1 c3 p0 (chaume a demolir)
+512;Mur de chaume (gabarit de pose, à démolir);-1139.7;-2574.0;1800.0;240;246.12;2815.1;#29 L1 c8 p3 (chaume a demolir)
+513;Mur de chaume (gabarit de pose, à démolir);2274.0;1659.3;1800.0;30;36.12;2815.1;#30 L1 c1 p3 (chaume a demolir)
+514;Mur de chaume (gabarit de pose, à démolir);-2574.0;-1139.7;1800.0;210;203.88;2815.1;#31 L1 c7 p1 (chaume a demolir)
+515;Mur de chaume (gabarit de pose, à démolir);-1399.5;2424.0;1800.0;120;120.0;2799.0;#32 L1 c4 p2 (chaume a demolir)
+516;Mur de chaume (gabarit de pose, à démolir);879.9;-2724.0;1800.0;300;287.9;2862.6;#33 L1 c10 p0 (chaume a demolir)
+517;Mur de chaume (gabarit de pose, à démolir);2724.0;879.9;1800.0;30;17.9;2862.6;#34 L1 c1 p0 (chaume a demolir)
+518;Mur de chaume (gabarit de pose, à démolir);2799.0;-600.0;1800.0;0;347.9;2862.6;#35 L1 c0 p0 (chaume a demolir)
+519;Mur de chaume (gabarit de pose, à démolir);-2499.0;1009.8;1800.0;270.0;158.0;2695.3;#36 TROU-L1 c9 p0 (chaume a demolir)
+520;Mur de chaume (gabarit de pose, à démolir);-600.0;2799.0;1800.0;90;102.1;2862.6;#37 L1 c3 p4 (chaume a demolir)
+521;Mur de chaume (gabarit de pose, à démolir);-300.0;-2799.0;1800.0;270;263.88;2815.1;#38 L1 c9 p1 (chaume a demolir)
+522;Mur de chaume (gabarit de pose, à démolir);1399.5;2424.0;1800.0;60;60.0;2799.0;#39 L1 c2 p2 (chaume a demolir)
+523;Mur de chaume (gabarit de pose, à démolir);-2124.0;-1919.1;1800.0;210;222.1;2862.6;#40 L1 c7 p4 (chaume a demolir)
+524;Mur de chaume (gabarit de pose, à démolir);-2274.0;1659.3;1800.0;150;143.88;2815.1;#41 L1 c5 p1 (chaume a demolir)
+525;Mur de chaume (gabarit de pose, à démolir);1659.3;-2274.0;1800.0;300;306.12;2815.1;#42 L1 c10 p3 (chaume a demolir)
+526;Mur de chaume (gabarit de pose, à démolir);2799.0;300.0;1800.0;0;6.12;2815.1;#49 L1 c0 p3 (chaume a demolir)
+527;Mur de chaume (gabarit de pose, à démolir);2574.0;-1139.7;1800.0;330;336.12;2815.1;#50 L1 c11 p3 (chaume a demolir)
+528;Mur de chaume (gabarit de pose, à démolir);-2219.1;-934.8;1800.0;120.0;202.84;2408.0;#51 TROU-L1 c4 p1 (chaume a demolir)
+529;Mur de chaume (gabarit de pose, à démolir);0.0;2799.0;1800.0;90;90.0;2799.0;#52 L1 c3 p2 (chaume a demolir)
+530;Mur de chaume (gabarit de pose, à démolir);-879.9;-2724.0;1800.0;240;252.1;2862.6;#53 L1 c8 p4 (chaume a demolir)
+531;Mur de chaume (gabarit de pose, à démolir);1919.1;2124.0;1800.0;60;47.9;2862.6;#54 L1 c2 p0 (chaume a demolir)
+532;Mur de chaume (gabarit de pose, à démolir);-2274.0;-1659.3;1800.0;210;216.12;2815.1;#55 L1 c7 p3 (chaume a demolir)
+533;Mur de chaume (gabarit de pose, à démolir);-1919.1;2124.0;1800.0;120;132.1;2862.6;#56 L1 c4 p4 (chaume a demolir)
+534;Mur de chaume (gabarit de pose, à démolir);1139.7;-2574.0;1800.0;300;293.88;2815.1;#57 L1 c10 p1 (chaume a demolir)
+535;Mur de chaume (gabarit de pose, à démolir);2424.0;1399.5;1800.0;30;30.0;2799.0;#58 L1 c1 p2 (chaume a demolir)
+536;Mur de chaume (gabarit de pose, à démolir);-879.9;2724.0;1800.0;120;107.9;2862.6;#60 L1 c4 p0 (chaume a demolir)
+537;Mur de chaume (gabarit de pose, à démolir);300.0;-2799.0;1800.0;270;276.12;2815.1;#61 L1 c9 p3 (chaume a demolir)
+538;Mur de chaume (gabarit de pose, à démolir);879.9;2724.0;1800.0;60;72.1;2862.6;#62 L1 c2 p4 (chaume a demolir)
+539;Mur de chaume (gabarit de pose, à démolir);-1659.3;-2274.0;1800.0;240;233.88;2815.1;#63 L1 c8 p1 (chaume a demolir)
+540;Mur de chaume (gabarit de pose, à démolir);-2424.0;1399.5;1800.0;150;150.0;2799.0;#64 L1 c5 p2 (chaume a demolir)
+541;Mur de chaume (gabarit de pose, à démolir);2124.0;-1919.1;1800.0;330;317.9;2862.6;#65 L1 c11 p0 (chaume a demolir)
 542;Plafond triangle métal;2369.1;-450.0;2100.0;0;349.25;2411.5;galerie Z2100 anneau 8
 543;Plafond triangle métal;2369.1;-150.0;2100.0;0;356.38;2373.9;galerie Z2100 anneau 8
 544;Plafond triangle métal;2369.1;150.0;2100.0;0;3.62;2373.9;galerie Z2100 anneau 8
@@ -608,11 +608,11 @@ entree;piece;x;y;Z_plan;yaw;theta;rayon;repere
 606;Plafond métal;1994.1;-1324.5;2100.0;330;326.41;2393.9;galerie Z2100 anneau 8
 607;Plafond métal;2144.1;-1064.7;2100.0;330;333.59;2393.9;galerie Z2100 anneau 8
 608;Plafond métal;2294.1;-804.9;2100.0;330;340.67;2431.2;galerie Z2100 anneau 8
-609;Plafond métal;2649.0;-600.0;2100.0;0;347.24;2716.1;galerie Z2100 anneau 9
-610;Plafond métal;2649.0;-300.0;2100.0;0;353.54;2666.0;galerie Z2100 anneau 9
+609;Plafond métal;2649.0;-300.0;2100.0;0;353.54;2666.0;galerie Z2100 anneau 9
+610;Plafond métal;2649.0;-600.0;2100.0;0;347.24;2716.1;galerie Z2100 anneau 9
 611;Plafond métal;2649.0;0.0;2100.0;0;0.0;2649.0;galerie Z2100 anneau 9
-612;Plafond métal;2649.0;300.0;2100.0;0;6.46;2666.0;galerie Z2100 anneau 9
-613;Plafond métal;2649.0;600.0;2100.0;0;12.76;2716.1;galerie Z2100 anneau 9
+612;Plafond métal;2649.0;600.0;2100.0;0;12.76;2716.1;galerie Z2100 anneau 9
+613;Plafond métal;2649.0;300.0;2100.0;0;6.46;2666.0;galerie Z2100 anneau 9
 614;Plafond triangle métal;2536.5;944.9;2100.0;30;20.43;2706.8;galerie Z2100 anneau 9
 615;Plafond triangle métal;2386.5;1204.7;2100.0;30;26.78;2673.3;galerie Z2100 anneau 9
 616;Plafond triangle métal;2236.5;1464.5;2100.0;30;33.22;2673.3;galerie Z2100 anneau 9
@@ -636,8 +636,8 @@ entree;piece;x;y;Z_plan;yaw;theta;rayon;repere
 634;Plafond triangle métal;0.0;2669.1;2100.0;270;90.0;2669.1;galerie Z2100 anneau 9
 635;Plafond triangle métal;-300.0;2669.1;2100.0;270;96.41;2685.9;galerie Z2100 anneau 9
 636;Plafond triangle métal;-600.0;2669.1;2100.0;270;102.67;2735.7;galerie Z2100 anneau 9
-637;Plafond métal;-804.9;2594.1;2100.0;120;107.24;2716.1;galerie Z2100 anneau 9
-638;Plafond métal;-1064.7;2444.1;2100.0;120;113.54;2666.0;galerie Z2100 anneau 9
+637;Plafond métal;-1064.7;2444.1;2100.0;120;113.54;2666.0;galerie Z2100 anneau 9
+638;Plafond métal;-804.9;2594.1;2100.0;120;107.24;2716.1;galerie Z2100 anneau 9
 639;Plafond métal;-1324.5;2294.1;2100.0;120;120.0;2649.0;galerie Z2100 anneau 9
 640;Plafond métal;-1584.3;2144.1;2100.0;120;126.46;2666.0;galerie Z2100 anneau 9
 641;Plafond métal;-1844.1;1994.1;2100.0;120;132.76;2716.1;galerie Z2100 anneau 9
@@ -659,19 +659,19 @@ entree;piece;x;y;Z_plan;yaw;theta;rayon;repere
 657;Plafond métal;-1584.3;-2144.1;2100.0;240;233.54;2666.0;galerie Z2100 anneau 9
 658;Plafond métal;-1324.5;-2294.1;2100.0;240;240.0;2649.0;galerie Z2100 anneau 9
 659;Plafond métal;-1064.7;-2444.1;2100.0;240;246.46;2666.0;galerie Z2100 anneau 9
-660;Plafond métal;-804.9;-2594.1;2100.0;240;252.76;2716.1;galerie Z2100 anneau 9
-661;Plafond triangle métal;-450.0;-2669.1;2100.0;270;260.43;2706.8;galerie Z2100 anneau 9
-662;Plafond triangle métal;-150.0;-2669.1;2100.0;270;266.78;2673.3;galerie Z2100 anneau 9
-663;Plafond triangle métal;150.0;-2669.1;2100.0;270;273.22;2673.3;galerie Z2100 anneau 9
-664;Plafond triangle métal;450.0;-2669.1;2100.0;270;279.57;2706.8;galerie Z2100 anneau 9
-665;Plafond triangle métal;-600.0;-2669.1;2100.0;90;257.33;2735.7;galerie Z2100 anneau 9
+660;Plafond triangle métal;-450.0;-2669.1;2100.0;270;260.43;2706.8;galerie Z2100 anneau 9
+661;Plafond triangle métal;-150.0;-2669.1;2100.0;270;266.78;2673.3;galerie Z2100 anneau 9
+662;Plafond triangle métal;150.0;-2669.1;2100.0;270;273.22;2673.3;galerie Z2100 anneau 9
+663;Plafond triangle métal;450.0;-2669.1;2100.0;270;279.57;2706.8;galerie Z2100 anneau 9
+664;Plafond triangle métal;-600.0;-2669.1;2100.0;90;257.33;2735.7;galerie Z2100 anneau 9
+665;Plafond métal;-804.9;-2594.1;2100.0;240;252.76;2716.1;galerie Z2100 anneau 9
 666;Plafond triangle métal;-300.0;-2669.1;2100.0;90;263.59;2685.9;galerie Z2100 anneau 9
 667;Plafond triangle métal;-0.0;-2669.1;2100.0;90;270.0;2669.1;galerie Z2100 anneau 9
 668;Plafond triangle métal;300.0;-2669.1;2100.0;90;276.41;2685.9;galerie Z2100 anneau 9
-669;Plafond métal;804.9;-2594.1;2100.0;300;287.24;2716.1;galerie Z2100 anneau 9
-670;Plafond triangle métal;600.0;-2669.1;2100.0;90;282.67;2735.7;galerie Z2100 anneau 9
-671;Plafond métal;1064.7;-2444.1;2100.0;300;293.54;2666.0;galerie Z2100 anneau 9
-672;Plafond métal;1324.5;-2294.1;2100.0;300;300.0;2649.0;galerie Z2100 anneau 9
+669;Plafond triangle métal;600.0;-2669.1;2100.0;90;282.67;2735.7;galerie Z2100 anneau 9
+670;Plafond métal;804.9;-2594.1;2100.0;300;287.24;2716.1;galerie Z2100 anneau 9
+671;Plafond métal;1324.5;-2294.1;2100.0;300;300.0;2649.0;galerie Z2100 anneau 9
+672;Plafond métal;1064.7;-2444.1;2100.0;300;293.54;2666.0;galerie Z2100 anneau 9
 673;Plafond métal;1584.3;-2144.1;2100.0;300;306.46;2666.0;galerie Z2100 anneau 9
 674;Plafond métal;1844.1;-1994.1;2100.0;300;312.76;2716.1;galerie Z2100 anneau 9
 675;Plafond triangle métal;2086.5;-1724.3;2100.0;330;320.43;2706.8;galerie Z2100 anneau 9

@@ -78,12 +78,12 @@ En tout : **160 murs et cadres + 8 murs de chaume** de tourelles reposées.
 
 ## 4. Tourelles reposées face au gouffre
 
-Le trou supprime des emplacements de tourelles : L1, jupe, rive et anneau D4. Ils sont **reposés sur les murs de bord, face au gouffre**, chacun sur une colonne de murs différente :
+Le trou supprime des emplacements de tourelles : L1, rive et anneau D4. Ils sont **reposés sur les murs de bord, face au gouffre**, chacun sur une colonne de murs différente :
 
 | Couche | Tourelles | Où | Plan du chaume | Plan de la tourelle |
 |---|---|---|---|---|
-| **TROU** | 3 Heavy (Z0) + 1 Tesla (Z300) | murs de bord entre D5 et D7, les plus proches du bord de la plateforme | 4 | 7 |
-| **TROU-L1** | 2 Tek + 1 Heavy (Z1800) | murs de bord du couloir et du pod, niveau 6 ; on les recharge depuis la galerie et la mezzanine | 6 ou 5 | 7 |
+| **TROU** | 2 Heavy (Z0) + 1 Tesla (Z300) | murs de bord entre D5 et D7, les plus proches du bord de la plateforme | 4 | 7 |
+| **TROU-L1** | 2 Tek + 2 Heavy (Z1800) | murs de bord du couloir et du pod, niveau 6 ; on les recharge depuis la galerie et la mezzanine | 6 ou 5 | 7 |
 | **TROU-D4** | 1 Tek (Z2400) | mur de bord du pod, niveau 8, comme l'anneau D4 | 5 | 8 |
 
 Détail : module 05 §6.
@@ -96,12 +96,12 @@ Chaque plan a **2 000 entrées au plus** (limite de Template Hammer). Dans chaqu
 |---|---|---|---|---|---|---|
 | **1** | `Plan_01_sol_complet.json` | tout le sol : 344 fondations + 684 triangles (paliers et plateforme verte compris), sans le trou | 1 030 | 34 300 | 10 632 | pile d'ancrage (2 demi-piliers) |
 | 2 | `Plan_02_colonnade_option.json` | **option** : colonnade de 226 piliers sous la pente A | 227 | 5 650 | 1 582 | pile |
-| **3** | `Plan_03_bord_D8-D7.json` | **bord D8 → D7** : rive (132 cadres doubles), jupe (166 cadres doubles), overhang et débord (356 rampes), 83 poteaux sur les paliers (123 piliers fins, 43 demi-piliers fins), 94 poutres fines, 32 murs de chaume (rive et jupe) | 947 | 14 844 | 4 108 | pile |
-| **4** | `Plan_04_D7-D5_pente_A.json` | **D7 → D5** : pente A (208 rampes), 146 poteaux de stabilité (563 piliers fins), murs de bord du trou (32 cadres doubles), 4 murs de chaume | 808 | 10 615 | 3 100 | pile |
-| **5** | `Plan_05_tour_du_pod_D4.json` | **tour du pod** : 348 murs pleins + 17 cadres doubles (portes), 89 murs de bord du trou, 216 piliers PA/PB, 6 escaliers, mezzanine (255 plafonds), 14 murs de chaume (anneau D4) | 946 | 23 085 | 6 480 | pile |
-| **6** | `Plan_06_D5-D4_cage_et_appentis.json` | **D5 → D4** : fût, L1 et L2 (398 cadres doubles), murs de bord du couloir (29 cadres doubles), galeries (426 pièces), casquette (53 rampes), appentis (53 rampes, 53 poteaux), casquette du trou (4 rampes), 29 murs de chaume (L1) | 1 046 | 22 749 | 6 366 | pile |
-| **7** | `Plan_07_tourelles_D8-D4.json` | **défense D8 → D4** : 44 Heavy, 15 Tek, 6 Tesla, 5 carrés de culture | 71 | — | — | pile |
-| **8** | `Plan_08_tourelles_perimetre_pod.json` | **défense du périmètre du pod** : 6 Heavy, 6 Tek, 2 Tesla, 6 carrés de culture | 21 | — | — | pile |
+| **3** | `Plan_03_bord_D8-D7.json` | **bord D8 → D7** : rive (121 cadres doubles), jupe (83 cadres doubles, 1 niveau sur le palier 2), overhang et débord (262 rampes), 83 poteaux sur les paliers (123 piliers fins, 43 demi-piliers fins), 27 murs de chaume (rive) | 660 | 10 144 | 2 792 | pile |
+| **4** | `Plan_04_D7-D5_pente_A.json` | **D7 → D5** : pente A (208 rampes), 146 poteaux de stabilité (563 piliers fins), murs de bord du trou (33 cadres doubles), 3 murs de chaume | 808 | 10 640 | 3 107 | pile |
+| **5** | `Plan_05_tour_du_pod_D4.json` | **tour du pod** : 348 murs pleins + 17 cadres doubles (portes), 87 murs de bord du trou, 216 piliers PA/PB, 6 escaliers, mezzanine (255 plafonds), **4 cages du noyau** (28 murs, 4 cadres doubles, 4 plafonds), 16 murs de chaume (anneau D4, bord du trou) | 982 | 23 975 | 6 730 | pile |
+| **6** | `Plan_06_D5-D4_cage_et_appentis.json` | **D5 → D4** : fût, L1 et L2 (393 cadres doubles), murs de bord du couloir (30 cadres doubles), galeries (426 pièces), casquette (53 rampes), appentis (53 rampes, 53 poteaux), casquette du trou (4 rampes), 33 murs de chaume (L1, bord du trou) | 1 046 | 22 649 | 6 338 | pile |
+| **7** | `Plan_07_tourelles_D8-D4.json` | **défense D8 → D4** : 41 Heavy, 18 Tek, 6 Tesla, 5 grands carrés de culture | 71 | — | — | pile |
+| **8** | `Plan_08_tourelles_perimetre_pod.json` | **défense du périmètre du pod** : 6 Heavy, 6 Tek, 2 Tesla, 6 carrés de culture moyens | 21 | — | — | pile |
 | **9** | `Plan_09_toiture_pleine_D4-centre.json` | **toiture pleine D4 → centre** : couronne (40 murs de D4 + 10 murs de bord), 24 piliers PA/PB, plancher de toit (260 plafonds + 1 trappe) | 335 | 8 027 | 2 258 | **mur A** |
 | **10** | `Plan_10_toit_en_rampes_D4-centre.json` | **toit en rampes D4 → centre** : mur C, 170 rampes, 96 poteaux (288 piliers fins), casquette du trou (8 rampes) | 467 | 5 905 | 1 693 | **mur C** |
 | **11** | `Plan_11_tourelles_dessus.json` | **défense du dessus** : mur B, 2 Heavy, 2 Tek, 2 Tesla, 4 carrés de culture | 11 | 25 | 7 | **mur B** |

@@ -12,12 +12,12 @@ Le centre est une **tour** (le pod), dont vous pouvez faire varier la hauteur. �
 | Module | Document | Ce qu'il couvre |
 |---|---|---|
 | 01 | [01_Sol_Fondations_Decaissement.md](01_Sol_Fondations_Decaissement.md) | Calpinage carrés + triangles en étoile, Ø30, **bord abaissé en 2 paliers** (Ø26 → −150, Ø28 → −300), fondations du trou |
-| 02 | [02_Pod_Central_Atelier.md](02_Pod_Central_Atelier.md) | **Tour du pod** en murs pleins, hall, escaliers, piliers, mezzanine ; **toit D4 → centre calé sur un mur de D4** (toiture pleine, toit en rampes) ; rehausse |
-| 03 | [03_Rampe_Glisse_Overhang.md](03_Rampe_Glisse_Overhang.md) | Rive et jupe en cadres doubles, **rampes de glisse** (pente A, overhang, débord) et leurs **poteaux de stabilité**, colonnade en option, ligne de pics |
+| 02 | [02_Pod_Central_Atelier.md](02_Pod_Central_Atelier.md) | **Tour du pod** en murs pleins, hall, escaliers, piliers, mezzanine, **noyau** (générateurs et boîtes de munitions en cage) ; **toit D4 → centre calé sur un mur de D4** (toiture pleine, toit en rampes) ; rehausse |
+| 03 | [03_Rampe_Glisse_Overhang.md](03_Rampe_Glisse_Overhang.md) | Rive (2 Heavy par côté) et jupe en cadres doubles, **rampes de glisse** (pente A, overhang, débord) et leurs **poteaux de stabilité**, colonnade en option, ligne de pics |
 | 04 | [04_Tourelles_DoubleDoorframes.md](04_Tourelles_DoubleDoorframes.md) | Cage D5 → D4 en cadres doubles : tourelles verticales L1, L2, casquette, **appentis** vers la tour |
-| 05 | [05_Defense_Cap_Repartition.md](05_Defense_Cap_Repartition.md) | **Cap de 100** : Heavy, Tek, Tesla et **Plant Species X** ; 3 plans de défense ; **couverture de tous les angles** ; câblage |
+| 05 | [05_Defense_Cap_Repartition.md](05_Defense_Cap_Repartition.md) | **Cap de 100** : Heavy, Tek, Tesla et **Plant Species X**, aucune sous Z0 ; 3 plans de défense ; **couverture** ; noyau et câblage |
 | 06 | [06_Plans_et_Trou.md](06_Plans_et_Trou.md) | **Trou à l'avant**, plateforme verte et **les 11 plans par zone** |
-| 07 | [07_Bilan_Materiaux.md](07_Bilan_Materiaux.md) | **Bilan matériaux complet**, équipements compris : réplicateur, forge à vapeur, labo de fortune, 20 stockages dédiés, 20 coffres-forts, 2 générateurs Tek |
+| 07 | [07_Bilan_Materiaux.md](07_Bilan_Materiaux.md) | **Bilan matériaux complet**, équipements compris : réplicateur, forge à vapeur, labo de fortune, 20 stockages dédiés, 20 coffres-forts, 2 générateurs Tek, 2 boîtes de munitions |
 | 08 | [08_Revue_Constructibilite.md](08_Revue_Constructibilite.md) | **Revue de constructibilité** : comparaison avec vos templates, appuis et redondance des rampes, murs de chaume, collisions, ordre de pose, revue du code |
 | 09 | [09_Audit_Limites_Moteur.md](09_Audit_Limites_Moteur.md) | **Audit des limites moteur** : 8 400 structures, 100 places au cap, plafonds à 2 cases d'un appui au sol, 70 murs de haut |
 
@@ -49,25 +49,26 @@ Le centre est une **tour** (le pod), dont vous pouvez faire varier la hauteur. �
 3. **Tous les murs sont des cadres de porte doubles**, comme sur les tours 1201 et 1809, **sauf ceux de la tour du pod** : murs pleins, percés de ses portes.
 4. **Toit en rampes D4 → centre** posé sur une **toiture pleine** (plancher fermé) : 170 rampes et 96 poteaux de piliers fins sous les jonctions de lames. La toiture pleine peut aussi rester seule, en toit plat.
 5. **Poteaux de stabilité** : chaque ligne de rampes qui monte a des poteaux en plus de ceux des tours (toit, pente A, appentis). Elle tient encore si l'un de ses appuis est détruit : 431 lames sur 431. Ils **remplacent la colonnade**, qui passe en option.
-6. **Défense : 100 places au cap, Tesla et Plant X comprises** : 52 Heavy, 23 Tek, 10 Tesla et 15 Plant Species X (en carrés de culture). Elles sont réparties en 3 plans :
+6. **Défense : 100 places au cap, Tesla et Plant X comprises** : 49 Heavy, 26 Tek, 10 Tesla et 15 Plant Species X (en carrés de culture). **Aucune tourelle sous le niveau des fondations centrales** (Z0) : les Heavy de la jupe sont remplacées par une 2e Heavy de rive par côté. Elles sont réparties en 3 plans :
    - du bord à D4 ;
    - le périmètre de la tour ;
    - le dessus.
 
-   Le générateur vérifie la couverture de **tous les angles d'approche**, du dessous de la plateforme au ciel (module 05 §7). Il reste en réserve 28 Heavy et 12 Tek.
-7. **Le trou à l'avant** (θ 180°) suit votre image annotée :
+   Le générateur vérifie la couverture de **tous les angles d'approche** au-dessus de la plateforme (module 05 §7) ; le dessous de la plateforme n'est plus couvert. Deux tourelles sont toujours à 300 UU l'une de l'autre au moins. Il reste en réserve 31 Heavy et 9 Tek.
+7. **Noyau** (module 02 §6.1) : 2 générateurs Tek (principal et secours) et 2 boîtes de munitions, chacun sur une fondation de l'anneau 1, au centre, dans une cage de murs métal de 2 niveaux avec plafond et porte double.
+8. **Le trou à l'avant** (θ 180°) suit votre image annotée :
    - 124 fondations retirées ;
    - 10 fondations de plateforme verte, sans rien dessus ;
    - la base est fermée sur le gouffre par des murs de bord ;
    - 12 lames de casquette du trou ;
    - 8 tourelles face au gouffre.
-8. **Tourelles verticales** sur mur de chaume, comme le template 2727 et la tour 1809. Les 79 murs de chaume sont dans les plans de zone, à leur place dans les murs ; **démolissez-les après la pose des tourelles** (`donnees/08_chaume_a_demolir.csv`).
-9. **Coût** : il reste à fabriquer ≈ **147 500 lingots de métal** et **37 600 pâte cimentée**, équipements compris, hors tourelles (déjà en inventaire). La colonnade en option coûte 5 650 lingots ; chaque niveau de rehausse, 1 900 lingots (module 07).
-10. **Limites moteur** (module 09) :
-    - 5 940 structures (6 028 au plus fort du chantier) pour un plafond de 8 400 ;
+9. **Tourelles verticales** sur mur de chaume, comme le template 2727 et la tour 1809. Les 79 murs de chaume sont dans les plans de zone, à leur place dans les murs ; **démolissez-les après la pose des tourelles** (`donnees/08_chaume_a_demolir.csv`).
+10. **Coût** : il reste à fabriquer ≈ **143 600 lingots de métal** et **36 500 pâte cimentée**, équipements compris (sauf les boîtes de munitions, coût non relevé), hors tourelles (déjà en inventaire). La colonnade en option coûte 5 650 lingots ; chaque niveau de rehausse, 1 900 lingots (module 07).
+11. **Limites moteur** (module 09) :
+    - 5 691 structures (5 779 au plus fort du chantier) pour un plafond de 8 400 ;
     - 17 murs de haut ;
     - aucun plafond à plus de 2 cases d'un appui au sol.
-11. **Aucun toit incliné : des rampes partout.** Sur un toit à 45°, on tient debout ; sur des rampes inclinées (Sloped Railing), rien ne tient et tout glisse : 852 rampes en lignes de lames, comme sur les tours.
+12. **Aucun toit incliné : des rampes partout.** Sur un toit à 45°, on tient debout ; sur des rampes inclinées (Sloped Railing), rien ne tient et tout glisse : 758 rampes en lignes de lames, comme sur les tours. Rien n'est accroché sous les fondations : le débord est une seule lame pendue au haut de la jupe.
 
 ## 2. Conventions (relevées dans les templates fournis)
 
@@ -80,7 +81,7 @@ Le centre est une **tour** (le pod), dont vous pouvez faire varier la hauteur. �
 | z template | fondation Z + 40 · mur, cadre Z_bas + 240 · plafond Z + 90 · pilier Z_bas + 240 · carré de culture, tourelle debout Z + 100 | templates 1201, 1087, 1584, mho |
 | Triangle | pivot à mi-hauteur, yaw = base → pointe (aussi valable à ± 120°) | contrôle 481 : 282/282 |
 | Rampe inclinée (StructureBP_Railing_Sloped_Metal) | lignes de lames au pas de 300 ; +300 UU en hauteur par pas de 300 UU ; pivot au milieu de la rampe, z template = Z du bas + 290 ; yaw = θ du côté − 90° | tours 1201, 1809 |
-| Appui d'une ligne de rampes | part d'un haut de mur, d'un bord de plancher ou d'une poutre fine ; au plus 6 lames libres, 7 entre deux appuis, 1 seule en porte-à-faux ; **poteaux de stabilité** sous les jonctions 1, 4, 7… et le bout haut des lignes montantes | tours 1809 et 1201 ; votre demande |
+| Appui d'une ligne de rampes | part d'un haut de mur, d'un bord de plancher ou d'une tête de pilier ; au plus 6 lames libres, 7 entre deux appuis, 1 seule en porte-à-faux ; **poteaux de stabilité** sous les jonctions 1, 4, 7… et le bout haut des lignes montantes | tours 1809 et 1201 ; votre demande |
 | Tourelle verticale | mur de chaume dans l'emplacement ; pivot 10 UU devant, à mi-hauteur ; Heavy/Tek : pitch −89,5°, yaw θ_tir + 90°, roll −90° ; Tesla : pitch 0°, yaw θ_tir + 90°, roll −90° | templates 2727, 1809 |
 | Mur de référence (plans 9 à 11, rehausse) | mur de D4 du côté θ 90° : A (x = +150, au-dessus de la porte du hall), B (−150), C (−450) ; il se snappe sur le haut de la tour | ce projet |
 | Pilier « large » | Pillar_Metal, largeur prise à 39,3 UU (1 pilier / 1 vide) | template 704 |
@@ -94,7 +95,7 @@ Le centre est une **tour** (le pod), dont vous pouvez faire varier la hauteur. �
 | **D5** | fût de la cage | 2 799,0 | 2 897,8 | 18,66 | 5 |
 | *cercle* | colonnade (option) | rayon 3 600 | — | 24,0 | 288 positions |
 | **D7** | mur de rive | 3 918,7 | 4 056,9 | 26,12 | 7 |
-| **D8** | bord de la plateforme, mur de jupe | 4 478,5 | 4 636,4 | 29,86 | 8 |
+| **D8** | bord de la plateforme, mur de jupe (1 niveau, sur le palier 2) | 4 478,5 | 4 636,4 | 29,86 | 8 |
 
 ## 3. Contenu du dépôt
 
@@ -141,12 +142,12 @@ Le centre est une **tour** (le pod), dont vous pouvez faire varier la hauteur. �
 |---|---|---|---|---|
 | 1 | `Plan_01_sol_complet.json` | toutes les fondations (paliers et plateforme verte compris), pile d'ancrage | 1 030 | pile |
 | 2 | `Plan_02_colonnade_option.json` | **option** : colonnade de 226 piliers sous la pente A | 227 | pile |
-| 3 | `Plan_03_bord_D8-D7.json` | rive et jupe en cadres doubles, overhang et débord, poteaux sur les paliers, poutres fines, chaume de la rive et de la jupe | 947 | pile |
+| 3 | `Plan_03_bord_D8-D7.json` | rive et jupe en cadres doubles, overhang et débord, poteaux sur les paliers, chaume de la rive | 660 | pile |
 | 4 | `Plan_04_D7-D5_pente_A.json` | pente A et ses 146 poteaux de stabilité, murs de bord du trou | 808 | pile |
-| 5 | `Plan_05_tour_du_pod_D4.json` | tour du pod en murs pleins jusqu'à Z2700, piliers PA/PB, escaliers, mezzanine, chaume de l'anneau D4 | 946 | pile |
+| 5 | `Plan_05_tour_du_pod_D4.json` | tour du pod en murs pleins jusqu'à Z2700, piliers PA/PB, escaliers, mezzanine, cages du noyau, chaume de l'anneau D4 | 982 | pile |
 | 6 | `Plan_06_D5-D4_cage_et_appentis.json` | fût, L1 et L2 en cadres doubles, galeries, casquette, appentis et ses poteaux, chaume de L1 | 1 046 | pile |
-| 7 | `Plan_07_tourelles_D8-D4.json` | 44 Heavy, 15 Tek, 6 Tesla, 5 carrés de culture | 71 | pile |
-| 8 | `Plan_08_tourelles_perimetre_pod.json` | 6 Heavy, 6 Tek, 2 Tesla, 6 carrés de culture | 21 | pile |
+| 7 | `Plan_07_tourelles_D8-D4.json` | 41 Heavy, 18 Tek, 6 Tesla, 5 grands carrés de culture | 71 | pile |
+| 8 | `Plan_08_tourelles_perimetre_pod.json` | 6 Heavy, 6 Tek, 2 Tesla, 6 carrés de culture moyens | 21 | pile |
 | — | `Option_rehausse_pod_+1_niveau.json` | **option, autant de fois que voulu** : +1 niveau de tour | 76 | mur A |
 | 9 | `Plan_09_toiture_pleine_D4-centre.json` | couronne, piliers PA/PB, plancher de toit (toit plat, trappe) | 335 | mur A |
 | 10 | `Plan_10_toit_en_rampes_D4-centre.json` | toit en rampes, 96 poteaux, casquette du trou | 467 | mur C |
@@ -163,25 +164,25 @@ Le centre est une **tour** (le pod), dont vous pouvez faire varier la hauteur. �
 2. Plantez les **15 graines de Plant Species X** dans les carrés de culture. Apportez de l'eau (tuyaux ou réservoirs) et de l'engrais.
 3. Posez les 74 Metal Spike Walls (`donnees/03_ligne_pics.csv`).
 4. Posez les portes doubles dans les cadres à fermer (hall, fût, accès galerie, rive) et les échelles : 5 sous les trappes de la galerie, 1 vers la trappe du toit.
-5. Posez les équipements aux emplacements prévus (module 07 §3) et le câblage (module 05 §8).
+5. Posez les équipements aux emplacements prévus (module 07 §3) : générateurs Tek et boîtes de munitions dans les cages du noyau, portes doubles fermées. Puis le câblage (module 05 §8).
 6. Démolissez la pile d'ancrage.
 
 ## 6. Bilan matériaux (détail : module 07 et `donnees/07_bilan_materiaux.xlsx`)
 
 | Poste | Lingots | Pâte | Autres |
 |---|---|---|---|
-| Structure des plans (5 495 pièces, sans la colonnade) | 119 550 | 34 644 | — |
-| Carrés de culture (15) | — | — | 600 bois, 750 chaume, 600 fibre, 1 500 pierre |
+| Structure des plans (5 244 pièces, sans la colonnade) | 115 665 | 33 557 | — |
+| Carrés de culture (9 grands, 6 moyens) | — | — | 360 bois, 570 chaume, 540 fibre, 1 200 pierre |
 | Ancres (8 demi-piliers, temporaires) | 104 | 32 | — |
 | 74 murs de pics | 1 850 | — | 1 480 cuir, 2 220 fibre |
 | 79 murs de chaume (gabarits) | — | — | ~553 chaume, ~316 fibre, ~316 bois |
-| Équipements : 1 réplicateur, 1 forge à vapeur, 1 labo de fortune, 20 stockages dédiés, 20 coffres-forts, 2 générateurs Tek | 26 000 | 2 900 | 220 élément, 3 350 cristal, 470 perles noires, 5 850 polymère, 220 électroniques, 100 poudre étincelante, 1 400 huile |
-| **Total à fabriquer** | **147 504** | **37 576** | — |
-| *Tourelles (52 H, 23 T, 10 S), en inventaire* | *35 380* | *11 550* | *17 340 électroniques, 7 790 polymère, 2 000 cristal, 69 élément* |
+| Équipements : 1 réplicateur, 1 forge à vapeur, 1 labo de fortune, 20 stockages dédiés, 20 coffres-forts, 2 générateurs Tek (2 boîtes de munitions non chiffrées) | 26 000 | 2 900 | 220 élément, 3 350 cristal, 470 perles noires, 5 850 polymère, 220 électroniques, 100 poudre étincelante, 1 400 huile |
+| **Total à fabriquer** | **143 619** | **36 489** | — |
+| *Tourelles (49 H, 26 T, 10 S), en inventaire* | *34 060* | *11 100* | *16 830 électroniques, 7 730 polymère, 2 000 cristal, 78 élément* |
 | Option colonnade | +5 650 | +1 582 | — |
 | Option rehausse, par niveau | +1 900 | +532 | — |
 
-Équivalent brut (hors tourelles) : ≈ 295 000 minerai de métal, ≈ 197 000 chitine ou kératine, ≈ 396 000 pierre.
+Équivalent brut (hors tourelles) : ≈ 288 000 minerai de métal, ≈ 193 000 chitine ou kératine, ≈ 387 000 pierre.
 
 ## 7. Points à valider en jeu (solo / serveur de test)
 
@@ -192,25 +193,24 @@ Le centre est une **tour** (le pod), dont vous pouvez faire varier la hauteur. �
 | 3 | La tourelle, et le mur ou cadre posé au-dessus, restent en place quand on démolit le chaume | Laisser le chaume |
 | 4 | Un plan posé d'un bloc ne se fait pas refuser de pièces faute d'appui | Poser d'abord le plan qui porte l'appui (module 06 §5) |
 | 5 | Un poteau de piliers fins posé sous une jonction de lames tient, et la ligne tient si on détruit son appui | `--appuis tours` (moins de poteaux) |
-| 6 | Le niveau bas de la jupe sous le bord de l'anneau 15, les chaumes de jupe dessous | Template Hammer ; garder le seul niveau haut |
+| 6 | Boîte de munitions : chemin de classe, coût, portée (15 à 20 fondations) | Posée à la main dans sa cage ; toutes les tourelles sont à moins de 4 403 UU du noyau |
 | 7 | Plant Species X compte dans le cap ; un carré de culture se pose sur un plafond métal | `plante_x_comptee = False` : 15 places rendues à L1 |
 | 8 | Les tourelles tirent à travers les cadres doubles et les lames | Portes doubles à ouvrir, tourelles plus haut |
 | 9 | Emprise du trou : chaque fondation blanche est bien au-dessus du vide | Corriger `references/Trou_fondations.json` et régénérer |
 | 10 | Paliers −150 et −300 posables ; Metal Spike Wall sur fondation | `--decaissement 0` ; pics sous l'overhang |
-| 11 | Portée du générateur Tek n°2 ≥ 3 800 UU (les 23 Tek) ; alimentation des Heavy et des Tesla | Rapprocher le générateur, câbles et générateur électrique |
+| 11 | Portée des générateurs Tek ≥ 3 850 UU depuis le noyau (les 26 Tek) ; alimentation des Heavy et des Tesla | 3ᵉ générateur près de la galerie, câbles et générateur électrique |
 | 12 | Hauteur des rampes par rapport à leurs appuis (décalage relevé sur les tours 1201 et 1809) | Corriger `+ 200` dans `pente()` et `bouts_lame()` |
 | 13 | Coût du coffre-fort, des cadres doubles, du carré de culture et des pièces marquées ~ | Vérifier à l'établi |
 
 ## 8. Régénérer ou adapter
 
 ```bash
-python3 outils/forteresse.py                        # défaut : poteaux de stabilité, débord 2, casquette 1
+python3 outils/forteresse.py                        # défaut : poteaux de stabilité, débord 1, casquette 1
 python3 outils/bilan_xlsx.py                        # classeur Excel, après le générateur
 python3 outils/forteresse.py --appuis tours         # appuis comme les tours, sans poteaux de stabilité
 python3 outils/forteresse.py --appuis prudent       # un poteau sous le bout de chaque ligne montante
 python3 outils/forteresse.py --trou autre.json      # autre relevé du trou (listes retirees / plateforme)
 python3 outils/forteresse.py --colonnade 2560       # colonnade (option) dans le couloir, sous la galerie
-python3 outils/forteresse.py --debord 1             # débord d'une seule rampe dans le vide
 python3 outils/forteresse.py --casquette 2          # casquette plus longue
 python3 outils/forteresse.py --decaissement 300     # paliers d'un mur complet (−300 puis −600)
 python3 outils/forteresse.py --verifier-481 chemin/template-481-building-0.json
@@ -230,7 +230,8 @@ Le découpage est dans `PLANS`, les murs de référence dans `REF_MURS`.
 - chaque rampe tenue par ses appuis ;
 - chaque pièce posée après ce qui la porte, plan après plan ;
 - 2 000 entrées au plus par plan ;
-- au plus 8 400 structures, exactement 100 places au cap, 70 murs de haut ;
+- au plus 8 400 structures, exactement 100 places au cap, aucune tourelle sous Z0 ni à moins de 300 UU d'une autre, 70 murs de haut ;
+- une allée d'au moins une fondation devant les stockages du hall ;
 - aucun plafond à plus de 2 cases d'un appui relié au sol.
 
 ## 9. Sources
@@ -240,8 +241,8 @@ Templates fournis (zip *Construction ARK*), utilisés ainsi :
 - **481** (SkunkHD) : étoile de référence ;
 - **2901 / 2902 / 2903** (mho) : rayons et ancre ;
 - **704 / 701** (WUAN) : cercles de piliers et colonnade (option) ;
-- **2727**, **1809**, **1201** : tourelles verticales sur chaume (2727, 1809 ; la 1201 les fixe dans des cadres doubles), Tesla latérales ; **murs en cadres de porte doubles** (1201, 1809) ; **toit en rampes inclinées** (1201, 1809) et **leurs appuis** : poutres fines d'égout, poteaux de faîtage en piliers fins, une seule lame en porte-à-faux (module 08) ;
-- **1584** (*Small PvP Tower*) : grands carrés de culture pour la Plant Species X ;
+- **2727**, **1809**, **1201** : tourelles verticales sur chaume (2727, 1809 ; la 1201 les fixe dans des cadres doubles), Tesla latérales ; **murs en cadres de porte doubles** (1201, 1809) ; **toit en rampes inclinées** (1201, 1809) et **leurs appuis** : poteaux de faîtage en piliers fins, une seule lame en porte-à-faux (module 08) ;
+- **1584** (*Small PvP Tower*) : grands et moyens carrés de culture pour la Plant Species X ;
 - **1087** : double doorframes ;
 - **2552** : repère des pièces de toit (plus utilisées : aucun toit incliné).
 

@@ -193,7 +193,7 @@ pp['A1'] = 'Structure par plan (hors tourelles, carrés de culture et murs de ch
 pp['A2'] = ("Nombre de pièces par plan (bleu) ; coûts unitaires repris de l'onglet Détail (vert). Le plan 2 (colonnade) "
             "est une option, hors du total des autres onglets.")
 pp['A2'].font = Font(name=F_, size=9, italic=True)
-cles = sorted({k for v in S['plans'].values() for k in v['pieces'] if k not in ('heavy', 'tek', 'tesla', 'chaume_mur', 'crop')},
+cles = sorted({k for v in S['plans'].values() for k in v['pieces'] if k not in ('heavy', 'tek', 'tesla', 'chaume_mur', 'crop', 'crop_m')},
               key=lambda k: -S['bilan_complet']['structure']['pieces'].get(k, 0))
 hr = 6
 pp.cell(4, 1, 'Lingots / pièce').font = bold; pp.cell(5, 1, 'Pâte / pièce').font = bold

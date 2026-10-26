@@ -1,69 +1,69 @@
 ordre;priorite;type;couche;plan;cote;index;theta;x_support;y_support;Z_bas;x_tourelle;y_tourelle;Z_tourelle;sens_de_tir
-1;P1 jupe, rive et bord du trou : Heavy;Tourelle lourde (Heavy);JUPE-ext;ext;0;1;9.49;4478.5;750.0;-900.0;4488.5;750.0;-750.0;0
-2;P1 jupe, rive et bord du trou : Heavy;Tourelle lourde (Heavy);RIVE;ext;7;3;210.0;-3393.7;-1959.3;300.0;-3402.3;-1964.3;450.0;210
-3;P1 jupe, rive et bord du trou : Heavy;Tourelle lourde (Heavy);RIVE;ext;4;1;111.32;-1439.7;3693.7;300.0;-1444.7;3702.3;450.0;120
-4;P1 jupe, rive et bord du trou : Heavy;Tourelle lourde (Heavy);JUPE-int;ext;10;0;301.92;2369.1;-3803.5;-900.0;2364.1;-3794.8;-750.0;120
-5;P1 jupe, rive et bord du trou : Heavy;Tourelle lourde (Heavy);JUPE-int;ext;2;0;61.92;2109.3;3953.5;-900.0;2104.3;3944.8;-750.0;240
-6;P1 jupe, rive et bord du trou : Heavy;Tourelle lourde (Heavy);JUPE-ext;ext;8;1;249.49;-1589.7;-4253.5;-900.0;-1594.7;-4262.1;-750.0;240
-7;P1 jupe, rive et bord du trou : Heavy;Tourelle lourde (Heavy);RIVE;ext;5;3;150.0;-3393.7;1959.3;300.0;-3402.3;1964.3;450.0;150
-8;P1 jupe, rive et bord du trou : Heavy;Tourelle lourde (Heavy);RIVE;ext;0;1;351.32;3918.7;-600.0;300.0;3928.7;-600.0;450.0;0
-9;P1 jupe, rive et bord du trou : Heavy;Tourelle lourde (Heavy);RIVE;ext;1;3;30.0;3393.7;1959.3;300.0;3402.3;1964.3;450.0;30
-10;P1 jupe, rive et bord du trou : Heavy;Tourelle lourde (Heavy);RIVE;ext;8;1;231.32;-2478.9;-3093.7;300.0;-2483.9;-3102.3;450.0;240
-11;P1 jupe, rive et bord du trou : Heavy;Tourelle lourde (Heavy);JUPE-ext;ext;4;1;129.49;-2888.7;3503.5;-900.0;-2893.7;3512.1;-750.0;120
-12;P1 jupe, rive et bord du trou : Heavy;Tourelle lourde (Heavy);RIVE;ext;11;3;330.0;3393.7;-1959.3;300.0;3402.3;-1964.3;450.0;330
-13;P1 jupe, rive et bord du trou : Heavy;Tourelle lourde (Heavy);RIVE;ext;3;3;90.0;0.0;3918.7;300.0;0.0;3928.7;450.0;90
-14;P1 jupe, rive et bord du trou : Heavy;Tourelle lourde (Heavy);RIVE;ext;9;3;270.0;-0.0;-3918.7;300.0;-0.0;-3928.7;450.0;270
-15;P1 jupe, rive et bord du trou : Heavy;Tourelle lourde (Heavy);TROU;ext;9;0;160.24;-3618.7;1309.8;0.0;-3618.7;1299.8;150.0;270.0
-16;P1 jupe, rive et bord du trou : Heavy;Tourelle lourde (Heavy);JUPE-int;ext;1;0;24.25;4103.5;1849.5;-900.0;4094.8;1844.5;-750.0;210
-17;P1 jupe, rive et bord du trou : Heavy;Tourelle lourde (Heavy);JUPE-int;ext;7;0;215.75;-3653.5;-2628.9;-900.0;-3644.8;-2623.9;-750.0;30
-18;P1 jupe, rive et bord du trou : Heavy;Tourelle lourde (Heavy);JUPE-int;ext;4;0;118.08;-2109.3;3953.5;-900.0;-2104.3;3944.8;-750.0;300
-19;P1 jupe, rive et bord du trou : Heavy;Tourelle lourde (Heavy);RIVE;ext;10;5;308.68;2478.9;-3093.7;300.0;2483.9;-3102.3;450.0;300
-20;P1 jupe, rive et bord du trou : Heavy;Tourelle lourde (Heavy);RIVE;ext;2;5;68.68;1439.7;3693.7;300.0;1444.7;3702.3;450.0;60
-21;P1 jupe, rive et bord du trou : Heavy;Tourelle lourde (Heavy);JUPE-int;ext;9;0;264.25;-450.0;-4478.5;-900.0;-450.0;-4468.5;-750.0;90
-22;P1 jupe, rive et bord du trou : Heavy;Tourelle lourde (Heavy);TROU;ext;8;2;159.86;-3338.7;1234.8;0.0;-3343.7;1226.1;150.0;240.0
-23;P1 jupe, rive et bord du trou : Heavy;Tourelle lourde (Heavy);JUPE-int;ext;0;0;358.08;4478.5;-150.0;-900.0;4468.5;-150.0;-750.0;180
-24;P1 jupe, rive et bord du trou : Heavy;Tourelle lourde (Heavy);JUPE-ext;ext;2;1;50.51;2888.7;3503.5;-900.0;2893.7;3512.1;-750.0;60
-25;P1 jupe, rive et bord du trou : Heavy;Tourelle lourde (Heavy);JUPE-int;ext;8;0;238.08;-2369.1;-3803.5;-900.0;-2364.1;-3794.8;-750.0;60
-26;P1 jupe, rive et bord du trou : Heavy;Tourelle lourde (Heavy);JUPE-int;ext;5;0;144.25;-3653.5;2628.9;-900.0;-3644.8;2623.9;-750.0;330
-27;P1 jupe, rive et bord du trou : Heavy;Tourelle lourde (Heavy);JUPE-int;ext;11;0;335.75;4103.5;-1849.5;-900.0;4094.8;-1844.5;-750.0;150
-28;P1 jupe, rive et bord du trou : Heavy;Tourelle lourde (Heavy);JUPE-int;ext;3;0;95.75;-450.0;4478.5;-900.0;-450.0;4468.5;-750.0;270
-29;P1 jupe, rive et bord du trou : Heavy;Tourelle lourde (Heavy);JUPE-ext;ext;10;1;290.51;1589.7;-4253.5;-900.0;1594.7;-4262.1;-750.0;300
-30;P1 jupe, rive et bord du trou : Heavy;Tourelle lourde (Heavy);TROU;ext;3;1;204.21;-3468.7;-1569.6;0.0;-3468.7;-1559.6;150.0;90.0
-31;P2 cage L1 : Tek;Tourelle Tek;L1;ext;0;2;0.0;2799.0;0.0;1800.0;2809.0;0.0;1950.0;0
-32;P2 cage L1 : Tek;Tourelle Tek;TROU-L1;ext;3;1;201.81;-2499.0;-1009.8;1800.0;-2499.0;-999.8;1950.0;90.0
-33;P2 cage L1 : Tek;Tourelle Tek;L1;ext;3;3;96.1;-300.0;2799.0;1800.0;-300.0;2809.0;1950.0;90
-34;P2 cage L1 : Tek;Tourelle Tek;L1;ext;10;1;293.9;1139.7;-2574.0;1800.0;1144.7;-2582.7;1950.0;300
-35;P2 cage L1 : Tek;Tourelle Tek;L1;ext;2;0;47.94;1919.1;2124.0;1800.0;1924.1;2132.7;1950.0;60
-36;P2 cage L1 : Tek;Tourelle Tek;L1;ext;8;3;246.1;-1139.7;-2574.0;1800.0;-1144.7;-2582.7;1950.0;240
-37;P2 cage L1 : Tek;Tourelle Tek;L1;ext;5;1;143.9;-2274.0;1659.3;1800.0;-2282.7;1664.3;1950.0;150
-38;P2 cage L1 : Tek;Tourelle Tek;L1;ext;11;4;342.06;2724.0;-879.9;1800.0;2732.7;-884.9;1950.0;330
-39;P2 cage L1 : Tek;Tourelle Tek;L1;ext;1;1;23.9;2574.0;1139.7;1800.0;2582.7;1144.7;1950.0;30
+1;P1 rive et bord du trou : Heavy;Tourelle lourde (Heavy);RIVE;ext;0;5;8.68;3918.7;600.0;0.0;3928.7;600.0;150.0;0
+2;P1 rive et bord du trou : Heavy;Tourelle lourde (Heavy);RIVE;ext;8;5;248.68;-1439.7;-3693.7;0.0;-1444.7;-3702.3;150.0;240
+3;P1 rive et bord du trou : Heavy;Tourelle lourde (Heavy);RIVE;ext;4;5;128.68;-2478.9;3093.7;0.0;-2483.9;3102.3;150.0;120
+4;P1 rive et bord du trou : Heavy;Tourelle lourde (Heavy);RIVE;ext;2;5;68.68;1439.7;3693.7;300.0;1444.7;3702.3;450.0;60
+5;P1 rive et bord du trou : Heavy;Tourelle lourde (Heavy);RIVE;ext;10;5;308.68;2478.9;-3093.7;300.0;2483.9;-3102.3;450.0;300
+6;P1 rive et bord du trou : Heavy;Tourelle lourde (Heavy);TROU;ext;3;1;204.21;-3468.7;-1569.6;0.0;-3468.7;-1559.6;150.0;90.0
+7;P1 rive et bord du trou : Heavy;Tourelle lourde (Heavy);RIVE;ext;1;3;30.0;3393.7;1959.3;300.0;3402.3;1964.3;450.0;30
+8;P1 rive et bord du trou : Heavy;Tourelle lourde (Heavy);RIVE;ext;9;3;270.0;-0.0;-3918.7;300.0;-0.0;-3928.7;450.0;270
+9;P1 rive et bord du trou : Heavy;Tourelle lourde (Heavy);RIVE;ext;5;3;150.0;-3393.7;1959.3;300.0;-3402.3;1964.3;450.0;150
+10;P1 rive et bord du trou : Heavy;Tourelle lourde (Heavy);RIVE;ext;3;5;98.68;-600.0;3918.7;0.0;-600.0;3928.7;150.0;90
+11;P1 rive et bord du trou : Heavy;Tourelle lourde (Heavy);RIVE;ext;11;5;338.68;3693.7;-1439.7;0.0;3702.3;-1444.7;150.0;330
+12;P1 rive et bord du trou : Heavy;Tourelle lourde (Heavy);RIVE;ext;7;5;218.68;-3093.7;-2478.9;0.0;-3102.3;-2483.9;150.0;210
+13;P1 rive et bord du trou : Heavy;Tourelle lourde (Heavy);RIVE;ext;1;1;21.32;3693.7;1439.7;0.0;3702.3;1444.7;150.0;30
+14;P1 rive et bord du trou : Heavy;Tourelle lourde (Heavy);RIVE;ext;9;1;261.32;-600.0;-3918.7;0.0;-600.0;-3928.7;150.0;270
+15;P1 rive et bord du trou : Heavy;Tourelle lourde (Heavy);RIVE;ext;5;1;141.32;-3093.7;2478.9;0.0;-3102.3;2483.9;150.0;150
+16;P1 rive et bord du trou : Heavy;Tourelle lourde (Heavy);RIVE;ext;3;3;90.0;0.0;3918.7;300.0;0.0;3928.7;450.0;90
+17;P1 rive et bord du trou : Heavy;Tourelle lourde (Heavy);RIVE;ext;11;3;330.0;3393.7;-1959.3;300.0;3402.3;-1964.3;450.0;330
+18;P1 rive et bord du trou : Heavy;Tourelle lourde (Heavy);RIVE;ext;7;3;210.0;-3393.7;-1959.3;300.0;-3402.3;-1964.3;450.0;210
+19;P1 rive et bord du trou : Heavy;Tourelle lourde (Heavy);RIVE;ext;2;1;51.32;2478.9;3093.7;0.0;2483.9;3102.3;150.0;60
+20;P1 rive et bord du trou : Heavy;Tourelle lourde (Heavy);RIVE;ext;10;1;291.32;1439.7;-3693.7;0.0;1444.7;-3702.3;150.0;300
+21;P1 rive et bord du trou : Heavy;Tourelle lourde (Heavy);TROU;ext;9;0;160.24;-3618.7;1309.8;0.0;-3618.7;1299.8;150.0;270.0
+22;P1 rive et bord du trou : Heavy;Tourelle lourde (Heavy);RIVE;ext;4;1;111.32;-1439.7;3693.7;300.0;-1444.7;3702.3;450.0;120
+23;P1 rive et bord du trou : Heavy;Tourelle lourde (Heavy);RIVE;ext;0;1;351.32;3918.7;-600.0;300.0;3928.7;-600.0;450.0;0
+24;P1 rive et bord du trou : Heavy;Tourelle lourde (Heavy);RIVE;ext;8;1;231.32;-2478.9;-3093.7;300.0;-2483.9;-3102.3;450.0;240
+25;P2 cage L1 : Tek;Tourelle Tek;L1;ext;0;2;0.0;2799.0;0.0;1800.0;2809.0;0.0;1950.0;0
+26;P2 cage L1 : Tek;Tourelle Tek;L1;ext;11;1;323.9;2274.0;-1659.3;1800.0;2282.7;-1664.3;1950.0;330
+27;P2 cage L1 : Tek;Tourelle Tek;TROU-L1;ext;9;2;156.34;-1939.2;859.8;1800.0;-1939.2;849.8;1950.0;270.0
+28;P2 cage L1 : Tek;Tourelle Tek;L1;ext;3;0;77.94;600.0;2799.0;1800.0;600.0;2809.0;1950.0;90
+29;P2 cage L1 : Tek;Tourelle Tek;L1;ext;8;3;246.1;-1139.7;-2574.0;1800.0;-1144.7;-2582.7;1950.0;240
+30;P2 cage L1 : Tek;Tourelle Tek;L1;ext;1;3;36.1;2274.0;1659.3;1800.0;2282.7;1664.3;1950.0;30
+31;P2 cage L1 : Tek;Tourelle Tek;L1;ext;7;1;203.9;-2574.0;-1139.7;1800.0;-2582.7;-1144.7;1950.0;210
+32;P2 cage L1 : Tek;Tourelle Tek;L1;ext;4;2;120.0;-1399.5;2424.0;1800.0;-1404.5;2432.7;1950.0;120
+33;P2 cage L1 : Tek;Tourelle Tek;L1;ext;10;0;287.94;879.9;-2724.0;1800.0;884.9;-2732.7;1950.0;300
+34;P2 cage L1 : Tek;Tourelle Tek;L1;ext;1;0;17.94;2724.0;879.9;1800.0;2732.7;884.9;1950.0;30
+35;P2 cage L1 : Tek;Tourelle Tek;L1;ext;0;0;347.94;2799.0;-600.0;1800.0;2809.0;-600.0;1950.0;0
+36;P2 cage L1 : Tek;Tourelle Tek;TROU-L1;ext;9;0;158.19;-2499.0;1009.8;1800.0;-2499.0;999.8;1950.0;270.0
+37;P2 cage L1 : Tek;Tourelle Tek;L1;ext;3;4;102.06;-600.0;2799.0;1800.0;-600.0;2809.0;1950.0;90
+38;P2 cage L1 : Tek;Tourelle Tek;L1;ext;9;1;263.9;-300.0;-2799.0;1800.0;-300.0;-2809.0;1950.0;270
+39;P2 cage L1 : Tek;Tourelle Tek;L1;ext;2;2;60.0;1399.5;2424.0;1800.0;1404.5;2432.7;1950.0;60
 40;P2 cage L1 : Tek;Tourelle Tek;L1;ext;7;4;222.06;-2124.0;-1919.1;1800.0;-2132.7;-1924.1;1950.0;210
-41;P2 cage L1 : Tek;Tourelle Tek;L1;ext;4;2;120.0;-1399.5;2424.0;1800.0;-1404.5;2432.7;1950.0;120
-42;P2 cage L1 : Tek;Tourelle Tek;L1;ext;11;0;317.94;2124.0;-1919.1;1800.0;2132.7;-1924.1;1950.0;330
-43;P2 cage L1 : Tek;Tourelle Tek;L1;ext;2;4;72.06;879.9;2724.0;1800.0;884.9;2732.7;1950.0;60
-44;P2 cage L1 : Tek;Tourelle Tek;L1;ext;9;2;270.0;-0.0;-2799.0;1800.0;-0.0;-2809.0;1950.0;270
-45;P2 cage L1 : Tek;Tourelle Tek;TROU-L1;ext;9;0;158.19;-2499.0;1009.8;1800.0;-2499.0;999.8;1950.0;270.0
-46;P3 Tesla : rive et bord du trou;Bobine Tesla;RIVE;ext;0;3;0.0;3918.7;0.0;300.0;3928.7;0.0;450.0;0
-47;P3 Tesla : rive et bord du trou;Bobine Tesla;RIVE;ext;8;3;240.0;-1959.3;-3393.7;300.0;-1964.3;-3402.3;450.0;240
-48;P3 Tesla : rive et bord du trou;Bobine Tesla;RIVE;ext;4;3;120.0;-1959.3;3393.7;300.0;-1964.3;3402.3;450.0;120
-49;P3 Tesla : rive et bord du trou;Bobine Tesla;RIVE;ext;2;3;60.0;1959.3;3393.7;300.0;1964.3;3402.3;450.0;60
-50;P3 Tesla : rive et bord du trou;Bobine Tesla;RIVE;ext;10;3;300.0;1959.3;-3393.7;300.0;1964.3;-3402.3;450.0;300
-51;P3 Tesla : rive et bord du trou;Bobine Tesla;TROU;ext;4;0;204.95;-3188.7;-1494.6;300.0;-3193.7;-1486.0;450.0;120.0
-52;P4 cage L1 : Heavy;Tourelle lourde (Heavy);L1;ext;0;4;12.06;2799.0;600.0;1800.0;2809.0;600.0;1950.0;0
-53;P4 cage L1 : Heavy;Tourelle lourde (Heavy);L1;ext;7;2;210.0;-2424.0;-1399.5;1800.0;-2432.7;-1404.5;1950.0;210
-54;P4 cage L1 : Heavy;Tourelle lourde (Heavy);L1;ext;4;0;107.94;-879.9;2724.0;1800.0;-884.9;2732.7;1950.0;120
-55;P4 cage L1 : Heavy;Tourelle lourde (Heavy);L1;ext;10;3;306.1;1659.3;-2274.0;1800.0;1664.3;-2282.7;1950.0;300
-56;P4 cage L1 : Heavy;Tourelle lourde (Heavy);L1;ext;2;2;60.0;1399.5;2424.0;1800.0;1404.5;2432.7;1950.0;60
-57;P4 cage L1 : Heavy;Tourelle lourde (Heavy);L1;ext;9;0;257.94;-600.0;-2799.0;1800.0;-600.0;-2809.0;1950.0;270
-58;P4 cage L1 : Heavy;Tourelle lourde (Heavy);L1;ext;5;3;156.1;-2574.0;1139.7;1800.0;-2582.7;1144.7;1950.0;150
-59;P4 cage L1 : Heavy;Tourelle lourde (Heavy);L1;ext;1;3;36.1;2274.0;1659.3;1800.0;2282.7;1664.3;1950.0;30
-60;P4 cage L1 : Heavy;Tourelle lourde (Heavy);L1;ext;8;1;233.9;-1659.3;-2274.0;1800.0;-1664.3;-2282.7;1950.0;240
-61;P4 cage L1 : Heavy;Tourelle lourde (Heavy);L1;ext;4;4;132.06;-1919.1;2124.0;1800.0;-1924.1;2132.7;1950.0;120
-62;P4 cage L1 : Heavy;Tourelle lourde (Heavy);L1;ext;11;2;330.0;2424.0;-1399.5;1800.0;2432.7;-1404.5;1950.0;330
-63;P4 cage L1 : Heavy;Tourelle lourde (Heavy);L1;ext;3;1;83.9;300.0;2799.0;1800.0;300.0;2809.0;1950.0;90
-64;P4 cage L1 : Heavy;Tourelle lourde (Heavy);L1;ext;9;4;282.06;600.0;-2799.0;1800.0;600.0;-2809.0;1950.0;270
-65;P4 cage L1 : Heavy;Tourelle lourde (Heavy);TROU-L1;ext;8;2;157.39;-2219.1;934.8;1800.0;-2224.1;926.1;1950.0;240.0
+41;P2 cage L1 : Tek;Tourelle Tek;L1;ext;5;1;143.9;-2274.0;1659.3;1800.0;-2282.7;1664.3;1950.0;150
+42;P2 cage L1 : Tek;Tourelle Tek;L1;ext;10;3;306.1;1659.3;-2274.0;1800.0;1664.3;-2282.7;1950.0;300
+43;P3 Tesla : rive et bord du trou;Bobine Tesla;RIVE;ext;0;3;0.0;3918.7;0.0;300.0;3928.7;0.0;450.0;0
+44;P3 Tesla : rive et bord du trou;Bobine Tesla;RIVE;ext;8;3;240.0;-1959.3;-3393.7;300.0;-1964.3;-3402.3;450.0;240
+45;P3 Tesla : rive et bord du trou;Bobine Tesla;RIVE;ext;4;3;120.0;-1959.3;3393.7;300.0;-1964.3;3402.3;450.0;120
+46;P3 Tesla : rive et bord du trou;Bobine Tesla;RIVE;ext;2;3;60.0;1959.3;3393.7;300.0;1964.3;3402.3;450.0;60
+47;P3 Tesla : rive et bord du trou;Bobine Tesla;RIVE;ext;10;3;300.0;1959.3;-3393.7;300.0;1964.3;-3402.3;450.0;300
+48;P3 Tesla : rive et bord du trou;Bobine Tesla;TROU;ext;8;0;159.86;-3338.7;1234.8;300.0;-3343.7;1226.1;450.0;240.0
+49;P4 cage L1 : Heavy;Tourelle lourde (Heavy);L1;ext;0;3;6.1;2799.0;300.0;1800.0;2809.0;300.0;1950.0;0
+50;P4 cage L1 : Heavy;Tourelle lourde (Heavy);L1;ext;11;3;336.1;2574.0;-1139.7;1800.0;2582.7;-1144.7;1950.0;330
+51;P4 cage L1 : Heavy;Tourelle lourde (Heavy);TROU-L1;ext;4;1;202.61;-2219.1;-934.8;1800.0;-2224.1;-926.1;1950.0;120.0
+52;P4 cage L1 : Heavy;Tourelle lourde (Heavy);L1;ext;3;2;90.0;0.0;2799.0;1800.0;0.0;2809.0;1950.0;90
+53;P4 cage L1 : Heavy;Tourelle lourde (Heavy);L1;ext;8;4;252.06;-879.9;-2724.0;1800.0;-884.9;-2732.7;1950.0;240
+54;P4 cage L1 : Heavy;Tourelle lourde (Heavy);L1;ext;2;0;47.94;1919.1;2124.0;1800.0;1924.1;2132.7;1950.0;60
+55;P4 cage L1 : Heavy;Tourelle lourde (Heavy);L1;ext;7;3;216.1;-2274.0;-1659.3;1800.0;-2282.7;-1664.3;1950.0;210
+56;P4 cage L1 : Heavy;Tourelle lourde (Heavy);L1;ext;4;4;132.06;-1919.1;2124.0;1800.0;-1924.1;2132.7;1950.0;120
+57;P4 cage L1 : Heavy;Tourelle lourde (Heavy);L1;ext;10;1;293.9;1139.7;-2574.0;1800.0;1144.7;-2582.7;1950.0;300
+58;P4 cage L1 : Heavy;Tourelle lourde (Heavy);L1;ext;1;2;30.0;2424.0;1399.5;1800.0;2432.7;1404.5;1950.0;30
+59;P4 cage L1 : Heavy;Tourelle lourde (Heavy);TROU-L1;ext;4;3;205.0;-1659.3;-784.8;1800.0;-1664.3;-776.1;1950.0;120.0
+60;P4 cage L1 : Heavy;Tourelle lourde (Heavy);L1;ext;4;0;107.94;-879.9;2724.0;1800.0;-884.9;2732.7;1950.0;120
+61;P4 cage L1 : Heavy;Tourelle lourde (Heavy);L1;ext;9;3;276.1;300.0;-2799.0;1800.0;300.0;-2809.0;1950.0;270
+62;P4 cage L1 : Heavy;Tourelle lourde (Heavy);L1;ext;2;4;72.06;879.9;2724.0;1800.0;884.9;2732.7;1950.0;60
+63;P4 cage L1 : Heavy;Tourelle lourde (Heavy);L1;ext;8;1;233.9;-1659.3;-2274.0;1800.0;-1664.3;-2282.7;1950.0;240
+64;P4 cage L1 : Heavy;Tourelle lourde (Heavy);L1;ext;5;2;150.0;-2424.0;1399.5;1800.0;-2432.7;1404.5;1950.0;150
+65;P4 cage L1 : Heavy;Tourelle lourde (Heavy);L1;ext;11;0;317.94;2124.0;-1919.1;1800.0;2132.7;-1924.1;1950.0;330
 66;P5 tour du pod : anneau D4;Tourelle lourde (Heavy);D4;d4;1;0;18.69;2164.2;729.9;2400.0;2172.9;734.9;2550.0;30
 67;P5 tour du pod : anneau D4;Tourelle Tek;D4;d4;8;0;228.69;-1509.3;-1714.2;2400.0;-1514.3;-1722.9;2550.0;240
 68;P5 tour du pod : anneau D4;Tourelle Tek;D4;d4;4;0;108.69;-729.9;2164.2;2400.0;-734.9;2172.9;2550.0;120
@@ -85,16 +85,16 @@ ordre;priorite;type;couche;plan;cote;index;theta;x_support;y_support;Z_bas;x_tou
 84;P6 dessus : tourelles et Tesla debout;Bobine Tesla;DESSUS;dessus;10;9;300.0;750.0;-1299.0;3000.0;750.0;-1299.0;3075.0;300
 85;P6 dessus : tourelles et Tesla debout;Tourelle lourde (Heavy);DESSUS;dessus;7;6;210.0;-1299.0;-750.0;3000.0;-1299.0;-750.0;3075.0;210
 86;P7 Plant Species X;Grand carré de culture (Plant Species X);DESSUS;dessus;0;0;0.0;1500.0;0.0;3000.0;1500.0;0.0;3075.0;0
-87;P7 Plant Species X;Grand carré de culture (Plant Species X);X-D4;d4;5;2;153.59;-2144.1;1064.7;2400.0;-2144.1;1064.7;2430.0;150
+87;P7 Plant Species X;Carré de culture moyen (Plant Species X);X-D4;d4;5;2;153.59;-2144.1;1064.7;2400.0;-2144.1;1064.7;2430.0;150
 88;P7 Plant Species X;Grand carré de culture (Plant Species X);X-attique;ext;2;3;62.68;1474.5;2853.9;0.0;1474.5;2853.9;30.0;60
-89;P7 Plant Species X;Grand carré de culture (Plant Species X);X-D4;d4;9;2;273.59;150.0;-2389.2;2400.0;150.0;-2389.2;2430.0;270
-90;P7 Plant Species X;Grand carré de culture (Plant Species X);X-D4;d4;1;2;33.59;1994.1;1324.5;2400.0;1994.1;1324.5;2430.0;30
+89;P7 Plant Species X;Carré de culture moyen (Plant Species X);X-D4;d4;9;2;273.59;150.0;-2389.2;2400.0;150.0;-2389.2;2430.0;270
+90;P7 Plant Species X;Carré de culture moyen (Plant Species X);X-D4;d4;1;2;33.59;1994.1;1324.5;2400.0;1994.1;1324.5;2430.0;30
 91;P7 Plant Species X;Grand carré de culture (Plant Species X);DESSUS;dessus;8;7;240.0;-750.0;-1299.0;3000.0;-750.0;-1299.0;3075.0;240
 92;P7 Plant Species X;Grand carré de culture (Plant Species X);X-attique;ext;4;3;122.68;-1734.3;2703.9;0.0;-1734.3;2703.9;30.0;120
-93;P7 Plant Species X;Grand carré de culture (Plant Species X);X-D4;d4;11;2;333.59;2144.1;-1064.7;2400.0;2144.1;-1064.7;2430.0;330
+93;P7 Plant Species X;Carré de culture moyen (Plant Species X);X-D4;d4;11;2;333.59;2144.1;-1064.7;2400.0;2144.1;-1064.7;2430.0;330
 94;P7 Plant Species X;Grand carré de culture (Plant Species X);X-attique;ext;0;3;2.68;3208.8;150.0;0.0;3208.8;150.0;30.0;0
-95;P7 Plant Species X;Grand carré de culture (Plant Species X);X-D4;d4;7;2;213.59;-1994.1;-1324.5;2400.0;-1994.1;-1324.5;2430.0;210
-96;P7 Plant Species X;Grand carré de culture (Plant Species X);X-D4;d4;3;2;93.59;-150.0;2389.2;2400.0;-150.0;2389.2;2430.0;90
+95;P7 Plant Species X;Carré de culture moyen (Plant Species X);X-D4;d4;7;2;213.59;-1994.1;-1324.5;2400.0;-1994.1;-1324.5;2430.0;210
+96;P7 Plant Species X;Carré de culture moyen (Plant Species X);X-D4;d4;3;2;93.59;-150.0;2389.2;2400.0;-150.0;2389.2;2430.0;90
 97;P7 Plant Species X;Grand carré de culture (Plant Species X);X-attique;ext;10;3;302.68;1734.3;-2703.9;0.0;1734.3;-2703.9;30.0;300
 98;P7 Plant Species X;Grand carré de culture (Plant Species X);DESSUS;dessus;2;2;60.0;750.0;1299.0;3000.0;750.0;1299.0;3075.0;60
 99;P7 Plant Species X;Grand carré de culture (Plant Species X);X-attique;ext;8;3;242.68;-1474.5;-2853.9;0.0;-1474.5;-2853.9;30.0;240

@@ -6,7 +6,7 @@ Templates (`templates/plans/`, module 06) :
 
 | Plan | Contenu | Calage |
 |---|---|---|
-| `Plan_05_tour_du_pod_D4.json` | tour D4 jusqu'à Z2700, murs de bord du trou du pod, piliers PA et PB, colonne d'escaliers, mezzanine Z1800, murs de chaume de l'anneau de tourelles D4 | pile d'ancrage |
+| `Plan_05_tour_du_pod_D4.json` | tour D4 jusqu'à Z2700, murs de bord du trou du pod, piliers PA et PB, colonne d'escaliers, mezzanine Z1800, cages du noyau (générateurs Tek, boîtes de munitions), murs de chaume de l'anneau de tourelles D4 | pile d'ancrage |
 | `Option_rehausse_pod_+1_niveau.json` | un niveau de plus pour la tour, à poser autant de fois que voulu | mur de référence **A** |
 | `Plan_09_toiture_pleine_D4-centre.json` | couronne de murs pleins, piliers PA/PB, plancher de toit : toit plat fermé | mur de référence **A** |
 | `Plan_10_toit_en_rampes_D4-centre.json` | toit en rampes inclinées de D4 au centre, poteaux de piliers fins sous les jonctions, casquette du trou | mur de référence **C** |
@@ -79,7 +79,7 @@ Le trou entame le pod sur les anneaux 4 à 7 (27 pièces de l'étoile). Le pod e
 |---|---|
 | Arêtes de bord dans le pod | 10, de x = −1 119,6 jusqu'à D4 |
 | Hauteur | **9 murs** (Z0 → 2700, plan 5), + 1 dans la couronne (plan 9), + 1 par rehausse |
-| Murs | **89** dans le plan 5, plus 1 mur de chaume de tourelle au niveau 8 (TROU-D4) ; 10 dans la couronne |
+| Murs | **87** dans le plan 5, plus 3 murs de chaume de tourelles (2 TROU-L1 au niveau 6, 1 TROU-D4 au niveau 8) ; 10 dans la couronne |
 | Mezzanine et plancher de toit | s'arrêtent sur les murs de bord |
 | Toit | la **casquette du trou** prolonge le toit au-dessus du gouffre (§8.3) |
 
@@ -90,13 +90,31 @@ Ce sont des zones de réservation, pas les cotes exactes des maillages. Elles co
 | Machine | Branche θ | Centre (x ; y) | Gabarit | Hauteur réservée | Énergie / carburant |
 |---|---|---|---|---|---|
 | **Réplicateur Tek** | 0° | (1 650 ; 0) | 3 × 2 fondations | 3 murs | à vérifier |
-| **Générateur Tek n°1** | 60° | (900 ; 1 558,8) | 1 × 1 | 1 mur | élément |
 | **Forge à vapeur** (Steam Forge) | 120° | (−825 ; 1 428,9) | 3 × 3 | 3 murs | élément (forge alimentée à l'élément) |
 | *le trou* | 180° | — | — | — | — |
 | **Labo de fortune** (Makeshift Megalab) | 240° | (−825 ; −1 428,9) | 2 × 2 | 2 murs | à vérifier |
 | **9 stockages dédiés Tek** | 300° | (800 ; −1 385,6) | 5 × 2, en 2 rangées (4 + 5) | 2 murs | — |
+| *noyau* | 60° à 240° | anneau 1 | 4 cages de 1 × 1 | 2 murs + plafond | §6.1 |
 
-Sur la mezzanine (Z1800) se trouvent le **générateur Tek n°2** en (−900 ; 0), puis **20 coffres-forts et 11 stockages dédiés** en alternance contre la face intérieure du mur de pod. Le trou supprime 5 des 36 emplacements ; les 9 stockages qui n'y trouvent plus de place sont dans le hall. Positions exactes : `donnees/07_equipements.csv` et module 07.
+Sur la mezzanine (Z1800) se trouvent **20 coffres-forts et 11 stockages dédiés** en alternance contre la face intérieure du mur de pod. Le trou supprime 5 des 36 emplacements ; les 9 stockages qui n'y trouvent plus de place sont dans le hall. Positions exactes : `donnees/07_equipements.csv` et module 07.
+
+**Allées** : coffres-forts (2 murs de haut) et stockages dédiés ont tous une face libre pour l'accès. Dans le hall, la rangée extérieure des stockages est tournée vers le mur de pod, avec une **allée de 329 UU (plus d'une fondation)** entre les deux ; la rangée intérieure est tournée vers le hall. Le générateur refuse une allée de moins d'une fondation.
+
+### 6.1 Noyau : générateurs et boîtes de munitions en cage
+
+Au centre de la base, sur 4 carrés de l'anneau 1 autour de la colonne d'escaliers (plan 5) :
+
+| θ | Centre (x ; y) | Contenu |
+|---|---|---|
+| 180° | (−409,8 ; 0) | **Générateur Tek n°1 (principal)** |
+| 240° | (−204,9 ; −354,9) | **Générateur Tek n°2 (secours)** |
+| 60° | (204,9 ; 354,9) | **Boîte de munitions n°1** |
+| 120° | (−204,9 ; 354,9) | **Boîte de munitions n°2** |
+
+- Chaque équipement est **posé sur une fondation** de l'étoile centrale, la plus éloignée de tous les murs extérieurs.
+- **Cage** : 4 côtés en murs métal, 2 murs de haut (Z0 → 600), plafond métal à Z600 ; au niveau 0, le côté tourné vers le hall est un cadre de porte double (porte à poser). Les piliers PB sont aux coins extérieurs des cages. 4 cages : 28 murs, 4 cadres doubles, 4 plafonds.
+- Le générateur de secours a la même portée que le principal (module 05 §8) : si l'un tombe, l'autre alimente encore les 26 Tek.
+- Les carrés θ 0° et 300° restent libres : la colonne d'escaliers les touche. Ses deux bouts (côtés 60° et 240°) longent une cage sur une moitié de leur largeur (couloir de 110 UU) et donnent sur un triangle libre de l'étoile sur l'autre moitié : l'escalier reste accessible.
 
 Pour la reproduction, rehaussez la tour (§8.2) : le hall garde ses 6 murs libres sous la mezzanine. Pour un hall plus haut encore, retirez la mezzanine. Les colonnes PA et PB portent seules le plancher de toit.
 
@@ -186,5 +204,6 @@ Elle ferme le pod seule : c'est un **toit plat**, sur lequel se posent les toure
 - [ ] Tour en murs pleins : 6 cadres doubles au sol, 11 à Z1800, 13 murs de chaume au niveau 8.
 - [ ] Murs de bord du trou du pod pleins, du sol à la couronne, sans jour.
 - [ ] 24 colonnes de piliers PA/PB, du sol au plancher de toit.
+- [ ] Noyau : 4 cages (2 murs + plafond) ; 2 générateurs Tek et 2 boîtes de munitions posés sur leur fondation, portes doubles fermées.
 - [ ] Toiture pleine posée sur le mur de référence A : plancher fermé, places B et C vides jusqu'aux plans 11 et 10.
 - [ ] Toit : 170 rampes, 96 poteaux (288 piliers fins) ; casquette du trou : 8 lames sur la couronne. Aucun toit incliné.

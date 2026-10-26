@@ -2,165 +2,165 @@ entree;piece;x;y;Z_plan;yaw;theta;rayon;repere
 0;Demi-pilier métal;0.0;300.0;225;0;90.0;300.0;ancre module (se pose sur l'ancre du sol)
 1;Cadre de porte double métal;-2778.9;1084.8;0.0;240.0;158.68;2983.2;bord du trou niv0 θ158.7
 2;Cadre de porte double métal;-3058.8;1159.8;0.0;270.0;159.24;3271.3;bord du trou niv0 θ159.2
-3;Cadre de porte double métal;-2778.9;-1084.8;0.0;120.0;201.32;2983.2;bord du trou niv0 θ201.3
-4;Cadre de porte double métal;-2983.8;-1289.7;0.0;150.0;203.38;3250.6;bord du trou niv0 θ203.4
-5;Cadre de porte double métal;-3188.7;-1494.6;0.0;120.0;205.11;3521.6;bord du trou niv0 θ205.1
-6;Pilier fin métal (Thin Pillar);3618.7;-1050.0;0.0;0;343.82;3767.9;appui pente A c0 t-1050 : poteau
-7;Pilier fin métal (Thin Pillar);3618.7;-750.0;0.0;0;348.29;3695.6;appui pente A c0 t-750 : poteau
-8;Pilier fin métal (Thin Pillar);3018.7;-750.0;0.0;0;346.05;3110.4;appui pente A c0 t-750 : poteau
-9;Pilier fin métal (Thin Pillar);3618.7;-450.0;0.0;0;352.91;3646.5;appui pente A c0 t-450 : poteau
-10;Pilier fin métal (Thin Pillar);3018.7;-450.0;0.0;0;351.52;3052.0;appui pente A c0 t-450 : poteau
-11;Pilier fin métal (Thin Pillar);3618.7;-150.0;0.0;0;357.63;3621.8;appui pente A c0 t-150 : poteau
-12;Pilier fin métal (Thin Pillar);3018.7;-150.0;0.0;0;357.16;3022.4;appui pente A c0 t-150 : poteau
-13;Pilier fin métal (Thin Pillar);3618.7;150.0;0.0;0;2.37;3621.8;appui pente A c0 t+150 : poteau
-14;Pilier fin métal (Thin Pillar);3018.7;150.0;0.0;0;2.84;3022.4;appui pente A c0 t+150 : poteau
-15;Pilier fin métal (Thin Pillar);3618.7;450.0;0.0;0;7.09;3646.5;appui pente A c0 t+450 : poteau
-16;Pilier fin métal (Thin Pillar);3018.7;450.0;0.0;0;8.48;3052.0;appui pente A c0 t+450 : poteau
-17;Pilier fin métal (Thin Pillar);3618.7;750.0;0.0;0;11.71;3695.6;appui pente A c0 t+750 : poteau
-18;Pilier fin métal (Thin Pillar);3018.7;750.0;0.0;0;13.95;3110.4;appui pente A c0 t+750 : poteau
-19;Pilier fin métal (Thin Pillar);3618.7;1050.0;0.0;0;16.18;3767.9;appui pente A c0 t+1050 : poteau
-20;Pilier fin métal (Thin Pillar);3658.8;900.0;0.0;30;13.82;3767.9;appui pente A c1 t-1050 : poteau
-21;Pilier fin métal (Thin Pillar);3508.8;1159.8;0.0;30;18.29;3695.6;appui pente A c1 t-750 : poteau
-22;Pilier fin métal (Thin Pillar);2989.2;859.8;0.0;30;16.05;3110.4;appui pente A c1 t-750 : poteau
-23;Pilier fin métal (Thin Pillar);3358.8;1419.6;0.0;30;22.91;3646.5;appui pente A c1 t-450 : poteau
-24;Pilier fin métal (Thin Pillar);2839.2;1119.6;0.0;30;21.52;3052.0;appui pente A c1 t-450 : poteau
-25;Pilier fin métal (Thin Pillar);3208.8;1679.4;0.0;30;27.63;3621.8;appui pente A c1 t-150 : poteau
-26;Pilier fin métal (Thin Pillar);2689.2;1379.4;0.0;30;27.16;3022.4;appui pente A c1 t-150 : poteau
-27;Pilier fin métal (Thin Pillar);3058.8;1939.2;0.0;30;32.37;3621.8;appui pente A c1 t+150 : poteau
-28;Pilier fin métal (Thin Pillar);2539.2;1639.2;0.0;30;32.84;3022.4;appui pente A c1 t+150 : poteau
-29;Pilier fin métal (Thin Pillar);2908.8;2199.0;0.0;30;37.09;3646.5;appui pente A c1 t+450 : poteau
-30;Pilier fin métal (Thin Pillar);2389.2;1899.0;0.0;30;38.48;3052.0;appui pente A c1 t+450 : poteau
-31;Pilier fin métal (Thin Pillar);2758.8;2458.8;0.0;30;41.71;3695.6;appui pente A c1 t+750 : poteau
-32;Pilier fin métal (Thin Pillar);2239.2;2158.8;0.0;30;43.95;3110.4;appui pente A c1 t+750 : poteau
-33;Pilier fin métal (Thin Pillar);2608.8;2718.7;0.0;30;46.18;3767.9;appui pente A c1 t+1050 : poteau
-34;Pilier fin métal (Thin Pillar);2718.7;2608.8;0.0;60;43.82;3767.9;appui pente A c2 t-1050 : poteau
-35;Pilier fin métal (Thin Pillar);2458.8;2758.8;0.0;60;48.29;3695.6;appui pente A c2 t-750 : poteau
-36;Pilier fin métal (Thin Pillar);2158.8;2239.2;0.0;60;46.05;3110.4;appui pente A c2 t-750 : poteau
-37;Pilier fin métal (Thin Pillar);2199.0;2908.8;0.0;60;52.91;3646.5;appui pente A c2 t-450 : poteau
-38;Pilier fin métal (Thin Pillar);1899.0;2389.2;0.0;60;51.52;3052.0;appui pente A c2 t-450 : poteau
-39;Pilier fin métal (Thin Pillar);1939.2;3058.8;0.0;60;57.63;3621.8;appui pente A c2 t-150 : poteau
-40;Pilier fin métal (Thin Pillar);1639.2;2539.2;0.0;60;57.16;3022.4;appui pente A c2 t-150 : poteau
-41;Pilier fin métal (Thin Pillar);1679.4;3208.8;0.0;60;62.37;3621.8;appui pente A c2 t+150 : poteau
-42;Pilier fin métal (Thin Pillar);1379.4;2689.2;0.0;60;62.84;3022.4;appui pente A c2 t+150 : poteau
-43;Pilier fin métal (Thin Pillar);1419.6;3358.8;0.0;60;67.09;3646.5;appui pente A c2 t+450 : poteau
-44;Pilier fin métal (Thin Pillar);1119.6;2839.2;0.0;60;68.48;3052.0;appui pente A c2 t+450 : poteau
-45;Pilier fin métal (Thin Pillar);1159.8;3508.8;0.0;60;71.71;3695.6;appui pente A c2 t+750 : poteau
-46;Pilier fin métal (Thin Pillar);859.8;2989.2;0.0;60;73.95;3110.4;appui pente A c2 t+750 : poteau
-47;Pilier fin métal (Thin Pillar);900.0;3658.8;0.0;60;76.18;3767.9;appui pente A c2 t+1050 : poteau
-48;Pilier fin métal (Thin Pillar);1050.0;3618.7;0.0;90;73.82;3767.9;appui pente A c3 t-1050 : poteau
-49;Pilier fin métal (Thin Pillar);750.0;3618.7;0.0;90;78.29;3695.6;appui pente A c3 t-750 : poteau
-50;Pilier fin métal (Thin Pillar);750.0;3018.7;0.0;90;76.05;3110.4;appui pente A c3 t-750 : poteau
-51;Pilier fin métal (Thin Pillar);450.0;3618.7;0.0;90;82.91;3646.5;appui pente A c3 t-450 : poteau
-52;Pilier fin métal (Thin Pillar);450.0;3018.7;0.0;90;81.52;3052.0;appui pente A c3 t-450 : poteau
-53;Pilier fin métal (Thin Pillar);150.0;3618.7;0.0;90;87.63;3621.8;appui pente A c3 t-150 : poteau
-54;Pilier fin métal (Thin Pillar);150.0;3018.7;0.0;90;87.16;3022.4;appui pente A c3 t-150 : poteau
-55;Pilier fin métal (Thin Pillar);-150.0;3618.7;0.0;90;92.37;3621.8;appui pente A c3 t+150 : poteau
-56;Pilier fin métal (Thin Pillar);-150.0;3018.7;0.0;90;92.84;3022.4;appui pente A c3 t+150 : poteau
-57;Pilier fin métal (Thin Pillar);-450.0;3618.7;0.0;90;97.09;3646.5;appui pente A c3 t+450 : poteau
-58;Pilier fin métal (Thin Pillar);-450.0;3018.7;0.0;90;98.48;3052.0;appui pente A c3 t+450 : poteau
-59;Pilier fin métal (Thin Pillar);-750.0;3618.7;0.0;90;101.71;3695.6;appui pente A c3 t+750 : poteau
-60;Pilier fin métal (Thin Pillar);-750.0;3018.7;0.0;90;103.95;3110.4;appui pente A c3 t+750 : poteau
-61;Pilier fin métal (Thin Pillar);-1050.0;3618.7;0.0;90;106.18;3767.9;appui pente A c3 t+1050 : poteau
-62;Pilier fin métal (Thin Pillar);-900.0;3658.8;0.0;120;103.82;3767.9;appui pente A c4 t-1050 : poteau
-63;Pilier fin métal (Thin Pillar);-1159.8;3508.8;0.0;120;108.29;3695.6;appui pente A c4 t-750 : poteau
-64;Pilier fin métal (Thin Pillar);-859.8;2989.2;0.0;120;106.05;3110.4;appui pente A c4 t-750 : poteau
-65;Pilier fin métal (Thin Pillar);-1419.6;3358.8;0.0;120;112.91;3646.5;appui pente A c4 t-450 : poteau
-66;Pilier fin métal (Thin Pillar);-1119.6;2839.2;0.0;120;111.52;3052.0;appui pente A c4 t-450 : poteau
-67;Pilier fin métal (Thin Pillar);-1679.4;3208.8;0.0;120;117.63;3621.8;appui pente A c4 t-150 : poteau
-68;Pilier fin métal (Thin Pillar);-1379.4;2689.2;0.0;120;117.16;3022.4;appui pente A c4 t-150 : poteau
-69;Pilier fin métal (Thin Pillar);-1939.2;3058.8;0.0;120;122.37;3621.8;appui pente A c4 t+150 : poteau
-70;Pilier fin métal (Thin Pillar);-1639.2;2539.2;0.0;120;122.84;3022.4;appui pente A c4 t+150 : poteau
-71;Pilier fin métal (Thin Pillar);-2199.0;2908.8;0.0;120;127.09;3646.5;appui pente A c4 t+450 : poteau
-72;Pilier fin métal (Thin Pillar);-1899.0;2389.2;0.0;120;128.48;3052.0;appui pente A c4 t+450 : poteau
-73;Pilier fin métal (Thin Pillar);-2458.8;2758.8;0.0;120;131.71;3695.6;appui pente A c4 t+750 : poteau
-74;Pilier fin métal (Thin Pillar);-2158.8;2239.2;0.0;120;133.95;3110.4;appui pente A c4 t+750 : poteau
-75;Pilier fin métal (Thin Pillar);-2718.7;2608.8;0.0;120;136.18;3767.9;appui pente A c4 t+1050 : poteau
-76;Pilier fin métal (Thin Pillar);-2608.8;2718.7;0.0;150;133.82;3767.9;appui pente A c5 t-1050 : poteau
-77;Pilier fin métal (Thin Pillar);-2758.8;2458.8;0.0;150;138.29;3695.6;appui pente A c5 t-750 : poteau
-78;Pilier fin métal (Thin Pillar);-2239.2;2158.8;0.0;150;136.05;3110.4;appui pente A c5 t-750 : poteau
-79;Pilier fin métal (Thin Pillar);-2908.8;2199.0;0.0;150;142.91;3646.5;appui pente A c5 t-450 : poteau
-80;Pilier fin métal (Thin Pillar);-2389.2;1899.0;0.0;150;141.52;3052.0;appui pente A c5 t-450 : poteau
-81;Pilier fin métal (Thin Pillar);-3058.8;1939.2;0.0;150;147.63;3621.8;appui pente A c5 t-150 : poteau
-82;Pilier fin métal (Thin Pillar);-2539.2;1639.2;0.0;150;147.16;3022.4;appui pente A c5 t-150 : poteau
-83;Pilier fin métal (Thin Pillar);-3208.8;1679.4;0.0;150;152.37;3621.8;appui pente A c5 t+150 : poteau
-84;Pilier fin métal (Thin Pillar);-2689.2;1379.4;0.0;150;152.84;3022.4;appui pente A c5 t+150 : poteau
-85;Pilier fin métal (Thin Pillar);-3358.8;1419.6;0.0;150;157.09;3646.5;appui pente A c5 t+450 : poteau
-86;Pilier fin métal (Thin Pillar);-3099.0;1269.6;0.0;150;157.72;3349.0;appui pente A c5 t+450 : poteau
-87;Pilier fin métal (Thin Pillar);-3208.8;-1679.4;0.0;210;207.63;3621.8;appui pente A c7 t-150 : poteau
-88;Pilier fin métal (Thin Pillar);-2689.2;-1379.4;0.0;210;207.16;3022.4;appui pente A c7 t-150 : poteau
-89;Pilier fin métal (Thin Pillar);-3058.8;-1939.2;0.0;210;212.37;3621.8;appui pente A c7 t+150 : poteau
-90;Pilier fin métal (Thin Pillar);-2539.2;-1639.2;0.0;210;212.84;3022.4;appui pente A c7 t+150 : poteau
-91;Pilier fin métal (Thin Pillar);-2908.8;-2199.0;0.0;210;217.09;3646.5;appui pente A c7 t+450 : poteau
-92;Pilier fin métal (Thin Pillar);-2389.2;-1899.0;0.0;210;218.48;3052.0;appui pente A c7 t+450 : poteau
-93;Pilier fin métal (Thin Pillar);-2758.8;-2458.8;0.0;210;221.71;3695.6;appui pente A c7 t+750 : poteau
-94;Pilier fin métal (Thin Pillar);-2239.2;-2158.8;0.0;210;223.95;3110.4;appui pente A c7 t+750 : poteau
-95;Pilier fin métal (Thin Pillar);-2608.8;-2718.7;0.0;210;226.18;3767.9;appui pente A c7 t+1050 : poteau
-96;Pilier fin métal (Thin Pillar);-2718.7;-2608.8;0.0;240;223.82;3767.9;appui pente A c8 t-1050 : poteau
-97;Pilier fin métal (Thin Pillar);-2458.8;-2758.8;0.0;240;228.29;3695.6;appui pente A c8 t-750 : poteau
-98;Pilier fin métal (Thin Pillar);-2158.8;-2239.2;0.0;240;226.05;3110.4;appui pente A c8 t-750 : poteau
-99;Pilier fin métal (Thin Pillar);-2199.0;-2908.8;0.0;240;232.91;3646.5;appui pente A c8 t-450 : poteau
-100;Pilier fin métal (Thin Pillar);-1899.0;-2389.2;0.0;240;231.52;3052.0;appui pente A c8 t-450 : poteau
-101;Pilier fin métal (Thin Pillar);-1939.2;-3058.8;0.0;240;237.63;3621.8;appui pente A c8 t-150 : poteau
-102;Pilier fin métal (Thin Pillar);-1639.2;-2539.2;0.0;240;237.16;3022.4;appui pente A c8 t-150 : poteau
-103;Pilier fin métal (Thin Pillar);-1679.4;-3208.8;0.0;240;242.37;3621.8;appui pente A c8 t+150 : poteau
-104;Pilier fin métal (Thin Pillar);-1379.4;-2689.2;0.0;240;242.84;3022.4;appui pente A c8 t+150 : poteau
-105;Pilier fin métal (Thin Pillar);-1419.6;-3358.8;0.0;240;247.09;3646.5;appui pente A c8 t+450 : poteau
-106;Pilier fin métal (Thin Pillar);-1119.6;-2839.2;0.0;240;248.48;3052.0;appui pente A c8 t+450 : poteau
-107;Pilier fin métal (Thin Pillar);-1159.8;-3508.8;0.0;240;251.71;3695.6;appui pente A c8 t+750 : poteau
-108;Pilier fin métal (Thin Pillar);-859.8;-2989.2;0.0;240;253.95;3110.4;appui pente A c8 t+750 : poteau
-109;Pilier fin métal (Thin Pillar);-900.0;-3658.8;0.0;240;256.18;3767.9;appui pente A c8 t+1050 : poteau
-110;Pilier fin métal (Thin Pillar);-1050.0;-3618.7;0.0;270;253.82;3767.9;appui pente A c9 t-1050 : poteau
-111;Pilier fin métal (Thin Pillar);-750.0;-3618.7;0.0;270;258.29;3695.6;appui pente A c9 t-750 : poteau
-112;Pilier fin métal (Thin Pillar);-750.0;-3018.7;0.0;270;256.05;3110.4;appui pente A c9 t-750 : poteau
-113;Pilier fin métal (Thin Pillar);-450.0;-3618.7;0.0;270;262.91;3646.5;appui pente A c9 t-450 : poteau
-114;Pilier fin métal (Thin Pillar);-450.0;-3018.7;0.0;270;261.52;3052.0;appui pente A c9 t-450 : poteau
-115;Pilier fin métal (Thin Pillar);-150.0;-3618.7;0.0;270;267.63;3621.8;appui pente A c9 t-150 : poteau
-116;Pilier fin métal (Thin Pillar);-150.0;-3018.7;0.0;270;267.16;3022.4;appui pente A c9 t-150 : poteau
-117;Pilier fin métal (Thin Pillar);150.0;-3618.7;0.0;270;272.37;3621.8;appui pente A c9 t+150 : poteau
-118;Pilier fin métal (Thin Pillar);150.0;-3018.7;0.0;270;272.84;3022.4;appui pente A c9 t+150 : poteau
-119;Pilier fin métal (Thin Pillar);450.0;-3618.7;0.0;270;277.09;3646.5;appui pente A c9 t+450 : poteau
-120;Pilier fin métal (Thin Pillar);450.0;-3018.7;0.0;270;278.48;3052.0;appui pente A c9 t+450 : poteau
-121;Pilier fin métal (Thin Pillar);750.0;-3618.7;0.0;270;281.71;3695.6;appui pente A c9 t+750 : poteau
-122;Pilier fin métal (Thin Pillar);750.0;-3018.7;0.0;270;283.95;3110.4;appui pente A c9 t+750 : poteau
-123;Pilier fin métal (Thin Pillar);1050.0;-3618.7;0.0;270;286.18;3767.9;appui pente A c9 t+1050 : poteau
-124;Pilier fin métal (Thin Pillar);900.0;-3658.8;0.0;300;283.82;3767.9;appui pente A c10 t-1050 : poteau
-125;Pilier fin métal (Thin Pillar);1159.8;-3508.8;0.0;300;288.29;3695.6;appui pente A c10 t-750 : poteau
-126;Pilier fin métal (Thin Pillar);859.8;-2989.2;0.0;300;286.05;3110.4;appui pente A c10 t-750 : poteau
-127;Pilier fin métal (Thin Pillar);1419.6;-3358.8;0.0;300;292.91;3646.5;appui pente A c10 t-450 : poteau
-128;Pilier fin métal (Thin Pillar);1119.6;-2839.2;0.0;300;291.52;3052.0;appui pente A c10 t-450 : poteau
-129;Pilier fin métal (Thin Pillar);1679.4;-3208.8;0.0;300;297.63;3621.8;appui pente A c10 t-150 : poteau
-130;Pilier fin métal (Thin Pillar);1379.4;-2689.2;0.0;300;297.16;3022.4;appui pente A c10 t-150 : poteau
-131;Pilier fin métal (Thin Pillar);1939.2;-3058.8;0.0;300;302.37;3621.8;appui pente A c10 t+150 : poteau
-132;Pilier fin métal (Thin Pillar);1639.2;-2539.2;0.0;300;302.84;3022.4;appui pente A c10 t+150 : poteau
-133;Pilier fin métal (Thin Pillar);2199.0;-2908.8;0.0;300;307.09;3646.5;appui pente A c10 t+450 : poteau
-134;Pilier fin métal (Thin Pillar);1899.0;-2389.2;0.0;300;308.48;3052.0;appui pente A c10 t+450 : poteau
-135;Pilier fin métal (Thin Pillar);2458.8;-2758.8;0.0;300;311.71;3695.6;appui pente A c10 t+750 : poteau
-136;Pilier fin métal (Thin Pillar);2158.8;-2239.2;0.0;300;313.95;3110.4;appui pente A c10 t+750 : poteau
-137;Pilier fin métal (Thin Pillar);2718.7;-2608.8;0.0;300;316.18;3767.9;appui pente A c10 t+1050 : poteau
-138;Pilier fin métal (Thin Pillar);2608.8;-2718.7;0.0;330;313.82;3767.9;appui pente A c11 t-1050 : poteau
-139;Pilier fin métal (Thin Pillar);2758.8;-2458.8;0.0;330;318.29;3695.6;appui pente A c11 t-750 : poteau
-140;Pilier fin métal (Thin Pillar);2239.2;-2158.8;0.0;330;316.05;3110.4;appui pente A c11 t-750 : poteau
-141;Pilier fin métal (Thin Pillar);2908.8;-2199.0;0.0;330;322.91;3646.5;appui pente A c11 t-450 : poteau
-142;Pilier fin métal (Thin Pillar);2389.2;-1899.0;0.0;330;321.52;3052.0;appui pente A c11 t-450 : poteau
-143;Pilier fin métal (Thin Pillar);3058.8;-1939.2;0.0;330;327.63;3621.8;appui pente A c11 t-150 : poteau
-144;Pilier fin métal (Thin Pillar);2539.2;-1639.2;0.0;330;327.16;3022.4;appui pente A c11 t-150 : poteau
-145;Pilier fin métal (Thin Pillar);3208.8;-1679.4;0.0;330;332.37;3621.8;appui pente A c11 t+150 : poteau
-146;Pilier fin métal (Thin Pillar);2689.2;-1379.4;0.0;330;332.84;3022.4;appui pente A c11 t+150 : poteau
-147;Pilier fin métal (Thin Pillar);3358.8;-1419.6;0.0;330;337.09;3646.5;appui pente A c11 t+450 : poteau
-148;Pilier fin métal (Thin Pillar);2839.2;-1119.6;0.0;330;338.48;3052.0;appui pente A c11 t+450 : poteau
-149;Pilier fin métal (Thin Pillar);3508.8;-1159.8;0.0;330;341.71;3695.6;appui pente A c11 t+750 : poteau
-150;Pilier fin métal (Thin Pillar);2989.2;-859.8;0.0;330;343.95;3110.4;appui pente A c11 t+750 : poteau
-151;Pilier fin métal (Thin Pillar);3658.8;-900.0;0.0;330;346.18;3767.9;appui pente A c11 t+1050 : poteau
-152;Mur de chaume (gabarit de pose, à démolir);-3618.7;1309.8;0.0;270.0;160.1;3848.4;#15 TROU c9 p0 (chaume a demolir)
-153;Mur de chaume (gabarit de pose, à démolir);-3338.7;1234.8;0.0;240.0;159.7;3559.8;#22 TROU c8 p2 (chaume a demolir)
-154;Mur de chaume (gabarit de pose, à démolir);-3468.7;-1569.6;0.0;90.0;204.35;3807.3;#30 TROU c3 p1 (chaume a demolir)
+3;Cadre de porte double métal;-3338.7;1234.8;0.0;240.0;159.7;3559.8;bord du trou niv0 θ159.7
+4;Cadre de porte double métal;-2778.9;-1084.8;0.0;120.0;201.32;2983.2;bord du trou niv0 θ201.3
+5;Cadre de porte double métal;-2983.8;-1289.7;0.0;150.0;203.38;3250.6;bord du trou niv0 θ203.4
+6;Cadre de porte double métal;-3188.7;-1494.6;0.0;120.0;205.11;3521.6;bord du trou niv0 θ205.1
+7;Pilier fin métal (Thin Pillar);3618.7;-1050.0;0.0;0;343.82;3767.9;appui pente A c0 t-1050 : poteau
+8;Pilier fin métal (Thin Pillar);3618.7;-750.0;0.0;0;348.29;3695.6;appui pente A c0 t-750 : poteau
+9;Pilier fin métal (Thin Pillar);3018.7;-750.0;0.0;0;346.05;3110.4;appui pente A c0 t-750 : poteau
+10;Pilier fin métal (Thin Pillar);3618.7;-450.0;0.0;0;352.91;3646.5;appui pente A c0 t-450 : poteau
+11;Pilier fin métal (Thin Pillar);3018.7;-450.0;0.0;0;351.52;3052.0;appui pente A c0 t-450 : poteau
+12;Pilier fin métal (Thin Pillar);3618.7;-150.0;0.0;0;357.63;3621.8;appui pente A c0 t-150 : poteau
+13;Pilier fin métal (Thin Pillar);3018.7;-150.0;0.0;0;357.16;3022.4;appui pente A c0 t-150 : poteau
+14;Pilier fin métal (Thin Pillar);3618.7;150.0;0.0;0;2.37;3621.8;appui pente A c0 t+150 : poteau
+15;Pilier fin métal (Thin Pillar);3018.7;150.0;0.0;0;2.84;3022.4;appui pente A c0 t+150 : poteau
+16;Pilier fin métal (Thin Pillar);3618.7;450.0;0.0;0;7.09;3646.5;appui pente A c0 t+450 : poteau
+17;Pilier fin métal (Thin Pillar);3018.7;450.0;0.0;0;8.48;3052.0;appui pente A c0 t+450 : poteau
+18;Pilier fin métal (Thin Pillar);3618.7;750.0;0.0;0;11.71;3695.6;appui pente A c0 t+750 : poteau
+19;Pilier fin métal (Thin Pillar);3018.7;750.0;0.0;0;13.95;3110.4;appui pente A c0 t+750 : poteau
+20;Pilier fin métal (Thin Pillar);3618.7;1050.0;0.0;0;16.18;3767.9;appui pente A c0 t+1050 : poteau
+21;Pilier fin métal (Thin Pillar);3658.8;900.0;0.0;30;13.82;3767.9;appui pente A c1 t-1050 : poteau
+22;Pilier fin métal (Thin Pillar);3508.8;1159.8;0.0;30;18.29;3695.6;appui pente A c1 t-750 : poteau
+23;Pilier fin métal (Thin Pillar);2989.2;859.8;0.0;30;16.05;3110.4;appui pente A c1 t-750 : poteau
+24;Pilier fin métal (Thin Pillar);3358.8;1419.6;0.0;30;22.91;3646.5;appui pente A c1 t-450 : poteau
+25;Pilier fin métal (Thin Pillar);2839.2;1119.6;0.0;30;21.52;3052.0;appui pente A c1 t-450 : poteau
+26;Pilier fin métal (Thin Pillar);3208.8;1679.4;0.0;30;27.63;3621.8;appui pente A c1 t-150 : poteau
+27;Pilier fin métal (Thin Pillar);2689.2;1379.4;0.0;30;27.16;3022.4;appui pente A c1 t-150 : poteau
+28;Pilier fin métal (Thin Pillar);3058.8;1939.2;0.0;30;32.37;3621.8;appui pente A c1 t+150 : poteau
+29;Pilier fin métal (Thin Pillar);2539.2;1639.2;0.0;30;32.84;3022.4;appui pente A c1 t+150 : poteau
+30;Pilier fin métal (Thin Pillar);2908.8;2199.0;0.0;30;37.09;3646.5;appui pente A c1 t+450 : poteau
+31;Pilier fin métal (Thin Pillar);2389.2;1899.0;0.0;30;38.48;3052.0;appui pente A c1 t+450 : poteau
+32;Pilier fin métal (Thin Pillar);2758.8;2458.8;0.0;30;41.71;3695.6;appui pente A c1 t+750 : poteau
+33;Pilier fin métal (Thin Pillar);2239.2;2158.8;0.0;30;43.95;3110.4;appui pente A c1 t+750 : poteau
+34;Pilier fin métal (Thin Pillar);2608.8;2718.7;0.0;30;46.18;3767.9;appui pente A c1 t+1050 : poteau
+35;Pilier fin métal (Thin Pillar);2718.7;2608.8;0.0;60;43.82;3767.9;appui pente A c2 t-1050 : poteau
+36;Pilier fin métal (Thin Pillar);2458.8;2758.8;0.0;60;48.29;3695.6;appui pente A c2 t-750 : poteau
+37;Pilier fin métal (Thin Pillar);2158.8;2239.2;0.0;60;46.05;3110.4;appui pente A c2 t-750 : poteau
+38;Pilier fin métal (Thin Pillar);2199.0;2908.8;0.0;60;52.91;3646.5;appui pente A c2 t-450 : poteau
+39;Pilier fin métal (Thin Pillar);1899.0;2389.2;0.0;60;51.52;3052.0;appui pente A c2 t-450 : poteau
+40;Pilier fin métal (Thin Pillar);1939.2;3058.8;0.0;60;57.63;3621.8;appui pente A c2 t-150 : poteau
+41;Pilier fin métal (Thin Pillar);1639.2;2539.2;0.0;60;57.16;3022.4;appui pente A c2 t-150 : poteau
+42;Pilier fin métal (Thin Pillar);1679.4;3208.8;0.0;60;62.37;3621.8;appui pente A c2 t+150 : poteau
+43;Pilier fin métal (Thin Pillar);1379.4;2689.2;0.0;60;62.84;3022.4;appui pente A c2 t+150 : poteau
+44;Pilier fin métal (Thin Pillar);1419.6;3358.8;0.0;60;67.09;3646.5;appui pente A c2 t+450 : poteau
+45;Pilier fin métal (Thin Pillar);1119.6;2839.2;0.0;60;68.48;3052.0;appui pente A c2 t+450 : poteau
+46;Pilier fin métal (Thin Pillar);1159.8;3508.8;0.0;60;71.71;3695.6;appui pente A c2 t+750 : poteau
+47;Pilier fin métal (Thin Pillar);859.8;2989.2;0.0;60;73.95;3110.4;appui pente A c2 t+750 : poteau
+48;Pilier fin métal (Thin Pillar);900.0;3658.8;0.0;60;76.18;3767.9;appui pente A c2 t+1050 : poteau
+49;Pilier fin métal (Thin Pillar);1050.0;3618.7;0.0;90;73.82;3767.9;appui pente A c3 t-1050 : poteau
+50;Pilier fin métal (Thin Pillar);750.0;3618.7;0.0;90;78.29;3695.6;appui pente A c3 t-750 : poteau
+51;Pilier fin métal (Thin Pillar);750.0;3018.7;0.0;90;76.05;3110.4;appui pente A c3 t-750 : poteau
+52;Pilier fin métal (Thin Pillar);450.0;3618.7;0.0;90;82.91;3646.5;appui pente A c3 t-450 : poteau
+53;Pilier fin métal (Thin Pillar);450.0;3018.7;0.0;90;81.52;3052.0;appui pente A c3 t-450 : poteau
+54;Pilier fin métal (Thin Pillar);150.0;3618.7;0.0;90;87.63;3621.8;appui pente A c3 t-150 : poteau
+55;Pilier fin métal (Thin Pillar);150.0;3018.7;0.0;90;87.16;3022.4;appui pente A c3 t-150 : poteau
+56;Pilier fin métal (Thin Pillar);-150.0;3618.7;0.0;90;92.37;3621.8;appui pente A c3 t+150 : poteau
+57;Pilier fin métal (Thin Pillar);-150.0;3018.7;0.0;90;92.84;3022.4;appui pente A c3 t+150 : poteau
+58;Pilier fin métal (Thin Pillar);-450.0;3618.7;0.0;90;97.09;3646.5;appui pente A c3 t+450 : poteau
+59;Pilier fin métal (Thin Pillar);-450.0;3018.7;0.0;90;98.48;3052.0;appui pente A c3 t+450 : poteau
+60;Pilier fin métal (Thin Pillar);-750.0;3618.7;0.0;90;101.71;3695.6;appui pente A c3 t+750 : poteau
+61;Pilier fin métal (Thin Pillar);-750.0;3018.7;0.0;90;103.95;3110.4;appui pente A c3 t+750 : poteau
+62;Pilier fin métal (Thin Pillar);-1050.0;3618.7;0.0;90;106.18;3767.9;appui pente A c3 t+1050 : poteau
+63;Pilier fin métal (Thin Pillar);-900.0;3658.8;0.0;120;103.82;3767.9;appui pente A c4 t-1050 : poteau
+64;Pilier fin métal (Thin Pillar);-1159.8;3508.8;0.0;120;108.29;3695.6;appui pente A c4 t-750 : poteau
+65;Pilier fin métal (Thin Pillar);-859.8;2989.2;0.0;120;106.05;3110.4;appui pente A c4 t-750 : poteau
+66;Pilier fin métal (Thin Pillar);-1419.6;3358.8;0.0;120;112.91;3646.5;appui pente A c4 t-450 : poteau
+67;Pilier fin métal (Thin Pillar);-1119.6;2839.2;0.0;120;111.52;3052.0;appui pente A c4 t-450 : poteau
+68;Pilier fin métal (Thin Pillar);-1679.4;3208.8;0.0;120;117.63;3621.8;appui pente A c4 t-150 : poteau
+69;Pilier fin métal (Thin Pillar);-1379.4;2689.2;0.0;120;117.16;3022.4;appui pente A c4 t-150 : poteau
+70;Pilier fin métal (Thin Pillar);-1939.2;3058.8;0.0;120;122.37;3621.8;appui pente A c4 t+150 : poteau
+71;Pilier fin métal (Thin Pillar);-1639.2;2539.2;0.0;120;122.84;3022.4;appui pente A c4 t+150 : poteau
+72;Pilier fin métal (Thin Pillar);-2199.0;2908.8;0.0;120;127.09;3646.5;appui pente A c4 t+450 : poteau
+73;Pilier fin métal (Thin Pillar);-1899.0;2389.2;0.0;120;128.48;3052.0;appui pente A c4 t+450 : poteau
+74;Pilier fin métal (Thin Pillar);-2458.8;2758.8;0.0;120;131.71;3695.6;appui pente A c4 t+750 : poteau
+75;Pilier fin métal (Thin Pillar);-2158.8;2239.2;0.0;120;133.95;3110.4;appui pente A c4 t+750 : poteau
+76;Pilier fin métal (Thin Pillar);-2718.7;2608.8;0.0;120;136.18;3767.9;appui pente A c4 t+1050 : poteau
+77;Pilier fin métal (Thin Pillar);-2608.8;2718.7;0.0;150;133.82;3767.9;appui pente A c5 t-1050 : poteau
+78;Pilier fin métal (Thin Pillar);-2758.8;2458.8;0.0;150;138.29;3695.6;appui pente A c5 t-750 : poteau
+79;Pilier fin métal (Thin Pillar);-2239.2;2158.8;0.0;150;136.05;3110.4;appui pente A c5 t-750 : poteau
+80;Pilier fin métal (Thin Pillar);-2908.8;2199.0;0.0;150;142.91;3646.5;appui pente A c5 t-450 : poteau
+81;Pilier fin métal (Thin Pillar);-2389.2;1899.0;0.0;150;141.52;3052.0;appui pente A c5 t-450 : poteau
+82;Pilier fin métal (Thin Pillar);-3058.8;1939.2;0.0;150;147.63;3621.8;appui pente A c5 t-150 : poteau
+83;Pilier fin métal (Thin Pillar);-2539.2;1639.2;0.0;150;147.16;3022.4;appui pente A c5 t-150 : poteau
+84;Pilier fin métal (Thin Pillar);-3208.8;1679.4;0.0;150;152.37;3621.8;appui pente A c5 t+150 : poteau
+85;Pilier fin métal (Thin Pillar);-2689.2;1379.4;0.0;150;152.84;3022.4;appui pente A c5 t+150 : poteau
+86;Pilier fin métal (Thin Pillar);-3358.8;1419.6;0.0;150;157.09;3646.5;appui pente A c5 t+450 : poteau
+87;Pilier fin métal (Thin Pillar);-3099.0;1269.6;0.0;150;157.72;3349.0;appui pente A c5 t+450 : poteau
+88;Pilier fin métal (Thin Pillar);-3208.8;-1679.4;0.0;210;207.63;3621.8;appui pente A c7 t-150 : poteau
+89;Pilier fin métal (Thin Pillar);-2689.2;-1379.4;0.0;210;207.16;3022.4;appui pente A c7 t-150 : poteau
+90;Pilier fin métal (Thin Pillar);-3058.8;-1939.2;0.0;210;212.37;3621.8;appui pente A c7 t+150 : poteau
+91;Pilier fin métal (Thin Pillar);-2539.2;-1639.2;0.0;210;212.84;3022.4;appui pente A c7 t+150 : poteau
+92;Pilier fin métal (Thin Pillar);-2908.8;-2199.0;0.0;210;217.09;3646.5;appui pente A c7 t+450 : poteau
+93;Pilier fin métal (Thin Pillar);-2389.2;-1899.0;0.0;210;218.48;3052.0;appui pente A c7 t+450 : poteau
+94;Pilier fin métal (Thin Pillar);-2758.8;-2458.8;0.0;210;221.71;3695.6;appui pente A c7 t+750 : poteau
+95;Pilier fin métal (Thin Pillar);-2239.2;-2158.8;0.0;210;223.95;3110.4;appui pente A c7 t+750 : poteau
+96;Pilier fin métal (Thin Pillar);-2608.8;-2718.7;0.0;210;226.18;3767.9;appui pente A c7 t+1050 : poteau
+97;Pilier fin métal (Thin Pillar);-2718.7;-2608.8;0.0;240;223.82;3767.9;appui pente A c8 t-1050 : poteau
+98;Pilier fin métal (Thin Pillar);-2458.8;-2758.8;0.0;240;228.29;3695.6;appui pente A c8 t-750 : poteau
+99;Pilier fin métal (Thin Pillar);-2158.8;-2239.2;0.0;240;226.05;3110.4;appui pente A c8 t-750 : poteau
+100;Pilier fin métal (Thin Pillar);-2199.0;-2908.8;0.0;240;232.91;3646.5;appui pente A c8 t-450 : poteau
+101;Pilier fin métal (Thin Pillar);-1899.0;-2389.2;0.0;240;231.52;3052.0;appui pente A c8 t-450 : poteau
+102;Pilier fin métal (Thin Pillar);-1939.2;-3058.8;0.0;240;237.63;3621.8;appui pente A c8 t-150 : poteau
+103;Pilier fin métal (Thin Pillar);-1639.2;-2539.2;0.0;240;237.16;3022.4;appui pente A c8 t-150 : poteau
+104;Pilier fin métal (Thin Pillar);-1679.4;-3208.8;0.0;240;242.37;3621.8;appui pente A c8 t+150 : poteau
+105;Pilier fin métal (Thin Pillar);-1379.4;-2689.2;0.0;240;242.84;3022.4;appui pente A c8 t+150 : poteau
+106;Pilier fin métal (Thin Pillar);-1419.6;-3358.8;0.0;240;247.09;3646.5;appui pente A c8 t+450 : poteau
+107;Pilier fin métal (Thin Pillar);-1119.6;-2839.2;0.0;240;248.48;3052.0;appui pente A c8 t+450 : poteau
+108;Pilier fin métal (Thin Pillar);-1159.8;-3508.8;0.0;240;251.71;3695.6;appui pente A c8 t+750 : poteau
+109;Pilier fin métal (Thin Pillar);-859.8;-2989.2;0.0;240;253.95;3110.4;appui pente A c8 t+750 : poteau
+110;Pilier fin métal (Thin Pillar);-900.0;-3658.8;0.0;240;256.18;3767.9;appui pente A c8 t+1050 : poteau
+111;Pilier fin métal (Thin Pillar);-1050.0;-3618.7;0.0;270;253.82;3767.9;appui pente A c9 t-1050 : poteau
+112;Pilier fin métal (Thin Pillar);-750.0;-3618.7;0.0;270;258.29;3695.6;appui pente A c9 t-750 : poteau
+113;Pilier fin métal (Thin Pillar);-750.0;-3018.7;0.0;270;256.05;3110.4;appui pente A c9 t-750 : poteau
+114;Pilier fin métal (Thin Pillar);-450.0;-3618.7;0.0;270;262.91;3646.5;appui pente A c9 t-450 : poteau
+115;Pilier fin métal (Thin Pillar);-450.0;-3018.7;0.0;270;261.52;3052.0;appui pente A c9 t-450 : poteau
+116;Pilier fin métal (Thin Pillar);-150.0;-3618.7;0.0;270;267.63;3621.8;appui pente A c9 t-150 : poteau
+117;Pilier fin métal (Thin Pillar);-150.0;-3018.7;0.0;270;267.16;3022.4;appui pente A c9 t-150 : poteau
+118;Pilier fin métal (Thin Pillar);150.0;-3618.7;0.0;270;272.37;3621.8;appui pente A c9 t+150 : poteau
+119;Pilier fin métal (Thin Pillar);150.0;-3018.7;0.0;270;272.84;3022.4;appui pente A c9 t+150 : poteau
+120;Pilier fin métal (Thin Pillar);450.0;-3618.7;0.0;270;277.09;3646.5;appui pente A c9 t+450 : poteau
+121;Pilier fin métal (Thin Pillar);450.0;-3018.7;0.0;270;278.48;3052.0;appui pente A c9 t+450 : poteau
+122;Pilier fin métal (Thin Pillar);750.0;-3618.7;0.0;270;281.71;3695.6;appui pente A c9 t+750 : poteau
+123;Pilier fin métal (Thin Pillar);750.0;-3018.7;0.0;270;283.95;3110.4;appui pente A c9 t+750 : poteau
+124;Pilier fin métal (Thin Pillar);1050.0;-3618.7;0.0;270;286.18;3767.9;appui pente A c9 t+1050 : poteau
+125;Pilier fin métal (Thin Pillar);900.0;-3658.8;0.0;300;283.82;3767.9;appui pente A c10 t-1050 : poteau
+126;Pilier fin métal (Thin Pillar);1159.8;-3508.8;0.0;300;288.29;3695.6;appui pente A c10 t-750 : poteau
+127;Pilier fin métal (Thin Pillar);859.8;-2989.2;0.0;300;286.05;3110.4;appui pente A c10 t-750 : poteau
+128;Pilier fin métal (Thin Pillar);1419.6;-3358.8;0.0;300;292.91;3646.5;appui pente A c10 t-450 : poteau
+129;Pilier fin métal (Thin Pillar);1119.6;-2839.2;0.0;300;291.52;3052.0;appui pente A c10 t-450 : poteau
+130;Pilier fin métal (Thin Pillar);1679.4;-3208.8;0.0;300;297.63;3621.8;appui pente A c10 t-150 : poteau
+131;Pilier fin métal (Thin Pillar);1379.4;-2689.2;0.0;300;297.16;3022.4;appui pente A c10 t-150 : poteau
+132;Pilier fin métal (Thin Pillar);1939.2;-3058.8;0.0;300;302.37;3621.8;appui pente A c10 t+150 : poteau
+133;Pilier fin métal (Thin Pillar);1639.2;-2539.2;0.0;300;302.84;3022.4;appui pente A c10 t+150 : poteau
+134;Pilier fin métal (Thin Pillar);2199.0;-2908.8;0.0;300;307.09;3646.5;appui pente A c10 t+450 : poteau
+135;Pilier fin métal (Thin Pillar);1899.0;-2389.2;0.0;300;308.48;3052.0;appui pente A c10 t+450 : poteau
+136;Pilier fin métal (Thin Pillar);2458.8;-2758.8;0.0;300;311.71;3695.6;appui pente A c10 t+750 : poteau
+137;Pilier fin métal (Thin Pillar);2158.8;-2239.2;0.0;300;313.95;3110.4;appui pente A c10 t+750 : poteau
+138;Pilier fin métal (Thin Pillar);2718.7;-2608.8;0.0;300;316.18;3767.9;appui pente A c10 t+1050 : poteau
+139;Pilier fin métal (Thin Pillar);2608.8;-2718.7;0.0;330;313.82;3767.9;appui pente A c11 t-1050 : poteau
+140;Pilier fin métal (Thin Pillar);2758.8;-2458.8;0.0;330;318.29;3695.6;appui pente A c11 t-750 : poteau
+141;Pilier fin métal (Thin Pillar);2239.2;-2158.8;0.0;330;316.05;3110.4;appui pente A c11 t-750 : poteau
+142;Pilier fin métal (Thin Pillar);2908.8;-2199.0;0.0;330;322.91;3646.5;appui pente A c11 t-450 : poteau
+143;Pilier fin métal (Thin Pillar);2389.2;-1899.0;0.0;330;321.52;3052.0;appui pente A c11 t-450 : poteau
+144;Pilier fin métal (Thin Pillar);3058.8;-1939.2;0.0;330;327.63;3621.8;appui pente A c11 t-150 : poteau
+145;Pilier fin métal (Thin Pillar);2539.2;-1639.2;0.0;330;327.16;3022.4;appui pente A c11 t-150 : poteau
+146;Pilier fin métal (Thin Pillar);3208.8;-1679.4;0.0;330;332.37;3621.8;appui pente A c11 t+150 : poteau
+147;Pilier fin métal (Thin Pillar);2689.2;-1379.4;0.0;330;332.84;3022.4;appui pente A c11 t+150 : poteau
+148;Pilier fin métal (Thin Pillar);3358.8;-1419.6;0.0;330;337.09;3646.5;appui pente A c11 t+450 : poteau
+149;Pilier fin métal (Thin Pillar);2839.2;-1119.6;0.0;330;338.48;3052.0;appui pente A c11 t+450 : poteau
+150;Pilier fin métal (Thin Pillar);3508.8;-1159.8;0.0;330;341.71;3695.6;appui pente A c11 t+750 : poteau
+151;Pilier fin métal (Thin Pillar);2989.2;-859.8;0.0;330;343.95;3110.4;appui pente A c11 t+750 : poteau
+152;Pilier fin métal (Thin Pillar);3658.8;-900.0;0.0;330;346.18;3767.9;appui pente A c11 t+1050 : poteau
+153;Mur de chaume (gabarit de pose, à démolir);-3468.7;-1569.6;0.0;90.0;204.35;3807.3;#6 TROU c3 p1 (chaume a demolir)
+154;Mur de chaume (gabarit de pose, à démolir);-3618.7;1309.8;0.0;270.0;160.1;3848.4;#21 TROU c9 p0 (chaume a demolir)
 155;Cadre de porte double métal;-2778.9;1084.8;300.0;240.0;158.68;2983.2;bord du trou niv1 θ158.7
 156;Cadre de porte double métal;-3058.8;1159.8;300.0;270.0;159.24;3271.3;bord du trou niv1 θ159.2
-157;Cadre de porte double métal;-3338.7;1234.8;300.0;240.0;159.7;3559.8;bord du trou niv1 θ159.7
-158;Cadre de porte double métal;-3618.7;1309.8;300.0;270.0;160.1;3848.4;bord du trou niv1 θ160.1
-159;Cadre de porte double métal;-2778.9;-1084.8;300.0;120.0;201.32;2983.2;bord du trou niv1 θ201.3
-160;Cadre de porte double métal;-2983.8;-1289.7;300.0;150.0;203.38;3250.6;bord du trou niv1 θ203.4
-161;Cadre de porte double métal;-3468.7;-1569.6;300.0;90.0;204.35;3807.3;bord du trou niv1 θ204.3
+157;Cadre de porte double métal;-3618.7;1309.8;300.0;270.0;160.1;3848.4;bord du trou niv1 θ160.1
+158;Cadre de porte double métal;-2778.9;-1084.8;300.0;120.0;201.32;2983.2;bord du trou niv1 θ201.3
+159;Cadre de porte double métal;-2983.8;-1289.7;300.0;150.0;203.38;3250.6;bord du trou niv1 θ203.4
+160;Cadre de porte double métal;-3468.7;-1569.6;300.0;90.0;204.35;3807.3;bord du trou niv1 θ204.3
+161;Cadre de porte double métal;-3188.7;-1494.6;300.0;120.0;205.11;3521.6;bord du trou niv1 θ205.1
 162;Pilier fin métal (Thin Pillar);3618.7;-1050.0;300.0;0;343.82;3767.9;appui pente A c0 t-1050 : poteau
 163;Pilier fin métal (Thin Pillar);3618.7;-750.0;300.0;0;348.29;3695.6;appui pente A c0 t-750 : poteau
 164;Pilier fin métal (Thin Pillar);3018.7;-750.0;300.0;0;346.05;3110.4;appui pente A c0 t-750 : poteau
@@ -307,7 +307,7 @@ entree;piece;x;y;Z_plan;yaw;theta;rayon;repere
 305;Pilier fin métal (Thin Pillar);3508.8;-1159.8;300.0;330;341.71;3695.6;appui pente A c11 t+750 : poteau
 306;Pilier fin métal (Thin Pillar);2989.2;-859.8;300.0;330;343.95;3110.4;appui pente A c11 t+750 : poteau
 307;Pilier fin métal (Thin Pillar);3658.8;-900.0;300.0;330;346.18;3767.9;appui pente A c11 t+1050 : poteau
-308;Mur de chaume (gabarit de pose, à démolir);-3188.7;-1494.6;300.0;120.0;205.11;3521.6;#51 TROU c4 p0 (chaume a demolir)
+308;Mur de chaume (gabarit de pose, à démolir);-3338.7;1234.8;300.0;240.0;159.7;3559.8;#48 TROU c8 p0 (chaume a demolir)
 309;Cadre de porte double métal;-2778.9;1084.8;600.0;240.0;158.68;2983.2;bord du trou niv2 θ158.7
 310;Cadre de porte double métal;-3058.8;1159.8;600.0;270.0;159.24;3271.3;bord du trou niv2 θ159.2
 311;Cadre de porte double métal;-3338.7;1234.8;600.0;240.0;159.7;3559.8;bord du trou niv2 θ159.7

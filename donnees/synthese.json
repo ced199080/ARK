@@ -9,7 +9,7 @@
   "rangs_pente_A": 3,
   "cage_niveaux": 2,
   "casquette": 1,
-  "debord": 2,
+  "debord": 1,
   "pod_niveaux": 9,
   "mezzanine": 1800.0,
   "jupe": true,
@@ -39,6 +39,7 @@
   ],
   "tesla_rive_E1": [],
   "rive_heavy": true,
+  "ecart_tourelles": 300.0,
   "d4_tesla": [
    2,
    10
@@ -85,12 +86,12 @@
   "D8": 4636.4
  },
  "overhang": {
-  "A_bout": 5078.460969082653,
-  "Z_bout": -600.0
+  "A_bout": 4778.460969082653,
+  "Z_bout": -300.0
  },
  "jupe": {
   "A": 4478.460969082653,
-  "Z": -600.0,
+  "Z": -300.0,
   "Z_haut": 0.0
  },
  "Z_haut_tour": 2700.0,
@@ -214,38 +215,32 @@
  },
  "tourelles": {
   "posees": {
-   "heavy": 52,
-   "tek": 23,
+   "heavy": 49,
+   "tek": 26,
    "tesla": 10,
    "crop": 15
   },
   "reserve": {
-   "heavy": 28,
-   "tek": 12,
+   "heavy": 31,
+   "tek": 9,
    "tesla": 0
   },
-  "L1": 29,
+  "L1": 35,
   "par_couche": {
-   "JUPE-ext": {
-    "heavy": 5
-   },
    "RIVE": {
-    "heavy": 11,
+    "heavy": 22,
     "tesla": 5
    },
-   "JUPE-int": {
-    "heavy": 11
-   },
    "TROU": {
-    "heavy": 3,
+    "heavy": 2,
     "tesla": 1
    },
    "L1": {
-    "heavy": 13,
-    "tek": 13
+    "heavy": 15,
+    "tek": 16
    },
    "TROU-L1": {
-    "heavy": 1,
+    "heavy": 2,
     "tek": 2
    },
    "D4": {
@@ -271,8 +266,8 @@
   },
   "par_plan": {
    "ext": {
-    "heavy": 44,
-    "tek": 15,
+    "heavy": 41,
+    "tek": 18,
     "tesla": 6,
     "crop": 5
    },
@@ -291,9 +286,9 @@
   }
  },
  "cap": {
-  "distance_max_entre_tourelles": 9002.0,
-  "rayon_max_tourelle": 4550.7,
-  "distance_min_avant_poste": 14550.7
+  "distance_max_entre_tourelles": 7954.1,
+  "rayon_max_tourelle": 3974.2,
+  "distance_min_avant_poste": 13974.2
  },
  "secteurs": {
   "L1": [
@@ -312,6 +307,14 @@
     -300.0
    ]
   ],
+  "RIVE-H0": [
+   -18.4,
+   89.9
+  ],
+  "RIVE-H1": [
+   -45.0,
+   89.9
+  ],
   "D4": [
    -18.4,
    89.9
@@ -319,39 +322,15 @@
   "DESSUS": [
    -7.7,
    89.9
-  ],
-  "JUPE-ext": [
-   -89.9,
-   89.9
-  ],
-  "JUPE-int": [
-   -89.9,
-   9.7
   ]
  },
  "couverture": {
   "sous la plateforme (piton)": {
    "rayon": 3000.0,
    "Z": -1500.0,
-   "min_medium": 3,
-   "min_high": 5,
-   "moyenne_high": 6.4,
-   "faibles_high": []
-  },
-  "mer, pied du piton": {
-   "rayon": 6500.0,
-   "Z": -1500.0,
    "min_medium": 0,
-   "min_high": 6,
-   "moyenne_high": 10.6,
-   "faibles_high": []
-  },
-  "paliers et ligne de pics": {
-   "rayon": 4300.0,
-   "Z": -150.0,
-   "min_medium": 1,
-   "min_high": 1,
-   "moyenne_high": 1.0,
+   "min_high": 0,
+   "moyenne_high": 0.0,
    "faibles_high": [
     0,
     10,
@@ -369,6 +348,11 @@
     130,
     140,
     150,
+    160,
+    170,
+    180,
+    190,
+    200,
     210,
     220,
     230,
@@ -386,20 +370,36 @@
     350
    ]
   },
+  "mer, pied du piton": {
+   "rayon": 6500.0,
+   "Z": -1500.0,
+   "min_medium": 0,
+   "min_high": 5,
+   "moyenne_high": 9.6,
+   "faibles_high": []
+  },
+  "paliers et ligne de pics": {
+   "rayon": 4300.0,
+   "Z": -150.0,
+   "min_medium": 2,
+   "min_high": 2,
+   "moyenne_high": 2.0,
+   "faibles_high": []
+  },
   "attique, sous la pente A": {
    "rayon": 3300.0,
    "Z": 150.0,
    "min_medium": 2,
    "min_high": 2,
-   "moyenne_high": 4.2,
+   "moyenne_high": 4.9,
    "faibles_high": []
   },
   "pente A et overhang": {
    "rayon": 3700.0,
    "Z": 1000.0,
-   "min_medium": 4,
-   "min_high": 4,
-   "moyenne_high": 5.8,
+   "min_medium": 5,
+   "min_high": 5,
+   "moyenne_high": 6.7,
    "faibles_high": []
   },
   "toit de cage, poche D4-D5": {
@@ -442,8 +442,8 @@
    "rayon": 7000.0,
    "Z": 2000.0,
    "min_medium": 0,
-   "min_high": 10,
-   "moyenne_high": 16.1,
+   "min_high": 13,
+   "moyenne_high": 19.5,
    "faibles_high": []
   }
  },
@@ -515,21 +515,21 @@
    "poteaux": 378,
    "piliers_fins": 1027,
    "demi_piliers_fins": 43,
-   "poutres_fines": 94,
+   "poutres_fines": 0,
    "lignes_stables": 178,
    "lignes_sans_tous_leurs_poteaux": []
   },
   "controle_appuis": {
    "mode": "stable",
-   "rampes": 852,
+   "rampes": 758,
    "portee_max": 3,
    "pendues": 244,
    "montee_libre_max": 0,
    "montantes_libres": 0,
    "redondance": {
     "overhang": {
-     "lames": 356,
-     "redondantes": 177
+     "lames": 262,
+     "redondantes": 83
     },
     "pente A": {
      "lames": 208,
@@ -553,32 +553,28 @@
     }
    }
   },
-  "recouvrements_admis": {
-   "jupe sous la plateforme": 83
-  },
+  "recouvrements_admis": {},
   "rehausse": {
    "entrees": 76,
    "pieces": {
     "mur": 52,
     "pilier": 24
    },
-   "recouvrements_admis": {
-    "jupe sous la plateforme": 83
-   },
+   "recouvrements_admis": {},
    "portee_max": 3,
    "montee_libre_max": 0
   },
   "chaume_a_demolir": {
    "total": 79,
    "par_plan": {
-    "Plan_03": 32,
-    "Plan_04": 4,
-    "Plan_05": 14,
-    "Plan_06": 29
+    "Plan_03": 27,
+    "Plan_04": 3,
+    "Plan_05": 16,
+    "Plan_06": 33
    },
    "pose_au_dessus": {
-    "Cadre de porte double métal": 49,
-    "Mur métal": 14,
+    "Cadre de porte double métal": 47,
+    "Mur métal": 16,
     "rien": 16
    }
   }
@@ -807,16 +803,6 @@
    "y": 0.0
   },
   {
-   "nom": "Générateur Tek n°1 (ateliers)",
-   "theta": 60,
-   "apotheme": 1800,
-   "largeur": 300,
-   "profondeur": 300,
-   "hauteur_murs": 1,
-   "x": 900.0,
-   "y": 1558.8
-  },
-  {
    "nom": "Forge à vapeur",
    "theta": 120,
    "apotheme": 1650,
@@ -847,38 +833,60 @@
    "y": -1385.6
   }
  ],
- "generateurs": [
+ "noyau": [
   {
-   "nom": "Générateur Tek n°1 (hall)",
-   "theta": 60,
-   "x": 900.0,
-   "y": 1558.8,
-   "Z": 0.0
+   "nom": "Générateur Tek n°1 (principal)",
+   "equipement": "Générateur Tek",
+   "theta": 180,
+   "x": -409.8,
+   "y": 0.0,
+   "Z": 0.0,
+   "cage": "2 murs + plafond"
   },
   {
-   "nom": "Générateur Tek n°2 (mezzanine)",
-   "theta": 180,
-   "x": -900.0,
-   "y": 0.0,
-   "Z": 1800.0
+   "nom": "Générateur Tek n°2 (secours)",
+   "equipement": "Générateur Tek",
+   "theta": 240,
+   "x": -204.9,
+   "y": -354.9,
+   "Z": 0.0,
+   "cage": "2 murs + plafond"
+  },
+  {
+   "nom": "Boîte de munitions n°1",
+   "equipement": "Boîte de munitions (Ammo Box)",
+   "theta": 60,
+   "x": 204.9,
+   "y": 354.9,
+   "Z": 0.0,
+   "cage": "2 murs + plafond"
+  },
+  {
+   "nom": "Boîte de munitions n°2",
+   "equipement": "Boîte de munitions (Ammo Box)",
+   "theta": 120,
+   "x": -204.9,
+   "y": 354.9,
+   "Z": 0.0,
+   "cage": "2 murs + plafond"
   }
  ],
  "limites_moteur": {
-  "structures_bati": 5940,
+  "structures_bati": 5691,
   "dont_tourelles": 85,
   "dont_carres_plante_x": 15,
-  "structures_pic_chantier": 6028,
+  "structures_pic_chantier": 5779,
   "plafond": 8400,
-  "marge": 2460,
+  "marge": 2709,
   "tourelles_comptees": 100,
   "tesla_non_comptees": 0,
   "hauteur_max_Z": 5100.0,
   "hauteur_max_murs": 17.0,
   "portee_plafond_max_cases": 2,
   "plafonds_par_portee": {
-   "0": 494,
-   "1": 330,
-   "2": 118
+   "0": 489,
+   "1": 331,
+   "2": 126
   }
  },
  "plans": {
@@ -908,23 +916,22 @@
    }
   },
   "Plan_03_bord_D8-D7": {
-   "total": 946,
-   "entrees": 947,
+   "total": 659,
+   "entrees": 660,
    "reference": "pile",
    "pieces": {
-    "cadre_double": 298,
-    "poutre_fine": 94,
-    "rampe": 356,
-    "chaume_mur": 32,
+    "cadre_double": 204,
     "pilier_fin": 123,
+    "rampe": 262,
+    "chaume_mur": 27,
     "demi_pilier_fin": 43
    },
    "bilan": {
-    "MI": 14844,
-    "PC": 4108,
-    "CH": 224,
-    "FI": 128,
-    "BO": 128
+    "MI": 10144,
+    "PC": 2792,
+    "CH": 189,
+    "FI": 108,
+    "BO": 108
    }
   },
   "Plan_04_D7-D5_pente_A": {
@@ -932,38 +939,38 @@
    "entrees": 808,
    "reference": "pile",
    "pieces": {
-    "cadre_double": 32,
+    "cadre_double": 33,
     "pilier_fin": 563,
-    "chaume_mur": 4,
+    "chaume_mur": 3,
     "rampe": 208
    },
    "bilan": {
-    "MI": 10615,
-    "PC": 3100,
-    "CH": 28,
-    "FI": 16,
-    "BO": 16
+    "MI": 10640,
+    "PC": 3107,
+    "CH": 21,
+    "FI": 12,
+    "BO": 12
    }
   },
   "Plan_05_tour_du_pod_D4": {
-   "total": 945,
-   "entrees": 946,
+   "total": 981,
+   "entrees": 982,
    "reference": "pile",
    "pieces": {
     "escalier": 6,
-    "mur": 437,
-    "cadre_double": 17,
+    "mur": 463,
+    "cadre_double": 21,
     "pilier": 216,
+    "plafond": 89,
     "plafond_tri": 170,
-    "plafond": 85,
-    "chaume_mur": 14
+    "chaume_mur": 16
    },
    "bilan": {
-    "MI": 23085,
-    "PC": 6480,
-    "CH": 98,
-    "FI": 56,
-    "BO": 56
+    "MI": 23975,
+    "PC": 6730,
+    "CH": 112,
+    "FI": 64,
+    "BO": 64
    }
   },
   "Plan_06_D5-D4_cage_et_appentis": {
@@ -971,20 +978,20 @@
    "entrees": 1046,
    "reference": "pile",
    "pieces": {
-    "cadre_double": 427,
+    "cadre_double": 423,
     "plafond_tri": 285,
     "plafond": 136,
-    "chaume_mur": 29,
+    "chaume_mur": 33,
     "trappe": 5,
     "rampe": 110,
     "pilier_fin": 53
    },
    "bilan": {
-    "MI": 22749,
-    "PC": 6366,
-    "CH": 203,
-    "FI": 116,
-    "BO": 116
+    "MI": 22649,
+    "PC": 6338,
+    "CH": 231,
+    "FI": 132,
+    "BO": 132
    }
   },
   "Plan_07_tourelles_D8-D4": {
@@ -992,10 +999,10 @@
    "entrees": 71,
    "reference": "pile",
    "pieces": {
-    "heavy": 44,
     "crop": 5,
+    "heavy": 41,
     "tesla": 6,
-    "tek": 15
+    "tek": 18
    },
    "bilan": {
     "BO": 200,
@@ -1009,16 +1016,15 @@
    "entrees": 21,
    "reference": "pile",
    "pieces": {
-    "crop": 6,
+    "crop_m": 6,
     "heavy": 6,
     "tek": 6,
     "tesla": 2
    },
    "bilan": {
-    "BO": 240,
-    "CH": 300,
-    "FI": 240,
-    "PI": 600
+    "CH": 120,
+    "FI": 180,
+    "PI": 300
    }
   },
   "Plan_09_toiture_pleine_D4-centre": {
@@ -1102,32 +1108,32 @@
    "pieces": {
     "fond_tri": 684,
     "fond": 344,
-    "cadre_double": 774,
-    "poutre_fine": 94,
-    "rampe": 852,
+    "cadre_double": 681,
     "pilier_fin": 1027,
+    "rampe": 758,
     "demi_pilier_fin": 43,
     "escalier": 6,
-    "mur": 489,
+    "mur": 515,
     "pilier": 240,
+    "plafond": 311,
     "plafond_tri": 629,
-    "plafond": 307,
     "trappe": 6
    },
    "bilan": {
-    "MI": 119550,
-    "PC": 34644
+    "MI": 115665,
+    "PC": 33557
    }
   },
   "cultures": {
    "pieces": {
-    "crop": 15
+    "crop": 9,
+    "crop_m": 6
    },
    "bilan": {
-    "BO": 600,
-    "CH": 750,
-    "FI": 600,
-    "PI": 1500
+    "BO": 360,
+    "CH": 570,
+    "FI": 540,
+    "PI": 1200
    }
   },
   "tourelles_chaume": {
@@ -1142,16 +1148,16 @@
   },
   "tourelles": {
    "pieces": {
-    "heavy": 52,
-    "tek": 23,
+    "heavy": 49,
+    "tek": 26,
     "tesla": 10
    },
    "bilan": {
-    "MI": 35380,
-    "PC": 11550,
-    "EL": 17340,
-    "PO": 7790,
-    "EM": 69,
+    "MI": 34060,
+    "PC": 11100,
+    "EL": 16830,
+    "PO": 7730,
+    "EM": 78,
     "CR": 2000
    }
   },
@@ -1181,6 +1187,7 @@
     "megalab": 1,
     "stockage_dedie": 20,
     "generateur_tek": 2,
+    "boite_munitions": 2,
     "coffre_fort": 20
    },
    "bilan": {
@@ -1198,12 +1205,12 @@
  },
  "bilan_total": {
   "sans_tourelles": {
-   "MI": 147504,
-   "PC": 37576,
-   "BO": 916,
-   "CH": 1303,
-   "FI": 3136,
-   "PI": 1500,
+   "MI": 143619,
+   "PC": 36489,
+   "BO": 676,
+   "CH": 1123,
+   "FI": 3076,
+   "PI": 1200,
    "CU": 1480,
    "EM": 220,
    "CR": 3350,
@@ -1214,15 +1221,15 @@
    "HU": 1400
   },
   "avec_tourelles": {
-   "MI": 182884,
-   "PC": 49126,
-   "BO": 916,
-   "CH": 1303,
-   "FI": 3136,
-   "PI": 1500,
-   "EL": 17560,
-   "PO": 13640,
-   "EM": 289,
+   "MI": 177679,
+   "PC": 47589,
+   "BO": 676,
+   "CH": 1123,
+   "FI": 3076,
+   "PI": 1200,
+   "EL": 17050,
+   "PO": 13580,
+   "EM": 298,
    "CR": 5350,
    "CU": 1480,
    "PN": 470,
@@ -1230,36 +1237,36 @@
    "HU": 1400
   },
   "brut_sans_tourelles": {
-   "minerai_metal": 295448,
+   "minerai_metal": 287678,
    "perles_silice": 660,
    "obsidienne": 11700,
-   "chitine_ou_keratine": 197104,
-   "pierre": 395808,
+   "chitine_ou_keratine": 192756,
+   "pierre": 386812,
    "silex": 200,
    "cristal": 3350,
    "element": 220,
    "perles_noires": 470,
    "huile": 1400,
    "cuir": 1480,
-   "fibre": 3136,
-   "lingots_total": 147724,
-   "pate_totale": 49276
+   "fibre": 3076,
+   "lingots_total": 143839,
+   "pate_totale": 48189
   },
   "brut_avec_tourelles": {
-   "minerai_metal": 400888,
-   "perles_silice": 52680,
-   "obsidienne": 27280,
-   "chitine_ou_keratine": 305624,
-   "pierre": 612848,
+   "minerai_metal": 389458,
+   "perles_silice": 51150,
+   "obsidienne": 27160,
+   "chitine_ou_keratine": 298996,
+   "pierre": 599292,
    "silex": 200,
    "cristal": 5350,
-   "element": 289,
+   "element": 298,
    "perles_noires": 470,
    "huile": 1400,
    "cuir": 1480,
-   "fibre": 3136,
-   "lingots_total": 200444,
-   "pate_totale": 76406
+   "fibre": 3076,
+   "lingots_total": 194729,
+   "pate_totale": 74749
   }
  }
 }
