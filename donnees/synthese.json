@@ -374,6 +374,48 @@
    "description": "De Z1800 au faitage : mezzanine, galeries, tourelles L1, cadres L2, plancher de toit, poteaux et toit en rampes, casquettes"
   }
  ],
+ "cage_seule": [
+  {
+   "phase": 1,
+   "fichier": "Cage_1_sol_anneaux_0-9.json",
+   "entrees": 405,
+   "pieces": {
+    "fond_tri": 269,
+    "fond": 134
+   },
+   "description": "Sol sous la cage : fondations des anneaux 0 a 9 (jusqu'a D5), sans le trou ; a sauter si votre sol est deja pose, mais il faut alors la pile d'ancrage en (0 ; 300)"
+  },
+  {
+   "phase": 2,
+   "fichier": "Cage_2_murs_et_piliers_Z0-1800.json",
+   "entrees": 799,
+   "pieces": {
+    "mur": 642,
+    "cadre_double": 12,
+    "pilier": 144
+   },
+   "description": "Cage de Z0 a Z1800 : mur de pod D4, fut D5, murs de bord du trou du pod et du couloir, piliers PA et PB qui porteront le toit"
+  },
+  {
+   "phase": 3,
+   "fichier": "Cage_3_galeries_et_toit.json",
+   "entrees": 1389,
+   "pieces": {
+    "plafond_tri": 459,
+    "plafond": 223,
+    "mur": 94,
+    "cadre_double": 64,
+    "pilier": 48,
+    "chaume_mur": 60,
+    "tek": 32,
+    "heavy": 32,
+    "trappe": 5,
+    "rampe": 328,
+    "pilier_fin": 43
+   },
+   "description": "Cage de Z1800 au faitage : galeries, 60 tourelles L1 sur leurs murs de chaume, cadres doubles L2, casquette, plancher de toit Z2400, poteaux, toit en rampes, casquette du trou, 4 tourelles du toit"
+  }
+ ],
  "anneaux": [
   {
    "anneau": 1,

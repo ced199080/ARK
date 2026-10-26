@@ -5,6 +5,8 @@ Template : `templates/plans/Plan_5_cage_et_casquette.json` (module 06), réparti
 - **P3** : plancher Z1800 ;
 - **P5** : planchers 2100/2400, double doorframes L2, casquette en rampes.
 
+**Pour poser la cage seule**, avec son toit en rampes et les cadres et piliers qui le portent, utilisez `templates/cage/` (README §5, « Cage seule »).
+
 Au-dessus de la cage, le toit en rampes inclinées couvre le pod et la cage d'un seul tenant (module 02 §8). Il remplace l'ancienne reprise. La casquette est le premier rang de ce toit.
 
 Les tourelles de L1 et leurs murs de chaume sont dans `templates/plans/Plan_7_tourelles_cage_L1.json` (phase **P7**).

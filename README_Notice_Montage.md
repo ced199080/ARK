@@ -78,6 +78,7 @@ Le centre est repris à zéro, sans le Coeur Base. À l'avant de la plateforme, 
 | Chemin | Contenu |
 |---|---|
 | `templates/phases/Phase_1…3_*.json` | **Les 3 phases de pose** (moins de 2 000 entrées chacune), du bas vers le haut : à poser dans l'ordre |
+| `templates/cage/Cage_1…3_*.json` | **La cage seule** (tour, cadres et piliers qui portent le toit, toit en rampes), en 3 templates du bas vers le haut |
 | `templates/plans/Plan_1_sol_anneaux_12-15.json` | Sol des anneaux 12 à 15 (paliers compris), avec la pile d'ancrage |
 | `templates/plans/Plan_2_murs_rampes_tourelles_anneaux_12-15.json` | Rive, bord du trou extérieur, colonnade, jupe, appuis, pente A, overhang et débord, tourelles extérieures |
 | `templates/plans/Plan_3_sol_centre_anneaux_0-11.json` | Sol du centre (hexagone et anneaux 1 à 11) |
@@ -129,6 +130,27 @@ Le centre est repris à zéro, sans le Coeur Base. À l'avant de la plateforme, 
 - **Ancrage** : la phase 1 pose la pile d'ancrage sur votre pilier de référence en (0 ; 300). Les phases 2 et 3 portent un demi-pilier qui se pose dessus.
 - **Démolition du chaume** : démolissez les murs de chaume **à la fin**, une fois les 3 phases posées (`donnees/08_chaume_a_demolir.csv`). Au-dessus des murs de chaume de L1 et du bord du trou sont posés des cadres et des murs.
 - **Contenu** : les 3 phases contiennent exactement les mêmes pièces que les 8 plans par zone de `templates/plans/`. Ceux-ci restent disponibles pour reprendre une zone, mais ne les posez pas en plus des phases.
+
+### Cage seule (`templates/cage/`)
+
+La cage peut aussi se poser seule. Ces 3 templates suivent la même règle : du bas vers le haut, chaque pièce après ce qui la porte.
+
+La cage comprend :
+- la tour : mur de pod D4, fût D5 et murs de bord du trou à l'intérieur de D5 ;
+- les **piliers PA et PB, du sol au toit**, et les **cadres doubles** (L2, accès Z1800, portes), qui portent le plancher de toit et le toit en rampes ;
+- les galeries, les tourelles L1 et celles du toit ;
+- la casquette, le plancher de toit et le **toit en rampes** avec ses poteaux.
+
+Elle ne comprend pas l'extérieur (rive, colonnade, pente A, overhang, jupe), la mezzanine ni l'escalier du pod.
+
+| Fichier | Contenu | Entrées |
+|---|---|---|
+| `Cage_1_sol_anneaux_0-9.json` | fondations des anneaux 0 à 9 (jusqu'à D5), sans le trou, avec la pile d'ancrage. Si votre sol est déjà posé, sautez ce fichier, mais posez la pile de 2 demi-piliers en (0 ; 300) | 405 |
+| `Cage_2_murs_et_piliers_Z0-1800.json` | mur de pod et fût (642 murs, 12 cadres de porte), murs de bord du trou, 144 piliers PA/PB | 799 |
+| `Cage_3_galeries_et_toit.json` | galeries Z1800 / 2100 / 2400, 60 murs de chaume + 60 tourelles L1, 64 cadres (L2 et accès), haut des murs et des piliers, plancher de toit, 43 piliers fins de poteaux, 328 rampes (toit, casquette, casquette du trou), 4 tourelles du toit | 1 389 |
+
+- **Coût** : 45 837 lingots et 12 759 pâte sans le sol ; 59 262 lingots et 16 921 pâte avec le sol des anneaux 0 à 9. Les 64 tourelles (32 Heavy, 32 Tek) viennent de votre inventaire.
+- **Pas de doublons** : ces templates contiennent les mêmes pièces que les phases complètes. Ne posez pas les deux.
 
 ### Finitions
 

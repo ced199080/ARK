@@ -2054,11 +2054,20 @@ BANDES = [(-1e9, 0.0, 'sol_et_dessous', "Sol (toutes les fondations, plateforme 
             "cadres L2, plancher de toit, poteaux et toit en rampes, casquettes")]
 
 
-def phases_de_pose(plans):
+def phases_de_pose(plans, bandes=None, garder=None):
     """Découpe l'ordre de pose en phases par tranche de hauteur (BANDES, d'après la cote du pied de chaque pièce). Une
     pièce n'est jamais dans une phase antérieure à celle d'un de ses porteurs ; dans chaque phase, l'ordre de pose est
-    conservé. Chaque phase doit tenir dans TAILLE_MAX entrées, pile d'ancrage comprise."""
+    conservé. Chaque phase doit tenir dans TAILLE_MAX entrées, pile d'ancrage comprise.
+    garder(pièce) : ne garder qu'une partie de la base (cage seule) ; chaque pièce gardée doit alors avoir au moins un
+    porteur gardé ou être une fondation, et seuls les porteurs gardés comptent pour l'ordre."""
+    BANDES_ = bandes or BANDES
     P, ordre, par = ordre_de_pose(plans)
+    if garder:
+        gardees = {i for i in ordre if garder(P[i])}
+        orphelins = [P[i][7] for i in gardees if P[i][2] not in ('fond', 'fond_tri') and not set(par[i]) & gardees]
+        assert not orphelins, orphelins[:10]
+        ordre = [i for i in ordre if i in gardees]
+        par = [[j for j in ps if j in gardees] for ps in par]
     src = {(cle, n): (e, l_, ph) for cle, t in plans.items() for n, (e, l_, ph) in enumerate(zip(t.entries, t.lignes,
                                                                                                     t.phases))}
 
@@ -2070,13 +2079,13 @@ def phases_de_pose(plans):
         return z - bas - Z_TPL
     phase = {}
     for i in ordre:                              # ordre topologique : les porteurs sont déjà classés
-        b = next(n for n, (z0, z1, *_) in enumerate(BANDES) if z0 <= pied(i) + 1 < z1)
+        b = next(n for n, (z0, z1, *_) in enumerate(BANDES_) if z0 <= pied(i) + 1 < z1)
         phase[i] = max([b] + [phase[j] for j in par[i]])
-    final = [i for n in range(len(BANDES)) for i in ordre if phase[i] == n]
+    final = [i for n in range(len(BANDES_)) for i in ordre if phase[i] == n]
     pos = {i: k for k, i in enumerate(final)}
     assert all(pos[j] < pos[i] for i in final for j in par[i]), 'une pièce passe avant son porteur'
     out = []
-    for n, (z0, z1, nom, desc) in enumerate(BANDES):
+    for n, (z0, z1, nom, desc) in enumerate(BANDES_):
         bande = [i for i in ordre if phase[i] == n]
         # une tranche trop grosse est coupée en sous-phases (2a, 2b…), au dernier changement de cote avant la limite
         morceaux = []
@@ -2099,17 +2108,38 @@ def phases_de_pose(plans):
     return out
 
 
-def ecrire_phases(rep, plans):
+BANDES_CAGE = [(-1e9, 0.0, 'sol_anneaux_0-9', "Sol sous la cage : fondations des anneaux 0 a 9 (jusqu'a D5), sans le trou ; "
+                "a sauter si votre sol est deja pose, mais il faut alors la pile d'ancrage en (0 ; 300)"),
+               (0.0, 1800.0, 'murs_et_piliers_Z0-1800', "Cage de Z0 a Z1800 : mur de pod D4, fut D5, murs de bord du "
+                "trou du pod et du couloir, piliers PA et PB qui porteront le toit"),
+               (1800.0, 1e9, 'galeries_et_toit', "Cage de Z1800 au faitage : galeries, 60 tourelles L1 sur leurs murs "
+                "de chaume, cadres doubles L2, casquette, plancher de toit Z2400, poteaux, toit en rampes, casquette du "
+                "trou, 4 tourelles du toit")]
+
+
+def dans_la_cage(q):
+    """La cage seule : tout ce qui est à l'intérieur de D5 et le toit qui la couvre (plans 4 à 7), sans la mezzanine ni
+    l'escalier du pod ni les murs de bord du trou au-delà de D5, plus les fondations des anneaux 0 à 9 sur lesquelles
+    elle repose."""
+    pl, n, cle, x, y, z, yaw, rep_ = q
+    if cle in ('fond', 'fond_tri'):
+        return pl == 'sol_centre' and int(rep_.split()[1]) <= 9
+    if rep_.startswith('bord du trou') and rho(x, y) > apo(5) + 1:
+        return False                             # murs de bord entre D5 et D6 : sous la pente A, hors de la cage
+    return pl in ('pod', 'cage', 'toit', 'tourelles_cage') and not rep_.startswith(('mezzanine', 'escalier'))
+
+
+def ecrire_phases(rep, plans, bandes=None, garder=None, titre='Forteresse', prefixe='Phase'):
     """Écrit les phases de pose (templates/phases/Phase_n_….json) : la 1re avec la pile d'ancrage, les suivantes avec
     1 demi-pilier posé dessus ; chacune ≤ TAILLE_MAX entrées."""
     os.makedirs(rep, exist_ok=True)
     for f in os.listdir(rep):
         if f.endswith('.json'):
             os.remove(os.path.join(rep, f))
-    ph = phases_de_pose(plans)
+    ph = phases_de_pose(plans, bandes, garder)
     resume = []
     for n, nom, desc, entrees, cles in ph:
-        t = Template(f'Forteresse phase {n + 1} sur {len(ph)} : {nom.replace("_", " ")}',
+        t = Template(f'{titre} phase {n + 1} sur {len(ph)} : {nom.replace("_", " ")}',
                      f"Phase {n + 1}/{len(ph)}. {desc}. Chaque piece est posee apres ce qui la porte ; a poser dans "
                      "l'ordre des phases. Pilier de reference : pile d'ancrage en (0 ; 300).")
         ancre(t, empilee=(n == 0))
@@ -2120,7 +2150,7 @@ def ecrire_phases(rep, plans):
             t.groupes.append(None)
             t.metas.append(None)
         assert len(t.entries) <= TAILLE_MAX, len(t.entries)
-        fichier = f'Phase_{n + 1}_{nom}.json'
+        fichier = f'{prefixe}_{n + 1}_{nom}.json'
         t.ecrire(os.path.join(rep, fichier))
         resume.append(dict(phase=n + 1, fichier=fichier, entrees=len(t.entries), pieces=cles, description=desc))
     return resume
@@ -2694,6 +2724,8 @@ def main():
     phases = ecrire_phases(os.path.join(rep_t, 'phases'), plans)
     print('  Phases de pose (≤ 2 000 entrées, du bas vers le haut, chaque pièce après ses porteurs) : ' +
           ', '.join(f"{q['phase']} = {q['entrees']}" for q in phases))
+    cage = ecrire_phases(os.path.join(rep_t, 'cage'), plans, BANDES_CAGE, dans_la_cage, 'Cage', 'Cage')
+    print('  Cage seule (templates/cage/) : ' + ', '.join(f"{q['phase']} = {q['entrees']}" for q in cage))
     equip = equipements(p, contours)
 
     # CSV de pose : un par plan
@@ -2770,6 +2802,7 @@ def main():
                              'pose_au_dessus': {d: sum(1 for c in chaume if c['dessus'] == d)
                                                 for d in sorted({c['dessus'] for c in chaume})}}}
     syn['phases_de_pose'] = phases
+    syn['cage_seule'] = cage
     syn['colonnade']['colonnes'] = len(col['colonnes'])
     syn['colonnade']['pieces'] = sum(len(c['elements']) for c in col['colonnes'])
     syn['anneaux'] = tableau_anneaux(p)
