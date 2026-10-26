@@ -18,7 +18,7 @@ Ces contrôles font désormais partie du générateur. À chaque régénération
 |---|---|---|
 | Collisions entre pièces | **292 recouvrements réels**. Les deux principaux : le 4e rang de la pente A entre dans la cage (179), et des lames se croisent aux arêtes (80). Le jeu aurait refusé ces pièces | **0**, sur 4 864 pièces. Seul contact admis : le niveau bas de la jupe, contre la tranche des fondations de l'anneau 15 (§5) |
 | Rampes tenues | **Non : 176 rampes mal tenues** au regard de la règle des tours. 62 au sommet du toit, sur des lignes de 7 à 9 lames sans appui intermédiaire. 94 au bout de l'overhang, dont les lames pendaient l'une à l'autre. 20 à la casquette, accrochées au-delà du sommet du plancher. En plus, le mur de jupe qui portait l'overhang flottait, et des lignes prenaient appui sur l'emplacement vide d'une Tesla | **Oui, comme sur les tours** : chaque ligne part d'un appui, monte librement au plus 6 lames, et ne pend jamais de plus d'une lame (§3) |
-| Murs de chaume | 96, un par tourelle. Mais 10 lignes de rampes prenaient appui sur l'emplacement des Tesla de rive, et 1 colonne de murs de bord avait 2 chaumes superposés | **100** depuis le module 09 (96 à la revue), listés dans `donnees/08_chaume_a_demolir.csv`. Rien d'autre n'est en chaume, et rien ne repose sur du chaume seul (§4) |
+| Murs de chaume | 96, un par tourelle. Mais 10 lignes de rampes prenaient appui sur l'emplacement des Tesla de rive, et 1 colonne de murs de bord avait 2 chaumes superposés | **96**, listés dans `donnees/08_chaume_a_demolir.csv`. Rien d'autre n'est en chaume, et rien ne repose sur du chaume seul (§4) |
 | Différence de coût | — | **+741 lingots et +373 pâte** : 104 poteaux et 94 poutres d'appui, moins 195 rampes impossibles à poser (module 07 §1 bis). Option `--appuis prudent` : +8 099 lingots et +2 637 pâte |
 
 ## 2. Comparaison avec vos templates
@@ -28,7 +28,7 @@ Ces contrôles font désormais partie du générateur. À chaque régénération
 | **481** *Large.Plat.Base* (SkunkHD) | Étoile de fondations carrés + triangles. Sous la plateforme, un anneau de murs dont 23 sont en chaume (gabarits) | Le pavage, pièce pour pièce (`--verifier-481`). Son anneau inférieur et ses 23 murs de chaume ne font pas partie de nos plans |
 | **1201** *100 turret 11x11* (P1agueTV) | Toit à 2 pans, 144 rampes inclinées, en lignes sur les arêtes des tuiles. Chaque ligne part d'un **pilier fin posé sur le mur d'égout**, au-dessus d'un treillis de 241 piliers fins couchés. Sur un pan, les lignes finissent sur un pilier fin de faîtage, porté par une poutre couchée entre les pignons en escalier. **Sur l'autre pan, elles montent librement, 5 lames au-dessus de leur appui.** Une lame déborde en porte-à-faux au bord du toit. 98 tourelles **fixées dans des cadres doubles, sans chaume** | Position des rampes : pivot au milieu, z = bas + 290, yaw = θ − 90°. Règles d'appui (§3). La variante « Right » des rampes ne fait que changer le côté de la lame |
 | **1809** *merry chistmas* (IchmagPizza) | 182 rampes en lignes posées **sur les joints des murs**. Chaque ligne part d'une **poutre fine** (Flat Thin Pillar couché) à l'égout : il y en a 364 à z 3 990. Sur un pan, les lignes de 7 lames finissent sur un pilier fin debout sur la poutre de faîtage, et leur dernière lame dépasse d'une lame ; **sur l'autre pan, elles montent librement : 6 lames depuis la poutre d'égout.** 86 murs de chaume pour 85 tourelles : **78 ont un cadre de porte posé dessus**. 186 plafonds de chaume servent de gabarit sous 88 grands coffres | Lignes sur les joints des murs (pente A, overhang). Poutres fines sous le débord. Montée libre de 6 lames au plus, 7 lames au plus entre deux appuis. Cadre double L2 posé sur le chaume de L1, comme sur la tour |
-| **2727** *Straight Heavy* | 1 mur de chaume + 1 Heavy, pivot 10 UU devant le mur, pitch −89,5°, roll −90° | Identique pour les 100 tourelles montées sur un mur (les 10 du toit sont posées debout, module 09) |
+| **2727** *Straight Heavy* | 1 mur de chaume + 1 Heavy, pivot 10 UU devant le mur, pitch −89,5°, roll −90° | Identique pour les 96 tourelles |
 | **2901 / 2902 / 2903** (mho) | Pile de 2 demi-piliers z 15 / 165, `snapOverrides [0, 1]`, plantée au sommet commun de pièces | Pile d'ancrage du plan 1, 1 demi-pilier z 315 sur les autres plans |
 | **704 / 701** | Cercles de piliers, 1 rang | Colonnade (1 pilier / 1 vide) |
 
@@ -95,9 +95,9 @@ Liste complète, dans l'ordre de pose : `donnees/08_chaume_a_demolir.csv`. Elle 
 | 7 | L1 (cage, Z1800 → 2100) | 53 | un cadre double L2 | le cadre tient par ses voisins et le plancher de galerie Z2100, comme les 78 cadres posés sur du chaume à la tour 1809 |
 | 7 | TROU-L1 (murs de bord, niveau 6) | 7 | le mur de bord du niveau 7 | tenu par ses voisins et le plancher de toit Z2400 |
 | 2 | JUPE-int / JUPE-ext | 16 / 10 | — (le chaume pend sous le niveau bas de la jupe) | la tourelle seule |
-| 2 | RIVE (Tesla, niveau 1) | 9 | rien | ouverture de 300 × 300 avec la Tesla au nu du mur (module 03 §2). Les lames voisines prennent appui sur les murs métal de part et d'autre |
+| 2 | RIVE (Tesla, niveau 1) | 5 | rien | ouverture de 300 × 300 avec la Tesla au nu du mur (module 03 §2). Les lames voisines prennent appui sur les murs métal de part et d'autre |
 | 2 | TROU (murs de bord, niveau 0 ou 1) | 5 | les niveaux supérieurs du mur de bord | **un seul chaume par colonne** : la Tesla S66 est maintenant sur un autre mur que les Heavy (avant, 1 colonne avait 2 chaumes superposés) |
-| **Total** | | **100** (96 à la revue, + 4 Tesla de rive ajoutées au module 09) | | |
+| **Total** | | **96** | | |
 
 - **Rien d'autre n'est en chaume dans les plans.** La tour 1809 utilise aussi 186 plafonds de chaume comme gabarits sous ses coffres ; ici, les équipements sont posés sur de vrais planchers (module 07 §3).
 - Le contrôle des appuis ne compte jamais le chaume : aucune rampe, aucun poteau, aucune poutre ne dépend d'un mur de chaume.
@@ -140,7 +140,7 @@ Il donne aussi à chaque pièce un **noyau** : son volume sans les bords qui se 
 | Le niveau bas de la jupe pend sous le bord de l'anneau 15 | La tour 481 a des murs sous sa plateforme, mais on ne sait pas comment ils tiennent | Garder seulement le niveau haut, et suspendre les chaumes de jupe dessous |
 | Les tourelles et les cadres L2 restent en place après la démolition du chaume | Comportement de la tour 1809 et du template 2727 | Laisser le chaume |
 
-**Template d'essai :** `templates/test/Secteur_test_theta_-15_45.json`, 899 entrées.
+**Template d'essai :** `templates/test/Secteur_test_theta_-15_45.json`, 918 entrées.
 - Il prend toutes les pièces entre θ −15° et 45°, dans l'ordre de pose des phases (chaque pièce après ses porteurs), avec la pile d'ancrage.
 - Cela fait 2 côtés et une arête du dodécagone.
 - On y trouve chaque sorte de pièce et d'appui : rive, colonnade, pente A, overhang et ses poteaux sur les paliers, jupe, poutres et débord, cage, 16 tourelles (10 Heavy, 5 Tek, 1 Tesla) avec leurs 16 murs de chaume, toit et ses poteaux.

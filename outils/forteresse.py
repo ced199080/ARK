@@ -98,10 +98,10 @@ P = dict(
     colonnade_passages=(30, 90, 150, 210, 270, 330),   # 1 passage par part (axe des portes du fût)
     colonnade_largeur_passage=300.0,
     appuis='tours',            # appuis des rampes : 'tours' (comme les tours 1201 / 1809) ou 'prudent' (poteau en bout)
-    cap=100, tesla_comptee=False,            # cap moteur : 100 tourelles Heavy / Tek / Plante X ; Tesla non comptées
+    cap=100, tesla_comptee=True,             # cap moteur : 100 tourelles, Tesla comptées (confirmé par le joueur)
     inventaire=(80, 35, 10),                 # Heavy, Tek, Tesla disponibles
-    tesla_rive_E1=(1, 3, 9, 11),             # côtés E1 de la rive qui reçoivent aussi une Tesla (θ 30°, 90°, 270°, 330°)
-    toit_tourelles=dict(n=10, rayon=1000.0, tek=5),   # tourelles debout sur le plancher de toit, sous les rampes
+    tesla_rive_E1=(),                        # côtés E1 de la rive qui recevraient aussi une Tesla (ex. (1, 3, 9, 11))
+    toit_tourelles=dict(n=4, rayon=1000.0, tek=2),    # tourelles debout sur le plancher de toit, sous les rampes
     plafond_structures=8400,                 # 10 500 structures moins 20 % de réserve (mobilier, câbles, ajouts)
     hauteur_max_murs=70,
     portee_plafond_max=2,                    # cases au plus entre un plafond et un appui relié au sol
@@ -1455,7 +1455,7 @@ def emplacements_cage(p, contours):
 
 def murs_tesla(murs, p):
     """Index des murs de rive (niveau 1) au milieu des côtés E0 (θ = 0°, 60°…), plus ceux des côtés E1 de
-    p['tesla_rive_E1'] : les Tesla ne comptent pas dans le cap, on pose donc tout l'inventaire."""
+    p['tesla_rive_E1'] (aucun par défaut : les Tesla comptent dans le cap de 100)."""
     return [j for j, m in enumerate(murs) if m[4] == 3 and (m[3] % 2 == 0 or m[3] in p['tesla_rive_E1'])]
 
 
@@ -1820,7 +1820,8 @@ def verifier_limites(p, plans, n_pics, n_equipements):
                hauteur_max_murs=zmax / F, portee_plafond_max_cases=portee,
                plafonds_par_portee={d: sum(1 for i in plaf if dist[i] == d) for d in sorted(set(dist.values()))})
     print(f"  Limites : {bati} structures de bâti ({pic} au pic du chantier) pour un plafond de {p['plafond_structures']}, "
-          f"{comptees} tourelles comptées (+ {out['tesla_non_comptees']} Tesla), hauteur {zmax / F:.0f} murs, "
+          f"{comptees} tourelles comptées par le cap (dont {n.get('tesla', 0) if p['tesla_comptee'] else 0} Tesla ; "
+          f"{out['tesla_non_comptees']} Tesla hors cap), hauteur {zmax / F:.0f} murs, "
           f"plafonds à {portee} cases au plus d'un appui au sol")
     return out
 

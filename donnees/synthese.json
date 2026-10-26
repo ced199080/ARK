@@ -30,22 +30,17 @@
   "colonnade_largeur_passage": 300.0,
   "appuis": "tours",
   "cap": 100,
-  "tesla_comptee": false,
+  "tesla_comptee": true,
   "inventaire": [
    80,
    35,
    10
   ],
-  "tesla_rive_E1": [
-   1,
-   3,
-   9,
-   11
-  ],
+  "tesla_rive_E1": [],
   "toit_tourelles": {
-   "n": 10,
+   "n": 4,
    "rayon": 1000.0,
-   "tek": 5
+   "tek": 2
   },
   "plafond_structures": 8400,
   "hauteur_max_murs": 70,
@@ -180,23 +175,23 @@
  },
  "tourelles": {
   "posees": {
-   "heavy": 65,
-   "tek": 35,
-   "tesla": 10
+   "heavy": 62,
+   "tek": 32,
+   "tesla": 6
   },
   "reserve": {
-   "heavy": 15,
-   "tek": 0,
-   "tesla": 0
+   "heavy": 18,
+   "tek": 3,
+   "tesla": 4
   },
   "par_couche": {
    "JUPE-int": 16,
    "JUPE-ext": 10,
    "L1": 53,
-   "RIVE": 9,
+   "RIVE": 5,
    "TROU": 5,
    "TROU-L1": 7,
-   "TOIT": 10
+   "TOIT": 4
   }
  },
  "cap": {
@@ -312,15 +307,15 @@
    "jupe sous la plateforme": 83
   },
   "chaume_a_demolir": {
-   "total": 100,
+   "total": 96,
    "par_plan": {
-    "Plan_2": 40,
+    "Plan_2": 36,
     "Plan_7": 60
    },
    "pose_au_dessus": {
     "Cadre de porte double métal": 53,
     "Mur métal": 38,
-    "rien": 9
+    "rien": 5
    }
   }
  },
@@ -344,25 +339,25 @@
   {
    "phase": 2,
    "fichier": "Phase_2_du_sol_a_la_mezzanine.json",
-   "entrees": 1688,
+   "entrees": 1684,
    "pieces": {
-    "mur": 812,
+    "mur": 816,
     "pilier": 370,
     "pilier_fin": 40,
     "rampe": 376,
-    "chaume_mur": 14,
+    "chaume_mur": 10,
     "heavy": 4,
     "escalier": 6,
     "cadre_double": 12,
     "demi_pilier_fin": 43,
-    "tesla": 10
+    "tesla": 6
    },
    "description": "Du sol a Z1800 : murs du pod, fut, murs de bord du trou, rive, colonnade, piliers, escaliers, pente A et overhang, Tesla de rive et tourelles du bord du trou a Z0 / Z300"
   },
   {
    "phase": 3,
    "fichier": "Phase_3_de_la_mezzanine_au_faitage.json",
-   "entrees": 1650,
+   "entrees": 1644,
    "pieces": {
     "plafond_tri": 629,
     "plafond": 308,
@@ -370,8 +365,8 @@
     "cadre_double": 64,
     "pilier": 48,
     "chaume_mur": 60,
-    "tek": 35,
-    "heavy": 35,
+    "tek": 32,
+    "heavy": 32,
     "trappe": 5,
     "rampe": 328,
     "pilier_fin": 43
@@ -660,13 +655,13 @@
   }
  ],
  "limites_moteur": {
-  "structures_bati": 4966,
-  "dont_tourelles": 110,
-  "structures_pic_chantier": 5075,
+  "structures_bati": 4960,
+  "dont_tourelles": 100,
+  "structures_pic_chantier": 5065,
   "plafond": 8400,
-  "marge": 3434,
+  "marge": 3440,
   "tourelles_comptees": 100,
-  "tesla_non_comptees": 10,
+  "tesla_non_comptees": 0,
   "hauteur_max_Z": 5100.0,
   "hauteur_max_murs": 17.0,
   "portee_plafond_max_cases": 2,
@@ -689,24 +684,24 @@
    }
   },
   "Plan_2_murs_rampes_tourelles_anneaux_12-15": {
-   "total": 1445,
+   "total": 1441,
    "pieces": {
-    "mur": 315,
+    "mur": 319,
     "pilier": 226,
     "poutre_fine": 94,
     "pilier_fin": 123,
     "demi_pilier_fin": 43,
     "rampe": 564,
-    "chaume_mur": 40,
+    "chaume_mur": 36,
     "heavy": 30,
-    "tesla": 10
+    "tesla": 6
    },
    "bilan": {
-    "MI": 23415,
-    "PC": 6433,
-    "CH": 280,
-    "FI": 160,
-    "BO": 160
+    "MI": 23515,
+    "PC": 6461,
+    "CH": 252,
+    "FI": 144,
+    "BO": 144
    }
   },
   "Plan_3_sol_centre_anneaux_0-11": {
@@ -751,14 +746,14 @@
    }
   },
   "Plan_6_toit_rampes": {
-   "total": 589,
+   "total": 583,
    "pieces": {
     "plafond_tri": 174,
     "plafond": 87,
     "pilier_fin": 43,
     "rampe": 275,
-    "tek": 5,
-    "heavy": 5
+    "tek": 2,
+    "heavy": 2
    },
    "bilan": {
     "MI": 10036,
@@ -795,7 +790,7 @@
    "pieces": {
     "fond_tri": 684,
     "fond": 344,
-    "mur": 1072,
+    "mur": 1076,
     "pilier": 418,
     "poutre_fine": 94,
     "pilier_fin": 166,
@@ -808,33 +803,33 @@
     "trappe": 5
    },
    "bilan": {
-    "MI": 110412,
-    "PC": 31761
+    "MI": 110512,
+    "PC": 31789
    }
   },
   "tourelles_chaume": {
    "pieces": {
-    "chaume_mur": 100
+    "chaume_mur": 96
    },
    "bilan": {
-    "CH": 700,
-    "FI": 400,
-    "BO": 400
+    "CH": 672,
+    "FI": 384,
+    "BO": 384
    }
   },
   "tourelles": {
    "pieces": {
-    "heavy": 65,
-    "tek": 35,
-    "tesla": 10
+    "heavy": 62,
+    "tek": 32,
+    "tesla": 6
    },
    "bilan": {
-    "MI": 43600,
-    "PC": 14750,
-    "EL": 22050,
-    "PO": 9300,
-    "EM": 105,
-    "CR": 2000
+    "MI": 39680,
+    "PC": 14000,
+    "EL": 20540,
+    "PO": 7740,
+    "EM": 96,
+    "CR": 1200
    }
   },
   "ancres_temporaires": {
@@ -880,11 +875,11 @@
  },
  "bilan_total": {
   "sans_tourelles": {
-   "MI": 138379,
-   "PC": 34697,
-   "CH": 700,
-   "FI": 2620,
-   "BO": 400,
+   "MI": 138479,
+   "PC": 34725,
+   "CH": 672,
+   "FI": 2604,
+   "BO": 384,
    "CU": 1480,
    "EM": 220,
    "CR": 3350,
@@ -895,51 +890,51 @@
    "HU": 1400
   },
   "avec_tourelles": {
-   "MI": 181979,
-   "PC": 49447,
-   "CH": 700,
-   "FI": 2620,
-   "BO": 400,
-   "EL": 22270,
-   "PO": 15150,
-   "EM": 325,
-   "CR": 5350,
+   "MI": 178159,
+   "PC": 48725,
+   "CH": 672,
+   "FI": 2604,
+   "BO": 384,
+   "EL": 20760,
+   "PO": 13590,
+   "EM": 316,
+   "CR": 4550,
    "CU": 1480,
    "PN": 470,
    "PE": 100,
    "HU": 1400
   },
   "brut_sans_tourelles": {
-   "minerai_metal": 277198,
+   "minerai_metal": 277398,
    "perles_silice": 660,
    "obsidienne": 11700,
-   "chitine_ou_keratine": 185588,
-   "pierre": 371276,
+   "chitine_ou_keratine": 185700,
+   "pierre": 371500,
    "silex": 200,
    "cristal": 3350,
    "element": 220,
    "perles_noires": 470,
    "huile": 1400,
    "cuir": 1480,
-   "fibre": 2620,
-   "lingots_total": 138599,
-   "pate_totale": 46397
+   "fibre": 2604,
+   "lingots_total": 138699,
+   "pate_totale": 46425
   },
   "brut_avec_tourelles": {
-   "minerai_metal": 408498,
-   "perles_silice": 66810,
-   "obsidienne": 30300,
-   "chitine_ou_keratine": 318988,
-   "pierre": 638076,
+   "minerai_metal": 397838,
+   "perles_silice": 62280,
+   "obsidienne": 27180,
+   "chitine_ou_keratine": 303620,
+   "pierre": 607340,
    "silex": 200,
-   "cristal": 5350,
-   "element": 325,
+   "cristal": 4550,
+   "element": 316,
    "perles_noires": 470,
    "huile": 1400,
    "cuir": 1480,
-   "fibre": 2620,
-   "lingots_total": 204249,
-   "pate_totale": 79747
+   "fibre": 2604,
+   "lingots_total": 198919,
+   "pate_totale": 75905
   }
  }
 }

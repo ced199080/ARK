@@ -1,11 +1,11 @@
-# Module 05 — Plan de câblage et matrice balistique (cap 100 : Heavy + Tek ; Tesla en plus)
+# Module 05 — Plan de câblage et matrice balistique (cap 100, Tesla comptées)
 
 Templates (`templates/plans/`, module 06) :
 - `Plan_2_murs_rampes_tourelles_anneaux_12-15.json` : les 36 tourelles extérieures (jupe, rive, bord du trou à Z0 / Z300) ;
 - `Plan_7_tourelles_cage_L1.json` : les 60 tourelles de la cage L1 (dont 7 sur les murs de bord du trou).
 
 Chaque tourelle y est précédée de son **mur de chaume de pose**, à démolir en jeu.
-Les 100 murs de chaume à démolir sont listés dans `donnees/08_chaume_a_demolir.csv`, avec leur plan, leur n° d'entrée dans le JSON, la tourelle qu'ils portent et ce qui est posé au-dessus (module 08 §4).
+Les 96 murs de chaume à démolir sont listés dans `donnees/08_chaume_a_demolir.csv`, avec leur plan, leur n° d'entrée dans le JSON, la tourelle qu'ils portent et ce qui est posé au-dessus (module 08 §4).
 Liste maîtresse : `donnees/05_matrice_tourelles.csv`. Elle donne l'ordre, le type, la couche, les coordonnées du chaume et de la tourelle, et le sens de tir.
 Plan : `plans/plan_tourelles.png`.
 
@@ -19,13 +19,13 @@ Plan : `plans/plan_tourelles.png`.
 | `LimitTurretsRange` | **10 000 UU** (≈ 33,3 fondations) | rayon de la **sphère** de comptage |
 | `LimitTurretsNum` | **100** | tourelles au plus dans la sphère |
 
-- Tourelles comptées : auto, Heavy, Tek, Plant Species X. **Les Tesla ne sont pas comptées** (règle moteur retenue au module 09). Jusqu'ici, on les comptait par prudence (scénario B).
-- **Les 100 places du cap sont toutes prises** par 65 Heavy et 35 Tek. Les 10 Tesla de l'inventaire s'y ajoutent.
+- Tourelles comptées : auto, Heavy, Tek, Plant Species X, **et les Tesla** (confirmé sur votre serveur).
+- **Les 100 places du cap sont toutes prises** : 62 Heavy, 32 Tek et 6 Tesla (module 09).
 - À la pose, le jeu compte les tourelles déjà posées à moins de 10 000 UU (distance 3D) et refuse la pose si le cap est atteint.
 
 ## 2. Le cap est global sur cette base
 
-| Mesure (sur les 110 tourelles) | Valeur |
+| Mesure (sur les 100 tourelles) | Valeur |
 |---|---|
 | Distance 3D maximale entre deux tourelles | **9 101 UU** (< 10 000) |
 | Rayon horizontal maximal (jupe) | 4 551 UU |
@@ -33,27 +33,26 @@ Plan : `plans/plan_tourelles.png`.
 
 Toutes les tourelles se voient entre elles : la base entière compte pour un seul cap de 100. Gardez une zone d'exclusion d'environ 50 fondations pour toute autre tourelle de votre tribu.
 
-## 3. Répartition : 100 tourelles comptées + 10 Tesla
+## 3. Répartition : 100 tourelles, Tesla comprises
 
 | Couche | Heavy | Tek | Tesla | Total | Plan |
 |---|---|---|---|---|---|
 | L1, cage, sur D5 | 26 | 27 | — | 53 | 7 |
 | **TROU-L1** : bord du trou, niveau L1 (Z1800) | 4 | 3 | — | 7 | 7 |
 | Jupe (16 « int » + 10 « ext ») | 26 | — | — | 26 | 2 |
-| Rive : milieu des côtés E0 (5) et des côtés E1 à 30°, 90°, 270°, 330° (4) | — | — | 9 | 9 | 2 |
+| Rive : milieu des côtés E0 | — | — | 5 | 5 | 2 |
 | **TROU** : bord du trou, Z0 / Z300 | 4 | — | 1 | 5 | 2 |
-| **TOIT** : debout sur le plancher de toit Z2400, sous les rampes | 5 | 5 | — | 10 | 6 |
-| **Total** | **65** | **35** | **10** | **110** | |
-| dont comptées par le cap | 65 | 35 | — | **100** | |
+| **TOIT** : debout sur le plancher de toit Z2400, sous les rampes | 2 | 2 | — | 4 | 6 |
+| **Total** | **62** | **32** | **6** | **100** | |
 | Inventaire | 80 | 35 | 10 | | |
-| Réserve | 15 | 0 | 0 | | |
+| Réserve | 18 | 3 | 4 | | |
 
 - Le trou supprime 12 emplacements (7 de L1, 4 de jupe, 1 de rive). Ils sont **reposés sur les murs de bord du trou, face au gouffre** (module 06 §4).
-- **Toit** : 10 tourelles debout (5 Tek, 5 Heavy) sur un cercle de 1 000 UU de rayon, sous les rampes du toit. Ce sont les seules qui tirent vers l'intérieur et vers le haut au-dessus du centre :
+- **Toit** : 4 tourelles debout (2 Tek, 2 Heavy) sur un cercle de 1 000 UU de rayon, sous les rampes du toit, à 45°, 135°, 225° et 315°. Ce sont les seules qui tirent vers l'intérieur et vers le haut au-dessus du centre :
   - L1 ne voit que l'extérieur de la cage ;
   - le toit et le ciel au-dessus du pod étaient un angle mort ;
   - ces tourelles couvrent aussi le comble, où tombe ce qui passe entre les lames.
-- Les 4 Tesla des côtés E1 de la rive sont dans l'axe des passages de la colonnade, entre deux lignes de rampes.
+- Les Tesla comptent dans le cap : on n'en pose que 6, une au milieu de chaque côté E0 de la rive (celle de 180° étant reposée sur le bord du trou). Les 4 autres restent en réserve.
 
 ## 4. Montage vertical : mur de chaume puis tourelle
 
@@ -80,16 +79,16 @@ Toutes les tourelles se voient entre elles : la base entière compte pour un seu
 
 ## 5. Ordre de pose
 
-- Les tourelles sont réparties entre le plan 2 (extérieur), le plan 6 (toit) et le plan 7 (cage). Le cap est atteint exactement : 100 Heavy et Tek ; les Tesla n'y entrent pas.
+- Les tourelles sont réparties entre le plan 2 (extérieur), le plan 6 (toit) et le plan 7 (cage). Le cap est atteint exactement : 100 tourelles, Tesla comprises.
 - Le n° d'ordre suit des priorités. À l'intérieur de chacune, il suit la suite de van der Corput (0°, 180°, 90°, 270°…), pour rester réparti si la pose s'interrompt. Chaque plan pose ses tourelles dans cet ordre.
 
 | Priorité | Ordres | Contenu | Plan |
 |---|---|---|---|
 | P1 | 1-30 | 26 Heavy de jupe (dessous de la plateforme et mer) + 4 Heavy du bord du trou (Z0) | 2 |
 | P2 | 31-60 | 30 Tek de L1, dont 3 sur le bord du trou | 7 |
-| P3 | 61-70 | 9 Tesla de rive (pied de mur) + 1 Tesla du bord du trou (Z300) | 2 |
-| P4 | 71-100 | 30 Heavy de L1, dont 4 sur le bord du trou | 7 |
-| P5 | 101-110 | 5 Tek + 5 Heavy debout sur le plancher de toit | 6 |
+| P3 | 61-66 | 5 Tesla de rive (pied de mur) + 1 Tesla du bord du trou (Z300) | 2 |
+| P4 | 67-96 | 30 Heavy de L1, dont 4 sur le bord du trou | 7 |
+| P5 | 97-100 | 2 Tek + 2 Heavy debout sur le plancher de toit | 6 |
 
 ## 6. Matrice détaillée
 
@@ -97,18 +96,18 @@ H = Heavy, T = Tek, S = Tesla, suivi du n° d'ordre. L1 : positions p0 à p4 dan
 
 | Côté (θ) | L1 p0 | p1 | p2 | p3 | p4 | Jupe | Rive |
 |---|---|---|---|---|---|---|---|
-| 0° | T42 | H89 | T31 | H71 | T46 | ext 8, int 23, ext 1 | S61 |
-| 30° | H86 | T39 | H79 | T54 | H94 | int 16, int 9 | S66 |
-| 60° | T35 | H75 | T50 | H90 | T43 | ext 24, int 5, ext 20 | S64 |
-| 90° | H83 | T58 | H98 | T33 | H73 | int 13, int 28 | S69 |
-| 120° | T48 | H88 | T41 | H81 | T56 | ext 3, int 18, ext 11 | S63 |
-| 150° | H96 | T37 | H77 | T52 | *trou* | int 26, int 7 | — |
+| 0° | T42 | H85 | T31 | H67 | T46 | ext 8, int 23, ext 1 | S61 |
+| 30° | H82 | T39 | H75 | T54 | H90 | int 16, int 9 | — |
+| 60° | T35 | H71 | T50 | H86 | T43 | ext 24, int 5, ext 20 | S64 |
+| 90° | H79 | T58 | H94 | T33 | H69 | int 13, int 28 | — |
+| 120° | T48 | H84 | T41 | H77 | T56 | ext 3, int 18, ext 11 | S63 |
+| 150° | H92 | T37 | H73 | T52 | *trou* | int 26, int 7 | — |
 | 180° | *trou* | *trou* | *trou* | *trou* | *trou* | *trou* (3) | *trou* |
-| 210° | *trou* | T45 | H92 | T60 | H85 | int 17, *trou* (1) | — |
-| 240° | T32 | H100 | T47 | H72 | T40 | ext 10, int 25, ext 6 | S65 |
-| 270° | H87 | T55 | H80 | T36 | H95 | int 21, int 14 | S70 |
-| 300° | T51 | H76 | T44 | H91 | T59 | ext 29, int 4, ext 19 | S62 |
-| 330° | H84 | T34 | H99 | T49 | H74 | int 12, int 27 | S67 |
+| 210° | *trou* | T45 | H88 | T60 | H81 | int 17, *trou* (1) | — |
+| 240° | T32 | H96 | T47 | H68 | T40 | ext 10, int 25, ext 6 | S62 |
+| 270° | H83 | T55 | H76 | T36 | H91 | int 21, int 14 | — |
+| 300° | T51 | H72 | T44 | H87 | T59 | ext 29, int 4, ext 19 | S65 |
+| 330° | H80 | T34 | H95 | T49 | H70 | int 12, int 27 | — |
 
 Sur L1, Tek et Heavy alternent sans interruption hors du trou.
 
@@ -123,26 +122,20 @@ Sur L1, Tek et Heavy alternent sans interruption hors du trou.
 | T38 | TROU-L1 | 201,8° | (−2 499,0 ; −1 009,8) | 1800 | 90° | 7 |
 | T53 | TROU-L1 | 202,6° | (−2 219,1 ; −934,8) | 1800 | 120° | 7 |
 | T57 | TROU-L1 | 156,3° | (−1 939,2 ; 859,8) | 1800 | 270° | 7 |
-| S68 | TROU | 159,4° | (−3 058,8 ; 1 159,8) | 300 | 270° | 2 |
-| H78 | TROU-L1 | 203,7° | (−1 939,2 ; −859,8) | 1800 | 90° | 7 |
-| H82 | TROU-L1 | 157,4° | (−2 219,1 ; 934,8) | 1800 | 240° | 7 |
-| H93 | TROU-L1 | 205,0° | (−1 659,3 ; −784,8) | 1800 | 120° | 7 |
-| H97 | TROU-L1 | 158,2° | (−2 499,0 ; 1 009,8) | 1800 | 270° | 7 |
+| S66 | TROU | 159,4° | (−3 058,8 ; 1 159,8) | 300 | 270° | 2 |
+| H74 | TROU-L1 | 203,7° | (−1 939,2 ; −859,8) | 1800 | 90° | 7 |
+| H78 | TROU-L1 | 157,4° | (−2 219,1 ; 934,8) | 1800 | 240° | 7 |
+| H89 | TROU-L1 | 205,0° | (−1 659,3 ; −784,8) | 1800 | 120° | 7 |
+| H93 | TROU-L1 | 158,2° | (−2 499,0 ; 1 009,8) | 1800 | 270° | 7 |
 
 **Tourelles du toit** (debout sur le plancher Z2400, pivot z 2500, tournées vers l'extérieur ; plan 6) :
 
 | N° | θ | Position (x ; y) |
 |---|---|---|
-| T101 | 18° | (951,1 ; 309,0) |
-| H106 | 54° | (587,8 ; 809,0) |
-| T104 | 90° | (0 ; 1 000,0) |
-| H109 | 126° | (−587,8 ; 809,0) |
-| T103 | 162° | (−951,1 ; 309,0) |
-| H108 | 198° | (−951,1 ; −309,0) |
-| T105 | 234° | (−587,8 ; −809,0) |
-| H110 | 270° | (0 ; −1 000,0) |
-| T102 | 306° | (587,8 ; −809,0) |
-| H107 | 342° | (951,1 ; −309,0) |
+| T97 | 45° | (707,1 ; 707,1) |
+| H99 | 135° | (−707,1 ; 707,1) |
+| T98 | 225° | (−707,1 ; −707,1) |
+| H100 | 315° | (707,1 ; −707,1) |
 
 La Tesla S66 est sur un autre mur de bord que les 4 Heavy : un mur ne porte jamais deux murs de chaume superposés.
 
@@ -167,7 +160,7 @@ La Tesla S66 est sur un autre mur de bord que les 4 Heavy : un mur ne porte jama
 
 | Source | Position | Rôle | Portée à régler |
 |---|---|---|---|
-| **Générateur Tek n°2** (mezzanine) | (−900 ; 0), Z1800 | **35 Tek** : les 30 de L1 entre 1 350 et 3 760 UU, et les 5 du toit entre 810 et 2 020 UU | **≥ 3 800 UU** |
+| **Générateur Tek n°2** (mezzanine) | (−900 ; 0), Z1800 | **32 Tek** : les 30 de L1 entre 1 350 et 3 760 UU, et les 2 du toit entre 1 050 et 1 910 UU | **≥ 3 800 UU** |
 | **Générateur Tek n°1** (hall) | (900 ; 1 559), Z0 | réplicateur, forge à vapeur, labo, puis secours de L1 jusqu'à 5 040 UU | maximum |
 
 - Les **Tek** exigent un générateur Tek.
@@ -191,9 +184,9 @@ La Tesla S66 est sur un autre mur de bord que les 4 Heavy : un mur ne porte jama
 
 ## 10. Contrôles
 
-- [ ] 110 tourelles : 65 Heavy, 35 Tek (100 comptées par le cap), 10 Tesla. Sur L1, motif T H T H T / H T H T H hors du trou. 10 tourelles debout sous le toit.
+- [ ] 100 tourelles : 62 Heavy, 32 Tek, 6 Tesla. Sur L1, motif T H T H T / H T H T H hors du trou. 4 tourelles debout sous le toit.
 - [ ] Les 16 de jupe « int » tirent vers le piton, les 10 « ext » vers la mer.
 - [ ] 12 tourelles sur les murs de bord du trou, toutes tournées vers le gouffre.
-- [ ] 100 murs de chaume démolis ; les tourelles restent en place.
-- [ ] Les 35 Tek (30 de L1, 5 du toit) sont alimentées par le générateur n°2.
-- [ ] Réserve : 15 Heavy ; zone d'exclusion d'environ 50 fondations respectée (le cap de 100 est plein).
+- [ ] 96 murs de chaume démolis ; les tourelles restent en place.
+- [ ] Les 32 Tek (30 de L1, 2 du toit) sont alimentées par le générateur n°2.
+- [ ] Réserve : 18 Heavy, 3 Tek, 4 Tesla ; zone d'exclusion d'environ 50 fondations respectée (le cap de 100 est plein).

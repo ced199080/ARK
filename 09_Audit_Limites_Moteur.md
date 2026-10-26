@@ -5,7 +5,7 @@ Ce module audite la forteresse Ø30 telle que la produit `outils/forteresse.py`,
 | Règle | Seuil |
 |---|---|
 | Structures dans la zone d'influence (≈ 33 fondations de rayon) | 10 500 au plus pour le moteur ; **8 400 au plus pour le bâti**, ce qui garde 2 100 structures (20 %) pour le mobilier, les coffres, les câbles, les tuyaux et les ajouts |
-| Tourelles dans la bulle de 33,3 fondations | **100** Heavy, Tek et Plantes X, **toutes utilisées** |
+| Tourelles dans la bulle de 33,3 fondations | **100**, **Tesla comprises** (confirmé sur votre serveur), toutes utilisées |
 | Portée des plafonds et planchers | **2 cases au plus** jusqu'à un appui qui touche le sol (fondation ou pilier) |
 | Hauteur | **70 murs au plus** au-dessus du sol |
 
@@ -15,18 +15,13 @@ Ces quatre règles sont maintenant des contrôles du générateur (`verifier_lim
 
 | Mesure | Avant (version b286b33) | Après | Règle |
 |---|---|---|---|
-| Structures du bâti : 8 plans, tourelles, pics, équipements | 4 884 | **4 966** | ≤ 8 400 ✔ |
-| Structures au plus fort du chantier (murs de chaume et pile d'ancrage pas encore démolis) | 4 989 | **5 075** | ≤ 8 400 ✔ |
-| Marge sous les 8 400, en plus des 2 100 de réserve | 3 516 | **3 434** | — |
-| Tourelles comptées par le cap (Heavy + Tek) | 90 (60 H + 30 T) | **100** (65 H + 35 T) | = 100 ✔ |
-| Tesla, hors cap | 6 | **10** (tout l'inventaire) | — |
+| Structures du bâti : 8 plans, tourelles, pics, équipements | 4 884 | **4 960** | ≤ 8 400 ✔ |
+| Structures au plus fort du chantier (murs de chaume et pile d'ancrage pas encore démolis) | 4 989 | **5 065** | ≤ 8 400 ✔ |
+| Marge sous les 8 400, en plus des 2 100 de réserve | 3 516 | **3 440** | — |
+| Tourelles (Tesla comprises) | 96 (60 H + 30 T + 6 S) : 4 places libres | **100** (62 H + 32 T + 6 S) | = 100 ✔ |
 | Plafonds à plus de 2 cases d'un appui au sol | **30** (jusqu'à 4 cases) | **0** | ✔ |
 | Hauteur maximale | 17 murs (Z5100) | 17 murs | ≤ 70 ✔ |
-| Phases de pose (2 000 entrées au plus) | 1 613 / 1 612 / 1 640 | 1 613 / 1 688 / 1 650 | ✔ |
-
-Les **10 tourelles qui manquaient** au cap correspondaient à :
-- 4 Tesla gardées en réserve. Dans la version précédente, on les comptait dans le cap par prudence (scénario B). Votre règle ne compte que les Heavy, les Tek et les Plantes X.
-- 10 places du cap de 100 restées libres, parce que les 6 Tesla y occupaient une place.
+| Phases de pose (2 000 entrées au plus) | 1 613 / 1 612 / 1 640 | 1 613 / 1 684 / 1 644 | ✔ |
 
 ## 2. Audit du plan existant
 
@@ -35,22 +30,22 @@ Les **10 tourelles qui manquaient** au cap correspondaient à :
 | Poste | Avant | Après |
 |---|---|---|
 | Fondations et triangles, plateforme verte comprise | 1 028 | 1 028 |
-| Murs, cadres doubles | 1 152 | 1 148 (4 murs de rive deviennent des emplacements de Tesla) |
+| Murs, cadres doubles | 1 152 | 1 152 |
 | Piliers | 346 | **418** (+72 : piliers PB jusqu'au sol) |
 | Plafonds, trappes | 942 | 942 |
 | Rampes inclinées | 892 | 892 |
 | Poteaux et poutres fines des rampes | 303 | 303 |
 | Escaliers | 6 | 6 |
-| **Structure des 8 plans** | **4 669** | **4 737** |
-| Tourelles | 96 | 110 |
+| **Structure des 8 plans** | **4 669** | **4 741** |
+| Tourelles | 96 | **100** |
 | Murs de pics, équipements (hors plans) | 74 + 45 | 74 + 45 |
-| **Bâti** | **4 884** | **4 966** |
-| Murs de chaume et pile d'ancrage (provisoires) | 96 + 9 | 100 + 9 |
+| **Bâti** | **4 884** | **4 960** |
+| Murs de chaume et pile d'ancrage (provisoires) | 96 + 9 | 96 + 9 |
 
 ### 2.2 Pièces superflues et compartimentage
 
 - **Pas de honeycomb.** La base n'a qu'une épaisseur de mur partout. La seule double ligne est volontaire : le mur de pod (D4) et le fût de cage (D5), séparés par le couloir de 560 UU.
-- Comme la base est à 4 966 structures, **rien n'a besoin d'être retiré** pour tenir sous 8 400.
+- Comme la base est à 4 960 structures, **rien n'a besoin d'être retiré** pour tenir sous 8 400.
 - Si vous voulez de la place en plus, voici les postes les moins utiles à la défense (non retirés) :
 
 | Poste | Structures | Ce qu'on perd |
@@ -74,17 +69,21 @@ Ne comptent pas :
 | **30 plafonds à 3 ou 4 cases d'un appui au sol** | centre de la mezzanine Z1800 (12) et du plancher de toit Z2400 (18), anneaux 0 et 1 | les 12 piliers PB, au centre, partaient de la mezzanine : ils ne touchaient pas le sol |
 | Murs posés au-dessus d'un mur de chaume | cadres L2 au-dessus de L1, murs de bord au-dessus des tourelles du trou | après démolition du chaume, ils tiennent par leurs voisins et par le plancher, comme sur la tour 1809. Les plafonds voisins restent à 2 cases au plus d'un appui au sol |
 
+### 2.4 Angle mort
+
+- Les tourelles de la cage (L1) sont montées sur la face extérieure du fût : elles ne tirent que vers l'extérieur.
+- **Le toit et le ciel au-dessus du pod n'étaient couverts par aucune tourelle.** Le comble non plus, alors que tout ce qui passe entre les lames y tombe.
+
 ## 3. Modifications
 
 | Modification | Pièces | Pourquoi |
 |---|---|---|
 | **Piliers PB descendus jusqu'au sol** (Z0 → 2400, au lieu de Z1800 → 2400) | +72 piliers | chaîne de soutien verticale au centre. La mezzanine et le plancher de toit ont maintenant tous leurs plafonds à 2 cases au plus d'un appui au sol (452 à 0 case, 290 à 1, 200 à 2). Les PB passent à 260 UU de la cellule d'escalier |
-| **4 Tesla de plus** au milieu des côtés E1 de la rive (θ 30°, 90°, 270°, 330°) | 4 murs → 4 murs de chaume + 4 Tesla | les 10 Tesla de l'inventaire sont posées : 9 au pied de la rive, 1 sur le bord du trou. Elles sont dans l'axe des passages de la colonnade, entre deux lignes de rampes |
-| **10 tourelles debout sous le toit** (5 Tek, 5 Heavy), sur le plancher Z2400, en cercle de 1 000 UU de rayon | +10 tourelles | le dessus du centre était un angle mort : L1 ne tire que vers l'extérieur de la cage. Ces tourelles couvrent le toit, le ciel au-dessus du pod et le comble. Les 5 Tek sont à 810 → 2 020 UU du générateur Tek n°2 |
-| Règle du cap | — | `tesla_comptee = False` : 100 Heavy et Tek, les Tesla en plus. Les 35 Tek de l'inventaire sont toutes posées ; il reste 15 Heavy en réserve |
-| Contrôles ajoutés au générateur | — | structures ≤ 8 400 (y compris au plus fort du chantier) ; exactement 100 tourelles comptées ; hauteur ≤ 70 murs ; plafonds à 2 cases au plus d'un appui au sol |
+| **4 tourelles debout sous le toit** (2 Tek, 2 Heavy), sur le plancher Z2400, en cercle de 1 000 UU de rayon, à 45°, 135°, 225° et 315° | +4 tourelles, qui occupent les 4 places libres du cap | elles couvrent le toit, le ciel au-dessus du pod et le comble. Les 2 Tek sont à 1 050 → 1 910 UU du générateur Tek n°2 |
+| Règle du cap | — | `tesla_comptee = True` : 100 tourelles, Tesla comprises. Il reste en réserve 18 Heavy, 3 Tek et 4 Tesla |
+| Contrôles ajoutés au générateur | — | structures ≤ 8 400 (y compris au plus fort du chantier) ; exactement 100 tourelles ; hauteur ≤ 70 murs ; plafonds à 2 cases au plus d'un appui au sol |
 
-**Coût** : +1 700 lingots et +476 pâte (module 07 §1 bis). Les tourelles ajoutées viennent de votre inventaire.
+**Coût** : +1 800 lingots et +504 pâte (module 07 §1 bis). Les 4 tourelles ajoutées viennent de votre inventaire.
 
 ## 4. Plan adapté
 
@@ -93,8 +92,8 @@ Ne comptent pas :
 | Phase | Hauteur | Contenu | Entrées |
 |---|---|---|---|
 | 1 | sous Z0 | toutes les fondations, pile d'ancrage ; sous le bord : pieds des poteaux de l'overhang, mur de jupe, poutres et rampes du débord, 26 Heavy de jupe sur leurs murs de chaume | 1 613 |
-| 2 | Z0 → 1800 | murs du pod, fût, murs de bord du trou, rive, colonnade, **piliers PA et PB depuis le sol**, escaliers, pente A et overhang, 10 Tesla et 4 Heavy (rive et bord du trou) | 1 688 |
-| 3 | Z1800 → 5100 | mezzanine, galeries, 60 tourelles L1, cadres L2, haut des murs et des piliers, plancher de toit, **10 tourelles debout**, toit en rampes et casquettes | 1 650 |
+| 2 | Z0 → 1800 | murs du pod, fût, murs de bord du trou, rive, colonnade, **piliers PA et PB depuis le sol**, escaliers, pente A et overhang, 6 Tesla et 4 Heavy (rive et bord du trou) | 1 684 |
+| 3 | Z1800 → 5100 | mezzanine, galeries, 60 tourelles L1, cadres L2, haut des murs et des piliers, plancher de toit, **4 tourelles debout**, toit en rampes et casquettes | 1 644 |
 
 ### 4.2 Chaîne de soutien
 
@@ -106,7 +105,7 @@ Ne comptent pas :
 - **Fût D5** : du sol à Z1800. Au-dessus, les galeries Z2100 et Z2400 s'appuient sur le mur de pod, 1 à 2 cases plus loin.
 - **Rampes** : appuis comme sur les tours (module 08 §3).
 
-### 4.3 Maillage défensif : 100 tourelles comptées + 10 Tesla
+### 4.3 Maillage défensif : 100 tourelles
 
 | Axe d'approche | Couche | Tourelles | Couverture |
 |---|---|---|---|
@@ -114,18 +113,18 @@ Ne comptent pas :
 | Gouffre (trou à l'avant) | TROU-L1 (Z1950) et TROU (Z0 / Z300) | 8 H + 3 T + 1 S | vers le trou, des deux bords |
 | Dessous de la plateforme | jupe intérieure | 16 H | vers le piton, sous la plateforme |
 | Mer, pied du piton | jupe extérieure | 10 H | −90° → +90° vers la mer |
-| Pied de rive, paliers, pics | Tesla de rive | 9 S | palier 1 entier, palier 2 à partir de 4 230 UU |
-| **Toit, dessus du centre, comble** | **toit (Z2410)** | **5 H + 5 T** | vers le haut, au-dessus du pod, à travers les lames du toit |
-| **Total** | | **65 H + 35 T = 100**, + 10 S | |
+| Pied de rive, paliers, pics | Tesla de rive | 5 S | palier 1 entier, palier 2 à partir de 4 230 UU |
+| **Toit, dessus du centre, comble** | **toit (Z2410)** | **2 H + 2 T** | vers le haut, au-dessus du pod, à travers les lames du toit |
+| **Total** | | **62 H + 32 T + 6 S = 100** | |
 
-- Les tourelles voisines sont à 300 UU les unes des autres sur L1, et à 620 UU sur le toit. Chacune tire depuis une face libre : aucune n'est dans le champ d'une autre.
+- Les tourelles voisines sont à 300 UU les unes des autres sur L1, et à 1 410 UU sur le toit. Chacune tire depuis une face libre : aucune n'est dans le champ d'une autre.
 - Matrice complète : module 05 §6, et `donnees/05_matrice_tourelles.csv`.
+- **Arbitrage.** Si vous préférez, vous pouvez rendre au toit les 10 tourelles de la version Tesla non comptées. Il faut alors libérer 6 autres places, par exemple 6 Heavy de jupe extérieure. Changez `toit_tourelles` en tête du script.
 
 ## 5. Ce qui reste à confirmer en jeu
 
 | Hypothèse | Si elle est fausse |
 |---|---|
-| Les Tesla ne comptent pas dans le cap de 100 (votre règle) | avec `tesla_comptee=True` en tête du script, le générateur signale 10 tourelles de trop. Il faut alors en retirer 10, de préférence des Heavy de L1 plutôt que les tourelles du toit |
 | Un mur ou un cadre posé en colonne sur une fondation compte comme un appui au sol, au même titre qu'un pilier | si seuls les piliers comptent, il faut des colonnes de piliers sous les galeries de la cage (anneaux 8-9). Je peux les ajouter |
 | Les tourelles du toit tirent à travers les lames de rampes (10 UU d'épaisseur, 300 UU d'écart) | les poser plus haut, sur des plafonds au-dessus du faîtage |
 | Comptage des structures : une tourelle, un mur de pics et un équipement comptent pour une structure chacun ; les câbles et le mobilier sont dans la réserve de 2 100 | — |

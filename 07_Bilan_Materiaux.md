@@ -2,30 +2,30 @@
 
 Ce bilan couvre **tout ce qu'il faut fabriquer** pour la forteresse en 8 plans, adaptée au trou (module 06) :
 - la structure (plateforme verte comprise) et les pics ;
-- les 110 tourelles (100 Heavy et Tek comptées par le cap, plus 10 Tesla) ;
+- les 100 tourelles (62 Heavy, 32 Tek, 6 Tesla) ;
 - les équipements demandés : 1 Réplicateur Tek, 1 forge à vapeur, 1 labo de fortune, 20 stockages dédiés, 20 coffres-forts, 2 générateurs Tek.
 
 Les chiffres sont recalculés par le script : `donnees/synthese.json`, clés `bilan_complet` et `bilan_total`. Positions des équipements : `donnees/07_equipements.csv`.
 
 ## 1. Total à réunir
 
-| Ressource | Sans les tourelles (déjà en inventaire) | **Avec les 110 tourelles** |
+| Ressource | Sans les tourelles (déjà en inventaire) | **Avec les 100 tourelles** |
 |---|---|---|
-| Lingots de métal | 138 379 | **181 979** |
-| Pâte cimentée | 34 697 | **49 447** |
-| Électroniques | 220 | **22 270** |
-| Polymère | 5 850 | **15 150** |
-| Cristal | 3 350 | **5 350** |
-| Élément | 220 | **325** |
+| Lingots de métal | 138 479 | **178 159** |
+| Pâte cimentée | 34 725 | **48 725** |
+| Électroniques | 220 | **20 760** |
+| Polymère | 5 850 | **13 590** |
+| Cristal | 3 350 | **4 550** |
+| Élément | 220 | **316** |
 | Perles noires | 470 | 470 |
 | Huile | 1 400 | 1 400 |
 | Poudre étincelante | 100 | 100 |
 | Cuir | 1 480 | 1 480 |
-| Fibre | 2 620 | 2 620 |
-| Chaume (gabarits, démolis ensuite) | 700 | 700 |
-| Bois (gabarits) | 400 | 400 |
+| Fibre | 2 604 | 2 604 |
+| Chaume (gabarits, démolis ensuite) | 672 | 672 |
+| Bois (gabarits) | 384 | 384 |
 
-Le script crée les tourelles du plan (65 Heavy, 35 Tek, 10 Tesla), mais elles sont **déjà dans votre inventaire**. Ne fabriquez que la colonne de gauche. Il reste en réserve 15 Heavy.
+Le script crée les tourelles du plan (62 Heavy, 32 Tek, 6 Tesla), mais elles sont **déjà dans votre inventaire**. Ne fabriquez que la colonne de gauche. Il reste en réserve 18 Heavy, 3 Tek et 4 Tesla.
 
 Si votre étoile (anneaux 1 à 7) est déjà construite, retirez ses 87 fondations et 174 triangles hors du trou : 8 700 lingots et 2 697 pâte.
 
@@ -36,9 +36,8 @@ Par rapport à la revue de constructibilité (136 679 lingots, 34 221 pâte) :
 | Changement | Pièces | Lingots | Pâte |
 |---|---|---|---|
 | **Piliers PB descendus jusqu'au sol** : plus aucun plafond à plus de 2 cases d'un appui relié au sol | +72 piliers | +1 800 | +504 |
-| 4 Tesla de plus sur la rive (côtés E1) : leur emplacement remplace un mur | −4 murs, +4 murs de chaume | −100 | −28 |
-| 10 tourelles debout sous le toit, 5 Tesla de plus (dont 1 déjà comptée) | inventaire | — | — |
-| **Total** | | **+1 700** | **+476** |
+| 4 tourelles debout sous le toit (2 Tek, 2 Heavy), Tesla comptées dans le cap | inventaire | — | — |
+| **Total** | | **+1 800** | **+504** |
 
 ## 1 ter. Ce qui a changé avec la revue de constructibilité (module 08)
 
@@ -84,12 +83,12 @@ Par rapport à la version précédente (toutes les pentes en rampes, avec le Coe
 
 | Poste | Contenu | Lingots | Pâte | Autres |
 |---|---|---|---|---|
-| **Structure des 8 plans** | 4 737 pièces : 344 fondations, 684 triangles (dont les 10 pièces de la plateforme verte), 1 072 murs, 76 cadres doubles, 418 piliers, 308 plafonds, 629 plafonds triangles, 5 trappes, 6 escaliers, 892 rampes inclinées (aucun toit), 166 piliers fins, 43 demi-piliers fins, 94 poutres fines | 110 412 | 31 761 | — |
+| **Structure des 8 plans** | 4 741 pièces : 344 fondations, 684 triangles (dont les 10 pièces de la plateforme verte), 1 076 murs, 76 cadres doubles, 418 piliers, 308 plafonds, 629 plafonds triangles, 5 trappes, 6 escaliers, 892 rampes inclinées (aucun toit), 166 piliers fins, 43 demi-piliers fins, 94 poutres fines | 110 512 | 31 789 | — |
 | Ancres temporaires | 9 demi-piliers (démolis à la fin) | 117 | 36 | — |
 | **Murs de pics** | 74 Metal Spike Walls | 1 850 | — | 1 480 cuir, 2 220 fibre |
-| Gabarits de pose | 100 murs de chaume (démolis ensuite) | — | — | ~700 chaume, ~400 fibre, ~400 bois |
+| Gabarits de pose | 96 murs de chaume (démolis ensuite) | — | — | ~672 chaume, ~384 fibre, ~384 bois |
 | **Équipements** | voir §3 | 26 000 | 2 900 | 220 élément, 3 350 cristal, 470 perles noires, 5 850 polymère, 220 électroniques, 100 poudre étincelante, 1 400 huile |
-| *Tourelles (inventaire)* | *65 Heavy, 35 Tek, 10 Tesla* | *43 600* | *14 750* | *22 050 électroniques, 9 300 polymère, 2 000 cristal, 105 élément* |
+| *Tourelles (inventaire)* | *62 Heavy, 32 Tek, 6 Tesla* | *39 680* | *14 000* | *20 540 électroniques, 7 740 polymère, 1 200 cristal, 96 élément* |
 
 Le détail plan par plan (pièces, lingots, pâte) est au module 06 §5. On peut construire et financer la base plan par plan.
 
@@ -122,7 +121,7 @@ Distances mesurées sur le plan, pivot à pivot :
 
 | Générateur | Tek de L1, bord du trou compris (alimentation Tek obligatoire) | Heavy de jupe | Tesla de rive |
 |---|---|---|---|
-| n°2, mezzanine (−900 ; 0), Z1800 | **810 → 3 760 UU** : couvre les 35 Tek (L1 et toit) s'il porte à 3 800 UU | 4 485 → 6 008 UU | 3 812 → 5 014 UU |
+| n°2, mezzanine (−900 ; 0), Z1800 | **1 050 → 3 760 UU** : couvre les 32 Tek (L1 et toit) s'il porte à 3 800 UU | 4 485 → 6 008 UU | 3 812 → 5 014 UU |
 | n°1, hall (900 ; 1 559), Z0 | 2 196 → 5 040 UU | 2 776 → 6 377 UU | 2 176 → 5 746 UU |
 
 Les 12 tourelles du bord du trou sont à 1 100 → 3 436 UU du générateur n°2.
@@ -142,13 +141,13 @@ Recettes usuelles, à vérifier sur votre serveur :
 
 | Ressource brute | Sans les tourelles | Avec les tourelles |
 |---|---|---|
-| Minerai de métal | **≈ 277 000** | ≈ 408 000 |
-| Chitine ou kératine | **≈ 186 000** | ≈ 319 000 |
-| Pierre | **≈ 371 000** | ≈ 638 000 |
-| Obsidienne | ≈ 11 700 | ≈ 30 300 |
-| Perles de silice | ≈ 660 | ≈ 66 800 |
+| Minerai de métal | **≈ 277 000** | ≈ 398 000 |
+| Chitine ou kératine | **≈ 186 000** | ≈ 304 000 |
+| Pierre | **≈ 372 000** | ≈ 607 000 |
+| Obsidienne | ≈ 11 700 | ≈ 27 200 |
+| Perles de silice | ≈ 660 | ≈ 62 300 |
 | Silex | 200 | 200 |
-| Cristal / élément / perles noires / huile | 3 350 / 220 / 470 / 1 400 | 5 350 / 325 / 470 / 1 400 |
+| Cristal / élément / perles noires / huile | 3 350 / 220 / 470 / 1 400 | 4 550 / 316 / 470 / 1 400 |
 
 Avec du polymère organique ou de la pâte d'Achatina, la pierre, la chitine et l'obsidienne baissent fortement.
 
