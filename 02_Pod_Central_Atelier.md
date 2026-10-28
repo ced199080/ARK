@@ -9,7 +9,7 @@ Templates (`templates/plans/`, module 06) :
 | `Plan_05_tour_du_pod_D4.json` | tour D4 jusqu'à Z2700, murs de bord du trou du pod, piliers PA et PB, colonne d'escaliers, mezzanine Z1800, cages du noyau (générateurs Tek, boîtes de munitions), murs de chaume de l'anneau de tourelles D4 | pile d'ancrage |
 | `Option_rehausse_pod_+1_niveau.json` | un niveau de plus pour la tour, à poser autant de fois que voulu | mur de référence **A** |
 | `Plan_09_toiture_pleine_D4-centre.json` | couronne de murs pleins, piliers PA/PB, plancher de toit : toit plat fermé | mur de référence **A** |
-| `Plan_10_toit_en_rampes_D4-centre.json` | toit en rampes inclinées de D4 au centre, poteaux de piliers fins sous les jonctions, casquette du trou | mur de référence **C** |
+| `Plan_10_toit_en_rampes_D4-centre.json` | toit en rampes inclinées de D4 au centre, poteaux de piliers fins sur le plancher de toit | mur de référence **C** |
 | `Plan_11_tourelles_dessus.json` | tourelles, Tesla et carrés de culture sur le plancher de toit (module 05) | mur de référence **B** |
 
 Le Coeur Base n'est plus dans le projet : le centre du hall est libre. Coordonnées : `donnees/Plan_05_*.csv`, `Plan_09_*.csv`, `Plan_10_*.csv`, `Plan_11_*.csv`. Plans : `plans/plan_pod.png`, `plans/plan_rampes.png`, `plans/coupe_radiale.png`.
@@ -29,7 +29,7 @@ Le Coeur Base n'est plus dans le projet : le centre du hall est libre. Coordonn�
 | **Haut de la tour** | **Z2700** par défaut (9 murs) | + 1 niveau par rehausse |
 | **Couronne** | Z2700 → Z3000 | 1 niveau de murs pleins, posé avec la toiture pleine |
 | **Plancher de toit** | **Z3000**, sur tout le pod | toit plat fermé (toiture pleine) |
-| **Toit en rampes** | Z3000 → Z5100, de D4 au centre | comme le toit des tours 1201 / 1809 ; aucun toit incliné |
+| **Toit en rampes** | Z3000 → Z5400, de D4 au centre | comme le toit des tours 1201 / 1809 ; aucun toit incliné |
 
 ## 2. Colonne d'escaliers
 
@@ -81,7 +81,7 @@ Le trou entame le pod sur les anneaux 4 à 7 (27 pièces de l'étoile). Le pod e
 | Hauteur | **9 murs** (Z0 → 2700, plan 5), + 1 dans la couronne (plan 9), + 1 par rehausse |
 | Murs | **87** dans le plan 5, plus 3 murs de chaume de tourelles (2 TROU-L1 au niveau 6, 1 TROU-D4 au niveau 8) ; 10 dans la couronne |
 | Mezzanine et plancher de toit | s'arrêtent sur les murs de bord |
-| Toit | la **casquette du trou** prolonge le toit au-dessus du gouffre (§8.3) |
+| Toit | les lignes du toit s'arrêtent au bord du gouffre (§8.5) |
 
 ## 6. Gabarits de placement des machines (hall Z0 → 1800)
 
@@ -155,50 +155,45 @@ L'anneau de tourelles D4 reste au niveau 8, juste au-dessus du toit de cage, là
 | Couronne : murs de bord du trou du pod | 10 |
 | Piliers PA et PB, 1 niveau | 24 |
 | Plancher de toit : centre et anneaux 1 à 7, sans le trou | 86 plafonds + 174 triangles + 1 trappe |
-| Piliers fins de départ dans les joints de la couronne (lignes du toit et de la casquette du trou) | 42 |
-| **Total** | **377 entrées**, 8 573 lingots, 2 426 pâte |
+| **Total** | **335 entrées**, 8 027 lingots, 2 258 pâte |
 
 Elle ferme le pod seule : c'est un **toit plat**, sur lequel se posent les tourelles du dessus. Le toit en rampes se pose dessus.
 
 ### 8.4 Toit en rampes (plan 10), comme les tours 1201 / 1809
 
 **Aucun toit incliné dans toute la base.** Sur un toit à 45°, on tient debout et rien ne glisse. Le toit du pod est donc un **toit en rampes inclinées** (`StructureBP_Railing_Sloped_Metal`, la pièce des tours 1201 et 1809), posé sur la toiture pleine :
-- **lignes de lames** au pas de 300 UU, sur les **joints des murs de la couronne** (t = 0, ±300 le long de chaque côté ; les lignes des coins se croisent et ne sont pas posées) ;
+- **lignes de lames** au pas de 300 UU, au milieu des murs de la couronne (t = ±150, ±450 le long de chaque côté) ;
 - chaque rampe monte de 300 UU sur 300 UU vers le centre. Pivot au milieu de la rampe, z template = Z du bas + 290, **yaw = θ du côté − 90°** (tour 1201) ;
-- chaque ligne part de la **tête d'un pilier fin posé dans le joint de la couronne** (Z2700 → 3000), à la hauteur du plancher de toit. En jeu, une lame perpendiculaire à un mur ne se pose pas sur son haut : il lui faut cette tête de pilier (module 08 §3.1). Ces **40 piliers fins de départ** sont dans le plan 9, avec la couronne, et se posent avant les murs de leur niveau ;
-- **poteaux de piliers fins sous les jonctions de lames**, debout sur le plancher de toit, sous les jonctions 1, 4 et 7 (et sous le bout haut de chaque ligne). Si la couronne ou un poteau est détruit, chaque ligne reste dans les règles des tours : au plus 7 lames entre deux appuis, 6 lames libres, 1 lame pendue (module 08 §3) ;
-- **arêtes** : deux lames de côtés voisins qui se croiseraient ne peuvent pas être posées toutes les deux. Le script retire la plus haute, en bout de ligne, et chaque ligne reste continue depuis la couronne ;
+- en jeu, ni le haut d'un mur ni le bord d'un plafond ne tiennent une lame (module 08 §3.1) : chaque ligne tient sur des **poteaux de piliers fins debout sur des coins du plancher de toit**, sous ses jonctions. Pour que ses jonctions tombent sur ces coins, le générateur décale chaque ligne de 0 à 300 UU vers l'extérieur : elle commence de 0 à 300 UU au-dessus du bord de la couronne ;
+- une lame tient entre deux poteaux (7 lames au plus), pendue sous un poteau (3 au plus) ou au-dessus du dernier (6 au plus) ; 24 lignes sur 32 ont 2 poteaux et tiennent encore si l'un est détruit ;
+- **arêtes** : deux lames de côtés voisins qui se croiseraient ne peuvent pas être posées toutes les deux. Le script coupe la ligne qui en perd le moins, du côté de son bout le plus proche ;
 - **au-dessus du trou, aucune lame** : une ligne s'arrête à sa première rampe au-dessus du gouffre.
 
 | Rang | Z du bas | Rampes posées |
 |---|---|---|
-| r0 | 3000 | 49 |
-| r1 | 3300 | 31 |
-| r2 | 3600 | 31 |
-| r3 | 3900 | 21 |
-| r4 | 4200 | 21 |
-| r5 | 4500 | 11 |
-| r6 | 4800 | 11 |
-| **Total** | faîtage Z5100 | **175** |
+| r0 | 3000 (+ décalage) | 32 |
+| r1 | 3300 | 32 |
+| r2 | 3600 | 32 |
+| r3 | 3900 | 22 |
+| r4 | 4200 | 22 |
+| r5 | 4500 | 12 |
+| r6 | 4800 | 10 |
+| r7 | 5100 | 2 |
+| **Total** | faîtage Z5400 | **164**, sur 32 lignes |
 
-**Poteaux du toit** : **101 poteaux, 290 piliers fins**, tous debout sur le plancher de toit. Il y en a 49 d'un pilier (jonction 1), 41 de 3 à 5 piliers (jonctions 3 à 5) et 11 de 7 piliers (faîtage).
+**Poteaux du toit** : **56 poteaux, 96 piliers fins**, tous debout sur des coins du plancher de toit : 20 d'un pilier, 32 de 2, 4 de 3.
 
-**Tourelles du dessus** : à t = +150 sur chaque côté, entre deux lignes du toit (module 05).
+Les lignes sont moins nombreuses qu'avant (32 au lieu de 48) : celles qui n'ont aucun coin de plancher sous leurs jonctions ne peuvent pas tenir. Entre deux lignes, on tombe sur le plancher de toit, sous le tir des tourelles du dessus.
 
 **On ne tient pas debout sur une lame** : un dino largué n'y trouve aucune surface et glisse vers l'extérieur. Ce qui passe entre deux lames tombe sur le plancher de toit, où le couvrent les tourelles du dessus.
 
-### 8.5 Casquette du trou
+### 8.5 Casquette du trou : supprimée
 
-| Élément | Valeur |
-|---|---|
-| Couloir (plan 6) | 4 lames en haut des murs de bord du couloir, de Z2400 à Z2100, au-dessus du gouffre |
-| Pod (plan 10) | 2 lames en haut des murs de bord de la couronne, de Z3000 à Z2700 |
-| Lame | 1 rampe par mur au plus, à l'un de ses bouts : elle pend de la tête du pilier fin posé dans le joint (module 08 §3.1) ; pivot 150 UU devant le mur côté gouffre, **yaw = sens du gouffre − 90°** (elle monte vers le mur). Les lames qui croiseraient un mur ou une lame voisine ne sont pas posées : il en reste 6 sur 12 |
-| Rôle | comme la casquette de D5 : ce qui glisse quitte le bord devant les tourelles reposées face au gouffre et tombe dans le trou |
+Les lames qui prolongeaient le toit au-dessus du gouffre pendaient du haut des murs de bord. En jeu, le haut d'un mur ne tient pas une lame, et au bord du gouffre aucune ligne n'a de point de pose pour un poteau : la casquette du trou est retirée (couloir et pod).
 
 - Coût : une rampe vaut environ **12 lingots + 3 pâte** ; un pilier fin environ 13 + 4. ⚠ Ce sont des estimations : rambarde métal (Metal Railing) et demi-pilier métal.
 - ⚠ À valider en solo :
-  - le décalage de la rampe (+290 en z template) vient des tours 1201 et 1809. Si les rampes apparaissent trop haut ou trop bas, corrigez `+ 200` dans `pente()` et `bouts_lame()` et régénérez ;
+  - le décalage de la rampe (+290 en z template) vient des tours 1201 et 1809. Si les rampes apparaissent trop haut ou trop bas, corrigez `+ 200` dans `consolider_rampes()` et `bouts_lame()` et régénérez ;
   - la pose d'un plan calé sur un mur : le mur de référence doit se snapper sur le haut du mur de la tour (module 08 §6).
 
 ## 9. Contrôles de fin de module
@@ -209,4 +204,4 @@ Elle ferme le pod seule : c'est un **toit plat**, sur lequel se posent les toure
 - [ ] 24 colonnes de piliers PA/PB, du sol au plancher de toit.
 - [ ] Noyau : 4 cages (2 murs + plafond) ; 2 générateurs Tek et 2 boîtes de munitions posés sur leur fondation, portes doubles fermées.
 - [ ] Toiture pleine posée sur le mur de référence A : plancher fermé, places B et C vides jusqu'aux plans 11 et 10.
-- [ ] Toit : 175 rampes, chaque ligne sur la tête d'un pilier fin de départ (40, plan 9), 101 poteaux (290 piliers fins) ; casquette du trou : 2 lames sur la couronne. Aucun toit incliné.
+- [ ] Toit : 164 rampes sur 32 lignes, 56 poteaux (96 piliers fins) sur des coins du plancher de toit. Aucun toit incliné.

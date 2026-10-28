@@ -70,10 +70,7 @@ En tout : **160 murs et cadres + 8 murs de chaume** de tourelles reposées.
 ### Toitures adaptées au trou
 
 1. **Toit du pod** (plan 10) : chaque ligne de lames s'arrête à sa première rampe au-dessus du trou. Le plancher de toit s'arrête sur les murs de bord du pod, et la couronne les prolonge : la tour reste fermée.
-2. **Casquettes du trou** : une lame pend de la tête d'un pilier fin posé au bout d'un mur de bord, et descend de 300 UU au-dessus du gouffre, comme la casquette de D5.
-   - Couloir : **4 lames**, Z2400 → 2100, dans le plan 6.
-   - Pod : **2 lames**, Z3000 → 2700 sur la couronne, dans le plan 10.
-   - Les lames qui croiseraient un mur ou une lame voisine (angles du trou) ne sont pas posées.
+2. **Casquettes du trou : supprimées.** Elles pendaient du haut des murs de bord ; en jeu, le haut d'un mur ne tient pas une lame, et au bord du gouffre aucune ligne n'a de point de pose pour un poteau (module 08 §3.1).
 3. **Appentis, casquette de D5, pente A, overhang et débord** : ils s'arrêtent au bord du trou. Ce qui glisse tombe dans le gouffre.
 
 ## 4. Tourelles reposées face au gouffre
@@ -95,15 +92,15 @@ Chaque plan a **2 000 entrées au plus** (limite de Template Hammer). Dans chaqu
 | Plan | Fichier `templates/plans/` | Contenu | Entrées | Lingots | Pâte | Calage |
 |---|---|---|---|---|---|---|
 | **1** | `Plan_01_sol_complet.json` | tout le sol : 344 fondations + 684 triangles (paliers et plateforme verte compris), sans le trou | 1 030 | 34 300 | 10 632 | pile d'ancrage (2 demi-piliers) |
-| 2 | `Plan_02_colonnade_option.json` | **option** : colonnade de 226 piliers sous la pente A | 227 | 5 650 | 1 582 | pile |
-| **3** | `Plan_03_bord_D8-D7.json` | **bord D8 → D7** : rive (121 cadres doubles), jupe (83 cadres doubles, 1 niveau sur le palier 2), overhang et débord (262 rampes), 83 poteaux sur les paliers (123 piliers fins, 43 demi-piliers fins), **159 piliers fins de départ** dans les joints de la rive et de la jupe, 27 murs de chaume (rive) | 819 | 12 211 | 3 428 | pile |
-| **4** | `Plan_04_D7-D5_pente_A.json` | **D7 → D5** : pente A (208 rampes), 146 poteaux de stabilité (563 piliers fins), murs de bord du trou (33 cadres doubles), 3 murs de chaume | 808 | 10 640 | 3 107 | pile |
-| **5** | `Plan_05_tour_du_pod_D4.json` | **tour du pod** : 348 murs pleins + 17 cadres doubles (portes), 87 murs de bord du trou, 216 piliers PA/PB, 6 escaliers, mezzanine (255 plafonds), **4 cages du noyau** (28 murs, 4 cadres doubles, 4 plafonds), 2 piliers fins de départ (casquette du trou), 16 murs de chaume (anneau D4, bord du trou) | 984 | 24 001 | 6 738 | pile |
-| **6** | `Plan_06_D5-D4_cage_et_appentis.json` | **D5 → D4** : fût, L1 et L2 (393 cadres doubles), murs de bord du couloir (30 cadres doubles), galeries (426 pièces), **54 piliers fins de départ** dans les joints de L2, casquette (64 rampes), appentis (62 rampes, 60 poteaux), casquette du trou (4 rampes), 33 murs de chaume (L1, bord du trou) | 1 127 | 23 682 | 6 642 | pile |
+| 2 | `Plan_02_colonnade_option.json` | **option** : colonnade de 224 piliers sous la pente A | 225 | 5 600 | 1 568 | pile |
+| **3** | `Plan_03_bord_D8-D7.json` | **bord D8 → D7** : rive (121 cadres doubles), jupe (83 cadres doubles, 1 niveau sur le palier 2), 27 murs de chaume (rive) | 232 | 5 100 | 1 428 | pile |
+| **4** | `Plan_04_D7-D5_pente_A.json` | **rampes extérieures** : pente A, overhang et débord (388 rampes sur 75 lignes), 79 poteaux (210 piliers fins) sur des coins et centres de fondation ; murs de bord du trou (33 cadres doubles), 3 murs de chaume | 635 | 8 211 | 2 235 | pile |
+| **5** | `Plan_05_tour_du_pod_D4.json` | **tour du pod** : 348 murs pleins + 17 cadres doubles (portes), 87 murs de bord du trou, 216 piliers PA/PB, 6 escaliers, mezzanine (255 plafonds), **4 cages du noyau** (28 murs, 4 cadres doubles, 4 plafonds), 16 murs de chaume (anneau D4, bord du trou) | 982 | 23 975 | 6 730 | pile |
+| **6** | `Plan_06_D5-D4_cage_et_appentis.json` | **D5 → D4** : fût, L1 et L2 (393 cadres doubles), murs de bord du couloir (30 cadres doubles), galeries (426 pièces), casquette et appentis (116 rampes sur 58 lignes), 58 poteaux (202 piliers fins), 33 murs de chaume (L1, bord du trou) | 1 201 | 24 658 | 6 952 | pile |
 | **7** | `Plan_07_tourelles_D8-D4.json` | **défense D8 → D4** : 41 Heavy, 18 Tek, 6 Tesla, 5 grands carrés de culture | 71 | — | — | pile |
 | **8** | `Plan_08_tourelles_perimetre_pod.json` | **défense du périmètre du pod** : 6 Heavy, 6 Tek, 2 Tesla, 6 carrés de culture moyens | 21 | — | — | pile |
-| **9** | `Plan_09_toiture_pleine_D4-centre.json` | **toiture pleine D4 → centre** : couronne (40 murs de D4 + 10 murs de bord), 24 piliers PA/PB, plancher de toit (260 plafonds + 1 trappe), **42 piliers fins de départ** du toit et de la casquette du trou dans les joints de la couronne | 377 | 8 573 | 2 426 | **mur A** |
-| **10** | `Plan_10_toit_en_rampes_D4-centre.json` | **toit en rampes D4 → centre** : mur C, 175 rampes, 101 poteaux (290 piliers fins), casquette du trou (2 rampes) | 468 | 5 919 | 1 698 | **mur C** |
+| **9** | `Plan_09_toiture_pleine_D4-centre.json` | **toiture pleine D4 → centre** : couronne (40 murs de D4 + 10 murs de bord), 24 piliers PA/PB, plancher de toit (260 plafonds + 1 trappe) | 335 | 8 027 | 2 258 | **mur A** |
+| **10** | `Plan_10_toit_en_rampes_D4-centre.json` | **toit en rampes D4 → centre** : mur C, 164 rampes sur 32 lignes, 56 poteaux (96 piliers fins) sur des coins du plancher de toit | 261 | 3 241 | 883 | **mur C** |
 | **11** | `Plan_11_tourelles_dessus.json` | **défense du dessus** : mur B, 2 Heavy, 2 Tek, 2 Tesla, 4 carrés de culture | 11 | 25 | 7 | **mur B** |
 | option | `Option_rehausse_pod_+1_niveau.json` | **+1 niveau de tour** : 52 murs pleins, 24 piliers | 76 | 1 900 | 532 | **mur A** |
 
@@ -116,7 +113,7 @@ Les lingots et la pâte ne comprennent pas les tourelles, déjà dans votre inve
 **Ordre de pose**
 1. **Plan 1** : tout le sol. Si votre étoile centrale est déjà posée, sautez les pièces déjà en place et **retirez celles qui tombent dans le trou** (anneaux 4 à 7, côté θ 180°).
 2. **Plan 2** si vous gardez la colonnade (sinon, sautez-le).
-3. **Plan 3** (bord D8 → D7), puis **plan 4** (D7 → D5) : la pente A s'appuie sur la rive.
+3. **Plan 3** (bord D8 → D7), puis **plan 4** (rampes extérieures et leurs poteaux).
 4. **Plan 5** (tour du pod), puis **plan 6** (cage et appentis) : les galeries s'accrochent à la tour.
 5. **Plan 7** et **plan 8** : les tourelles se posent sur leurs murs de chaume, déjà en place.
 6. **Rehausse** (option), autant de fois que vous voulez de niveaux de tour.
@@ -130,9 +127,8 @@ Les lingots et la pâte ne comprennent pas les tourelles, déjà dans votre inve
    - démolition de la pile d'ancrage.
 
 **Points d'appui entre plans** :
-- la pente A (plan 4) part du haut de la rive (plan 3) ;
-- les poteaux de l'overhang et de la pente A sont debout sur le sol (plan 1) ;
-- les poteaux de l'appentis (plan 6) sont sur le toit de cage du même plan ;
+- les rampes extérieures (plan 4) tiennent sur leurs poteaux, debout sur le sol (plan 1) ; elles passent au-dessus de la rive (plan 3) sans s'y appuyer ;
+- les poteaux de la casquette et de l'appentis (plan 6) sont sur le toit de cage du même plan ou sur le sol de l'attique ;
 - ceux du toit (plan 10) sont sur le plancher de toit (plan 9) ;
 - les murs de chaume sont dans les plans de zone ; les murs et cadres posés au-dessus d'eux sont donc tenus dès la pose de leur zone ;
 - la couronne (plan 9) se pose sur le haut de la tour (plan 5 ou rehausse), et au-dessus des murs de chaume de l'anneau D4.
@@ -141,7 +137,7 @@ Les lingots et la pâte ne comprennent pas les tourelles, déjà dans votre inve
 
 - [ ] Plan 1 posé : aucune fondation dans le trou (124 manquantes), contour D8 complet ailleurs, plateforme verte en place.
 - [ ] Murs de bord du trou fermés de la rive à la rive : pleins dans le pod, cadres doubles ailleurs.
-- [ ] Casquettes du trou : 4 lames sur le couloir, 2 sur la couronne ; aucune autre rampe au-dessus du trou.
+- [ ] Aucune rampe au-dessus du trou.
 - [ ] 8 tourelles face au gouffre ; 100 emplacements en tout (module 05).
 - [ ] Plans 9, 10 et 11 calés sur les murs A, C et B : plancher et toit centrés sur la tour.
 - [ ] Contrôles du générateur (module 08) : aucune collision, chaque ligne de rampes sur ses appuis, chaque pièce après ce qui la porte, plan après plan.

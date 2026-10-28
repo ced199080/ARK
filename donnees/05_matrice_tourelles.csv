@@ -78,24 +78,24 @@ ordre;priorite;type;couche;plan;cote;index;theta;x_support;y_support;Z_bas;x_tou
 77;P5 tour du pod : anneau D4;Tourelle lourde (Heavy);D4;d4;3;0;78.69;450.0;2239.2;2400.0;450.0;2249.2;2550.0;90
 78;P5 tour du pod : anneau D4;Bobine Tesla;D4;d4;10;2;303.82;1249.5;-1864.2;2400.0;1254.5;-1872.9;2550.0;300
 79;P5 tour du pod : anneau D4;Tourelle lourde (Heavy);D4;d4;7;3;221.31;-1714.2;-1509.3;2400.0;-1722.9;-1514.3;2550.0;210
-80;P6 dessus : tourelles et Tesla debout;Tourelle lourde (Heavy);DESSUS;dessus;1;1;35.71;1224.0;879.9;3000.0;1224.0;879.9;3075.0;30
-81;P6 dessus : tourelles et Tesla debout;Tourelle Tek;DESSUS;dessus;9;8;275.71;150.0;-1500.0;3000.0;150.0;-1500.0;3075.0;270
-82;P6 dessus : tourelles et Tesla debout;Bobine Tesla;DESSUS;dessus;4;4;125.71;-879.9;1224.0;3000.0;-879.9;1224.0;3075.0;120
-83;P6 dessus : tourelles et Tesla debout;Tourelle Tek;DESSUS;dessus;3;3;95.71;-150.0;1500.0;3000.0;-150.0;1500.0;3075.0;90
-84;P6 dessus : tourelles et Tesla debout;Bobine Tesla;DESSUS;dessus;10;9;305.71;879.9;-1224.0;3000.0;879.9;-1224.0;3075.0;300
-85;P6 dessus : tourelles et Tesla debout;Tourelle lourde (Heavy);DESSUS;dessus;7;6;215.71;-1224.0;-879.9;3000.0;-1224.0;-879.9;3075.0;210
-86;P7 Plant Species X;Grand carré de culture (Plant Species X);X-attique;ext;0;3;2.68;3208.8;150.0;0.0;3208.8;150.0;30.0;0
-87;P7 Plant Species X;Grand carré de culture (Plant Species X);DESSUS;dessus;5;5;155.71;-1374.0;620.1;3000.0;-1374.0;620.1;3075.0;150
-88;P7 Plant Species X;Grand carré de culture (Plant Species X);DESSUS;dessus;2;2;65.71;620.1;1374.0;3000.0;620.1;1374.0;3075.0;60
+80;P6 dessus : tourelles et Tesla debout;Tourelle lourde (Heavy);DESSUS;dessus;1;1;30.0;1299.0;750.0;3000.0;1299.0;750.0;3075.0;30
+81;P6 dessus : tourelles et Tesla debout;Tourelle Tek;DESSUS;dessus;9;8;270.0;-0.0;-1500.0;3000.0;-0.0;-1500.0;3075.0;270
+82;P6 dessus : tourelles et Tesla debout;Bobine Tesla;DESSUS;dessus;4;4;120.0;-750.0;1299.0;3000.0;-750.0;1299.0;3075.0;120
+83;P6 dessus : tourelles et Tesla debout;Tourelle Tek;DESSUS;dessus;3;3;90.0;0.0;1500.0;3000.0;0.0;1500.0;3075.0;90
+84;P6 dessus : tourelles et Tesla debout;Bobine Tesla;DESSUS;dessus;10;9;300.0;750.0;-1299.0;3000.0;750.0;-1299.0;3075.0;300
+85;P6 dessus : tourelles et Tesla debout;Tourelle lourde (Heavy);DESSUS;dessus;7;6;210.0;-1299.0;-750.0;3000.0;-1299.0;-750.0;3075.0;210
+86;P7 Plant Species X;Grand carré de culture (Plant Species X);DESSUS;dessus;0;0;0.0;1500.0;0.0;3000.0;1500.0;0.0;3075.0;0
+87;P7 Plant Species X;Carré de culture moyen (Plant Species X);X-D4;d4;5;2;150.0;-2069.1;1194.6;2400.0;-2069.1;1194.6;2430.0;150
+88;P7 Plant Species X;Grand carré de culture (Plant Species X);X-attique;ext;2;3;62.68;1474.5;2853.9;0.0;1474.5;2853.9;30.0;60
 89;P7 Plant Species X;Carré de culture moyen (Plant Species X);X-D4;d4;9;2;270.0;-0.0;-2389.2;2400.0;-0.0;-2389.2;2430.0;270
 90;P7 Plant Species X;Carré de culture moyen (Plant Species X);X-D4;d4;1;2;30.0;2069.1;1194.6;2400.0;2069.1;1194.6;2430.0;30
-91;P7 Plant Species X;Grand carré de culture (Plant Species X);X-attique;ext;8;3;242.68;-1474.5;-2853.9;0.0;-1474.5;-2853.9;30.0;240
+91;P7 Plant Species X;Grand carré de culture (Plant Species X);DESSUS;dessus;8;7;240.0;-750.0;-1299.0;3000.0;-750.0;-1299.0;3075.0;240
 92;P7 Plant Species X;Grand carré de culture (Plant Species X);X-attique;ext;4;3;122.68;-1734.3;2703.9;0.0;-1734.3;2703.9;30.0;120
 93;P7 Plant Species X;Carré de culture moyen (Plant Species X);X-D4;d4;11;2;330.0;2069.1;-1194.6;2400.0;2069.1;-1194.6;2430.0;330
-94;P7 Plant Species X;Grand carré de culture (Plant Species X);DESSUS;dessus;0;0;5.71;1500.0;150.0;3000.0;1500.0;150.0;3075.0;0
+94;P7 Plant Species X;Grand carré de culture (Plant Species X);X-attique;ext;0;3;2.68;3208.8;150.0;0.0;3208.8;150.0;30.0;0
 95;P7 Plant Species X;Carré de culture moyen (Plant Species X);X-D4;d4;7;2;210.0;-2069.1;-1194.6;2400.0;-2069.1;-1194.6;2430.0;210
 96;P7 Plant Species X;Carré de culture moyen (Plant Species X);X-D4;d4;3;2;90.0;0.0;2389.2;2400.0;0.0;2389.2;2430.0;90
 97;P7 Plant Species X;Grand carré de culture (Plant Species X);X-attique;ext;10;3;302.68;1734.3;-2703.9;0.0;1734.3;-2703.9;30.0;300
-98;P7 Plant Species X;Grand carré de culture (Plant Species X);X-attique;ext;2;3;62.68;1474.5;2853.9;0.0;1474.5;2853.9;30.0;60
-99;P7 Plant Species X;Grand carré de culture (Plant Species X);DESSUS;dessus;8;7;245.71;-620.1;-1374.0;3000.0;-620.1;-1374.0;3075.0;240
-100;P7 Plant Species X;Carré de culture moyen (Plant Species X);X-D4;d4;5;2;150.0;-2069.1;1194.6;2400.0;-2069.1;1194.6;2430.0;150
+98;P7 Plant Species X;Grand carré de culture (Plant Species X);DESSUS;dessus;2;2;60.0;750.0;1299.0;3000.0;750.0;1299.0;3075.0;60
+99;P7 Plant Species X;Grand carré de culture (Plant Species X);X-attique;ext;8;3;242.68;-1474.5;-2853.9;0.0;-1474.5;-2853.9;30.0;240
+100;P7 Plant Species X;Grand carré de culture (Plant Species X);DESSUS;dessus;5;5;150.0;-1299.0;750.0;3000.0;-1299.0;750.0;3075.0;150

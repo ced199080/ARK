@@ -12,8 +12,8 @@ Les chiffres sont recalculés par le script : `donnees/synthese.json`, clés `bi
 
 | Ressource | Sans les tourelles (déjà en inventaire) | **Avec les tourelles** |
 |---|---|---|
-| Lingots de métal | **147 305** | **181 365** |
-| Pâte cimentée | **37 610** | **48 710** |
+| Lingots de métal | **135 491** | **169 551** |
+| Pâte cimentée | **34 057** | **45 157** |
 | Électroniques | 220 | 17 050 |
 | Polymère | 5 850 | 13 580 |
 | Cristal | 3 350 | 5 350 |
@@ -31,20 +31,21 @@ Le script place les tourelles (49 Heavy, 26 Tek, 10 Tesla), mais elles sont **d�
 
 | Option | Pièces | Lingots | Pâte |
 |---|---|---|---|
-| Colonnade (plan 2) | 226 piliers | +5 650 | +1 582 |
+| Colonnade (plan 2) | 224 piliers | +5 600 | +1 568 |
 | Rehausse de la tour, par niveau | 52 murs pleins + 24 piliers | +1 900 | +532 |
 
 Si votre étoile (anneaux 1 à 7) est déjà construite, retirez ses 87 fondations et 174 triangles hors du trou : 8 700 lingots et 2 697 pâte.
 
-## 1 bis. Départ des lignes de rampes (correctif après l'essai en jeu)
+## 1 bis. Rampes sur poteaux (correctif d'après les essais en jeu)
 
-Dans le secteur d'essai, aucune rampe ne se posait : chaque ligne partait directement du haut d'un mur. Chaque ligne part maintenant de la tête d'un **pilier fin posé dans le joint de deux murs**, comme sur les tours 1201 et 1809 (module 08 §3.1). Les lignes du toit, de la casquette et de l'appentis passent du milieu des murs aux joints.
+Dans le secteur d'essai, aucune rampe ne se posait. Trois essais en solo ont montré qu'une lame ne tient qu'à la tête d'un poteau de piliers fins posé sur un coin de fondation ou de plafond, ou au centre d'une fondation (module 08 §3.1). Les rampes sont replacées sur ces poteaux ; la version intermédiaire à piliers fins dans les joints des murs (147 305 lingots, 37 610 pâte) n'a jamais tenu en jeu.
 
 | Changement | Pièces | Lingots | Pâte |
 |---|---|---|---|
-| Piliers fins de départ : rive 75, jupe 84, L2 de la cage 54, couronne 42, bord du trou 2 | +257 piliers fins | +3 341 | +1 028 |
-| Toit, casquette et appentis sur les joints (lignes plus nombreuses) et leurs poteaux | +19 rampes, +9 piliers fins | +345 | +93 |
-| **Total** | | **+3 686** | **+1 121** |
+| Lignes sans aucun point de pose retirées, casquette du trou supprimée | −109 rampes (668 au lieu de 777) | −1 308 | −327 |
+| Poteaux seulement sur des points de pose, plus de piliers dans les joints | −785 piliers fins (508 au lieu de 1 293) | −10 205 | −3 140 |
+| Plus de demi-pilier fin (il ne porte pas de lame) | −43 | −301 | −86 |
+| **Total** | | **−11 814** | **−3 553** |
 
 ## 1 ter. Ce qui a changé avec l'audit : aucune tourelle sous Z0, noyau en cage
 
@@ -75,7 +76,7 @@ Par rapport à la version précédente (138 479 lingots, 34 725 pâte, colonnade
 
 - 15 carrés de culture pour les Plant X (9 grands, 6 moyens) : 360 bois, 570 chaume, 540 fibre, 1 200 pierre (estimation).
 - Les coûts des piliers fins, des poutres fines et des cadres doubles sont des estimations, à vérifier en jeu.
-- **Option `--appuis tours`** (sans poteaux de stabilité, comme les tours) : 902 piliers fins de moins, soit −11 726 lingots et −3 608 pâte (135 579 lingots et 34 002 pâte à fabriquer). En contrepartie, seules 66 lames du toit sur 175 et aucune de l'appentis tiennent encore si leur appui est détruit.
+- **Option `--appuis tours`** (le moins de poteaux possible, sans chercher à ce qu'une ligne tienne si l'un est détruit) : 68 piliers fins de moins, soit −884 lingots et −272 pâte (134 607 lingots et 33 785 pâte à fabriquer).
 
 **Pourquoi des rampes et pas des toits** : sur un toit à 45°, on tient debout ; sur une lame de rampes inclinées, non. Seules les rampes font glisser (module 03 §7). Une rampe coûte en plus environ trois fois moins qu'un toit.
 
@@ -83,7 +84,7 @@ Par rapport à la version précédente (138 479 lingots, 34 725 pâte, colonnade
 
 | Poste | Contenu | Lingots | Pâte | Autres |
 |---|---|---|---|---|
-| **Structure des plans** (sans la colonnade) | 5 529 pièces : 344 fondations et 684 triangles (dont les 10 pièces de la plateforme verte), 515 murs pleins, 681 cadres doubles, 240 piliers, 311 plafonds, 629 plafonds triangles, 6 trappes, 6 escaliers, 777 rampes inclinées (aucun toit), 1 293 piliers fins (dont 257 de départ des lignes), 43 demi-piliers fins | 119 351 | 34 678 | — |
+| **Structure des plans** (sans la colonnade) | 4 592 pièces : 344 fondations et 684 triangles (dont les 10 pièces de la plateforme verte), 515 murs pleins, 681 cadres doubles, 240 piliers, 311 plafonds, 629 plafonds triangles, 6 trappes, 6 escaliers, 668 rampes inclinées (aucun toit), 508 piliers fins (poteaux des rampes) | 107 537 | 31 125 | — |
 | Carrés de culture | 9 grands et 6 moyens (Plant X) | — | — | 360 bois, 570 chaume, 540 fibre, 1 200 pierre |
 | Ancres temporaires | 8 demi-piliers (démolis à la fin) | 104 | 32 | — |
 | **Murs de pics** | 74 Metal Spike Walls | 1 850 | — | 1 480 cuir, 2 220 fibre |
@@ -137,9 +138,9 @@ Recettes usuelles, à vérifier sur votre serveur :
 
 | Ressource brute | Sans les tourelles | Avec les tourelles |
 |---|---|---|
-| Minerai de métal | **≈ 295 000** | ≈ 397 000 |
-| Chitine ou kératine | **≈ 197 000** | ≈ 303 000 |
-| Pierre | **≈ 396 000** | ≈ 608 000 |
+| Minerai de métal | **≈ 271 000** | ≈ 373 000 |
+| Chitine ou kératine | **≈ 183 000** | ≈ 289 000 |
+| Pierre | **≈ 367 000** | ≈ 580 000 |
 | Obsidienne | ≈ 11 700 | ≈ 27 200 |
 | Perles de silice | ≈ 660 | ≈ 51 200 |
 | Silex | 200 | 200 |

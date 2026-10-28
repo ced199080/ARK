@@ -82,7 +82,7 @@ Contrôle géométrique : l'aire couverte vaut 64 489 838 UU², soit exactement 
   - Le mur de rive D7 se dresse sur l'arête haute de la première marche : il gagne 150 UU de hauteur apparente.
   - Les deux marches empêchent d'engager un dino ou un radeau contre le pied de mur.
   - Le palier 1 porte la **ligne de pics protégée**, sous l'overhang (module 03 §6). Le palier 2 est sous le rang r−2 de l'overhang.
-  - Les paliers portent aussi les **83 poteaux de l'overhang** (piliers fins sous la jonction r−1 / r−2), et l'arête extérieure de l'anneau 15 (bord D8) porte le **mur de jupe** (module 03 §5).
+  - Le palier 2 porte aussi **40 poteaux des rampes extérieures** (2 piliers fins au centre d'une fondation, côtés à carrés), et l'arête extérieure de l'anneau 15 (bord D8) porte le **mur de jupe** (module 03 §4 et §5).
   - La Tesla de rive voit tout le palier 1 et le palier 2 de 4 230 UU jusqu'au bord. Seuls 51 UU restent masqués, derrière la marche de Ø 28 (module 05 §7).
 - **Pose manuelle.** Les paliers doivent pouvoir descendre sous l'étoile :
   - **Étoile surélevée** (cas du 481, dont le plancher est à +900 au-dessus de sa dalle) : posez l'anneau 14 sur des demi-piliers (150 UU) accrochés sous l'arête de l'anneau 13, puis l'anneau 15 sur des demi-piliers accrochés sous l'arête de l'anneau 14.

@@ -1,11 +1,11 @@
 entree;piece;x;y;Z_plan;yaw;theta;rayon;repere
 0;Demi-pilier métal;0.0;300.0;225;0;90.0;300.0;ancre module (se pose sur l'ancre du sol)
-1;Carré de culture moyen (Plant Species X);-0.0;-2389.2;2400.0;270;270.0;2389.2;#89 X-D4 c9 p2 (carre de culture : Plant Species X a planter)
-2;Carré de culture moyen (Plant Species X);2069.1;1194.6;2400.0;30;30.0;2389.2;#90 X-D4 c1 p2 (carre de culture : Plant Species X a planter)
-3;Carré de culture moyen (Plant Species X);2069.1;-1194.6;2400.0;330;330.0;2389.2;#93 X-D4 c11 p2 (carre de culture : Plant Species X a planter)
-4;Carré de culture moyen (Plant Species X);-2069.1;-1194.6;2400.0;210;210.0;2389.2;#95 X-D4 c7 p2 (carre de culture : Plant Species X a planter)
-5;Carré de culture moyen (Plant Species X);0.0;2389.2;2400.0;90;90.0;2389.2;#96 X-D4 c3 p2 (carre de culture : Plant Species X a planter)
-6;Carré de culture moyen (Plant Species X);-2069.1;1194.6;2400.0;150;150.0;2389.2;#100 X-D4 c5 p2 (carre de culture : Plant Species X a planter)
+1;Carré de culture moyen (Plant Species X);-2069.1;1194.6;2400.0;150;150.0;2389.2;#87 X-D4 c5 p2 (carre de culture : Plant Species X a planter)
+2;Carré de culture moyen (Plant Species X);-0.0;-2389.2;2400.0;270;270.0;2389.2;#89 X-D4 c9 p2 (carre de culture : Plant Species X a planter)
+3;Carré de culture moyen (Plant Species X);2069.1;1194.6;2400.0;30;30.0;2389.2;#90 X-D4 c1 p2 (carre de culture : Plant Species X a planter)
+4;Carré de culture moyen (Plant Species X);2069.1;-1194.6;2400.0;330;330.0;2389.2;#93 X-D4 c11 p2 (carre de culture : Plant Species X a planter)
+5;Carré de culture moyen (Plant Species X);-2069.1;-1194.6;2400.0;210;210.0;2389.2;#95 X-D4 c7 p2 (carre de culture : Plant Species X a planter)
+6;Carré de culture moyen (Plant Species X);0.0;2389.2;2400.0;90;90.0;2389.2;#96 X-D4 c3 p2 (carre de culture : Plant Species X a planter)
 7;Tourelle lourde (Heavy);2172.9;734.9;2400.0;120;18.69;2293.8;#66 D4 c1 p0
 8;Tourelle Tek;-1514.3;-1722.9;2400.0;330;228.69;2293.8;#67 D4 c8 p0
 9;Tourelle Tek;-734.9;2172.9;2400.0;210;108.69;2293.8;#68 D4 c4 p0
