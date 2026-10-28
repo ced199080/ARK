@@ -4,11 +4,13 @@ Templates (`templates/plans/`, module 06) :
 
 | Plan | Contenu |
 |---|---|
-| `Plan_03_bord_D8-D7.json` | mur de rive D7 et mur de jupe D8 en **cadres doubles**, overhang et débord en rampes, poteaux sur les paliers, murs de chaume des tourelles de la rive |
+| `Plan_03_bord_D8-D7.json` | mur de rive D7 et mur de jupe D8 en **cadres doubles**, **piliers fins de départ** dans leurs joints, overhang et débord en rampes, poteaux sur les paliers, murs de chaume des tourelles de la rive |
 | `Plan_04_D7-D5_pente_A.json` | pente A en rampes, de la rive vers la cage, avec ses **poteaux de stabilité** ; murs de bord du trou entre D5 et D7, en cadres doubles |
 | `Plan_02_colonnade_option.json` | **option** : colonnade circulaire sous la pente A. Les poteaux de stabilité la remplacent |
 
 **Murs : cadres de porte doubles** (`BP_DoubleDoorframe_Metal`, la pièce des tours 1201 et 1809), partout sauf la tour du pod.
+
+**Chaque ligne de rampes part de la tête d'un pilier fin posé dans le joint de deux cadres.** En jeu, une lame perpendiculaire à un mur ne se pose pas sur son haut : c'est pour cela qu'aucune rampe ne se posait dans le secteur d'essai. Sur la tour 1809, les 52 départs de ligne sur un mur ont tous ce pilier fin (module 08 §3.1).
 
 **Aucun toit incliné.** Sur un toit à 45°, on tient debout et rien ne glisse. Toutes les pentes sont donc faites de **rampes inclinées** (Sloped Railing), en lignes de lames au pas de 300 UU comme sur les tours 1201 et 1809 (module 02 §8). **Chaque ligne de lames part d'un appui. Elle monte librement de 6 lames au plus, ou pend d'une seule lame**, comme sur les tours (module 08 §3). Les lignes qui montent reçoivent en plus des **poteaux de stabilité** : elles tiennent encore si un appui est détruit.
 
@@ -49,6 +51,7 @@ Coordonnées : `donnees/Plan_03_*.csv`, `donnees/Plan_04_*.csv`, `donnees/03_col
 - Au droit du trou, la rive est remplacée par les **murs de bord du trou** (module 06 §3).
 - **Cadres doubles** : chaque cadre laisse une ouverture de porte double. Les tourelles, qui sont derrière, tirent au travers, comme sur les tours 1201 et 1809. Posez des portes doubles dans les cadres que vous voulez fermer.
 - **Après démolition du chaume**, chaque emplacement de tourelle est une ouverture de 300 × 300, la tourelle au nu du mur.
+- **75 piliers fins de départ** au niveau 1 (Z300 → 600), un dans chaque joint de cadres d'où partent les lignes de la pente A et de l'overhang (t = ±150, ±450, ±750, ±1 050). Chacun se pose sur le joint des cadres du niveau 0, **avant** les cadres du niveau 1 qui l'encadrent (comme sur la tour 1809). Sa tête, à Z600, porte la 1re lame de la pente A et la lame r−1 de l'overhang.
 
 ## 3. Attique A : poteaux de stabilité, colonnade en option
 
@@ -82,7 +85,7 @@ Les lignes de lames sont sur les **joints des murs de rive** (t = ±150, ±450, 
 | **Total** | | | | **208** |
 
 - **3 rangs.** Un 4e rang entrerait de 80 UU dans le fût, à Z1800. La pente s'arrête à 3 018,7 (Z1500), 220 UU devant le fût.
-- **Appuis** : chaque ligne part du haut de la rive (Z600), sur le joint de deux cadres.
+- **Appuis** : chaque ligne part de la tête du pilier fin de départ (Z600), dans le joint de deux cadres de la rive (§2).
 - **Poteaux de stabilité** (mode `stable`, défaut) : un poteau sous la 1re jonction (3 piliers fins, Z0 → 900) et un sous le bout haut (5 piliers fins, Z0 → 1500). C'est **146 poteaux et 563 piliers fins**. Si la rive ou l'un des poteaux est détruit, chaque ligne reste dans les règles des tours : au plus 1 lame pendue et 7 lames entre deux appuis. Le contrôle le vérifie lame par lame (module 08 §3) : 208 lames sur 208.
 - Option `--appuis tours` : pas de poteau, comme sur les tours (3 lames libres au plus).
 - Les mêmes lignes continuent dans l'overhang (§5).
@@ -98,7 +101,7 @@ Les lignes de lames sont sur les **joints des murs de rive** (t = ±150, ±450, 
 | r−1 | 4 218,7 | 300 → 600 | 85 | au-dessus du palier 1 et des pics |
 | r−2 | 4 518,7 | 0 → 300 | 83 | au-dessus du palier 2 ; finit 40 UU après le bord D8 |
 
-- Mêmes lignes que la pente A, accrochées au haut de la rive.
+- Mêmes lignes que la pente A, pendues à la tête du même pilier fin de départ.
 - **Appui** : un poteau sous la jonction r−1 / r−2 (apothème 4 218,7, Z300), debout sur le palier. Il y en a **83** : 123 piliers fins et 43 demi-piliers fins. Le rang r−2 pend d'une lame au-delà du poteau, comme la lame de rive de la tour 1201.
 
 ### 5.2 Mur de jupe : sur le bord de la plateforme
@@ -112,12 +115,12 @@ Les lignes de lames sont sur les **joints des murs de rive** (t = ±150, ±450, 
 
 | Rang | Apothème du bas | Z bas → haut | **Rampes posées** | Position |
 |---|---|---|---|---|
-| **r−3** | 4 778,5 | −300 → 0 | 94 | 1 seule lame dans le vide, pendue au haut de la jupe (`--debord 1`, défaut) |
+| **r−3** | 4 778,5 | −300 → 0 | 94 | 1 seule lame dans le vide, pendue au pilier fin de départ de la jupe (`--debord 1`, défaut) |
 | **Total overhang + débord** | | | **262** | |
 
 - Les lignes du débord partent du haut de la jupe (Z0), sur les **joints de ses cadres** (t = 0, ±300 … ±1 200), à 150 UU des lignes de l'overhang.
-- **Appui** : le haut de la jupe. Une seule lame pend de son appui, comme la lame de rive de la tour 1201 : elle se pose sans poutre ni Template Hammer.
-- Bout du débord : 300 UU au-delà du bord de la plateforme. L'option `--debord 2` ajoute un 2e rang (r−4, Z −600 → −300) porté par 94 poutres fines accrochées sous la jupe : pose en Template Hammer uniquement, déconseillée.
+- **Appui** : un **pilier fin de départ** dans chaque joint de la jupe (Z −300 → 0), debout sur l'arête du palier 2 et posé avant les cadres qui l'encadrent : **84 piliers fins** (les coins servent à deux lignes). Une seule lame pend de sa tête, comme la lame de rive de la tour 1201.
+- Bout du débord : 300 UU au-delà du bord de la plateforme. `--debord 2` n'a plus d'effet : sans niveau de jupe sous les fondations, un 2e rang n'aurait pas d'appui.
 
 ## 6. Ligne de pics protégée (bordure basse)
 
@@ -152,7 +155,7 @@ Sur une lame inclinée à 45°, ni un joueur ni un dino ne tient debout. Ce qui 
 ## 8. Contrôles de fin de module
 
 - [ ] Rive : 2 niveaux de cadres doubles (121), 27 murs de chaume (niveau 0 : 11 Heavy ; niveau 1 : 5 Tesla, 11 Heavy) ; remplacée par les murs de bord au droit du trou.
-- [ ] Pente A : 208 rampes, 146 poteaux de stabilité (563 piliers fins). Overhang : 168 rampes et 83 poteaux sur les paliers. Débord : 94 rampes. Jupe : 83 cadres doubles sur le palier 2, rien sous Z0. Aucune rampe au-dessus du trou.
+- [ ] 75 piliers fins de départ dans les joints de la rive (niveau 1), 84 dans ceux de la jupe, posés avant les cadres voisins. Pente A : 208 rampes, 146 poteaux de stabilité (563 piliers fins). Overhang : 168 rampes et 83 poteaux sur les paliers. Débord : 94 rampes. Jupe : 83 cadres doubles sur le palier 2, rien sous Z0. Aucune rampe au-dessus du trou.
 - [ ] Colonnade : posée ou non (option) ; elle ne gêne aucun poteau.
 - [ ] Aucune lame ne prend appui sur un mur de chaume.
 - [ ] 74 pics posés sous r−1.

@@ -78,17 +78,17 @@ Les 31 positions occupées sont prises régulièrement autour du cercle, à peu 
 
 ## 5. Casquette et appentis (en rampes inclinées)
 
-Les deux partent du haut de D5 (Z2400), sur les mêmes lignes de lames (milieu des cadres de D5, t = 0, ±300, ±600) :
+Les deux partent du haut de D5 (Z2400), sur les mêmes lignes de lames, aux **joints des cadres de D5** (t = ±150, ±450, et les coins). Chaque ligne part de la **tête d'un pilier fin posé dans le joint**, au niveau L2 (Z2100 → 2400) : en jeu, une lame perpendiculaire à un mur ne se pose pas sur son haut (module 08 §3.1). **54 piliers fins de départ**, dans le plan 6, posés avant les cadres L2 voisins.
 
 | Système | Apothème | Z | Rampes | Appuis |
 |---|---|---|---|---|
-| **Casquette** (porte-à-faux vers l'extérieur) | 2 799 → 3 099 | 2400 → 2100 | **53** | pend d'une lame du haut de D5, comme la lame de rive de la tour 1201 |
-| **Appentis** (vers la tour du pod) | 2 799 → 2 499 | 2400 → 2700 | **53** | posé sur le haut de D5 ; **1 poteau de stabilité** (1 pilier fin) sous son bout haut, sur le toit de cage : 53 poteaux |
-| Casquette r−2 (option `--casquette 2`) | 3 099 → 3 399 | 2100 → 1800 | 53 | 1 poteau de 6 piliers fins par ligne, entre les lignes de la pente A |
-| **Casquette du trou** (couloir) | bord du trou | 2400 → 2100 | 4 | pend d'une lame du haut des murs de bord |
+| **Casquette** (porte-à-faux vers l'extérieur) | 2 799 → 3 099 | 2400 → 2100 | **64** | pend d'une lame du pilier fin de départ, comme la lame de rive de la tour 1201 |
+| **Appentis** (vers la tour du pod) | 2 799 → 2 499 | 2400 → 2700 | **62** | monte du pilier fin de départ ; **1 poteau de stabilité** (1 pilier fin) sous son bout haut, sur le toit de cage : 60 poteaux (2 lignes n'en ont pas : la Tesla de la tour est juste devant) |
+| Casquette r−2 (option `--casquette 2`) | 3 099 → 3 399 | 2100 → 1800 | 0 | plus posable : ses poteaux tomberaient sur les lignes de la pente A, qui partent des mêmes joints |
+| **Casquette du trou** (couloir) | bord du trou | 2400 → 2100 | 4 | pend d'une lame du pilier fin de départ, au bout d'un mur de bord |
 
 - Le haut de D5 est un faîtage : ce qui tombe sur l'appentis glisse vers D5, puis sur la casquette et hors de la base.
-- Entre le bout haut de l'appentis (2 499) et la tour (2 239), il reste une **poche** de 260 UU sur le toit de cage. Un appentis plus long toucherait la tour. Ce qui tombe du toit du pod ou entre les lames atterrit dans la poche. Elle est couverte à bout portant par l'anneau de tourelles de la tour (Z2400 → 2700, module 05) et par les carrés de culture de Plant X.
+- Entre le bout haut de l'appentis (2 499) et la tour (2 239), il reste une **poche** de 260 UU sur le toit de cage. Un appentis plus long toucherait la tour. Ce qui tombe du toit du pod ou entre les lames atterrit dans la poche. Elle est couverte à bout portant par l'anneau de tourelles de la tour (Z2400 → 2700, module 05) et par les carrés de culture de Plant X, posés au milieu des côtés E1 (t = 0), entre deux lignes de l'appentis.
 - La casquette dépasse le nu de la façade de 300 UU. Ce qui quitte le bout des lames tombe **≈ 190 UU devant les têtes de L1**, puis sur la pente A.
 - ⚠ Un joueur qui passe *entre* deux lames de la casquette peut tomber sur une tête de tourelle L1. Il est alors à bout portant des tourelles voisines. Repli : `--casquette 2`.
 
@@ -104,5 +104,5 @@ Les deux partent du haut de D5 (Z2400), sur les mêmes lignes de lames (milieu d
 - [ ] Fût : 318 cadres doubles ; fermé par les murs de bord au droit du trou.
 - [ ] 3 planchers de galerie (Z1800, 2100, 2400), 5 trappes à Z2100.
 - [ ] L1 : 31 murs de chaume et 22 cadres doubles sur D5 ; L2 : 53 cadres doubles.
-- [ ] Casquette : 53 rampes ; appentis : 53 rampes et 53 poteaux ; casquette du trou du couloir : 4 rampes.
+- [ ] 54 piliers fins de départ dans les joints de L2 ; casquette : 64 rampes ; appentis : 62 rampes et 60 poteaux ; casquette du trou du couloir : 4 rampes.
 - [ ] Après le plan 7 : 31 tourelles L1 (+ 4 au bord du trou) ; murs de chaume démolis à la fin, cadres L2 restés en place.

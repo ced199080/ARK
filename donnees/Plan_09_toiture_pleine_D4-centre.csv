@@ -1,336 +1,378 @@
 entree;piece;x;y;Z_plan;yaw;theta;rayon;repere
 0;Mur métal;150.0;2239.2;2700.0;90;86.17;2244.2;reference A : mur de D4 a snapper sur le haut du mur de pod (niv9 c3 p1)
-1;Mur métal;2239.2;-450.0;2700.0;0;348.64;2284.0;couronne niv9 c0 p0
-2;Mur métal;2239.2;-150.0;2700.0;0;356.17;2244.2;couronne niv9 c0 p1
-3;Mur métal;2239.2;150.0;2700.0;0;3.83;2244.2;couronne niv9 c0 p2
-4;Mur métal;2239.2;450.0;2700.0;0;11.36;2284.0;couronne niv9 c0 p3
-5;Mur métal;2164.2;729.9;2700.0;30;18.64;2284.0;couronne niv9 c1 p0
-6;Mur métal;2014.2;989.7;2700.0;30;26.17;2244.2;couronne niv9 c1 p1
-7;Mur métal;1864.2;1249.5;2700.0;30;33.83;2244.2;couronne niv9 c1 p2
-8;Mur métal;1714.2;1509.3;2700.0;30;41.36;2284.0;couronne niv9 c1 p3
-9;Mur métal;1509.3;1714.2;2700.0;60;48.64;2284.0;couronne niv9 c2 p0
-10;Mur métal;1249.5;1864.2;2700.0;60;56.17;2244.2;couronne niv9 c2 p1
-11;Mur métal;989.7;2014.2;2700.0;60;63.83;2244.2;couronne niv9 c2 p2
-12;Mur métal;729.9;2164.2;2700.0;60;71.36;2284.0;couronne niv9 c2 p3
-13;Mur métal;450.0;2239.2;2700.0;90;78.64;2284.0;couronne niv9 c3 p0
-14;Mur métal;-729.9;2164.2;2700.0;120;108.64;2284.0;couronne niv9 c4 p0
-15;Mur métal;-989.7;2014.2;2700.0;120;116.17;2244.2;couronne niv9 c4 p1
-16;Mur métal;-1249.5;1864.2;2700.0;120;123.83;2244.2;couronne niv9 c4 p2
-17;Mur métal;-1509.3;1714.2;2700.0;120;131.36;2284.0;couronne niv9 c4 p3
-18;Mur métal;-1714.2;1509.3;2700.0;150;138.64;2284.0;couronne niv9 c5 p0
-19;Mur métal;-1864.2;1249.5;2700.0;150;146.17;2244.2;couronne niv9 c5 p1
-20;Mur métal;-2014.2;989.7;2700.0;150;153.83;2244.2;couronne niv9 c5 p2
-21;Mur métal;-2014.2;-989.7;2700.0;210;206.17;2244.2;couronne niv9 c7 p1
-22;Mur métal;-1864.2;-1249.5;2700.0;210;213.83;2244.2;couronne niv9 c7 p2
-23;Mur métal;-1714.2;-1509.3;2700.0;210;221.36;2284.0;couronne niv9 c7 p3
-24;Mur métal;-1509.3;-1714.2;2700.0;240;228.64;2284.0;couronne niv9 c8 p0
-25;Mur métal;-1249.5;-1864.2;2700.0;240;236.17;2244.2;couronne niv9 c8 p1
-26;Mur métal;-989.7;-2014.2;2700.0;240;243.83;2244.2;couronne niv9 c8 p2
-27;Mur métal;-729.9;-2164.2;2700.0;240;251.36;2284.0;couronne niv9 c8 p3
-28;Mur métal;-450.0;-2239.2;2700.0;270;258.64;2284.0;couronne niv9 c9 p0
-29;Mur métal;-150.0;-2239.2;2700.0;270;266.17;2244.2;couronne niv9 c9 p1
-30;Mur métal;150.0;-2239.2;2700.0;270;273.83;2244.2;couronne niv9 c9 p2
-31;Mur métal;450.0;-2239.2;2700.0;270;281.36;2284.0;couronne niv9 c9 p3
-32;Mur métal;729.9;-2164.2;2700.0;300;288.64;2284.0;couronne niv9 c10 p0
-33;Mur métal;989.7;-2014.2;2700.0;300;296.17;2244.2;couronne niv9 c10 p1
-34;Mur métal;1249.5;-1864.2;2700.0;300;303.83;2244.2;couronne niv9 c10 p2
-35;Mur métal;1509.3;-1714.2;2700.0;300;311.36;2284.0;couronne niv9 c10 p3
-36;Mur métal;1714.2;-1509.3;2700.0;330;318.64;2284.0;couronne niv9 c11 p0
-37;Mur métal;1864.2;-1249.5;2700.0;330;326.17;2244.2;couronne niv9 c11 p1
-38;Mur métal;2014.2;-989.7;2700.0;330;333.83;2244.2;couronne niv9 c11 p2
-39;Mur métal;2164.2;-729.9;2700.0;330;341.36;2284.0;couronne niv9 c11 p3
-40;Mur métal;-1659.3;784.8;2700.0;240.0;154.69;1835.6;bord du trou niv9 θ154.7
-41;Mur métal;-1939.2;859.8;2700.0;270.0;156.09;2121.3;bord du trou niv9 θ156.1
-42;Mur métal;-1454.4;579.9;2700.0;210.0;158.26;1565.8;bord du trou niv9 θ158.3
-43;Mur métal;-1249.5;375.0;2700.0;240.0;163.29;1304.6;bord du trou niv9 θ163.3
-44;Mur métal;-1119.6;150.0;2700.0;180.0;172.37;1129.6;bord du trou niv9 θ172.4
-45;Mur métal;-1119.6;-150.0;2700.0;180.0;187.63;1129.6;bord du trou niv9 θ187.6
-46;Mur métal;-1249.5;-375.0;2700.0;120.0;196.71;1304.6;bord du trou niv9 θ196.7
-47;Mur métal;-1454.4;-579.9;2700.0;150.0;201.74;1565.8;bord du trou niv9 θ201.7
-48;Mur métal;-1939.2;-859.8;2700.0;90.0;203.91;2121.3;bord du trou niv9 θ203.9
-49;Mur métal;-1659.3;-784.8;2700.0;120.0;205.31;1835.6;bord du trou niv9 θ205.3
-50;Pilier métal;1119.6;300.0;2700.0;0;15.0;1159.1;pilier PA0 (couronne)
-51;Pilier métal;819.6;819.6;2700.0;0;45.0;1159.1;pilier PA1 (couronne)
-52;Pilier métal;300.0;1119.6;2700.0;0;75.0;1159.1;pilier PA2 (couronne)
-53;Pilier métal;-300.0;1119.6;2700.0;0;105.0;1159.1;pilier PA3 (couronne)
-54;Pilier métal;-819.6;819.6;2700.0;0;135.0;1159.1;pilier PA4 (couronne)
-55;Pilier métal;-1119.6;300.0;2700.0;0;165.0;1159.1;pilier PA5 (couronne)
-56;Pilier métal;-1119.6;-300.0;2700.0;0;195.0;1159.1;pilier PA6 (couronne)
-57;Pilier métal;-819.6;-819.6;2700.0;0;225.0;1159.1;pilier PA7 (couronne)
-58;Pilier métal;-300.0;-1119.6;2700.0;0;255.0;1159.1;pilier PA8 (couronne)
-59;Pilier métal;300.0;-1119.6;2700.0;0;285.0;1159.1;pilier PA9 (couronne)
-60;Pilier métal;819.6;-819.6;2700.0;0;315.0;1159.1;pilier PA10 (couronne)
-61;Pilier métal;1119.6;-300.0;2700.0;0;345.0;1159.1;pilier PA11 (couronne)
-62;Pilier métal;559.8;150.0;2700.0;0;15.0;579.6;pilier PB0 (couronne)
-63;Pilier métal;409.8;409.8;2700.0;0;45.0;579.6;pilier PB1 (couronne)
-64;Pilier métal;150.0;559.8;2700.0;0;75.0;579.6;pilier PB2 (couronne)
-65;Pilier métal;-150.0;559.8;2700.0;0;105.0;579.6;pilier PB3 (couronne)
-66;Pilier métal;-409.8;409.8;2700.0;0;135.0;579.6;pilier PB4 (couronne)
-67;Pilier métal;-559.8;150.0;2700.0;0;165.0;579.6;pilier PB5 (couronne)
-68;Pilier métal;-559.8;-150.0;2700.0;0;195.0;579.6;pilier PB6 (couronne)
-69;Pilier métal;-409.8;-409.8;2700.0;0;225.0;579.6;pilier PB7 (couronne)
-70;Pilier métal;-150.0;-559.8;2700.0;0;255.0;579.6;pilier PB8 (couronne)
-71;Pilier métal;150.0;-559.8;2700.0;0;285.0;579.6;pilier PB9 (couronne)
-72;Pilier métal;409.8;-409.8;2700.0;0;315.0;579.6;pilier PB10 (couronne)
-73;Pilier métal;559.8;-150.0;2700.0;0;345.0;579.6;pilier PB11 (couronne)
-74;Plafond à trappe métal;409.8;0.0;3000.0;0;0.0;409.8;plancher de toit anneau 1
-75;Plafond triangle métal;129.9;0.0;3000.0;180;0.0;129.9;plancher de toit anneau 0
-76;Plafond triangle métal;372.3;215.0;3000.0;210;30.0;429.9;plancher de toit anneau 1
-77;Plafond métal;204.9;354.9;3000.0;60;60.0;409.8;plancher de toit anneau 1
-78;Plafond triangle métal;65.0;112.5;3000.0;240;60.0;129.9;plancher de toit anneau 0
-79;Plafond triangle métal;0.0;429.9;3000.0;270;90.0;429.9;plancher de toit anneau 1
-80;Plafond métal;-204.9;354.9;3000.0;120;120.0;409.8;plancher de toit anneau 1
-81;Plafond triangle métal;-65.0;112.5;3000.0;300;120.0;129.9;plancher de toit anneau 0
-82;Plafond triangle métal;-372.3;215.0;3000.0;330;150.0;429.9;plancher de toit anneau 1
-83;Plafond métal;-409.8;0.0;3000.0;180;180.0;409.8;plancher de toit anneau 1
-84;Plafond triangle métal;-129.9;0.0;3000.0;0;180.0;129.9;plancher de toit anneau 0
-85;Plafond triangle métal;-372.3;-215.0;3000.0;30;210.0;429.9;plancher de toit anneau 1
-86;Plafond métal;-204.9;-354.9;3000.0;240;240.0;409.8;plancher de toit anneau 1
-87;Plafond triangle métal;-65.0;-112.5;3000.0;60;240.0;129.9;plancher de toit anneau 0
-88;Plafond triangle métal;-0.0;-429.9;3000.0;90;270.0;429.9;plancher de toit anneau 1
-89;Plafond métal;204.9;-354.9;3000.0;300;300.0;409.8;plancher de toit anneau 1
-90;Plafond triangle métal;65.0;-112.5;3000.0;120;300.0;129.9;plancher de toit anneau 0
-91;Plafond triangle métal;372.3;-215.0;3000.0;150;330.0;429.9;plancher de toit anneau 1
-92;Plafond triangle métal;689.7;0.0;3000.0;0;0.0;689.7;plancher de toit anneau 2
-93;Plafond triangle métal;689.7;-150.0;3000.0;180;347.73;705.8;plancher de toit anneau 2
-94;Plafond triangle métal;689.7;150.0;3000.0;180;12.27;705.8;plancher de toit anneau 2
-95;Plafond métal;614.7;354.9;3000.0;30;30.0;709.8;plancher de toit anneau 2
-96;Plafond triangle métal;344.9;597.3;3000.0;60;60.0;689.7;plancher de toit anneau 2
-97;Plafond triangle métal;474.8;522.3;3000.0;240;47.73;705.8;plancher de toit anneau 2
-98;Plafond triangle métal;215.0;672.3;3000.0;240;72.27;705.8;plancher de toit anneau 2
-99;Plafond métal;0.0;709.8;3000.0;90;90.0;709.8;plancher de toit anneau 2
-100;Plafond triangle métal;-344.9;597.3;3000.0;120;120.0;689.7;plancher de toit anneau 2
-101;Plafond triangle métal;-215.0;672.3;3000.0;300;107.73;705.8;plancher de toit anneau 2
-102;Plafond triangle métal;-474.8;522.3;3000.0;300;132.27;705.8;plancher de toit anneau 2
-103;Plafond métal;-614.7;354.9;3000.0;150;150.0;709.8;plancher de toit anneau 2
-104;Plafond triangle métal;-689.7;0.0;3000.0;180;180.0;689.7;plancher de toit anneau 2
-105;Plafond triangle métal;-689.7;150.0;3000.0;0;167.73;705.8;plancher de toit anneau 2
-106;Plafond triangle métal;-689.7;-150.0;3000.0;0;192.27;705.8;plancher de toit anneau 2
-107;Plafond métal;-614.7;-354.9;3000.0;210;210.0;709.8;plancher de toit anneau 2
-108;Plafond triangle métal;-344.9;-597.3;3000.0;240;240.0;689.7;plancher de toit anneau 2
-109;Plafond triangle métal;-474.8;-522.3;3000.0;60;227.73;705.8;plancher de toit anneau 2
-110;Plafond triangle métal;-215.0;-672.3;3000.0;60;252.27;705.8;plancher de toit anneau 2
-111;Plafond métal;-0.0;-709.8;3000.0;270;270.0;709.8;plancher de toit anneau 2
-112;Plafond triangle métal;344.9;-597.3;3000.0;300;300.0;689.7;plancher de toit anneau 2
-113;Plafond triangle métal;215.0;-672.3;3000.0;120;287.73;705.8;plancher de toit anneau 2
-114;Plafond triangle métal;474.8;-522.3;3000.0;120;312.27;705.8;plancher de toit anneau 2
-115;Plafond métal;614.7;-354.9;3000.0;330;330.0;709.8;plancher de toit anneau 2
-116;Plafond métal;969.6;-150.0;3000.0;0;351.21;981.1;plancher de toit anneau 3
-117;Plafond métal;969.6;150.0;3000.0;0;8.79;981.1;plancher de toit anneau 3
-118;Plafond triangle métal;857.1;494.9;3000.0;30;30.0;989.7;plancher de toit anneau 3
-119;Plafond triangle métal;932.1;365.0;3000.0;210;21.38;1001.0;plancher de toit anneau 3
-120;Plafond triangle métal;782.1;624.8;3000.0;210;38.62;1001.0;plancher de toit anneau 3
-121;Plafond métal;614.7;764.7;3000.0;60;51.21;981.1;plancher de toit anneau 3
-122;Plafond métal;354.9;914.7;3000.0;60;68.79;981.1;plancher de toit anneau 3
-123;Plafond triangle métal;0.0;989.7;3000.0;90;90.0;989.7;plancher de toit anneau 3
-124;Plafond triangle métal;150.0;989.7;3000.0;270;81.38;1001.0;plancher de toit anneau 3
-125;Plafond triangle métal;-150.0;989.7;3000.0;270;98.62;1001.0;plancher de toit anneau 3
-126;Plafond métal;-354.9;914.7;3000.0;120;111.21;981.1;plancher de toit anneau 3
-127;Plafond métal;-614.7;764.7;3000.0;120;128.79;981.1;plancher de toit anneau 3
-128;Plafond triangle métal;-857.1;494.9;3000.0;150;150.0;989.7;plancher de toit anneau 3
-129;Plafond triangle métal;-782.1;624.8;3000.0;330;141.38;1001.0;plancher de toit anneau 3
-130;Plafond triangle métal;-932.1;365.0;3000.0;330;158.62;1001.0;plancher de toit anneau 3
-131;Plafond métal;-969.6;150.0;3000.0;180;171.21;981.1;plancher de toit anneau 3
-132;Plafond métal;-969.6;-150.0;3000.0;180;188.79;981.1;plancher de toit anneau 3
-133;Plafond triangle métal;-857.1;-494.9;3000.0;210;210.0;989.7;plancher de toit anneau 3
-134;Plafond triangle métal;-932.1;-365.0;3000.0;30;201.38;1001.0;plancher de toit anneau 3
-135;Plafond triangle métal;-782.1;-624.8;3000.0;30;218.62;1001.0;plancher de toit anneau 3
-136;Plafond métal;-614.7;-764.7;3000.0;240;231.21;981.1;plancher de toit anneau 3
-137;Plafond métal;-354.9;-914.7;3000.0;240;248.79;981.1;plancher de toit anneau 3
-138;Plafond triangle métal;-0.0;-989.7;3000.0;270;270.0;989.7;plancher de toit anneau 3
-139;Plafond triangle métal;-150.0;-989.7;3000.0;90;261.38;1001.0;plancher de toit anneau 3
-140;Plafond triangle métal;150.0;-989.7;3000.0;90;278.62;1001.0;plancher de toit anneau 3
-141;Plafond métal;354.9;-914.7;3000.0;300;291.21;981.1;plancher de toit anneau 3
-142;Plafond métal;614.7;-764.7;3000.0;300;308.79;981.1;plancher de toit anneau 3
-143;Plafond triangle métal;857.1;-494.9;3000.0;330;330.0;989.7;plancher de toit anneau 3
-144;Plafond triangle métal;782.1;-624.8;3000.0;150;321.38;1001.0;plancher de toit anneau 3
-145;Plafond triangle métal;932.1;-365.0;3000.0;150;338.62;1001.0;plancher de toit anneau 3
-146;Plafond triangle métal;1249.5;-150.0;3000.0;0;353.15;1258.5;plancher de toit anneau 4
-147;Plafond triangle métal;1249.5;150.0;3000.0;0;6.85;1258.5;plancher de toit anneau 4
-148;Plafond triangle métal;1249.5;-300.0;3000.0;180;346.5;1285.0;plancher de toit anneau 4
-149;Plafond triangle métal;1249.5;0.0;3000.0;180;0.0;1249.5;plancher de toit anneau 4
-150;Plafond triangle métal;1249.5;300.0;3000.0;180;13.5;1285.0;plancher de toit anneau 4
-151;Plafond métal;1174.5;504.9;3000.0;30;23.26;1278.4;plancher de toit anneau 4
-152;Plafond métal;1024.5;764.7;3000.0;30;36.74;1278.4;plancher de toit anneau 4
-153;Plafond triangle métal;754.7;1007.1;3000.0;60;53.15;1258.5;plancher de toit anneau 4
-154;Plafond triangle métal;494.9;1157.1;3000.0;60;66.85;1258.5;plancher de toit anneau 4
-155;Plafond triangle métal;884.6;932.1;3000.0;240;46.5;1285.0;plancher de toit anneau 4
-156;Plafond triangle métal;624.8;1082.1;3000.0;240;60.0;1249.5;plancher de toit anneau 4
-157;Plafond triangle métal;365.0;1232.1;3000.0;240;73.5;1285.0;plancher de toit anneau 4
-158;Plafond métal;150.0;1269.6;3000.0;90;83.26;1278.4;plancher de toit anneau 4
-159;Plafond métal;-150.0;1269.6;3000.0;90;96.74;1278.4;plancher de toit anneau 4
-160;Plafond triangle métal;-494.9;1157.1;3000.0;120;113.15;1258.5;plancher de toit anneau 4
-161;Plafond triangle métal;-754.7;1007.1;3000.0;120;126.85;1258.5;plancher de toit anneau 4
-162;Plafond triangle métal;-365.0;1232.1;3000.0;300;106.5;1285.0;plancher de toit anneau 4
-163;Plafond triangle métal;-624.8;1082.1;3000.0;300;120.0;1249.5;plancher de toit anneau 4
-164;Plafond triangle métal;-884.6;932.1;3000.0;300;133.5;1285.0;plancher de toit anneau 4
-165;Plafond métal;-1024.5;764.7;3000.0;150;143.26;1278.4;plancher de toit anneau 4
-166;Plafond métal;-1174.5;504.9;3000.0;150;156.74;1278.4;plancher de toit anneau 4
-167;Plafond métal;-1174.5;-504.9;3000.0;210;203.26;1278.4;plancher de toit anneau 4
-168;Plafond métal;-1024.5;-764.7;3000.0;210;216.74;1278.4;plancher de toit anneau 4
-169;Plafond triangle métal;-754.7;-1007.1;3000.0;240;233.15;1258.5;plancher de toit anneau 4
-170;Plafond triangle métal;-494.9;-1157.1;3000.0;240;246.85;1258.5;plancher de toit anneau 4
-171;Plafond triangle métal;-884.6;-932.1;3000.0;60;226.5;1285.0;plancher de toit anneau 4
-172;Plafond triangle métal;-624.8;-1082.1;3000.0;60;240.0;1249.5;plancher de toit anneau 4
-173;Plafond triangle métal;-365.0;-1232.1;3000.0;60;253.5;1285.0;plancher de toit anneau 4
-174;Plafond métal;-150.0;-1269.6;3000.0;270;263.26;1278.4;plancher de toit anneau 4
-175;Plafond métal;150.0;-1269.6;3000.0;270;276.74;1278.4;plancher de toit anneau 4
-176;Plafond triangle métal;494.9;-1157.1;3000.0;300;293.15;1258.5;plancher de toit anneau 4
-177;Plafond triangle métal;754.7;-1007.1;3000.0;300;306.85;1258.5;plancher de toit anneau 4
-178;Plafond triangle métal;365.0;-1232.1;3000.0;120;286.5;1285.0;plancher de toit anneau 4
-179;Plafond triangle métal;624.8;-1082.1;3000.0;120;300.0;1249.5;plancher de toit anneau 4
-180;Plafond triangle métal;884.6;-932.1;3000.0;120;313.5;1285.0;plancher de toit anneau 4
-181;Plafond métal;1024.5;-764.7;3000.0;330;323.26;1278.4;plancher de toit anneau 4
-182;Plafond métal;1174.5;-504.9;3000.0;330;336.74;1278.4;plancher de toit anneau 4
-183;Plafond métal;1529.4;-300.0;3000.0;0;348.9;1558.6;plancher de toit anneau 5
-184;Plafond métal;1529.4;0.0;3000.0;0;0.0;1529.4;plancher de toit anneau 5
-185;Plafond métal;1529.4;300.0;3000.0;0;11.1;1558.6;plancher de toit anneau 5
-186;Plafond triangle métal;1416.9;644.9;3000.0;30;24.47;1556.8;plancher de toit anneau 5
-187;Plafond triangle métal;1266.9;904.7;3000.0;30;35.53;1556.8;plancher de toit anneau 5
-188;Plafond triangle métal;1491.9;515.0;3000.0;210;19.04;1578.3;plancher de toit anneau 5
-189;Plafond triangle métal;1341.9;774.8;3000.0;210;30.0;1549.5;plancher de toit anneau 5
-190;Plafond triangle métal;1191.9;1034.6;3000.0;210;40.96;1578.3;plancher de toit anneau 5
-191;Plafond métal;1024.5;1174.5;3000.0;60;48.9;1558.6;plancher de toit anneau 5
-192;Plafond métal;764.7;1324.5;3000.0;60;60.0;1529.4;plancher de toit anneau 5
-193;Plafond métal;504.9;1474.5;3000.0;60;71.1;1558.6;plancher de toit anneau 5
-194;Plafond triangle métal;150.0;1549.5;3000.0;90;84.47;1556.8;plancher de toit anneau 5
-195;Plafond triangle métal;-150.0;1549.5;3000.0;90;95.53;1556.8;plancher de toit anneau 5
-196;Plafond triangle métal;300.0;1549.5;3000.0;270;79.04;1578.3;plancher de toit anneau 5
-197;Plafond triangle métal;0.0;1549.5;3000.0;270;90.0;1549.5;plancher de toit anneau 5
-198;Plafond triangle métal;-300.0;1549.5;3000.0;270;100.96;1578.3;plancher de toit anneau 5
-199;Plafond métal;-504.9;1474.5;3000.0;120;108.9;1558.6;plancher de toit anneau 5
-200;Plafond métal;-764.7;1324.5;3000.0;120;120.0;1529.4;plancher de toit anneau 5
-201;Plafond métal;-1024.5;1174.5;3000.0;120;131.1;1558.6;plancher de toit anneau 5
-202;Plafond triangle métal;-1266.9;904.7;3000.0;150;144.47;1556.8;plancher de toit anneau 5
-203;Plafond triangle métal;-1416.9;644.9;3000.0;150;155.53;1556.8;plancher de toit anneau 5
-204;Plafond triangle métal;-1191.9;1034.6;3000.0;330;139.04;1578.3;plancher de toit anneau 5
-205;Plafond triangle métal;-1341.9;774.8;3000.0;330;150.0;1549.5;plancher de toit anneau 5
-206;Plafond triangle métal;-1416.9;-644.9;3000.0;210;204.47;1556.8;plancher de toit anneau 5
-207;Plafond triangle métal;-1266.9;-904.7;3000.0;210;215.53;1556.8;plancher de toit anneau 5
-208;Plafond triangle métal;-1341.9;-774.8;3000.0;30;210.0;1549.5;plancher de toit anneau 5
-209;Plafond triangle métal;-1191.9;-1034.6;3000.0;30;220.96;1578.3;plancher de toit anneau 5
-210;Plafond métal;-1024.5;-1174.5;3000.0;240;228.9;1558.6;plancher de toit anneau 5
-211;Plafond métal;-764.7;-1324.5;3000.0;240;240.0;1529.4;plancher de toit anneau 5
-212;Plafond métal;-504.9;-1474.5;3000.0;240;251.1;1558.6;plancher de toit anneau 5
-213;Plafond triangle métal;-150.0;-1549.5;3000.0;270;264.47;1556.8;plancher de toit anneau 5
-214;Plafond triangle métal;150.0;-1549.5;3000.0;270;275.53;1556.8;plancher de toit anneau 5
-215;Plafond triangle métal;-300.0;-1549.5;3000.0;90;259.04;1578.3;plancher de toit anneau 5
-216;Plafond triangle métal;-0.0;-1549.5;3000.0;90;270.0;1549.5;plancher de toit anneau 5
-217;Plafond triangle métal;300.0;-1549.5;3000.0;90;280.96;1578.3;plancher de toit anneau 5
-218;Plafond métal;504.9;-1474.5;3000.0;300;288.9;1558.6;plancher de toit anneau 5
-219;Plafond métal;764.7;-1324.5;3000.0;300;300.0;1529.4;plancher de toit anneau 5
-220;Plafond métal;1024.5;-1174.5;3000.0;300;311.1;1558.6;plancher de toit anneau 5
-221;Plafond triangle métal;1266.9;-904.7;3000.0;330;324.47;1556.8;plancher de toit anneau 5
-222;Plafond triangle métal;1416.9;-644.9;3000.0;330;335.53;1556.8;plancher de toit anneau 5
-223;Plafond triangle métal;1191.9;-1034.6;3000.0;150;319.04;1578.3;plancher de toit anneau 5
-224;Plafond triangle métal;1341.9;-774.8;3000.0;150;330.0;1549.5;plancher de toit anneau 5
-225;Plafond triangle métal;1491.9;-515.0;3000.0;150;340.96;1578.3;plancher de toit anneau 5
-226;Plafond triangle métal;1809.3;-300.0;3000.0;0;350.59;1834.0;plancher de toit anneau 6
-227;Plafond triangle métal;1809.3;300.0;3000.0;0;9.41;1834.0;plancher de toit anneau 6
-228;Plafond triangle métal;1164.5;1416.9;3000.0;60;50.59;1834.0;plancher de toit anneau 6
-229;Plafond triangle métal;644.9;1716.9;3000.0;60;69.41;1834.0;plancher de toit anneau 6
-230;Plafond triangle métal;-644.9;1716.9;3000.0;120;110.59;1834.0;plancher de toit anneau 6
-231;Plafond triangle métal;-1164.5;1416.9;3000.0;120;129.41;1834.0;plancher de toit anneau 6
-232;Plafond métal;-1584.3;914.7;3000.0;150;150.0;1829.4;plancher de toit anneau 6
-233;Plafond métal;-1434.3;1174.5;3000.0;150;140.69;1853.9;plancher de toit anneau 6
-234;Plafond métal;-1584.3;-914.7;3000.0;210;210.0;1829.4;plancher de toit anneau 6
-235;Plafond métal;-1434.3;-1174.5;3000.0;210;219.31;1853.9;plancher de toit anneau 6
-236;Plafond triangle métal;-1164.5;-1416.9;3000.0;240;230.59;1834.0;plancher de toit anneau 6
-237;Plafond triangle métal;-644.9;-1716.9;3000.0;240;249.41;1834.0;plancher de toit anneau 6
-238;Plafond triangle métal;644.9;-1716.9;3000.0;300;290.59;1834.0;plancher de toit anneau 6
-239;Plafond triangle métal;1164.5;-1416.9;3000.0;300;309.41;1834.0;plancher de toit anneau 6
-240;Plafond métal;2089.2;-450.0;3000.0;0;347.84;2137.1;plancher de toit anneau 7
-241;Plafond triangle métal;1809.3;-450.0;3000.0;180;346.03;1864.4;plancher de toit anneau 6
-242;Plafond métal;1734.3;-654.9;3000.0;330;339.31;1853.9;plancher de toit anneau 6
-243;Plafond métal;2089.2;-150.0;3000.0;0;355.89;2094.6;plancher de toit anneau 7
-244;Plafond triangle métal;1809.3;-150.0;3000.0;180;355.26;1815.5;plancher de toit anneau 6
-245;Plafond triangle métal;1809.3;0.0;3000.0;0;0.0;1809.3;plancher de toit anneau 6
-246;Plafond métal;2089.2;150.0;3000.0;0;4.11;2094.6;plancher de toit anneau 7
-247;Plafond triangle métal;1809.3;150.0;3000.0;180;4.74;1815.5;plancher de toit anneau 6
-248;Plafond métal;2089.2;450.0;3000.0;0;12.16;2137.1;plancher de toit anneau 7
-249;Plafond triangle métal;1809.3;450.0;3000.0;180;13.97;1864.4;plancher de toit anneau 6
-250;Plafond métal;1734.3;654.9;3000.0;30;20.69;1853.9;plancher de toit anneau 6
-251;Plafond triangle métal;2051.7;665.0;3000.0;210;17.96;2156.8;plancher de toit anneau 7
-252;Plafond triangle métal;1976.7;794.9;3000.0;30;21.91;2130.6;plancher de toit anneau 7
-253;Plafond triangle métal;1901.7;924.8;3000.0;210;25.93;2114.7;plancher de toit anneau 7
-254;Plafond triangle métal;1826.7;1054.7;3000.0;30;30.0;2109.3;plancher de toit anneau 7
-255;Plafond métal;1584.3;914.7;3000.0;30;30.0;1829.4;plancher de toit anneau 6
-256;Plafond triangle métal;1751.7;1184.6;3000.0;210;34.07;2114.7;plancher de toit anneau 7
-257;Plafond triangle métal;1676.7;1314.5;3000.0;30;38.09;2130.6;plancher de toit anneau 7
-258;Plafond métal;1434.3;1174.5;3000.0;30;39.31;1853.9;plancher de toit anneau 6
-259;Plafond triangle métal;1601.7;1444.4;3000.0;210;42.04;2156.8;plancher de toit anneau 7
-260;Plafond métal;1434.3;1584.3;3000.0;60;47.84;2137.1;plancher de toit anneau 7
-261;Plafond triangle métal;1294.4;1341.9;3000.0;240;46.03;1864.4;plancher de toit anneau 6
-262;Plafond métal;1174.5;1734.3;3000.0;60;55.89;2094.6;plancher de toit anneau 7
-263;Plafond triangle métal;1034.6;1491.9;3000.0;240;55.26;1815.5;plancher de toit anneau 6
-264;Plafond triangle métal;904.7;1566.9;3000.0;60;60.0;1809.3;plancher de toit anneau 6
-265;Plafond métal;914.7;1884.3;3000.0;60;64.11;2094.6;plancher de toit anneau 7
-266;Plafond triangle métal;774.8;1641.9;3000.0;240;64.74;1815.5;plancher de toit anneau 6
-267;Plafond métal;654.9;2034.3;3000.0;60;72.16;2137.1;plancher de toit anneau 7
-268;Plafond triangle métal;515.0;1791.9;3000.0;240;73.97;1864.4;plancher de toit anneau 6
-269;Plafond métal;300.0;1829.4;3000.0;90;80.69;1853.9;plancher de toit anneau 6
-270;Plafond triangle métal;450.0;2109.3;3000.0;270;77.96;2156.8;plancher de toit anneau 7
-271;Plafond triangle métal;300.0;2109.3;3000.0;90;81.91;2130.6;plancher de toit anneau 7
-272;Plafond triangle métal;150.0;2109.3;3000.0;270;85.93;2114.7;plancher de toit anneau 7
-273;Plafond triangle métal;0.0;2109.3;3000.0;90;90.0;2109.3;plancher de toit anneau 7
-274;Plafond métal;0.0;1829.4;3000.0;90;90.0;1829.4;plancher de toit anneau 6
-275;Plafond triangle métal;-150.0;2109.3;3000.0;270;94.07;2114.7;plancher de toit anneau 7
-276;Plafond métal;-654.9;2034.3;3000.0;120;107.84;2137.1;plancher de toit anneau 7
-277;Plafond triangle métal;-515.0;1791.9;3000.0;300;106.03;1864.4;plancher de toit anneau 6
-278;Plafond métal;-300.0;1829.4;3000.0;90;99.31;1853.9;plancher de toit anneau 6
-279;Plafond triangle métal;-450.0;2109.3;3000.0;270;102.04;2156.8;plancher de toit anneau 7
-280;Plafond triangle métal;-300.0;2109.3;3000.0;90;98.09;2130.6;plancher de toit anneau 7
-281;Plafond métal;-914.7;1884.3;3000.0;120;115.89;2094.6;plancher de toit anneau 7
-282;Plafond triangle métal;-774.8;1641.9;3000.0;300;115.26;1815.5;plancher de toit anneau 6
-283;Plafond triangle métal;-904.7;1566.9;3000.0;120;120.0;1809.3;plancher de toit anneau 6
-284;Plafond métal;-1174.5;1734.3;3000.0;120;124.11;2094.6;plancher de toit anneau 7
-285;Plafond triangle métal;-1034.6;1491.9;3000.0;300;124.74;1815.5;plancher de toit anneau 6
-286;Plafond métal;-1434.3;1584.3;3000.0;120;132.16;2137.1;plancher de toit anneau 7
-287;Plafond triangle métal;-1294.4;1341.9;3000.0;300;133.97;1864.4;plancher de toit anneau 6
-288;Plafond triangle métal;-1826.7;1054.7;3000.0;150;150.0;2109.3;plancher de toit anneau 7
-289;Plafond triangle métal;-1601.7;1444.4;3000.0;330;137.96;2156.8;plancher de toit anneau 7
-290;Plafond triangle métal;-1676.7;1314.5;3000.0;150;141.91;2130.6;plancher de toit anneau 7
-291;Plafond triangle métal;-1751.7;1184.6;3000.0;330;145.93;2114.7;plancher de toit anneau 7
-292;Plafond triangle métal;-1901.7;924.8;3000.0;330;154.07;2114.7;plancher de toit anneau 7
-293;Plafond triangle métal;-1826.7;-1054.7;3000.0;210;210.0;2109.3;plancher de toit anneau 7
-294;Plafond triangle métal;-1901.7;-924.8;3000.0;30;205.93;2114.7;plancher de toit anneau 7
-295;Plafond triangle métal;-1751.7;-1184.6;3000.0;30;214.07;2114.7;plancher de toit anneau 7
-296;Plafond triangle métal;-1676.7;-1314.5;3000.0;210;218.09;2130.6;plancher de toit anneau 7
-297;Plafond triangle métal;-1601.7;-1444.4;3000.0;30;222.04;2156.8;plancher de toit anneau 7
-298;Plafond métal;-1434.3;-1584.3;3000.0;240;227.84;2137.1;plancher de toit anneau 7
-299;Plafond triangle métal;-1294.4;-1341.9;3000.0;60;226.03;1864.4;plancher de toit anneau 6
-300;Plafond métal;-1174.5;-1734.3;3000.0;240;235.89;2094.6;plancher de toit anneau 7
-301;Plafond triangle métal;-1034.6;-1491.9;3000.0;60;235.26;1815.5;plancher de toit anneau 6
-302;Plafond triangle métal;-904.7;-1566.9;3000.0;240;240.0;1809.3;plancher de toit anneau 6
-303;Plafond métal;-914.7;-1884.3;3000.0;240;244.11;2094.6;plancher de toit anneau 7
-304;Plafond triangle métal;-774.8;-1641.9;3000.0;60;244.74;1815.5;plancher de toit anneau 6
-305;Plafond métal;-654.9;-2034.3;3000.0;240;252.16;2137.1;plancher de toit anneau 7
-306;Plafond triangle métal;-515.0;-1791.9;3000.0;60;253.97;1864.4;plancher de toit anneau 6
-307;Plafond métal;-300.0;-1829.4;3000.0;270;260.69;1853.9;plancher de toit anneau 6
-308;Plafond triangle métal;-450.0;-2109.3;3000.0;90;257.96;2156.8;plancher de toit anneau 7
-309;Plafond triangle métal;-300.0;-2109.3;3000.0;270;261.91;2130.6;plancher de toit anneau 7
-310;Plafond triangle métal;-150.0;-2109.3;3000.0;90;265.93;2114.7;plancher de toit anneau 7
-311;Plafond triangle métal;-0.0;-2109.3;3000.0;270;270.0;2109.3;plancher de toit anneau 7
-312;Plafond métal;-0.0;-1829.4;3000.0;270;270.0;1829.4;plancher de toit anneau 6
-313;Plafond triangle métal;150.0;-2109.3;3000.0;90;274.07;2114.7;plancher de toit anneau 7
-314;Plafond triangle métal;300.0;-2109.3;3000.0;270;278.09;2130.6;plancher de toit anneau 7
-315;Plafond métal;300.0;-1829.4;3000.0;270;279.31;1853.9;plancher de toit anneau 6
-316;Plafond triangle métal;450.0;-2109.3;3000.0;90;282.04;2156.8;plancher de toit anneau 7
-317;Plafond métal;654.9;-2034.3;3000.0;300;287.84;2137.1;plancher de toit anneau 7
-318;Plafond triangle métal;515.0;-1791.9;3000.0;120;286.03;1864.4;plancher de toit anneau 6
-319;Plafond métal;914.7;-1884.3;3000.0;300;295.89;2094.6;plancher de toit anneau 7
-320;Plafond triangle métal;774.8;-1641.9;3000.0;120;295.26;1815.5;plancher de toit anneau 6
-321;Plafond triangle métal;904.7;-1566.9;3000.0;300;300.0;1809.3;plancher de toit anneau 6
-322;Plafond métal;1174.5;-1734.3;3000.0;300;304.11;2094.6;plancher de toit anneau 7
-323;Plafond triangle métal;1034.6;-1491.9;3000.0;120;304.74;1815.5;plancher de toit anneau 6
-324;Plafond métal;1434.3;-1584.3;3000.0;300;312.16;2137.1;plancher de toit anneau 7
-325;Plafond triangle métal;1294.4;-1341.9;3000.0;120;313.97;1864.4;plancher de toit anneau 6
-326;Plafond métal;1434.3;-1174.5;3000.0;330;320.69;1853.9;plancher de toit anneau 6
-327;Plafond triangle métal;1601.7;-1444.4;3000.0;150;317.96;2156.8;plancher de toit anneau 7
-328;Plafond triangle métal;1676.7;-1314.5;3000.0;330;321.91;2130.6;plancher de toit anneau 7
-329;Plafond triangle métal;1751.7;-1184.6;3000.0;150;325.93;2114.7;plancher de toit anneau 7
-330;Plafond triangle métal;1826.7;-1054.7;3000.0;330;330.0;2109.3;plancher de toit anneau 7
-331;Plafond métal;1584.3;-914.7;3000.0;330;330.0;1829.4;plancher de toit anneau 6
-332;Plafond triangle métal;1901.7;-924.8;3000.0;150;334.07;2114.7;plancher de toit anneau 7
-333;Plafond triangle métal;1976.7;-794.9;3000.0;330;338.09;2130.6;plancher de toit anneau 7
-334;Plafond triangle métal;2051.7;-665.0;3000.0;150;342.04;2156.8;plancher de toit anneau 7
+1;Pilier fin métal (Thin Pillar);-2089.2;859.8;2700.0;150;157.63;2259.2;depart lignes casquette du trou c0 t+0 : pilier fin dans le joint
+2;Pilier fin métal (Thin Pillar);-2089.2;-859.8;2700.0;210;202.37;2259.2;depart lignes casquette du trou c1 t+0 : pilier fin dans le joint
+3;Pilier fin métal (Thin Pillar);2239.2;-600.0;2700.0;0;345.0;2318.2;depart lignes toit c0 t-600 : pilier fin dans le joint
+4;Pilier fin métal (Thin Pillar);2239.2;-300.0;2700.0;0;352.37;2259.2;depart lignes toit c0 t-300 : pilier fin dans le joint
+5;Pilier fin métal (Thin Pillar);2239.2;0.0;2700.0;0;0.0;2239.2;depart lignes toit c0 t-0 : pilier fin dans le joint
+6;Pilier fin métal (Thin Pillar);2239.2;300.0;2700.0;0;7.63;2259.2;depart lignes toit c0 t+300 : pilier fin dans le joint
+7;Pilier fin métal (Thin Pillar);2239.2;600.0;2700.0;0;15.0;2318.2;depart lignes toit c0 t+600 : pilier fin dans le joint
+8;Pilier fin métal (Thin Pillar);2089.2;859.8;2700.0;30;22.37;2259.2;depart lignes toit c1 t-300 : pilier fin dans le joint
+9;Pilier fin métal (Thin Pillar);1939.2;1119.6;2700.0;30;30.0;2239.2;depart lignes toit c1 t-0 : pilier fin dans le joint
+10;Pilier fin métal (Thin Pillar);1789.2;1379.4;2700.0;30;37.63;2259.2;depart lignes toit c1 t+300 : pilier fin dans le joint
+11;Pilier fin métal (Thin Pillar);1639.2;1639.2;2700.0;30;45.0;2318.2;depart lignes toit c1 t+600 : pilier fin dans le joint
+12;Pilier fin métal (Thin Pillar);1379.4;1789.2;2700.0;60;52.37;2259.2;depart lignes toit c2 t-300 : pilier fin dans le joint
+13;Pilier fin métal (Thin Pillar);1119.6;1939.2;2700.0;60;60.0;2239.2;depart lignes toit c2 t-0 : pilier fin dans le joint
+14;Pilier fin métal (Thin Pillar);859.8;2089.2;2700.0;60;67.63;2259.2;depart lignes toit c2 t+300 : pilier fin dans le joint
+15;Pilier fin métal (Thin Pillar);600.0;2239.2;2700.0;60;75.0;2318.2;depart lignes toit c2 t+600 : pilier fin dans le joint
+16;Pilier fin métal (Thin Pillar);300.0;2239.2;2700.0;90;82.37;2259.2;depart lignes toit c3 t-300 : pilier fin dans le joint
+17;Pilier fin métal (Thin Pillar);0.0;2239.2;2700.0;90;90.0;2239.2;depart lignes toit c3 t-0 : pilier fin dans le joint
+18;Pilier fin métal (Thin Pillar);-300.0;2239.2;2700.0;90;97.63;2259.2;depart lignes toit c3 t+300 : pilier fin dans le joint
+19;Pilier fin métal (Thin Pillar);-600.0;2239.2;2700.0;120;105.0;2318.2;depart lignes toit c3 t+600 : pilier fin dans le joint
+20;Pilier fin métal (Thin Pillar);-859.8;2089.2;2700.0;120;112.37;2259.2;depart lignes toit c4 t-300 : pilier fin dans le joint
+21;Pilier fin métal (Thin Pillar);-1119.6;1939.2;2700.0;120;120.0;2239.2;depart lignes toit c4 t-0 : pilier fin dans le joint
+22;Pilier fin métal (Thin Pillar);-1379.4;1789.2;2700.0;120;127.63;2259.2;depart lignes toit c4 t+300 : pilier fin dans le joint
+23;Pilier fin métal (Thin Pillar);-1639.2;1639.2;2700.0;120;135.0;2318.2;depart lignes toit c4 t+600 : pilier fin dans le joint
+24;Pilier fin métal (Thin Pillar);-1789.2;1379.4;2700.0;150;142.37;2259.2;depart lignes toit c5 t-300 : pilier fin dans le joint
+25;Pilier fin métal (Thin Pillar);-1939.2;1119.6;2700.0;150;150.0;2239.2;depart lignes toit c5 t-0 : pilier fin dans le joint
+26;Pilier fin métal (Thin Pillar);-1939.2;-1119.6;2700.0;210;210.0;2239.2;depart lignes toit c7 t-0 : pilier fin dans le joint
+27;Pilier fin métal (Thin Pillar);-1789.2;-1379.4;2700.0;210;217.63;2259.2;depart lignes toit c7 t+300 : pilier fin dans le joint
+28;Pilier fin métal (Thin Pillar);-1379.4;-1789.2;2700.0;240;232.37;2259.2;depart lignes toit c8 t-300 : pilier fin dans le joint
+29;Pilier fin métal (Thin Pillar);-1119.6;-1939.2;2700.0;240;240.0;2239.2;depart lignes toit c8 t-0 : pilier fin dans le joint
+30;Pilier fin métal (Thin Pillar);-859.8;-2089.2;2700.0;240;247.63;2259.2;depart lignes toit c8 t+300 : pilier fin dans le joint
+31;Pilier fin métal (Thin Pillar);-600.0;-2239.2;2700.0;240;255.0;2318.2;depart lignes toit c8 t+600 : pilier fin dans le joint
+32;Pilier fin métal (Thin Pillar);-300.0;-2239.2;2700.0;270;262.37;2259.2;depart lignes toit c9 t-300 : pilier fin dans le joint
+33;Pilier fin métal (Thin Pillar);0.0;-2239.2;2700.0;270;270.0;2239.2;depart lignes toit c9 t-0 : pilier fin dans le joint
+34;Pilier fin métal (Thin Pillar);300.0;-2239.2;2700.0;270;277.63;2259.2;depart lignes toit c9 t+300 : pilier fin dans le joint
+35;Pilier fin métal (Thin Pillar);600.0;-2239.2;2700.0;270;285.0;2318.2;depart lignes toit c9 t+600 : pilier fin dans le joint
+36;Pilier fin métal (Thin Pillar);859.8;-2089.2;2700.0;300;292.37;2259.2;depart lignes toit c10 t-300 : pilier fin dans le joint
+37;Pilier fin métal (Thin Pillar);1119.6;-1939.2;2700.0;300;300.0;2239.2;depart lignes toit c10 t-0 : pilier fin dans le joint
+38;Pilier fin métal (Thin Pillar);1379.4;-1789.2;2700.0;300;307.63;2259.2;depart lignes toit c10 t+300 : pilier fin dans le joint
+39;Pilier fin métal (Thin Pillar);1639.2;-1639.2;2700.0;300;315.0;2318.2;depart lignes toit c10 t+600 : pilier fin dans le joint
+40;Pilier fin métal (Thin Pillar);1789.2;-1379.4;2700.0;330;322.37;2259.2;depart lignes toit c11 t-300 : pilier fin dans le joint
+41;Pilier fin métal (Thin Pillar);1939.2;-1119.6;2700.0;330;330.0;2239.2;depart lignes toit c11 t-0 : pilier fin dans le joint
+42;Pilier fin métal (Thin Pillar);2089.2;-859.8;2700.0;330;337.63;2259.2;depart lignes toit c11 t+300 : pilier fin dans le joint
+43;Mur métal;2239.2;-450.0;2700.0;0;348.64;2284.0;couronne niv9 c0 p0
+44;Mur métal;2239.2;-150.0;2700.0;0;356.17;2244.2;couronne niv9 c0 p1
+45;Mur métal;2239.2;150.0;2700.0;0;3.83;2244.2;couronne niv9 c0 p2
+46;Mur métal;2239.2;450.0;2700.0;0;11.36;2284.0;couronne niv9 c0 p3
+47;Mur métal;2164.2;729.9;2700.0;30;18.64;2284.0;couronne niv9 c1 p0
+48;Mur métal;2014.2;989.7;2700.0;30;26.17;2244.2;couronne niv9 c1 p1
+49;Mur métal;1864.2;1249.5;2700.0;30;33.83;2244.2;couronne niv9 c1 p2
+50;Mur métal;1714.2;1509.3;2700.0;30;41.36;2284.0;couronne niv9 c1 p3
+51;Mur métal;1509.3;1714.2;2700.0;60;48.64;2284.0;couronne niv9 c2 p0
+52;Mur métal;1249.5;1864.2;2700.0;60;56.17;2244.2;couronne niv9 c2 p1
+53;Mur métal;989.7;2014.2;2700.0;60;63.83;2244.2;couronne niv9 c2 p2
+54;Mur métal;729.9;2164.2;2700.0;60;71.36;2284.0;couronne niv9 c2 p3
+55;Mur métal;450.0;2239.2;2700.0;90;78.64;2284.0;couronne niv9 c3 p0
+56;Mur métal;-729.9;2164.2;2700.0;120;108.64;2284.0;couronne niv9 c4 p0
+57;Mur métal;-989.7;2014.2;2700.0;120;116.17;2244.2;couronne niv9 c4 p1
+58;Mur métal;-1249.5;1864.2;2700.0;120;123.83;2244.2;couronne niv9 c4 p2
+59;Mur métal;-1509.3;1714.2;2700.0;120;131.36;2284.0;couronne niv9 c4 p3
+60;Mur métal;-1714.2;1509.3;2700.0;150;138.64;2284.0;couronne niv9 c5 p0
+61;Mur métal;-1864.2;1249.5;2700.0;150;146.17;2244.2;couronne niv9 c5 p1
+62;Mur métal;-2014.2;989.7;2700.0;150;153.83;2244.2;couronne niv9 c5 p2
+63;Mur métal;-2014.2;-989.7;2700.0;210;206.17;2244.2;couronne niv9 c7 p1
+64;Mur métal;-1864.2;-1249.5;2700.0;210;213.83;2244.2;couronne niv9 c7 p2
+65;Mur métal;-1714.2;-1509.3;2700.0;210;221.36;2284.0;couronne niv9 c7 p3
+66;Mur métal;-1509.3;-1714.2;2700.0;240;228.64;2284.0;couronne niv9 c8 p0
+67;Mur métal;-1249.5;-1864.2;2700.0;240;236.17;2244.2;couronne niv9 c8 p1
+68;Mur métal;-989.7;-2014.2;2700.0;240;243.83;2244.2;couronne niv9 c8 p2
+69;Mur métal;-729.9;-2164.2;2700.0;240;251.36;2284.0;couronne niv9 c8 p3
+70;Mur métal;-450.0;-2239.2;2700.0;270;258.64;2284.0;couronne niv9 c9 p0
+71;Mur métal;-150.0;-2239.2;2700.0;270;266.17;2244.2;couronne niv9 c9 p1
+72;Mur métal;150.0;-2239.2;2700.0;270;273.83;2244.2;couronne niv9 c9 p2
+73;Mur métal;450.0;-2239.2;2700.0;270;281.36;2284.0;couronne niv9 c9 p3
+74;Mur métal;729.9;-2164.2;2700.0;300;288.64;2284.0;couronne niv9 c10 p0
+75;Mur métal;989.7;-2014.2;2700.0;300;296.17;2244.2;couronne niv9 c10 p1
+76;Mur métal;1249.5;-1864.2;2700.0;300;303.83;2244.2;couronne niv9 c10 p2
+77;Mur métal;1509.3;-1714.2;2700.0;300;311.36;2284.0;couronne niv9 c10 p3
+78;Mur métal;1714.2;-1509.3;2700.0;330;318.64;2284.0;couronne niv9 c11 p0
+79;Mur métal;1864.2;-1249.5;2700.0;330;326.17;2244.2;couronne niv9 c11 p1
+80;Mur métal;2014.2;-989.7;2700.0;330;333.83;2244.2;couronne niv9 c11 p2
+81;Mur métal;2164.2;-729.9;2700.0;330;341.36;2284.0;couronne niv9 c11 p3
+82;Mur métal;-1659.3;784.8;2700.0;240.0;154.69;1835.6;bord du trou niv9 θ154.7
+83;Mur métal;-1939.2;859.8;2700.0;270.0;156.09;2121.3;bord du trou niv9 θ156.1
+84;Mur métal;-1454.4;579.9;2700.0;210.0;158.26;1565.8;bord du trou niv9 θ158.3
+85;Mur métal;-1249.5;375.0;2700.0;240.0;163.29;1304.6;bord du trou niv9 θ163.3
+86;Mur métal;-1119.6;150.0;2700.0;180.0;172.37;1129.6;bord du trou niv9 θ172.4
+87;Mur métal;-1119.6;-150.0;2700.0;180.0;187.63;1129.6;bord du trou niv9 θ187.6
+88;Mur métal;-1249.5;-375.0;2700.0;120.0;196.71;1304.6;bord du trou niv9 θ196.7
+89;Mur métal;-1454.4;-579.9;2700.0;150.0;201.74;1565.8;bord du trou niv9 θ201.7
+90;Mur métal;-1939.2;-859.8;2700.0;90.0;203.91;2121.3;bord du trou niv9 θ203.9
+91;Mur métal;-1659.3;-784.8;2700.0;120.0;205.31;1835.6;bord du trou niv9 θ205.3
+92;Pilier métal;1119.6;300.0;2700.0;0;15.0;1159.1;pilier PA0 (couronne)
+93;Pilier métal;819.6;819.6;2700.0;0;45.0;1159.1;pilier PA1 (couronne)
+94;Pilier métal;300.0;1119.6;2700.0;0;75.0;1159.1;pilier PA2 (couronne)
+95;Pilier métal;-300.0;1119.6;2700.0;0;105.0;1159.1;pilier PA3 (couronne)
+96;Pilier métal;-819.6;819.6;2700.0;0;135.0;1159.1;pilier PA4 (couronne)
+97;Pilier métal;-1119.6;300.0;2700.0;0;165.0;1159.1;pilier PA5 (couronne)
+98;Pilier métal;-1119.6;-300.0;2700.0;0;195.0;1159.1;pilier PA6 (couronne)
+99;Pilier métal;-819.6;-819.6;2700.0;0;225.0;1159.1;pilier PA7 (couronne)
+100;Pilier métal;-300.0;-1119.6;2700.0;0;255.0;1159.1;pilier PA8 (couronne)
+101;Pilier métal;300.0;-1119.6;2700.0;0;285.0;1159.1;pilier PA9 (couronne)
+102;Pilier métal;819.6;-819.6;2700.0;0;315.0;1159.1;pilier PA10 (couronne)
+103;Pilier métal;1119.6;-300.0;2700.0;0;345.0;1159.1;pilier PA11 (couronne)
+104;Pilier métal;559.8;150.0;2700.0;0;15.0;579.6;pilier PB0 (couronne)
+105;Pilier métal;409.8;409.8;2700.0;0;45.0;579.6;pilier PB1 (couronne)
+106;Pilier métal;150.0;559.8;2700.0;0;75.0;579.6;pilier PB2 (couronne)
+107;Pilier métal;-150.0;559.8;2700.0;0;105.0;579.6;pilier PB3 (couronne)
+108;Pilier métal;-409.8;409.8;2700.0;0;135.0;579.6;pilier PB4 (couronne)
+109;Pilier métal;-559.8;150.0;2700.0;0;165.0;579.6;pilier PB5 (couronne)
+110;Pilier métal;-559.8;-150.0;2700.0;0;195.0;579.6;pilier PB6 (couronne)
+111;Pilier métal;-409.8;-409.8;2700.0;0;225.0;579.6;pilier PB7 (couronne)
+112;Pilier métal;-150.0;-559.8;2700.0;0;255.0;579.6;pilier PB8 (couronne)
+113;Pilier métal;150.0;-559.8;2700.0;0;285.0;579.6;pilier PB9 (couronne)
+114;Pilier métal;409.8;-409.8;2700.0;0;315.0;579.6;pilier PB10 (couronne)
+115;Pilier métal;559.8;-150.0;2700.0;0;345.0;579.6;pilier PB11 (couronne)
+116;Plafond à trappe métal;409.8;0.0;3000.0;0;0.0;409.8;plancher de toit anneau 1
+117;Plafond triangle métal;129.9;0.0;3000.0;180;0.0;129.9;plancher de toit anneau 0
+118;Plafond triangle métal;372.3;215.0;3000.0;210;30.0;429.9;plancher de toit anneau 1
+119;Plafond métal;204.9;354.9;3000.0;60;60.0;409.8;plancher de toit anneau 1
+120;Plafond triangle métal;65.0;112.5;3000.0;240;60.0;129.9;plancher de toit anneau 0
+121;Plafond triangle métal;0.0;429.9;3000.0;270;90.0;429.9;plancher de toit anneau 1
+122;Plafond métal;-204.9;354.9;3000.0;120;120.0;409.8;plancher de toit anneau 1
+123;Plafond triangle métal;-65.0;112.5;3000.0;300;120.0;129.9;plancher de toit anneau 0
+124;Plafond triangle métal;-372.3;215.0;3000.0;330;150.0;429.9;plancher de toit anneau 1
+125;Plafond métal;-409.8;0.0;3000.0;180;180.0;409.8;plancher de toit anneau 1
+126;Plafond triangle métal;-129.9;0.0;3000.0;0;180.0;129.9;plancher de toit anneau 0
+127;Plafond triangle métal;-372.3;-215.0;3000.0;30;210.0;429.9;plancher de toit anneau 1
+128;Plafond métal;-204.9;-354.9;3000.0;240;240.0;409.8;plancher de toit anneau 1
+129;Plafond triangle métal;-65.0;-112.5;3000.0;60;240.0;129.9;plancher de toit anneau 0
+130;Plafond triangle métal;-0.0;-429.9;3000.0;90;270.0;429.9;plancher de toit anneau 1
+131;Plafond métal;204.9;-354.9;3000.0;300;300.0;409.8;plancher de toit anneau 1
+132;Plafond triangle métal;65.0;-112.5;3000.0;120;300.0;129.9;plancher de toit anneau 0
+133;Plafond triangle métal;372.3;-215.0;3000.0;150;330.0;429.9;plancher de toit anneau 1
+134;Plafond triangle métal;689.7;0.0;3000.0;0;0.0;689.7;plancher de toit anneau 2
+135;Plafond triangle métal;689.7;-150.0;3000.0;180;347.73;705.8;plancher de toit anneau 2
+136;Plafond triangle métal;689.7;150.0;3000.0;180;12.27;705.8;plancher de toit anneau 2
+137;Plafond métal;614.7;354.9;3000.0;30;30.0;709.8;plancher de toit anneau 2
+138;Plafond triangle métal;344.9;597.3;3000.0;60;60.0;689.7;plancher de toit anneau 2
+139;Plafond triangle métal;474.8;522.3;3000.0;240;47.73;705.8;plancher de toit anneau 2
+140;Plafond triangle métal;215.0;672.3;3000.0;240;72.27;705.8;plancher de toit anneau 2
+141;Plafond métal;0.0;709.8;3000.0;90;90.0;709.8;plancher de toit anneau 2
+142;Plafond triangle métal;-344.9;597.3;3000.0;120;120.0;689.7;plancher de toit anneau 2
+143;Plafond triangle métal;-215.0;672.3;3000.0;300;107.73;705.8;plancher de toit anneau 2
+144;Plafond triangle métal;-474.8;522.3;3000.0;300;132.27;705.8;plancher de toit anneau 2
+145;Plafond métal;-614.7;354.9;3000.0;150;150.0;709.8;plancher de toit anneau 2
+146;Plafond triangle métal;-689.7;0.0;3000.0;180;180.0;689.7;plancher de toit anneau 2
+147;Plafond triangle métal;-689.7;150.0;3000.0;0;167.73;705.8;plancher de toit anneau 2
+148;Plafond triangle métal;-689.7;-150.0;3000.0;0;192.27;705.8;plancher de toit anneau 2
+149;Plafond métal;-614.7;-354.9;3000.0;210;210.0;709.8;plancher de toit anneau 2
+150;Plafond triangle métal;-344.9;-597.3;3000.0;240;240.0;689.7;plancher de toit anneau 2
+151;Plafond triangle métal;-474.8;-522.3;3000.0;60;227.73;705.8;plancher de toit anneau 2
+152;Plafond triangle métal;-215.0;-672.3;3000.0;60;252.27;705.8;plancher de toit anneau 2
+153;Plafond métal;-0.0;-709.8;3000.0;270;270.0;709.8;plancher de toit anneau 2
+154;Plafond triangle métal;344.9;-597.3;3000.0;300;300.0;689.7;plancher de toit anneau 2
+155;Plafond triangle métal;215.0;-672.3;3000.0;120;287.73;705.8;plancher de toit anneau 2
+156;Plafond triangle métal;474.8;-522.3;3000.0;120;312.27;705.8;plancher de toit anneau 2
+157;Plafond métal;614.7;-354.9;3000.0;330;330.0;709.8;plancher de toit anneau 2
+158;Plafond métal;969.6;-150.0;3000.0;0;351.21;981.1;plancher de toit anneau 3
+159;Plafond métal;969.6;150.0;3000.0;0;8.79;981.1;plancher de toit anneau 3
+160;Plafond triangle métal;857.1;494.9;3000.0;30;30.0;989.7;plancher de toit anneau 3
+161;Plafond triangle métal;932.1;365.0;3000.0;210;21.38;1001.0;plancher de toit anneau 3
+162;Plafond triangle métal;782.1;624.8;3000.0;210;38.62;1001.0;plancher de toit anneau 3
+163;Plafond métal;614.7;764.7;3000.0;60;51.21;981.1;plancher de toit anneau 3
+164;Plafond métal;354.9;914.7;3000.0;60;68.79;981.1;plancher de toit anneau 3
+165;Plafond triangle métal;0.0;989.7;3000.0;90;90.0;989.7;plancher de toit anneau 3
+166;Plafond triangle métal;150.0;989.7;3000.0;270;81.38;1001.0;plancher de toit anneau 3
+167;Plafond triangle métal;-150.0;989.7;3000.0;270;98.62;1001.0;plancher de toit anneau 3
+168;Plafond métal;-354.9;914.7;3000.0;120;111.21;981.1;plancher de toit anneau 3
+169;Plafond métal;-614.7;764.7;3000.0;120;128.79;981.1;plancher de toit anneau 3
+170;Plafond triangle métal;-857.1;494.9;3000.0;150;150.0;989.7;plancher de toit anneau 3
+171;Plafond triangle métal;-782.1;624.8;3000.0;330;141.38;1001.0;plancher de toit anneau 3
+172;Plafond triangle métal;-932.1;365.0;3000.0;330;158.62;1001.0;plancher de toit anneau 3
+173;Plafond métal;-969.6;150.0;3000.0;180;171.21;981.1;plancher de toit anneau 3
+174;Plafond métal;-969.6;-150.0;3000.0;180;188.79;981.1;plancher de toit anneau 3
+175;Plafond triangle métal;-857.1;-494.9;3000.0;210;210.0;989.7;plancher de toit anneau 3
+176;Plafond triangle métal;-932.1;-365.0;3000.0;30;201.38;1001.0;plancher de toit anneau 3
+177;Plafond triangle métal;-782.1;-624.8;3000.0;30;218.62;1001.0;plancher de toit anneau 3
+178;Plafond métal;-614.7;-764.7;3000.0;240;231.21;981.1;plancher de toit anneau 3
+179;Plafond métal;-354.9;-914.7;3000.0;240;248.79;981.1;plancher de toit anneau 3
+180;Plafond triangle métal;-0.0;-989.7;3000.0;270;270.0;989.7;plancher de toit anneau 3
+181;Plafond triangle métal;-150.0;-989.7;3000.0;90;261.38;1001.0;plancher de toit anneau 3
+182;Plafond triangle métal;150.0;-989.7;3000.0;90;278.62;1001.0;plancher de toit anneau 3
+183;Plafond métal;354.9;-914.7;3000.0;300;291.21;981.1;plancher de toit anneau 3
+184;Plafond métal;614.7;-764.7;3000.0;300;308.79;981.1;plancher de toit anneau 3
+185;Plafond triangle métal;857.1;-494.9;3000.0;330;330.0;989.7;plancher de toit anneau 3
+186;Plafond triangle métal;782.1;-624.8;3000.0;150;321.38;1001.0;plancher de toit anneau 3
+187;Plafond triangle métal;932.1;-365.0;3000.0;150;338.62;1001.0;plancher de toit anneau 3
+188;Plafond triangle métal;1249.5;-150.0;3000.0;0;353.15;1258.5;plancher de toit anneau 4
+189;Plafond triangle métal;1249.5;150.0;3000.0;0;6.85;1258.5;plancher de toit anneau 4
+190;Plafond triangle métal;1249.5;-300.0;3000.0;180;346.5;1285.0;plancher de toit anneau 4
+191;Plafond triangle métal;1249.5;0.0;3000.0;180;0.0;1249.5;plancher de toit anneau 4
+192;Plafond triangle métal;1249.5;300.0;3000.0;180;13.5;1285.0;plancher de toit anneau 4
+193;Plafond métal;1174.5;504.9;3000.0;30;23.26;1278.4;plancher de toit anneau 4
+194;Plafond métal;1024.5;764.7;3000.0;30;36.74;1278.4;plancher de toit anneau 4
+195;Plafond triangle métal;754.7;1007.1;3000.0;60;53.15;1258.5;plancher de toit anneau 4
+196;Plafond triangle métal;494.9;1157.1;3000.0;60;66.85;1258.5;plancher de toit anneau 4
+197;Plafond triangle métal;884.6;932.1;3000.0;240;46.5;1285.0;plancher de toit anneau 4
+198;Plafond triangle métal;624.8;1082.1;3000.0;240;60.0;1249.5;plancher de toit anneau 4
+199;Plafond triangle métal;365.0;1232.1;3000.0;240;73.5;1285.0;plancher de toit anneau 4
+200;Plafond métal;150.0;1269.6;3000.0;90;83.26;1278.4;plancher de toit anneau 4
+201;Plafond métal;-150.0;1269.6;3000.0;90;96.74;1278.4;plancher de toit anneau 4
+202;Plafond triangle métal;-494.9;1157.1;3000.0;120;113.15;1258.5;plancher de toit anneau 4
+203;Plafond triangle métal;-754.7;1007.1;3000.0;120;126.85;1258.5;plancher de toit anneau 4
+204;Plafond triangle métal;-365.0;1232.1;3000.0;300;106.5;1285.0;plancher de toit anneau 4
+205;Plafond triangle métal;-624.8;1082.1;3000.0;300;120.0;1249.5;plancher de toit anneau 4
+206;Plafond triangle métal;-884.6;932.1;3000.0;300;133.5;1285.0;plancher de toit anneau 4
+207;Plafond métal;-1024.5;764.7;3000.0;150;143.26;1278.4;plancher de toit anneau 4
+208;Plafond métal;-1174.5;504.9;3000.0;150;156.74;1278.4;plancher de toit anneau 4
+209;Plafond métal;-1174.5;-504.9;3000.0;210;203.26;1278.4;plancher de toit anneau 4
+210;Plafond métal;-1024.5;-764.7;3000.0;210;216.74;1278.4;plancher de toit anneau 4
+211;Plafond triangle métal;-754.7;-1007.1;3000.0;240;233.15;1258.5;plancher de toit anneau 4
+212;Plafond triangle métal;-494.9;-1157.1;3000.0;240;246.85;1258.5;plancher de toit anneau 4
+213;Plafond triangle métal;-884.6;-932.1;3000.0;60;226.5;1285.0;plancher de toit anneau 4
+214;Plafond triangle métal;-624.8;-1082.1;3000.0;60;240.0;1249.5;plancher de toit anneau 4
+215;Plafond triangle métal;-365.0;-1232.1;3000.0;60;253.5;1285.0;plancher de toit anneau 4
+216;Plafond métal;-150.0;-1269.6;3000.0;270;263.26;1278.4;plancher de toit anneau 4
+217;Plafond métal;150.0;-1269.6;3000.0;270;276.74;1278.4;plancher de toit anneau 4
+218;Plafond triangle métal;494.9;-1157.1;3000.0;300;293.15;1258.5;plancher de toit anneau 4
+219;Plafond triangle métal;754.7;-1007.1;3000.0;300;306.85;1258.5;plancher de toit anneau 4
+220;Plafond triangle métal;365.0;-1232.1;3000.0;120;286.5;1285.0;plancher de toit anneau 4
+221;Plafond triangle métal;624.8;-1082.1;3000.0;120;300.0;1249.5;plancher de toit anneau 4
+222;Plafond triangle métal;884.6;-932.1;3000.0;120;313.5;1285.0;plancher de toit anneau 4
+223;Plafond métal;1024.5;-764.7;3000.0;330;323.26;1278.4;plancher de toit anneau 4
+224;Plafond métal;1174.5;-504.9;3000.0;330;336.74;1278.4;plancher de toit anneau 4
+225;Plafond métal;1529.4;-300.0;3000.0;0;348.9;1558.6;plancher de toit anneau 5
+226;Plafond métal;1529.4;0.0;3000.0;0;0.0;1529.4;plancher de toit anneau 5
+227;Plafond métal;1529.4;300.0;3000.0;0;11.1;1558.6;plancher de toit anneau 5
+228;Plafond triangle métal;1416.9;644.9;3000.0;30;24.47;1556.8;plancher de toit anneau 5
+229;Plafond triangle métal;1266.9;904.7;3000.0;30;35.53;1556.8;plancher de toit anneau 5
+230;Plafond triangle métal;1491.9;515.0;3000.0;210;19.04;1578.3;plancher de toit anneau 5
+231;Plafond triangle métal;1341.9;774.8;3000.0;210;30.0;1549.5;plancher de toit anneau 5
+232;Plafond triangle métal;1191.9;1034.6;3000.0;210;40.96;1578.3;plancher de toit anneau 5
+233;Plafond métal;1024.5;1174.5;3000.0;60;48.9;1558.6;plancher de toit anneau 5
+234;Plafond métal;764.7;1324.5;3000.0;60;60.0;1529.4;plancher de toit anneau 5
+235;Plafond métal;504.9;1474.5;3000.0;60;71.1;1558.6;plancher de toit anneau 5
+236;Plafond triangle métal;150.0;1549.5;3000.0;90;84.47;1556.8;plancher de toit anneau 5
+237;Plafond triangle métal;-150.0;1549.5;3000.0;90;95.53;1556.8;plancher de toit anneau 5
+238;Plafond triangle métal;300.0;1549.5;3000.0;270;79.04;1578.3;plancher de toit anneau 5
+239;Plafond triangle métal;0.0;1549.5;3000.0;270;90.0;1549.5;plancher de toit anneau 5
+240;Plafond triangle métal;-300.0;1549.5;3000.0;270;100.96;1578.3;plancher de toit anneau 5
+241;Plafond métal;-504.9;1474.5;3000.0;120;108.9;1558.6;plancher de toit anneau 5
+242;Plafond métal;-764.7;1324.5;3000.0;120;120.0;1529.4;plancher de toit anneau 5
+243;Plafond métal;-1024.5;1174.5;3000.0;120;131.1;1558.6;plancher de toit anneau 5
+244;Plafond triangle métal;-1266.9;904.7;3000.0;150;144.47;1556.8;plancher de toit anneau 5
+245;Plafond triangle métal;-1416.9;644.9;3000.0;150;155.53;1556.8;plancher de toit anneau 5
+246;Plafond triangle métal;-1191.9;1034.6;3000.0;330;139.04;1578.3;plancher de toit anneau 5
+247;Plafond triangle métal;-1341.9;774.8;3000.0;330;150.0;1549.5;plancher de toit anneau 5
+248;Plafond triangle métal;-1416.9;-644.9;3000.0;210;204.47;1556.8;plancher de toit anneau 5
+249;Plafond triangle métal;-1266.9;-904.7;3000.0;210;215.53;1556.8;plancher de toit anneau 5
+250;Plafond triangle métal;-1341.9;-774.8;3000.0;30;210.0;1549.5;plancher de toit anneau 5
+251;Plafond triangle métal;-1191.9;-1034.6;3000.0;30;220.96;1578.3;plancher de toit anneau 5
+252;Plafond métal;-1024.5;-1174.5;3000.0;240;228.9;1558.6;plancher de toit anneau 5
+253;Plafond métal;-764.7;-1324.5;3000.0;240;240.0;1529.4;plancher de toit anneau 5
+254;Plafond métal;-504.9;-1474.5;3000.0;240;251.1;1558.6;plancher de toit anneau 5
+255;Plafond triangle métal;-150.0;-1549.5;3000.0;270;264.47;1556.8;plancher de toit anneau 5
+256;Plafond triangle métal;150.0;-1549.5;3000.0;270;275.53;1556.8;plancher de toit anneau 5
+257;Plafond triangle métal;-300.0;-1549.5;3000.0;90;259.04;1578.3;plancher de toit anneau 5
+258;Plafond triangle métal;-0.0;-1549.5;3000.0;90;270.0;1549.5;plancher de toit anneau 5
+259;Plafond triangle métal;300.0;-1549.5;3000.0;90;280.96;1578.3;plancher de toit anneau 5
+260;Plafond métal;504.9;-1474.5;3000.0;300;288.9;1558.6;plancher de toit anneau 5
+261;Plafond métal;764.7;-1324.5;3000.0;300;300.0;1529.4;plancher de toit anneau 5
+262;Plafond métal;1024.5;-1174.5;3000.0;300;311.1;1558.6;plancher de toit anneau 5
+263;Plafond triangle métal;1266.9;-904.7;3000.0;330;324.47;1556.8;plancher de toit anneau 5
+264;Plafond triangle métal;1416.9;-644.9;3000.0;330;335.53;1556.8;plancher de toit anneau 5
+265;Plafond triangle métal;1191.9;-1034.6;3000.0;150;319.04;1578.3;plancher de toit anneau 5
+266;Plafond triangle métal;1341.9;-774.8;3000.0;150;330.0;1549.5;plancher de toit anneau 5
+267;Plafond triangle métal;1491.9;-515.0;3000.0;150;340.96;1578.3;plancher de toit anneau 5
+268;Plafond triangle métal;1809.3;-300.0;3000.0;0;350.59;1834.0;plancher de toit anneau 6
+269;Plafond triangle métal;1809.3;300.0;3000.0;0;9.41;1834.0;plancher de toit anneau 6
+270;Plafond triangle métal;1164.5;1416.9;3000.0;60;50.59;1834.0;plancher de toit anneau 6
+271;Plafond triangle métal;644.9;1716.9;3000.0;60;69.41;1834.0;plancher de toit anneau 6
+272;Plafond triangle métal;-644.9;1716.9;3000.0;120;110.59;1834.0;plancher de toit anneau 6
+273;Plafond triangle métal;-1164.5;1416.9;3000.0;120;129.41;1834.0;plancher de toit anneau 6
+274;Plafond métal;-1584.3;914.7;3000.0;150;150.0;1829.4;plancher de toit anneau 6
+275;Plafond métal;-1434.3;1174.5;3000.0;150;140.69;1853.9;plancher de toit anneau 6
+276;Plafond métal;-1584.3;-914.7;3000.0;210;210.0;1829.4;plancher de toit anneau 6
+277;Plafond métal;-1434.3;-1174.5;3000.0;210;219.31;1853.9;plancher de toit anneau 6
+278;Plafond triangle métal;-1164.5;-1416.9;3000.0;240;230.59;1834.0;plancher de toit anneau 6
+279;Plafond triangle métal;-644.9;-1716.9;3000.0;240;249.41;1834.0;plancher de toit anneau 6
+280;Plafond triangle métal;644.9;-1716.9;3000.0;300;290.59;1834.0;plancher de toit anneau 6
+281;Plafond triangle métal;1164.5;-1416.9;3000.0;300;309.41;1834.0;plancher de toit anneau 6
+282;Plafond métal;2089.2;-450.0;3000.0;0;347.84;2137.1;plancher de toit anneau 7
+283;Plafond triangle métal;1809.3;-450.0;3000.0;180;346.03;1864.4;plancher de toit anneau 6
+284;Plafond métal;2089.2;-150.0;3000.0;0;355.89;2094.6;plancher de toit anneau 7
+285;Plafond triangle métal;1809.3;-150.0;3000.0;180;355.26;1815.5;plancher de toit anneau 6
+286;Plafond triangle métal;1809.3;0.0;3000.0;0;0.0;1809.3;plancher de toit anneau 6
+287;Plafond métal;2089.2;150.0;3000.0;0;4.11;2094.6;plancher de toit anneau 7
+288;Plafond triangle métal;1809.3;150.0;3000.0;180;4.74;1815.5;plancher de toit anneau 6
+289;Plafond métal;2089.2;450.0;3000.0;0;12.16;2137.1;plancher de toit anneau 7
+290;Plafond triangle métal;1809.3;450.0;3000.0;180;13.97;1864.4;plancher de toit anneau 6
+291;Plafond triangle métal;1976.7;794.9;3000.0;30;21.91;2130.6;plancher de toit anneau 7
+292;Plafond métal;1734.3;654.9;3000.0;30;20.69;1853.9;plancher de toit anneau 6
+293;Plafond triangle métal;1826.7;1054.7;3000.0;30;30.0;2109.3;plancher de toit anneau 7
+294;Plafond métal;1584.3;914.7;3000.0;30;30.0;1829.4;plancher de toit anneau 6
+295;Plafond triangle métal;1676.7;1314.5;3000.0;30;38.09;2130.6;plancher de toit anneau 7
+296;Plafond métal;1434.3;1174.5;3000.0;30;39.31;1853.9;plancher de toit anneau 6
+297;Plafond triangle métal;2051.7;665.0;3000.0;210;17.96;2156.8;plancher de toit anneau 7
+298;Plafond triangle métal;1901.7;924.8;3000.0;210;25.93;2114.7;plancher de toit anneau 7
+299;Plafond triangle métal;1751.7;1184.6;3000.0;210;34.07;2114.7;plancher de toit anneau 7
+300;Plafond triangle métal;1601.7;1444.4;3000.0;210;42.04;2156.8;plancher de toit anneau 7
+301;Plafond métal;1434.3;1584.3;3000.0;60;47.84;2137.1;plancher de toit anneau 7
+302;Plafond triangle métal;1294.4;1341.9;3000.0;240;46.03;1864.4;plancher de toit anneau 6
+303;Plafond métal;1174.5;1734.3;3000.0;60;55.89;2094.6;plancher de toit anneau 7
+304;Plafond triangle métal;1034.6;1491.9;3000.0;240;55.26;1815.5;plancher de toit anneau 6
+305;Plafond triangle métal;904.7;1566.9;3000.0;60;60.0;1809.3;plancher de toit anneau 6
+306;Plafond métal;914.7;1884.3;3000.0;60;64.11;2094.6;plancher de toit anneau 7
+307;Plafond triangle métal;774.8;1641.9;3000.0;240;64.74;1815.5;plancher de toit anneau 6
+308;Plafond métal;654.9;2034.3;3000.0;60;72.16;2137.1;plancher de toit anneau 7
+309;Plafond triangle métal;515.0;1791.9;3000.0;240;73.97;1864.4;plancher de toit anneau 6
+310;Plafond triangle métal;300.0;2109.3;3000.0;90;81.91;2130.6;plancher de toit anneau 7
+311;Plafond métal;300.0;1829.4;3000.0;90;80.69;1853.9;plancher de toit anneau 6
+312;Plafond triangle métal;0.0;2109.3;3000.0;90;90.0;2109.3;plancher de toit anneau 7
+313;Plafond métal;0.0;1829.4;3000.0;90;90.0;1829.4;plancher de toit anneau 6
+314;Plafond triangle métal;-300.0;2109.3;3000.0;90;98.09;2130.6;plancher de toit anneau 7
+315;Plafond métal;-300.0;1829.4;3000.0;90;99.31;1853.9;plancher de toit anneau 6
+316;Plafond triangle métal;450.0;2109.3;3000.0;270;77.96;2156.8;plancher de toit anneau 7
+317;Plafond triangle métal;150.0;2109.3;3000.0;270;85.93;2114.7;plancher de toit anneau 7
+318;Plafond triangle métal;-150.0;2109.3;3000.0;270;94.07;2114.7;plancher de toit anneau 7
+319;Plafond triangle métal;-450.0;2109.3;3000.0;270;102.04;2156.8;plancher de toit anneau 7
+320;Plafond métal;-654.9;2034.3;3000.0;120;107.84;2137.1;plancher de toit anneau 7
+321;Plafond triangle métal;-515.0;1791.9;3000.0;300;106.03;1864.4;plancher de toit anneau 6
+322;Plafond métal;-914.7;1884.3;3000.0;120;115.89;2094.6;plancher de toit anneau 7
+323;Plafond triangle métal;-774.8;1641.9;3000.0;300;115.26;1815.5;plancher de toit anneau 6
+324;Plafond triangle métal;-904.7;1566.9;3000.0;120;120.0;1809.3;plancher de toit anneau 6
+325;Plafond métal;-1174.5;1734.3;3000.0;120;124.11;2094.6;plancher de toit anneau 7
+326;Plafond triangle métal;-1034.6;1491.9;3000.0;300;124.74;1815.5;plancher de toit anneau 6
+327;Plafond métal;-1434.3;1584.3;3000.0;120;132.16;2137.1;plancher de toit anneau 7
+328;Plafond triangle métal;-1294.4;1341.9;3000.0;300;133.97;1864.4;plancher de toit anneau 6
+329;Plafond triangle métal;-1676.7;1314.5;3000.0;150;141.91;2130.6;plancher de toit anneau 7
+330;Plafond triangle métal;-1826.7;1054.7;3000.0;150;150.0;2109.3;plancher de toit anneau 7
+331;Plafond triangle métal;-1601.7;1444.4;3000.0;330;137.96;2156.8;plancher de toit anneau 7
+332;Plafond triangle métal;-1751.7;1184.6;3000.0;330;145.93;2114.7;plancher de toit anneau 7
+333;Plafond triangle métal;-1901.7;924.8;3000.0;330;154.07;2114.7;plancher de toit anneau 7
+334;Plafond triangle métal;-1826.7;-1054.7;3000.0;210;210.0;2109.3;plancher de toit anneau 7
+335;Plafond triangle métal;-1676.7;-1314.5;3000.0;210;218.09;2130.6;plancher de toit anneau 7
+336;Plafond triangle métal;-1901.7;-924.8;3000.0;30;205.93;2114.7;plancher de toit anneau 7
+337;Plafond triangle métal;-1751.7;-1184.6;3000.0;30;214.07;2114.7;plancher de toit anneau 7
+338;Plafond triangle métal;-1601.7;-1444.4;3000.0;30;222.04;2156.8;plancher de toit anneau 7
+339;Plafond métal;-1434.3;-1584.3;3000.0;240;227.84;2137.1;plancher de toit anneau 7
+340;Plafond triangle métal;-1294.4;-1341.9;3000.0;60;226.03;1864.4;plancher de toit anneau 6
+341;Plafond métal;-1174.5;-1734.3;3000.0;240;235.89;2094.6;plancher de toit anneau 7
+342;Plafond triangle métal;-1034.6;-1491.9;3000.0;60;235.26;1815.5;plancher de toit anneau 6
+343;Plafond triangle métal;-904.7;-1566.9;3000.0;240;240.0;1809.3;plancher de toit anneau 6
+344;Plafond métal;-914.7;-1884.3;3000.0;240;244.11;2094.6;plancher de toit anneau 7
+345;Plafond triangle métal;-774.8;-1641.9;3000.0;60;244.74;1815.5;plancher de toit anneau 6
+346;Plafond métal;-654.9;-2034.3;3000.0;240;252.16;2137.1;plancher de toit anneau 7
+347;Plafond triangle métal;-515.0;-1791.9;3000.0;60;253.97;1864.4;plancher de toit anneau 6
+348;Plafond triangle métal;-300.0;-2109.3;3000.0;270;261.91;2130.6;plancher de toit anneau 7
+349;Plafond métal;-300.0;-1829.4;3000.0;270;260.69;1853.9;plancher de toit anneau 6
+350;Plafond triangle métal;-0.0;-2109.3;3000.0;270;270.0;2109.3;plancher de toit anneau 7
+351;Plafond métal;-0.0;-1829.4;3000.0;270;270.0;1829.4;plancher de toit anneau 6
+352;Plafond triangle métal;300.0;-2109.3;3000.0;270;278.09;2130.6;plancher de toit anneau 7
+353;Plafond métal;300.0;-1829.4;3000.0;270;279.31;1853.9;plancher de toit anneau 6
+354;Plafond triangle métal;-450.0;-2109.3;3000.0;90;257.96;2156.8;plancher de toit anneau 7
+355;Plafond triangle métal;-150.0;-2109.3;3000.0;90;265.93;2114.7;plancher de toit anneau 7
+356;Plafond triangle métal;150.0;-2109.3;3000.0;90;274.07;2114.7;plancher de toit anneau 7
+357;Plafond triangle métal;450.0;-2109.3;3000.0;90;282.04;2156.8;plancher de toit anneau 7
+358;Plafond métal;654.9;-2034.3;3000.0;300;287.84;2137.1;plancher de toit anneau 7
+359;Plafond triangle métal;515.0;-1791.9;3000.0;120;286.03;1864.4;plancher de toit anneau 6
+360;Plafond métal;914.7;-1884.3;3000.0;300;295.89;2094.6;plancher de toit anneau 7
+361;Plafond triangle métal;774.8;-1641.9;3000.0;120;295.26;1815.5;plancher de toit anneau 6
+362;Plafond triangle métal;904.7;-1566.9;3000.0;300;300.0;1809.3;plancher de toit anneau 6
+363;Plafond métal;1174.5;-1734.3;3000.0;300;304.11;2094.6;plancher de toit anneau 7
+364;Plafond triangle métal;1034.6;-1491.9;3000.0;120;304.74;1815.5;plancher de toit anneau 6
+365;Plafond métal;1434.3;-1584.3;3000.0;300;312.16;2137.1;plancher de toit anneau 7
+366;Plafond triangle métal;1294.4;-1341.9;3000.0;120;313.97;1864.4;plancher de toit anneau 6
+367;Plafond triangle métal;1676.7;-1314.5;3000.0;330;321.91;2130.6;plancher de toit anneau 7
+368;Plafond métal;1434.3;-1174.5;3000.0;330;320.69;1853.9;plancher de toit anneau 6
+369;Plafond triangle métal;1826.7;-1054.7;3000.0;330;330.0;2109.3;plancher de toit anneau 7
+370;Plafond métal;1584.3;-914.7;3000.0;330;330.0;1829.4;plancher de toit anneau 6
+371;Plafond triangle métal;1976.7;-794.9;3000.0;330;338.09;2130.6;plancher de toit anneau 7
+372;Plafond métal;1734.3;-654.9;3000.0;330;339.31;1853.9;plancher de toit anneau 6
+373;Plafond triangle métal;1601.7;-1444.4;3000.0;150;317.96;2156.8;plancher de toit anneau 7
+374;Plafond triangle métal;1751.7;-1184.6;3000.0;150;325.93;2114.7;plancher de toit anneau 7
+375;Plafond triangle métal;1901.7;-924.8;3000.0;150;334.07;2114.7;plancher de toit anneau 7
+376;Plafond triangle métal;2051.7;-665.0;3000.0;150;342.04;2156.8;plancher de toit anneau 7

@@ -1,0 +1,51 @@
+entree;variante;piece;repere
+0;V0;Fondation métal;fondation
+1;V0;Fondation métal;fondation
+2;V0;Fondation métal;fondation
+3;V0;Fondation métal;fondation
+4;V0;Cadre de porte double métal;cadre niveau 0
+5;V0;Cadre de porte double métal;cadre niveau 0
+6;V0;Pilier fin métal (Thin Pillar);pilier fin dans le joint, niveau 1 (avant les cadres)
+7;V0;Cadre de porte double métal;cadre niveau 1
+8;V0;Cadre de porte double métal;cadre niveau 1
+9;V0;Pilier fin couché métal (Flat Thin Pillar);poutre fine sous la 1re lame (tour 1809)
+10;V0;Rampe inclinée métal (Sloped Railing);lame pendue vers l exterieur
+11;V0;Rampe inclinée métal (Sloped Railing);lame r0 (depart du joint)
+12;V0;Rampe inclinée métal (Sloped Railing);lame r1
+13;V1;Fondation métal;fondation
+14;V1;Fondation métal;fondation
+15;V1;Fondation métal;fondation
+16;V1;Fondation métal;fondation
+17;V1;Cadre de porte double métal;cadre niveau 0
+18;V1;Cadre de porte double métal;cadre niveau 0
+19;V1;Pilier fin métal (Thin Pillar);pilier fin dans le joint, niveau 1 (avant les cadres)
+20;V1;Cadre de porte double métal;cadre niveau 1
+21;V1;Cadre de porte double métal;cadre niveau 1
+22;V1;Pilier fin métal (Thin Pillar);poteau sous la jonction 1, niveau 0
+23;V1;Pilier fin métal (Thin Pillar);poteau sous la jonction 1, niveau 1
+24;V1;Pilier fin métal (Thin Pillar);poteau sous la jonction 1, niveau 2
+25;V1;Rampe inclinée métal (Sloped Railing);lame pendue vers l exterieur
+26;V1;Rampe inclinée métal (Sloped Railing);lame r0 (depart du joint)
+27;V1;Rampe inclinée métal (Sloped Railing);lame r1
+28;V2;Fondation métal;fondation
+29;V2;Fondation métal;fondation
+30;V2;Fondation métal;fondation
+31;V2;Fondation métal;fondation
+32;V2;Pilier fin métal (Thin Pillar);poteau libre, niveau 0
+33;V2;Pilier fin métal (Thin Pillar);poteau libre, niveau 1
+34;V2;Rampe inclinée métal (Sloped Railing);lame pendue a la tete du poteau
+35;V2;Rampe inclinée métal (Sloped Railing);lame montante sur la tete du poteau
+36;V3;Fondation métal;fondation
+37;V3;Fondation métal;fondation
+38;V3;Fondation métal;fondation
+39;V3;Fondation métal;fondation
+40;V3;Cadre de porte double métal;cadre niveau 0
+41;V3;Cadre de porte double métal;cadre niveau 0
+42;V3;Cadre de porte double métal;cadre niveau 1
+43;V3;Cadre de porte double métal;cadre niveau 1
+44;V3;Pilier fin métal (Thin Pillar);poteau sous la jonction 1, niveau 0
+45;V3;Pilier fin métal (Thin Pillar);poteau sous la jonction 1, niveau 1
+46;V3;Pilier fin métal (Thin Pillar);poteau sous la jonction 1, niveau 2
+47;V3;Rampe inclinée métal (Sloped Railing);lame pendue vers l exterieur
+48;V3;Rampe inclinée métal (Sloped Railing);lame r0 (depart du joint)
+49;V3;Rampe inclinée métal (Sloped Railing);lame r1

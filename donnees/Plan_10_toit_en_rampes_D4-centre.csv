@@ -1,468 +1,469 @@
 entree;piece;x;y;Z_plan;yaw;theta;rayon;repere
 0;Mur métal;-450.0;2239.2;2700.0;90;101.36;2284.0;reference C : mur de D4 a snapper sur le haut du mur de pod (niv9 c3 p3)
-1;Rampe inclinée métal (Sloped Railing);-1734.3;654.9;2700.0;150.0;159.31;1853.9;casquette du trou θ154.7
-2;Rampe inclinée métal (Sloped Railing);-1939.2;709.8;2700.0;180.0;159.9;2065.1;casquette du trou θ156.1
-3;Rampe inclinée métal (Sloped Railing);-1584.3;504.9;2700.0;120.0;162.32;1662.8;casquette du trou θ158.3
-4;Rampe inclinée métal (Sloped Railing);-1324.5;245.1;2700.0;150.0;169.52;1347.0;casquette du trou θ163.3
-5;Rampe inclinée métal (Sloped Railing);-1269.6;-150.0;2700.0;90.0;186.74;1278.4;casquette du trou θ187.6
-6;Rampe inclinée métal (Sloped Railing);-1584.3;-504.9;2700.0;60.0;197.68;1662.8;casquette du trou θ201.7
-7;Rampe inclinée métal (Sloped Railing);-1939.2;-709.8;2700.0;0.0;200.1;2065.1;casquette du trou θ203.9
-8;Rampe inclinée métal (Sloped Railing);-1734.3;-654.9;2700.0;30.0;200.69;1853.9;casquette du trou θ205.3
-9;Pilier fin métal (Thin Pillar);1939.2;-450.0;3000.0;0;346.94;1990.8;appui toit c0 t-450 : poteau
-10;Pilier fin métal (Thin Pillar);1939.2;-150.0;3000.0;0;355.58;1945.0;appui toit c0 t-150 : poteau
-11;Pilier fin métal (Thin Pillar);1039.2;-150.0;3000.0;0;351.79;1050.0;appui toit c0 t-150 : poteau
-12;Pilier fin métal (Thin Pillar);739.2;-150.0;3000.0;0;348.53;754.3;appui toit c0 t-150 : poteau
-13;Pilier fin métal (Thin Pillar);1939.2;150.0;3000.0;0;4.42;1945.0;appui toit c0 t+150 : poteau
-14;Pilier fin métal (Thin Pillar);1039.2;150.0;3000.0;0;8.21;1050.0;appui toit c0 t+150 : poteau
-15;Pilier fin métal (Thin Pillar);739.2;150.0;3000.0;0;11.47;754.3;appui toit c0 t+150 : poteau
-16;Pilier fin métal (Thin Pillar);1939.2;450.0;3000.0;0;13.06;1990.8;appui toit c0 t+450 : poteau
-17;Pilier fin métal (Thin Pillar);1904.4;579.9;3000.0;30;16.94;1990.8;appui toit c1 t-450 : poteau
-18;Pilier fin métal (Thin Pillar);1384.8;279.9;3000.0;30;11.43;1412.8;appui toit c1 t-450 : poteau
-19;Pilier fin métal (Thin Pillar);1754.4;839.7;3000.0;30;25.58;1945.0;appui toit c1 t-150 : poteau
-20;Pilier fin métal (Thin Pillar);975.0;389.7;3000.0;30;21.79;1050.0;appui toit c1 t-150 : poteau
-21;Pilier fin métal (Thin Pillar);195.6;-60.3;3000.0;30;342.87;204.7;appui toit c1 t-150 : poteau
-22;Pilier fin métal (Thin Pillar);1604.4;1099.5;3000.0;30;34.42;1945.0;appui toit c1 t+150 : poteau
-23;Pilier fin métal (Thin Pillar);825.0;649.5;3000.0;30;38.21;1050.0;appui toit c1 t+150 : poteau
-24;Pilier fin métal (Thin Pillar);565.2;499.5;3000.0;30;41.47;754.3;appui toit c1 t+150 : poteau
-25;Pilier fin métal (Thin Pillar);1454.4;1359.3;3000.0;30;43.06;1990.8;appui toit c1 t+450 : poteau
-26;Pilier fin métal (Thin Pillar);934.8;1059.3;3000.0;30;48.57;1412.8;appui toit c1 t+450 : poteau
-27;Pilier fin métal (Thin Pillar);1359.3;1454.4;3000.0;60;46.94;1990.8;appui toit c2 t-450 : poteau
-28;Pilier fin métal (Thin Pillar);1099.5;1604.4;3000.0;60;55.58;1945.0;appui toit c2 t-150 : poteau
-29;Pilier fin métal (Thin Pillar);649.5;825.0;3000.0;60;51.79;1050.0;appui toit c2 t-150 : poteau
-30;Pilier fin métal (Thin Pillar);199.5;45.6;3000.0;60;12.87;204.7;appui toit c2 t-150 : poteau
-31;Pilier fin métal (Thin Pillar);839.7;1754.4;3000.0;60;64.42;1945.0;appui toit c2 t+150 : poteau
-32;Pilier fin métal (Thin Pillar);389.7;975.0;3000.0;60;68.21;1050.0;appui toit c2 t+150 : poteau
-33;Pilier fin métal (Thin Pillar);89.7;455.4;3000.0;60;78.86;464.1;appui toit c2 t+150 : poteau
-34;Pilier fin métal (Thin Pillar);579.9;1904.4;3000.0;60;73.06;1990.8;appui toit c2 t+450 : poteau
-35;Pilier fin métal (Thin Pillar);279.9;1384.8;3000.0;60;78.57;1412.8;appui toit c2 t+450 : poteau
-36;Pilier fin métal (Thin Pillar);450.0;1939.2;3000.0;90;76.94;1990.8;appui toit c3 t-450 : poteau
-37;Pilier fin métal (Thin Pillar);150.0;1939.2;3000.0;90;85.58;1945.0;appui toit c3 t-150 : poteau
-38;Pilier fin métal (Thin Pillar);150.0;1039.2;3000.0;90;81.79;1050.0;appui toit c3 t-150 : poteau
-39;Pilier fin métal (Thin Pillar);150.0;739.2;3000.0;90;78.53;754.3;appui toit c3 t-150 : poteau
-40;Pilier fin métal (Thin Pillar);-150.0;1939.2;3000.0;90;94.42;1945.0;appui toit c3 t+150 : poteau
-41;Pilier fin métal (Thin Pillar);-150.0;1039.2;3000.0;90;98.21;1050.0;appui toit c3 t+150 : poteau
-42;Pilier fin métal (Thin Pillar);-150.0;739.2;3000.0;90;101.47;754.3;appui toit c3 t+150 : poteau
-43;Pilier fin métal (Thin Pillar);-450.0;1939.2;3000.0;90;103.06;1990.8;appui toit c3 t+450 : poteau
-44;Pilier fin métal (Thin Pillar);-579.9;1904.4;3000.0;120;106.94;1990.8;appui toit c4 t-450 : poteau
-45;Pilier fin métal (Thin Pillar);-279.9;1384.8;3000.0;120;101.43;1412.8;appui toit c4 t-450 : poteau
-46;Pilier fin métal (Thin Pillar);-839.7;1754.4;3000.0;120;115.58;1945.0;appui toit c4 t-150 : poteau
-47;Pilier fin métal (Thin Pillar);-389.7;975.0;3000.0;120;111.79;1050.0;appui toit c4 t-150 : poteau
-48;Pilier fin métal (Thin Pillar);60.3;195.6;3000.0;120;72.87;204.7;appui toit c4 t-150 : poteau
-49;Pilier fin métal (Thin Pillar);-1099.5;1604.4;3000.0;120;124.42;1945.0;appui toit c4 t+150 : poteau
-50;Pilier fin métal (Thin Pillar);-649.5;825.0;3000.0;120;128.21;1050.0;appui toit c4 t+150 : poteau
-51;Pilier fin métal (Thin Pillar);-199.5;45.6;3000.0;120;167.13;204.7;appui toit c4 t+150 : poteau
-52;Pilier fin métal (Thin Pillar);-1359.3;1454.4;3000.0;120;133.06;1990.8;appui toit c4 t+450 : poteau
-53;Pilier fin métal (Thin Pillar);-1454.4;1359.3;3000.0;150;136.94;1990.8;appui toit c5 t-450 : poteau
-54;Pilier fin métal (Thin Pillar);-934.8;1059.3;3000.0;150;131.43;1412.8;appui toit c5 t-450 : poteau
-55;Pilier fin métal (Thin Pillar);-1604.4;1099.5;3000.0;150;145.58;1945.0;appui toit c5 t-150 : poteau
-56;Pilier fin métal (Thin Pillar);-825.0;649.5;3000.0;150;141.79;1050.0;appui toit c5 t-150 : poteau
-57;Pilier fin métal (Thin Pillar);-565.2;499.5;3000.0;150;138.53;754.3;appui toit c5 t-150 : poteau
-58;Pilier fin métal (Thin Pillar);-1754.4;839.7;3000.0;150;154.42;1945.0;appui toit c5 t+150 : poteau
-59;Pilier fin métal (Thin Pillar);-975.0;389.7;3000.0;150;158.21;1050.0;appui toit c5 t+150 : poteau
-60;Pilier fin métal (Thin Pillar);-195.6;-60.3;3000.0;150;197.13;204.7;appui toit c5 t+150 : poteau
-61;Pilier fin métal (Thin Pillar);-1754.4;-839.7;3000.0;210;205.58;1945.0;appui toit c7 t-150 : poteau
-62;Pilier fin métal (Thin Pillar);-975.0;-389.7;3000.0;210;201.79;1050.0;appui toit c7 t-150 : poteau
-63;Pilier fin métal (Thin Pillar);-455.4;-89.7;3000.0;210;191.14;464.1;appui toit c7 t-150 : poteau
-64;Pilier fin métal (Thin Pillar);-1604.4;-1099.5;3000.0;210;214.42;1945.0;appui toit c7 t+150 : poteau
-65;Pilier fin métal (Thin Pillar);-825.0;-649.5;3000.0;210;218.21;1050.0;appui toit c7 t+150 : poteau
-66;Pilier fin métal (Thin Pillar);-45.6;-199.5;3000.0;210;257.13;204.7;appui toit c7 t+150 : poteau
-67;Pilier fin métal (Thin Pillar);-1454.4;-1359.3;3000.0;210;223.06;1990.8;appui toit c7 t+450 : poteau
-68;Pilier fin métal (Thin Pillar);-1359.3;-1454.4;3000.0;240;226.94;1990.8;appui toit c8 t-450 : poteau
-69;Pilier fin métal (Thin Pillar);-1059.3;-934.8;3000.0;240;221.43;1412.8;appui toit c8 t-450 : poteau
-70;Pilier fin métal (Thin Pillar);-1099.5;-1604.4;3000.0;240;235.58;1945.0;appui toit c8 t-150 : poteau
-71;Pilier fin métal (Thin Pillar);-649.5;-825.0;3000.0;240;231.79;1050.0;appui toit c8 t-150 : poteau
-72;Pilier fin métal (Thin Pillar);-499.5;-565.2;3000.0;240;228.53;754.3;appui toit c8 t-150 : poteau
-73;Pilier fin métal (Thin Pillar);-839.7;-1754.4;3000.0;240;244.42;1945.0;appui toit c8 t+150 : poteau
-74;Pilier fin métal (Thin Pillar);-389.7;-975.0;3000.0;240;248.21;1050.0;appui toit c8 t+150 : poteau
-75;Pilier fin métal (Thin Pillar);-89.7;-455.4;3000.0;240;258.86;464.1;appui toit c8 t+150 : poteau
-76;Pilier fin métal (Thin Pillar);-579.9;-1904.4;3000.0;240;253.06;1990.8;appui toit c8 t+450 : poteau
-77;Pilier fin métal (Thin Pillar);-279.9;-1384.8;3000.0;240;258.57;1412.8;appui toit c8 t+450 : poteau
-78;Pilier fin métal (Thin Pillar);-450.0;-1939.2;3000.0;270;256.94;1990.8;appui toit c9 t-450 : poteau
-79;Pilier fin métal (Thin Pillar);-150.0;-1939.2;3000.0;270;265.58;1945.0;appui toit c9 t-150 : poteau
-80;Pilier fin métal (Thin Pillar);-150.0;-1039.2;3000.0;270;261.79;1050.0;appui toit c9 t-150 : poteau
-81;Pilier fin métal (Thin Pillar);-150.0;-739.2;3000.0;270;258.53;754.3;appui toit c9 t-150 : poteau
-82;Pilier fin métal (Thin Pillar);150.0;-1939.2;3000.0;270;274.42;1945.0;appui toit c9 t+150 : poteau
-83;Pilier fin métal (Thin Pillar);150.0;-1039.2;3000.0;270;278.21;1050.0;appui toit c9 t+150 : poteau
-84;Pilier fin métal (Thin Pillar);150.0;-739.2;3000.0;270;281.47;754.3;appui toit c9 t+150 : poteau
-85;Pilier fin métal (Thin Pillar);450.0;-1939.2;3000.0;270;283.06;1990.8;appui toit c9 t+450 : poteau
-86;Pilier fin métal (Thin Pillar);579.9;-1904.4;3000.0;300;286.94;1990.8;appui toit c10 t-450 : poteau
-87;Pilier fin métal (Thin Pillar);279.9;-1384.8;3000.0;300;281.43;1412.8;appui toit c10 t-450 : poteau
-88;Pilier fin métal (Thin Pillar);839.7;-1754.4;3000.0;300;295.58;1945.0;appui toit c10 t-150 : poteau
-89;Pilier fin métal (Thin Pillar);389.7;-975.0;3000.0;300;291.79;1050.0;appui toit c10 t-150 : poteau
-90;Pilier fin métal (Thin Pillar);89.7;-455.4;3000.0;300;281.14;464.1;appui toit c10 t-150 : poteau
-91;Pilier fin métal (Thin Pillar);1099.5;-1604.4;3000.0;300;304.42;1945.0;appui toit c10 t+150 : poteau
-92;Pilier fin métal (Thin Pillar);649.5;-825.0;3000.0;300;308.21;1050.0;appui toit c10 t+150 : poteau
-93;Pilier fin métal (Thin Pillar);349.5;-305.4;3000.0;300;318.86;464.1;appui toit c10 t+150 : poteau
-94;Pilier fin métal (Thin Pillar);1359.3;-1454.4;3000.0;300;313.06;1990.8;appui toit c10 t+450 : poteau
-95;Pilier fin métal (Thin Pillar);1454.4;-1359.3;3000.0;330;316.94;1990.8;appui toit c11 t-450 : poteau
-96;Pilier fin métal (Thin Pillar);934.8;-1059.3;3000.0;330;311.43;1412.8;appui toit c11 t-450 : poteau
-97;Pilier fin métal (Thin Pillar);1604.4;-1099.5;3000.0;330;325.58;1945.0;appui toit c11 t-150 : poteau
-98;Pilier fin métal (Thin Pillar);825.0;-649.5;3000.0;330;321.79;1050.0;appui toit c11 t-150 : poteau
-99;Pilier fin métal (Thin Pillar);565.2;-499.5;3000.0;330;318.53;754.3;appui toit c11 t-150 : poteau
-100;Pilier fin métal (Thin Pillar);1754.4;-839.7;3000.0;330;334.42;1945.0;appui toit c11 t+150 : poteau
-101;Pilier fin métal (Thin Pillar);975.0;-389.7;3000.0;330;338.21;1050.0;appui toit c11 t+150 : poteau
-102;Pilier fin métal (Thin Pillar);455.4;-89.7;3000.0;330;348.86;464.1;appui toit c11 t+150 : poteau
-103;Pilier fin métal (Thin Pillar);1904.4;-579.9;3000.0;330;343.06;1990.8;appui toit c11 t+450 : poteau
-104;Pilier fin métal (Thin Pillar);1384.8;-279.9;3000.0;330;348.57;1412.8;appui toit c11 t+450 : poteau
-105;Rampe inclinée métal (Sloped Railing);2089.2;-450.0;3000.0;270;347.84;2137.1;toit rampes r0 c0 t-450
-106;Rampe inclinée métal (Sloped Railing);2089.2;-150.0;3000.0;270;355.89;2094.6;toit rampes r0 c0 t-150
-107;Rampe inclinée métal (Sloped Railing);2089.2;150.0;3000.0;270;4.11;2094.6;toit rampes r0 c0 t+150
-108;Rampe inclinée métal (Sloped Railing);2089.2;450.0;3000.0;270;12.16;2137.1;toit rampes r0 c0 t+450
-109;Rampe inclinée métal (Sloped Railing);2034.3;654.9;3000.0;300;17.84;2137.1;toit rampes r0 c1 t-450
-110;Rampe inclinée métal (Sloped Railing);1884.3;914.7;3000.0;300;25.89;2094.6;toit rampes r0 c1 t-150
-111;Rampe inclinée métal (Sloped Railing);1734.3;1174.5;3000.0;300;34.11;2094.6;toit rampes r0 c1 t+150
-112;Rampe inclinée métal (Sloped Railing);1584.3;1434.3;3000.0;300;42.16;2137.1;toit rampes r0 c1 t+450
-113;Rampe inclinée métal (Sloped Railing);1434.3;1584.3;3000.0;330;47.84;2137.1;toit rampes r0 c2 t-450
-114;Rampe inclinée métal (Sloped Railing);1174.5;1734.3;3000.0;330;55.89;2094.6;toit rampes r0 c2 t-150
-115;Rampe inclinée métal (Sloped Railing);914.7;1884.3;3000.0;330;64.11;2094.6;toit rampes r0 c2 t+150
-116;Rampe inclinée métal (Sloped Railing);654.9;2034.3;3000.0;330;72.16;2137.1;toit rampes r0 c2 t+450
-117;Rampe inclinée métal (Sloped Railing);450.0;2089.2;3000.0;0;77.84;2137.1;toit rampes r0 c3 t-450
-118;Rampe inclinée métal (Sloped Railing);150.0;2089.2;3000.0;0;85.89;2094.6;toit rampes r0 c3 t-150
-119;Rampe inclinée métal (Sloped Railing);-150.0;2089.2;3000.0;0;94.11;2094.6;toit rampes r0 c3 t+150
-120;Rampe inclinée métal (Sloped Railing);-450.0;2089.2;3000.0;0;102.16;2137.1;toit rampes r0 c3 t+450
-121;Rampe inclinée métal (Sloped Railing);-654.9;2034.3;3000.0;30;107.84;2137.1;toit rampes r0 c4 t-450
-122;Rampe inclinée métal (Sloped Railing);-914.7;1884.3;3000.0;30;115.89;2094.6;toit rampes r0 c4 t-150
-123;Rampe inclinée métal (Sloped Railing);-1174.5;1734.3;3000.0;30;124.11;2094.6;toit rampes r0 c4 t+150
-124;Rampe inclinée métal (Sloped Railing);-1434.3;1584.3;3000.0;30;132.16;2137.1;toit rampes r0 c4 t+450
-125;Rampe inclinée métal (Sloped Railing);-1584.3;1434.3;3000.0;60;137.84;2137.1;toit rampes r0 c5 t-450
-126;Rampe inclinée métal (Sloped Railing);-1734.3;1174.5;3000.0;60;145.89;2094.6;toit rampes r0 c5 t-150
-127;Rampe inclinée métal (Sloped Railing);-1884.3;914.7;3000.0;60;154.11;2094.6;toit rampes r0 c5 t+150
-128;Rampe inclinée métal (Sloped Railing);-1884.3;-914.7;3000.0;120;205.89;2094.6;toit rampes r0 c7 t-150
-129;Rampe inclinée métal (Sloped Railing);-1734.3;-1174.5;3000.0;120;214.11;2094.6;toit rampes r0 c7 t+150
-130;Rampe inclinée métal (Sloped Railing);-1584.3;-1434.3;3000.0;120;222.16;2137.1;toit rampes r0 c7 t+450
-131;Rampe inclinée métal (Sloped Railing);-1434.3;-1584.3;3000.0;150;227.84;2137.1;toit rampes r0 c8 t-450
-132;Rampe inclinée métal (Sloped Railing);-1174.5;-1734.3;3000.0;150;235.89;2094.6;toit rampes r0 c8 t-150
-133;Rampe inclinée métal (Sloped Railing);-914.7;-1884.3;3000.0;150;244.11;2094.6;toit rampes r0 c8 t+150
-134;Rampe inclinée métal (Sloped Railing);-654.9;-2034.3;3000.0;150;252.16;2137.1;toit rampes r0 c8 t+450
-135;Rampe inclinée métal (Sloped Railing);-450.0;-2089.2;3000.0;180;257.84;2137.1;toit rampes r0 c9 t-450
-136;Rampe inclinée métal (Sloped Railing);-150.0;-2089.2;3000.0;180;265.89;2094.6;toit rampes r0 c9 t-150
-137;Rampe inclinée métal (Sloped Railing);150.0;-2089.2;3000.0;180;274.11;2094.6;toit rampes r0 c9 t+150
-138;Rampe inclinée métal (Sloped Railing);450.0;-2089.2;3000.0;180;282.16;2137.1;toit rampes r0 c9 t+450
-139;Rampe inclinée métal (Sloped Railing);654.9;-2034.3;3000.0;210;287.84;2137.1;toit rampes r0 c10 t-450
-140;Rampe inclinée métal (Sloped Railing);914.7;-1884.3;3000.0;210;295.89;2094.6;toit rampes r0 c10 t-150
-141;Rampe inclinée métal (Sloped Railing);1174.5;-1734.3;3000.0;210;304.11;2094.6;toit rampes r0 c10 t+150
-142;Rampe inclinée métal (Sloped Railing);1434.3;-1584.3;3000.0;210;312.16;2137.1;toit rampes r0 c10 t+450
-143;Rampe inclinée métal (Sloped Railing);1584.3;-1434.3;3000.0;240;317.84;2137.1;toit rampes r0 c11 t-450
-144;Rampe inclinée métal (Sloped Railing);1734.3;-1174.5;3000.0;240;325.89;2094.6;toit rampes r0 c11 t-150
-145;Rampe inclinée métal (Sloped Railing);1884.3;-914.7;3000.0;240;334.11;2094.6;toit rampes r0 c11 t+150
-146;Rampe inclinée métal (Sloped Railing);2034.3;-654.9;3000.0;240;342.16;2137.1;toit rampes r0 c11 t+450
-147;Pilier fin métal (Thin Pillar);1039.2;-150.0;3300.0;0;351.79;1050.0;appui toit c0 t-150 : poteau
-148;Pilier fin métal (Thin Pillar);739.2;-150.0;3300.0;0;348.53;754.3;appui toit c0 t-150 : poteau
-149;Pilier fin métal (Thin Pillar);1039.2;150.0;3300.0;0;8.21;1050.0;appui toit c0 t+150 : poteau
-150;Pilier fin métal (Thin Pillar);739.2;150.0;3300.0;0;11.47;754.3;appui toit c0 t+150 : poteau
-151;Pilier fin métal (Thin Pillar);1384.8;279.9;3300.0;30;11.43;1412.8;appui toit c1 t-450 : poteau
-152;Pilier fin métal (Thin Pillar);975.0;389.7;3300.0;30;21.79;1050.0;appui toit c1 t-150 : poteau
-153;Pilier fin métal (Thin Pillar);195.6;-60.3;3300.0;30;342.87;204.7;appui toit c1 t-150 : poteau
-154;Pilier fin métal (Thin Pillar);825.0;649.5;3300.0;30;38.21;1050.0;appui toit c1 t+150 : poteau
-155;Pilier fin métal (Thin Pillar);565.2;499.5;3300.0;30;41.47;754.3;appui toit c1 t+150 : poteau
-156;Pilier fin métal (Thin Pillar);934.8;1059.3;3300.0;30;48.57;1412.8;appui toit c1 t+450 : poteau
-157;Pilier fin métal (Thin Pillar);649.5;825.0;3300.0;60;51.79;1050.0;appui toit c2 t-150 : poteau
-158;Pilier fin métal (Thin Pillar);199.5;45.6;3300.0;60;12.87;204.7;appui toit c2 t-150 : poteau
-159;Pilier fin métal (Thin Pillar);389.7;975.0;3300.0;60;68.21;1050.0;appui toit c2 t+150 : poteau
-160;Pilier fin métal (Thin Pillar);89.7;455.4;3300.0;60;78.86;464.1;appui toit c2 t+150 : poteau
-161;Pilier fin métal (Thin Pillar);279.9;1384.8;3300.0;60;78.57;1412.8;appui toit c2 t+450 : poteau
-162;Pilier fin métal (Thin Pillar);150.0;1039.2;3300.0;90;81.79;1050.0;appui toit c3 t-150 : poteau
-163;Pilier fin métal (Thin Pillar);150.0;739.2;3300.0;90;78.53;754.3;appui toit c3 t-150 : poteau
-164;Pilier fin métal (Thin Pillar);-150.0;1039.2;3300.0;90;98.21;1050.0;appui toit c3 t+150 : poteau
-165;Pilier fin métal (Thin Pillar);-150.0;739.2;3300.0;90;101.47;754.3;appui toit c3 t+150 : poteau
-166;Pilier fin métal (Thin Pillar);-279.9;1384.8;3300.0;120;101.43;1412.8;appui toit c4 t-450 : poteau
-167;Pilier fin métal (Thin Pillar);-389.7;975.0;3300.0;120;111.79;1050.0;appui toit c4 t-150 : poteau
-168;Pilier fin métal (Thin Pillar);60.3;195.6;3300.0;120;72.87;204.7;appui toit c4 t-150 : poteau
-169;Pilier fin métal (Thin Pillar);-649.5;825.0;3300.0;120;128.21;1050.0;appui toit c4 t+150 : poteau
-170;Pilier fin métal (Thin Pillar);-199.5;45.6;3300.0;120;167.13;204.7;appui toit c4 t+150 : poteau
-171;Pilier fin métal (Thin Pillar);-934.8;1059.3;3300.0;150;131.43;1412.8;appui toit c5 t-450 : poteau
-172;Pilier fin métal (Thin Pillar);-825.0;649.5;3300.0;150;141.79;1050.0;appui toit c5 t-150 : poteau
-173;Pilier fin métal (Thin Pillar);-565.2;499.5;3300.0;150;138.53;754.3;appui toit c5 t-150 : poteau
-174;Pilier fin métal (Thin Pillar);-975.0;389.7;3300.0;150;158.21;1050.0;appui toit c5 t+150 : poteau
-175;Pilier fin métal (Thin Pillar);-195.6;-60.3;3300.0;150;197.13;204.7;appui toit c5 t+150 : poteau
-176;Pilier fin métal (Thin Pillar);-975.0;-389.7;3300.0;210;201.79;1050.0;appui toit c7 t-150 : poteau
-177;Pilier fin métal (Thin Pillar);-455.4;-89.7;3300.0;210;191.14;464.1;appui toit c7 t-150 : poteau
-178;Pilier fin métal (Thin Pillar);-825.0;-649.5;3300.0;210;218.21;1050.0;appui toit c7 t+150 : poteau
-179;Pilier fin métal (Thin Pillar);-45.6;-199.5;3300.0;210;257.13;204.7;appui toit c7 t+150 : poteau
-180;Pilier fin métal (Thin Pillar);-1059.3;-934.8;3300.0;240;221.43;1412.8;appui toit c8 t-450 : poteau
-181;Pilier fin métal (Thin Pillar);-649.5;-825.0;3300.0;240;231.79;1050.0;appui toit c8 t-150 : poteau
-182;Pilier fin métal (Thin Pillar);-499.5;-565.2;3300.0;240;228.53;754.3;appui toit c8 t-150 : poteau
-183;Pilier fin métal (Thin Pillar);-389.7;-975.0;3300.0;240;248.21;1050.0;appui toit c8 t+150 : poteau
-184;Pilier fin métal (Thin Pillar);-89.7;-455.4;3300.0;240;258.86;464.1;appui toit c8 t+150 : poteau
-185;Pilier fin métal (Thin Pillar);-279.9;-1384.8;3300.0;240;258.57;1412.8;appui toit c8 t+450 : poteau
-186;Pilier fin métal (Thin Pillar);-150.0;-1039.2;3300.0;270;261.79;1050.0;appui toit c9 t-150 : poteau
-187;Pilier fin métal (Thin Pillar);-150.0;-739.2;3300.0;270;258.53;754.3;appui toit c9 t-150 : poteau
-188;Pilier fin métal (Thin Pillar);150.0;-1039.2;3300.0;270;278.21;1050.0;appui toit c9 t+150 : poteau
-189;Pilier fin métal (Thin Pillar);150.0;-739.2;3300.0;270;281.47;754.3;appui toit c9 t+150 : poteau
-190;Pilier fin métal (Thin Pillar);279.9;-1384.8;3300.0;300;281.43;1412.8;appui toit c10 t-450 : poteau
-191;Pilier fin métal (Thin Pillar);389.7;-975.0;3300.0;300;291.79;1050.0;appui toit c10 t-150 : poteau
-192;Pilier fin métal (Thin Pillar);89.7;-455.4;3300.0;300;281.14;464.1;appui toit c10 t-150 : poteau
-193;Pilier fin métal (Thin Pillar);649.5;-825.0;3300.0;300;308.21;1050.0;appui toit c10 t+150 : poteau
-194;Pilier fin métal (Thin Pillar);349.5;-305.4;3300.0;300;318.86;464.1;appui toit c10 t+150 : poteau
-195;Pilier fin métal (Thin Pillar);934.8;-1059.3;3300.0;330;311.43;1412.8;appui toit c11 t-450 : poteau
-196;Pilier fin métal (Thin Pillar);825.0;-649.5;3300.0;330;321.79;1050.0;appui toit c11 t-150 : poteau
-197;Pilier fin métal (Thin Pillar);565.2;-499.5;3300.0;330;318.53;754.3;appui toit c11 t-150 : poteau
-198;Pilier fin métal (Thin Pillar);975.0;-389.7;3300.0;330;338.21;1050.0;appui toit c11 t+150 : poteau
-199;Pilier fin métal (Thin Pillar);455.4;-89.7;3300.0;330;348.86;464.1;appui toit c11 t+150 : poteau
-200;Pilier fin métal (Thin Pillar);1384.8;-279.9;3300.0;330;348.57;1412.8;appui toit c11 t+450 : poteau
-201;Rampe inclinée métal (Sloped Railing);1789.2;-150.0;3300.0;270;355.21;1795.5;toit rampes r1 c0 t-150
-202;Rampe inclinée métal (Sloped Railing);1789.2;150.0;3300.0;270;4.79;1795.5;toit rampes r1 c0 t+150
-203;Rampe inclinée métal (Sloped Railing);1774.5;504.9;3300.0;300;15.88;1845.0;toit rampes r1 c1 t-450
-204;Rampe inclinée métal (Sloped Railing);1624.5;764.7;3300.0;300;25.21;1795.5;toit rampes r1 c1 t-150
-205;Rampe inclinée métal (Sloped Railing);1474.5;1024.5;3300.0;300;34.79;1795.5;toit rampes r1 c1 t+150
-206;Rampe inclinée métal (Sloped Railing);1324.5;1284.3;3300.0;300;44.12;1845.0;toit rampes r1 c1 t+450
-207;Rampe inclinée métal (Sloped Railing);1024.5;1474.5;3300.0;330;55.21;1795.5;toit rampes r1 c2 t-150
-208;Rampe inclinée métal (Sloped Railing);764.7;1624.5;3300.0;330;64.79;1795.5;toit rampes r1 c2 t+150
-209;Rampe inclinée métal (Sloped Railing);504.9;1774.5;3300.0;330;74.12;1845.0;toit rampes r1 c2 t+450
-210;Rampe inclinée métal (Sloped Railing);150.0;1789.2;3300.0;0;85.21;1795.5;toit rampes r1 c3 t-150
-211;Rampe inclinée métal (Sloped Railing);-150.0;1789.2;3300.0;0;94.79;1795.5;toit rampes r1 c3 t+150
-212;Rampe inclinée métal (Sloped Railing);-504.9;1774.5;3300.0;30;105.88;1845.0;toit rampes r1 c4 t-450
-213;Rampe inclinée métal (Sloped Railing);-764.7;1624.5;3300.0;30;115.21;1795.5;toit rampes r1 c4 t-150
-214;Rampe inclinée métal (Sloped Railing);-1024.5;1474.5;3300.0;30;124.79;1795.5;toit rampes r1 c4 t+150
-215;Rampe inclinée métal (Sloped Railing);-1324.5;1284.3;3300.0;60;135.88;1845.0;toit rampes r1 c5 t-450
-216;Rampe inclinée métal (Sloped Railing);-1474.5;1024.5;3300.0;60;145.21;1795.5;toit rampes r1 c5 t-150
-217;Rampe inclinée métal (Sloped Railing);-1624.5;764.7;3300.0;60;154.79;1795.5;toit rampes r1 c5 t+150
-218;Rampe inclinée métal (Sloped Railing);-1624.5;-764.7;3300.0;120;205.21;1795.5;toit rampes r1 c7 t-150
-219;Rampe inclinée métal (Sloped Railing);-1474.5;-1024.5;3300.0;120;214.79;1795.5;toit rampes r1 c7 t+150
-220;Rampe inclinée métal (Sloped Railing);-1284.3;-1324.5;3300.0;150;225.88;1845.0;toit rampes r1 c8 t-450
-221;Rampe inclinée métal (Sloped Railing);-1024.5;-1474.5;3300.0;150;235.21;1795.5;toit rampes r1 c8 t-150
-222;Rampe inclinée métal (Sloped Railing);-764.7;-1624.5;3300.0;150;244.79;1795.5;toit rampes r1 c8 t+150
-223;Rampe inclinée métal (Sloped Railing);-504.9;-1774.5;3300.0;150;254.12;1845.0;toit rampes r1 c8 t+450
-224;Rampe inclinée métal (Sloped Railing);-150.0;-1789.2;3300.0;180;265.21;1795.5;toit rampes r1 c9 t-150
-225;Rampe inclinée métal (Sloped Railing);150.0;-1789.2;3300.0;180;274.79;1795.5;toit rampes r1 c9 t+150
-226;Rampe inclinée métal (Sloped Railing);504.9;-1774.5;3300.0;210;285.88;1845.0;toit rampes r1 c10 t-450
-227;Rampe inclinée métal (Sloped Railing);764.7;-1624.5;3300.0;210;295.21;1795.5;toit rampes r1 c10 t-150
-228;Rampe inclinée métal (Sloped Railing);1024.5;-1474.5;3300.0;210;304.79;1795.5;toit rampes r1 c10 t+150
-229;Rampe inclinée métal (Sloped Railing);1324.5;-1284.3;3300.0;240;315.88;1845.0;toit rampes r1 c11 t-450
-230;Rampe inclinée métal (Sloped Railing);1474.5;-1024.5;3300.0;240;325.21;1795.5;toit rampes r1 c11 t-150
-231;Rampe inclinée métal (Sloped Railing);1624.5;-764.7;3300.0;240;334.79;1795.5;toit rampes r1 c11 t+150
-232;Rampe inclinée métal (Sloped Railing);1774.5;-504.9;3300.0;240;344.12;1845.0;toit rampes r1 c11 t+450
-233;Pilier fin métal (Thin Pillar);1039.2;-150.0;3600.0;0;351.79;1050.0;appui toit c0 t-150 : poteau
-234;Pilier fin métal (Thin Pillar);739.2;-150.0;3600.0;0;348.53;754.3;appui toit c0 t-150 : poteau
-235;Pilier fin métal (Thin Pillar);1039.2;150.0;3600.0;0;8.21;1050.0;appui toit c0 t+150 : poteau
-236;Pilier fin métal (Thin Pillar);739.2;150.0;3600.0;0;11.47;754.3;appui toit c0 t+150 : poteau
-237;Pilier fin métal (Thin Pillar);1384.8;279.9;3600.0;30;11.43;1412.8;appui toit c1 t-450 : poteau
-238;Pilier fin métal (Thin Pillar);975.0;389.7;3600.0;30;21.79;1050.0;appui toit c1 t-150 : poteau
-239;Pilier fin métal (Thin Pillar);195.6;-60.3;3600.0;30;342.87;204.7;appui toit c1 t-150 : poteau
-240;Pilier fin métal (Thin Pillar);825.0;649.5;3600.0;30;38.21;1050.0;appui toit c1 t+150 : poteau
-241;Pilier fin métal (Thin Pillar);565.2;499.5;3600.0;30;41.47;754.3;appui toit c1 t+150 : poteau
-242;Pilier fin métal (Thin Pillar);934.8;1059.3;3600.0;30;48.57;1412.8;appui toit c1 t+450 : poteau
-243;Pilier fin métal (Thin Pillar);649.5;825.0;3600.0;60;51.79;1050.0;appui toit c2 t-150 : poteau
-244;Pilier fin métal (Thin Pillar);199.5;45.6;3600.0;60;12.87;204.7;appui toit c2 t-150 : poteau
-245;Pilier fin métal (Thin Pillar);389.7;975.0;3600.0;60;68.21;1050.0;appui toit c2 t+150 : poteau
-246;Pilier fin métal (Thin Pillar);89.7;455.4;3600.0;60;78.86;464.1;appui toit c2 t+150 : poteau
-247;Pilier fin métal (Thin Pillar);279.9;1384.8;3600.0;60;78.57;1412.8;appui toit c2 t+450 : poteau
-248;Pilier fin métal (Thin Pillar);150.0;1039.2;3600.0;90;81.79;1050.0;appui toit c3 t-150 : poteau
-249;Pilier fin métal (Thin Pillar);150.0;739.2;3600.0;90;78.53;754.3;appui toit c3 t-150 : poteau
-250;Pilier fin métal (Thin Pillar);-150.0;1039.2;3600.0;90;98.21;1050.0;appui toit c3 t+150 : poteau
-251;Pilier fin métal (Thin Pillar);-150.0;739.2;3600.0;90;101.47;754.3;appui toit c3 t+150 : poteau
-252;Pilier fin métal (Thin Pillar);-279.9;1384.8;3600.0;120;101.43;1412.8;appui toit c4 t-450 : poteau
-253;Pilier fin métal (Thin Pillar);-389.7;975.0;3600.0;120;111.79;1050.0;appui toit c4 t-150 : poteau
-254;Pilier fin métal (Thin Pillar);60.3;195.6;3600.0;120;72.87;204.7;appui toit c4 t-150 : poteau
-255;Pilier fin métal (Thin Pillar);-649.5;825.0;3600.0;120;128.21;1050.0;appui toit c4 t+150 : poteau
-256;Pilier fin métal (Thin Pillar);-199.5;45.6;3600.0;120;167.13;204.7;appui toit c4 t+150 : poteau
-257;Pilier fin métal (Thin Pillar);-934.8;1059.3;3600.0;150;131.43;1412.8;appui toit c5 t-450 : poteau
-258;Pilier fin métal (Thin Pillar);-825.0;649.5;3600.0;150;141.79;1050.0;appui toit c5 t-150 : poteau
-259;Pilier fin métal (Thin Pillar);-565.2;499.5;3600.0;150;138.53;754.3;appui toit c5 t-150 : poteau
-260;Pilier fin métal (Thin Pillar);-975.0;389.7;3600.0;150;158.21;1050.0;appui toit c5 t+150 : poteau
-261;Pilier fin métal (Thin Pillar);-195.6;-60.3;3600.0;150;197.13;204.7;appui toit c5 t+150 : poteau
-262;Pilier fin métal (Thin Pillar);-975.0;-389.7;3600.0;210;201.79;1050.0;appui toit c7 t-150 : poteau
-263;Pilier fin métal (Thin Pillar);-455.4;-89.7;3600.0;210;191.14;464.1;appui toit c7 t-150 : poteau
-264;Pilier fin métal (Thin Pillar);-825.0;-649.5;3600.0;210;218.21;1050.0;appui toit c7 t+150 : poteau
-265;Pilier fin métal (Thin Pillar);-45.6;-199.5;3600.0;210;257.13;204.7;appui toit c7 t+150 : poteau
-266;Pilier fin métal (Thin Pillar);-1059.3;-934.8;3600.0;240;221.43;1412.8;appui toit c8 t-450 : poteau
-267;Pilier fin métal (Thin Pillar);-649.5;-825.0;3600.0;240;231.79;1050.0;appui toit c8 t-150 : poteau
-268;Pilier fin métal (Thin Pillar);-499.5;-565.2;3600.0;240;228.53;754.3;appui toit c8 t-150 : poteau
-269;Pilier fin métal (Thin Pillar);-389.7;-975.0;3600.0;240;248.21;1050.0;appui toit c8 t+150 : poteau
-270;Pilier fin métal (Thin Pillar);-89.7;-455.4;3600.0;240;258.86;464.1;appui toit c8 t+150 : poteau
-271;Pilier fin métal (Thin Pillar);-279.9;-1384.8;3600.0;240;258.57;1412.8;appui toit c8 t+450 : poteau
-272;Pilier fin métal (Thin Pillar);-150.0;-1039.2;3600.0;270;261.79;1050.0;appui toit c9 t-150 : poteau
-273;Pilier fin métal (Thin Pillar);-150.0;-739.2;3600.0;270;258.53;754.3;appui toit c9 t-150 : poteau
-274;Pilier fin métal (Thin Pillar);150.0;-1039.2;3600.0;270;278.21;1050.0;appui toit c9 t+150 : poteau
-275;Pilier fin métal (Thin Pillar);150.0;-739.2;3600.0;270;281.47;754.3;appui toit c9 t+150 : poteau
-276;Pilier fin métal (Thin Pillar);279.9;-1384.8;3600.0;300;281.43;1412.8;appui toit c10 t-450 : poteau
-277;Pilier fin métal (Thin Pillar);389.7;-975.0;3600.0;300;291.79;1050.0;appui toit c10 t-150 : poteau
-278;Pilier fin métal (Thin Pillar);89.7;-455.4;3600.0;300;281.14;464.1;appui toit c10 t-150 : poteau
-279;Pilier fin métal (Thin Pillar);649.5;-825.0;3600.0;300;308.21;1050.0;appui toit c10 t+150 : poteau
-280;Pilier fin métal (Thin Pillar);349.5;-305.4;3600.0;300;318.86;464.1;appui toit c10 t+150 : poteau
-281;Pilier fin métal (Thin Pillar);934.8;-1059.3;3600.0;330;311.43;1412.8;appui toit c11 t-450 : poteau
-282;Pilier fin métal (Thin Pillar);825.0;-649.5;3600.0;330;321.79;1050.0;appui toit c11 t-150 : poteau
-283;Pilier fin métal (Thin Pillar);565.2;-499.5;3600.0;330;318.53;754.3;appui toit c11 t-150 : poteau
-284;Pilier fin métal (Thin Pillar);975.0;-389.7;3600.0;330;338.21;1050.0;appui toit c11 t+150 : poteau
-285;Pilier fin métal (Thin Pillar);455.4;-89.7;3600.0;330;348.86;464.1;appui toit c11 t+150 : poteau
-286;Pilier fin métal (Thin Pillar);1384.8;-279.9;3600.0;330;348.57;1412.8;appui toit c11 t+450 : poteau
-287;Rampe inclinée métal (Sloped Railing);1489.2;-150.0;3600.0;270;354.25;1496.8;toit rampes r2 c0 t-150
-288;Rampe inclinée métal (Sloped Railing);1489.2;150.0;3600.0;270;5.75;1496.8;toit rampes r2 c0 t+150
-289;Rampe inclinée métal (Sloped Railing);1514.7;354.9;3600.0;300;13.19;1555.7;toit rampes r2 c1 t-450
-290;Rampe inclinée métal (Sloped Railing);1364.7;614.7;3600.0;300;24.25;1496.8;toit rampes r2 c1 t-150
-291;Rampe inclinée métal (Sloped Railing);1214.7;874.5;3600.0;300;35.75;1496.8;toit rampes r2 c1 t+150
-292;Rampe inclinée métal (Sloped Railing);1064.7;1134.3;3600.0;300;46.81;1555.7;toit rampes r2 c1 t+450
-293;Rampe inclinée métal (Sloped Railing);874.5;1214.7;3600.0;330;54.25;1496.8;toit rampes r2 c2 t-150
-294;Rampe inclinée métal (Sloped Railing);614.7;1364.7;3600.0;330;65.75;1496.8;toit rampes r2 c2 t+150
-295;Rampe inclinée métal (Sloped Railing);354.9;1514.7;3600.0;330;76.81;1555.7;toit rampes r2 c2 t+450
-296;Rampe inclinée métal (Sloped Railing);150.0;1489.2;3600.0;0;84.25;1496.8;toit rampes r2 c3 t-150
-297;Rampe inclinée métal (Sloped Railing);-150.0;1489.2;3600.0;0;95.75;1496.8;toit rampes r2 c3 t+150
-298;Rampe inclinée métal (Sloped Railing);-354.9;1514.7;3600.0;30;103.19;1555.7;toit rampes r2 c4 t-450
-299;Rampe inclinée métal (Sloped Railing);-614.7;1364.7;3600.0;30;114.25;1496.8;toit rampes r2 c4 t-150
-300;Rampe inclinée métal (Sloped Railing);-874.5;1214.7;3600.0;30;125.75;1496.8;toit rampes r2 c4 t+150
-301;Rampe inclinée métal (Sloped Railing);-1064.7;1134.3;3600.0;60;133.19;1555.7;toit rampes r2 c5 t-450
-302;Rampe inclinée métal (Sloped Railing);-1214.7;874.5;3600.0;60;144.25;1496.8;toit rampes r2 c5 t-150
-303;Rampe inclinée métal (Sloped Railing);-1364.7;614.7;3600.0;60;155.75;1496.8;toit rampes r2 c5 t+150
-304;Rampe inclinée métal (Sloped Railing);-1364.7;-614.7;3600.0;120;204.25;1496.8;toit rampes r2 c7 t-150
-305;Rampe inclinée métal (Sloped Railing);-1214.7;-874.5;3600.0;120;215.75;1496.8;toit rampes r2 c7 t+150
-306;Rampe inclinée métal (Sloped Railing);-1134.3;-1064.7;3600.0;150;223.19;1555.7;toit rampes r2 c8 t-450
-307;Rampe inclinée métal (Sloped Railing);-874.5;-1214.7;3600.0;150;234.25;1496.8;toit rampes r2 c8 t-150
-308;Rampe inclinée métal (Sloped Railing);-614.7;-1364.7;3600.0;150;245.75;1496.8;toit rampes r2 c8 t+150
-309;Rampe inclinée métal (Sloped Railing);-354.9;-1514.7;3600.0;150;256.81;1555.7;toit rampes r2 c8 t+450
-310;Rampe inclinée métal (Sloped Railing);-150.0;-1489.2;3600.0;180;264.25;1496.8;toit rampes r2 c9 t-150
-311;Rampe inclinée métal (Sloped Railing);150.0;-1489.2;3600.0;180;275.75;1496.8;toit rampes r2 c9 t+150
-312;Rampe inclinée métal (Sloped Railing);354.9;-1514.7;3600.0;210;283.19;1555.7;toit rampes r2 c10 t-450
-313;Rampe inclinée métal (Sloped Railing);614.7;-1364.7;3600.0;210;294.25;1496.8;toit rampes r2 c10 t-150
-314;Rampe inclinée métal (Sloped Railing);874.5;-1214.7;3600.0;210;305.75;1496.8;toit rampes r2 c10 t+150
-315;Rampe inclinée métal (Sloped Railing);1064.7;-1134.3;3600.0;240;313.19;1555.7;toit rampes r2 c11 t-450
-316;Rampe inclinée métal (Sloped Railing);1214.7;-874.5;3600.0;240;324.25;1496.8;toit rampes r2 c11 t-150
-317;Rampe inclinée métal (Sloped Railing);1364.7;-614.7;3600.0;240;335.75;1496.8;toit rampes r2 c11 t+150
-318;Rampe inclinée métal (Sloped Railing);1514.7;-354.9;3600.0;240;346.81;1555.7;toit rampes r2 c11 t+450
-319;Pilier fin métal (Thin Pillar);1039.2;-150.0;3900.0;0;351.79;1050.0;appui toit c0 t-150 : poteau
-320;Pilier fin métal (Thin Pillar);739.2;-150.0;3900.0;0;348.53;754.3;appui toit c0 t-150 : poteau
-321;Pilier fin métal (Thin Pillar);1039.2;150.0;3900.0;0;8.21;1050.0;appui toit c0 t+150 : poteau
-322;Pilier fin métal (Thin Pillar);739.2;150.0;3900.0;0;11.47;754.3;appui toit c0 t+150 : poteau
-323;Pilier fin métal (Thin Pillar);975.0;389.7;3900.0;30;21.79;1050.0;appui toit c1 t-150 : poteau
-324;Pilier fin métal (Thin Pillar);195.6;-60.3;3900.0;30;342.87;204.7;appui toit c1 t-150 : poteau
-325;Pilier fin métal (Thin Pillar);825.0;649.5;3900.0;30;38.21;1050.0;appui toit c1 t+150 : poteau
-326;Pilier fin métal (Thin Pillar);565.2;499.5;3900.0;30;41.47;754.3;appui toit c1 t+150 : poteau
-327;Pilier fin métal (Thin Pillar);649.5;825.0;3900.0;60;51.79;1050.0;appui toit c2 t-150 : poteau
-328;Pilier fin métal (Thin Pillar);199.5;45.6;3900.0;60;12.87;204.7;appui toit c2 t-150 : poteau
-329;Pilier fin métal (Thin Pillar);389.7;975.0;3900.0;60;68.21;1050.0;appui toit c2 t+150 : poteau
-330;Pilier fin métal (Thin Pillar);89.7;455.4;3900.0;60;78.86;464.1;appui toit c2 t+150 : poteau
-331;Pilier fin métal (Thin Pillar);150.0;1039.2;3900.0;90;81.79;1050.0;appui toit c3 t-150 : poteau
-332;Pilier fin métal (Thin Pillar);150.0;739.2;3900.0;90;78.53;754.3;appui toit c3 t-150 : poteau
-333;Pilier fin métal (Thin Pillar);-150.0;1039.2;3900.0;90;98.21;1050.0;appui toit c3 t+150 : poteau
-334;Pilier fin métal (Thin Pillar);-150.0;739.2;3900.0;90;101.47;754.3;appui toit c3 t+150 : poteau
-335;Pilier fin métal (Thin Pillar);-389.7;975.0;3900.0;120;111.79;1050.0;appui toit c4 t-150 : poteau
-336;Pilier fin métal (Thin Pillar);60.3;195.6;3900.0;120;72.87;204.7;appui toit c4 t-150 : poteau
-337;Pilier fin métal (Thin Pillar);-649.5;825.0;3900.0;120;128.21;1050.0;appui toit c4 t+150 : poteau
-338;Pilier fin métal (Thin Pillar);-199.5;45.6;3900.0;120;167.13;204.7;appui toit c4 t+150 : poteau
-339;Pilier fin métal (Thin Pillar);-825.0;649.5;3900.0;150;141.79;1050.0;appui toit c5 t-150 : poteau
-340;Pilier fin métal (Thin Pillar);-565.2;499.5;3900.0;150;138.53;754.3;appui toit c5 t-150 : poteau
-341;Pilier fin métal (Thin Pillar);-975.0;389.7;3900.0;150;158.21;1050.0;appui toit c5 t+150 : poteau
-342;Pilier fin métal (Thin Pillar);-195.6;-60.3;3900.0;150;197.13;204.7;appui toit c5 t+150 : poteau
-343;Pilier fin métal (Thin Pillar);-975.0;-389.7;3900.0;210;201.79;1050.0;appui toit c7 t-150 : poteau
-344;Pilier fin métal (Thin Pillar);-455.4;-89.7;3900.0;210;191.14;464.1;appui toit c7 t-150 : poteau
-345;Pilier fin métal (Thin Pillar);-825.0;-649.5;3900.0;210;218.21;1050.0;appui toit c7 t+150 : poteau
-346;Pilier fin métal (Thin Pillar);-45.6;-199.5;3900.0;210;257.13;204.7;appui toit c7 t+150 : poteau
-347;Pilier fin métal (Thin Pillar);-649.5;-825.0;3900.0;240;231.79;1050.0;appui toit c8 t-150 : poteau
-348;Pilier fin métal (Thin Pillar);-499.5;-565.2;3900.0;240;228.53;754.3;appui toit c8 t-150 : poteau
-349;Pilier fin métal (Thin Pillar);-389.7;-975.0;3900.0;240;248.21;1050.0;appui toit c8 t+150 : poteau
-350;Pilier fin métal (Thin Pillar);-89.7;-455.4;3900.0;240;258.86;464.1;appui toit c8 t+150 : poteau
-351;Pilier fin métal (Thin Pillar);-150.0;-1039.2;3900.0;270;261.79;1050.0;appui toit c9 t-150 : poteau
-352;Pilier fin métal (Thin Pillar);-150.0;-739.2;3900.0;270;258.53;754.3;appui toit c9 t-150 : poteau
-353;Pilier fin métal (Thin Pillar);150.0;-1039.2;3900.0;270;278.21;1050.0;appui toit c9 t+150 : poteau
-354;Pilier fin métal (Thin Pillar);150.0;-739.2;3900.0;270;281.47;754.3;appui toit c9 t+150 : poteau
-355;Pilier fin métal (Thin Pillar);389.7;-975.0;3900.0;300;291.79;1050.0;appui toit c10 t-150 : poteau
-356;Pilier fin métal (Thin Pillar);89.7;-455.4;3900.0;300;281.14;464.1;appui toit c10 t-150 : poteau
-357;Pilier fin métal (Thin Pillar);649.5;-825.0;3900.0;300;308.21;1050.0;appui toit c10 t+150 : poteau
-358;Pilier fin métal (Thin Pillar);349.5;-305.4;3900.0;300;318.86;464.1;appui toit c10 t+150 : poteau
-359;Pilier fin métal (Thin Pillar);825.0;-649.5;3900.0;330;321.79;1050.0;appui toit c11 t-150 : poteau
-360;Pilier fin métal (Thin Pillar);565.2;-499.5;3900.0;330;318.53;754.3;appui toit c11 t-150 : poteau
-361;Pilier fin métal (Thin Pillar);975.0;-389.7;3900.0;330;338.21;1050.0;appui toit c11 t+150 : poteau
-362;Pilier fin métal (Thin Pillar);455.4;-89.7;3900.0;330;348.86;464.1;appui toit c11 t+150 : poteau
-363;Rampe inclinée métal (Sloped Railing);1189.2;-150.0;3900.0;270;352.81;1198.7;toit rampes r3 c0 t-150
-364;Rampe inclinée métal (Sloped Railing);1189.2;150.0;3900.0;270;7.19;1198.7;toit rampes r3 c0 t+150
-365;Rampe inclinée métal (Sloped Railing);1104.9;464.7;3900.0;300;22.81;1198.7;toit rampes r3 c1 t-150
-366;Rampe inclinée métal (Sloped Railing);954.9;724.5;3900.0;300;37.19;1198.7;toit rampes r3 c1 t+150
-367;Rampe inclinée métal (Sloped Railing);724.5;954.9;3900.0;330;52.81;1198.7;toit rampes r3 c2 t-150
-368;Rampe inclinée métal (Sloped Railing);464.7;1104.9;3900.0;330;67.19;1198.7;toit rampes r3 c2 t+150
-369;Rampe inclinée métal (Sloped Railing);150.0;1189.2;3900.0;0;82.81;1198.7;toit rampes r3 c3 t-150
-370;Rampe inclinée métal (Sloped Railing);-150.0;1189.2;3900.0;0;97.19;1198.7;toit rampes r3 c3 t+150
-371;Rampe inclinée métal (Sloped Railing);-464.7;1104.9;3900.0;30;112.81;1198.7;toit rampes r3 c4 t-150
-372;Rampe inclinée métal (Sloped Railing);-724.5;954.9;3900.0;30;127.19;1198.7;toit rampes r3 c4 t+150
-373;Rampe inclinée métal (Sloped Railing);-954.9;724.5;3900.0;60;142.81;1198.7;toit rampes r3 c5 t-150
-374;Rampe inclinée métal (Sloped Railing);-1104.9;464.7;3900.0;60;157.19;1198.7;toit rampes r3 c5 t+150
-375;Rampe inclinée métal (Sloped Railing);-1104.9;-464.7;3900.0;120;202.81;1198.7;toit rampes r3 c7 t-150
-376;Rampe inclinée métal (Sloped Railing);-954.9;-724.5;3900.0;120;217.19;1198.7;toit rampes r3 c7 t+150
-377;Rampe inclinée métal (Sloped Railing);-724.5;-954.9;3900.0;150;232.81;1198.7;toit rampes r3 c8 t-150
-378;Rampe inclinée métal (Sloped Railing);-464.7;-1104.9;3900.0;150;247.19;1198.7;toit rampes r3 c8 t+150
-379;Rampe inclinée métal (Sloped Railing);-150.0;-1189.2;3900.0;180;262.81;1198.7;toit rampes r3 c9 t-150
-380;Rampe inclinée métal (Sloped Railing);150.0;-1189.2;3900.0;180;277.19;1198.7;toit rampes r3 c9 t+150
-381;Rampe inclinée métal (Sloped Railing);464.7;-1104.9;3900.0;210;292.81;1198.7;toit rampes r3 c10 t-150
-382;Rampe inclinée métal (Sloped Railing);724.5;-954.9;3900.0;210;307.19;1198.7;toit rampes r3 c10 t+150
-383;Rampe inclinée métal (Sloped Railing);954.9;-724.5;3900.0;240;322.81;1198.7;toit rampes r3 c11 t-150
-384;Rampe inclinée métal (Sloped Railing);1104.9;-464.7;3900.0;240;337.19;1198.7;toit rampes r3 c11 t+150
-385;Pilier fin métal (Thin Pillar);739.2;-150.0;4200.0;0;348.53;754.3;appui toit c0 t-150 : poteau
-386;Pilier fin métal (Thin Pillar);739.2;150.0;4200.0;0;11.47;754.3;appui toit c0 t+150 : poteau
-387;Pilier fin métal (Thin Pillar);195.6;-60.3;4200.0;30;342.87;204.7;appui toit c1 t-150 : poteau
-388;Pilier fin métal (Thin Pillar);565.2;499.5;4200.0;30;41.47;754.3;appui toit c1 t+150 : poteau
-389;Pilier fin métal (Thin Pillar);199.5;45.6;4200.0;60;12.87;204.7;appui toit c2 t-150 : poteau
-390;Pilier fin métal (Thin Pillar);89.7;455.4;4200.0;60;78.86;464.1;appui toit c2 t+150 : poteau
-391;Pilier fin métal (Thin Pillar);150.0;739.2;4200.0;90;78.53;754.3;appui toit c3 t-150 : poteau
-392;Pilier fin métal (Thin Pillar);-150.0;739.2;4200.0;90;101.47;754.3;appui toit c3 t+150 : poteau
-393;Pilier fin métal (Thin Pillar);60.3;195.6;4200.0;120;72.87;204.7;appui toit c4 t-150 : poteau
-394;Pilier fin métal (Thin Pillar);-199.5;45.6;4200.0;120;167.13;204.7;appui toit c4 t+150 : poteau
-395;Pilier fin métal (Thin Pillar);-565.2;499.5;4200.0;150;138.53;754.3;appui toit c5 t-150 : poteau
-396;Pilier fin métal (Thin Pillar);-195.6;-60.3;4200.0;150;197.13;204.7;appui toit c5 t+150 : poteau
-397;Pilier fin métal (Thin Pillar);-455.4;-89.7;4200.0;210;191.14;464.1;appui toit c7 t-150 : poteau
-398;Pilier fin métal (Thin Pillar);-45.6;-199.5;4200.0;210;257.13;204.7;appui toit c7 t+150 : poteau
-399;Pilier fin métal (Thin Pillar);-499.5;-565.2;4200.0;240;228.53;754.3;appui toit c8 t-150 : poteau
-400;Pilier fin métal (Thin Pillar);-89.7;-455.4;4200.0;240;258.86;464.1;appui toit c8 t+150 : poteau
-401;Pilier fin métal (Thin Pillar);-150.0;-739.2;4200.0;270;258.53;754.3;appui toit c9 t-150 : poteau
-402;Pilier fin métal (Thin Pillar);150.0;-739.2;4200.0;270;281.47;754.3;appui toit c9 t+150 : poteau
-403;Pilier fin métal (Thin Pillar);89.7;-455.4;4200.0;300;281.14;464.1;appui toit c10 t-150 : poteau
-404;Pilier fin métal (Thin Pillar);349.5;-305.4;4200.0;300;318.86;464.1;appui toit c10 t+150 : poteau
-405;Pilier fin métal (Thin Pillar);565.2;-499.5;4200.0;330;318.53;754.3;appui toit c11 t-150 : poteau
-406;Pilier fin métal (Thin Pillar);455.4;-89.7;4200.0;330;348.86;464.1;appui toit c11 t+150 : poteau
-407;Rampe inclinée métal (Sloped Railing);889.2;-150.0;4200.0;270;350.43;901.8;toit rampes r4 c0 t-150
-408;Rampe inclinée métal (Sloped Railing);889.2;150.0;4200.0;270;9.57;901.8;toit rampes r4 c0 t+150
-409;Rampe inclinée métal (Sloped Railing);845.1;314.7;4200.0;300;20.43;901.8;toit rampes r4 c1 t-150
-410;Rampe inclinée métal (Sloped Railing);695.1;574.5;4200.0;300;39.57;901.8;toit rampes r4 c1 t+150
-411;Rampe inclinée métal (Sloped Railing);574.5;695.1;4200.0;330;50.43;901.8;toit rampes r4 c2 t-150
-412;Rampe inclinée métal (Sloped Railing);314.7;845.1;4200.0;330;69.57;901.8;toit rampes r4 c2 t+150
-413;Rampe inclinée métal (Sloped Railing);150.0;889.2;4200.0;0;80.43;901.8;toit rampes r4 c3 t-150
-414;Rampe inclinée métal (Sloped Railing);-150.0;889.2;4200.0;0;99.57;901.8;toit rampes r4 c3 t+150
-415;Rampe inclinée métal (Sloped Railing);-314.7;845.1;4200.0;30;110.43;901.8;toit rampes r4 c4 t-150
-416;Rampe inclinée métal (Sloped Railing);-574.5;695.1;4200.0;30;129.57;901.8;toit rampes r4 c4 t+150
-417;Rampe inclinée métal (Sloped Railing);-695.1;574.5;4200.0;60;140.43;901.8;toit rampes r4 c5 t-150
-418;Rampe inclinée métal (Sloped Railing);-845.1;314.7;4200.0;60;159.57;901.8;toit rampes r4 c5 t+150
-419;Rampe inclinée métal (Sloped Railing);-845.1;-314.7;4200.0;120;200.43;901.8;toit rampes r4 c7 t-150
-420;Rampe inclinée métal (Sloped Railing);-695.1;-574.5;4200.0;120;219.57;901.8;toit rampes r4 c7 t+150
-421;Rampe inclinée métal (Sloped Railing);-574.5;-695.1;4200.0;150;230.43;901.8;toit rampes r4 c8 t-150
-422;Rampe inclinée métal (Sloped Railing);-314.7;-845.1;4200.0;150;249.57;901.8;toit rampes r4 c8 t+150
-423;Rampe inclinée métal (Sloped Railing);-150.0;-889.2;4200.0;180;260.43;901.8;toit rampes r4 c9 t-150
-424;Rampe inclinée métal (Sloped Railing);150.0;-889.2;4200.0;180;279.57;901.8;toit rampes r4 c9 t+150
-425;Rampe inclinée métal (Sloped Railing);314.7;-845.1;4200.0;210;290.43;901.8;toit rampes r4 c10 t-150
-426;Rampe inclinée métal (Sloped Railing);574.5;-695.1;4200.0;210;309.57;901.8;toit rampes r4 c10 t+150
-427;Rampe inclinée métal (Sloped Railing);695.1;-574.5;4200.0;240;320.43;901.8;toit rampes r4 c11 t-150
-428;Rampe inclinée métal (Sloped Railing);845.1;-314.7;4200.0;240;339.57;901.8;toit rampes r4 c11 t+150
-429;Pilier fin métal (Thin Pillar);195.6;-60.3;4500.0;30;342.87;204.7;appui toit c1 t-150 : poteau
-430;Pilier fin métal (Thin Pillar);199.5;45.6;4500.0;60;12.87;204.7;appui toit c2 t-150 : poteau
-431;Pilier fin métal (Thin Pillar);89.7;455.4;4500.0;60;78.86;464.1;appui toit c2 t+150 : poteau
-432;Pilier fin métal (Thin Pillar);60.3;195.6;4500.0;120;72.87;204.7;appui toit c4 t-150 : poteau
-433;Pilier fin métal (Thin Pillar);-199.5;45.6;4500.0;120;167.13;204.7;appui toit c4 t+150 : poteau
-434;Pilier fin métal (Thin Pillar);-195.6;-60.3;4500.0;150;197.13;204.7;appui toit c5 t+150 : poteau
-435;Pilier fin métal (Thin Pillar);-455.4;-89.7;4500.0;210;191.14;464.1;appui toit c7 t-150 : poteau
-436;Pilier fin métal (Thin Pillar);-45.6;-199.5;4500.0;210;257.13;204.7;appui toit c7 t+150 : poteau
-437;Pilier fin métal (Thin Pillar);-89.7;-455.4;4500.0;240;258.86;464.1;appui toit c8 t+150 : poteau
-438;Pilier fin métal (Thin Pillar);89.7;-455.4;4500.0;300;281.14;464.1;appui toit c10 t-150 : poteau
-439;Pilier fin métal (Thin Pillar);349.5;-305.4;4500.0;300;318.86;464.1;appui toit c10 t+150 : poteau
-440;Pilier fin métal (Thin Pillar);455.4;-89.7;4500.0;330;348.86;464.1;appui toit c11 t+150 : poteau
-441;Rampe inclinée métal (Sloped Railing);585.3;164.7;4500.0;300;15.72;608.0;toit rampes r5 c1 t-150
-442;Rampe inclinée métal (Sloped Railing);424.5;435.3;4500.0;330;45.72;608.0;toit rampes r5 c2 t-150
-443;Rampe inclinée métal (Sloped Railing);164.7;585.3;4500.0;330;74.28;608.0;toit rampes r5 c2 t+150
-444;Rampe inclinée métal (Sloped Railing);-164.7;585.3;4500.0;30;105.72;608.0;toit rampes r5 c4 t-150
-445;Rampe inclinée métal (Sloped Railing);-424.5;435.3;4500.0;30;134.28;608.0;toit rampes r5 c4 t+150
-446;Rampe inclinée métal (Sloped Railing);-585.3;164.7;4500.0;60;164.28;608.0;toit rampes r5 c5 t+150
-447;Rampe inclinée métal (Sloped Railing);-585.3;-164.7;4500.0;120;195.72;608.0;toit rampes r5 c7 t-150
-448;Rampe inclinée métal (Sloped Railing);-435.3;-424.5;4500.0;120;224.28;608.0;toit rampes r5 c7 t+150
-449;Rampe inclinée métal (Sloped Railing);-164.7;-585.3;4500.0;150;254.28;608.0;toit rampes r5 c8 t+150
-450;Rampe inclinée métal (Sloped Railing);164.7;-585.3;4500.0;210;285.72;608.0;toit rampes r5 c10 t-150
-451;Rampe inclinée métal (Sloped Railing);424.5;-435.3;4500.0;210;314.28;608.0;toit rampes r5 c10 t+150
-452;Rampe inclinée métal (Sloped Railing);585.3;-164.7;4500.0;240;344.28;608.0;toit rampes r5 c11 t+150
-453;Pilier fin métal (Thin Pillar);195.6;-60.3;4800.0;30;342.87;204.7;appui toit c1 t-150 : poteau
-454;Pilier fin métal (Thin Pillar);199.5;45.6;4800.0;60;12.87;204.7;appui toit c2 t-150 : poteau
-455;Pilier fin métal (Thin Pillar);60.3;195.6;4800.0;120;72.87;204.7;appui toit c4 t-150 : poteau
-456;Pilier fin métal (Thin Pillar);-199.5;45.6;4800.0;120;167.13;204.7;appui toit c4 t+150 : poteau
-457;Pilier fin métal (Thin Pillar);-195.6;-60.3;4800.0;150;197.13;204.7;appui toit c5 t+150 : poteau
-458;Pilier fin métal (Thin Pillar);-45.6;-199.5;4800.0;210;257.13;204.7;appui toit c7 t+150 : poteau
-459;Rampe inclinée métal (Sloped Railing);325.5;14.7;4800.0;300;2.59;325.8;toit rampes r6 c1 t-150
-460;Rampe inclinée métal (Sloped Railing);274.5;175.5;4800.0;330;32.59;325.8;toit rampes r6 c2 t-150
-461;Rampe inclinée métal (Sloped Railing);-14.7;325.5;4800.0;30;92.59;325.8;toit rampes r6 c4 t-150
-462;Rampe inclinée métal (Sloped Railing);-274.5;175.5;4800.0;30;147.41;325.8;toit rampes r6 c4 t+150
-463;Rampe inclinée métal (Sloped Railing);-325.5;14.7;4800.0;60;177.41;325.8;toit rampes r6 c5 t+150
-464;Rampe inclinée métal (Sloped Railing);-175.5;-274.5;4800.0;120;237.41;325.8;toit rampes r6 c7 t+150
-465;Rampe inclinée métal (Sloped Railing);14.7;-325.5;4800.0;210;272.59;325.8;toit rampes r6 c10 t-150
-466;Rampe inclinée métal (Sloped Railing);274.5;-175.5;4800.0;210;327.41;325.8;toit rampes r6 c10 t+150
+1;Rampe inclinée métal (Sloped Railing);-2089.2;709.8;2700.0;180.0;161.24;2206.5;casquette du trou θ156.1
+2;Rampe inclinée métal (Sloped Railing);-2089.2;-709.8;2700.0;0.0;198.76;2206.5;casquette du trou θ203.9
+3;Pilier fin métal (Thin Pillar);1939.2;-600.0;3000.0;0;342.81;2029.9;appui toit c0 t-600 : poteau
+4;Pilier fin métal (Thin Pillar);1939.2;-300.0;3000.0;0;351.21;1962.3;appui toit c0 t-300 : poteau
+5;Pilier fin métal (Thin Pillar);1339.2;-300.0;3000.0;0;347.37;1372.4;appui toit c0 t-300 : poteau
+6;Pilier fin métal (Thin Pillar);1939.2;0.0;3000.0;0;0.0;1939.2;appui toit c0 t-0 : poteau
+7;Pilier fin métal (Thin Pillar);1039.2;0.0;3000.0;0;0.0;1039.2;appui toit c0 t-0 : poteau
+8;Pilier fin métal (Thin Pillar);139.2;0.0;3000.0;0;0.0;139.2;appui toit c0 t-0 : poteau
+9;Pilier fin métal (Thin Pillar);1939.2;300.0;3000.0;0;8.79;1962.3;appui toit c0 t+300 : poteau
+10;Pilier fin métal (Thin Pillar);1339.2;300.0;3000.0;0;12.63;1372.4;appui toit c0 t+300 : poteau
+11;Pilier fin métal (Thin Pillar);1939.2;600.0;3000.0;0;17.19;2029.9;appui toit c0 t+600 : poteau
+12;Pilier fin métal (Thin Pillar);1979.4;450.0;3000.0;30;12.81;2029.9;appui toit c1 t-600 : poteau
+13;Pilier fin métal (Thin Pillar);1829.4;709.8;3000.0;30;21.21;1962.3;appui toit c1 t-300 : poteau
+14;Pilier fin métal (Thin Pillar);1050.0;259.8;3000.0;30;13.9;1081.7;appui toit c1 t-300 : poteau
+15;Pilier fin métal (Thin Pillar);790.2;109.8;3000.0;30;7.91;797.8;appui toit c1 t-300 : poteau
+16;Pilier fin métal (Thin Pillar);1679.4;969.6;3000.0;30;30.0;1939.2;appui toit c1 t-0 : poteau
+17;Pilier fin métal (Thin Pillar);900.0;519.6;3000.0;30;30.0;1039.2;appui toit c1 t-0 : poteau
+18;Pilier fin métal (Thin Pillar);120.6;69.6;3000.0;30;30.0;139.2;appui toit c1 t-0 : poteau
+19;Pilier fin métal (Thin Pillar);1529.4;1229.4;3000.0;30;38.79;1962.3;appui toit c1 t+300 : poteau
+20;Pilier fin métal (Thin Pillar);750.0;779.4;3000.0;30;46.1;1081.7;appui toit c1 t+300 : poteau
+21;Pilier fin métal (Thin Pillar);490.2;629.4;3000.0;30;52.09;797.8;appui toit c1 t+300 : poteau
+22;Pilier fin métal (Thin Pillar);1379.4;1489.2;3000.0;30;47.19;2029.9;appui toit c1 t+600 : poteau
+23;Pilier fin métal (Thin Pillar);1489.2;1379.4;3000.0;60;42.81;2029.9;appui toit c2 t-600 : poteau
+24;Pilier fin métal (Thin Pillar);1229.4;1529.4;3000.0;60;51.21;1962.3;appui toit c2 t-300 : poteau
+25;Pilier fin métal (Thin Pillar);929.4;1009.8;3000.0;60;47.37;1372.4;appui toit c2 t-300 : poteau
+26;Pilier fin métal (Thin Pillar);969.6;1679.4;3000.0;60;60.0;1939.2;appui toit c2 t-0 : poteau
+27;Pilier fin métal (Thin Pillar);519.6;900.0;3000.0;60;60.0;1039.2;appui toit c2 t-0 : poteau
+28;Pilier fin métal (Thin Pillar);69.6;120.6;3000.0;60;60.0;139.2;appui toit c2 t-0 : poteau
+29;Pilier fin métal (Thin Pillar);709.8;1829.4;3000.0;60;68.79;1962.3;appui toit c2 t+300 : poteau
+30;Pilier fin métal (Thin Pillar);259.8;1050.0;3000.0;60;76.1;1081.7;appui toit c2 t+300 : poteau
+31;Pilier fin métal (Thin Pillar);109.8;790.2;3000.0;60;82.09;797.8;appui toit c2 t+300 : poteau
+32;Pilier fin métal (Thin Pillar);450.0;1979.4;3000.0;60;77.19;2029.9;appui toit c2 t+600 : poteau
+33;Pilier fin métal (Thin Pillar);600.0;1939.2;3000.0;90;72.81;2029.9;appui toit c3 t-600 : poteau
+34;Pilier fin métal (Thin Pillar);300.0;1939.2;3000.0;90;81.21;1962.3;appui toit c3 t-300 : poteau
+35;Pilier fin métal (Thin Pillar);300.0;1339.2;3000.0;90;77.37;1372.4;appui toit c3 t-300 : poteau
+36;Pilier fin métal (Thin Pillar);-0.0;1939.2;3000.0;90;90.0;1939.2;appui toit c3 t-0 : poteau
+37;Pilier fin métal (Thin Pillar);-0.0;1039.2;3000.0;90;90.0;1039.2;appui toit c3 t-0 : poteau
+38;Pilier fin métal (Thin Pillar);-0.0;139.2;3000.0;90;90.0;139.2;appui toit c3 t-0 : poteau
+39;Pilier fin métal (Thin Pillar);-300.0;1939.2;3000.0;90;98.79;1962.3;appui toit c3 t+300 : poteau
+40;Pilier fin métal (Thin Pillar);-300.0;1339.2;3000.0;90;102.63;1372.4;appui toit c3 t+300 : poteau
+41;Pilier fin métal (Thin Pillar);-600.0;1939.2;3000.0;90;107.19;2029.9;appui toit c3 t+600 : poteau
+42;Pilier fin métal (Thin Pillar);-450.0;1979.4;3000.0;120;102.81;2029.9;appui toit c4 t-600 : poteau
+43;Pilier fin métal (Thin Pillar);-709.8;1829.4;3000.0;120;111.21;1962.3;appui toit c4 t-300 : poteau
+44;Pilier fin métal (Thin Pillar);-259.8;1050.0;3000.0;120;103.9;1081.7;appui toit c4 t-300 : poteau
+45;Pilier fin métal (Thin Pillar);-109.8;790.2;3000.0;120;97.91;797.8;appui toit c4 t-300 : poteau
+46;Pilier fin métal (Thin Pillar);-969.6;1679.4;3000.0;120;120.0;1939.2;appui toit c4 t-0 : poteau
+47;Pilier fin métal (Thin Pillar);-519.6;900.0;3000.0;120;120.0;1039.2;appui toit c4 t-0 : poteau
+48;Pilier fin métal (Thin Pillar);-69.6;120.6;3000.0;120;120.0;139.2;appui toit c4 t-0 : poteau
+49;Pilier fin métal (Thin Pillar);-1229.4;1529.4;3000.0;120;128.79;1962.3;appui toit c4 t+300 : poteau
+50;Pilier fin métal (Thin Pillar);-779.4;750.0;3000.0;120;136.1;1081.7;appui toit c4 t+300 : poteau
+51;Pilier fin métal (Thin Pillar);-629.4;490.2;3000.0;120;142.09;797.8;appui toit c4 t+300 : poteau
+52;Pilier fin métal (Thin Pillar);-1489.2;1379.4;3000.0;120;137.19;2029.9;appui toit c4 t+600 : poteau
+53;Pilier fin métal (Thin Pillar);-1379.4;1489.2;3000.0;150;132.81;2029.9;appui toit c5 t-600 : poteau
+54;Pilier fin métal (Thin Pillar);-1529.4;1229.4;3000.0;150;141.21;1962.3;appui toit c5 t-300 : poteau
+55;Pilier fin métal (Thin Pillar);-1009.8;929.4;3000.0;150;137.37;1372.4;appui toit c5 t-300 : poteau
+56;Pilier fin métal (Thin Pillar);-1679.4;969.6;3000.0;150;150.0;1939.2;appui toit c5 t-0 : poteau
+57;Pilier fin métal (Thin Pillar);-900.0;519.6;3000.0;150;150.0;1039.2;appui toit c5 t-0 : poteau
+58;Pilier fin métal (Thin Pillar);-120.6;69.6;3000.0;150;150.0;139.2;appui toit c5 t-0 : poteau
+59;Pilier fin métal (Thin Pillar);-1679.4;-969.6;3000.0;210;210.0;1939.2;appui toit c7 t-0 : poteau
+60;Pilier fin métal (Thin Pillar);-900.0;-519.6;3000.0;210;210.0;1039.2;appui toit c7 t-0 : poteau
+61;Pilier fin métal (Thin Pillar);-120.6;-69.6;3000.0;210;210.0;139.2;appui toit c7 t-0 : poteau
+62;Pilier fin métal (Thin Pillar);-1529.4;-1229.4;3000.0;210;218.79;1962.3;appui toit c7 t+300 : poteau
+63;Pilier fin métal (Thin Pillar);-1009.8;-929.4;3000.0;210;222.63;1372.4;appui toit c7 t+300 : poteau
+64;Pilier fin métal (Thin Pillar);-1229.4;-1529.4;3000.0;240;231.21;1962.3;appui toit c8 t-300 : poteau
+65;Pilier fin métal (Thin Pillar);-779.4;-750.0;3000.0;240;223.9;1081.7;appui toit c8 t-300 : poteau
+66;Pilier fin métal (Thin Pillar);-629.4;-490.2;3000.0;240;217.91;797.8;appui toit c8 t-300 : poteau
+67;Pilier fin métal (Thin Pillar);-969.6;-1679.4;3000.0;240;240.0;1939.2;appui toit c8 t-0 : poteau
+68;Pilier fin métal (Thin Pillar);-519.6;-900.0;3000.0;240;240.0;1039.2;appui toit c8 t-0 : poteau
+69;Pilier fin métal (Thin Pillar);-69.6;-120.6;3000.0;240;240.0;139.2;appui toit c8 t-0 : poteau
+70;Pilier fin métal (Thin Pillar);-709.8;-1829.4;3000.0;240;248.79;1962.3;appui toit c8 t+300 : poteau
+71;Pilier fin métal (Thin Pillar);-259.8;-1050.0;3000.0;240;256.1;1081.7;appui toit c8 t+300 : poteau
+72;Pilier fin métal (Thin Pillar);-109.8;-790.2;3000.0;240;262.09;797.8;appui toit c8 t+300 : poteau
+73;Pilier fin métal (Thin Pillar);-450.0;-1979.4;3000.0;240;257.19;2029.9;appui toit c8 t+600 : poteau
+74;Pilier fin métal (Thin Pillar);-600.0;-1939.2;3000.0;270;252.81;2029.9;appui toit c9 t-600 : poteau
+75;Pilier fin métal (Thin Pillar);-300.0;-1939.2;3000.0;270;261.21;1962.3;appui toit c9 t-300 : poteau
+76;Pilier fin métal (Thin Pillar);-300.0;-1339.2;3000.0;270;257.37;1372.4;appui toit c9 t-300 : poteau
+77;Pilier fin métal (Thin Pillar);-0.0;-1939.2;3000.0;270;270.0;1939.2;appui toit c9 t-0 : poteau
+78;Pilier fin métal (Thin Pillar);-0.0;-1039.2;3000.0;270;270.0;1039.2;appui toit c9 t-0 : poteau
+79;Pilier fin métal (Thin Pillar);-0.0;-139.2;3000.0;270;270.0;139.2;appui toit c9 t-0 : poteau
+80;Pilier fin métal (Thin Pillar);300.0;-1939.2;3000.0;270;278.79;1962.3;appui toit c9 t+300 : poteau
+81;Pilier fin métal (Thin Pillar);300.0;-1339.2;3000.0;270;282.63;1372.4;appui toit c9 t+300 : poteau
+82;Pilier fin métal (Thin Pillar);600.0;-1939.2;3000.0;270;287.19;2029.9;appui toit c9 t+600 : poteau
+83;Pilier fin métal (Thin Pillar);450.0;-1979.4;3000.0;300;282.81;2029.9;appui toit c10 t-600 : poteau
+84;Pilier fin métal (Thin Pillar);709.8;-1829.4;3000.0;300;291.21;1962.3;appui toit c10 t-300 : poteau
+85;Pilier fin métal (Thin Pillar);259.8;-1050.0;3000.0;300;283.9;1081.7;appui toit c10 t-300 : poteau
+86;Pilier fin métal (Thin Pillar);109.8;-790.2;3000.0;300;277.91;797.8;appui toit c10 t-300 : poteau
+87;Pilier fin métal (Thin Pillar);969.6;-1679.4;3000.0;300;300.0;1939.2;appui toit c10 t-0 : poteau
+88;Pilier fin métal (Thin Pillar);519.6;-900.0;3000.0;300;300.0;1039.2;appui toit c10 t-0 : poteau
+89;Pilier fin métal (Thin Pillar);69.6;-120.6;3000.0;300;300.0;139.2;appui toit c10 t-0 : poteau
+90;Pilier fin métal (Thin Pillar);1229.4;-1529.4;3000.0;300;308.79;1962.3;appui toit c10 t+300 : poteau
+91;Pilier fin métal (Thin Pillar);929.4;-1009.8;3000.0;300;312.63;1372.4;appui toit c10 t+300 : poteau
+92;Pilier fin métal (Thin Pillar);1489.2;-1379.4;3000.0;300;317.19;2029.9;appui toit c10 t+600 : poteau
+93;Pilier fin métal (Thin Pillar);1379.4;-1489.2;3000.0;330;312.81;2029.9;appui toit c11 t-600 : poteau
+94;Pilier fin métal (Thin Pillar);1529.4;-1229.4;3000.0;330;321.21;1962.3;appui toit c11 t-300 : poteau
+95;Pilier fin métal (Thin Pillar);750.0;-779.4;3000.0;330;313.9;1081.7;appui toit c11 t-300 : poteau
+96;Pilier fin métal (Thin Pillar);490.2;-629.4;3000.0;330;307.91;797.8;appui toit c11 t-300 : poteau
+97;Pilier fin métal (Thin Pillar);1679.4;-969.6;3000.0;330;330.0;1939.2;appui toit c11 t-0 : poteau
+98;Pilier fin métal (Thin Pillar);900.0;-519.6;3000.0;330;330.0;1039.2;appui toit c11 t-0 : poteau
+99;Pilier fin métal (Thin Pillar);120.6;-69.6;3000.0;330;330.0;139.2;appui toit c11 t-0 : poteau
+100;Pilier fin métal (Thin Pillar);1829.4;-709.8;3000.0;330;338.79;1962.3;appui toit c11 t+300 : poteau
+101;Pilier fin métal (Thin Pillar);1050.0;-259.8;3000.0;330;346.1;1081.7;appui toit c11 t+300 : poteau
+102;Pilier fin métal (Thin Pillar);790.2;-109.8;3000.0;330;352.09;797.8;appui toit c11 t+300 : poteau
+103;Pilier fin métal (Thin Pillar);1979.4;-450.0;3000.0;330;347.19;2029.9;appui toit c11 t+600 : poteau
+104;Rampe inclinée métal (Sloped Railing);2089.2;-600.0;3000.0;270;343.98;2173.7;toit rampes r0 c0 t-600
+105;Rampe inclinée métal (Sloped Railing);2089.2;-300.0;3000.0;270;351.83;2110.7;toit rampes r0 c0 t-300
+106;Rampe inclinée métal (Sloped Railing);2089.2;0.0;3000.0;270;0.0;2089.2;toit rampes r0 c0 t-0
+107;Rampe inclinée métal (Sloped Railing);2089.2;300.0;3000.0;270;8.17;2110.7;toit rampes r0 c0 t+300
+108;Rampe inclinée métal (Sloped Railing);2089.2;600.0;3000.0;270;16.02;2173.7;toit rampes r0 c0 t+600
+109;Rampe inclinée métal (Sloped Railing);2109.3;525.0;3000.0;300;13.98;2173.7;toit rampes r0 c1 t-600
+110;Rampe inclinée métal (Sloped Railing);1959.3;784.8;3000.0;300;21.83;2110.7;toit rampes r0 c1 t-300
+111;Rampe inclinée métal (Sloped Railing);1809.3;1044.6;3000.0;300;30.0;2089.2;toit rampes r0 c1 t-0
+112;Rampe inclinée métal (Sloped Railing);1659.3;1304.4;3000.0;300;38.17;2110.7;toit rampes r0 c1 t+300
+113;Rampe inclinée métal (Sloped Railing);1509.3;1564.2;3000.0;300;46.02;2173.7;toit rampes r0 c1 t+600
+114;Rampe inclinée métal (Sloped Railing);1564.2;1509.3;3000.0;330;43.98;2173.7;toit rampes r0 c2 t-600
+115;Rampe inclinée métal (Sloped Railing);1304.4;1659.3;3000.0;330;51.83;2110.7;toit rampes r0 c2 t-300
+116;Rampe inclinée métal (Sloped Railing);1044.6;1809.3;3000.0;330;60.0;2089.2;toit rampes r0 c2 t-0
+117;Rampe inclinée métal (Sloped Railing);784.8;1959.3;3000.0;330;68.17;2110.7;toit rampes r0 c2 t+300
+118;Rampe inclinée métal (Sloped Railing);525.0;2109.3;3000.0;330;76.02;2173.7;toit rampes r0 c2 t+600
+119;Rampe inclinée métal (Sloped Railing);600.0;2089.2;3000.0;0;73.98;2173.7;toit rampes r0 c3 t-600
+120;Rampe inclinée métal (Sloped Railing);300.0;2089.2;3000.0;0;81.83;2110.7;toit rampes r0 c3 t-300
+121;Rampe inclinée métal (Sloped Railing);0.0;2089.2;3000.0;0;90.0;2089.2;toit rampes r0 c3 t-0
+122;Rampe inclinée métal (Sloped Railing);-300.0;2089.2;3000.0;0;98.17;2110.7;toit rampes r0 c3 t+300
+123;Rampe inclinée métal (Sloped Railing);-600.0;2089.2;3000.0;0;106.02;2173.7;toit rampes r0 c3 t+600
+124;Rampe inclinée métal (Sloped Railing);-525.0;2109.3;3000.0;30;103.98;2173.7;toit rampes r0 c4 t-600
+125;Rampe inclinée métal (Sloped Railing);-784.8;1959.3;3000.0;30;111.83;2110.7;toit rampes r0 c4 t-300
+126;Rampe inclinée métal (Sloped Railing);-1044.6;1809.3;3000.0;30;120.0;2089.2;toit rampes r0 c4 t-0
+127;Rampe inclinée métal (Sloped Railing);-1304.4;1659.3;3000.0;30;128.17;2110.7;toit rampes r0 c4 t+300
+128;Rampe inclinée métal (Sloped Railing);-1564.2;1509.3;3000.0;30;136.02;2173.7;toit rampes r0 c4 t+600
+129;Rampe inclinée métal (Sloped Railing);-1509.3;1564.2;3000.0;60;133.98;2173.7;toit rampes r0 c5 t-600
+130;Rampe inclinée métal (Sloped Railing);-1659.3;1304.4;3000.0;60;141.83;2110.7;toit rampes r0 c5 t-300
+131;Rampe inclinée métal (Sloped Railing);-1809.3;1044.6;3000.0;60;150.0;2089.2;toit rampes r0 c5 t-0
+132;Rampe inclinée métal (Sloped Railing);-1809.3;-1044.6;3000.0;120;210.0;2089.2;toit rampes r0 c7 t-0
+133;Rampe inclinée métal (Sloped Railing);-1659.3;-1304.4;3000.0;120;218.17;2110.7;toit rampes r0 c7 t+300
+134;Rampe inclinée métal (Sloped Railing);-1304.4;-1659.3;3000.0;150;231.83;2110.7;toit rampes r0 c8 t-300
+135;Rampe inclinée métal (Sloped Railing);-1044.6;-1809.3;3000.0;150;240.0;2089.2;toit rampes r0 c8 t-0
+136;Rampe inclinée métal (Sloped Railing);-784.8;-1959.3;3000.0;150;248.17;2110.7;toit rampes r0 c8 t+300
+137;Rampe inclinée métal (Sloped Railing);-525.0;-2109.3;3000.0;150;256.02;2173.7;toit rampes r0 c8 t+600
+138;Rampe inclinée métal (Sloped Railing);-600.0;-2089.2;3000.0;180;253.98;2173.7;toit rampes r0 c9 t-600
+139;Rampe inclinée métal (Sloped Railing);-300.0;-2089.2;3000.0;180;261.83;2110.7;toit rampes r0 c9 t-300
+140;Rampe inclinée métal (Sloped Railing);-0.0;-2089.2;3000.0;180;270.0;2089.2;toit rampes r0 c9 t-0
+141;Rampe inclinée métal (Sloped Railing);300.0;-2089.2;3000.0;180;278.17;2110.7;toit rampes r0 c9 t+300
+142;Rampe inclinée métal (Sloped Railing);600.0;-2089.2;3000.0;180;286.02;2173.7;toit rampes r0 c9 t+600
+143;Rampe inclinée métal (Sloped Railing);525.0;-2109.3;3000.0;210;283.98;2173.7;toit rampes r0 c10 t-600
+144;Rampe inclinée métal (Sloped Railing);784.8;-1959.3;3000.0;210;291.83;2110.7;toit rampes r0 c10 t-300
+145;Rampe inclinée métal (Sloped Railing);1044.6;-1809.3;3000.0;210;300.0;2089.2;toit rampes r0 c10 t-0
+146;Rampe inclinée métal (Sloped Railing);1304.4;-1659.3;3000.0;210;308.17;2110.7;toit rampes r0 c10 t+300
+147;Rampe inclinée métal (Sloped Railing);1564.2;-1509.3;3000.0;210;316.02;2173.7;toit rampes r0 c10 t+600
+148;Rampe inclinée métal (Sloped Railing);1509.3;-1564.2;3000.0;240;313.98;2173.7;toit rampes r0 c11 t-600
+149;Rampe inclinée métal (Sloped Railing);1659.3;-1304.4;3000.0;240;321.83;2110.7;toit rampes r0 c11 t-300
+150;Rampe inclinée métal (Sloped Railing);1809.3;-1044.6;3000.0;240;330.0;2089.2;toit rampes r0 c11 t-0
+151;Rampe inclinée métal (Sloped Railing);1959.3;-784.8;3000.0;240;338.17;2110.7;toit rampes r0 c11 t+300
+152;Rampe inclinée métal (Sloped Railing);2109.3;-525.0;3000.0;240;346.02;2173.7;toit rampes r0 c11 t+600
+153;Pilier fin métal (Thin Pillar);1339.2;-300.0;3300.0;0;347.37;1372.4;appui toit c0 t-300 : poteau
+154;Pilier fin métal (Thin Pillar);1039.2;0.0;3300.0;0;0.0;1039.2;appui toit c0 t-0 : poteau
+155;Pilier fin métal (Thin Pillar);139.2;0.0;3300.0;0;0.0;139.2;appui toit c0 t-0 : poteau
+156;Pilier fin métal (Thin Pillar);1339.2;300.0;3300.0;0;12.63;1372.4;appui toit c0 t+300 : poteau
+157;Pilier fin métal (Thin Pillar);1050.0;259.8;3300.0;30;13.9;1081.7;appui toit c1 t-300 : poteau
+158;Pilier fin métal (Thin Pillar);790.2;109.8;3300.0;30;7.91;797.8;appui toit c1 t-300 : poteau
+159;Pilier fin métal (Thin Pillar);900.0;519.6;3300.0;30;30.0;1039.2;appui toit c1 t-0 : poteau
+160;Pilier fin métal (Thin Pillar);120.6;69.6;3300.0;30;30.0;139.2;appui toit c1 t-0 : poteau
+161;Pilier fin métal (Thin Pillar);750.0;779.4;3300.0;30;46.1;1081.7;appui toit c1 t+300 : poteau
+162;Pilier fin métal (Thin Pillar);490.2;629.4;3300.0;30;52.09;797.8;appui toit c1 t+300 : poteau
+163;Pilier fin métal (Thin Pillar);929.4;1009.8;3300.0;60;47.37;1372.4;appui toit c2 t-300 : poteau
+164;Pilier fin métal (Thin Pillar);519.6;900.0;3300.0;60;60.0;1039.2;appui toit c2 t-0 : poteau
+165;Pilier fin métal (Thin Pillar);69.6;120.6;3300.0;60;60.0;139.2;appui toit c2 t-0 : poteau
+166;Pilier fin métal (Thin Pillar);259.8;1050.0;3300.0;60;76.1;1081.7;appui toit c2 t+300 : poteau
+167;Pilier fin métal (Thin Pillar);109.8;790.2;3300.0;60;82.09;797.8;appui toit c2 t+300 : poteau
+168;Pilier fin métal (Thin Pillar);300.0;1339.2;3300.0;90;77.37;1372.4;appui toit c3 t-300 : poteau
+169;Pilier fin métal (Thin Pillar);-0.0;1039.2;3300.0;90;90.0;1039.2;appui toit c3 t-0 : poteau
+170;Pilier fin métal (Thin Pillar);-0.0;139.2;3300.0;90;90.0;139.2;appui toit c3 t-0 : poteau
+171;Pilier fin métal (Thin Pillar);-300.0;1339.2;3300.0;90;102.63;1372.4;appui toit c3 t+300 : poteau
+172;Pilier fin métal (Thin Pillar);-259.8;1050.0;3300.0;120;103.9;1081.7;appui toit c4 t-300 : poteau
+173;Pilier fin métal (Thin Pillar);-109.8;790.2;3300.0;120;97.91;797.8;appui toit c4 t-300 : poteau
+174;Pilier fin métal (Thin Pillar);-519.6;900.0;3300.0;120;120.0;1039.2;appui toit c4 t-0 : poteau
+175;Pilier fin métal (Thin Pillar);-69.6;120.6;3300.0;120;120.0;139.2;appui toit c4 t-0 : poteau
+176;Pilier fin métal (Thin Pillar);-779.4;750.0;3300.0;120;136.1;1081.7;appui toit c4 t+300 : poteau
+177;Pilier fin métal (Thin Pillar);-629.4;490.2;3300.0;120;142.09;797.8;appui toit c4 t+300 : poteau
+178;Pilier fin métal (Thin Pillar);-1009.8;929.4;3300.0;150;137.37;1372.4;appui toit c5 t-300 : poteau
+179;Pilier fin métal (Thin Pillar);-900.0;519.6;3300.0;150;150.0;1039.2;appui toit c5 t-0 : poteau
+180;Pilier fin métal (Thin Pillar);-120.6;69.6;3300.0;150;150.0;139.2;appui toit c5 t-0 : poteau
+181;Pilier fin métal (Thin Pillar);-900.0;-519.6;3300.0;210;210.0;1039.2;appui toit c7 t-0 : poteau
+182;Pilier fin métal (Thin Pillar);-120.6;-69.6;3300.0;210;210.0;139.2;appui toit c7 t-0 : poteau
+183;Pilier fin métal (Thin Pillar);-1009.8;-929.4;3300.0;210;222.63;1372.4;appui toit c7 t+300 : poteau
+184;Pilier fin métal (Thin Pillar);-779.4;-750.0;3300.0;240;223.9;1081.7;appui toit c8 t-300 : poteau
+185;Pilier fin métal (Thin Pillar);-629.4;-490.2;3300.0;240;217.91;797.8;appui toit c8 t-300 : poteau
+186;Pilier fin métal (Thin Pillar);-519.6;-900.0;3300.0;240;240.0;1039.2;appui toit c8 t-0 : poteau
+187;Pilier fin métal (Thin Pillar);-69.6;-120.6;3300.0;240;240.0;139.2;appui toit c8 t-0 : poteau
+188;Pilier fin métal (Thin Pillar);-259.8;-1050.0;3300.0;240;256.1;1081.7;appui toit c8 t+300 : poteau
+189;Pilier fin métal (Thin Pillar);-109.8;-790.2;3300.0;240;262.09;797.8;appui toit c8 t+300 : poteau
+190;Pilier fin métal (Thin Pillar);-300.0;-1339.2;3300.0;270;257.37;1372.4;appui toit c9 t-300 : poteau
+191;Pilier fin métal (Thin Pillar);-0.0;-1039.2;3300.0;270;270.0;1039.2;appui toit c9 t-0 : poteau
+192;Pilier fin métal (Thin Pillar);-0.0;-139.2;3300.0;270;270.0;139.2;appui toit c9 t-0 : poteau
+193;Pilier fin métal (Thin Pillar);300.0;-1339.2;3300.0;270;282.63;1372.4;appui toit c9 t+300 : poteau
+194;Pilier fin métal (Thin Pillar);259.8;-1050.0;3300.0;300;283.9;1081.7;appui toit c10 t-300 : poteau
+195;Pilier fin métal (Thin Pillar);109.8;-790.2;3300.0;300;277.91;797.8;appui toit c10 t-300 : poteau
+196;Pilier fin métal (Thin Pillar);519.6;-900.0;3300.0;300;300.0;1039.2;appui toit c10 t-0 : poteau
+197;Pilier fin métal (Thin Pillar);69.6;-120.6;3300.0;300;300.0;139.2;appui toit c10 t-0 : poteau
+198;Pilier fin métal (Thin Pillar);929.4;-1009.8;3300.0;300;312.63;1372.4;appui toit c10 t+300 : poteau
+199;Pilier fin métal (Thin Pillar);750.0;-779.4;3300.0;330;313.9;1081.7;appui toit c11 t-300 : poteau
+200;Pilier fin métal (Thin Pillar);490.2;-629.4;3300.0;330;307.91;797.8;appui toit c11 t-300 : poteau
+201;Pilier fin métal (Thin Pillar);900.0;-519.6;3300.0;330;330.0;1039.2;appui toit c11 t-0 : poteau
+202;Pilier fin métal (Thin Pillar);120.6;-69.6;3300.0;330;330.0;139.2;appui toit c11 t-0 : poteau
+203;Pilier fin métal (Thin Pillar);1050.0;-259.8;3300.0;330;346.1;1081.7;appui toit c11 t+300 : poteau
+204;Pilier fin métal (Thin Pillar);790.2;-109.8;3300.0;330;352.09;797.8;appui toit c11 t+300 : poteau
+205;Rampe inclinée métal (Sloped Railing);1789.2;-300.0;3300.0;270;350.48;1814.2;toit rampes r1 c0 t-300
+206;Rampe inclinée métal (Sloped Railing);1789.2;0.0;3300.0;270;0.0;1789.2;toit rampes r1 c0 t-0
+207;Rampe inclinée métal (Sloped Railing);1789.2;300.0;3300.0;270;9.52;1814.2;toit rampes r1 c0 t+300
+208;Rampe inclinée métal (Sloped Railing);1699.5;634.8;3300.0;300;20.48;1814.2;toit rampes r1 c1 t-300
+209;Rampe inclinée métal (Sloped Railing);1549.5;894.6;3300.0;300;30.0;1789.2;toit rampes r1 c1 t-0
+210;Rampe inclinée métal (Sloped Railing);1399.5;1154.4;3300.0;300;39.52;1814.2;toit rampes r1 c1 t+300
+211;Rampe inclinée métal (Sloped Railing);1154.4;1399.5;3300.0;330;50.48;1814.2;toit rampes r1 c2 t-300
+212;Rampe inclinée métal (Sloped Railing);894.6;1549.5;3300.0;330;60.0;1789.2;toit rampes r1 c2 t-0
+213;Rampe inclinée métal (Sloped Railing);634.8;1699.5;3300.0;330;69.52;1814.2;toit rampes r1 c2 t+300
+214;Rampe inclinée métal (Sloped Railing);300.0;1789.2;3300.0;0;80.48;1814.2;toit rampes r1 c3 t-300
+215;Rampe inclinée métal (Sloped Railing);0.0;1789.2;3300.0;0;90.0;1789.2;toit rampes r1 c3 t-0
+216;Rampe inclinée métal (Sloped Railing);-300.0;1789.2;3300.0;0;99.52;1814.2;toit rampes r1 c3 t+300
+217;Rampe inclinée métal (Sloped Railing);-634.8;1699.5;3300.0;30;110.48;1814.2;toit rampes r1 c4 t-300
+218;Rampe inclinée métal (Sloped Railing);-894.6;1549.5;3300.0;30;120.0;1789.2;toit rampes r1 c4 t-0
+219;Rampe inclinée métal (Sloped Railing);-1154.4;1399.5;3300.0;30;129.52;1814.2;toit rampes r1 c4 t+300
+220;Rampe inclinée métal (Sloped Railing);-1399.5;1154.4;3300.0;60;140.48;1814.2;toit rampes r1 c5 t-300
+221;Rampe inclinée métal (Sloped Railing);-1549.5;894.6;3300.0;60;150.0;1789.2;toit rampes r1 c5 t-0
+222;Rampe inclinée métal (Sloped Railing);-1549.5;-894.6;3300.0;120;210.0;1789.2;toit rampes r1 c7 t-0
+223;Rampe inclinée métal (Sloped Railing);-1399.5;-1154.4;3300.0;120;219.52;1814.2;toit rampes r1 c7 t+300
+224;Rampe inclinée métal (Sloped Railing);-1154.4;-1399.5;3300.0;150;230.48;1814.2;toit rampes r1 c8 t-300
+225;Rampe inclinée métal (Sloped Railing);-894.6;-1549.5;3300.0;150;240.0;1789.2;toit rampes r1 c8 t-0
+226;Rampe inclinée métal (Sloped Railing);-634.8;-1699.5;3300.0;150;249.52;1814.2;toit rampes r1 c8 t+300
+227;Rampe inclinée métal (Sloped Railing);-300.0;-1789.2;3300.0;180;260.48;1814.2;toit rampes r1 c9 t-300
+228;Rampe inclinée métal (Sloped Railing);-0.0;-1789.2;3300.0;180;270.0;1789.2;toit rampes r1 c9 t-0
+229;Rampe inclinée métal (Sloped Railing);300.0;-1789.2;3300.0;180;279.52;1814.2;toit rampes r1 c9 t+300
+230;Rampe inclinée métal (Sloped Railing);634.8;-1699.5;3300.0;210;290.48;1814.2;toit rampes r1 c10 t-300
+231;Rampe inclinée métal (Sloped Railing);894.6;-1549.5;3300.0;210;300.0;1789.2;toit rampes r1 c10 t-0
+232;Rampe inclinée métal (Sloped Railing);1154.4;-1399.5;3300.0;210;309.52;1814.2;toit rampes r1 c10 t+300
+233;Rampe inclinée métal (Sloped Railing);1399.5;-1154.4;3300.0;240;320.48;1814.2;toit rampes r1 c11 t-300
+234;Rampe inclinée métal (Sloped Railing);1549.5;-894.6;3300.0;240;330.0;1789.2;toit rampes r1 c11 t-0
+235;Rampe inclinée métal (Sloped Railing);1699.5;-634.8;3300.0;240;339.52;1814.2;toit rampes r1 c11 t+300
+236;Pilier fin métal (Thin Pillar);1339.2;-300.0;3600.0;0;347.37;1372.4;appui toit c0 t-300 : poteau
+237;Pilier fin métal (Thin Pillar);1039.2;0.0;3600.0;0;0.0;1039.2;appui toit c0 t-0 : poteau
+238;Pilier fin métal (Thin Pillar);139.2;0.0;3600.0;0;0.0;139.2;appui toit c0 t-0 : poteau
+239;Pilier fin métal (Thin Pillar);1339.2;300.0;3600.0;0;12.63;1372.4;appui toit c0 t+300 : poteau
+240;Pilier fin métal (Thin Pillar);1050.0;259.8;3600.0;30;13.9;1081.7;appui toit c1 t-300 : poteau
+241;Pilier fin métal (Thin Pillar);790.2;109.8;3600.0;30;7.91;797.8;appui toit c1 t-300 : poteau
+242;Pilier fin métal (Thin Pillar);900.0;519.6;3600.0;30;30.0;1039.2;appui toit c1 t-0 : poteau
+243;Pilier fin métal (Thin Pillar);120.6;69.6;3600.0;30;30.0;139.2;appui toit c1 t-0 : poteau
+244;Pilier fin métal (Thin Pillar);750.0;779.4;3600.0;30;46.1;1081.7;appui toit c1 t+300 : poteau
+245;Pilier fin métal (Thin Pillar);490.2;629.4;3600.0;30;52.09;797.8;appui toit c1 t+300 : poteau
+246;Pilier fin métal (Thin Pillar);929.4;1009.8;3600.0;60;47.37;1372.4;appui toit c2 t-300 : poteau
+247;Pilier fin métal (Thin Pillar);519.6;900.0;3600.0;60;60.0;1039.2;appui toit c2 t-0 : poteau
+248;Pilier fin métal (Thin Pillar);69.6;120.6;3600.0;60;60.0;139.2;appui toit c2 t-0 : poteau
+249;Pilier fin métal (Thin Pillar);259.8;1050.0;3600.0;60;76.1;1081.7;appui toit c2 t+300 : poteau
+250;Pilier fin métal (Thin Pillar);109.8;790.2;3600.0;60;82.09;797.8;appui toit c2 t+300 : poteau
+251;Pilier fin métal (Thin Pillar);300.0;1339.2;3600.0;90;77.37;1372.4;appui toit c3 t-300 : poteau
+252;Pilier fin métal (Thin Pillar);-0.0;1039.2;3600.0;90;90.0;1039.2;appui toit c3 t-0 : poteau
+253;Pilier fin métal (Thin Pillar);-0.0;139.2;3600.0;90;90.0;139.2;appui toit c3 t-0 : poteau
+254;Pilier fin métal (Thin Pillar);-300.0;1339.2;3600.0;90;102.63;1372.4;appui toit c3 t+300 : poteau
+255;Pilier fin métal (Thin Pillar);-259.8;1050.0;3600.0;120;103.9;1081.7;appui toit c4 t-300 : poteau
+256;Pilier fin métal (Thin Pillar);-109.8;790.2;3600.0;120;97.91;797.8;appui toit c4 t-300 : poteau
+257;Pilier fin métal (Thin Pillar);-519.6;900.0;3600.0;120;120.0;1039.2;appui toit c4 t-0 : poteau
+258;Pilier fin métal (Thin Pillar);-69.6;120.6;3600.0;120;120.0;139.2;appui toit c4 t-0 : poteau
+259;Pilier fin métal (Thin Pillar);-779.4;750.0;3600.0;120;136.1;1081.7;appui toit c4 t+300 : poteau
+260;Pilier fin métal (Thin Pillar);-629.4;490.2;3600.0;120;142.09;797.8;appui toit c4 t+300 : poteau
+261;Pilier fin métal (Thin Pillar);-1009.8;929.4;3600.0;150;137.37;1372.4;appui toit c5 t-300 : poteau
+262;Pilier fin métal (Thin Pillar);-900.0;519.6;3600.0;150;150.0;1039.2;appui toit c5 t-0 : poteau
+263;Pilier fin métal (Thin Pillar);-120.6;69.6;3600.0;150;150.0;139.2;appui toit c5 t-0 : poteau
+264;Pilier fin métal (Thin Pillar);-900.0;-519.6;3600.0;210;210.0;1039.2;appui toit c7 t-0 : poteau
+265;Pilier fin métal (Thin Pillar);-120.6;-69.6;3600.0;210;210.0;139.2;appui toit c7 t-0 : poteau
+266;Pilier fin métal (Thin Pillar);-1009.8;-929.4;3600.0;210;222.63;1372.4;appui toit c7 t+300 : poteau
+267;Pilier fin métal (Thin Pillar);-779.4;-750.0;3600.0;240;223.9;1081.7;appui toit c8 t-300 : poteau
+268;Pilier fin métal (Thin Pillar);-629.4;-490.2;3600.0;240;217.91;797.8;appui toit c8 t-300 : poteau
+269;Pilier fin métal (Thin Pillar);-519.6;-900.0;3600.0;240;240.0;1039.2;appui toit c8 t-0 : poteau
+270;Pilier fin métal (Thin Pillar);-69.6;-120.6;3600.0;240;240.0;139.2;appui toit c8 t-0 : poteau
+271;Pilier fin métal (Thin Pillar);-259.8;-1050.0;3600.0;240;256.1;1081.7;appui toit c8 t+300 : poteau
+272;Pilier fin métal (Thin Pillar);-109.8;-790.2;3600.0;240;262.09;797.8;appui toit c8 t+300 : poteau
+273;Pilier fin métal (Thin Pillar);-300.0;-1339.2;3600.0;270;257.37;1372.4;appui toit c9 t-300 : poteau
+274;Pilier fin métal (Thin Pillar);-0.0;-1039.2;3600.0;270;270.0;1039.2;appui toit c9 t-0 : poteau
+275;Pilier fin métal (Thin Pillar);-0.0;-139.2;3600.0;270;270.0;139.2;appui toit c9 t-0 : poteau
+276;Pilier fin métal (Thin Pillar);300.0;-1339.2;3600.0;270;282.63;1372.4;appui toit c9 t+300 : poteau
+277;Pilier fin métal (Thin Pillar);259.8;-1050.0;3600.0;300;283.9;1081.7;appui toit c10 t-300 : poteau
+278;Pilier fin métal (Thin Pillar);109.8;-790.2;3600.0;300;277.91;797.8;appui toit c10 t-300 : poteau
+279;Pilier fin métal (Thin Pillar);519.6;-900.0;3600.0;300;300.0;1039.2;appui toit c10 t-0 : poteau
+280;Pilier fin métal (Thin Pillar);69.6;-120.6;3600.0;300;300.0;139.2;appui toit c10 t-0 : poteau
+281;Pilier fin métal (Thin Pillar);929.4;-1009.8;3600.0;300;312.63;1372.4;appui toit c10 t+300 : poteau
+282;Pilier fin métal (Thin Pillar);750.0;-779.4;3600.0;330;313.9;1081.7;appui toit c11 t-300 : poteau
+283;Pilier fin métal (Thin Pillar);490.2;-629.4;3600.0;330;307.91;797.8;appui toit c11 t-300 : poteau
+284;Pilier fin métal (Thin Pillar);900.0;-519.6;3600.0;330;330.0;1039.2;appui toit c11 t-0 : poteau
+285;Pilier fin métal (Thin Pillar);120.6;-69.6;3600.0;330;330.0;139.2;appui toit c11 t-0 : poteau
+286;Pilier fin métal (Thin Pillar);1050.0;-259.8;3600.0;330;346.1;1081.7;appui toit c11 t+300 : poteau
+287;Pilier fin métal (Thin Pillar);790.2;-109.8;3600.0;330;352.09;797.8;appui toit c11 t+300 : poteau
+288;Rampe inclinée métal (Sloped Railing);1489.2;-300.0;3600.0;270;348.61;1519.1;toit rampes r2 c0 t-300
+289;Rampe inclinée métal (Sloped Railing);1489.2;0.0;3600.0;270;0.0;1489.2;toit rampes r2 c0 t-0
+290;Rampe inclinée métal (Sloped Railing);1489.2;300.0;3600.0;270;11.39;1519.1;toit rampes r2 c0 t+300
+291;Rampe inclinée métal (Sloped Railing);1439.7;484.8;3600.0;300;18.61;1519.1;toit rampes r2 c1 t-300
+292;Rampe inclinée métal (Sloped Railing);1289.7;744.6;3600.0;300;30.0;1489.2;toit rampes r2 c1 t-0
+293;Rampe inclinée métal (Sloped Railing);1139.7;1004.4;3600.0;300;41.39;1519.1;toit rampes r2 c1 t+300
+294;Rampe inclinée métal (Sloped Railing);1004.4;1139.7;3600.0;330;48.61;1519.1;toit rampes r2 c2 t-300
+295;Rampe inclinée métal (Sloped Railing);744.6;1289.7;3600.0;330;60.0;1489.2;toit rampes r2 c2 t-0
+296;Rampe inclinée métal (Sloped Railing);484.8;1439.7;3600.0;330;71.39;1519.1;toit rampes r2 c2 t+300
+297;Rampe inclinée métal (Sloped Railing);300.0;1489.2;3600.0;0;78.61;1519.1;toit rampes r2 c3 t-300
+298;Rampe inclinée métal (Sloped Railing);0.0;1489.2;3600.0;0;90.0;1489.2;toit rampes r2 c3 t-0
+299;Rampe inclinée métal (Sloped Railing);-300.0;1489.2;3600.0;0;101.39;1519.1;toit rampes r2 c3 t+300
+300;Rampe inclinée métal (Sloped Railing);-484.8;1439.7;3600.0;30;108.61;1519.1;toit rampes r2 c4 t-300
+301;Rampe inclinée métal (Sloped Railing);-744.6;1289.7;3600.0;30;120.0;1489.2;toit rampes r2 c4 t-0
+302;Rampe inclinée métal (Sloped Railing);-1004.4;1139.7;3600.0;30;131.39;1519.1;toit rampes r2 c4 t+300
+303;Rampe inclinée métal (Sloped Railing);-1139.7;1004.4;3600.0;60;138.61;1519.1;toit rampes r2 c5 t-300
+304;Rampe inclinée métal (Sloped Railing);-1289.7;744.6;3600.0;60;150.0;1489.2;toit rampes r2 c5 t-0
+305;Rampe inclinée métal (Sloped Railing);-1289.7;-744.6;3600.0;120;210.0;1489.2;toit rampes r2 c7 t-0
+306;Rampe inclinée métal (Sloped Railing);-1139.7;-1004.4;3600.0;120;221.39;1519.1;toit rampes r2 c7 t+300
+307;Rampe inclinée métal (Sloped Railing);-1004.4;-1139.7;3600.0;150;228.61;1519.1;toit rampes r2 c8 t-300
+308;Rampe inclinée métal (Sloped Railing);-744.6;-1289.7;3600.0;150;240.0;1489.2;toit rampes r2 c8 t-0
+309;Rampe inclinée métal (Sloped Railing);-484.8;-1439.7;3600.0;150;251.39;1519.1;toit rampes r2 c8 t+300
+310;Rampe inclinée métal (Sloped Railing);-300.0;-1489.2;3600.0;180;258.61;1519.1;toit rampes r2 c9 t-300
+311;Rampe inclinée métal (Sloped Railing);-0.0;-1489.2;3600.0;180;270.0;1489.2;toit rampes r2 c9 t-0
+312;Rampe inclinée métal (Sloped Railing);300.0;-1489.2;3600.0;180;281.39;1519.1;toit rampes r2 c9 t+300
+313;Rampe inclinée métal (Sloped Railing);484.8;-1439.7;3600.0;210;288.61;1519.1;toit rampes r2 c10 t-300
+314;Rampe inclinée métal (Sloped Railing);744.6;-1289.7;3600.0;210;300.0;1489.2;toit rampes r2 c10 t-0
+315;Rampe inclinée métal (Sloped Railing);1004.4;-1139.7;3600.0;210;311.39;1519.1;toit rampes r2 c10 t+300
+316;Rampe inclinée métal (Sloped Railing);1139.7;-1004.4;3600.0;240;318.61;1519.1;toit rampes r2 c11 t-300
+317;Rampe inclinée métal (Sloped Railing);1289.7;-744.6;3600.0;240;330.0;1489.2;toit rampes r2 c11 t-0
+318;Rampe inclinée métal (Sloped Railing);1439.7;-484.8;3600.0;240;341.39;1519.1;toit rampes r2 c11 t+300
+319;Pilier fin métal (Thin Pillar);1039.2;0.0;3900.0;0;0.0;1039.2;appui toit c0 t-0 : poteau
+320;Pilier fin métal (Thin Pillar);139.2;0.0;3900.0;0;0.0;139.2;appui toit c0 t-0 : poteau
+321;Pilier fin métal (Thin Pillar);1050.0;259.8;3900.0;30;13.9;1081.7;appui toit c1 t-300 : poteau
+322;Pilier fin métal (Thin Pillar);790.2;109.8;3900.0;30;7.91;797.8;appui toit c1 t-300 : poteau
+323;Pilier fin métal (Thin Pillar);900.0;519.6;3900.0;30;30.0;1039.2;appui toit c1 t-0 : poteau
+324;Pilier fin métal (Thin Pillar);120.6;69.6;3900.0;30;30.0;139.2;appui toit c1 t-0 : poteau
+325;Pilier fin métal (Thin Pillar);750.0;779.4;3900.0;30;46.1;1081.7;appui toit c1 t+300 : poteau
+326;Pilier fin métal (Thin Pillar);490.2;629.4;3900.0;30;52.09;797.8;appui toit c1 t+300 : poteau
+327;Pilier fin métal (Thin Pillar);519.6;900.0;3900.0;60;60.0;1039.2;appui toit c2 t-0 : poteau
+328;Pilier fin métal (Thin Pillar);69.6;120.6;3900.0;60;60.0;139.2;appui toit c2 t-0 : poteau
+329;Pilier fin métal (Thin Pillar);259.8;1050.0;3900.0;60;76.1;1081.7;appui toit c2 t+300 : poteau
+330;Pilier fin métal (Thin Pillar);109.8;790.2;3900.0;60;82.09;797.8;appui toit c2 t+300 : poteau
+331;Pilier fin métal (Thin Pillar);-0.0;1039.2;3900.0;90;90.0;1039.2;appui toit c3 t-0 : poteau
+332;Pilier fin métal (Thin Pillar);-0.0;139.2;3900.0;90;90.0;139.2;appui toit c3 t-0 : poteau
+333;Pilier fin métal (Thin Pillar);-259.8;1050.0;3900.0;120;103.9;1081.7;appui toit c4 t-300 : poteau
+334;Pilier fin métal (Thin Pillar);-109.8;790.2;3900.0;120;97.91;797.8;appui toit c4 t-300 : poteau
+335;Pilier fin métal (Thin Pillar);-519.6;900.0;3900.0;120;120.0;1039.2;appui toit c4 t-0 : poteau
+336;Pilier fin métal (Thin Pillar);-69.6;120.6;3900.0;120;120.0;139.2;appui toit c4 t-0 : poteau
+337;Pilier fin métal (Thin Pillar);-779.4;750.0;3900.0;120;136.1;1081.7;appui toit c4 t+300 : poteau
+338;Pilier fin métal (Thin Pillar);-629.4;490.2;3900.0;120;142.09;797.8;appui toit c4 t+300 : poteau
+339;Pilier fin métal (Thin Pillar);-900.0;519.6;3900.0;150;150.0;1039.2;appui toit c5 t-0 : poteau
+340;Pilier fin métal (Thin Pillar);-120.6;69.6;3900.0;150;150.0;139.2;appui toit c5 t-0 : poteau
+341;Pilier fin métal (Thin Pillar);-900.0;-519.6;3900.0;210;210.0;1039.2;appui toit c7 t-0 : poteau
+342;Pilier fin métal (Thin Pillar);-120.6;-69.6;3900.0;210;210.0;139.2;appui toit c7 t-0 : poteau
+343;Pilier fin métal (Thin Pillar);-779.4;-750.0;3900.0;240;223.9;1081.7;appui toit c8 t-300 : poteau
+344;Pilier fin métal (Thin Pillar);-629.4;-490.2;3900.0;240;217.91;797.8;appui toit c8 t-300 : poteau
+345;Pilier fin métal (Thin Pillar);-519.6;-900.0;3900.0;240;240.0;1039.2;appui toit c8 t-0 : poteau
+346;Pilier fin métal (Thin Pillar);-69.6;-120.6;3900.0;240;240.0;139.2;appui toit c8 t-0 : poteau
+347;Pilier fin métal (Thin Pillar);-259.8;-1050.0;3900.0;240;256.1;1081.7;appui toit c8 t+300 : poteau
+348;Pilier fin métal (Thin Pillar);-109.8;-790.2;3900.0;240;262.09;797.8;appui toit c8 t+300 : poteau
+349;Pilier fin métal (Thin Pillar);-0.0;-1039.2;3900.0;270;270.0;1039.2;appui toit c9 t-0 : poteau
+350;Pilier fin métal (Thin Pillar);-0.0;-139.2;3900.0;270;270.0;139.2;appui toit c9 t-0 : poteau
+351;Pilier fin métal (Thin Pillar);259.8;-1050.0;3900.0;300;283.9;1081.7;appui toit c10 t-300 : poteau
+352;Pilier fin métal (Thin Pillar);109.8;-790.2;3900.0;300;277.91;797.8;appui toit c10 t-300 : poteau
+353;Pilier fin métal (Thin Pillar);519.6;-900.0;3900.0;300;300.0;1039.2;appui toit c10 t-0 : poteau
+354;Pilier fin métal (Thin Pillar);69.6;-120.6;3900.0;300;300.0;139.2;appui toit c10 t-0 : poteau
+355;Pilier fin métal (Thin Pillar);750.0;-779.4;3900.0;330;313.9;1081.7;appui toit c11 t-300 : poteau
+356;Pilier fin métal (Thin Pillar);490.2;-629.4;3900.0;330;307.91;797.8;appui toit c11 t-300 : poteau
+357;Pilier fin métal (Thin Pillar);900.0;-519.6;3900.0;330;330.0;1039.2;appui toit c11 t-0 : poteau
+358;Pilier fin métal (Thin Pillar);120.6;-69.6;3900.0;330;330.0;139.2;appui toit c11 t-0 : poteau
+359;Pilier fin métal (Thin Pillar);1050.0;-259.8;3900.0;330;346.1;1081.7;appui toit c11 t+300 : poteau
+360;Pilier fin métal (Thin Pillar);790.2;-109.8;3900.0;330;352.09;797.8;appui toit c11 t+300 : poteau
+361;Rampe inclinée métal (Sloped Railing);1189.2;0.0;3900.0;270;0.0;1189.2;toit rampes r3 c0 t-0
+362;Rampe inclinée métal (Sloped Railing);1179.9;334.8;3900.0;300;15.84;1226.5;toit rampes r3 c1 t-300
+363;Rampe inclinée métal (Sloped Railing);1029.9;594.6;3900.0;300;30.0;1189.2;toit rampes r3 c1 t-0
+364;Rampe inclinée métal (Sloped Railing);879.9;854.4;3900.0;300;44.16;1226.5;toit rampes r3 c1 t+300
+365;Rampe inclinée métal (Sloped Railing);594.6;1029.9;3900.0;330;60.0;1189.2;toit rampes r3 c2 t-0
+366;Rampe inclinée métal (Sloped Railing);334.8;1179.9;3900.0;330;74.16;1226.5;toit rampes r3 c2 t+300
+367;Rampe inclinée métal (Sloped Railing);0.0;1189.2;3900.0;0;90.0;1189.2;toit rampes r3 c3 t-0
+368;Rampe inclinée métal (Sloped Railing);-334.8;1179.9;3900.0;30;105.84;1226.5;toit rampes r3 c4 t-300
+369;Rampe inclinée métal (Sloped Railing);-594.6;1029.9;3900.0;30;120.0;1189.2;toit rampes r3 c4 t-0
+370;Rampe inclinée métal (Sloped Railing);-854.4;879.9;3900.0;30;134.16;1226.5;toit rampes r3 c4 t+300
+371;Rampe inclinée métal (Sloped Railing);-1029.9;594.6;3900.0;60;150.0;1189.2;toit rampes r3 c5 t-0
+372;Rampe inclinée métal (Sloped Railing);-1029.9;-594.6;3900.0;120;210.0;1189.2;toit rampes r3 c7 t-0
+373;Rampe inclinée métal (Sloped Railing);-854.4;-879.9;3900.0;150;225.84;1226.5;toit rampes r3 c8 t-300
+374;Rampe inclinée métal (Sloped Railing);-594.6;-1029.9;3900.0;150;240.0;1189.2;toit rampes r3 c8 t-0
+375;Rampe inclinée métal (Sloped Railing);-334.8;-1179.9;3900.0;150;254.16;1226.5;toit rampes r3 c8 t+300
+376;Rampe inclinée métal (Sloped Railing);-0.0;-1189.2;3900.0;180;270.0;1189.2;toit rampes r3 c9 t-0
+377;Rampe inclinée métal (Sloped Railing);334.8;-1179.9;3900.0;210;285.84;1226.5;toit rampes r3 c10 t-300
+378;Rampe inclinée métal (Sloped Railing);594.6;-1029.9;3900.0;210;300.0;1189.2;toit rampes r3 c10 t-0
+379;Rampe inclinée métal (Sloped Railing);879.9;-854.4;3900.0;240;315.84;1226.5;toit rampes r3 c11 t-300
+380;Rampe inclinée métal (Sloped Railing);1029.9;-594.6;3900.0;240;330.0;1189.2;toit rampes r3 c11 t-0
+381;Rampe inclinée métal (Sloped Railing);1179.9;-334.8;3900.0;240;344.16;1226.5;toit rampes r3 c11 t+300
+382;Pilier fin métal (Thin Pillar);139.2;0.0;4200.0;0;0.0;139.2;appui toit c0 t-0 : poteau
+383;Pilier fin métal (Thin Pillar);790.2;109.8;4200.0;30;7.91;797.8;appui toit c1 t-300 : poteau
+384;Pilier fin métal (Thin Pillar);120.6;69.6;4200.0;30;30.0;139.2;appui toit c1 t-0 : poteau
+385;Pilier fin métal (Thin Pillar);490.2;629.4;4200.0;30;52.09;797.8;appui toit c1 t+300 : poteau
+386;Pilier fin métal (Thin Pillar);69.6;120.6;4200.0;60;60.0;139.2;appui toit c2 t-0 : poteau
+387;Pilier fin métal (Thin Pillar);109.8;790.2;4200.0;60;82.09;797.8;appui toit c2 t+300 : poteau
+388;Pilier fin métal (Thin Pillar);-0.0;139.2;4200.0;90;90.0;139.2;appui toit c3 t-0 : poteau
+389;Pilier fin métal (Thin Pillar);-109.8;790.2;4200.0;120;97.91;797.8;appui toit c4 t-300 : poteau
+390;Pilier fin métal (Thin Pillar);-69.6;120.6;4200.0;120;120.0;139.2;appui toit c4 t-0 : poteau
+391;Pilier fin métal (Thin Pillar);-629.4;490.2;4200.0;120;142.09;797.8;appui toit c4 t+300 : poteau
+392;Pilier fin métal (Thin Pillar);-120.6;69.6;4200.0;150;150.0;139.2;appui toit c5 t-0 : poteau
+393;Pilier fin métal (Thin Pillar);-120.6;-69.6;4200.0;210;210.0;139.2;appui toit c7 t-0 : poteau
+394;Pilier fin métal (Thin Pillar);-629.4;-490.2;4200.0;240;217.91;797.8;appui toit c8 t-300 : poteau
+395;Pilier fin métal (Thin Pillar);-69.6;-120.6;4200.0;240;240.0;139.2;appui toit c8 t-0 : poteau
+396;Pilier fin métal (Thin Pillar);-109.8;-790.2;4200.0;240;262.09;797.8;appui toit c8 t+300 : poteau
+397;Pilier fin métal (Thin Pillar);-0.0;-139.2;4200.0;270;270.0;139.2;appui toit c9 t-0 : poteau
+398;Pilier fin métal (Thin Pillar);109.8;-790.2;4200.0;300;277.91;797.8;appui toit c10 t-300 : poteau
+399;Pilier fin métal (Thin Pillar);69.6;-120.6;4200.0;300;300.0;139.2;appui toit c10 t-0 : poteau
+400;Pilier fin métal (Thin Pillar);490.2;-629.4;4200.0;330;307.91;797.8;appui toit c11 t-300 : poteau
+401;Pilier fin métal (Thin Pillar);120.6;-69.6;4200.0;330;330.0;139.2;appui toit c11 t-0 : poteau
+402;Pilier fin métal (Thin Pillar);790.2;-109.8;4200.0;330;352.09;797.8;appui toit c11 t+300 : poteau
+403;Rampe inclinée métal (Sloped Railing);889.2;0.0;4200.0;270;0.0;889.2;toit rampes r4 c0 t-0
+404;Rampe inclinée métal (Sloped Railing);920.1;184.8;4200.0;300;11.36;938.5;toit rampes r4 c1 t-300
+405;Rampe inclinée métal (Sloped Railing);770.1;444.6;4200.0;300;30.0;889.2;toit rampes r4 c1 t-0
+406;Rampe inclinée métal (Sloped Railing);620.1;704.4;4200.0;300;48.64;938.5;toit rampes r4 c1 t+300
+407;Rampe inclinée métal (Sloped Railing);444.6;770.1;4200.0;330;60.0;889.2;toit rampes r4 c2 t-0
+408;Rampe inclinée métal (Sloped Railing);184.8;920.1;4200.0;330;78.64;938.5;toit rampes r4 c2 t+300
+409;Rampe inclinée métal (Sloped Railing);0.0;889.2;4200.0;0;90.0;889.2;toit rampes r4 c3 t-0
+410;Rampe inclinée métal (Sloped Railing);-184.8;920.1;4200.0;30;101.36;938.5;toit rampes r4 c4 t-300
+411;Rampe inclinée métal (Sloped Railing);-444.6;770.1;4200.0;30;120.0;889.2;toit rampes r4 c4 t-0
+412;Rampe inclinée métal (Sloped Railing);-704.4;620.1;4200.0;30;138.64;938.5;toit rampes r4 c4 t+300
+413;Rampe inclinée métal (Sloped Railing);-770.1;444.6;4200.0;60;150.0;889.2;toit rampes r4 c5 t-0
+414;Rampe inclinée métal (Sloped Railing);-770.1;-444.6;4200.0;120;210.0;889.2;toit rampes r4 c7 t-0
+415;Rampe inclinée métal (Sloped Railing);-704.4;-620.1;4200.0;150;221.36;938.5;toit rampes r4 c8 t-300
+416;Rampe inclinée métal (Sloped Railing);-444.6;-770.1;4200.0;150;240.0;889.2;toit rampes r4 c8 t-0
+417;Rampe inclinée métal (Sloped Railing);-184.8;-920.1;4200.0;150;258.64;938.5;toit rampes r4 c8 t+300
+418;Rampe inclinée métal (Sloped Railing);-0.0;-889.2;4200.0;180;270.0;889.2;toit rampes r4 c9 t-0
+419;Rampe inclinée métal (Sloped Railing);184.8;-920.1;4200.0;210;281.36;938.5;toit rampes r4 c10 t-300
+420;Rampe inclinée métal (Sloped Railing);444.6;-770.1;4200.0;210;300.0;889.2;toit rampes r4 c10 t-0
+421;Rampe inclinée métal (Sloped Railing);620.1;-704.4;4200.0;240;311.36;938.5;toit rampes r4 c11 t-300
+422;Rampe inclinée métal (Sloped Railing);770.1;-444.6;4200.0;240;330.0;889.2;toit rampes r4 c11 t-0
+423;Rampe inclinée métal (Sloped Railing);920.1;-184.8;4200.0;240;348.64;938.5;toit rampes r4 c11 t+300
+424;Pilier fin métal (Thin Pillar);139.2;0.0;4500.0;0;0.0;139.2;appui toit c0 t-0 : poteau
+425;Pilier fin métal (Thin Pillar);120.6;69.6;4500.0;30;30.0;139.2;appui toit c1 t-0 : poteau
+426;Pilier fin métal (Thin Pillar);69.6;120.6;4500.0;60;60.0;139.2;appui toit c2 t-0 : poteau
+427;Pilier fin métal (Thin Pillar);-0.0;139.2;4500.0;90;90.0;139.2;appui toit c3 t-0 : poteau
+428;Pilier fin métal (Thin Pillar);-69.6;120.6;4500.0;120;120.0;139.2;appui toit c4 t-0 : poteau
+429;Pilier fin métal (Thin Pillar);-120.6;69.6;4500.0;150;150.0;139.2;appui toit c5 t-0 : poteau
+430;Pilier fin métal (Thin Pillar);-120.6;-69.6;4500.0;210;210.0;139.2;appui toit c7 t-0 : poteau
+431;Pilier fin métal (Thin Pillar);-69.6;-120.6;4500.0;240;240.0;139.2;appui toit c8 t-0 : poteau
+432;Pilier fin métal (Thin Pillar);-0.0;-139.2;4500.0;270;270.0;139.2;appui toit c9 t-0 : poteau
+433;Pilier fin métal (Thin Pillar);69.6;-120.6;4500.0;300;300.0;139.2;appui toit c10 t-0 : poteau
+434;Pilier fin métal (Thin Pillar);120.6;-69.6;4500.0;330;330.0;139.2;appui toit c11 t-0 : poteau
+435;Rampe inclinée métal (Sloped Railing);589.2;0.0;4500.0;270;0.0;589.2;toit rampes r5 c0 t-0
+436;Rampe inclinée métal (Sloped Railing);510.3;294.6;4500.0;300;30.0;589.2;toit rampes r5 c1 t-0
+437;Rampe inclinée métal (Sloped Railing);294.6;510.3;4500.0;330;60.0;589.2;toit rampes r5 c2 t-0
+438;Rampe inclinée métal (Sloped Railing);0.0;589.2;4500.0;0;90.0;589.2;toit rampes r5 c3 t-0
+439;Rampe inclinée métal (Sloped Railing);-294.6;510.3;4500.0;30;120.0;589.2;toit rampes r5 c4 t-0
+440;Rampe inclinée métal (Sloped Railing);-510.3;294.6;4500.0;60;150.0;589.2;toit rampes r5 c5 t-0
+441;Rampe inclinée métal (Sloped Railing);-510.3;-294.6;4500.0;120;210.0;589.2;toit rampes r5 c7 t-0
+442;Rampe inclinée métal (Sloped Railing);-294.6;-510.3;4500.0;150;240.0;589.2;toit rampes r5 c8 t-0
+443;Rampe inclinée métal (Sloped Railing);-0.0;-589.2;4500.0;180;270.0;589.2;toit rampes r5 c9 t-0
+444;Rampe inclinée métal (Sloped Railing);294.6;-510.3;4500.0;210;300.0;589.2;toit rampes r5 c10 t-0
+445;Rampe inclinée métal (Sloped Railing);510.3;-294.6;4500.0;240;330.0;589.2;toit rampes r5 c11 t-0
+446;Pilier fin métal (Thin Pillar);139.2;0.0;4800.0;0;0.0;139.2;appui toit c0 t-0 : poteau
+447;Pilier fin métal (Thin Pillar);120.6;69.6;4800.0;30;30.0;139.2;appui toit c1 t-0 : poteau
+448;Pilier fin métal (Thin Pillar);69.6;120.6;4800.0;60;60.0;139.2;appui toit c2 t-0 : poteau
+449;Pilier fin métal (Thin Pillar);-0.0;139.2;4800.0;90;90.0;139.2;appui toit c3 t-0 : poteau
+450;Pilier fin métal (Thin Pillar);-69.6;120.6;4800.0;120;120.0;139.2;appui toit c4 t-0 : poteau
+451;Pilier fin métal (Thin Pillar);-120.6;69.6;4800.0;150;150.0;139.2;appui toit c5 t-0 : poteau
+452;Pilier fin métal (Thin Pillar);-120.6;-69.6;4800.0;210;210.0;139.2;appui toit c7 t-0 : poteau
+453;Pilier fin métal (Thin Pillar);-69.6;-120.6;4800.0;240;240.0;139.2;appui toit c8 t-0 : poteau
+454;Pilier fin métal (Thin Pillar);-0.0;-139.2;4800.0;270;270.0;139.2;appui toit c9 t-0 : poteau
+455;Pilier fin métal (Thin Pillar);69.6;-120.6;4800.0;300;300.0;139.2;appui toit c10 t-0 : poteau
+456;Pilier fin métal (Thin Pillar);120.6;-69.6;4800.0;330;330.0;139.2;appui toit c11 t-0 : poteau
+457;Rampe inclinée métal (Sloped Railing);289.2;0.0;4800.0;270;0.0;289.2;toit rampes r6 c0 t-0
+458;Rampe inclinée métal (Sloped Railing);250.5;144.6;4800.0;300;30.0;289.2;toit rampes r6 c1 t-0
+459;Rampe inclinée métal (Sloped Railing);144.6;250.5;4800.0;330;60.0;289.2;toit rampes r6 c2 t-0
+460;Rampe inclinée métal (Sloped Railing);0.0;289.2;4800.0;0;90.0;289.2;toit rampes r6 c3 t-0
+461;Rampe inclinée métal (Sloped Railing);-144.6;250.5;4800.0;30;120.0;289.2;toit rampes r6 c4 t-0
+462;Rampe inclinée métal (Sloped Railing);-250.5;144.6;4800.0;60;150.0;289.2;toit rampes r6 c5 t-0
+463;Rampe inclinée métal (Sloped Railing);-250.5;-144.6;4800.0;120;210.0;289.2;toit rampes r6 c7 t-0
+464;Rampe inclinée métal (Sloped Railing);-144.6;-250.5;4800.0;150;240.0;289.2;toit rampes r6 c8 t-0
+465;Rampe inclinée métal (Sloped Railing);-0.0;-289.2;4800.0;180;270.0;289.2;toit rampes r6 c9 t-0
+466;Rampe inclinée métal (Sloped Railing);144.6;-250.5;4800.0;210;300.0;289.2;toit rampes r6 c10 t-0
+467;Rampe inclinée métal (Sloped Railing);250.5;-144.6;4800.0;240;330.0;289.2;toit rampes r6 c11 t-0

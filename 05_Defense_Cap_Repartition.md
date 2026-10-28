@@ -136,13 +136,13 @@ H = Heavy, T = Tek, S = Tesla, suivi du n° d'ordre. L1 : positions p0 à p4 dan
 | H59 | TROU-L1 | 205,0° | (−1 659,3 ; −784,8) | 1800 | 120° | 7 |
 | T72 | TROU-D4 | 203,7° | (−1 939,2 ; −859,8) | 2400 | 90° | 8 |
 
-**Dessus** (debout sur le plancher de toit Z3000, à 1 500 UU du centre, au milieu de chaque côté, entre deux lignes de rampes) :
+**Dessus** (debout sur le plancher de toit Z3000, à 1 500 UU du centre, à t = +150 sur chaque côté, entre deux lignes de rampes du toit, qui sont sur les joints de la couronne) :
 
 | θ | 0° | 30° | 60° | 90° | 120° | 150° | 210° | 240° | 270° | 300° |
 |---|---|---|---|---|---|---|---|---|---|---|
-| Pièce | X86 | H80 | X98 | T83 | S82 | X100 | H85 | X91 | T81 | S84 |
+| Pièce | X94 | H80 | X88 | T83 | S82 | X87 | H85 | X99 | T81 | S84 |
 
-**Plant X** : attique (Z0, grands carrés) à θ 2,7° · 62,7° · 122,7° · 242,7° · 302,7° ; toit de cage (Z2400, carrés moyens) à θ 33,6° · 93,6° · 153,6° · 213,6° · 273,6° · 333,6°.
+**Plant X** : attique (Z0, grands carrés) à θ 2,7° · 62,7° · 122,7° · 242,7° · 302,7° ; toit de cage (Z2400, carrés moyens) à θ 30° · 90° · 150° · 210° · 270° · 330°, au milieu des côtés E1, entre deux lignes de l'appentis.
 
 ## 7. Couverture : tous les angles
 

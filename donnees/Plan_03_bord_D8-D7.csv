@@ -1,661 +1,820 @@
 entree;piece;x;y;Z_plan;yaw;theta;rayon;repere
 0;Demi-pilier métal;0.0;300.0;225;0;90.0;300.0;ancre module (se pose sur l'ancre du sol)
-1;Cadre de porte double métal;4478.5;-1050.0;-300.0;0;346.81;4599.9;jupe mur c0 p0
-2;Cadre de porte double métal;4478.5;-750.0;-300.0;0;350.49;4540.8;jupe mur c0 p1
-3;Cadre de porte double métal;4478.5;-450.0;-300.0;0;354.26;4501.0;jupe mur c0 p2
-4;Cadre de porte double métal;4478.5;-150.0;-300.0;0;358.08;4481.0;jupe mur c0 p3
-5;Cadre de porte double métal;4478.5;150.0;-300.0;0;1.92;4481.0;jupe mur c0 p4
-6;Cadre de porte double métal;4478.5;450.0;-300.0;0;5.74;4501.0;jupe mur c0 p5
-7;Cadre de porte double métal;4478.5;750.0;-300.0;0;9.51;4540.8;jupe mur c0 p6
-8;Cadre de porte double métal;4478.5;1050.0;-300.0;0;13.19;4599.9;jupe mur c0 p7
-9;Cadre de porte double métal;4403.5;1329.9;-300.0;30;16.81;4599.9;jupe mur c1 p0
-10;Cadre de porte double métal;4253.5;1589.7;-300.0;30;20.49;4540.8;jupe mur c1 p1
-11;Cadre de porte double métal;4103.5;1849.5;-300.0;30;24.26;4501.0;jupe mur c1 p2
-12;Cadre de porte double métal;3953.5;2109.3;-300.0;30;28.08;4481.0;jupe mur c1 p3
-13;Cadre de porte double métal;3803.5;2369.1;-300.0;30;31.92;4481.0;jupe mur c1 p4
-14;Cadre de porte double métal;3653.5;2628.9;-300.0;30;35.74;4501.0;jupe mur c1 p5
-15;Cadre de porte double métal;3503.5;2888.7;-300.0;30;39.51;4540.8;jupe mur c1 p6
-16;Cadre de porte double métal;3353.5;3148.6;-300.0;30;43.19;4599.9;jupe mur c1 p7
-17;Cadre de porte double métal;3148.6;3353.5;-300.0;60;46.81;4599.9;jupe mur c2 p0
-18;Cadre de porte double métal;2888.7;3503.5;-300.0;60;50.49;4540.8;jupe mur c2 p1
-19;Cadre de porte double métal;2628.9;3653.5;-300.0;60;54.26;4501.0;jupe mur c2 p2
-20;Cadre de porte double métal;2369.1;3803.5;-300.0;60;58.08;4481.0;jupe mur c2 p3
-21;Cadre de porte double métal;2109.3;3953.5;-300.0;60;61.92;4481.0;jupe mur c2 p4
-22;Cadre de porte double métal;1849.5;4103.5;-300.0;60;65.74;4501.0;jupe mur c2 p5
-23;Cadre de porte double métal;1589.7;4253.5;-300.0;60;69.51;4540.8;jupe mur c2 p6
-24;Cadre de porte double métal;1329.9;4403.5;-300.0;60;73.19;4599.9;jupe mur c2 p7
-25;Cadre de porte double métal;1050.0;4478.5;-300.0;90;76.81;4599.9;jupe mur c3 p0
-26;Cadre de porte double métal;750.0;4478.5;-300.0;90;80.49;4540.8;jupe mur c3 p1
-27;Cadre de porte double métal;450.0;4478.5;-300.0;90;84.26;4501.0;jupe mur c3 p2
-28;Cadre de porte double métal;150.0;4478.5;-300.0;90;88.08;4481.0;jupe mur c3 p3
-29;Cadre de porte double métal;-150.0;4478.5;-300.0;90;91.92;4481.0;jupe mur c3 p4
-30;Cadre de porte double métal;-450.0;4478.5;-300.0;90;95.74;4501.0;jupe mur c3 p5
-31;Cadre de porte double métal;-750.0;4478.5;-300.0;90;99.51;4540.8;jupe mur c3 p6
-32;Cadre de porte double métal;-1050.0;4478.5;-300.0;90;103.19;4599.9;jupe mur c3 p7
-33;Cadre de porte double métal;-1329.9;4403.5;-300.0;120;106.81;4599.9;jupe mur c4 p0
-34;Cadre de porte double métal;-1589.7;4253.5;-300.0;120;110.49;4540.8;jupe mur c4 p1
-35;Cadre de porte double métal;-1849.5;4103.5;-300.0;120;114.26;4501.0;jupe mur c4 p2
-36;Cadre de porte double métal;-2109.3;3953.5;-300.0;120;118.08;4481.0;jupe mur c4 p3
-37;Cadre de porte double métal;-2369.1;3803.5;-300.0;120;121.92;4481.0;jupe mur c4 p4
-38;Cadre de porte double métal;-2628.9;3653.5;-300.0;120;125.74;4501.0;jupe mur c4 p5
-39;Cadre de porte double métal;-2888.7;3503.5;-300.0;120;129.51;4540.8;jupe mur c4 p6
-40;Cadre de porte double métal;-3148.6;3353.5;-300.0;120;133.19;4599.9;jupe mur c4 p7
-41;Cadre de porte double métal;-3353.5;3148.6;-300.0;150;136.81;4599.9;jupe mur c5 p0
-42;Cadre de porte double métal;-3503.5;2888.7;-300.0;150;140.49;4540.8;jupe mur c5 p1
-43;Cadre de porte double métal;-3653.5;2628.9;-300.0;150;144.26;4501.0;jupe mur c5 p2
-44;Cadre de porte double métal;-3803.5;2369.1;-300.0;150;148.08;4481.0;jupe mur c5 p3
-45;Cadre de porte double métal;-3953.5;2109.3;-300.0;150;151.92;4481.0;jupe mur c5 p4
-46;Cadre de porte double métal;-4103.5;1849.5;-300.0;150;155.74;4501.0;jupe mur c5 p5
-47;Cadre de porte double métal;-3953.5;-2109.3;-300.0;210;208.08;4481.0;jupe mur c7 p3
-48;Cadre de porte double métal;-3803.5;-2369.1;-300.0;210;211.92;4481.0;jupe mur c7 p4
-49;Cadre de porte double métal;-3653.5;-2628.9;-300.0;210;215.74;4501.0;jupe mur c7 p5
-50;Cadre de porte double métal;-3503.5;-2888.7;-300.0;210;219.51;4540.8;jupe mur c7 p6
-51;Cadre de porte double métal;-3353.5;-3148.6;-300.0;210;223.19;4599.9;jupe mur c7 p7
-52;Cadre de porte double métal;-3148.6;-3353.5;-300.0;240;226.81;4599.9;jupe mur c8 p0
-53;Cadre de porte double métal;-2888.7;-3503.5;-300.0;240;230.49;4540.8;jupe mur c8 p1
-54;Cadre de porte double métal;-2628.9;-3653.5;-300.0;240;234.26;4501.0;jupe mur c8 p2
-55;Cadre de porte double métal;-2369.1;-3803.5;-300.0;240;238.08;4481.0;jupe mur c8 p3
-56;Cadre de porte double métal;-2109.3;-3953.5;-300.0;240;241.92;4481.0;jupe mur c8 p4
-57;Cadre de porte double métal;-1849.5;-4103.5;-300.0;240;245.74;4501.0;jupe mur c8 p5
-58;Cadre de porte double métal;-1589.7;-4253.5;-300.0;240;249.51;4540.8;jupe mur c8 p6
-59;Cadre de porte double métal;-1329.9;-4403.5;-300.0;240;253.19;4599.9;jupe mur c8 p7
-60;Cadre de porte double métal;-1050.0;-4478.5;-300.0;270;256.81;4599.9;jupe mur c9 p0
-61;Cadre de porte double métal;-750.0;-4478.5;-300.0;270;260.49;4540.8;jupe mur c9 p1
-62;Cadre de porte double métal;-450.0;-4478.5;-300.0;270;264.26;4501.0;jupe mur c9 p2
-63;Cadre de porte double métal;-150.0;-4478.5;-300.0;270;268.08;4481.0;jupe mur c9 p3
-64;Cadre de porte double métal;150.0;-4478.5;-300.0;270;271.92;4481.0;jupe mur c9 p4
-65;Cadre de porte double métal;450.0;-4478.5;-300.0;270;275.74;4501.0;jupe mur c9 p5
-66;Cadre de porte double métal;750.0;-4478.5;-300.0;270;279.51;4540.8;jupe mur c9 p6
-67;Cadre de porte double métal;1050.0;-4478.5;-300.0;270;283.19;4599.9;jupe mur c9 p7
-68;Cadre de porte double métal;1329.9;-4403.5;-300.0;300;286.81;4599.9;jupe mur c10 p0
-69;Cadre de porte double métal;1589.7;-4253.5;-300.0;300;290.49;4540.8;jupe mur c10 p1
-70;Cadre de porte double métal;1849.5;-4103.5;-300.0;300;294.26;4501.0;jupe mur c10 p2
-71;Cadre de porte double métal;2109.3;-3953.5;-300.0;300;298.08;4481.0;jupe mur c10 p3
-72;Cadre de porte double métal;2369.1;-3803.5;-300.0;300;301.92;4481.0;jupe mur c10 p4
-73;Cadre de porte double métal;2628.9;-3653.5;-300.0;300;305.74;4501.0;jupe mur c10 p5
-74;Cadre de porte double métal;2888.7;-3503.5;-300.0;300;309.51;4540.8;jupe mur c10 p6
-75;Cadre de porte double métal;3148.6;-3353.5;-300.0;300;313.19;4599.9;jupe mur c10 p7
-76;Cadre de porte double métal;3353.5;-3148.6;-300.0;330;316.81;4599.9;jupe mur c11 p0
-77;Cadre de porte double métal;3503.5;-2888.7;-300.0;330;320.49;4540.8;jupe mur c11 p1
-78;Cadre de porte double métal;3653.5;-2628.9;-300.0;330;324.26;4501.0;jupe mur c11 p2
-79;Cadre de porte double métal;3803.5;-2369.1;-300.0;330;328.08;4481.0;jupe mur c11 p3
-80;Cadre de porte double métal;3953.5;-2109.3;-300.0;330;331.92;4481.0;jupe mur c11 p4
-81;Cadre de porte double métal;4103.5;-1849.5;-300.0;330;335.74;4501.0;jupe mur c11 p5
-82;Cadre de porte double métal;4253.5;-1589.7;-300.0;330;339.51;4540.8;jupe mur c11 p6
-83;Cadre de porte double métal;4403.5;-1329.9;-300.0;330;343.19;4599.9;jupe mur c11 p7
-84;Pilier fin métal (Thin Pillar);4218.7;-1050.0;-300.0;0;346.02;4347.4;appui overhang c0 t-1050 : poteau
-85;Pilier fin métal (Thin Pillar);4218.7;-750.0;-300.0;0;349.92;4284.8;appui overhang c0 t-750 : poteau
-86;Pilier fin métal (Thin Pillar);4218.7;-450.0;-300.0;0;353.91;4242.6;appui overhang c0 t-450 : poteau
-87;Pilier fin métal (Thin Pillar);4218.7;-150.0;-300.0;0;357.96;4221.3;appui overhang c0 t-150 : poteau
-88;Pilier fin métal (Thin Pillar);4218.7;150.0;-300.0;0;2.04;4221.3;appui overhang c0 t+150 : poteau
-89;Pilier fin métal (Thin Pillar);4218.7;450.0;-300.0;0;6.09;4242.6;appui overhang c0 t+450 : poteau
-90;Pilier fin métal (Thin Pillar);4218.7;750.0;-300.0;0;10.08;4284.8;appui overhang c0 t+750 : poteau
-91;Pilier fin métal (Thin Pillar);4218.7;1050.0;-300.0;0;13.98;4347.4;appui overhang c0 t+1050 : poteau
-92;Pilier fin métal (Thin Pillar);3018.7;3128.5;-300.0;60;46.02;4347.4;appui overhang c2 t-1050 : poteau
-93;Pilier fin métal (Thin Pillar);2758.8;3278.5;-300.0;60;49.92;4284.8;appui overhang c2 t-750 : poteau
-94;Pilier fin métal (Thin Pillar);2499.0;3428.5;-300.0;60;53.91;4242.6;appui overhang c2 t-450 : poteau
-95;Pilier fin métal (Thin Pillar);2239.2;3578.5;-300.0;60;57.96;4221.3;appui overhang c2 t-150 : poteau
-96;Pilier fin métal (Thin Pillar);1979.4;3728.5;-300.0;60;62.04;4221.3;appui overhang c2 t+150 : poteau
-97;Pilier fin métal (Thin Pillar);1719.6;3878.5;-300.0;60;66.09;4242.6;appui overhang c2 t+450 : poteau
-98;Pilier fin métal (Thin Pillar);1459.8;4028.5;-300.0;60;70.08;4284.8;appui overhang c2 t+750 : poteau
-99;Pilier fin métal (Thin Pillar);1200.0;4178.5;-300.0;60;73.98;4347.4;appui overhang c2 t+1050 : poteau
-100;Pilier fin métal (Thin Pillar);-1200.0;4178.5;-300.0;120;106.02;4347.4;appui overhang c4 t-1050 : poteau
-101;Pilier fin métal (Thin Pillar);-1459.8;4028.5;-300.0;120;109.92;4284.8;appui overhang c4 t-750 : poteau
-102;Pilier fin métal (Thin Pillar);-1719.6;3878.5;-300.0;120;113.91;4242.6;appui overhang c4 t-450 : poteau
-103;Pilier fin métal (Thin Pillar);-1979.4;3728.5;-300.0;120;117.96;4221.3;appui overhang c4 t-150 : poteau
-104;Pilier fin métal (Thin Pillar);-2239.2;3578.5;-300.0;120;122.04;4221.3;appui overhang c4 t+150 : poteau
-105;Pilier fin métal (Thin Pillar);-2499.0;3428.5;-300.0;120;126.09;4242.6;appui overhang c4 t+450 : poteau
-106;Pilier fin métal (Thin Pillar);-2758.8;3278.5;-300.0;120;130.08;4284.8;appui overhang c4 t+750 : poteau
-107;Pilier fin métal (Thin Pillar);-3018.7;3128.5;-300.0;120;133.98;4347.4;appui overhang c4 t+1050 : poteau
-108;Pilier fin métal (Thin Pillar);-3018.7;-3128.5;-300.0;240;226.02;4347.4;appui overhang c8 t-1050 : poteau
-109;Pilier fin métal (Thin Pillar);-2758.8;-3278.5;-300.0;240;229.92;4284.8;appui overhang c8 t-750 : poteau
-110;Pilier fin métal (Thin Pillar);-2499.0;-3428.5;-300.0;240;233.91;4242.6;appui overhang c8 t-450 : poteau
-111;Pilier fin métal (Thin Pillar);-2239.2;-3578.5;-300.0;240;237.96;4221.3;appui overhang c8 t-150 : poteau
-112;Pilier fin métal (Thin Pillar);-1979.4;-3728.5;-300.0;240;242.04;4221.3;appui overhang c8 t+150 : poteau
-113;Pilier fin métal (Thin Pillar);-1719.6;-3878.5;-300.0;240;246.09;4242.6;appui overhang c8 t+450 : poteau
-114;Pilier fin métal (Thin Pillar);-1459.8;-4028.5;-300.0;240;250.08;4284.8;appui overhang c8 t+750 : poteau
-115;Pilier fin métal (Thin Pillar);-1200.0;-4178.5;-300.0;240;253.98;4347.4;appui overhang c8 t+1050 : poteau
-116;Pilier fin métal (Thin Pillar);1200.0;-4178.5;-300.0;300;286.02;4347.4;appui overhang c10 t-1050 : poteau
-117;Pilier fin métal (Thin Pillar);1459.8;-4028.5;-300.0;300;289.92;4284.8;appui overhang c10 t-750 : poteau
-118;Pilier fin métal (Thin Pillar);1719.6;-3878.5;-300.0;300;293.91;4242.6;appui overhang c10 t-450 : poteau
-119;Pilier fin métal (Thin Pillar);1979.4;-3728.5;-300.0;300;297.96;4221.3;appui overhang c10 t-150 : poteau
-120;Pilier fin métal (Thin Pillar);2239.2;-3578.5;-300.0;300;302.04;4221.3;appui overhang c10 t+150 : poteau
-121;Pilier fin métal (Thin Pillar);2499.0;-3428.5;-300.0;300;306.09;4242.6;appui overhang c10 t+450 : poteau
-122;Pilier fin métal (Thin Pillar);2758.8;-3278.5;-300.0;300;310.08;4284.8;appui overhang c10 t+750 : poteau
-123;Pilier fin métal (Thin Pillar);3018.7;-3128.5;-300.0;300;313.98;4347.4;appui overhang c10 t+1050 : poteau
-124;Rampe inclinée métal (Sloped Railing);4628.5;-1200.0;-300.0;270;345.47;4781.5;overhang r-3 c0 t-1200
-125;Rampe inclinée métal (Sloped Railing);4628.5;-900.0;-300.0;270;349.0;4715.2;overhang r-3 c0 t-900
-126;Rampe inclinée métal (Sloped Railing);4628.5;-600.0;-300.0;270;352.61;4667.2;overhang r-3 c0 t-600
-127;Rampe inclinée métal (Sloped Railing);4628.5;-300.0;-300.0;270;356.29;4638.2;overhang r-3 c0 t-300
-128;Rampe inclinée métal (Sloped Railing);4628.5;0.0;-300.0;270;0.0;4628.5;overhang r-3 c0 t-0
-129;Rampe inclinée métal (Sloped Railing);4628.5;300.0;-300.0;270;3.71;4638.2;overhang r-3 c0 t+300
-130;Rampe inclinée métal (Sloped Railing);4628.5;600.0;-300.0;270;7.39;4667.2;overhang r-3 c0 t+600
-131;Rampe inclinée métal (Sloped Railing);4628.5;900.0;-300.0;270;11.0;4715.2;overhang r-3 c0 t+900
-132;Rampe inclinée métal (Sloped Railing);4628.5;1200.0;-300.0;270;14.53;4781.5;overhang r-3 c0 t+1200
-133;Rampe inclinée métal (Sloped Railing);4608.4;1275.0;-300.0;300;15.47;4781.5;overhang r-3 c1 t-1200
-134;Rampe inclinée métal (Sloped Railing);4458.4;1534.8;-300.0;300;19.0;4715.2;overhang r-3 c1 t-900
-135;Rampe inclinée métal (Sloped Railing);4308.4;1794.6;-300.0;300;22.61;4667.2;overhang r-3 c1 t-600
-136;Rampe inclinée métal (Sloped Railing);4158.4;2054.4;-300.0;300;26.29;4638.2;overhang r-3 c1 t-300
-137;Rampe inclinée métal (Sloped Railing);4008.4;2314.2;-300.0;300;30.0;4628.5;overhang r-3 c1 t-0
-138;Rampe inclinée métal (Sloped Railing);3858.4;2574.0;-300.0;300;33.71;4638.2;overhang r-3 c1 t+300
-139;Rampe inclinée métal (Sloped Railing);3708.4;2833.8;-300.0;300;37.39;4667.2;overhang r-3 c1 t+600
-140;Rampe inclinée métal (Sloped Railing);3558.4;3093.7;-300.0;300;41.0;4715.2;overhang r-3 c1 t+900
-141;Rampe inclinée métal (Sloped Railing);3408.4;3353.5;-300.0;300;44.53;4781.5;overhang r-3 c1 t+1200
-142;Rampe inclinée métal (Sloped Railing);3353.5;3408.4;-300.0;330;45.47;4781.5;overhang r-3 c2 t-1200
-143;Rampe inclinée métal (Sloped Railing);3093.7;3558.4;-300.0;330;49.0;4715.2;overhang r-3 c2 t-900
-144;Rampe inclinée métal (Sloped Railing);2833.8;3708.4;-300.0;330;52.61;4667.2;overhang r-3 c2 t-600
-145;Rampe inclinée métal (Sloped Railing);2574.0;3858.4;-300.0;330;56.29;4638.2;overhang r-3 c2 t-300
-146;Rampe inclinée métal (Sloped Railing);2314.2;4008.4;-300.0;330;60.0;4628.5;overhang r-3 c2 t-0
-147;Rampe inclinée métal (Sloped Railing);2054.4;4158.4;-300.0;330;63.71;4638.2;overhang r-3 c2 t+300
-148;Rampe inclinée métal (Sloped Railing);1794.6;4308.4;-300.0;330;67.39;4667.2;overhang r-3 c2 t+600
-149;Rampe inclinée métal (Sloped Railing);1534.8;4458.4;-300.0;330;71.0;4715.2;overhang r-3 c2 t+900
-150;Rampe inclinée métal (Sloped Railing);1275.0;4608.4;-300.0;330;74.53;4781.5;overhang r-3 c2 t+1200
-151;Rampe inclinée métal (Sloped Railing);1200.0;4628.5;-300.0;0;75.47;4781.5;overhang r-3 c3 t-1200
-152;Rampe inclinée métal (Sloped Railing);900.0;4628.5;-300.0;0;79.0;4715.2;overhang r-3 c3 t-900
-153;Rampe inclinée métal (Sloped Railing);600.0;4628.5;-300.0;0;82.61;4667.2;overhang r-3 c3 t-600
-154;Rampe inclinée métal (Sloped Railing);300.0;4628.5;-300.0;0;86.29;4638.2;overhang r-3 c3 t-300
-155;Rampe inclinée métal (Sloped Railing);0.0;4628.5;-300.0;0;90.0;4628.5;overhang r-3 c3 t-0
-156;Rampe inclinée métal (Sloped Railing);-300.0;4628.5;-300.0;0;93.71;4638.2;overhang r-3 c3 t+300
-157;Rampe inclinée métal (Sloped Railing);-600.0;4628.5;-300.0;0;97.39;4667.2;overhang r-3 c3 t+600
-158;Rampe inclinée métal (Sloped Railing);-900.0;4628.5;-300.0;0;101.0;4715.2;overhang r-3 c3 t+900
-159;Rampe inclinée métal (Sloped Railing);-1200.0;4628.5;-300.0;0;104.53;4781.5;overhang r-3 c3 t+1200
-160;Rampe inclinée métal (Sloped Railing);-1275.0;4608.4;-300.0;30;105.47;4781.5;overhang r-3 c4 t-1200
-161;Rampe inclinée métal (Sloped Railing);-1534.8;4458.4;-300.0;30;109.0;4715.2;overhang r-3 c4 t-900
-162;Rampe inclinée métal (Sloped Railing);-1794.6;4308.4;-300.0;30;112.61;4667.2;overhang r-3 c4 t-600
-163;Rampe inclinée métal (Sloped Railing);-2054.4;4158.4;-300.0;30;116.29;4638.2;overhang r-3 c4 t-300
-164;Rampe inclinée métal (Sloped Railing);-2314.2;4008.4;-300.0;30;120.0;4628.5;overhang r-3 c4 t-0
-165;Rampe inclinée métal (Sloped Railing);-2574.0;3858.4;-300.0;30;123.71;4638.2;overhang r-3 c4 t+300
-166;Rampe inclinée métal (Sloped Railing);-2833.8;3708.4;-300.0;30;127.39;4667.2;overhang r-3 c4 t+600
-167;Rampe inclinée métal (Sloped Railing);-3093.7;3558.4;-300.0;30;131.0;4715.2;overhang r-3 c4 t+900
-168;Rampe inclinée métal (Sloped Railing);-3353.5;3408.4;-300.0;30;134.53;4781.5;overhang r-3 c4 t+1200
-169;Rampe inclinée métal (Sloped Railing);-3408.4;3353.5;-300.0;60;135.47;4781.5;overhang r-3 c5 t-1200
-170;Rampe inclinée métal (Sloped Railing);-3558.4;3093.7;-300.0;60;139.0;4715.2;overhang r-3 c5 t-900
-171;Rampe inclinée métal (Sloped Railing);-3708.4;2833.8;-300.0;60;142.61;4667.2;overhang r-3 c5 t-600
-172;Rampe inclinée métal (Sloped Railing);-3858.4;2574.0;-300.0;60;146.29;4638.2;overhang r-3 c5 t-300
-173;Rampe inclinée métal (Sloped Railing);-4008.4;2314.2;-300.0;60;150.0;4628.5;overhang r-3 c5 t-0
-174;Rampe inclinée métal (Sloped Railing);-4158.4;2054.4;-300.0;60;153.71;4638.2;overhang r-3 c5 t+300
-175;Rampe inclinée métal (Sloped Railing);-4308.4;1794.6;-300.0;60;157.39;4667.2;overhang r-3 c5 t+600
-176;Rampe inclinée métal (Sloped Railing);-4158.4;-2054.4;-300.0;120;206.29;4638.2;overhang r-3 c7 t-300
-177;Rampe inclinée métal (Sloped Railing);-4008.4;-2314.2;-300.0;120;210.0;4628.5;overhang r-3 c7 t-0
-178;Rampe inclinée métal (Sloped Railing);-3858.4;-2574.0;-300.0;120;213.71;4638.2;overhang r-3 c7 t+300
-179;Rampe inclinée métal (Sloped Railing);-3708.4;-2833.8;-300.0;120;217.39;4667.2;overhang r-3 c7 t+600
-180;Rampe inclinée métal (Sloped Railing);-3558.4;-3093.7;-300.0;120;221.0;4715.2;overhang r-3 c7 t+900
-181;Rampe inclinée métal (Sloped Railing);-3408.4;-3353.5;-300.0;120;224.53;4781.5;overhang r-3 c7 t+1200
-182;Rampe inclinée métal (Sloped Railing);-3353.5;-3408.4;-300.0;150;225.47;4781.5;overhang r-3 c8 t-1200
-183;Rampe inclinée métal (Sloped Railing);-3093.7;-3558.4;-300.0;150;229.0;4715.2;overhang r-3 c8 t-900
-184;Rampe inclinée métal (Sloped Railing);-2833.8;-3708.4;-300.0;150;232.61;4667.2;overhang r-3 c8 t-600
-185;Rampe inclinée métal (Sloped Railing);-2574.0;-3858.4;-300.0;150;236.29;4638.2;overhang r-3 c8 t-300
-186;Rampe inclinée métal (Sloped Railing);-2314.2;-4008.4;-300.0;150;240.0;4628.5;overhang r-3 c8 t-0
-187;Rampe inclinée métal (Sloped Railing);-2054.4;-4158.4;-300.0;150;243.71;4638.2;overhang r-3 c8 t+300
-188;Rampe inclinée métal (Sloped Railing);-1794.6;-4308.4;-300.0;150;247.39;4667.2;overhang r-3 c8 t+600
-189;Rampe inclinée métal (Sloped Railing);-1534.8;-4458.4;-300.0;150;251.0;4715.2;overhang r-3 c8 t+900
-190;Rampe inclinée métal (Sloped Railing);-1275.0;-4608.4;-300.0;150;254.53;4781.5;overhang r-3 c8 t+1200
-191;Rampe inclinée métal (Sloped Railing);-1200.0;-4628.5;-300.0;180;255.47;4781.5;overhang r-3 c9 t-1200
-192;Rampe inclinée métal (Sloped Railing);-900.0;-4628.5;-300.0;180;259.0;4715.2;overhang r-3 c9 t-900
-193;Rampe inclinée métal (Sloped Railing);-600.0;-4628.5;-300.0;180;262.61;4667.2;overhang r-3 c9 t-600
-194;Rampe inclinée métal (Sloped Railing);-300.0;-4628.5;-300.0;180;266.29;4638.2;overhang r-3 c9 t-300
-195;Rampe inclinée métal (Sloped Railing);-0.0;-4628.5;-300.0;180;270.0;4628.5;overhang r-3 c9 t-0
-196;Rampe inclinée métal (Sloped Railing);300.0;-4628.5;-300.0;180;273.71;4638.2;overhang r-3 c9 t+300
-197;Rampe inclinée métal (Sloped Railing);600.0;-4628.5;-300.0;180;277.39;4667.2;overhang r-3 c9 t+600
-198;Rampe inclinée métal (Sloped Railing);900.0;-4628.5;-300.0;180;281.0;4715.2;overhang r-3 c9 t+900
-199;Rampe inclinée métal (Sloped Railing);1200.0;-4628.5;-300.0;180;284.53;4781.5;overhang r-3 c9 t+1200
-200;Rampe inclinée métal (Sloped Railing);1275.0;-4608.4;-300.0;210;285.47;4781.5;overhang r-3 c10 t-1200
-201;Rampe inclinée métal (Sloped Railing);1534.8;-4458.4;-300.0;210;289.0;4715.2;overhang r-3 c10 t-900
-202;Rampe inclinée métal (Sloped Railing);1794.6;-4308.4;-300.0;210;292.61;4667.2;overhang r-3 c10 t-600
-203;Rampe inclinée métal (Sloped Railing);2054.4;-4158.4;-300.0;210;296.29;4638.2;overhang r-3 c10 t-300
-204;Rampe inclinée métal (Sloped Railing);2314.2;-4008.4;-300.0;210;300.0;4628.5;overhang r-3 c10 t-0
-205;Rampe inclinée métal (Sloped Railing);2574.0;-3858.4;-300.0;210;303.71;4638.2;overhang r-3 c10 t+300
-206;Rampe inclinée métal (Sloped Railing);2833.8;-3708.4;-300.0;210;307.39;4667.2;overhang r-3 c10 t+600
-207;Rampe inclinée métal (Sloped Railing);3093.7;-3558.4;-300.0;210;311.0;4715.2;overhang r-3 c10 t+900
-208;Rampe inclinée métal (Sloped Railing);3353.5;-3408.4;-300.0;210;314.53;4781.5;overhang r-3 c10 t+1200
-209;Rampe inclinée métal (Sloped Railing);3408.4;-3353.5;-300.0;240;315.47;4781.5;overhang r-3 c11 t-1200
-210;Rampe inclinée métal (Sloped Railing);3558.4;-3093.7;-300.0;240;319.0;4715.2;overhang r-3 c11 t-900
-211;Rampe inclinée métal (Sloped Railing);3708.4;-2833.8;-300.0;240;322.61;4667.2;overhang r-3 c11 t-600
-212;Rampe inclinée métal (Sloped Railing);3858.4;-2574.0;-300.0;240;326.29;4638.2;overhang r-3 c11 t-300
-213;Rampe inclinée métal (Sloped Railing);4008.4;-2314.2;-300.0;240;330.0;4628.5;overhang r-3 c11 t-0
-214;Rampe inclinée métal (Sloped Railing);4158.4;-2054.4;-300.0;240;333.71;4638.2;overhang r-3 c11 t+300
-215;Rampe inclinée métal (Sloped Railing);4308.4;-1794.6;-300.0;240;337.39;4667.2;overhang r-3 c11 t+600
-216;Rampe inclinée métal (Sloped Railing);4458.4;-1534.8;-300.0;240;341.0;4715.2;overhang r-3 c11 t+900
-217;Rampe inclinée métal (Sloped Railing);4608.4;-1275.0;-300.0;240;344.53;4781.5;overhang r-3 c11 t+1200
-218;Pilier fin métal (Thin Pillar);4178.5;1200.0;-150.0;30;16.02;4347.4;appui overhang c1 t-1050 : poteau
-219;Pilier fin métal (Thin Pillar);4028.5;1459.8;-150.0;30;19.92;4284.8;appui overhang c1 t-750 : poteau
-220;Pilier fin métal (Thin Pillar);3878.5;1719.6;-150.0;30;23.91;4242.6;appui overhang c1 t-450 : poteau
-221;Pilier fin métal (Thin Pillar);3728.5;1979.4;-150.0;30;27.96;4221.3;appui overhang c1 t-150 : poteau
-222;Pilier fin métal (Thin Pillar);3578.5;2239.2;-150.0;30;32.04;4221.3;appui overhang c1 t+150 : poteau
-223;Pilier fin métal (Thin Pillar);3428.5;2499.0;-150.0;30;36.09;4242.6;appui overhang c1 t+450 : poteau
-224;Pilier fin métal (Thin Pillar);3278.5;2758.8;-150.0;30;40.08;4284.8;appui overhang c1 t+750 : poteau
-225;Pilier fin métal (Thin Pillar);3128.5;3018.7;-150.0;30;43.98;4347.4;appui overhang c1 t+1050 : poteau
-226;Pilier fin métal (Thin Pillar);1050.0;4218.7;-150.0;90;76.02;4347.4;appui overhang c3 t-1050 : poteau
-227;Pilier fin métal (Thin Pillar);750.0;4218.7;-150.0;90;79.92;4284.8;appui overhang c3 t-750 : poteau
-228;Pilier fin métal (Thin Pillar);450.0;4218.7;-150.0;90;83.91;4242.6;appui overhang c3 t-450 : poteau
-229;Pilier fin métal (Thin Pillar);150.0;4218.7;-150.0;90;87.96;4221.3;appui overhang c3 t-150 : poteau
-230;Pilier fin métal (Thin Pillar);-150.0;4218.7;-150.0;90;92.04;4221.3;appui overhang c3 t+150 : poteau
-231;Pilier fin métal (Thin Pillar);-450.0;4218.7;-150.0;90;96.09;4242.6;appui overhang c3 t+450 : poteau
-232;Pilier fin métal (Thin Pillar);-750.0;4218.7;-150.0;90;100.08;4284.8;appui overhang c3 t+750 : poteau
-233;Pilier fin métal (Thin Pillar);-1050.0;4218.7;-150.0;90;103.98;4347.4;appui overhang c3 t+1050 : poteau
-234;Pilier fin métal (Thin Pillar);-3128.5;3018.7;-150.0;150;136.02;4347.4;appui overhang c5 t-1050 : poteau
-235;Pilier fin métal (Thin Pillar);-3278.5;2758.8;-150.0;150;139.92;4284.8;appui overhang c5 t-750 : poteau
-236;Pilier fin métal (Thin Pillar);-3428.5;2499.0;-150.0;150;143.91;4242.6;appui overhang c5 t-450 : poteau
-237;Pilier fin métal (Thin Pillar);-3578.5;2239.2;-150.0;150;147.96;4221.3;appui overhang c5 t-150 : poteau
-238;Pilier fin métal (Thin Pillar);-3728.5;1979.4;-150.0;150;152.04;4221.3;appui overhang c5 t+150 : poteau
-239;Pilier fin métal (Thin Pillar);-3878.5;1719.6;-150.0;150;156.09;4242.6;appui overhang c5 t+450 : poteau
-240;Pilier fin métal (Thin Pillar);-3728.5;-1979.4;-150.0;210;207.96;4221.3;appui overhang c7 t-150 : poteau
-241;Pilier fin métal (Thin Pillar);-3578.5;-2239.2;-150.0;210;212.04;4221.3;appui overhang c7 t+150 : poteau
-242;Pilier fin métal (Thin Pillar);-3428.5;-2499.0;-150.0;210;216.09;4242.6;appui overhang c7 t+450 : poteau
-243;Pilier fin métal (Thin Pillar);-3278.5;-2758.8;-150.0;210;220.08;4284.8;appui overhang c7 t+750 : poteau
-244;Pilier fin métal (Thin Pillar);-3128.5;-3018.7;-150.0;210;223.98;4347.4;appui overhang c7 t+1050 : poteau
-245;Pilier fin métal (Thin Pillar);-1050.0;-4218.7;-150.0;270;256.02;4347.4;appui overhang c9 t-1050 : poteau
-246;Pilier fin métal (Thin Pillar);-750.0;-4218.7;-150.0;270;259.92;4284.8;appui overhang c9 t-750 : poteau
-247;Pilier fin métal (Thin Pillar);-450.0;-4218.7;-150.0;270;263.91;4242.6;appui overhang c9 t-450 : poteau
-248;Pilier fin métal (Thin Pillar);-150.0;-4218.7;-150.0;270;267.96;4221.3;appui overhang c9 t-150 : poteau
-249;Pilier fin métal (Thin Pillar);150.0;-4218.7;-150.0;270;272.04;4221.3;appui overhang c9 t+150 : poteau
-250;Pilier fin métal (Thin Pillar);450.0;-4218.7;-150.0;270;276.09;4242.6;appui overhang c9 t+450 : poteau
-251;Pilier fin métal (Thin Pillar);750.0;-4218.7;-150.0;270;280.08;4284.8;appui overhang c9 t+750 : poteau
-252;Pilier fin métal (Thin Pillar);1050.0;-4218.7;-150.0;270;283.98;4347.4;appui overhang c9 t+1050 : poteau
-253;Pilier fin métal (Thin Pillar);3128.5;-3018.7;-150.0;330;316.02;4347.4;appui overhang c11 t-1050 : poteau
-254;Pilier fin métal (Thin Pillar);3278.5;-2758.8;-150.0;330;319.92;4284.8;appui overhang c11 t-750 : poteau
-255;Pilier fin métal (Thin Pillar);3428.5;-2499.0;-150.0;330;323.91;4242.6;appui overhang c11 t-450 : poteau
-256;Pilier fin métal (Thin Pillar);3578.5;-2239.2;-150.0;330;327.96;4221.3;appui overhang c11 t-150 : poteau
-257;Pilier fin métal (Thin Pillar);3728.5;-1979.4;-150.0;330;332.04;4221.3;appui overhang c11 t+150 : poteau
-258;Pilier fin métal (Thin Pillar);3878.5;-1719.6;-150.0;330;336.09;4242.6;appui overhang c11 t+450 : poteau
-259;Pilier fin métal (Thin Pillar);4028.5;-1459.8;-150.0;330;340.08;4284.8;appui overhang c11 t+750 : poteau
-260;Pilier fin métal (Thin Pillar);4178.5;-1200.0;-150.0;330;343.98;4347.4;appui overhang c11 t+1050 : poteau
-261;Cadre de porte double métal;3918.7;-900.0;0.0;0;347.07;4020.7;rive niv0 c0 p0
-262;Cadre de porte double métal;3918.7;-600.0;0.0;0;351.29;3964.3;rive niv0 c0 p1
-263;Cadre de porte double métal;3918.7;-300.0;0.0;0;355.62;3930.1;rive niv0 c0 p2
-264;Cadre de porte double métal;3918.7;0.0;0.0;0;0.0;3918.7;rive niv0 c0 p3
-265;Cadre de porte double métal;3918.7;300.0;0.0;0;4.38;3930.1;rive niv0 c0 p4
-266;Cadre de porte double métal;3918.7;900.0;0.0;0;12.93;4020.7;rive niv0 c0 p6
-267;Cadre de porte double métal;3843.7;1179.9;0.0;30;17.07;4020.7;rive niv0 c1 p0
-268;Cadre de porte double métal;3543.7;1699.5;0.0;30;25.62;3930.1;rive niv0 c1 p2
-269;Cadre de porte double métal;3393.7;1959.3;0.0;30;30.0;3918.7;rive niv0 c1 p3
-270;Cadre de porte double métal;3243.7;2219.1;0.0;30;34.38;3930.1;rive niv0 c1 p4
-271;Cadre de porte double métal;3093.7;2478.9;0.0;30;38.71;3964.3;rive niv0 c1 p5
-272;Cadre de porte double métal;2943.7;2738.7;0.0;30;42.93;4020.7;rive niv0 c1 p6
-273;Cadre de porte double métal;2738.7;2943.7;0.0;60;47.07;4020.7;rive niv0 c2 p0
-274;Cadre de porte double métal;2219.1;3243.7;0.0;60;55.62;3930.1;rive niv0 c2 p2
-275;Cadre de porte double métal;1959.3;3393.7;0.0;60;60.0;3918.7;rive niv0 c2 p3
-276;Cadre de porte double métal;1699.5;3543.7;0.0;60;64.38;3930.1;rive niv0 c2 p4
-277;Cadre de porte double métal;1439.7;3693.7;0.0;60;68.71;3964.3;rive niv0 c2 p5
-278;Cadre de porte double métal;1179.9;3843.7;0.0;60;72.93;4020.7;rive niv0 c2 p6
-279;Cadre de porte double métal;900.0;3918.7;0.0;90;77.07;4020.7;rive niv0 c3 p0
-280;Cadre de porte double métal;600.0;3918.7;0.0;90;81.29;3964.3;rive niv0 c3 p1
-281;Cadre de porte double métal;300.0;3918.7;0.0;90;85.62;3930.1;rive niv0 c3 p2
-282;Cadre de porte double métal;0.0;3918.7;0.0;90;90.0;3918.7;rive niv0 c3 p3
-283;Cadre de porte double métal;-300.0;3918.7;0.0;90;94.38;3930.1;rive niv0 c3 p4
-284;Cadre de porte double métal;-900.0;3918.7;0.0;90;102.93;4020.7;rive niv0 c3 p6
-285;Cadre de porte double métal;-1179.9;3843.7;0.0;120;107.07;4020.7;rive niv0 c4 p0
-286;Cadre de porte double métal;-1439.7;3693.7;0.0;120;111.29;3964.3;rive niv0 c4 p1
-287;Cadre de porte double métal;-1699.5;3543.7;0.0;120;115.62;3930.1;rive niv0 c4 p2
-288;Cadre de porte double métal;-1959.3;3393.7;0.0;120;120.0;3918.7;rive niv0 c4 p3
-289;Cadre de porte double métal;-2219.1;3243.7;0.0;120;124.38;3930.1;rive niv0 c4 p4
-290;Cadre de porte double métal;-2738.7;2943.7;0.0;120;132.93;4020.7;rive niv0 c4 p6
-291;Cadre de porte double métal;-2943.7;2738.7;0.0;150;137.07;4020.7;rive niv0 c5 p0
-292;Cadre de porte double métal;-3243.7;2219.1;0.0;150;145.62;3930.1;rive niv0 c5 p2
-293;Cadre de porte double métal;-3393.7;1959.3;0.0;150;150.0;3918.7;rive niv0 c5 p3
-294;Cadre de porte double métal;-3543.7;1699.5;0.0;150;154.38;3930.1;rive niv0 c5 p4
-295;Cadre de porte double métal;-3693.7;1439.7;0.0;150;158.71;3964.3;rive niv0 c5 p5
-296;Cadre de porte double métal;-3543.7;-1699.5;0.0;210;205.62;3930.1;rive niv0 c7 p2
-297;Cadre de porte double métal;-3393.7;-1959.3;0.0;210;210.0;3918.7;rive niv0 c7 p3
-298;Cadre de porte double métal;-3243.7;-2219.1;0.0;210;214.38;3930.1;rive niv0 c7 p4
-299;Cadre de porte double métal;-2943.7;-2738.7;0.0;210;222.93;4020.7;rive niv0 c7 p6
-300;Cadre de porte double métal;-2738.7;-2943.7;0.0;240;227.07;4020.7;rive niv0 c8 p0
-301;Cadre de porte double métal;-2478.9;-3093.7;0.0;240;231.29;3964.3;rive niv0 c8 p1
-302;Cadre de porte double métal;-2219.1;-3243.7;0.0;240;235.62;3930.1;rive niv0 c8 p2
-303;Cadre de porte double métal;-1959.3;-3393.7;0.0;240;240.0;3918.7;rive niv0 c8 p3
-304;Cadre de porte double métal;-1699.5;-3543.7;0.0;240;244.38;3930.1;rive niv0 c8 p4
-305;Cadre de porte double métal;-1179.9;-3843.7;0.0;240;252.93;4020.7;rive niv0 c8 p6
-306;Cadre de porte double métal;-900.0;-3918.7;0.0;270;257.07;4020.7;rive niv0 c9 p0
-307;Cadre de porte double métal;-300.0;-3918.7;0.0;270;265.62;3930.1;rive niv0 c9 p2
-308;Cadre de porte double métal;-0.0;-3918.7;0.0;270;270.0;3918.7;rive niv0 c9 p3
-309;Cadre de porte double métal;300.0;-3918.7;0.0;270;274.38;3930.1;rive niv0 c9 p4
-310;Cadre de porte double métal;600.0;-3918.7;0.0;270;278.71;3964.3;rive niv0 c9 p5
-311;Cadre de porte double métal;900.0;-3918.7;0.0;270;282.93;4020.7;rive niv0 c9 p6
-312;Cadre de porte double métal;1179.9;-3843.7;0.0;300;287.07;4020.7;rive niv0 c10 p0
-313;Cadre de porte double métal;1699.5;-3543.7;0.0;300;295.62;3930.1;rive niv0 c10 p2
-314;Cadre de porte double métal;1959.3;-3393.7;0.0;300;300.0;3918.7;rive niv0 c10 p3
-315;Cadre de porte double métal;2219.1;-3243.7;0.0;300;304.38;3930.1;rive niv0 c10 p4
-316;Cadre de porte double métal;2478.9;-3093.7;0.0;300;308.71;3964.3;rive niv0 c10 p5
-317;Cadre de porte double métal;2738.7;-2943.7;0.0;300;312.93;4020.7;rive niv0 c10 p6
-318;Cadre de porte double métal;2943.7;-2738.7;0.0;330;317.07;4020.7;rive niv0 c11 p0
-319;Cadre de porte double métal;3093.7;-2478.9;0.0;330;321.29;3964.3;rive niv0 c11 p1
-320;Cadre de porte double métal;3243.7;-2219.1;0.0;330;325.62;3930.1;rive niv0 c11 p2
-321;Cadre de porte double métal;3393.7;-1959.3;0.0;330;330.0;3918.7;rive niv0 c11 p3
-322;Cadre de porte double métal;3543.7;-1699.5;0.0;330;334.38;3930.1;rive niv0 c11 p4
-323;Cadre de porte double métal;3843.7;-1179.9;0.0;330;342.93;4020.7;rive niv0 c11 p6
-324;Pilier fin métal (Thin Pillar);4218.7;-1050.0;0.0;0;346.02;4347.4;appui overhang c0 t-1050 : poteau
-325;Pilier fin métal (Thin Pillar);4218.7;-750.0;0.0;0;349.92;4284.8;appui overhang c0 t-750 : poteau
-326;Pilier fin métal (Thin Pillar);4218.7;-450.0;0.0;0;353.91;4242.6;appui overhang c0 t-450 : poteau
-327;Pilier fin métal (Thin Pillar);4218.7;-150.0;0.0;0;357.96;4221.3;appui overhang c0 t-150 : poteau
-328;Pilier fin métal (Thin Pillar);4218.7;150.0;0.0;0;2.04;4221.3;appui overhang c0 t+150 : poteau
-329;Pilier fin métal (Thin Pillar);4218.7;450.0;0.0;0;6.09;4242.6;appui overhang c0 t+450 : poteau
-330;Pilier fin métal (Thin Pillar);4218.7;750.0;0.0;0;10.08;4284.8;appui overhang c0 t+750 : poteau
-331;Pilier fin métal (Thin Pillar);4218.7;1050.0;0.0;0;13.98;4347.4;appui overhang c0 t+1050 : poteau
-332;Pilier fin métal (Thin Pillar);3018.7;3128.5;0.0;60;46.02;4347.4;appui overhang c2 t-1050 : poteau
-333;Pilier fin métal (Thin Pillar);2758.8;3278.5;0.0;60;49.92;4284.8;appui overhang c2 t-750 : poteau
-334;Pilier fin métal (Thin Pillar);2499.0;3428.5;0.0;60;53.91;4242.6;appui overhang c2 t-450 : poteau
-335;Pilier fin métal (Thin Pillar);2239.2;3578.5;0.0;60;57.96;4221.3;appui overhang c2 t-150 : poteau
-336;Pilier fin métal (Thin Pillar);1979.4;3728.5;0.0;60;62.04;4221.3;appui overhang c2 t+150 : poteau
-337;Pilier fin métal (Thin Pillar);1719.6;3878.5;0.0;60;66.09;4242.6;appui overhang c2 t+450 : poteau
-338;Pilier fin métal (Thin Pillar);1459.8;4028.5;0.0;60;70.08;4284.8;appui overhang c2 t+750 : poteau
-339;Pilier fin métal (Thin Pillar);1200.0;4178.5;0.0;60;73.98;4347.4;appui overhang c2 t+1050 : poteau
-340;Pilier fin métal (Thin Pillar);-1200.0;4178.5;0.0;120;106.02;4347.4;appui overhang c4 t-1050 : poteau
-341;Pilier fin métal (Thin Pillar);-1459.8;4028.5;0.0;120;109.92;4284.8;appui overhang c4 t-750 : poteau
-342;Pilier fin métal (Thin Pillar);-1719.6;3878.5;0.0;120;113.91;4242.6;appui overhang c4 t-450 : poteau
-343;Pilier fin métal (Thin Pillar);-1979.4;3728.5;0.0;120;117.96;4221.3;appui overhang c4 t-150 : poteau
-344;Pilier fin métal (Thin Pillar);-2239.2;3578.5;0.0;120;122.04;4221.3;appui overhang c4 t+150 : poteau
-345;Pilier fin métal (Thin Pillar);-2499.0;3428.5;0.0;120;126.09;4242.6;appui overhang c4 t+450 : poteau
-346;Pilier fin métal (Thin Pillar);-2758.8;3278.5;0.0;120;130.08;4284.8;appui overhang c4 t+750 : poteau
-347;Pilier fin métal (Thin Pillar);-3018.7;3128.5;0.0;120;133.98;4347.4;appui overhang c4 t+1050 : poteau
-348;Pilier fin métal (Thin Pillar);-3018.7;-3128.5;0.0;240;226.02;4347.4;appui overhang c8 t-1050 : poteau
-349;Pilier fin métal (Thin Pillar);-2758.8;-3278.5;0.0;240;229.92;4284.8;appui overhang c8 t-750 : poteau
-350;Pilier fin métal (Thin Pillar);-2499.0;-3428.5;0.0;240;233.91;4242.6;appui overhang c8 t-450 : poteau
-351;Pilier fin métal (Thin Pillar);-2239.2;-3578.5;0.0;240;237.96;4221.3;appui overhang c8 t-150 : poteau
-352;Pilier fin métal (Thin Pillar);-1979.4;-3728.5;0.0;240;242.04;4221.3;appui overhang c8 t+150 : poteau
-353;Pilier fin métal (Thin Pillar);-1719.6;-3878.5;0.0;240;246.09;4242.6;appui overhang c8 t+450 : poteau
-354;Pilier fin métal (Thin Pillar);-1459.8;-4028.5;0.0;240;250.08;4284.8;appui overhang c8 t+750 : poteau
-355;Pilier fin métal (Thin Pillar);-1200.0;-4178.5;0.0;240;253.98;4347.4;appui overhang c8 t+1050 : poteau
-356;Pilier fin métal (Thin Pillar);1200.0;-4178.5;0.0;300;286.02;4347.4;appui overhang c10 t-1050 : poteau
-357;Pilier fin métal (Thin Pillar);1459.8;-4028.5;0.0;300;289.92;4284.8;appui overhang c10 t-750 : poteau
-358;Pilier fin métal (Thin Pillar);1719.6;-3878.5;0.0;300;293.91;4242.6;appui overhang c10 t-450 : poteau
-359;Pilier fin métal (Thin Pillar);1979.4;-3728.5;0.0;300;297.96;4221.3;appui overhang c10 t-150 : poteau
-360;Pilier fin métal (Thin Pillar);2239.2;-3578.5;0.0;300;302.04;4221.3;appui overhang c10 t+150 : poteau
-361;Pilier fin métal (Thin Pillar);2499.0;-3428.5;0.0;300;306.09;4242.6;appui overhang c10 t+450 : poteau
-362;Pilier fin métal (Thin Pillar);2758.8;-3278.5;0.0;300;310.08;4284.8;appui overhang c10 t+750 : poteau
-363;Pilier fin métal (Thin Pillar);3018.7;-3128.5;0.0;300;313.98;4347.4;appui overhang c10 t+1050 : poteau
-364;Rampe inclinée métal (Sloped Railing);4368.7;-1050.0;0.0;270;346.49;4493.1;overhang r-2 c0 t-1050
-365;Rampe inclinée métal (Sloped Railing);4368.7;-750.0;0.0;270;350.26;4432.6;overhang r-2 c0 t-750
-366;Rampe inclinée métal (Sloped Railing);4368.7;-450.0;0.0;270;354.12;4391.8;overhang r-2 c0 t-450
-367;Rampe inclinée métal (Sloped Railing);4368.7;-150.0;0.0;270;358.03;4371.2;overhang r-2 c0 t-150
-368;Rampe inclinée métal (Sloped Railing);4368.7;150.0;0.0;270;1.97;4371.2;overhang r-2 c0 t+150
-369;Rampe inclinée métal (Sloped Railing);4368.7;450.0;0.0;270;5.88;4391.8;overhang r-2 c0 t+450
-370;Rampe inclinée métal (Sloped Railing);4368.7;750.0;0.0;270;9.74;4432.6;overhang r-2 c0 t+750
-371;Rampe inclinée métal (Sloped Railing);4368.7;1050.0;0.0;270;13.51;4493.1;overhang r-2 c0 t+1050
-372;Rampe inclinée métal (Sloped Railing);3093.7;3258.4;0.0;330;46.49;4493.1;overhang r-2 c2 t-1050
-373;Rampe inclinée métal (Sloped Railing);2833.8;3408.4;0.0;330;50.26;4432.6;overhang r-2 c2 t-750
-374;Rampe inclinée métal (Sloped Railing);2574.0;3558.4;0.0;330;54.12;4391.8;overhang r-2 c2 t-450
-375;Rampe inclinée métal (Sloped Railing);2314.2;3708.4;0.0;330;58.03;4371.2;overhang r-2 c2 t-150
-376;Rampe inclinée métal (Sloped Railing);2054.4;3858.4;0.0;330;61.97;4371.2;overhang r-2 c2 t+150
-377;Rampe inclinée métal (Sloped Railing);1794.6;4008.4;0.0;330;65.88;4391.8;overhang r-2 c2 t+450
-378;Rampe inclinée métal (Sloped Railing);1534.8;4158.4;0.0;330;69.74;4432.6;overhang r-2 c2 t+750
-379;Rampe inclinée métal (Sloped Railing);1275.0;4308.4;0.0;330;73.51;4493.1;overhang r-2 c2 t+1050
-380;Rampe inclinée métal (Sloped Railing);-1275.0;4308.4;0.0;30;106.49;4493.1;overhang r-2 c4 t-1050
-381;Rampe inclinée métal (Sloped Railing);-1534.8;4158.4;0.0;30;110.26;4432.6;overhang r-2 c4 t-750
-382;Rampe inclinée métal (Sloped Railing);-1794.6;4008.4;0.0;30;114.12;4391.8;overhang r-2 c4 t-450
-383;Rampe inclinée métal (Sloped Railing);-2054.4;3858.4;0.0;30;118.03;4371.2;overhang r-2 c4 t-150
-384;Rampe inclinée métal (Sloped Railing);-2314.2;3708.4;0.0;30;121.97;4371.2;overhang r-2 c4 t+150
-385;Rampe inclinée métal (Sloped Railing);-2574.0;3558.4;0.0;30;125.88;4391.8;overhang r-2 c4 t+450
-386;Rampe inclinée métal (Sloped Railing);-2833.8;3408.4;0.0;30;129.74;4432.6;overhang r-2 c4 t+750
-387;Rampe inclinée métal (Sloped Railing);-3093.7;3258.4;0.0;30;133.51;4493.1;overhang r-2 c4 t+1050
-388;Rampe inclinée métal (Sloped Railing);-3093.7;-3258.4;0.0;150;226.49;4493.1;overhang r-2 c8 t-1050
-389;Rampe inclinée métal (Sloped Railing);-2833.8;-3408.4;0.0;150;230.26;4432.6;overhang r-2 c8 t-750
-390;Rampe inclinée métal (Sloped Railing);-2574.0;-3558.4;0.0;150;234.12;4391.8;overhang r-2 c8 t-450
-391;Rampe inclinée métal (Sloped Railing);-2314.2;-3708.4;0.0;150;238.03;4371.2;overhang r-2 c8 t-150
-392;Rampe inclinée métal (Sloped Railing);-2054.4;-3858.4;0.0;150;241.97;4371.2;overhang r-2 c8 t+150
-393;Rampe inclinée métal (Sloped Railing);-1794.6;-4008.4;0.0;150;245.88;4391.8;overhang r-2 c8 t+450
-394;Rampe inclinée métal (Sloped Railing);-1534.8;-4158.4;0.0;150;249.74;4432.6;overhang r-2 c8 t+750
-395;Rampe inclinée métal (Sloped Railing);-1275.0;-4308.4;0.0;150;253.51;4493.1;overhang r-2 c8 t+1050
-396;Rampe inclinée métal (Sloped Railing);1275.0;-4308.4;0.0;210;286.49;4493.1;overhang r-2 c10 t-1050
-397;Rampe inclinée métal (Sloped Railing);1534.8;-4158.4;0.0;210;290.26;4432.6;overhang r-2 c10 t-750
-398;Rampe inclinée métal (Sloped Railing);1794.6;-4008.4;0.0;210;294.12;4391.8;overhang r-2 c10 t-450
-399;Rampe inclinée métal (Sloped Railing);2054.4;-3858.4;0.0;210;298.03;4371.2;overhang r-2 c10 t-150
-400;Rampe inclinée métal (Sloped Railing);2314.2;-3708.4;0.0;210;301.97;4371.2;overhang r-2 c10 t+150
-401;Rampe inclinée métal (Sloped Railing);2574.0;-3558.4;0.0;210;305.88;4391.8;overhang r-2 c10 t+450
-402;Rampe inclinée métal (Sloped Railing);2833.8;-3408.4;0.0;210;309.74;4432.6;overhang r-2 c10 t+750
-403;Rampe inclinée métal (Sloped Railing);3093.7;-3258.4;0.0;210;313.51;4493.1;overhang r-2 c10 t+1050
-404;Mur de chaume (gabarit de pose, à démolir);3918.7;600.0;0.0;0;8.71;3964.3;#1 RIVE c0 p5 (chaume a demolir)
-405;Mur de chaume (gabarit de pose, à démolir);-1439.7;-3693.7;0.0;240;248.71;3964.3;#2 RIVE c8 p5 (chaume a demolir)
-406;Mur de chaume (gabarit de pose, à démolir);-2478.9;3093.7;0.0;120;128.71;3964.3;#3 RIVE c4 p5 (chaume a demolir)
-407;Mur de chaume (gabarit de pose, à démolir);-600.0;3918.7;0.0;90;98.71;3964.3;#10 RIVE c3 p5 (chaume a demolir)
-408;Mur de chaume (gabarit de pose, à démolir);3693.7;-1439.7;0.0;330;338.71;3964.3;#11 RIVE c11 p5 (chaume a demolir)
-409;Mur de chaume (gabarit de pose, à démolir);-3093.7;-2478.9;0.0;210;218.71;3964.3;#12 RIVE c7 p5 (chaume a demolir)
-410;Mur de chaume (gabarit de pose, à démolir);3693.7;1439.7;0.0;30;21.29;3964.3;#13 RIVE c1 p1 (chaume a demolir)
-411;Mur de chaume (gabarit de pose, à démolir);-600.0;-3918.7;0.0;270;261.29;3964.3;#14 RIVE c9 p1 (chaume a demolir)
-412;Mur de chaume (gabarit de pose, à démolir);-3093.7;2478.9;0.0;150;141.29;3964.3;#15 RIVE c5 p1 (chaume a demolir)
-413;Mur de chaume (gabarit de pose, à démolir);2478.9;3093.7;0.0;60;51.29;3964.3;#19 RIVE c2 p1 (chaume a demolir)
-414;Mur de chaume (gabarit de pose, à démolir);1439.7;-3693.7;0.0;300;291.29;3964.3;#20 RIVE c10 p1 (chaume a demolir)
-415;Demi-pilier fin métal (Half Thin Pillar);4178.5;1200.0;150.0;30;16.02;4347.4;appui overhang c1 t-1050 : poteau
-416;Rampe inclinée métal (Sloped Railing);4308.4;1275.0;0.0;300;16.49;4493.1;overhang r-2 c1 t-1050
-417;Demi-pilier fin métal (Half Thin Pillar);4028.5;1459.8;150.0;30;19.92;4284.8;appui overhang c1 t-750 : poteau
-418;Rampe inclinée métal (Sloped Railing);4158.4;1534.8;0.0;300;20.26;4432.6;overhang r-2 c1 t-750
-419;Demi-pilier fin métal (Half Thin Pillar);3878.5;1719.6;150.0;30;23.91;4242.6;appui overhang c1 t-450 : poteau
-420;Rampe inclinée métal (Sloped Railing);4008.4;1794.6;0.0;300;24.12;4391.8;overhang r-2 c1 t-450
-421;Demi-pilier fin métal (Half Thin Pillar);3728.5;1979.4;150.0;30;27.96;4221.3;appui overhang c1 t-150 : poteau
-422;Rampe inclinée métal (Sloped Railing);3858.4;2054.4;0.0;300;28.03;4371.2;overhang r-2 c1 t-150
-423;Demi-pilier fin métal (Half Thin Pillar);3578.5;2239.2;150.0;30;32.04;4221.3;appui overhang c1 t+150 : poteau
-424;Rampe inclinée métal (Sloped Railing);3708.4;2314.2;0.0;300;31.97;4371.2;overhang r-2 c1 t+150
-425;Demi-pilier fin métal (Half Thin Pillar);3428.5;2499.0;150.0;30;36.09;4242.6;appui overhang c1 t+450 : poteau
-426;Rampe inclinée métal (Sloped Railing);3558.4;2574.0;0.0;300;35.88;4391.8;overhang r-2 c1 t+450
-427;Demi-pilier fin métal (Half Thin Pillar);3278.5;2758.8;150.0;30;40.08;4284.8;appui overhang c1 t+750 : poteau
-428;Rampe inclinée métal (Sloped Railing);3408.4;2833.8;0.0;300;39.74;4432.6;overhang r-2 c1 t+750
-429;Demi-pilier fin métal (Half Thin Pillar);3128.5;3018.7;150.0;30;43.98;4347.4;appui overhang c1 t+1050 : poteau
-430;Rampe inclinée métal (Sloped Railing);3258.4;3093.7;0.0;300;43.51;4493.1;overhang r-2 c1 t+1050
-431;Demi-pilier fin métal (Half Thin Pillar);1050.0;4218.7;150.0;90;76.02;4347.4;appui overhang c3 t-1050 : poteau
-432;Rampe inclinée métal (Sloped Railing);1050.0;4368.7;0.0;0;76.49;4493.1;overhang r-2 c3 t-1050
-433;Demi-pilier fin métal (Half Thin Pillar);750.0;4218.7;150.0;90;79.92;4284.8;appui overhang c3 t-750 : poteau
-434;Rampe inclinée métal (Sloped Railing);750.0;4368.7;0.0;0;80.26;4432.6;overhang r-2 c3 t-750
-435;Demi-pilier fin métal (Half Thin Pillar);450.0;4218.7;150.0;90;83.91;4242.6;appui overhang c3 t-450 : poteau
-436;Rampe inclinée métal (Sloped Railing);450.0;4368.7;0.0;0;84.12;4391.8;overhang r-2 c3 t-450
-437;Demi-pilier fin métal (Half Thin Pillar);150.0;4218.7;150.0;90;87.96;4221.3;appui overhang c3 t-150 : poteau
-438;Rampe inclinée métal (Sloped Railing);150.0;4368.7;0.0;0;88.03;4371.2;overhang r-2 c3 t-150
-439;Demi-pilier fin métal (Half Thin Pillar);-150.0;4218.7;150.0;90;92.04;4221.3;appui overhang c3 t+150 : poteau
-440;Rampe inclinée métal (Sloped Railing);-150.0;4368.7;0.0;0;91.97;4371.2;overhang r-2 c3 t+150
-441;Demi-pilier fin métal (Half Thin Pillar);-450.0;4218.7;150.0;90;96.09;4242.6;appui overhang c3 t+450 : poteau
-442;Rampe inclinée métal (Sloped Railing);-450.0;4368.7;0.0;0;95.88;4391.8;overhang r-2 c3 t+450
-443;Demi-pilier fin métal (Half Thin Pillar);-750.0;4218.7;150.0;90;100.08;4284.8;appui overhang c3 t+750 : poteau
-444;Rampe inclinée métal (Sloped Railing);-750.0;4368.7;0.0;0;99.74;4432.6;overhang r-2 c3 t+750
-445;Demi-pilier fin métal (Half Thin Pillar);-1050.0;4218.7;150.0;90;103.98;4347.4;appui overhang c3 t+1050 : poteau
-446;Rampe inclinée métal (Sloped Railing);-1050.0;4368.7;0.0;0;103.51;4493.1;overhang r-2 c3 t+1050
-447;Demi-pilier fin métal (Half Thin Pillar);-3128.5;3018.7;150.0;150;136.02;4347.4;appui overhang c5 t-1050 : poteau
-448;Rampe inclinée métal (Sloped Railing);-3258.4;3093.7;0.0;60;136.49;4493.1;overhang r-2 c5 t-1050
-449;Demi-pilier fin métal (Half Thin Pillar);-3278.5;2758.8;150.0;150;139.92;4284.8;appui overhang c5 t-750 : poteau
-450;Rampe inclinée métal (Sloped Railing);-3408.4;2833.8;0.0;60;140.26;4432.6;overhang r-2 c5 t-750
-451;Demi-pilier fin métal (Half Thin Pillar);-3428.5;2499.0;150.0;150;143.91;4242.6;appui overhang c5 t-450 : poteau
-452;Rampe inclinée métal (Sloped Railing);-3558.4;2574.0;0.0;60;144.12;4391.8;overhang r-2 c5 t-450
-453;Demi-pilier fin métal (Half Thin Pillar);-3578.5;2239.2;150.0;150;147.96;4221.3;appui overhang c5 t-150 : poteau
-454;Rampe inclinée métal (Sloped Railing);-3708.4;2314.2;0.0;60;148.03;4371.2;overhang r-2 c5 t-150
-455;Demi-pilier fin métal (Half Thin Pillar);-3728.5;1979.4;150.0;150;152.04;4221.3;appui overhang c5 t+150 : poteau
-456;Rampe inclinée métal (Sloped Railing);-3858.4;2054.4;0.0;60;151.97;4371.2;overhang r-2 c5 t+150
-457;Demi-pilier fin métal (Half Thin Pillar);-3878.5;1719.6;150.0;150;156.09;4242.6;appui overhang c5 t+450 : poteau
-458;Rampe inclinée métal (Sloped Railing);-4008.4;1794.6;0.0;60;155.88;4391.8;overhang r-2 c5 t+450
-459;Demi-pilier fin métal (Half Thin Pillar);-3728.5;-1979.4;150.0;210;207.96;4221.3;appui overhang c7 t-150 : poteau
-460;Rampe inclinée métal (Sloped Railing);-3858.4;-2054.4;0.0;120;208.03;4371.2;overhang r-2 c7 t-150
-461;Demi-pilier fin métal (Half Thin Pillar);-3578.5;-2239.2;150.0;210;212.04;4221.3;appui overhang c7 t+150 : poteau
-462;Rampe inclinée métal (Sloped Railing);-3708.4;-2314.2;0.0;120;211.97;4371.2;overhang r-2 c7 t+150
-463;Demi-pilier fin métal (Half Thin Pillar);-3428.5;-2499.0;150.0;210;216.09;4242.6;appui overhang c7 t+450 : poteau
-464;Rampe inclinée métal (Sloped Railing);-3558.4;-2574.0;0.0;120;215.88;4391.8;overhang r-2 c7 t+450
-465;Demi-pilier fin métal (Half Thin Pillar);-3278.5;-2758.8;150.0;210;220.08;4284.8;appui overhang c7 t+750 : poteau
-466;Rampe inclinée métal (Sloped Railing);-3408.4;-2833.8;0.0;120;219.74;4432.6;overhang r-2 c7 t+750
-467;Demi-pilier fin métal (Half Thin Pillar);-3128.5;-3018.7;150.0;210;223.98;4347.4;appui overhang c7 t+1050 : poteau
-468;Rampe inclinée métal (Sloped Railing);-3258.4;-3093.7;0.0;120;223.51;4493.1;overhang r-2 c7 t+1050
-469;Demi-pilier fin métal (Half Thin Pillar);-1050.0;-4218.7;150.0;270;256.02;4347.4;appui overhang c9 t-1050 : poteau
-470;Rampe inclinée métal (Sloped Railing);-1050.0;-4368.7;0.0;180;256.49;4493.1;overhang r-2 c9 t-1050
-471;Demi-pilier fin métal (Half Thin Pillar);-750.0;-4218.7;150.0;270;259.92;4284.8;appui overhang c9 t-750 : poteau
-472;Rampe inclinée métal (Sloped Railing);-750.0;-4368.7;0.0;180;260.26;4432.6;overhang r-2 c9 t-750
-473;Demi-pilier fin métal (Half Thin Pillar);-450.0;-4218.7;150.0;270;263.91;4242.6;appui overhang c9 t-450 : poteau
-474;Rampe inclinée métal (Sloped Railing);-450.0;-4368.7;0.0;180;264.12;4391.8;overhang r-2 c9 t-450
-475;Demi-pilier fin métal (Half Thin Pillar);-150.0;-4218.7;150.0;270;267.96;4221.3;appui overhang c9 t-150 : poteau
-476;Rampe inclinée métal (Sloped Railing);-150.0;-4368.7;0.0;180;268.03;4371.2;overhang r-2 c9 t-150
-477;Demi-pilier fin métal (Half Thin Pillar);150.0;-4218.7;150.0;270;272.04;4221.3;appui overhang c9 t+150 : poteau
-478;Rampe inclinée métal (Sloped Railing);150.0;-4368.7;0.0;180;271.97;4371.2;overhang r-2 c9 t+150
-479;Demi-pilier fin métal (Half Thin Pillar);450.0;-4218.7;150.0;270;276.09;4242.6;appui overhang c9 t+450 : poteau
-480;Rampe inclinée métal (Sloped Railing);450.0;-4368.7;0.0;180;275.88;4391.8;overhang r-2 c9 t+450
-481;Demi-pilier fin métal (Half Thin Pillar);750.0;-4218.7;150.0;270;280.08;4284.8;appui overhang c9 t+750 : poteau
-482;Rampe inclinée métal (Sloped Railing);750.0;-4368.7;0.0;180;279.74;4432.6;overhang r-2 c9 t+750
-483;Demi-pilier fin métal (Half Thin Pillar);1050.0;-4218.7;150.0;270;283.98;4347.4;appui overhang c9 t+1050 : poteau
-484;Rampe inclinée métal (Sloped Railing);1050.0;-4368.7;0.0;180;283.51;4493.1;overhang r-2 c9 t+1050
-485;Demi-pilier fin métal (Half Thin Pillar);3128.5;-3018.7;150.0;330;316.02;4347.4;appui overhang c11 t-1050 : poteau
-486;Rampe inclinée métal (Sloped Railing);3258.4;-3093.7;0.0;240;316.49;4493.1;overhang r-2 c11 t-1050
-487;Demi-pilier fin métal (Half Thin Pillar);3278.5;-2758.8;150.0;330;319.92;4284.8;appui overhang c11 t-750 : poteau
-488;Rampe inclinée métal (Sloped Railing);3408.4;-2833.8;0.0;240;320.26;4432.6;overhang r-2 c11 t-750
-489;Demi-pilier fin métal (Half Thin Pillar);3428.5;-2499.0;150.0;330;323.91;4242.6;appui overhang c11 t-450 : poteau
-490;Rampe inclinée métal (Sloped Railing);3558.4;-2574.0;0.0;240;324.12;4391.8;overhang r-2 c11 t-450
-491;Demi-pilier fin métal (Half Thin Pillar);3578.5;-2239.2;150.0;330;327.96;4221.3;appui overhang c11 t-150 : poteau
-492;Rampe inclinée métal (Sloped Railing);3708.4;-2314.2;0.0;240;328.03;4371.2;overhang r-2 c11 t-150
-493;Demi-pilier fin métal (Half Thin Pillar);3728.5;-1979.4;150.0;330;332.04;4221.3;appui overhang c11 t+150 : poteau
-494;Rampe inclinée métal (Sloped Railing);3858.4;-2054.4;0.0;240;331.97;4371.2;overhang r-2 c11 t+150
-495;Demi-pilier fin métal (Half Thin Pillar);3878.5;-1719.6;150.0;330;336.09;4242.6;appui overhang c11 t+450 : poteau
-496;Rampe inclinée métal (Sloped Railing);4008.4;-1794.6;0.0;240;335.88;4391.8;overhang r-2 c11 t+450
-497;Demi-pilier fin métal (Half Thin Pillar);4028.5;-1459.8;150.0;330;340.08;4284.8;appui overhang c11 t+750 : poteau
-498;Rampe inclinée métal (Sloped Railing);4158.4;-1534.8;0.0;240;339.74;4432.6;overhang r-2 c11 t+750
-499;Demi-pilier fin métal (Half Thin Pillar);4178.5;-1200.0;150.0;330;343.98;4347.4;appui overhang c11 t+1050 : poteau
-500;Rampe inclinée métal (Sloped Railing);4308.4;-1275.0;0.0;240;343.51;4493.1;overhang r-2 c11 t+1050
-501;Cadre de porte double métal;3918.7;-900.0;300.0;0;347.07;4020.7;rive niv1 c0 p0
-502;Cadre de porte double métal;3918.7;-300.0;300.0;0;355.62;3930.1;rive niv1 c0 p2
-503;Cadre de porte double métal;3918.7;300.0;300.0;0;4.38;3930.1;rive niv1 c0 p4
-504;Cadre de porte double métal;3918.7;600.0;300.0;0;8.71;3964.3;rive niv1 c0 p5
-505;Cadre de porte double métal;3918.7;900.0;300.0;0;12.93;4020.7;rive niv1 c0 p6
-506;Cadre de porte double métal;3843.7;1179.9;300.0;30;17.07;4020.7;rive niv1 c1 p0
-507;Cadre de porte double métal;3693.7;1439.7;300.0;30;21.29;3964.3;rive niv1 c1 p1
-508;Cadre de porte double métal;3543.7;1699.5;300.0;30;25.62;3930.1;rive niv1 c1 p2
-509;Cadre de porte double métal;3243.7;2219.1;300.0;30;34.38;3930.1;rive niv1 c1 p4
-510;Cadre de porte double métal;3093.7;2478.9;300.0;30;38.71;3964.3;rive niv1 c1 p5
-511;Cadre de porte double métal;2943.7;2738.7;300.0;30;42.93;4020.7;rive niv1 c1 p6
-512;Cadre de porte double métal;2738.7;2943.7;300.0;60;47.07;4020.7;rive niv1 c2 p0
-513;Cadre de porte double métal;2478.9;3093.7;300.0;60;51.29;3964.3;rive niv1 c2 p1
-514;Cadre de porte double métal;2219.1;3243.7;300.0;60;55.62;3930.1;rive niv1 c2 p2
-515;Cadre de porte double métal;1699.5;3543.7;300.0;60;64.38;3930.1;rive niv1 c2 p4
-516;Cadre de porte double métal;1179.9;3843.7;300.0;60;72.93;4020.7;rive niv1 c2 p6
-517;Cadre de porte double métal;900.0;3918.7;300.0;90;77.07;4020.7;rive niv1 c3 p0
-518;Cadre de porte double métal;600.0;3918.7;300.0;90;81.29;3964.3;rive niv1 c3 p1
-519;Cadre de porte double métal;300.0;3918.7;300.0;90;85.62;3930.1;rive niv1 c3 p2
-520;Cadre de porte double métal;-300.0;3918.7;300.0;90;94.38;3930.1;rive niv1 c3 p4
-521;Cadre de porte double métal;-600.0;3918.7;300.0;90;98.71;3964.3;rive niv1 c3 p5
-522;Cadre de porte double métal;-900.0;3918.7;300.0;90;102.93;4020.7;rive niv1 c3 p6
-523;Cadre de porte double métal;-1179.9;3843.7;300.0;120;107.07;4020.7;rive niv1 c4 p0
-524;Cadre de porte double métal;-1699.5;3543.7;300.0;120;115.62;3930.1;rive niv1 c4 p2
-525;Cadre de porte double métal;-2219.1;3243.7;300.0;120;124.38;3930.1;rive niv1 c4 p4
-526;Cadre de porte double métal;-2478.9;3093.7;300.0;120;128.71;3964.3;rive niv1 c4 p5
-527;Cadre de porte double métal;-2738.7;2943.7;300.0;120;132.93;4020.7;rive niv1 c4 p6
-528;Cadre de porte double métal;-2943.7;2738.7;300.0;150;137.07;4020.7;rive niv1 c5 p0
-529;Cadre de porte double métal;-3093.7;2478.9;300.0;150;141.29;3964.3;rive niv1 c5 p1
-530;Cadre de porte double métal;-3243.7;2219.1;300.0;150;145.62;3930.1;rive niv1 c5 p2
-531;Cadre de porte double métal;-3543.7;1699.5;300.0;150;154.38;3930.1;rive niv1 c5 p4
-532;Cadre de porte double métal;-3693.7;1439.7;300.0;150;158.71;3964.3;rive niv1 c5 p5
-533;Cadre de porte double métal;-3543.7;-1699.5;300.0;210;205.62;3930.1;rive niv1 c7 p2
-534;Cadre de porte double métal;-3243.7;-2219.1;300.0;210;214.38;3930.1;rive niv1 c7 p4
-535;Cadre de porte double métal;-3093.7;-2478.9;300.0;210;218.71;3964.3;rive niv1 c7 p5
-536;Cadre de porte double métal;-2943.7;-2738.7;300.0;210;222.93;4020.7;rive niv1 c7 p6
-537;Cadre de porte double métal;-2738.7;-2943.7;300.0;240;227.07;4020.7;rive niv1 c8 p0
-538;Cadre de porte double métal;-2219.1;-3243.7;300.0;240;235.62;3930.1;rive niv1 c8 p2
-539;Cadre de porte double métal;-1699.5;-3543.7;300.0;240;244.38;3930.1;rive niv1 c8 p4
-540;Cadre de porte double métal;-1439.7;-3693.7;300.0;240;248.71;3964.3;rive niv1 c8 p5
-541;Cadre de porte double métal;-1179.9;-3843.7;300.0;240;252.93;4020.7;rive niv1 c8 p6
-542;Cadre de porte double métal;-900.0;-3918.7;300.0;270;257.07;4020.7;rive niv1 c9 p0
-543;Cadre de porte double métal;-600.0;-3918.7;300.0;270;261.29;3964.3;rive niv1 c9 p1
-544;Cadre de porte double métal;-300.0;-3918.7;300.0;270;265.62;3930.1;rive niv1 c9 p2
-545;Cadre de porte double métal;300.0;-3918.7;300.0;270;274.38;3930.1;rive niv1 c9 p4
-546;Cadre de porte double métal;600.0;-3918.7;300.0;270;278.71;3964.3;rive niv1 c9 p5
-547;Cadre de porte double métal;900.0;-3918.7;300.0;270;282.93;4020.7;rive niv1 c9 p6
-548;Cadre de porte double métal;1179.9;-3843.7;300.0;300;287.07;4020.7;rive niv1 c10 p0
-549;Cadre de porte double métal;1439.7;-3693.7;300.0;300;291.29;3964.3;rive niv1 c10 p1
-550;Cadre de porte double métal;1699.5;-3543.7;300.0;300;295.62;3930.1;rive niv1 c10 p2
-551;Cadre de porte double métal;2219.1;-3243.7;300.0;300;304.38;3930.1;rive niv1 c10 p4
-552;Cadre de porte double métal;2738.7;-2943.7;300.0;300;312.93;4020.7;rive niv1 c10 p6
-553;Cadre de porte double métal;2943.7;-2738.7;300.0;330;317.07;4020.7;rive niv1 c11 p0
-554;Cadre de porte double métal;3093.7;-2478.9;300.0;330;321.29;3964.3;rive niv1 c11 p1
-555;Cadre de porte double métal;3243.7;-2219.1;300.0;330;325.62;3930.1;rive niv1 c11 p2
-556;Cadre de porte double métal;3543.7;-1699.5;300.0;330;334.38;3930.1;rive niv1 c11 p4
-557;Cadre de porte double métal;3693.7;-1439.7;300.0;330;338.71;3964.3;rive niv1 c11 p5
-558;Cadre de porte double métal;3843.7;-1179.9;300.0;330;342.93;4020.7;rive niv1 c11 p6
-559;Rampe inclinée métal (Sloped Railing);4068.7;-1050.0;300.0;270;345.53;4202.0;overhang r-1 c0 t-1050
-560;Rampe inclinée métal (Sloped Railing);4068.7;-750.0;300.0;270;349.56;4137.2;overhang r-1 c0 t-750
-561;Rampe inclinée métal (Sloped Railing);4068.7;-450.0;300.0;270;353.69;4093.5;overhang r-1 c0 t-450
-562;Rampe inclinée métal (Sloped Railing);4068.7;-150.0;300.0;270;357.89;4071.4;overhang r-1 c0 t-150
-563;Rampe inclinée métal (Sloped Railing);4068.7;150.0;300.0;270;2.11;4071.4;overhang r-1 c0 t+150
-564;Rampe inclinée métal (Sloped Railing);4068.7;450.0;300.0;270;6.31;4093.5;overhang r-1 c0 t+450
-565;Rampe inclinée métal (Sloped Railing);4068.7;750.0;300.0;270;10.44;4137.2;overhang r-1 c0 t+750
-566;Rampe inclinée métal (Sloped Railing);4068.7;1050.0;300.0;270;14.47;4202.0;overhang r-1 c0 t+1050
-567;Rampe inclinée métal (Sloped Railing);4048.6;1125.0;300.0;300;15.53;4202.0;overhang r-1 c1 t-1050
-568;Rampe inclinée métal (Sloped Railing);3898.6;1384.8;300.0;300;19.56;4137.2;overhang r-1 c1 t-750
-569;Rampe inclinée métal (Sloped Railing);3748.6;1644.6;300.0;300;23.69;4093.5;overhang r-1 c1 t-450
-570;Rampe inclinée métal (Sloped Railing);3598.6;1904.4;300.0;300;27.89;4071.4;overhang r-1 c1 t-150
-571;Rampe inclinée métal (Sloped Railing);3448.6;2164.2;300.0;300;32.11;4071.4;overhang r-1 c1 t+150
-572;Rampe inclinée métal (Sloped Railing);3298.6;2424.0;300.0;300;36.31;4093.5;overhang r-1 c1 t+450
-573;Rampe inclinée métal (Sloped Railing);3148.6;2683.8;300.0;300;40.44;4137.2;overhang r-1 c1 t+750
-574;Rampe inclinée métal (Sloped Railing);2998.6;2943.7;300.0;300;44.47;4202.0;overhang r-1 c1 t+1050
-575;Rampe inclinée métal (Sloped Railing);2943.7;2998.6;300.0;330;45.53;4202.0;overhang r-1 c2 t-1050
-576;Rampe inclinée métal (Sloped Railing);2683.8;3148.6;300.0;330;49.56;4137.2;overhang r-1 c2 t-750
-577;Rampe inclinée métal (Sloped Railing);2424.0;3298.6;300.0;330;53.69;4093.5;overhang r-1 c2 t-450
-578;Rampe inclinée métal (Sloped Railing);2164.2;3448.6;300.0;330;57.89;4071.4;overhang r-1 c2 t-150
-579;Rampe inclinée métal (Sloped Railing);1904.4;3598.6;300.0;330;62.11;4071.4;overhang r-1 c2 t+150
-580;Rampe inclinée métal (Sloped Railing);1644.6;3748.6;300.0;330;66.31;4093.5;overhang r-1 c2 t+450
-581;Rampe inclinée métal (Sloped Railing);1384.8;3898.6;300.0;330;70.44;4137.2;overhang r-1 c2 t+750
-582;Rampe inclinée métal (Sloped Railing);1125.0;4048.6;300.0;330;74.47;4202.0;overhang r-1 c2 t+1050
-583;Rampe inclinée métal (Sloped Railing);1050.0;4068.7;300.0;0;75.53;4202.0;overhang r-1 c3 t-1050
-584;Rampe inclinée métal (Sloped Railing);750.0;4068.7;300.0;0;79.56;4137.2;overhang r-1 c3 t-750
-585;Rampe inclinée métal (Sloped Railing);450.0;4068.7;300.0;0;83.69;4093.5;overhang r-1 c3 t-450
-586;Rampe inclinée métal (Sloped Railing);150.0;4068.7;300.0;0;87.89;4071.4;overhang r-1 c3 t-150
-587;Rampe inclinée métal (Sloped Railing);-150.0;4068.7;300.0;0;92.11;4071.4;overhang r-1 c3 t+150
-588;Rampe inclinée métal (Sloped Railing);-450.0;4068.7;300.0;0;96.31;4093.5;overhang r-1 c3 t+450
-589;Rampe inclinée métal (Sloped Railing);-750.0;4068.7;300.0;0;100.44;4137.2;overhang r-1 c3 t+750
-590;Rampe inclinée métal (Sloped Railing);-1050.0;4068.7;300.0;0;104.47;4202.0;overhang r-1 c3 t+1050
-591;Rampe inclinée métal (Sloped Railing);-1125.0;4048.6;300.0;30;105.53;4202.0;overhang r-1 c4 t-1050
-592;Rampe inclinée métal (Sloped Railing);-1384.8;3898.6;300.0;30;109.56;4137.2;overhang r-1 c4 t-750
-593;Rampe inclinée métal (Sloped Railing);-1644.6;3748.6;300.0;30;113.69;4093.5;overhang r-1 c4 t-450
-594;Rampe inclinée métal (Sloped Railing);-1904.4;3598.6;300.0;30;117.89;4071.4;overhang r-1 c4 t-150
-595;Rampe inclinée métal (Sloped Railing);-2164.2;3448.6;300.0;30;122.11;4071.4;overhang r-1 c4 t+150
-596;Rampe inclinée métal (Sloped Railing);-2424.0;3298.6;300.0;30;126.31;4093.5;overhang r-1 c4 t+450
-597;Rampe inclinée métal (Sloped Railing);-2683.8;3148.6;300.0;30;130.44;4137.2;overhang r-1 c4 t+750
-598;Rampe inclinée métal (Sloped Railing);-2943.7;2998.6;300.0;30;134.47;4202.0;overhang r-1 c4 t+1050
-599;Rampe inclinée métal (Sloped Railing);-2998.6;2943.7;300.0;60;135.53;4202.0;overhang r-1 c5 t-1050
-600;Rampe inclinée métal (Sloped Railing);-3148.6;2683.8;300.0;60;139.56;4137.2;overhang r-1 c5 t-750
-601;Rampe inclinée métal (Sloped Railing);-3298.6;2424.0;300.0;60;143.69;4093.5;overhang r-1 c5 t-450
-602;Rampe inclinée métal (Sloped Railing);-3448.6;2164.2;300.0;60;147.89;4071.4;overhang r-1 c5 t-150
-603;Rampe inclinée métal (Sloped Railing);-3598.6;1904.4;300.0;60;152.11;4071.4;overhang r-1 c5 t+150
-604;Rampe inclinée métal (Sloped Railing);-3748.6;1644.6;300.0;60;156.31;4093.5;overhang r-1 c5 t+450
-605;Rampe inclinée métal (Sloped Railing);-3898.6;1384.8;300.0;60;160.44;4137.2;overhang r-1 c5 t+750
-606;Rampe inclinée métal (Sloped Railing);-3748.6;-1644.6;300.0;120;203.69;4093.5;overhang r-1 c7 t-450
-607;Rampe inclinée métal (Sloped Railing);-3598.6;-1904.4;300.0;120;207.89;4071.4;overhang r-1 c7 t-150
-608;Rampe inclinée métal (Sloped Railing);-3448.6;-2164.2;300.0;120;212.11;4071.4;overhang r-1 c7 t+150
-609;Rampe inclinée métal (Sloped Railing);-3298.6;-2424.0;300.0;120;216.31;4093.5;overhang r-1 c7 t+450
-610;Rampe inclinée métal (Sloped Railing);-3148.6;-2683.8;300.0;120;220.44;4137.2;overhang r-1 c7 t+750
-611;Rampe inclinée métal (Sloped Railing);-2998.6;-2943.7;300.0;120;224.47;4202.0;overhang r-1 c7 t+1050
-612;Rampe inclinée métal (Sloped Railing);-2943.7;-2998.6;300.0;150;225.53;4202.0;overhang r-1 c8 t-1050
-613;Rampe inclinée métal (Sloped Railing);-2683.8;-3148.6;300.0;150;229.56;4137.2;overhang r-1 c8 t-750
-614;Rampe inclinée métal (Sloped Railing);-2424.0;-3298.6;300.0;150;233.69;4093.5;overhang r-1 c8 t-450
-615;Rampe inclinée métal (Sloped Railing);-2164.2;-3448.6;300.0;150;237.89;4071.4;overhang r-1 c8 t-150
-616;Rampe inclinée métal (Sloped Railing);-1904.4;-3598.6;300.0;150;242.11;4071.4;overhang r-1 c8 t+150
-617;Rampe inclinée métal (Sloped Railing);-1644.6;-3748.6;300.0;150;246.31;4093.5;overhang r-1 c8 t+450
-618;Rampe inclinée métal (Sloped Railing);-1384.8;-3898.6;300.0;150;250.44;4137.2;overhang r-1 c8 t+750
-619;Rampe inclinée métal (Sloped Railing);-1125.0;-4048.6;300.0;150;254.47;4202.0;overhang r-1 c8 t+1050
-620;Rampe inclinée métal (Sloped Railing);-1050.0;-4068.7;300.0;180;255.53;4202.0;overhang r-1 c9 t-1050
-621;Rampe inclinée métal (Sloped Railing);-750.0;-4068.7;300.0;180;259.56;4137.2;overhang r-1 c9 t-750
-622;Rampe inclinée métal (Sloped Railing);-450.0;-4068.7;300.0;180;263.69;4093.5;overhang r-1 c9 t-450
-623;Rampe inclinée métal (Sloped Railing);-150.0;-4068.7;300.0;180;267.89;4071.4;overhang r-1 c9 t-150
-624;Rampe inclinée métal (Sloped Railing);150.0;-4068.7;300.0;180;272.11;4071.4;overhang r-1 c9 t+150
-625;Rampe inclinée métal (Sloped Railing);450.0;-4068.7;300.0;180;276.31;4093.5;overhang r-1 c9 t+450
-626;Rampe inclinée métal (Sloped Railing);750.0;-4068.7;300.0;180;280.44;4137.2;overhang r-1 c9 t+750
-627;Rampe inclinée métal (Sloped Railing);1050.0;-4068.7;300.0;180;284.47;4202.0;overhang r-1 c9 t+1050
-628;Rampe inclinée métal (Sloped Railing);1125.0;-4048.6;300.0;210;285.53;4202.0;overhang r-1 c10 t-1050
-629;Rampe inclinée métal (Sloped Railing);1384.8;-3898.6;300.0;210;289.56;4137.2;overhang r-1 c10 t-750
-630;Rampe inclinée métal (Sloped Railing);1644.6;-3748.6;300.0;210;293.69;4093.5;overhang r-1 c10 t-450
-631;Rampe inclinée métal (Sloped Railing);1904.4;-3598.6;300.0;210;297.89;4071.4;overhang r-1 c10 t-150
-632;Rampe inclinée métal (Sloped Railing);2164.2;-3448.6;300.0;210;302.11;4071.4;overhang r-1 c10 t+150
-633;Rampe inclinée métal (Sloped Railing);2424.0;-3298.6;300.0;210;306.31;4093.5;overhang r-1 c10 t+450
-634;Rampe inclinée métal (Sloped Railing);2683.8;-3148.6;300.0;210;310.44;4137.2;overhang r-1 c10 t+750
-635;Rampe inclinée métal (Sloped Railing);2943.7;-2998.6;300.0;210;314.47;4202.0;overhang r-1 c10 t+1050
-636;Rampe inclinée métal (Sloped Railing);2998.6;-2943.7;300.0;240;315.53;4202.0;overhang r-1 c11 t-1050
-637;Rampe inclinée métal (Sloped Railing);3148.6;-2683.8;300.0;240;319.56;4137.2;overhang r-1 c11 t-750
-638;Rampe inclinée métal (Sloped Railing);3298.6;-2424.0;300.0;240;323.69;4093.5;overhang r-1 c11 t-450
-639;Rampe inclinée métal (Sloped Railing);3448.6;-2164.2;300.0;240;327.89;4071.4;overhang r-1 c11 t-150
-640;Rampe inclinée métal (Sloped Railing);3598.6;-1904.4;300.0;240;332.11;4071.4;overhang r-1 c11 t+150
-641;Rampe inclinée métal (Sloped Railing);3748.6;-1644.6;300.0;240;336.31;4093.5;overhang r-1 c11 t+450
-642;Rampe inclinée métal (Sloped Railing);3898.6;-1384.8;300.0;240;340.44;4137.2;overhang r-1 c11 t+750
-643;Rampe inclinée métal (Sloped Railing);4048.6;-1125.0;300.0;240;344.47;4202.0;overhang r-1 c11 t+1050
-644;Mur de chaume (gabarit de pose, à démolir);1439.7;3693.7;300.0;60;68.71;3964.3;#4 RIVE c2 p5 (chaume a demolir)
-645;Mur de chaume (gabarit de pose, à démolir);2478.9;-3093.7;300.0;300;308.71;3964.3;#5 RIVE c10 p5 (chaume a demolir)
-646;Mur de chaume (gabarit de pose, à démolir);3393.7;1959.3;300.0;30;30.0;3918.7;#7 RIVE c1 p3 (chaume a demolir)
-647;Mur de chaume (gabarit de pose, à démolir);-0.0;-3918.7;300.0;270;270.0;3918.7;#8 RIVE c9 p3 (chaume a demolir)
-648;Mur de chaume (gabarit de pose, à démolir);-3393.7;1959.3;300.0;150;150.0;3918.7;#9 RIVE c5 p3 (chaume a demolir)
-649;Mur de chaume (gabarit de pose, à démolir);0.0;3918.7;300.0;90;90.0;3918.7;#16 RIVE c3 p3 (chaume a demolir)
-650;Mur de chaume (gabarit de pose, à démolir);3393.7;-1959.3;300.0;330;330.0;3918.7;#17 RIVE c11 p3 (chaume a demolir)
-651;Mur de chaume (gabarit de pose, à démolir);-3393.7;-1959.3;300.0;210;210.0;3918.7;#18 RIVE c7 p3 (chaume a demolir)
-652;Mur de chaume (gabarit de pose, à démolir);-1439.7;3693.7;300.0;120;111.29;3964.3;#22 RIVE c4 p1 (chaume a demolir)
-653;Mur de chaume (gabarit de pose, à démolir);3918.7;-600.0;300.0;0;351.29;3964.3;#23 RIVE c0 p1 (chaume a demolir)
-654;Mur de chaume (gabarit de pose, à démolir);-2478.9;-3093.7;300.0;240;231.29;3964.3;#24 RIVE c8 p1 (chaume a demolir)
-655;Mur de chaume (gabarit de pose, à démolir);3918.7;0.0;300.0;0;0.0;3918.7;#43 RIVE c0 p3 (chaume a demolir)
-656;Mur de chaume (gabarit de pose, à démolir);-1959.3;-3393.7;300.0;240;240.0;3918.7;#44 RIVE c8 p3 (chaume a demolir)
-657;Mur de chaume (gabarit de pose, à démolir);-1959.3;3393.7;300.0;120;120.0;3918.7;#45 RIVE c4 p3 (chaume a demolir)
-658;Mur de chaume (gabarit de pose, à démolir);1959.3;3393.7;300.0;60;60.0;3918.7;#46 RIVE c2 p3 (chaume a demolir)
-659;Mur de chaume (gabarit de pose, à démolir);1959.3;-3393.7;300.0;300;300.0;3918.7;#47 RIVE c10 p3 (chaume a demolir)
+1;Pilier fin métal (Thin Pillar);4478.5;-1200.0;-300.0;0;345.0;4636.4;depart lignes debord c0 t-1200 : pilier fin dans le joint
+2;Pilier fin métal (Thin Pillar);4478.5;-900.0;-300.0;0;348.64;4568.0;depart lignes debord c0 t-900 : pilier fin dans le joint
+3;Pilier fin métal (Thin Pillar);4478.5;-600.0;-300.0;0;352.37;4518.5;depart lignes debord c0 t-600 : pilier fin dans le joint
+4;Pilier fin métal (Thin Pillar);4478.5;-300.0;-300.0;0;356.17;4488.5;depart lignes debord c0 t-300 : pilier fin dans le joint
+5;Pilier fin métal (Thin Pillar);4478.5;0.0;-300.0;0;0.0;4478.5;depart lignes debord c0 t-0 : pilier fin dans le joint
+6;Pilier fin métal (Thin Pillar);4478.5;300.0;-300.0;0;3.83;4488.5;depart lignes debord c0 t+300 : pilier fin dans le joint
+7;Pilier fin métal (Thin Pillar);4478.5;600.0;-300.0;0;7.63;4518.5;depart lignes debord c0 t+600 : pilier fin dans le joint
+8;Pilier fin métal (Thin Pillar);4478.5;900.0;-300.0;0;11.36;4568.0;depart lignes debord c0 t+900 : pilier fin dans le joint
+9;Pilier fin métal (Thin Pillar);4478.5;1200.0;-300.0;0;15.0;4636.4;depart lignes debord c0 t+1200 : pilier fin dans le joint
+10;Pilier fin métal (Thin Pillar);4328.5;1459.8;-300.0;30;18.64;4568.0;depart lignes debord c1 t-900 : pilier fin dans le joint
+11;Pilier fin métal (Thin Pillar);4178.5;1719.6;-300.0;30;22.37;4518.5;depart lignes debord c1 t-600 : pilier fin dans le joint
+12;Pilier fin métal (Thin Pillar);4028.5;1979.4;-300.0;30;26.17;4488.5;depart lignes debord c1 t-300 : pilier fin dans le joint
+13;Pilier fin métal (Thin Pillar);3878.5;2239.2;-300.0;30;30.0;4478.5;depart lignes debord c1 t-0 : pilier fin dans le joint
+14;Pilier fin métal (Thin Pillar);3728.5;2499.0;-300.0;30;33.83;4488.5;depart lignes debord c1 t+300 : pilier fin dans le joint
+15;Pilier fin métal (Thin Pillar);3578.5;2758.8;-300.0;30;37.63;4518.5;depart lignes debord c1 t+600 : pilier fin dans le joint
+16;Pilier fin métal (Thin Pillar);3428.5;3018.7;-300.0;30;41.36;4568.0;depart lignes debord c1 t+900 : pilier fin dans le joint
+17;Pilier fin métal (Thin Pillar);3278.5;3278.5;-300.0;30;45.0;4636.4;depart lignes debord c1 t+1200 : pilier fin dans le joint
+18;Pilier fin métal (Thin Pillar);3018.7;3428.5;-300.0;60;48.64;4568.0;depart lignes debord c2 t-900 : pilier fin dans le joint
+19;Pilier fin métal (Thin Pillar);2758.8;3578.5;-300.0;60;52.37;4518.5;depart lignes debord c2 t-600 : pilier fin dans le joint
+20;Pilier fin métal (Thin Pillar);2499.0;3728.5;-300.0;60;56.17;4488.5;depart lignes debord c2 t-300 : pilier fin dans le joint
+21;Pilier fin métal (Thin Pillar);2239.2;3878.5;-300.0;60;60.0;4478.5;depart lignes debord c2 t-0 : pilier fin dans le joint
+22;Pilier fin métal (Thin Pillar);1979.4;4028.5;-300.0;60;63.83;4488.5;depart lignes debord c2 t+300 : pilier fin dans le joint
+23;Pilier fin métal (Thin Pillar);1719.6;4178.5;-300.0;60;67.63;4518.5;depart lignes debord c2 t+600 : pilier fin dans le joint
+24;Pilier fin métal (Thin Pillar);1459.8;4328.5;-300.0;60;71.36;4568.0;depart lignes debord c2 t+900 : pilier fin dans le joint
+25;Pilier fin métal (Thin Pillar);1200.0;4478.5;-300.0;60;75.0;4636.4;depart lignes debord c2 t+1200 : pilier fin dans le joint
+26;Pilier fin métal (Thin Pillar);900.0;4478.5;-300.0;90;78.64;4568.0;depart lignes debord c3 t-900 : pilier fin dans le joint
+27;Pilier fin métal (Thin Pillar);600.0;4478.5;-300.0;90;82.37;4518.5;depart lignes debord c3 t-600 : pilier fin dans le joint
+28;Pilier fin métal (Thin Pillar);300.0;4478.5;-300.0;90;86.17;4488.5;depart lignes debord c3 t-300 : pilier fin dans le joint
+29;Pilier fin métal (Thin Pillar);-0.0;4478.5;-300.0;90;90.0;4478.5;depart lignes debord c3 t-0 : pilier fin dans le joint
+30;Pilier fin métal (Thin Pillar);-300.0;4478.5;-300.0;90;93.83;4488.5;depart lignes debord c3 t+300 : pilier fin dans le joint
+31;Pilier fin métal (Thin Pillar);-600.0;4478.5;-300.0;90;97.63;4518.5;depart lignes debord c3 t+600 : pilier fin dans le joint
+32;Pilier fin métal (Thin Pillar);-900.0;4478.5;-300.0;90;101.36;4568.0;depart lignes debord c3 t+900 : pilier fin dans le joint
+33;Pilier fin métal (Thin Pillar);-1200.0;4478.5;-300.0;90;105.0;4636.4;depart lignes debord c3 t+1200 : pilier fin dans le joint
+34;Pilier fin métal (Thin Pillar);-1459.8;4328.5;-300.0;120;108.64;4568.0;depart lignes debord c4 t-900 : pilier fin dans le joint
+35;Pilier fin métal (Thin Pillar);-1719.6;4178.5;-300.0;120;112.37;4518.5;depart lignes debord c4 t-600 : pilier fin dans le joint
+36;Pilier fin métal (Thin Pillar);-1979.4;4028.5;-300.0;120;116.17;4488.5;depart lignes debord c4 t-300 : pilier fin dans le joint
+37;Pilier fin métal (Thin Pillar);-2239.2;3878.5;-300.0;120;120.0;4478.5;depart lignes debord c4 t-0 : pilier fin dans le joint
+38;Pilier fin métal (Thin Pillar);-2499.0;3728.5;-300.0;120;123.83;4488.5;depart lignes debord c4 t+300 : pilier fin dans le joint
+39;Pilier fin métal (Thin Pillar);-2758.8;3578.5;-300.0;120;127.63;4518.5;depart lignes debord c4 t+600 : pilier fin dans le joint
+40;Pilier fin métal (Thin Pillar);-3018.7;3428.5;-300.0;120;131.36;4568.0;depart lignes debord c4 t+900 : pilier fin dans le joint
+41;Pilier fin métal (Thin Pillar);-3278.5;3278.5;-300.0;120;135.0;4636.4;depart lignes debord c4 t+1200 : pilier fin dans le joint
+42;Pilier fin métal (Thin Pillar);-3428.5;3018.7;-300.0;150;138.64;4568.0;depart lignes debord c5 t-900 : pilier fin dans le joint
+43;Pilier fin métal (Thin Pillar);-3578.5;2758.8;-300.0;150;142.37;4518.5;depart lignes debord c5 t-600 : pilier fin dans le joint
+44;Pilier fin métal (Thin Pillar);-3728.5;2499.0;-300.0;150;146.17;4488.5;depart lignes debord c5 t-300 : pilier fin dans le joint
+45;Pilier fin métal (Thin Pillar);-3878.5;2239.2;-300.0;150;150.0;4478.5;depart lignes debord c5 t-0 : pilier fin dans le joint
+46;Pilier fin métal (Thin Pillar);-4028.5;1979.4;-300.0;150;153.83;4488.5;depart lignes debord c5 t+300 : pilier fin dans le joint
+47;Pilier fin métal (Thin Pillar);-4178.5;1719.6;-300.0;150;157.63;4518.5;depart lignes debord c5 t+600 : pilier fin dans le joint
+48;Pilier fin métal (Thin Pillar);-4028.5;-1979.4;-300.0;210;206.17;4488.5;depart lignes debord c7 t-300 : pilier fin dans le joint
+49;Pilier fin métal (Thin Pillar);-3878.5;-2239.2;-300.0;210;210.0;4478.5;depart lignes debord c7 t-0 : pilier fin dans le joint
+50;Pilier fin métal (Thin Pillar);-3728.5;-2499.0;-300.0;210;213.83;4488.5;depart lignes debord c7 t+300 : pilier fin dans le joint
+51;Pilier fin métal (Thin Pillar);-3578.5;-2758.8;-300.0;210;217.63;4518.5;depart lignes debord c7 t+600 : pilier fin dans le joint
+52;Pilier fin métal (Thin Pillar);-3428.5;-3018.7;-300.0;210;221.36;4568.0;depart lignes debord c7 t+900 : pilier fin dans le joint
+53;Pilier fin métal (Thin Pillar);-3278.5;-3278.5;-300.0;210;225.0;4636.4;depart lignes debord c7 t+1200 : pilier fin dans le joint
+54;Pilier fin métal (Thin Pillar);-3018.7;-3428.5;-300.0;240;228.64;4568.0;depart lignes debord c8 t-900 : pilier fin dans le joint
+55;Pilier fin métal (Thin Pillar);-2758.8;-3578.5;-300.0;240;232.37;4518.5;depart lignes debord c8 t-600 : pilier fin dans le joint
+56;Pilier fin métal (Thin Pillar);-2499.0;-3728.5;-300.0;240;236.17;4488.5;depart lignes debord c8 t-300 : pilier fin dans le joint
+57;Pilier fin métal (Thin Pillar);-2239.2;-3878.5;-300.0;240;240.0;4478.5;depart lignes debord c8 t-0 : pilier fin dans le joint
+58;Pilier fin métal (Thin Pillar);-1979.4;-4028.5;-300.0;240;243.83;4488.5;depart lignes debord c8 t+300 : pilier fin dans le joint
+59;Pilier fin métal (Thin Pillar);-1719.6;-4178.5;-300.0;240;247.63;4518.5;depart lignes debord c8 t+600 : pilier fin dans le joint
+60;Pilier fin métal (Thin Pillar);-1459.8;-4328.5;-300.0;240;251.36;4568.0;depart lignes debord c8 t+900 : pilier fin dans le joint
+61;Pilier fin métal (Thin Pillar);-1200.0;-4478.5;-300.0;240;255.0;4636.4;depart lignes debord c8 t+1200 : pilier fin dans le joint
+62;Pilier fin métal (Thin Pillar);-900.0;-4478.5;-300.0;270;258.64;4568.0;depart lignes debord c9 t-900 : pilier fin dans le joint
+63;Pilier fin métal (Thin Pillar);-600.0;-4478.5;-300.0;270;262.37;4518.5;depart lignes debord c9 t-600 : pilier fin dans le joint
+64;Pilier fin métal (Thin Pillar);-300.0;-4478.5;-300.0;270;266.17;4488.5;depart lignes debord c9 t-300 : pilier fin dans le joint
+65;Pilier fin métal (Thin Pillar);-0.0;-4478.5;-300.0;270;270.0;4478.5;depart lignes debord c9 t-0 : pilier fin dans le joint
+66;Pilier fin métal (Thin Pillar);300.0;-4478.5;-300.0;270;273.83;4488.5;depart lignes debord c9 t+300 : pilier fin dans le joint
+67;Pilier fin métal (Thin Pillar);600.0;-4478.5;-300.0;270;277.63;4518.5;depart lignes debord c9 t+600 : pilier fin dans le joint
+68;Pilier fin métal (Thin Pillar);900.0;-4478.5;-300.0;270;281.36;4568.0;depart lignes debord c9 t+900 : pilier fin dans le joint
+69;Pilier fin métal (Thin Pillar);1200.0;-4478.5;-300.0;270;285.0;4636.4;depart lignes debord c9 t+1200 : pilier fin dans le joint
+70;Pilier fin métal (Thin Pillar);1459.8;-4328.5;-300.0;300;288.64;4568.0;depart lignes debord c10 t-900 : pilier fin dans le joint
+71;Pilier fin métal (Thin Pillar);1719.6;-4178.5;-300.0;300;292.37;4518.5;depart lignes debord c10 t-600 : pilier fin dans le joint
+72;Pilier fin métal (Thin Pillar);1979.4;-4028.5;-300.0;300;296.17;4488.5;depart lignes debord c10 t-300 : pilier fin dans le joint
+73;Pilier fin métal (Thin Pillar);2239.2;-3878.5;-300.0;300;300.0;4478.5;depart lignes debord c10 t-0 : pilier fin dans le joint
+74;Pilier fin métal (Thin Pillar);2499.0;-3728.5;-300.0;300;303.83;4488.5;depart lignes debord c10 t+300 : pilier fin dans le joint
+75;Pilier fin métal (Thin Pillar);2758.8;-3578.5;-300.0;300;307.63;4518.5;depart lignes debord c10 t+600 : pilier fin dans le joint
+76;Pilier fin métal (Thin Pillar);3018.7;-3428.5;-300.0;300;311.36;4568.0;depart lignes debord c10 t+900 : pilier fin dans le joint
+77;Pilier fin métal (Thin Pillar);3278.5;-3278.5;-300.0;300;315.0;4636.4;depart lignes debord c10 t+1200 : pilier fin dans le joint
+78;Pilier fin métal (Thin Pillar);3428.5;-3018.7;-300.0;330;318.64;4568.0;depart lignes debord c11 t-900 : pilier fin dans le joint
+79;Pilier fin métal (Thin Pillar);3578.5;-2758.8;-300.0;330;322.37;4518.5;depart lignes debord c11 t-600 : pilier fin dans le joint
+80;Pilier fin métal (Thin Pillar);3728.5;-2499.0;-300.0;330;326.17;4488.5;depart lignes debord c11 t-300 : pilier fin dans le joint
+81;Pilier fin métal (Thin Pillar);3878.5;-2239.2;-300.0;330;330.0;4478.5;depart lignes debord c11 t-0 : pilier fin dans le joint
+82;Pilier fin métal (Thin Pillar);4028.5;-1979.4;-300.0;330;333.83;4488.5;depart lignes debord c11 t+300 : pilier fin dans le joint
+83;Pilier fin métal (Thin Pillar);4178.5;-1719.6;-300.0;330;337.63;4518.5;depart lignes debord c11 t+600 : pilier fin dans le joint
+84;Pilier fin métal (Thin Pillar);4328.5;-1459.8;-300.0;330;341.36;4568.0;depart lignes debord c11 t+900 : pilier fin dans le joint
+85;Cadre de porte double métal;4478.5;-1050.0;-300.0;0;346.81;4599.9;jupe mur c0 p0
+86;Cadre de porte double métal;4478.5;-750.0;-300.0;0;350.49;4540.8;jupe mur c0 p1
+87;Cadre de porte double métal;4478.5;-450.0;-300.0;0;354.26;4501.0;jupe mur c0 p2
+88;Cadre de porte double métal;4478.5;-150.0;-300.0;0;358.08;4481.0;jupe mur c0 p3
+89;Cadre de porte double métal;4478.5;150.0;-300.0;0;1.92;4481.0;jupe mur c0 p4
+90;Cadre de porte double métal;4478.5;450.0;-300.0;0;5.74;4501.0;jupe mur c0 p5
+91;Cadre de porte double métal;4478.5;750.0;-300.0;0;9.51;4540.8;jupe mur c0 p6
+92;Cadre de porte double métal;4478.5;1050.0;-300.0;0;13.19;4599.9;jupe mur c0 p7
+93;Cadre de porte double métal;4403.5;1329.9;-300.0;30;16.81;4599.9;jupe mur c1 p0
+94;Cadre de porte double métal;4253.5;1589.7;-300.0;30;20.49;4540.8;jupe mur c1 p1
+95;Cadre de porte double métal;4103.5;1849.5;-300.0;30;24.26;4501.0;jupe mur c1 p2
+96;Cadre de porte double métal;3953.5;2109.3;-300.0;30;28.08;4481.0;jupe mur c1 p3
+97;Cadre de porte double métal;3803.5;2369.1;-300.0;30;31.92;4481.0;jupe mur c1 p4
+98;Cadre de porte double métal;3653.5;2628.9;-300.0;30;35.74;4501.0;jupe mur c1 p5
+99;Cadre de porte double métal;3503.5;2888.7;-300.0;30;39.51;4540.8;jupe mur c1 p6
+100;Cadre de porte double métal;3353.5;3148.6;-300.0;30;43.19;4599.9;jupe mur c1 p7
+101;Cadre de porte double métal;3148.6;3353.5;-300.0;60;46.81;4599.9;jupe mur c2 p0
+102;Cadre de porte double métal;2888.7;3503.5;-300.0;60;50.49;4540.8;jupe mur c2 p1
+103;Cadre de porte double métal;2628.9;3653.5;-300.0;60;54.26;4501.0;jupe mur c2 p2
+104;Cadre de porte double métal;2369.1;3803.5;-300.0;60;58.08;4481.0;jupe mur c2 p3
+105;Cadre de porte double métal;2109.3;3953.5;-300.0;60;61.92;4481.0;jupe mur c2 p4
+106;Cadre de porte double métal;1849.5;4103.5;-300.0;60;65.74;4501.0;jupe mur c2 p5
+107;Cadre de porte double métal;1589.7;4253.5;-300.0;60;69.51;4540.8;jupe mur c2 p6
+108;Cadre de porte double métal;1329.9;4403.5;-300.0;60;73.19;4599.9;jupe mur c2 p7
+109;Cadre de porte double métal;1050.0;4478.5;-300.0;90;76.81;4599.9;jupe mur c3 p0
+110;Cadre de porte double métal;750.0;4478.5;-300.0;90;80.49;4540.8;jupe mur c3 p1
+111;Cadre de porte double métal;450.0;4478.5;-300.0;90;84.26;4501.0;jupe mur c3 p2
+112;Cadre de porte double métal;150.0;4478.5;-300.0;90;88.08;4481.0;jupe mur c3 p3
+113;Cadre de porte double métal;-150.0;4478.5;-300.0;90;91.92;4481.0;jupe mur c3 p4
+114;Cadre de porte double métal;-450.0;4478.5;-300.0;90;95.74;4501.0;jupe mur c3 p5
+115;Cadre de porte double métal;-750.0;4478.5;-300.0;90;99.51;4540.8;jupe mur c3 p6
+116;Cadre de porte double métal;-1050.0;4478.5;-300.0;90;103.19;4599.9;jupe mur c3 p7
+117;Cadre de porte double métal;-1329.9;4403.5;-300.0;120;106.81;4599.9;jupe mur c4 p0
+118;Cadre de porte double métal;-1589.7;4253.5;-300.0;120;110.49;4540.8;jupe mur c4 p1
+119;Cadre de porte double métal;-1849.5;4103.5;-300.0;120;114.26;4501.0;jupe mur c4 p2
+120;Cadre de porte double métal;-2109.3;3953.5;-300.0;120;118.08;4481.0;jupe mur c4 p3
+121;Cadre de porte double métal;-2369.1;3803.5;-300.0;120;121.92;4481.0;jupe mur c4 p4
+122;Cadre de porte double métal;-2628.9;3653.5;-300.0;120;125.74;4501.0;jupe mur c4 p5
+123;Cadre de porte double métal;-2888.7;3503.5;-300.0;120;129.51;4540.8;jupe mur c4 p6
+124;Cadre de porte double métal;-3148.6;3353.5;-300.0;120;133.19;4599.9;jupe mur c4 p7
+125;Cadre de porte double métal;-3353.5;3148.6;-300.0;150;136.81;4599.9;jupe mur c5 p0
+126;Cadre de porte double métal;-3503.5;2888.7;-300.0;150;140.49;4540.8;jupe mur c5 p1
+127;Cadre de porte double métal;-3653.5;2628.9;-300.0;150;144.26;4501.0;jupe mur c5 p2
+128;Cadre de porte double métal;-3803.5;2369.1;-300.0;150;148.08;4481.0;jupe mur c5 p3
+129;Cadre de porte double métal;-3953.5;2109.3;-300.0;150;151.92;4481.0;jupe mur c5 p4
+130;Cadre de porte double métal;-4103.5;1849.5;-300.0;150;155.74;4501.0;jupe mur c5 p5
+131;Cadre de porte double métal;-3953.5;-2109.3;-300.0;210;208.08;4481.0;jupe mur c7 p3
+132;Cadre de porte double métal;-3803.5;-2369.1;-300.0;210;211.92;4481.0;jupe mur c7 p4
+133;Cadre de porte double métal;-3653.5;-2628.9;-300.0;210;215.74;4501.0;jupe mur c7 p5
+134;Cadre de porte double métal;-3503.5;-2888.7;-300.0;210;219.51;4540.8;jupe mur c7 p6
+135;Cadre de porte double métal;-3353.5;-3148.6;-300.0;210;223.19;4599.9;jupe mur c7 p7
+136;Cadre de porte double métal;-3148.6;-3353.5;-300.0;240;226.81;4599.9;jupe mur c8 p0
+137;Cadre de porte double métal;-2888.7;-3503.5;-300.0;240;230.49;4540.8;jupe mur c8 p1
+138;Cadre de porte double métal;-2628.9;-3653.5;-300.0;240;234.26;4501.0;jupe mur c8 p2
+139;Cadre de porte double métal;-2369.1;-3803.5;-300.0;240;238.08;4481.0;jupe mur c8 p3
+140;Cadre de porte double métal;-2109.3;-3953.5;-300.0;240;241.92;4481.0;jupe mur c8 p4
+141;Cadre de porte double métal;-1849.5;-4103.5;-300.0;240;245.74;4501.0;jupe mur c8 p5
+142;Cadre de porte double métal;-1589.7;-4253.5;-300.0;240;249.51;4540.8;jupe mur c8 p6
+143;Cadre de porte double métal;-1329.9;-4403.5;-300.0;240;253.19;4599.9;jupe mur c8 p7
+144;Cadre de porte double métal;-1050.0;-4478.5;-300.0;270;256.81;4599.9;jupe mur c9 p0
+145;Cadre de porte double métal;-750.0;-4478.5;-300.0;270;260.49;4540.8;jupe mur c9 p1
+146;Cadre de porte double métal;-450.0;-4478.5;-300.0;270;264.26;4501.0;jupe mur c9 p2
+147;Cadre de porte double métal;-150.0;-4478.5;-300.0;270;268.08;4481.0;jupe mur c9 p3
+148;Cadre de porte double métal;150.0;-4478.5;-300.0;270;271.92;4481.0;jupe mur c9 p4
+149;Cadre de porte double métal;450.0;-4478.5;-300.0;270;275.74;4501.0;jupe mur c9 p5
+150;Cadre de porte double métal;750.0;-4478.5;-300.0;270;279.51;4540.8;jupe mur c9 p6
+151;Cadre de porte double métal;1050.0;-4478.5;-300.0;270;283.19;4599.9;jupe mur c9 p7
+152;Cadre de porte double métal;1329.9;-4403.5;-300.0;300;286.81;4599.9;jupe mur c10 p0
+153;Cadre de porte double métal;1589.7;-4253.5;-300.0;300;290.49;4540.8;jupe mur c10 p1
+154;Cadre de porte double métal;1849.5;-4103.5;-300.0;300;294.26;4501.0;jupe mur c10 p2
+155;Cadre de porte double métal;2109.3;-3953.5;-300.0;300;298.08;4481.0;jupe mur c10 p3
+156;Cadre de porte double métal;2369.1;-3803.5;-300.0;300;301.92;4481.0;jupe mur c10 p4
+157;Cadre de porte double métal;2628.9;-3653.5;-300.0;300;305.74;4501.0;jupe mur c10 p5
+158;Cadre de porte double métal;2888.7;-3503.5;-300.0;300;309.51;4540.8;jupe mur c10 p6
+159;Cadre de porte double métal;3148.6;-3353.5;-300.0;300;313.19;4599.9;jupe mur c10 p7
+160;Cadre de porte double métal;3353.5;-3148.6;-300.0;330;316.81;4599.9;jupe mur c11 p0
+161;Cadre de porte double métal;3503.5;-2888.7;-300.0;330;320.49;4540.8;jupe mur c11 p1
+162;Cadre de porte double métal;3653.5;-2628.9;-300.0;330;324.26;4501.0;jupe mur c11 p2
+163;Cadre de porte double métal;3803.5;-2369.1;-300.0;330;328.08;4481.0;jupe mur c11 p3
+164;Cadre de porte double métal;3953.5;-2109.3;-300.0;330;331.92;4481.0;jupe mur c11 p4
+165;Cadre de porte double métal;4103.5;-1849.5;-300.0;330;335.74;4501.0;jupe mur c11 p5
+166;Cadre de porte double métal;4253.5;-1589.7;-300.0;330;339.51;4540.8;jupe mur c11 p6
+167;Cadre de porte double métal;4403.5;-1329.9;-300.0;330;343.19;4599.9;jupe mur c11 p7
+168;Pilier fin métal (Thin Pillar);4218.7;-1050.0;-300.0;0;346.02;4347.4;appui overhang c0 t-1050 : poteau
+169;Pilier fin métal (Thin Pillar);4218.7;-750.0;-300.0;0;349.92;4284.8;appui overhang c0 t-750 : poteau
+170;Pilier fin métal (Thin Pillar);4218.7;-450.0;-300.0;0;353.91;4242.6;appui overhang c0 t-450 : poteau
+171;Pilier fin métal (Thin Pillar);4218.7;-150.0;-300.0;0;357.96;4221.3;appui overhang c0 t-150 : poteau
+172;Pilier fin métal (Thin Pillar);4218.7;150.0;-300.0;0;2.04;4221.3;appui overhang c0 t+150 : poteau
+173;Pilier fin métal (Thin Pillar);4218.7;450.0;-300.0;0;6.09;4242.6;appui overhang c0 t+450 : poteau
+174;Pilier fin métal (Thin Pillar);4218.7;750.0;-300.0;0;10.08;4284.8;appui overhang c0 t+750 : poteau
+175;Pilier fin métal (Thin Pillar);4218.7;1050.0;-300.0;0;13.98;4347.4;appui overhang c0 t+1050 : poteau
+176;Pilier fin métal (Thin Pillar);3018.7;3128.5;-300.0;60;46.02;4347.4;appui overhang c2 t-1050 : poteau
+177;Pilier fin métal (Thin Pillar);2758.8;3278.5;-300.0;60;49.92;4284.8;appui overhang c2 t-750 : poteau
+178;Pilier fin métal (Thin Pillar);2499.0;3428.5;-300.0;60;53.91;4242.6;appui overhang c2 t-450 : poteau
+179;Pilier fin métal (Thin Pillar);2239.2;3578.5;-300.0;60;57.96;4221.3;appui overhang c2 t-150 : poteau
+180;Pilier fin métal (Thin Pillar);1979.4;3728.5;-300.0;60;62.04;4221.3;appui overhang c2 t+150 : poteau
+181;Pilier fin métal (Thin Pillar);1719.6;3878.5;-300.0;60;66.09;4242.6;appui overhang c2 t+450 : poteau
+182;Pilier fin métal (Thin Pillar);1459.8;4028.5;-300.0;60;70.08;4284.8;appui overhang c2 t+750 : poteau
+183;Pilier fin métal (Thin Pillar);1200.0;4178.5;-300.0;60;73.98;4347.4;appui overhang c2 t+1050 : poteau
+184;Pilier fin métal (Thin Pillar);-1200.0;4178.5;-300.0;120;106.02;4347.4;appui overhang c4 t-1050 : poteau
+185;Pilier fin métal (Thin Pillar);-1459.8;4028.5;-300.0;120;109.92;4284.8;appui overhang c4 t-750 : poteau
+186;Pilier fin métal (Thin Pillar);-1719.6;3878.5;-300.0;120;113.91;4242.6;appui overhang c4 t-450 : poteau
+187;Pilier fin métal (Thin Pillar);-1979.4;3728.5;-300.0;120;117.96;4221.3;appui overhang c4 t-150 : poteau
+188;Pilier fin métal (Thin Pillar);-2239.2;3578.5;-300.0;120;122.04;4221.3;appui overhang c4 t+150 : poteau
+189;Pilier fin métal (Thin Pillar);-2499.0;3428.5;-300.0;120;126.09;4242.6;appui overhang c4 t+450 : poteau
+190;Pilier fin métal (Thin Pillar);-2758.8;3278.5;-300.0;120;130.08;4284.8;appui overhang c4 t+750 : poteau
+191;Pilier fin métal (Thin Pillar);-3018.7;3128.5;-300.0;120;133.98;4347.4;appui overhang c4 t+1050 : poteau
+192;Pilier fin métal (Thin Pillar);-3018.7;-3128.5;-300.0;240;226.02;4347.4;appui overhang c8 t-1050 : poteau
+193;Pilier fin métal (Thin Pillar);-2758.8;-3278.5;-300.0;240;229.92;4284.8;appui overhang c8 t-750 : poteau
+194;Pilier fin métal (Thin Pillar);-2499.0;-3428.5;-300.0;240;233.91;4242.6;appui overhang c8 t-450 : poteau
+195;Pilier fin métal (Thin Pillar);-2239.2;-3578.5;-300.0;240;237.96;4221.3;appui overhang c8 t-150 : poteau
+196;Pilier fin métal (Thin Pillar);-1979.4;-3728.5;-300.0;240;242.04;4221.3;appui overhang c8 t+150 : poteau
+197;Pilier fin métal (Thin Pillar);-1719.6;-3878.5;-300.0;240;246.09;4242.6;appui overhang c8 t+450 : poteau
+198;Pilier fin métal (Thin Pillar);-1459.8;-4028.5;-300.0;240;250.08;4284.8;appui overhang c8 t+750 : poteau
+199;Pilier fin métal (Thin Pillar);-1200.0;-4178.5;-300.0;240;253.98;4347.4;appui overhang c8 t+1050 : poteau
+200;Pilier fin métal (Thin Pillar);1200.0;-4178.5;-300.0;300;286.02;4347.4;appui overhang c10 t-1050 : poteau
+201;Pilier fin métal (Thin Pillar);1459.8;-4028.5;-300.0;300;289.92;4284.8;appui overhang c10 t-750 : poteau
+202;Pilier fin métal (Thin Pillar);1719.6;-3878.5;-300.0;300;293.91;4242.6;appui overhang c10 t-450 : poteau
+203;Pilier fin métal (Thin Pillar);1979.4;-3728.5;-300.0;300;297.96;4221.3;appui overhang c10 t-150 : poteau
+204;Pilier fin métal (Thin Pillar);2239.2;-3578.5;-300.0;300;302.04;4221.3;appui overhang c10 t+150 : poteau
+205;Pilier fin métal (Thin Pillar);2499.0;-3428.5;-300.0;300;306.09;4242.6;appui overhang c10 t+450 : poteau
+206;Pilier fin métal (Thin Pillar);2758.8;-3278.5;-300.0;300;310.08;4284.8;appui overhang c10 t+750 : poteau
+207;Pilier fin métal (Thin Pillar);3018.7;-3128.5;-300.0;300;313.98;4347.4;appui overhang c10 t+1050 : poteau
+208;Rampe inclinée métal (Sloped Railing);4628.5;-1200.0;-300.0;270;345.47;4781.5;overhang r-3 c0 t-1200
+209;Rampe inclinée métal (Sloped Railing);4628.5;-900.0;-300.0;270;349.0;4715.2;overhang r-3 c0 t-900
+210;Rampe inclinée métal (Sloped Railing);4628.5;-600.0;-300.0;270;352.61;4667.2;overhang r-3 c0 t-600
+211;Rampe inclinée métal (Sloped Railing);4628.5;-300.0;-300.0;270;356.29;4638.2;overhang r-3 c0 t-300
+212;Rampe inclinée métal (Sloped Railing);4628.5;0.0;-300.0;270;0.0;4628.5;overhang r-3 c0 t-0
+213;Rampe inclinée métal (Sloped Railing);4628.5;300.0;-300.0;270;3.71;4638.2;overhang r-3 c0 t+300
+214;Rampe inclinée métal (Sloped Railing);4628.5;600.0;-300.0;270;7.39;4667.2;overhang r-3 c0 t+600
+215;Rampe inclinée métal (Sloped Railing);4628.5;900.0;-300.0;270;11.0;4715.2;overhang r-3 c0 t+900
+216;Rampe inclinée métal (Sloped Railing);4628.5;1200.0;-300.0;270;14.53;4781.5;overhang r-3 c0 t+1200
+217;Rampe inclinée métal (Sloped Railing);4608.4;1275.0;-300.0;300;15.47;4781.5;overhang r-3 c1 t-1200
+218;Rampe inclinée métal (Sloped Railing);4458.4;1534.8;-300.0;300;19.0;4715.2;overhang r-3 c1 t-900
+219;Rampe inclinée métal (Sloped Railing);4308.4;1794.6;-300.0;300;22.61;4667.2;overhang r-3 c1 t-600
+220;Rampe inclinée métal (Sloped Railing);4158.4;2054.4;-300.0;300;26.29;4638.2;overhang r-3 c1 t-300
+221;Rampe inclinée métal (Sloped Railing);4008.4;2314.2;-300.0;300;30.0;4628.5;overhang r-3 c1 t-0
+222;Rampe inclinée métal (Sloped Railing);3858.4;2574.0;-300.0;300;33.71;4638.2;overhang r-3 c1 t+300
+223;Rampe inclinée métal (Sloped Railing);3708.4;2833.8;-300.0;300;37.39;4667.2;overhang r-3 c1 t+600
+224;Rampe inclinée métal (Sloped Railing);3558.4;3093.7;-300.0;300;41.0;4715.2;overhang r-3 c1 t+900
+225;Rampe inclinée métal (Sloped Railing);3408.4;3353.5;-300.0;300;44.53;4781.5;overhang r-3 c1 t+1200
+226;Rampe inclinée métal (Sloped Railing);3353.5;3408.4;-300.0;330;45.47;4781.5;overhang r-3 c2 t-1200
+227;Rampe inclinée métal (Sloped Railing);3093.7;3558.4;-300.0;330;49.0;4715.2;overhang r-3 c2 t-900
+228;Rampe inclinée métal (Sloped Railing);2833.8;3708.4;-300.0;330;52.61;4667.2;overhang r-3 c2 t-600
+229;Rampe inclinée métal (Sloped Railing);2574.0;3858.4;-300.0;330;56.29;4638.2;overhang r-3 c2 t-300
+230;Rampe inclinée métal (Sloped Railing);2314.2;4008.4;-300.0;330;60.0;4628.5;overhang r-3 c2 t-0
+231;Rampe inclinée métal (Sloped Railing);2054.4;4158.4;-300.0;330;63.71;4638.2;overhang r-3 c2 t+300
+232;Rampe inclinée métal (Sloped Railing);1794.6;4308.4;-300.0;330;67.39;4667.2;overhang r-3 c2 t+600
+233;Rampe inclinée métal (Sloped Railing);1534.8;4458.4;-300.0;330;71.0;4715.2;overhang r-3 c2 t+900
+234;Rampe inclinée métal (Sloped Railing);1275.0;4608.4;-300.0;330;74.53;4781.5;overhang r-3 c2 t+1200
+235;Rampe inclinée métal (Sloped Railing);1200.0;4628.5;-300.0;0;75.47;4781.5;overhang r-3 c3 t-1200
+236;Rampe inclinée métal (Sloped Railing);900.0;4628.5;-300.0;0;79.0;4715.2;overhang r-3 c3 t-900
+237;Rampe inclinée métal (Sloped Railing);600.0;4628.5;-300.0;0;82.61;4667.2;overhang r-3 c3 t-600
+238;Rampe inclinée métal (Sloped Railing);300.0;4628.5;-300.0;0;86.29;4638.2;overhang r-3 c3 t-300
+239;Rampe inclinée métal (Sloped Railing);0.0;4628.5;-300.0;0;90.0;4628.5;overhang r-3 c3 t-0
+240;Rampe inclinée métal (Sloped Railing);-300.0;4628.5;-300.0;0;93.71;4638.2;overhang r-3 c3 t+300
+241;Rampe inclinée métal (Sloped Railing);-600.0;4628.5;-300.0;0;97.39;4667.2;overhang r-3 c3 t+600
+242;Rampe inclinée métal (Sloped Railing);-900.0;4628.5;-300.0;0;101.0;4715.2;overhang r-3 c3 t+900
+243;Rampe inclinée métal (Sloped Railing);-1200.0;4628.5;-300.0;0;104.53;4781.5;overhang r-3 c3 t+1200
+244;Rampe inclinée métal (Sloped Railing);-1275.0;4608.4;-300.0;30;105.47;4781.5;overhang r-3 c4 t-1200
+245;Rampe inclinée métal (Sloped Railing);-1534.8;4458.4;-300.0;30;109.0;4715.2;overhang r-3 c4 t-900
+246;Rampe inclinée métal (Sloped Railing);-1794.6;4308.4;-300.0;30;112.61;4667.2;overhang r-3 c4 t-600
+247;Rampe inclinée métal (Sloped Railing);-2054.4;4158.4;-300.0;30;116.29;4638.2;overhang r-3 c4 t-300
+248;Rampe inclinée métal (Sloped Railing);-2314.2;4008.4;-300.0;30;120.0;4628.5;overhang r-3 c4 t-0
+249;Rampe inclinée métal (Sloped Railing);-2574.0;3858.4;-300.0;30;123.71;4638.2;overhang r-3 c4 t+300
+250;Rampe inclinée métal (Sloped Railing);-2833.8;3708.4;-300.0;30;127.39;4667.2;overhang r-3 c4 t+600
+251;Rampe inclinée métal (Sloped Railing);-3093.7;3558.4;-300.0;30;131.0;4715.2;overhang r-3 c4 t+900
+252;Rampe inclinée métal (Sloped Railing);-3353.5;3408.4;-300.0;30;134.53;4781.5;overhang r-3 c4 t+1200
+253;Rampe inclinée métal (Sloped Railing);-3408.4;3353.5;-300.0;60;135.47;4781.5;overhang r-3 c5 t-1200
+254;Rampe inclinée métal (Sloped Railing);-3558.4;3093.7;-300.0;60;139.0;4715.2;overhang r-3 c5 t-900
+255;Rampe inclinée métal (Sloped Railing);-3708.4;2833.8;-300.0;60;142.61;4667.2;overhang r-3 c5 t-600
+256;Rampe inclinée métal (Sloped Railing);-3858.4;2574.0;-300.0;60;146.29;4638.2;overhang r-3 c5 t-300
+257;Rampe inclinée métal (Sloped Railing);-4008.4;2314.2;-300.0;60;150.0;4628.5;overhang r-3 c5 t-0
+258;Rampe inclinée métal (Sloped Railing);-4158.4;2054.4;-300.0;60;153.71;4638.2;overhang r-3 c5 t+300
+259;Rampe inclinée métal (Sloped Railing);-4308.4;1794.6;-300.0;60;157.39;4667.2;overhang r-3 c5 t+600
+260;Rampe inclinée métal (Sloped Railing);-4158.4;-2054.4;-300.0;120;206.29;4638.2;overhang r-3 c7 t-300
+261;Rampe inclinée métal (Sloped Railing);-4008.4;-2314.2;-300.0;120;210.0;4628.5;overhang r-3 c7 t-0
+262;Rampe inclinée métal (Sloped Railing);-3858.4;-2574.0;-300.0;120;213.71;4638.2;overhang r-3 c7 t+300
+263;Rampe inclinée métal (Sloped Railing);-3708.4;-2833.8;-300.0;120;217.39;4667.2;overhang r-3 c7 t+600
+264;Rampe inclinée métal (Sloped Railing);-3558.4;-3093.7;-300.0;120;221.0;4715.2;overhang r-3 c7 t+900
+265;Rampe inclinée métal (Sloped Railing);-3408.4;-3353.5;-300.0;120;224.53;4781.5;overhang r-3 c7 t+1200
+266;Rampe inclinée métal (Sloped Railing);-3353.5;-3408.4;-300.0;150;225.47;4781.5;overhang r-3 c8 t-1200
+267;Rampe inclinée métal (Sloped Railing);-3093.7;-3558.4;-300.0;150;229.0;4715.2;overhang r-3 c8 t-900
+268;Rampe inclinée métal (Sloped Railing);-2833.8;-3708.4;-300.0;150;232.61;4667.2;overhang r-3 c8 t-600
+269;Rampe inclinée métal (Sloped Railing);-2574.0;-3858.4;-300.0;150;236.29;4638.2;overhang r-3 c8 t-300
+270;Rampe inclinée métal (Sloped Railing);-2314.2;-4008.4;-300.0;150;240.0;4628.5;overhang r-3 c8 t-0
+271;Rampe inclinée métal (Sloped Railing);-2054.4;-4158.4;-300.0;150;243.71;4638.2;overhang r-3 c8 t+300
+272;Rampe inclinée métal (Sloped Railing);-1794.6;-4308.4;-300.0;150;247.39;4667.2;overhang r-3 c8 t+600
+273;Rampe inclinée métal (Sloped Railing);-1534.8;-4458.4;-300.0;150;251.0;4715.2;overhang r-3 c8 t+900
+274;Rampe inclinée métal (Sloped Railing);-1275.0;-4608.4;-300.0;150;254.53;4781.5;overhang r-3 c8 t+1200
+275;Rampe inclinée métal (Sloped Railing);-1200.0;-4628.5;-300.0;180;255.47;4781.5;overhang r-3 c9 t-1200
+276;Rampe inclinée métal (Sloped Railing);-900.0;-4628.5;-300.0;180;259.0;4715.2;overhang r-3 c9 t-900
+277;Rampe inclinée métal (Sloped Railing);-600.0;-4628.5;-300.0;180;262.61;4667.2;overhang r-3 c9 t-600
+278;Rampe inclinée métal (Sloped Railing);-300.0;-4628.5;-300.0;180;266.29;4638.2;overhang r-3 c9 t-300
+279;Rampe inclinée métal (Sloped Railing);-0.0;-4628.5;-300.0;180;270.0;4628.5;overhang r-3 c9 t-0
+280;Rampe inclinée métal (Sloped Railing);300.0;-4628.5;-300.0;180;273.71;4638.2;overhang r-3 c9 t+300
+281;Rampe inclinée métal (Sloped Railing);600.0;-4628.5;-300.0;180;277.39;4667.2;overhang r-3 c9 t+600
+282;Rampe inclinée métal (Sloped Railing);900.0;-4628.5;-300.0;180;281.0;4715.2;overhang r-3 c9 t+900
+283;Rampe inclinée métal (Sloped Railing);1200.0;-4628.5;-300.0;180;284.53;4781.5;overhang r-3 c9 t+1200
+284;Rampe inclinée métal (Sloped Railing);1275.0;-4608.4;-300.0;210;285.47;4781.5;overhang r-3 c10 t-1200
+285;Rampe inclinée métal (Sloped Railing);1534.8;-4458.4;-300.0;210;289.0;4715.2;overhang r-3 c10 t-900
+286;Rampe inclinée métal (Sloped Railing);1794.6;-4308.4;-300.0;210;292.61;4667.2;overhang r-3 c10 t-600
+287;Rampe inclinée métal (Sloped Railing);2054.4;-4158.4;-300.0;210;296.29;4638.2;overhang r-3 c10 t-300
+288;Rampe inclinée métal (Sloped Railing);2314.2;-4008.4;-300.0;210;300.0;4628.5;overhang r-3 c10 t-0
+289;Rampe inclinée métal (Sloped Railing);2574.0;-3858.4;-300.0;210;303.71;4638.2;overhang r-3 c10 t+300
+290;Rampe inclinée métal (Sloped Railing);2833.8;-3708.4;-300.0;210;307.39;4667.2;overhang r-3 c10 t+600
+291;Rampe inclinée métal (Sloped Railing);3093.7;-3558.4;-300.0;210;311.0;4715.2;overhang r-3 c10 t+900
+292;Rampe inclinée métal (Sloped Railing);3353.5;-3408.4;-300.0;210;314.53;4781.5;overhang r-3 c10 t+1200
+293;Rampe inclinée métal (Sloped Railing);3408.4;-3353.5;-300.0;240;315.47;4781.5;overhang r-3 c11 t-1200
+294;Rampe inclinée métal (Sloped Railing);3558.4;-3093.7;-300.0;240;319.0;4715.2;overhang r-3 c11 t-900
+295;Rampe inclinée métal (Sloped Railing);3708.4;-2833.8;-300.0;240;322.61;4667.2;overhang r-3 c11 t-600
+296;Rampe inclinée métal (Sloped Railing);3858.4;-2574.0;-300.0;240;326.29;4638.2;overhang r-3 c11 t-300
+297;Rampe inclinée métal (Sloped Railing);4008.4;-2314.2;-300.0;240;330.0;4628.5;overhang r-3 c11 t-0
+298;Rampe inclinée métal (Sloped Railing);4158.4;-2054.4;-300.0;240;333.71;4638.2;overhang r-3 c11 t+300
+299;Rampe inclinée métal (Sloped Railing);4308.4;-1794.6;-300.0;240;337.39;4667.2;overhang r-3 c11 t+600
+300;Rampe inclinée métal (Sloped Railing);4458.4;-1534.8;-300.0;240;341.0;4715.2;overhang r-3 c11 t+900
+301;Rampe inclinée métal (Sloped Railing);4608.4;-1275.0;-300.0;240;344.53;4781.5;overhang r-3 c11 t+1200
+302;Pilier fin métal (Thin Pillar);4178.5;1200.0;-150.0;30;16.02;4347.4;appui overhang c1 t-1050 : poteau
+303;Pilier fin métal (Thin Pillar);4028.5;1459.8;-150.0;30;19.92;4284.8;appui overhang c1 t-750 : poteau
+304;Pilier fin métal (Thin Pillar);3878.5;1719.6;-150.0;30;23.91;4242.6;appui overhang c1 t-450 : poteau
+305;Pilier fin métal (Thin Pillar);3728.5;1979.4;-150.0;30;27.96;4221.3;appui overhang c1 t-150 : poteau
+306;Pilier fin métal (Thin Pillar);3578.5;2239.2;-150.0;30;32.04;4221.3;appui overhang c1 t+150 : poteau
+307;Pilier fin métal (Thin Pillar);3428.5;2499.0;-150.0;30;36.09;4242.6;appui overhang c1 t+450 : poteau
+308;Pilier fin métal (Thin Pillar);3278.5;2758.8;-150.0;30;40.08;4284.8;appui overhang c1 t+750 : poteau
+309;Pilier fin métal (Thin Pillar);3128.5;3018.7;-150.0;30;43.98;4347.4;appui overhang c1 t+1050 : poteau
+310;Pilier fin métal (Thin Pillar);1050.0;4218.7;-150.0;90;76.02;4347.4;appui overhang c3 t-1050 : poteau
+311;Pilier fin métal (Thin Pillar);750.0;4218.7;-150.0;90;79.92;4284.8;appui overhang c3 t-750 : poteau
+312;Pilier fin métal (Thin Pillar);450.0;4218.7;-150.0;90;83.91;4242.6;appui overhang c3 t-450 : poteau
+313;Pilier fin métal (Thin Pillar);150.0;4218.7;-150.0;90;87.96;4221.3;appui overhang c3 t-150 : poteau
+314;Pilier fin métal (Thin Pillar);-150.0;4218.7;-150.0;90;92.04;4221.3;appui overhang c3 t+150 : poteau
+315;Pilier fin métal (Thin Pillar);-450.0;4218.7;-150.0;90;96.09;4242.6;appui overhang c3 t+450 : poteau
+316;Pilier fin métal (Thin Pillar);-750.0;4218.7;-150.0;90;100.08;4284.8;appui overhang c3 t+750 : poteau
+317;Pilier fin métal (Thin Pillar);-1050.0;4218.7;-150.0;90;103.98;4347.4;appui overhang c3 t+1050 : poteau
+318;Pilier fin métal (Thin Pillar);-3128.5;3018.7;-150.0;150;136.02;4347.4;appui overhang c5 t-1050 : poteau
+319;Pilier fin métal (Thin Pillar);-3278.5;2758.8;-150.0;150;139.92;4284.8;appui overhang c5 t-750 : poteau
+320;Pilier fin métal (Thin Pillar);-3428.5;2499.0;-150.0;150;143.91;4242.6;appui overhang c5 t-450 : poteau
+321;Pilier fin métal (Thin Pillar);-3578.5;2239.2;-150.0;150;147.96;4221.3;appui overhang c5 t-150 : poteau
+322;Pilier fin métal (Thin Pillar);-3728.5;1979.4;-150.0;150;152.04;4221.3;appui overhang c5 t+150 : poteau
+323;Pilier fin métal (Thin Pillar);-3878.5;1719.6;-150.0;150;156.09;4242.6;appui overhang c5 t+450 : poteau
+324;Pilier fin métal (Thin Pillar);-3728.5;-1979.4;-150.0;210;207.96;4221.3;appui overhang c7 t-150 : poteau
+325;Pilier fin métal (Thin Pillar);-3578.5;-2239.2;-150.0;210;212.04;4221.3;appui overhang c7 t+150 : poteau
+326;Pilier fin métal (Thin Pillar);-3428.5;-2499.0;-150.0;210;216.09;4242.6;appui overhang c7 t+450 : poteau
+327;Pilier fin métal (Thin Pillar);-3278.5;-2758.8;-150.0;210;220.08;4284.8;appui overhang c7 t+750 : poteau
+328;Pilier fin métal (Thin Pillar);-3128.5;-3018.7;-150.0;210;223.98;4347.4;appui overhang c7 t+1050 : poteau
+329;Pilier fin métal (Thin Pillar);-1050.0;-4218.7;-150.0;270;256.02;4347.4;appui overhang c9 t-1050 : poteau
+330;Pilier fin métal (Thin Pillar);-750.0;-4218.7;-150.0;270;259.92;4284.8;appui overhang c9 t-750 : poteau
+331;Pilier fin métal (Thin Pillar);-450.0;-4218.7;-150.0;270;263.91;4242.6;appui overhang c9 t-450 : poteau
+332;Pilier fin métal (Thin Pillar);-150.0;-4218.7;-150.0;270;267.96;4221.3;appui overhang c9 t-150 : poteau
+333;Pilier fin métal (Thin Pillar);150.0;-4218.7;-150.0;270;272.04;4221.3;appui overhang c9 t+150 : poteau
+334;Pilier fin métal (Thin Pillar);450.0;-4218.7;-150.0;270;276.09;4242.6;appui overhang c9 t+450 : poteau
+335;Pilier fin métal (Thin Pillar);750.0;-4218.7;-150.0;270;280.08;4284.8;appui overhang c9 t+750 : poteau
+336;Pilier fin métal (Thin Pillar);1050.0;-4218.7;-150.0;270;283.98;4347.4;appui overhang c9 t+1050 : poteau
+337;Pilier fin métal (Thin Pillar);3128.5;-3018.7;-150.0;330;316.02;4347.4;appui overhang c11 t-1050 : poteau
+338;Pilier fin métal (Thin Pillar);3278.5;-2758.8;-150.0;330;319.92;4284.8;appui overhang c11 t-750 : poteau
+339;Pilier fin métal (Thin Pillar);3428.5;-2499.0;-150.0;330;323.91;4242.6;appui overhang c11 t-450 : poteau
+340;Pilier fin métal (Thin Pillar);3578.5;-2239.2;-150.0;330;327.96;4221.3;appui overhang c11 t-150 : poteau
+341;Pilier fin métal (Thin Pillar);3728.5;-1979.4;-150.0;330;332.04;4221.3;appui overhang c11 t+150 : poteau
+342;Pilier fin métal (Thin Pillar);3878.5;-1719.6;-150.0;330;336.09;4242.6;appui overhang c11 t+450 : poteau
+343;Pilier fin métal (Thin Pillar);4028.5;-1459.8;-150.0;330;340.08;4284.8;appui overhang c11 t+750 : poteau
+344;Pilier fin métal (Thin Pillar);4178.5;-1200.0;-150.0;330;343.98;4347.4;appui overhang c11 t+1050 : poteau
+345;Cadre de porte double métal;3918.7;-900.0;0.0;0;347.07;4020.7;rive niv0 c0 p0
+346;Cadre de porte double métal;3918.7;-600.0;0.0;0;351.29;3964.3;rive niv0 c0 p1
+347;Cadre de porte double métal;3918.7;-300.0;0.0;0;355.62;3930.1;rive niv0 c0 p2
+348;Cadre de porte double métal;3918.7;0.0;0.0;0;0.0;3918.7;rive niv0 c0 p3
+349;Cadre de porte double métal;3918.7;300.0;0.0;0;4.38;3930.1;rive niv0 c0 p4
+350;Cadre de porte double métal;3918.7;900.0;0.0;0;12.93;4020.7;rive niv0 c0 p6
+351;Cadre de porte double métal;3843.7;1179.9;0.0;30;17.07;4020.7;rive niv0 c1 p0
+352;Cadre de porte double métal;3543.7;1699.5;0.0;30;25.62;3930.1;rive niv0 c1 p2
+353;Cadre de porte double métal;3393.7;1959.3;0.0;30;30.0;3918.7;rive niv0 c1 p3
+354;Cadre de porte double métal;3243.7;2219.1;0.0;30;34.38;3930.1;rive niv0 c1 p4
+355;Cadre de porte double métal;3093.7;2478.9;0.0;30;38.71;3964.3;rive niv0 c1 p5
+356;Cadre de porte double métal;2943.7;2738.7;0.0;30;42.93;4020.7;rive niv0 c1 p6
+357;Cadre de porte double métal;2738.7;2943.7;0.0;60;47.07;4020.7;rive niv0 c2 p0
+358;Cadre de porte double métal;2219.1;3243.7;0.0;60;55.62;3930.1;rive niv0 c2 p2
+359;Cadre de porte double métal;1959.3;3393.7;0.0;60;60.0;3918.7;rive niv0 c2 p3
+360;Cadre de porte double métal;1699.5;3543.7;0.0;60;64.38;3930.1;rive niv0 c2 p4
+361;Cadre de porte double métal;1439.7;3693.7;0.0;60;68.71;3964.3;rive niv0 c2 p5
+362;Cadre de porte double métal;1179.9;3843.7;0.0;60;72.93;4020.7;rive niv0 c2 p6
+363;Cadre de porte double métal;900.0;3918.7;0.0;90;77.07;4020.7;rive niv0 c3 p0
+364;Cadre de porte double métal;600.0;3918.7;0.0;90;81.29;3964.3;rive niv0 c3 p1
+365;Cadre de porte double métal;300.0;3918.7;0.0;90;85.62;3930.1;rive niv0 c3 p2
+366;Cadre de porte double métal;0.0;3918.7;0.0;90;90.0;3918.7;rive niv0 c3 p3
+367;Cadre de porte double métal;-300.0;3918.7;0.0;90;94.38;3930.1;rive niv0 c3 p4
+368;Cadre de porte double métal;-900.0;3918.7;0.0;90;102.93;4020.7;rive niv0 c3 p6
+369;Cadre de porte double métal;-1179.9;3843.7;0.0;120;107.07;4020.7;rive niv0 c4 p0
+370;Cadre de porte double métal;-1439.7;3693.7;0.0;120;111.29;3964.3;rive niv0 c4 p1
+371;Cadre de porte double métal;-1699.5;3543.7;0.0;120;115.62;3930.1;rive niv0 c4 p2
+372;Cadre de porte double métal;-1959.3;3393.7;0.0;120;120.0;3918.7;rive niv0 c4 p3
+373;Cadre de porte double métal;-2219.1;3243.7;0.0;120;124.38;3930.1;rive niv0 c4 p4
+374;Cadre de porte double métal;-2738.7;2943.7;0.0;120;132.93;4020.7;rive niv0 c4 p6
+375;Cadre de porte double métal;-2943.7;2738.7;0.0;150;137.07;4020.7;rive niv0 c5 p0
+376;Cadre de porte double métal;-3243.7;2219.1;0.0;150;145.62;3930.1;rive niv0 c5 p2
+377;Cadre de porte double métal;-3393.7;1959.3;0.0;150;150.0;3918.7;rive niv0 c5 p3
+378;Cadre de porte double métal;-3543.7;1699.5;0.0;150;154.38;3930.1;rive niv0 c5 p4
+379;Cadre de porte double métal;-3693.7;1439.7;0.0;150;158.71;3964.3;rive niv0 c5 p5
+380;Cadre de porte double métal;-3543.7;-1699.5;0.0;210;205.62;3930.1;rive niv0 c7 p2
+381;Cadre de porte double métal;-3393.7;-1959.3;0.0;210;210.0;3918.7;rive niv0 c7 p3
+382;Cadre de porte double métal;-3243.7;-2219.1;0.0;210;214.38;3930.1;rive niv0 c7 p4
+383;Cadre de porte double métal;-2943.7;-2738.7;0.0;210;222.93;4020.7;rive niv0 c7 p6
+384;Cadre de porte double métal;-2738.7;-2943.7;0.0;240;227.07;4020.7;rive niv0 c8 p0
+385;Cadre de porte double métal;-2478.9;-3093.7;0.0;240;231.29;3964.3;rive niv0 c8 p1
+386;Cadre de porte double métal;-2219.1;-3243.7;0.0;240;235.62;3930.1;rive niv0 c8 p2
+387;Cadre de porte double métal;-1959.3;-3393.7;0.0;240;240.0;3918.7;rive niv0 c8 p3
+388;Cadre de porte double métal;-1699.5;-3543.7;0.0;240;244.38;3930.1;rive niv0 c8 p4
+389;Cadre de porte double métal;-1179.9;-3843.7;0.0;240;252.93;4020.7;rive niv0 c8 p6
+390;Cadre de porte double métal;-900.0;-3918.7;0.0;270;257.07;4020.7;rive niv0 c9 p0
+391;Cadre de porte double métal;-300.0;-3918.7;0.0;270;265.62;3930.1;rive niv0 c9 p2
+392;Cadre de porte double métal;-0.0;-3918.7;0.0;270;270.0;3918.7;rive niv0 c9 p3
+393;Cadre de porte double métal;300.0;-3918.7;0.0;270;274.38;3930.1;rive niv0 c9 p4
+394;Cadre de porte double métal;600.0;-3918.7;0.0;270;278.71;3964.3;rive niv0 c9 p5
+395;Cadre de porte double métal;900.0;-3918.7;0.0;270;282.93;4020.7;rive niv0 c9 p6
+396;Cadre de porte double métal;1179.9;-3843.7;0.0;300;287.07;4020.7;rive niv0 c10 p0
+397;Cadre de porte double métal;1699.5;-3543.7;0.0;300;295.62;3930.1;rive niv0 c10 p2
+398;Cadre de porte double métal;1959.3;-3393.7;0.0;300;300.0;3918.7;rive niv0 c10 p3
+399;Cadre de porte double métal;2219.1;-3243.7;0.0;300;304.38;3930.1;rive niv0 c10 p4
+400;Cadre de porte double métal;2478.9;-3093.7;0.0;300;308.71;3964.3;rive niv0 c10 p5
+401;Cadre de porte double métal;2738.7;-2943.7;0.0;300;312.93;4020.7;rive niv0 c10 p6
+402;Cadre de porte double métal;2943.7;-2738.7;0.0;330;317.07;4020.7;rive niv0 c11 p0
+403;Cadre de porte double métal;3093.7;-2478.9;0.0;330;321.29;3964.3;rive niv0 c11 p1
+404;Cadre de porte double métal;3243.7;-2219.1;0.0;330;325.62;3930.1;rive niv0 c11 p2
+405;Cadre de porte double métal;3393.7;-1959.3;0.0;330;330.0;3918.7;rive niv0 c11 p3
+406;Cadre de porte double métal;3543.7;-1699.5;0.0;330;334.38;3930.1;rive niv0 c11 p4
+407;Cadre de porte double métal;3843.7;-1179.9;0.0;330;342.93;4020.7;rive niv0 c11 p6
+408;Pilier fin métal (Thin Pillar);4218.7;-1050.0;0.0;0;346.02;4347.4;appui overhang c0 t-1050 : poteau
+409;Pilier fin métal (Thin Pillar);4218.7;-750.0;0.0;0;349.92;4284.8;appui overhang c0 t-750 : poteau
+410;Pilier fin métal (Thin Pillar);4218.7;-450.0;0.0;0;353.91;4242.6;appui overhang c0 t-450 : poteau
+411;Pilier fin métal (Thin Pillar);4218.7;-150.0;0.0;0;357.96;4221.3;appui overhang c0 t-150 : poteau
+412;Pilier fin métal (Thin Pillar);4218.7;150.0;0.0;0;2.04;4221.3;appui overhang c0 t+150 : poteau
+413;Pilier fin métal (Thin Pillar);4218.7;450.0;0.0;0;6.09;4242.6;appui overhang c0 t+450 : poteau
+414;Pilier fin métal (Thin Pillar);4218.7;750.0;0.0;0;10.08;4284.8;appui overhang c0 t+750 : poteau
+415;Pilier fin métal (Thin Pillar);4218.7;1050.0;0.0;0;13.98;4347.4;appui overhang c0 t+1050 : poteau
+416;Pilier fin métal (Thin Pillar);3018.7;3128.5;0.0;60;46.02;4347.4;appui overhang c2 t-1050 : poteau
+417;Pilier fin métal (Thin Pillar);2758.8;3278.5;0.0;60;49.92;4284.8;appui overhang c2 t-750 : poteau
+418;Pilier fin métal (Thin Pillar);2499.0;3428.5;0.0;60;53.91;4242.6;appui overhang c2 t-450 : poteau
+419;Pilier fin métal (Thin Pillar);2239.2;3578.5;0.0;60;57.96;4221.3;appui overhang c2 t-150 : poteau
+420;Pilier fin métal (Thin Pillar);1979.4;3728.5;0.0;60;62.04;4221.3;appui overhang c2 t+150 : poteau
+421;Pilier fin métal (Thin Pillar);1719.6;3878.5;0.0;60;66.09;4242.6;appui overhang c2 t+450 : poteau
+422;Pilier fin métal (Thin Pillar);1459.8;4028.5;0.0;60;70.08;4284.8;appui overhang c2 t+750 : poteau
+423;Pilier fin métal (Thin Pillar);1200.0;4178.5;0.0;60;73.98;4347.4;appui overhang c2 t+1050 : poteau
+424;Pilier fin métal (Thin Pillar);-1200.0;4178.5;0.0;120;106.02;4347.4;appui overhang c4 t-1050 : poteau
+425;Pilier fin métal (Thin Pillar);-1459.8;4028.5;0.0;120;109.92;4284.8;appui overhang c4 t-750 : poteau
+426;Pilier fin métal (Thin Pillar);-1719.6;3878.5;0.0;120;113.91;4242.6;appui overhang c4 t-450 : poteau
+427;Pilier fin métal (Thin Pillar);-1979.4;3728.5;0.0;120;117.96;4221.3;appui overhang c4 t-150 : poteau
+428;Pilier fin métal (Thin Pillar);-2239.2;3578.5;0.0;120;122.04;4221.3;appui overhang c4 t+150 : poteau
+429;Pilier fin métal (Thin Pillar);-2499.0;3428.5;0.0;120;126.09;4242.6;appui overhang c4 t+450 : poteau
+430;Pilier fin métal (Thin Pillar);-2758.8;3278.5;0.0;120;130.08;4284.8;appui overhang c4 t+750 : poteau
+431;Pilier fin métal (Thin Pillar);-3018.7;3128.5;0.0;120;133.98;4347.4;appui overhang c4 t+1050 : poteau
+432;Pilier fin métal (Thin Pillar);-3018.7;-3128.5;0.0;240;226.02;4347.4;appui overhang c8 t-1050 : poteau
+433;Pilier fin métal (Thin Pillar);-2758.8;-3278.5;0.0;240;229.92;4284.8;appui overhang c8 t-750 : poteau
+434;Pilier fin métal (Thin Pillar);-2499.0;-3428.5;0.0;240;233.91;4242.6;appui overhang c8 t-450 : poteau
+435;Pilier fin métal (Thin Pillar);-2239.2;-3578.5;0.0;240;237.96;4221.3;appui overhang c8 t-150 : poteau
+436;Pilier fin métal (Thin Pillar);-1979.4;-3728.5;0.0;240;242.04;4221.3;appui overhang c8 t+150 : poteau
+437;Pilier fin métal (Thin Pillar);-1719.6;-3878.5;0.0;240;246.09;4242.6;appui overhang c8 t+450 : poteau
+438;Pilier fin métal (Thin Pillar);-1459.8;-4028.5;0.0;240;250.08;4284.8;appui overhang c8 t+750 : poteau
+439;Pilier fin métal (Thin Pillar);-1200.0;-4178.5;0.0;240;253.98;4347.4;appui overhang c8 t+1050 : poteau
+440;Pilier fin métal (Thin Pillar);1200.0;-4178.5;0.0;300;286.02;4347.4;appui overhang c10 t-1050 : poteau
+441;Pilier fin métal (Thin Pillar);1459.8;-4028.5;0.0;300;289.92;4284.8;appui overhang c10 t-750 : poteau
+442;Pilier fin métal (Thin Pillar);1719.6;-3878.5;0.0;300;293.91;4242.6;appui overhang c10 t-450 : poteau
+443;Pilier fin métal (Thin Pillar);1979.4;-3728.5;0.0;300;297.96;4221.3;appui overhang c10 t-150 : poteau
+444;Pilier fin métal (Thin Pillar);2239.2;-3578.5;0.0;300;302.04;4221.3;appui overhang c10 t+150 : poteau
+445;Pilier fin métal (Thin Pillar);2499.0;-3428.5;0.0;300;306.09;4242.6;appui overhang c10 t+450 : poteau
+446;Pilier fin métal (Thin Pillar);2758.8;-3278.5;0.0;300;310.08;4284.8;appui overhang c10 t+750 : poteau
+447;Pilier fin métal (Thin Pillar);3018.7;-3128.5;0.0;300;313.98;4347.4;appui overhang c10 t+1050 : poteau
+448;Rampe inclinée métal (Sloped Railing);4368.7;-1050.0;0.0;270;346.49;4493.1;overhang r-2 c0 t-1050
+449;Rampe inclinée métal (Sloped Railing);4368.7;-750.0;0.0;270;350.26;4432.6;overhang r-2 c0 t-750
+450;Rampe inclinée métal (Sloped Railing);4368.7;-450.0;0.0;270;354.12;4391.8;overhang r-2 c0 t-450
+451;Rampe inclinée métal (Sloped Railing);4368.7;-150.0;0.0;270;358.03;4371.2;overhang r-2 c0 t-150
+452;Rampe inclinée métal (Sloped Railing);4368.7;150.0;0.0;270;1.97;4371.2;overhang r-2 c0 t+150
+453;Rampe inclinée métal (Sloped Railing);4368.7;450.0;0.0;270;5.88;4391.8;overhang r-2 c0 t+450
+454;Rampe inclinée métal (Sloped Railing);4368.7;750.0;0.0;270;9.74;4432.6;overhang r-2 c0 t+750
+455;Rampe inclinée métal (Sloped Railing);4368.7;1050.0;0.0;270;13.51;4493.1;overhang r-2 c0 t+1050
+456;Rampe inclinée métal (Sloped Railing);3093.7;3258.4;0.0;330;46.49;4493.1;overhang r-2 c2 t-1050
+457;Rampe inclinée métal (Sloped Railing);2833.8;3408.4;0.0;330;50.26;4432.6;overhang r-2 c2 t-750
+458;Rampe inclinée métal (Sloped Railing);2574.0;3558.4;0.0;330;54.12;4391.8;overhang r-2 c2 t-450
+459;Rampe inclinée métal (Sloped Railing);2314.2;3708.4;0.0;330;58.03;4371.2;overhang r-2 c2 t-150
+460;Rampe inclinée métal (Sloped Railing);2054.4;3858.4;0.0;330;61.97;4371.2;overhang r-2 c2 t+150
+461;Rampe inclinée métal (Sloped Railing);1794.6;4008.4;0.0;330;65.88;4391.8;overhang r-2 c2 t+450
+462;Rampe inclinée métal (Sloped Railing);1534.8;4158.4;0.0;330;69.74;4432.6;overhang r-2 c2 t+750
+463;Rampe inclinée métal (Sloped Railing);1275.0;4308.4;0.0;330;73.51;4493.1;overhang r-2 c2 t+1050
+464;Rampe inclinée métal (Sloped Railing);-1275.0;4308.4;0.0;30;106.49;4493.1;overhang r-2 c4 t-1050
+465;Rampe inclinée métal (Sloped Railing);-1534.8;4158.4;0.0;30;110.26;4432.6;overhang r-2 c4 t-750
+466;Rampe inclinée métal (Sloped Railing);-1794.6;4008.4;0.0;30;114.12;4391.8;overhang r-2 c4 t-450
+467;Rampe inclinée métal (Sloped Railing);-2054.4;3858.4;0.0;30;118.03;4371.2;overhang r-2 c4 t-150
+468;Rampe inclinée métal (Sloped Railing);-2314.2;3708.4;0.0;30;121.97;4371.2;overhang r-2 c4 t+150
+469;Rampe inclinée métal (Sloped Railing);-2574.0;3558.4;0.0;30;125.88;4391.8;overhang r-2 c4 t+450
+470;Rampe inclinée métal (Sloped Railing);-2833.8;3408.4;0.0;30;129.74;4432.6;overhang r-2 c4 t+750
+471;Rampe inclinée métal (Sloped Railing);-3093.7;3258.4;0.0;30;133.51;4493.1;overhang r-2 c4 t+1050
+472;Rampe inclinée métal (Sloped Railing);-3093.7;-3258.4;0.0;150;226.49;4493.1;overhang r-2 c8 t-1050
+473;Rampe inclinée métal (Sloped Railing);-2833.8;-3408.4;0.0;150;230.26;4432.6;overhang r-2 c8 t-750
+474;Rampe inclinée métal (Sloped Railing);-2574.0;-3558.4;0.0;150;234.12;4391.8;overhang r-2 c8 t-450
+475;Rampe inclinée métal (Sloped Railing);-2314.2;-3708.4;0.0;150;238.03;4371.2;overhang r-2 c8 t-150
+476;Rampe inclinée métal (Sloped Railing);-2054.4;-3858.4;0.0;150;241.97;4371.2;overhang r-2 c8 t+150
+477;Rampe inclinée métal (Sloped Railing);-1794.6;-4008.4;0.0;150;245.88;4391.8;overhang r-2 c8 t+450
+478;Rampe inclinée métal (Sloped Railing);-1534.8;-4158.4;0.0;150;249.74;4432.6;overhang r-2 c8 t+750
+479;Rampe inclinée métal (Sloped Railing);-1275.0;-4308.4;0.0;150;253.51;4493.1;overhang r-2 c8 t+1050
+480;Rampe inclinée métal (Sloped Railing);1275.0;-4308.4;0.0;210;286.49;4493.1;overhang r-2 c10 t-1050
+481;Rampe inclinée métal (Sloped Railing);1534.8;-4158.4;0.0;210;290.26;4432.6;overhang r-2 c10 t-750
+482;Rampe inclinée métal (Sloped Railing);1794.6;-4008.4;0.0;210;294.12;4391.8;overhang r-2 c10 t-450
+483;Rampe inclinée métal (Sloped Railing);2054.4;-3858.4;0.0;210;298.03;4371.2;overhang r-2 c10 t-150
+484;Rampe inclinée métal (Sloped Railing);2314.2;-3708.4;0.0;210;301.97;4371.2;overhang r-2 c10 t+150
+485;Rampe inclinée métal (Sloped Railing);2574.0;-3558.4;0.0;210;305.88;4391.8;overhang r-2 c10 t+450
+486;Rampe inclinée métal (Sloped Railing);2833.8;-3408.4;0.0;210;309.74;4432.6;overhang r-2 c10 t+750
+487;Rampe inclinée métal (Sloped Railing);3093.7;-3258.4;0.0;210;313.51;4493.1;overhang r-2 c10 t+1050
+488;Mur de chaume (gabarit de pose, à démolir);3918.7;600.0;0.0;0;8.71;3964.3;#1 RIVE c0 p5 (chaume a demolir)
+489;Mur de chaume (gabarit de pose, à démolir);-1439.7;-3693.7;0.0;240;248.71;3964.3;#2 RIVE c8 p5 (chaume a demolir)
+490;Mur de chaume (gabarit de pose, à démolir);-2478.9;3093.7;0.0;120;128.71;3964.3;#3 RIVE c4 p5 (chaume a demolir)
+491;Mur de chaume (gabarit de pose, à démolir);-600.0;3918.7;0.0;90;98.71;3964.3;#10 RIVE c3 p5 (chaume a demolir)
+492;Mur de chaume (gabarit de pose, à démolir);3693.7;-1439.7;0.0;330;338.71;3964.3;#11 RIVE c11 p5 (chaume a demolir)
+493;Mur de chaume (gabarit de pose, à démolir);-3093.7;-2478.9;0.0;210;218.71;3964.3;#12 RIVE c7 p5 (chaume a demolir)
+494;Mur de chaume (gabarit de pose, à démolir);3693.7;1439.7;0.0;30;21.29;3964.3;#13 RIVE c1 p1 (chaume a demolir)
+495;Mur de chaume (gabarit de pose, à démolir);-600.0;-3918.7;0.0;270;261.29;3964.3;#14 RIVE c9 p1 (chaume a demolir)
+496;Mur de chaume (gabarit de pose, à démolir);-3093.7;2478.9;0.0;150;141.29;3964.3;#15 RIVE c5 p1 (chaume a demolir)
+497;Mur de chaume (gabarit de pose, à démolir);2478.9;3093.7;0.0;60;51.29;3964.3;#19 RIVE c2 p1 (chaume a demolir)
+498;Mur de chaume (gabarit de pose, à démolir);1439.7;-3693.7;0.0;300;291.29;3964.3;#20 RIVE c10 p1 (chaume a demolir)
+499;Demi-pilier fin métal (Half Thin Pillar);4178.5;1200.0;150.0;30;16.02;4347.4;appui overhang c1 t-1050 : poteau
+500;Rampe inclinée métal (Sloped Railing);4308.4;1275.0;0.0;300;16.49;4493.1;overhang r-2 c1 t-1050
+501;Demi-pilier fin métal (Half Thin Pillar);4028.5;1459.8;150.0;30;19.92;4284.8;appui overhang c1 t-750 : poteau
+502;Rampe inclinée métal (Sloped Railing);4158.4;1534.8;0.0;300;20.26;4432.6;overhang r-2 c1 t-750
+503;Demi-pilier fin métal (Half Thin Pillar);3878.5;1719.6;150.0;30;23.91;4242.6;appui overhang c1 t-450 : poteau
+504;Rampe inclinée métal (Sloped Railing);4008.4;1794.6;0.0;300;24.12;4391.8;overhang r-2 c1 t-450
+505;Demi-pilier fin métal (Half Thin Pillar);3728.5;1979.4;150.0;30;27.96;4221.3;appui overhang c1 t-150 : poteau
+506;Rampe inclinée métal (Sloped Railing);3858.4;2054.4;0.0;300;28.03;4371.2;overhang r-2 c1 t-150
+507;Demi-pilier fin métal (Half Thin Pillar);3578.5;2239.2;150.0;30;32.04;4221.3;appui overhang c1 t+150 : poteau
+508;Rampe inclinée métal (Sloped Railing);3708.4;2314.2;0.0;300;31.97;4371.2;overhang r-2 c1 t+150
+509;Demi-pilier fin métal (Half Thin Pillar);3428.5;2499.0;150.0;30;36.09;4242.6;appui overhang c1 t+450 : poteau
+510;Rampe inclinée métal (Sloped Railing);3558.4;2574.0;0.0;300;35.88;4391.8;overhang r-2 c1 t+450
+511;Demi-pilier fin métal (Half Thin Pillar);3278.5;2758.8;150.0;30;40.08;4284.8;appui overhang c1 t+750 : poteau
+512;Rampe inclinée métal (Sloped Railing);3408.4;2833.8;0.0;300;39.74;4432.6;overhang r-2 c1 t+750
+513;Demi-pilier fin métal (Half Thin Pillar);3128.5;3018.7;150.0;30;43.98;4347.4;appui overhang c1 t+1050 : poteau
+514;Rampe inclinée métal (Sloped Railing);3258.4;3093.7;0.0;300;43.51;4493.1;overhang r-2 c1 t+1050
+515;Demi-pilier fin métal (Half Thin Pillar);1050.0;4218.7;150.0;90;76.02;4347.4;appui overhang c3 t-1050 : poteau
+516;Rampe inclinée métal (Sloped Railing);1050.0;4368.7;0.0;0;76.49;4493.1;overhang r-2 c3 t-1050
+517;Demi-pilier fin métal (Half Thin Pillar);750.0;4218.7;150.0;90;79.92;4284.8;appui overhang c3 t-750 : poteau
+518;Rampe inclinée métal (Sloped Railing);750.0;4368.7;0.0;0;80.26;4432.6;overhang r-2 c3 t-750
+519;Demi-pilier fin métal (Half Thin Pillar);450.0;4218.7;150.0;90;83.91;4242.6;appui overhang c3 t-450 : poteau
+520;Rampe inclinée métal (Sloped Railing);450.0;4368.7;0.0;0;84.12;4391.8;overhang r-2 c3 t-450
+521;Demi-pilier fin métal (Half Thin Pillar);150.0;4218.7;150.0;90;87.96;4221.3;appui overhang c3 t-150 : poteau
+522;Rampe inclinée métal (Sloped Railing);150.0;4368.7;0.0;0;88.03;4371.2;overhang r-2 c3 t-150
+523;Demi-pilier fin métal (Half Thin Pillar);-150.0;4218.7;150.0;90;92.04;4221.3;appui overhang c3 t+150 : poteau
+524;Rampe inclinée métal (Sloped Railing);-150.0;4368.7;0.0;0;91.97;4371.2;overhang r-2 c3 t+150
+525;Demi-pilier fin métal (Half Thin Pillar);-450.0;4218.7;150.0;90;96.09;4242.6;appui overhang c3 t+450 : poteau
+526;Rampe inclinée métal (Sloped Railing);-450.0;4368.7;0.0;0;95.88;4391.8;overhang r-2 c3 t+450
+527;Demi-pilier fin métal (Half Thin Pillar);-750.0;4218.7;150.0;90;100.08;4284.8;appui overhang c3 t+750 : poteau
+528;Rampe inclinée métal (Sloped Railing);-750.0;4368.7;0.0;0;99.74;4432.6;overhang r-2 c3 t+750
+529;Demi-pilier fin métal (Half Thin Pillar);-1050.0;4218.7;150.0;90;103.98;4347.4;appui overhang c3 t+1050 : poteau
+530;Rampe inclinée métal (Sloped Railing);-1050.0;4368.7;0.0;0;103.51;4493.1;overhang r-2 c3 t+1050
+531;Demi-pilier fin métal (Half Thin Pillar);-3128.5;3018.7;150.0;150;136.02;4347.4;appui overhang c5 t-1050 : poteau
+532;Rampe inclinée métal (Sloped Railing);-3258.4;3093.7;0.0;60;136.49;4493.1;overhang r-2 c5 t-1050
+533;Demi-pilier fin métal (Half Thin Pillar);-3278.5;2758.8;150.0;150;139.92;4284.8;appui overhang c5 t-750 : poteau
+534;Rampe inclinée métal (Sloped Railing);-3408.4;2833.8;0.0;60;140.26;4432.6;overhang r-2 c5 t-750
+535;Demi-pilier fin métal (Half Thin Pillar);-3428.5;2499.0;150.0;150;143.91;4242.6;appui overhang c5 t-450 : poteau
+536;Rampe inclinée métal (Sloped Railing);-3558.4;2574.0;0.0;60;144.12;4391.8;overhang r-2 c5 t-450
+537;Demi-pilier fin métal (Half Thin Pillar);-3578.5;2239.2;150.0;150;147.96;4221.3;appui overhang c5 t-150 : poteau
+538;Rampe inclinée métal (Sloped Railing);-3708.4;2314.2;0.0;60;148.03;4371.2;overhang r-2 c5 t-150
+539;Demi-pilier fin métal (Half Thin Pillar);-3728.5;1979.4;150.0;150;152.04;4221.3;appui overhang c5 t+150 : poteau
+540;Rampe inclinée métal (Sloped Railing);-3858.4;2054.4;0.0;60;151.97;4371.2;overhang r-2 c5 t+150
+541;Demi-pilier fin métal (Half Thin Pillar);-3878.5;1719.6;150.0;150;156.09;4242.6;appui overhang c5 t+450 : poteau
+542;Rampe inclinée métal (Sloped Railing);-4008.4;1794.6;0.0;60;155.88;4391.8;overhang r-2 c5 t+450
+543;Demi-pilier fin métal (Half Thin Pillar);-3728.5;-1979.4;150.0;210;207.96;4221.3;appui overhang c7 t-150 : poteau
+544;Rampe inclinée métal (Sloped Railing);-3858.4;-2054.4;0.0;120;208.03;4371.2;overhang r-2 c7 t-150
+545;Demi-pilier fin métal (Half Thin Pillar);-3578.5;-2239.2;150.0;210;212.04;4221.3;appui overhang c7 t+150 : poteau
+546;Rampe inclinée métal (Sloped Railing);-3708.4;-2314.2;0.0;120;211.97;4371.2;overhang r-2 c7 t+150
+547;Demi-pilier fin métal (Half Thin Pillar);-3428.5;-2499.0;150.0;210;216.09;4242.6;appui overhang c7 t+450 : poteau
+548;Rampe inclinée métal (Sloped Railing);-3558.4;-2574.0;0.0;120;215.88;4391.8;overhang r-2 c7 t+450
+549;Demi-pilier fin métal (Half Thin Pillar);-3278.5;-2758.8;150.0;210;220.08;4284.8;appui overhang c7 t+750 : poteau
+550;Rampe inclinée métal (Sloped Railing);-3408.4;-2833.8;0.0;120;219.74;4432.6;overhang r-2 c7 t+750
+551;Demi-pilier fin métal (Half Thin Pillar);-3128.5;-3018.7;150.0;210;223.98;4347.4;appui overhang c7 t+1050 : poteau
+552;Rampe inclinée métal (Sloped Railing);-3258.4;-3093.7;0.0;120;223.51;4493.1;overhang r-2 c7 t+1050
+553;Demi-pilier fin métal (Half Thin Pillar);-1050.0;-4218.7;150.0;270;256.02;4347.4;appui overhang c9 t-1050 : poteau
+554;Rampe inclinée métal (Sloped Railing);-1050.0;-4368.7;0.0;180;256.49;4493.1;overhang r-2 c9 t-1050
+555;Demi-pilier fin métal (Half Thin Pillar);-750.0;-4218.7;150.0;270;259.92;4284.8;appui overhang c9 t-750 : poteau
+556;Rampe inclinée métal (Sloped Railing);-750.0;-4368.7;0.0;180;260.26;4432.6;overhang r-2 c9 t-750
+557;Demi-pilier fin métal (Half Thin Pillar);-450.0;-4218.7;150.0;270;263.91;4242.6;appui overhang c9 t-450 : poteau
+558;Rampe inclinée métal (Sloped Railing);-450.0;-4368.7;0.0;180;264.12;4391.8;overhang r-2 c9 t-450
+559;Demi-pilier fin métal (Half Thin Pillar);-150.0;-4218.7;150.0;270;267.96;4221.3;appui overhang c9 t-150 : poteau
+560;Rampe inclinée métal (Sloped Railing);-150.0;-4368.7;0.0;180;268.03;4371.2;overhang r-2 c9 t-150
+561;Demi-pilier fin métal (Half Thin Pillar);150.0;-4218.7;150.0;270;272.04;4221.3;appui overhang c9 t+150 : poteau
+562;Rampe inclinée métal (Sloped Railing);150.0;-4368.7;0.0;180;271.97;4371.2;overhang r-2 c9 t+150
+563;Demi-pilier fin métal (Half Thin Pillar);450.0;-4218.7;150.0;270;276.09;4242.6;appui overhang c9 t+450 : poteau
+564;Rampe inclinée métal (Sloped Railing);450.0;-4368.7;0.0;180;275.88;4391.8;overhang r-2 c9 t+450
+565;Demi-pilier fin métal (Half Thin Pillar);750.0;-4218.7;150.0;270;280.08;4284.8;appui overhang c9 t+750 : poteau
+566;Rampe inclinée métal (Sloped Railing);750.0;-4368.7;0.0;180;279.74;4432.6;overhang r-2 c9 t+750
+567;Demi-pilier fin métal (Half Thin Pillar);1050.0;-4218.7;150.0;270;283.98;4347.4;appui overhang c9 t+1050 : poteau
+568;Rampe inclinée métal (Sloped Railing);1050.0;-4368.7;0.0;180;283.51;4493.1;overhang r-2 c9 t+1050
+569;Demi-pilier fin métal (Half Thin Pillar);3128.5;-3018.7;150.0;330;316.02;4347.4;appui overhang c11 t-1050 : poteau
+570;Rampe inclinée métal (Sloped Railing);3258.4;-3093.7;0.0;240;316.49;4493.1;overhang r-2 c11 t-1050
+571;Demi-pilier fin métal (Half Thin Pillar);3278.5;-2758.8;150.0;330;319.92;4284.8;appui overhang c11 t-750 : poteau
+572;Rampe inclinée métal (Sloped Railing);3408.4;-2833.8;0.0;240;320.26;4432.6;overhang r-2 c11 t-750
+573;Demi-pilier fin métal (Half Thin Pillar);3428.5;-2499.0;150.0;330;323.91;4242.6;appui overhang c11 t-450 : poteau
+574;Rampe inclinée métal (Sloped Railing);3558.4;-2574.0;0.0;240;324.12;4391.8;overhang r-2 c11 t-450
+575;Demi-pilier fin métal (Half Thin Pillar);3578.5;-2239.2;150.0;330;327.96;4221.3;appui overhang c11 t-150 : poteau
+576;Rampe inclinée métal (Sloped Railing);3708.4;-2314.2;0.0;240;328.03;4371.2;overhang r-2 c11 t-150
+577;Demi-pilier fin métal (Half Thin Pillar);3728.5;-1979.4;150.0;330;332.04;4221.3;appui overhang c11 t+150 : poteau
+578;Rampe inclinée métal (Sloped Railing);3858.4;-2054.4;0.0;240;331.97;4371.2;overhang r-2 c11 t+150
+579;Demi-pilier fin métal (Half Thin Pillar);3878.5;-1719.6;150.0;330;336.09;4242.6;appui overhang c11 t+450 : poteau
+580;Rampe inclinée métal (Sloped Railing);4008.4;-1794.6;0.0;240;335.88;4391.8;overhang r-2 c11 t+450
+581;Demi-pilier fin métal (Half Thin Pillar);4028.5;-1459.8;150.0;330;340.08;4284.8;appui overhang c11 t+750 : poteau
+582;Rampe inclinée métal (Sloped Railing);4158.4;-1534.8;0.0;240;339.74;4432.6;overhang r-2 c11 t+750
+583;Demi-pilier fin métal (Half Thin Pillar);4178.5;-1200.0;150.0;330;343.98;4347.4;appui overhang c11 t+1050 : poteau
+584;Rampe inclinée métal (Sloped Railing);4308.4;-1275.0;0.0;240;343.51;4493.1;overhang r-2 c11 t+1050
+585;Pilier fin métal (Thin Pillar);3918.7;-1050.0;300.0;0;345.0;4056.9;depart lignes overhang c0 t-1050 : pilier fin dans le joint
+586;Pilier fin métal (Thin Pillar);3918.7;-750.0;300.0;0;349.17;3989.8;depart lignes overhang c0 t-750 : pilier fin dans le joint
+587;Pilier fin métal (Thin Pillar);3918.7;-450.0;300.0;0;353.45;3944.4;depart lignes overhang c0 t-450 : pilier fin dans le joint
+588;Pilier fin métal (Thin Pillar);3918.7;-150.0;300.0;0;357.81;3921.5;depart lignes overhang c0 t-150 : pilier fin dans le joint
+589;Pilier fin métal (Thin Pillar);3918.7;150.0;300.0;0;2.19;3921.5;depart lignes overhang c0 t+150 : pilier fin dans le joint
+590;Pilier fin métal (Thin Pillar);3918.7;450.0;300.0;0;6.55;3944.4;depart lignes overhang c0 t+450 : pilier fin dans le joint
+591;Pilier fin métal (Thin Pillar);3918.7;750.0;300.0;0;10.83;3989.8;depart lignes overhang c0 t+750 : pilier fin dans le joint
+592;Pilier fin métal (Thin Pillar);3918.7;1050.0;300.0;0;15.0;4056.9;depart lignes overhang c0 t+1050 : pilier fin dans le joint
+593;Pilier fin métal (Thin Pillar);3768.7;1309.8;300.0;30;19.17;3989.8;depart lignes overhang c1 t-750 : pilier fin dans le joint
+594;Pilier fin métal (Thin Pillar);3618.7;1569.6;300.0;30;23.45;3944.4;depart lignes overhang c1 t-450 : pilier fin dans le joint
+595;Pilier fin métal (Thin Pillar);3468.7;1829.4;300.0;30;27.81;3921.5;depart lignes overhang c1 t-150 : pilier fin dans le joint
+596;Pilier fin métal (Thin Pillar);3318.7;2089.2;300.0;30;32.19;3921.5;depart lignes overhang c1 t+150 : pilier fin dans le joint
+597;Pilier fin métal (Thin Pillar);3168.7;2349.0;300.0;30;36.55;3944.4;depart lignes overhang c1 t+450 : pilier fin dans le joint
+598;Pilier fin métal (Thin Pillar);3018.7;2608.8;300.0;30;40.83;3989.8;depart lignes overhang c1 t+750 : pilier fin dans le joint
+599;Pilier fin métal (Thin Pillar);2868.7;2868.7;300.0;30;45.0;4056.9;depart lignes overhang c1 t+1050 : pilier fin dans le joint
+600;Pilier fin métal (Thin Pillar);2608.8;3018.7;300.0;60;49.17;3989.8;depart lignes overhang c2 t-750 : pilier fin dans le joint
+601;Pilier fin métal (Thin Pillar);2349.0;3168.7;300.0;60;53.45;3944.4;depart lignes overhang c2 t-450 : pilier fin dans le joint
+602;Pilier fin métal (Thin Pillar);2089.2;3318.7;300.0;60;57.81;3921.5;depart lignes overhang c2 t-150 : pilier fin dans le joint
+603;Pilier fin métal (Thin Pillar);1829.4;3468.7;300.0;60;62.19;3921.5;depart lignes overhang c2 t+150 : pilier fin dans le joint
+604;Pilier fin métal (Thin Pillar);1569.6;3618.7;300.0;60;66.55;3944.4;depart lignes overhang c2 t+450 : pilier fin dans le joint
+605;Pilier fin métal (Thin Pillar);1309.8;3768.7;300.0;60;70.83;3989.8;depart lignes overhang c2 t+750 : pilier fin dans le joint
+606;Pilier fin métal (Thin Pillar);1050.0;3918.7;300.0;60;75.0;4056.9;depart lignes overhang c2 t+1050 : pilier fin dans le joint
+607;Pilier fin métal (Thin Pillar);750.0;3918.7;300.0;90;79.17;3989.8;depart lignes overhang c3 t-750 : pilier fin dans le joint
+608;Pilier fin métal (Thin Pillar);450.0;3918.7;300.0;90;83.45;3944.4;depart lignes overhang c3 t-450 : pilier fin dans le joint
+609;Pilier fin métal (Thin Pillar);150.0;3918.7;300.0;90;87.81;3921.5;depart lignes overhang c3 t-150 : pilier fin dans le joint
+610;Pilier fin métal (Thin Pillar);-150.0;3918.7;300.0;90;92.19;3921.5;depart lignes overhang c3 t+150 : pilier fin dans le joint
+611;Pilier fin métal (Thin Pillar);-450.0;3918.7;300.0;90;96.55;3944.4;depart lignes overhang c3 t+450 : pilier fin dans le joint
+612;Pilier fin métal (Thin Pillar);-750.0;3918.7;300.0;90;100.83;3989.8;depart lignes overhang c3 t+750 : pilier fin dans le joint
+613;Pilier fin métal (Thin Pillar);-1050.0;3918.7;300.0;90;105.0;4056.9;depart lignes overhang c3 t+1050 : pilier fin dans le joint
+614;Pilier fin métal (Thin Pillar);-1309.8;3768.7;300.0;120;109.17;3989.8;depart lignes overhang c4 t-750 : pilier fin dans le joint
+615;Pilier fin métal (Thin Pillar);-1569.6;3618.7;300.0;120;113.45;3944.4;depart lignes overhang c4 t-450 : pilier fin dans le joint
+616;Pilier fin métal (Thin Pillar);-1829.4;3468.7;300.0;120;117.81;3921.5;depart lignes overhang c4 t-150 : pilier fin dans le joint
+617;Pilier fin métal (Thin Pillar);-2089.2;3318.7;300.0;120;122.19;3921.5;depart lignes overhang c4 t+150 : pilier fin dans le joint
+618;Pilier fin métal (Thin Pillar);-2349.0;3168.7;300.0;120;126.55;3944.4;depart lignes overhang c4 t+450 : pilier fin dans le joint
+619;Pilier fin métal (Thin Pillar);-2608.8;3018.7;300.0;120;130.83;3989.8;depart lignes overhang c4 t+750 : pilier fin dans le joint
+620;Pilier fin métal (Thin Pillar);-2868.7;2868.7;300.0;120;135.0;4056.9;depart lignes overhang c4 t+1050 : pilier fin dans le joint
+621;Pilier fin métal (Thin Pillar);-3018.7;2608.8;300.0;150;139.17;3989.8;depart lignes overhang c5 t-750 : pilier fin dans le joint
+622;Pilier fin métal (Thin Pillar);-3168.7;2349.0;300.0;150;143.45;3944.4;depart lignes overhang c5 t-450 : pilier fin dans le joint
+623;Pilier fin métal (Thin Pillar);-3318.7;2089.2;300.0;150;147.81;3921.5;depart lignes overhang c5 t-150 : pilier fin dans le joint
+624;Pilier fin métal (Thin Pillar);-3468.7;1829.4;300.0;150;152.19;3921.5;depart lignes overhang c5 t+150 : pilier fin dans le joint
+625;Pilier fin métal (Thin Pillar);-3618.7;1569.6;300.0;150;156.55;3944.4;depart lignes overhang c5 t+450 : pilier fin dans le joint
+626;Pilier fin métal (Thin Pillar);-3768.7;1309.8;300.0;150;160.83;3989.8;depart lignes overhang c5 t+750 : pilier fin dans le joint
+627;Pilier fin métal (Thin Pillar);-3618.7;-1569.6;300.0;210;203.45;3944.4;depart lignes overhang c7 t-450 : pilier fin dans le joint
+628;Pilier fin métal (Thin Pillar);-3468.7;-1829.4;300.0;210;207.81;3921.5;depart lignes overhang c7 t-150 : pilier fin dans le joint
+629;Pilier fin métal (Thin Pillar);-3318.7;-2089.2;300.0;210;212.19;3921.5;depart lignes overhang c7 t+150 : pilier fin dans le joint
+630;Pilier fin métal (Thin Pillar);-3168.7;-2349.0;300.0;210;216.55;3944.4;depart lignes overhang c7 t+450 : pilier fin dans le joint
+631;Pilier fin métal (Thin Pillar);-3018.7;-2608.8;300.0;210;220.83;3989.8;depart lignes overhang c7 t+750 : pilier fin dans le joint
+632;Pilier fin métal (Thin Pillar);-2868.7;-2868.7;300.0;210;225.0;4056.9;depart lignes overhang c7 t+1050 : pilier fin dans le joint
+633;Pilier fin métal (Thin Pillar);-2608.8;-3018.7;300.0;240;229.17;3989.8;depart lignes overhang c8 t-750 : pilier fin dans le joint
+634;Pilier fin métal (Thin Pillar);-2349.0;-3168.7;300.0;240;233.45;3944.4;depart lignes overhang c8 t-450 : pilier fin dans le joint
+635;Pilier fin métal (Thin Pillar);-2089.2;-3318.7;300.0;240;237.81;3921.5;depart lignes overhang c8 t-150 : pilier fin dans le joint
+636;Pilier fin métal (Thin Pillar);-1829.4;-3468.7;300.0;240;242.19;3921.5;depart lignes overhang c8 t+150 : pilier fin dans le joint
+637;Pilier fin métal (Thin Pillar);-1569.6;-3618.7;300.0;240;246.55;3944.4;depart lignes overhang c8 t+450 : pilier fin dans le joint
+638;Pilier fin métal (Thin Pillar);-1309.8;-3768.7;300.0;240;250.83;3989.8;depart lignes overhang c8 t+750 : pilier fin dans le joint
+639;Pilier fin métal (Thin Pillar);-1050.0;-3918.7;300.0;240;255.0;4056.9;depart lignes overhang c8 t+1050 : pilier fin dans le joint
+640;Pilier fin métal (Thin Pillar);-750.0;-3918.7;300.0;270;259.17;3989.8;depart lignes overhang c9 t-750 : pilier fin dans le joint
+641;Pilier fin métal (Thin Pillar);-450.0;-3918.7;300.0;270;263.45;3944.4;depart lignes overhang c9 t-450 : pilier fin dans le joint
+642;Pilier fin métal (Thin Pillar);-150.0;-3918.7;300.0;270;267.81;3921.5;depart lignes overhang c9 t-150 : pilier fin dans le joint
+643;Pilier fin métal (Thin Pillar);150.0;-3918.7;300.0;270;272.19;3921.5;depart lignes overhang c9 t+150 : pilier fin dans le joint
+644;Pilier fin métal (Thin Pillar);450.0;-3918.7;300.0;270;276.55;3944.4;depart lignes overhang c9 t+450 : pilier fin dans le joint
+645;Pilier fin métal (Thin Pillar);750.0;-3918.7;300.0;270;280.83;3989.8;depart lignes overhang c9 t+750 : pilier fin dans le joint
+646;Pilier fin métal (Thin Pillar);1050.0;-3918.7;300.0;270;285.0;4056.9;depart lignes overhang c9 t+1050 : pilier fin dans le joint
+647;Pilier fin métal (Thin Pillar);1309.8;-3768.7;300.0;300;289.17;3989.8;depart lignes overhang c10 t-750 : pilier fin dans le joint
+648;Pilier fin métal (Thin Pillar);1569.6;-3618.7;300.0;300;293.45;3944.4;depart lignes overhang c10 t-450 : pilier fin dans le joint
+649;Pilier fin métal (Thin Pillar);1829.4;-3468.7;300.0;300;297.81;3921.5;depart lignes overhang c10 t-150 : pilier fin dans le joint
+650;Pilier fin métal (Thin Pillar);2089.2;-3318.7;300.0;300;302.19;3921.5;depart lignes overhang c10 t+150 : pilier fin dans le joint
+651;Pilier fin métal (Thin Pillar);2349.0;-3168.7;300.0;300;306.55;3944.4;depart lignes overhang c10 t+450 : pilier fin dans le joint
+652;Pilier fin métal (Thin Pillar);2608.8;-3018.7;300.0;300;310.83;3989.8;depart lignes overhang c10 t+750 : pilier fin dans le joint
+653;Pilier fin métal (Thin Pillar);2868.7;-2868.7;300.0;300;315.0;4056.9;depart lignes overhang c10 t+1050 : pilier fin dans le joint
+654;Pilier fin métal (Thin Pillar);3018.7;-2608.8;300.0;330;319.17;3989.8;depart lignes overhang c11 t-750 : pilier fin dans le joint
+655;Pilier fin métal (Thin Pillar);3168.7;-2349.0;300.0;330;323.45;3944.4;depart lignes overhang c11 t-450 : pilier fin dans le joint
+656;Pilier fin métal (Thin Pillar);3318.7;-2089.2;300.0;330;327.81;3921.5;depart lignes overhang c11 t-150 : pilier fin dans le joint
+657;Pilier fin métal (Thin Pillar);3468.7;-1829.4;300.0;330;332.19;3921.5;depart lignes overhang c11 t+150 : pilier fin dans le joint
+658;Pilier fin métal (Thin Pillar);3618.7;-1569.6;300.0;330;336.55;3944.4;depart lignes overhang c11 t+450 : pilier fin dans le joint
+659;Pilier fin métal (Thin Pillar);3768.7;-1309.8;300.0;330;340.83;3989.8;depart lignes overhang c11 t+750 : pilier fin dans le joint
+660;Cadre de porte double métal;3918.7;-900.0;300.0;0;347.07;4020.7;rive niv1 c0 p0
+661;Cadre de porte double métal;3918.7;-300.0;300.0;0;355.62;3930.1;rive niv1 c0 p2
+662;Cadre de porte double métal;3918.7;300.0;300.0;0;4.38;3930.1;rive niv1 c0 p4
+663;Cadre de porte double métal;3918.7;600.0;300.0;0;8.71;3964.3;rive niv1 c0 p5
+664;Cadre de porte double métal;3918.7;900.0;300.0;0;12.93;4020.7;rive niv1 c0 p6
+665;Cadre de porte double métal;3843.7;1179.9;300.0;30;17.07;4020.7;rive niv1 c1 p0
+666;Cadre de porte double métal;3693.7;1439.7;300.0;30;21.29;3964.3;rive niv1 c1 p1
+667;Cadre de porte double métal;3543.7;1699.5;300.0;30;25.62;3930.1;rive niv1 c1 p2
+668;Cadre de porte double métal;3243.7;2219.1;300.0;30;34.38;3930.1;rive niv1 c1 p4
+669;Cadre de porte double métal;3093.7;2478.9;300.0;30;38.71;3964.3;rive niv1 c1 p5
+670;Cadre de porte double métal;2943.7;2738.7;300.0;30;42.93;4020.7;rive niv1 c1 p6
+671;Cadre de porte double métal;2738.7;2943.7;300.0;60;47.07;4020.7;rive niv1 c2 p0
+672;Cadre de porte double métal;2478.9;3093.7;300.0;60;51.29;3964.3;rive niv1 c2 p1
+673;Cadre de porte double métal;2219.1;3243.7;300.0;60;55.62;3930.1;rive niv1 c2 p2
+674;Cadre de porte double métal;1699.5;3543.7;300.0;60;64.38;3930.1;rive niv1 c2 p4
+675;Cadre de porte double métal;1179.9;3843.7;300.0;60;72.93;4020.7;rive niv1 c2 p6
+676;Cadre de porte double métal;900.0;3918.7;300.0;90;77.07;4020.7;rive niv1 c3 p0
+677;Cadre de porte double métal;600.0;3918.7;300.0;90;81.29;3964.3;rive niv1 c3 p1
+678;Cadre de porte double métal;300.0;3918.7;300.0;90;85.62;3930.1;rive niv1 c3 p2
+679;Cadre de porte double métal;-300.0;3918.7;300.0;90;94.38;3930.1;rive niv1 c3 p4
+680;Cadre de porte double métal;-600.0;3918.7;300.0;90;98.71;3964.3;rive niv1 c3 p5
+681;Cadre de porte double métal;-900.0;3918.7;300.0;90;102.93;4020.7;rive niv1 c3 p6
+682;Cadre de porte double métal;-1179.9;3843.7;300.0;120;107.07;4020.7;rive niv1 c4 p0
+683;Cadre de porte double métal;-1699.5;3543.7;300.0;120;115.62;3930.1;rive niv1 c4 p2
+684;Cadre de porte double métal;-2219.1;3243.7;300.0;120;124.38;3930.1;rive niv1 c4 p4
+685;Cadre de porte double métal;-2478.9;3093.7;300.0;120;128.71;3964.3;rive niv1 c4 p5
+686;Cadre de porte double métal;-2738.7;2943.7;300.0;120;132.93;4020.7;rive niv1 c4 p6
+687;Cadre de porte double métal;-2943.7;2738.7;300.0;150;137.07;4020.7;rive niv1 c5 p0
+688;Cadre de porte double métal;-3093.7;2478.9;300.0;150;141.29;3964.3;rive niv1 c5 p1
+689;Cadre de porte double métal;-3243.7;2219.1;300.0;150;145.62;3930.1;rive niv1 c5 p2
+690;Cadre de porte double métal;-3543.7;1699.5;300.0;150;154.38;3930.1;rive niv1 c5 p4
+691;Cadre de porte double métal;-3693.7;1439.7;300.0;150;158.71;3964.3;rive niv1 c5 p5
+692;Cadre de porte double métal;-3543.7;-1699.5;300.0;210;205.62;3930.1;rive niv1 c7 p2
+693;Cadre de porte double métal;-3243.7;-2219.1;300.0;210;214.38;3930.1;rive niv1 c7 p4
+694;Cadre de porte double métal;-3093.7;-2478.9;300.0;210;218.71;3964.3;rive niv1 c7 p5
+695;Cadre de porte double métal;-2943.7;-2738.7;300.0;210;222.93;4020.7;rive niv1 c7 p6
+696;Cadre de porte double métal;-2738.7;-2943.7;300.0;240;227.07;4020.7;rive niv1 c8 p0
+697;Cadre de porte double métal;-2219.1;-3243.7;300.0;240;235.62;3930.1;rive niv1 c8 p2
+698;Cadre de porte double métal;-1699.5;-3543.7;300.0;240;244.38;3930.1;rive niv1 c8 p4
+699;Cadre de porte double métal;-1439.7;-3693.7;300.0;240;248.71;3964.3;rive niv1 c8 p5
+700;Cadre de porte double métal;-1179.9;-3843.7;300.0;240;252.93;4020.7;rive niv1 c8 p6
+701;Cadre de porte double métal;-900.0;-3918.7;300.0;270;257.07;4020.7;rive niv1 c9 p0
+702;Cadre de porte double métal;-600.0;-3918.7;300.0;270;261.29;3964.3;rive niv1 c9 p1
+703;Cadre de porte double métal;-300.0;-3918.7;300.0;270;265.62;3930.1;rive niv1 c9 p2
+704;Cadre de porte double métal;300.0;-3918.7;300.0;270;274.38;3930.1;rive niv1 c9 p4
+705;Cadre de porte double métal;600.0;-3918.7;300.0;270;278.71;3964.3;rive niv1 c9 p5
+706;Cadre de porte double métal;900.0;-3918.7;300.0;270;282.93;4020.7;rive niv1 c9 p6
+707;Cadre de porte double métal;1179.9;-3843.7;300.0;300;287.07;4020.7;rive niv1 c10 p0
+708;Cadre de porte double métal;1439.7;-3693.7;300.0;300;291.29;3964.3;rive niv1 c10 p1
+709;Cadre de porte double métal;1699.5;-3543.7;300.0;300;295.62;3930.1;rive niv1 c10 p2
+710;Cadre de porte double métal;2219.1;-3243.7;300.0;300;304.38;3930.1;rive niv1 c10 p4
+711;Cadre de porte double métal;2738.7;-2943.7;300.0;300;312.93;4020.7;rive niv1 c10 p6
+712;Cadre de porte double métal;2943.7;-2738.7;300.0;330;317.07;4020.7;rive niv1 c11 p0
+713;Cadre de porte double métal;3093.7;-2478.9;300.0;330;321.29;3964.3;rive niv1 c11 p1
+714;Cadre de porte double métal;3243.7;-2219.1;300.0;330;325.62;3930.1;rive niv1 c11 p2
+715;Cadre de porte double métal;3543.7;-1699.5;300.0;330;334.38;3930.1;rive niv1 c11 p4
+716;Cadre de porte double métal;3693.7;-1439.7;300.0;330;338.71;3964.3;rive niv1 c11 p5
+717;Cadre de porte double métal;3843.7;-1179.9;300.0;330;342.93;4020.7;rive niv1 c11 p6
+718;Rampe inclinée métal (Sloped Railing);4068.7;-1050.0;300.0;270;345.53;4202.0;overhang r-1 c0 t-1050
+719;Rampe inclinée métal (Sloped Railing);4068.7;-750.0;300.0;270;349.56;4137.2;overhang r-1 c0 t-750
+720;Rampe inclinée métal (Sloped Railing);4068.7;-450.0;300.0;270;353.69;4093.5;overhang r-1 c0 t-450
+721;Rampe inclinée métal (Sloped Railing);4068.7;-150.0;300.0;270;357.89;4071.4;overhang r-1 c0 t-150
+722;Rampe inclinée métal (Sloped Railing);4068.7;150.0;300.0;270;2.11;4071.4;overhang r-1 c0 t+150
+723;Rampe inclinée métal (Sloped Railing);4068.7;450.0;300.0;270;6.31;4093.5;overhang r-1 c0 t+450
+724;Rampe inclinée métal (Sloped Railing);4068.7;750.0;300.0;270;10.44;4137.2;overhang r-1 c0 t+750
+725;Rampe inclinée métal (Sloped Railing);4068.7;1050.0;300.0;270;14.47;4202.0;overhang r-1 c0 t+1050
+726;Rampe inclinée métal (Sloped Railing);4048.6;1125.0;300.0;300;15.53;4202.0;overhang r-1 c1 t-1050
+727;Rampe inclinée métal (Sloped Railing);3898.6;1384.8;300.0;300;19.56;4137.2;overhang r-1 c1 t-750
+728;Rampe inclinée métal (Sloped Railing);3748.6;1644.6;300.0;300;23.69;4093.5;overhang r-1 c1 t-450
+729;Rampe inclinée métal (Sloped Railing);3598.6;1904.4;300.0;300;27.89;4071.4;overhang r-1 c1 t-150
+730;Rampe inclinée métal (Sloped Railing);3448.6;2164.2;300.0;300;32.11;4071.4;overhang r-1 c1 t+150
+731;Rampe inclinée métal (Sloped Railing);3298.6;2424.0;300.0;300;36.31;4093.5;overhang r-1 c1 t+450
+732;Rampe inclinée métal (Sloped Railing);3148.6;2683.8;300.0;300;40.44;4137.2;overhang r-1 c1 t+750
+733;Rampe inclinée métal (Sloped Railing);2998.6;2943.7;300.0;300;44.47;4202.0;overhang r-1 c1 t+1050
+734;Rampe inclinée métal (Sloped Railing);2943.7;2998.6;300.0;330;45.53;4202.0;overhang r-1 c2 t-1050
+735;Rampe inclinée métal (Sloped Railing);2683.8;3148.6;300.0;330;49.56;4137.2;overhang r-1 c2 t-750
+736;Rampe inclinée métal (Sloped Railing);2424.0;3298.6;300.0;330;53.69;4093.5;overhang r-1 c2 t-450
+737;Rampe inclinée métal (Sloped Railing);2164.2;3448.6;300.0;330;57.89;4071.4;overhang r-1 c2 t-150
+738;Rampe inclinée métal (Sloped Railing);1904.4;3598.6;300.0;330;62.11;4071.4;overhang r-1 c2 t+150
+739;Rampe inclinée métal (Sloped Railing);1644.6;3748.6;300.0;330;66.31;4093.5;overhang r-1 c2 t+450
+740;Rampe inclinée métal (Sloped Railing);1384.8;3898.6;300.0;330;70.44;4137.2;overhang r-1 c2 t+750
+741;Rampe inclinée métal (Sloped Railing);1125.0;4048.6;300.0;330;74.47;4202.0;overhang r-1 c2 t+1050
+742;Rampe inclinée métal (Sloped Railing);1050.0;4068.7;300.0;0;75.53;4202.0;overhang r-1 c3 t-1050
+743;Rampe inclinée métal (Sloped Railing);750.0;4068.7;300.0;0;79.56;4137.2;overhang r-1 c3 t-750
+744;Rampe inclinée métal (Sloped Railing);450.0;4068.7;300.0;0;83.69;4093.5;overhang r-1 c3 t-450
+745;Rampe inclinée métal (Sloped Railing);150.0;4068.7;300.0;0;87.89;4071.4;overhang r-1 c3 t-150
+746;Rampe inclinée métal (Sloped Railing);-150.0;4068.7;300.0;0;92.11;4071.4;overhang r-1 c3 t+150
+747;Rampe inclinée métal (Sloped Railing);-450.0;4068.7;300.0;0;96.31;4093.5;overhang r-1 c3 t+450
+748;Rampe inclinée métal (Sloped Railing);-750.0;4068.7;300.0;0;100.44;4137.2;overhang r-1 c3 t+750
+749;Rampe inclinée métal (Sloped Railing);-1050.0;4068.7;300.0;0;104.47;4202.0;overhang r-1 c3 t+1050
+750;Rampe inclinée métal (Sloped Railing);-1125.0;4048.6;300.0;30;105.53;4202.0;overhang r-1 c4 t-1050
+751;Rampe inclinée métal (Sloped Railing);-1384.8;3898.6;300.0;30;109.56;4137.2;overhang r-1 c4 t-750
+752;Rampe inclinée métal (Sloped Railing);-1644.6;3748.6;300.0;30;113.69;4093.5;overhang r-1 c4 t-450
+753;Rampe inclinée métal (Sloped Railing);-1904.4;3598.6;300.0;30;117.89;4071.4;overhang r-1 c4 t-150
+754;Rampe inclinée métal (Sloped Railing);-2164.2;3448.6;300.0;30;122.11;4071.4;overhang r-1 c4 t+150
+755;Rampe inclinée métal (Sloped Railing);-2424.0;3298.6;300.0;30;126.31;4093.5;overhang r-1 c4 t+450
+756;Rampe inclinée métal (Sloped Railing);-2683.8;3148.6;300.0;30;130.44;4137.2;overhang r-1 c4 t+750
+757;Rampe inclinée métal (Sloped Railing);-2943.7;2998.6;300.0;30;134.47;4202.0;overhang r-1 c4 t+1050
+758;Rampe inclinée métal (Sloped Railing);-2998.6;2943.7;300.0;60;135.53;4202.0;overhang r-1 c5 t-1050
+759;Rampe inclinée métal (Sloped Railing);-3148.6;2683.8;300.0;60;139.56;4137.2;overhang r-1 c5 t-750
+760;Rampe inclinée métal (Sloped Railing);-3298.6;2424.0;300.0;60;143.69;4093.5;overhang r-1 c5 t-450
+761;Rampe inclinée métal (Sloped Railing);-3448.6;2164.2;300.0;60;147.89;4071.4;overhang r-1 c5 t-150
+762;Rampe inclinée métal (Sloped Railing);-3598.6;1904.4;300.0;60;152.11;4071.4;overhang r-1 c5 t+150
+763;Rampe inclinée métal (Sloped Railing);-3748.6;1644.6;300.0;60;156.31;4093.5;overhang r-1 c5 t+450
+764;Rampe inclinée métal (Sloped Railing);-3898.6;1384.8;300.0;60;160.44;4137.2;overhang r-1 c5 t+750
+765;Rampe inclinée métal (Sloped Railing);-3748.6;-1644.6;300.0;120;203.69;4093.5;overhang r-1 c7 t-450
+766;Rampe inclinée métal (Sloped Railing);-3598.6;-1904.4;300.0;120;207.89;4071.4;overhang r-1 c7 t-150
+767;Rampe inclinée métal (Sloped Railing);-3448.6;-2164.2;300.0;120;212.11;4071.4;overhang r-1 c7 t+150
+768;Rampe inclinée métal (Sloped Railing);-3298.6;-2424.0;300.0;120;216.31;4093.5;overhang r-1 c7 t+450
+769;Rampe inclinée métal (Sloped Railing);-3148.6;-2683.8;300.0;120;220.44;4137.2;overhang r-1 c7 t+750
+770;Rampe inclinée métal (Sloped Railing);-2998.6;-2943.7;300.0;120;224.47;4202.0;overhang r-1 c7 t+1050
+771;Rampe inclinée métal (Sloped Railing);-2943.7;-2998.6;300.0;150;225.53;4202.0;overhang r-1 c8 t-1050
+772;Rampe inclinée métal (Sloped Railing);-2683.8;-3148.6;300.0;150;229.56;4137.2;overhang r-1 c8 t-750
+773;Rampe inclinée métal (Sloped Railing);-2424.0;-3298.6;300.0;150;233.69;4093.5;overhang r-1 c8 t-450
+774;Rampe inclinée métal (Sloped Railing);-2164.2;-3448.6;300.0;150;237.89;4071.4;overhang r-1 c8 t-150
+775;Rampe inclinée métal (Sloped Railing);-1904.4;-3598.6;300.0;150;242.11;4071.4;overhang r-1 c8 t+150
+776;Rampe inclinée métal (Sloped Railing);-1644.6;-3748.6;300.0;150;246.31;4093.5;overhang r-1 c8 t+450
+777;Rampe inclinée métal (Sloped Railing);-1384.8;-3898.6;300.0;150;250.44;4137.2;overhang r-1 c8 t+750
+778;Rampe inclinée métal (Sloped Railing);-1125.0;-4048.6;300.0;150;254.47;4202.0;overhang r-1 c8 t+1050
+779;Rampe inclinée métal (Sloped Railing);-1050.0;-4068.7;300.0;180;255.53;4202.0;overhang r-1 c9 t-1050
+780;Rampe inclinée métal (Sloped Railing);-750.0;-4068.7;300.0;180;259.56;4137.2;overhang r-1 c9 t-750
+781;Rampe inclinée métal (Sloped Railing);-450.0;-4068.7;300.0;180;263.69;4093.5;overhang r-1 c9 t-450
+782;Rampe inclinée métal (Sloped Railing);-150.0;-4068.7;300.0;180;267.89;4071.4;overhang r-1 c9 t-150
+783;Rampe inclinée métal (Sloped Railing);150.0;-4068.7;300.0;180;272.11;4071.4;overhang r-1 c9 t+150
+784;Rampe inclinée métal (Sloped Railing);450.0;-4068.7;300.0;180;276.31;4093.5;overhang r-1 c9 t+450
+785;Rampe inclinée métal (Sloped Railing);750.0;-4068.7;300.0;180;280.44;4137.2;overhang r-1 c9 t+750
+786;Rampe inclinée métal (Sloped Railing);1050.0;-4068.7;300.0;180;284.47;4202.0;overhang r-1 c9 t+1050
+787;Rampe inclinée métal (Sloped Railing);1125.0;-4048.6;300.0;210;285.53;4202.0;overhang r-1 c10 t-1050
+788;Rampe inclinée métal (Sloped Railing);1384.8;-3898.6;300.0;210;289.56;4137.2;overhang r-1 c10 t-750
+789;Rampe inclinée métal (Sloped Railing);1644.6;-3748.6;300.0;210;293.69;4093.5;overhang r-1 c10 t-450
+790;Rampe inclinée métal (Sloped Railing);1904.4;-3598.6;300.0;210;297.89;4071.4;overhang r-1 c10 t-150
+791;Rampe inclinée métal (Sloped Railing);2164.2;-3448.6;300.0;210;302.11;4071.4;overhang r-1 c10 t+150
+792;Rampe inclinée métal (Sloped Railing);2424.0;-3298.6;300.0;210;306.31;4093.5;overhang r-1 c10 t+450
+793;Rampe inclinée métal (Sloped Railing);2683.8;-3148.6;300.0;210;310.44;4137.2;overhang r-1 c10 t+750
+794;Rampe inclinée métal (Sloped Railing);2943.7;-2998.6;300.0;210;314.47;4202.0;overhang r-1 c10 t+1050
+795;Rampe inclinée métal (Sloped Railing);2998.6;-2943.7;300.0;240;315.53;4202.0;overhang r-1 c11 t-1050
+796;Rampe inclinée métal (Sloped Railing);3148.6;-2683.8;300.0;240;319.56;4137.2;overhang r-1 c11 t-750
+797;Rampe inclinée métal (Sloped Railing);3298.6;-2424.0;300.0;240;323.69;4093.5;overhang r-1 c11 t-450
+798;Rampe inclinée métal (Sloped Railing);3448.6;-2164.2;300.0;240;327.89;4071.4;overhang r-1 c11 t-150
+799;Rampe inclinée métal (Sloped Railing);3598.6;-1904.4;300.0;240;332.11;4071.4;overhang r-1 c11 t+150
+800;Rampe inclinée métal (Sloped Railing);3748.6;-1644.6;300.0;240;336.31;4093.5;overhang r-1 c11 t+450
+801;Rampe inclinée métal (Sloped Railing);3898.6;-1384.8;300.0;240;340.44;4137.2;overhang r-1 c11 t+750
+802;Rampe inclinée métal (Sloped Railing);4048.6;-1125.0;300.0;240;344.47;4202.0;overhang r-1 c11 t+1050
+803;Mur de chaume (gabarit de pose, à démolir);1439.7;3693.7;300.0;60;68.71;3964.3;#4 RIVE c2 p5 (chaume a demolir)
+804;Mur de chaume (gabarit de pose, à démolir);2478.9;-3093.7;300.0;300;308.71;3964.3;#5 RIVE c10 p5 (chaume a demolir)
+805;Mur de chaume (gabarit de pose, à démolir);3393.7;1959.3;300.0;30;30.0;3918.7;#7 RIVE c1 p3 (chaume a demolir)
+806;Mur de chaume (gabarit de pose, à démolir);-0.0;-3918.7;300.0;270;270.0;3918.7;#8 RIVE c9 p3 (chaume a demolir)
+807;Mur de chaume (gabarit de pose, à démolir);-3393.7;1959.3;300.0;150;150.0;3918.7;#9 RIVE c5 p3 (chaume a demolir)
+808;Mur de chaume (gabarit de pose, à démolir);0.0;3918.7;300.0;90;90.0;3918.7;#16 RIVE c3 p3 (chaume a demolir)
+809;Mur de chaume (gabarit de pose, à démolir);3393.7;-1959.3;300.0;330;330.0;3918.7;#17 RIVE c11 p3 (chaume a demolir)
+810;Mur de chaume (gabarit de pose, à démolir);-3393.7;-1959.3;300.0;210;210.0;3918.7;#18 RIVE c7 p3 (chaume a demolir)
+811;Mur de chaume (gabarit de pose, à démolir);-1439.7;3693.7;300.0;120;111.29;3964.3;#22 RIVE c4 p1 (chaume a demolir)
+812;Mur de chaume (gabarit de pose, à démolir);3918.7;-600.0;300.0;0;351.29;3964.3;#23 RIVE c0 p1 (chaume a demolir)
+813;Mur de chaume (gabarit de pose, à démolir);-2478.9;-3093.7;300.0;240;231.29;3964.3;#24 RIVE c8 p1 (chaume a demolir)
+814;Mur de chaume (gabarit de pose, à démolir);3918.7;0.0;300.0;0;0.0;3918.7;#43 RIVE c0 p3 (chaume a demolir)
+815;Mur de chaume (gabarit de pose, à démolir);-1959.3;-3393.7;300.0;240;240.0;3918.7;#44 RIVE c8 p3 (chaume a demolir)
+816;Mur de chaume (gabarit de pose, à démolir);-1959.3;3393.7;300.0;120;120.0;3918.7;#45 RIVE c4 p3 (chaume a demolir)
+817;Mur de chaume (gabarit de pose, à démolir);1959.3;3393.7;300.0;60;60.0;3918.7;#46 RIVE c2 p3 (chaume a demolir)
+818;Mur de chaume (gabarit de pose, à démolir);1959.3;-3393.7;300.0;300;300.0;3918.7;#47 RIVE c10 p3 (chaume a demolir)

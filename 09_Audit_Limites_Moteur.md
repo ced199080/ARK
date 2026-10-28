@@ -15,15 +15,15 @@ Ces quatre règles sont des contrôles du générateur (`verifier_limites`). Le 
 
 | Mesure | Version précédente | **Maintenant** | Règle |
 |---|---|---|---|
-| Structures du bâti : plans (colonnade comprise), tourelles, carrés de culture, pics, équipements | 5 940 | **5 691** | ≤ 8 400 ✔ |
-| Structures au plus fort du chantier (murs de chaume et pile d'ancrage pas encore démolis) | 6 028 | **5 779** | ≤ 8 400 ✔ |
-| Marge sous les 8 400, en plus des 2 100 de réserve | 2 460 | **2 709** | — |
-| Places du cap (Tesla et Plant X comprises) | 100 (52 H + 23 T + 10 S + 15 X) | **100** (49 H + 26 T + 10 S + 15 X) | = 100 ✔ |
-| Tourelles sous le niveau des fondations centrales (Z0) | 16 | **0** | 0 ✔ |
-| Écart minimal entre deux tourelles | — | **295 UU** | ≥ 1 mur ✔ |
+| Structures du bâti : plans (colonnade comprise), tourelles, carrés de culture, pics, équipements | 5 691 | **5 976** | ≤ 8 400 ✔ |
+| Structures au plus fort du chantier (murs de chaume et pile d'ancrage pas encore démolis) | 5 779 | **6 064** | ≤ 8 400 ✔ |
+| Marge sous les 8 400, en plus des 2 100 de réserve | 2 709 | **2 424** | — |
+| Places du cap (Tesla et Plant X comprises) | 100 (49 H + 26 T + 10 S + 15 X) | **100** (49 H + 26 T + 10 S + 15 X) | = 100 ✔ |
+| Tourelles sous le niveau des fondations centrales (Z0) | 0 | **0** | 0 ✔ |
+| Écart minimal entre deux tourelles | 295 UU | **295 UU** | ≥ 1 mur ✔ |
 | Plafonds à plus de 2 cases d'un appui au sol | 0 | **0** | ✔ |
 | Hauteur maximale | 17 murs (Z5100) | **17 murs** (Z5100) ; + 1 par rehausse de la tour | ≤ 70 ✔ |
-| Plans (2 000 entrées au plus) | 11 plans | **11 plans** de 11 à 1 046 entrées | ✔ |
+| Plans (2 000 entrées au plus) | 11 plans | **11 plans** de 11 à 1 127 entrées | ✔ |
 
 ## 2. Audit du plan
 
@@ -36,22 +36,23 @@ Ces quatre règles sont des contrôles du générateur (`verifier_limites`). Le 
 | Cadres de porte doubles | 681 |
 | Piliers PA/PB (option colonnade : +226) | 240 |
 | Plafonds, trappes | 946 |
-| Rampes inclinées | 758 |
-| Piliers fins, demi-piliers fins (appuis des rampes) | 1 070 |
+| Rampes inclinées | 777 |
+| Piliers fins, demi-piliers fins (départs des lignes et appuis des rampes) | 1 336 |
 | Escaliers | 6 |
-| **Structure des plans, sans la colonnade** | **5 244** |
+| **Structure des plans, sans la colonnade** | **5 529** |
 | Colonnade (option) | 226 |
 | Tourelles (49 H, 26 T, 10 S) | 85 |
 | Carrés de culture (Plant X) | 15 |
 | Murs de pics, équipements (hors plans, boîtes de munitions comprises) | 74 + 47 |
-| **Bâti** | **5 691** |
+| **Bâti** | **5 976** |
 | Murs de chaume et pile d'ancrage (provisoires) | 79 + 9 |
 
 ### 2.2 Ce qui pèse
 
-- Les **poteaux de stabilité** (pente A, appentis, toit) font à eux seuls 896 piliers fins. Avec `--appuis tours`, sans eux, le bâti tombe à 4 795 structures.
-- La **colonnade** (226) est en option : sans elle, le bâti est à 5 465.
-- Chaque **rehausse** de la tour ajoute 76 structures. La marge de 2 709 en permet environ 35, bien avant la limite de 70 murs de haut.
+- Les **poteaux de stabilité** (pente A, appentis, toit) font à eux seuls 913 piliers fins. Avec `--appuis tours`, sans eux, le bâti tombe à 5 074 structures.
+- Les **piliers fins de départ** des lignes de rampes (257) sont indispensables : sans eux, aucune rampe ne se pose.
+- La **colonnade** (226) est en option : sans elle, le bâti est à 5 750.
+- Chaque **rehausse** de la tour ajoute 76 structures. La marge de 2 424 en permet environ 31, bien avant la limite de 70 murs de haut.
 
 ### 2.3 Appuis au sol
 
@@ -63,7 +64,7 @@ Ne comptent pas : le chaume, puisqu'il est démoli, et la plateforme verte, où 
 
 | Plafonds | À 0 case d'un appui au sol | À 1 case | À 2 cases |
 |---|---|---|---|
-| 946 | 489 | 331 | 126 |
+| 946 | 566 | 288 | 92 |
 
 - Mezzanine et plancher de toit : les colonnes PA et PB et la tour du pod les portent du sol au toit, à toute hauteur.
 - Galeries : la tour du pod d'un côté, le fût D5 de l'autre.
@@ -77,14 +78,14 @@ Ne comptent pas : le chaume, puisqu'il est démoli, et la plateforme verte, où 
 |---|---|---|
 | 1 | sol complet | 1 030 |
 | 2 | colonnade (option) | 227 |
-| 3 | bord D8 → D7 | 660 |
+| 3 | bord D8 → D7 | 819 |
 | 4 | D7 → D5 | 808 |
-| 5 | tour du pod | 982 |
-| 6 | D5 → D4 | 1 046 |
+| 5 | tour du pod | 984 |
+| 6 | D5 → D4 | 1 127 |
 | 7 | défense D8 → D4 | 71 |
 | 8 | défense du périmètre du pod | 21 |
-| 9 | toiture pleine D4 → centre (mur A) | 335 |
-| 10 | toit en rampes D4 → centre (mur C) | 467 |
+| 9 | toiture pleine D4 → centre (mur A) | 377 |
+| 10 | toit en rampes D4 → centre (mur C) | 468 |
 | 11 | défense du dessus (mur B) | 11 |
 | option | rehausse de la tour, +1 niveau (mur A) | 76 |
 

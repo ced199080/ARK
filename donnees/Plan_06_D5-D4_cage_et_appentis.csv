@@ -683,365 +683,446 @@ entree;piece;x;y;Z_plan;yaw;theta;rayon;repere
 681;Plafond triangle métal;2311.5;-1334.6;2100.0;150;330.0;2669.1;galerie Z2100 anneau 9
 682;Plafond triangle métal;2461.5;-1074.8;2100.0;150;336.41;2685.9;galerie Z2100 anneau 9
 683;Plafond triangle métal;2611.5;-815.0;2100.0;150;342.67;2735.7;galerie Z2100 anneau 9
-684;Cadre de porte double métal;-2219.1;934.8;2100.0;240.0;157.16;2408.0;bord du trou niv7 θ157.2
-685;Cadre de porte double métal;-2499.0;1009.8;2100.0;270.0;158.0;2695.3;bord du trou niv7 θ158.0
-686;Cadre de porte double métal;-2499.0;-1009.8;2100.0;90.0;202.0;2695.3;bord du trou niv7 θ202.0
-687;Cadre de porte double métal;-2219.1;-934.8;2100.0;120.0;202.84;2408.0;bord du trou niv7 θ202.8
-688;Cadre de porte double métal;2799.0;-600.0;2100.0;0;347.9;2862.6;cage L2 c0 p0
-689;Cadre de porte double métal;2799.0;-300.0;2100.0;0;353.88;2815.1;cage L2 c0 p1
-690;Cadre de porte double métal;2799.0;0.0;2100.0;0;0.0;2799.0;cage L2 c0 p2
-691;Cadre de porte double métal;2799.0;300.0;2100.0;0;6.12;2815.1;cage L2 c0 p3
-692;Cadre de porte double métal;2799.0;600.0;2100.0;0;12.1;2862.6;cage L2 c0 p4
-693;Cadre de porte double métal;2724.0;879.9;2100.0;30;17.9;2862.6;cage L2 c1 p0
-694;Cadre de porte double métal;2574.0;1139.7;2100.0;30;23.88;2815.1;cage L2 c1 p1
-695;Cadre de porte double métal;2424.0;1399.5;2100.0;30;30.0;2799.0;cage L2 c1 p2
-696;Cadre de porte double métal;2274.0;1659.3;2100.0;30;36.12;2815.1;cage L2 c1 p3
-697;Cadre de porte double métal;2124.0;1919.1;2100.0;30;42.1;2862.6;cage L2 c1 p4
-698;Cadre de porte double métal;1919.1;2124.0;2100.0;60;47.9;2862.6;cage L2 c2 p0
-699;Cadre de porte double métal;1659.3;2274.0;2100.0;60;53.88;2815.1;cage L2 c2 p1
-700;Cadre de porte double métal;1399.5;2424.0;2100.0;60;60.0;2799.0;cage L2 c2 p2
-701;Cadre de porte double métal;1139.7;2574.0;2100.0;60;66.12;2815.1;cage L2 c2 p3
-702;Cadre de porte double métal;879.9;2724.0;2100.0;60;72.1;2862.6;cage L2 c2 p4
-703;Cadre de porte double métal;600.0;2799.0;2100.0;90;77.9;2862.6;cage L2 c3 p0
-704;Cadre de porte double métal;300.0;2799.0;2100.0;90;83.88;2815.1;cage L2 c3 p1
-705;Cadre de porte double métal;0.0;2799.0;2100.0;90;90.0;2799.0;cage L2 c3 p2
-706;Cadre de porte double métal;-300.0;2799.0;2100.0;90;96.12;2815.1;cage L2 c3 p3
-707;Cadre de porte double métal;-600.0;2799.0;2100.0;90;102.1;2862.6;cage L2 c3 p4
-708;Cadre de porte double métal;-879.9;2724.0;2100.0;120;107.9;2862.6;cage L2 c4 p0
-709;Cadre de porte double métal;-1139.7;2574.0;2100.0;120;113.88;2815.1;cage L2 c4 p1
-710;Cadre de porte double métal;-1399.5;2424.0;2100.0;120;120.0;2799.0;cage L2 c4 p2
-711;Cadre de porte double métal;-1659.3;2274.0;2100.0;120;126.12;2815.1;cage L2 c4 p3
-712;Cadre de porte double métal;-1919.1;2124.0;2100.0;120;132.1;2862.6;cage L2 c4 p4
-713;Cadre de porte double métal;-2124.0;1919.1;2100.0;150;137.9;2862.6;cage L2 c5 p0
-714;Cadre de porte double métal;-2274.0;1659.3;2100.0;150;143.88;2815.1;cage L2 c5 p1
-715;Cadre de porte double métal;-2424.0;1399.5;2100.0;150;150.0;2799.0;cage L2 c5 p2
-716;Cadre de porte double métal;-2574.0;1139.7;2100.0;150;156.12;2815.1;cage L2 c5 p3
-717;Cadre de porte double métal;-2574.0;-1139.7;2100.0;210;203.88;2815.1;cage L2 c7 p1
-718;Cadre de porte double métal;-2424.0;-1399.5;2100.0;210;210.0;2799.0;cage L2 c7 p2
-719;Cadre de porte double métal;-2274.0;-1659.3;2100.0;210;216.12;2815.1;cage L2 c7 p3
-720;Cadre de porte double métal;-2124.0;-1919.1;2100.0;210;222.1;2862.6;cage L2 c7 p4
-721;Cadre de porte double métal;-1919.1;-2124.0;2100.0;240;227.9;2862.6;cage L2 c8 p0
-722;Cadre de porte double métal;-1659.3;-2274.0;2100.0;240;233.88;2815.1;cage L2 c8 p1
-723;Cadre de porte double métal;-1399.5;-2424.0;2100.0;240;240.0;2799.0;cage L2 c8 p2
-724;Cadre de porte double métal;-1139.7;-2574.0;2100.0;240;246.12;2815.1;cage L2 c8 p3
-725;Cadre de porte double métal;-879.9;-2724.0;2100.0;240;252.1;2862.6;cage L2 c8 p4
-726;Cadre de porte double métal;-600.0;-2799.0;2100.0;270;257.9;2862.6;cage L2 c9 p0
-727;Cadre de porte double métal;-300.0;-2799.0;2100.0;270;263.88;2815.1;cage L2 c9 p1
-728;Cadre de porte double métal;-0.0;-2799.0;2100.0;270;270.0;2799.0;cage L2 c9 p2
-729;Cadre de porte double métal;300.0;-2799.0;2100.0;270;276.12;2815.1;cage L2 c9 p3
-730;Cadre de porte double métal;600.0;-2799.0;2100.0;270;282.1;2862.6;cage L2 c9 p4
-731;Cadre de porte double métal;879.9;-2724.0;2100.0;300;287.9;2862.6;cage L2 c10 p0
-732;Cadre de porte double métal;1139.7;-2574.0;2100.0;300;293.88;2815.1;cage L2 c10 p1
-733;Cadre de porte double métal;1399.5;-2424.0;2100.0;300;300.0;2799.0;cage L2 c10 p2
-734;Cadre de porte double métal;1659.3;-2274.0;2100.0;300;306.12;2815.1;cage L2 c10 p3
-735;Cadre de porte double métal;1919.1;-2124.0;2100.0;300;312.1;2862.6;cage L2 c10 p4
-736;Cadre de porte double métal;2124.0;-1919.1;2100.0;330;317.9;2862.6;cage L2 c11 p0
-737;Cadre de porte double métal;2274.0;-1659.3;2100.0;330;323.88;2815.1;cage L2 c11 p1
-738;Cadre de porte double métal;2424.0;-1399.5;2100.0;330;330.0;2799.0;cage L2 c11 p2
-739;Cadre de porte double métal;2574.0;-1139.7;2100.0;330;336.12;2815.1;cage L2 c11 p3
-740;Cadre de porte double métal;2724.0;-879.9;2100.0;330;342.1;2862.6;cage L2 c11 p4
-741;Plafond triangle métal;2369.1;-450.0;2400.0;0;349.25;2411.5;galerie Z2400 anneau 8
-742;Plafond triangle métal;2369.1;-150.0;2400.0;0;356.38;2373.9;galerie Z2400 anneau 8
-743;Plafond triangle métal;2369.1;150.0;2400.0;0;3.62;2373.9;galerie Z2400 anneau 8
-744;Plafond triangle métal;2369.1;450.0;2400.0;0;10.75;2411.5;galerie Z2400 anneau 8
-745;Plafond triangle métal;2369.1;-600.0;2400.0;180;345.79;2443.9;galerie Z2400 anneau 8
-746;Plafond triangle métal;2369.1;-300.0;2400.0;180;352.78;2388.1;galerie Z2400 anneau 8
-747;Plafond triangle métal;2369.1;0.0;2400.0;180;0.0;2369.1;galerie Z2400 anneau 8
-748;Plafond triangle métal;2369.1;300.0;2400.0;180;7.22;2388.1;galerie Z2400 anneau 8
-749;Plafond triangle métal;2369.1;600.0;2400.0;180;14.21;2443.9;galerie Z2400 anneau 8
-750;Plafond métal;2294.1;804.9;2400.0;30;19.33;2431.2;galerie Z2400 anneau 8
-751;Plafond métal;2144.1;1064.7;2400.0;30;26.41;2393.9;galerie Z2400 anneau 8
-752;Plafond métal;1994.1;1324.5;2400.0;30;33.59;2393.9;galerie Z2400 anneau 8
-753;Plafond métal;1844.1;1584.3;2400.0;30;40.67;2431.2;galerie Z2400 anneau 8
-754;Plafond triangle métal;1574.3;1826.7;2400.0;60;49.25;2411.5;galerie Z2400 anneau 8
-755;Plafond triangle métal;1314.5;1976.7;2400.0;60;56.38;2373.9;galerie Z2400 anneau 8
-756;Plafond triangle métal;1054.7;2126.7;2400.0;60;63.62;2373.9;galerie Z2400 anneau 8
-757;Plafond triangle métal;794.9;2276.7;2400.0;60;70.75;2411.5;galerie Z2400 anneau 8
-758;Plafond triangle métal;1704.2;1751.7;2400.0;240;45.79;2443.9;galerie Z2400 anneau 8
-759;Plafond triangle métal;1444.4;1901.7;2400.0;240;52.78;2388.1;galerie Z2400 anneau 8
-760;Plafond triangle métal;1184.6;2051.7;2400.0;240;60.0;2369.1;galerie Z2400 anneau 8
-761;Plafond triangle métal;924.8;2201.7;2400.0;240;67.22;2388.1;galerie Z2400 anneau 8
-762;Plafond triangle métal;665.0;2351.7;2400.0;240;74.21;2443.9;galerie Z2400 anneau 8
-763;Plafond métal;450.0;2389.2;2400.0;90;79.33;2431.2;galerie Z2400 anneau 8
-764;Plafond métal;150.0;2389.2;2400.0;90;86.41;2393.9;galerie Z2400 anneau 8
-765;Plafond métal;-150.0;2389.2;2400.0;90;93.59;2393.9;galerie Z2400 anneau 8
-766;Plafond métal;-450.0;2389.2;2400.0;90;100.67;2431.2;galerie Z2400 anneau 8
-767;Plafond triangle métal;-794.9;2276.7;2400.0;120;109.25;2411.5;galerie Z2400 anneau 8
-768;Plafond triangle métal;-1054.7;2126.7;2400.0;120;116.38;2373.9;galerie Z2400 anneau 8
-769;Plafond triangle métal;-1314.5;1976.7;2400.0;120;123.62;2373.9;galerie Z2400 anneau 8
-770;Plafond triangle métal;-1574.3;1826.7;2400.0;120;130.75;2411.5;galerie Z2400 anneau 8
-771;Plafond triangle métal;-665.0;2351.7;2400.0;300;105.79;2443.9;galerie Z2400 anneau 8
-772;Plafond triangle métal;-924.8;2201.7;2400.0;300;112.78;2388.1;galerie Z2400 anneau 8
-773;Plafond triangle métal;-1184.6;2051.7;2400.0;300;120.0;2369.1;galerie Z2400 anneau 8
-774;Plafond triangle métal;-1444.4;1901.7;2400.0;300;127.22;2388.1;galerie Z2400 anneau 8
-775;Plafond triangle métal;-1704.2;1751.7;2400.0;300;134.21;2443.9;galerie Z2400 anneau 8
-776;Plafond métal;-1844.1;1584.3;2400.0;150;139.33;2431.2;galerie Z2400 anneau 8
-777;Plafond métal;-1994.1;1324.5;2400.0;150;146.41;2393.9;galerie Z2400 anneau 8
-778;Plafond métal;-2144.1;1064.7;2400.0;150;153.59;2393.9;galerie Z2400 anneau 8
-779;Rampe inclinée métal (Sloped Railing);-2294.1;804.9;2100.0;150.0;160.67;2431.2;casquette du trou θ157.2
-780;Plafond métal;-2144.1;-1064.7;2400.0;210;206.41;2393.9;galerie Z2400 anneau 8
-781;Rampe inclinée métal (Sloped Railing);-2294.1;-804.9;2100.0;30.0;199.33;2431.2;casquette du trou θ202.8
-782;Plafond métal;-1994.1;-1324.5;2400.0;210;213.59;2393.9;galerie Z2400 anneau 8
-783;Plafond métal;-1844.1;-1584.3;2400.0;210;220.67;2431.2;galerie Z2400 anneau 8
-784;Plafond triangle métal;-1574.3;-1826.7;2400.0;240;229.25;2411.5;galerie Z2400 anneau 8
-785;Plafond triangle métal;-1314.5;-1976.7;2400.0;240;236.38;2373.9;galerie Z2400 anneau 8
-786;Plafond triangle métal;-1054.7;-2126.7;2400.0;240;243.62;2373.9;galerie Z2400 anneau 8
-787;Plafond triangle métal;-794.9;-2276.7;2400.0;240;250.75;2411.5;galerie Z2400 anneau 8
-788;Plafond triangle métal;-1704.2;-1751.7;2400.0;60;225.79;2443.9;galerie Z2400 anneau 8
-789;Plafond triangle métal;-1444.4;-1901.7;2400.0;60;232.78;2388.1;galerie Z2400 anneau 8
-790;Plafond triangle métal;-1184.6;-2051.7;2400.0;60;240.0;2369.1;galerie Z2400 anneau 8
-791;Plafond triangle métal;-924.8;-2201.7;2400.0;60;247.22;2388.1;galerie Z2400 anneau 8
-792;Plafond triangle métal;-665.0;-2351.7;2400.0;60;254.21;2443.9;galerie Z2400 anneau 8
-793;Plafond métal;-450.0;-2389.2;2400.0;270;259.33;2431.2;galerie Z2400 anneau 8
-794;Plafond métal;-150.0;-2389.2;2400.0;270;266.41;2393.9;galerie Z2400 anneau 8
-795;Plafond métal;150.0;-2389.2;2400.0;270;273.59;2393.9;galerie Z2400 anneau 8
-796;Plafond métal;450.0;-2389.2;2400.0;270;280.67;2431.2;galerie Z2400 anneau 8
-797;Plafond triangle métal;794.9;-2276.7;2400.0;300;289.25;2411.5;galerie Z2400 anneau 8
-798;Plafond triangle métal;1054.7;-2126.7;2400.0;300;296.38;2373.9;galerie Z2400 anneau 8
-799;Plafond triangle métal;1314.5;-1976.7;2400.0;300;303.62;2373.9;galerie Z2400 anneau 8
-800;Plafond triangle métal;1574.3;-1826.7;2400.0;300;310.75;2411.5;galerie Z2400 anneau 8
-801;Plafond triangle métal;665.0;-2351.7;2400.0;120;285.79;2443.9;galerie Z2400 anneau 8
-802;Plafond triangle métal;924.8;-2201.7;2400.0;120;292.78;2388.1;galerie Z2400 anneau 8
-803;Plafond triangle métal;1184.6;-2051.7;2400.0;120;300.0;2369.1;galerie Z2400 anneau 8
-804;Plafond triangle métal;1444.4;-1901.7;2400.0;120;307.22;2388.1;galerie Z2400 anneau 8
-805;Plafond triangle métal;1704.2;-1751.7;2400.0;120;314.21;2443.9;galerie Z2400 anneau 8
-806;Plafond métal;1844.1;-1584.3;2400.0;330;319.33;2431.2;galerie Z2400 anneau 8
-807;Plafond métal;1994.1;-1324.5;2400.0;330;326.41;2393.9;galerie Z2400 anneau 8
-808;Plafond métal;2144.1;-1064.7;2400.0;330;333.59;2393.9;galerie Z2400 anneau 8
-809;Plafond métal;2294.1;-804.9;2400.0;330;340.67;2431.2;galerie Z2400 anneau 8
-810;Plafond métal;2649.0;-600.0;2400.0;0;347.24;2716.1;galerie Z2400 anneau 9
-811;Rampe inclinée métal (Sloped Railing);2949.0;-600.0;2100.0;270;348.5;3009.5;casquette r-1 c0 t-600
-812;Plafond métal;2649.0;-300.0;2400.0;0;353.54;2666.0;galerie Z2400 anneau 9
-813;Rampe inclinée métal (Sloped Railing);2949.0;-300.0;2100.0;270;354.19;2964.3;casquette r-1 c0 t-300
-814;Plafond métal;2649.0;0.0;2400.0;0;0.0;2649.0;galerie Z2400 anneau 9
-815;Rampe inclinée métal (Sloped Railing);2949.0;0.0;2100.0;270;0.0;2949.0;casquette r-1 c0 t-0
-816;Plafond métal;2649.0;300.0;2400.0;0;6.46;2666.0;galerie Z2400 anneau 9
-817;Rampe inclinée métal (Sloped Railing);2949.0;300.0;2100.0;270;5.81;2964.3;casquette r-1 c0 t+300
-818;Plafond métal;2649.0;600.0;2400.0;0;12.76;2716.1;galerie Z2400 anneau 9
-819;Rampe inclinée métal (Sloped Railing);2949.0;600.0;2100.0;270;11.5;3009.5;casquette r-1 c0 t+600
-820;Plafond triangle métal;2536.5;944.9;2400.0;30;20.43;2706.8;galerie Z2400 anneau 9
-821;Plafond triangle métal;2386.5;1204.7;2400.0;30;26.78;2673.3;galerie Z2400 anneau 9
-822;Plafond triangle métal;2236.5;1464.5;2400.0;30;33.22;2673.3;galerie Z2400 anneau 9
-823;Plafond triangle métal;2086.5;1724.3;2400.0;30;39.57;2706.8;galerie Z2400 anneau 9
-824;Plafond triangle métal;2611.5;815.0;2400.0;210;17.33;2735.7;galerie Z2400 anneau 9
-825;Rampe inclinée métal (Sloped Railing);2853.9;954.9;2100.0;300;18.5;3009.5;casquette r-1 c1 t-600
-826;Plafond triangle métal;2461.5;1074.8;2400.0;210;23.59;2685.9;galerie Z2400 anneau 9
-827;Rampe inclinée métal (Sloped Railing);2703.9;1214.7;2100.0;300;24.19;2964.3;casquette r-1 c1 t-300
-828;Plafond triangle métal;2311.5;1334.6;2400.0;210;30.0;2669.1;galerie Z2400 anneau 9
-829;Rampe inclinée métal (Sloped Railing);2553.9;1474.5;2100.0;300;30.0;2949.0;casquette r-1 c1 t-0
-830;Plafond triangle métal;2161.5;1594.4;2400.0;210;36.41;2685.9;galerie Z2400 anneau 9
-831;Rampe inclinée métal (Sloped Railing);2403.9;1734.3;2100.0;300;35.81;2964.3;casquette r-1 c1 t+300
-832;Plafond triangle métal;2011.5;1854.2;2400.0;210;42.67;2735.7;galerie Z2400 anneau 9
-833;Rampe inclinée métal (Sloped Railing);2253.9;1994.1;2100.0;300;41.5;3009.5;casquette r-1 c1 t+600
-834;Plafond métal;1844.1;1994.1;2400.0;60;47.24;2716.1;galerie Z2400 anneau 9
-835;Rampe inclinée métal (Sloped Railing);1994.1;2253.9;2100.0;330;48.5;3009.5;casquette r-1 c2 t-600
-836;Plafond métal;1584.3;2144.1;2400.0;60;53.54;2666.0;galerie Z2400 anneau 9
-837;Rampe inclinée métal (Sloped Railing);1734.3;2403.9;2100.0;330;54.19;2964.3;casquette r-1 c2 t-300
-838;Plafond métal;1324.5;2294.1;2400.0;60;60.0;2649.0;galerie Z2400 anneau 9
-839;Rampe inclinée métal (Sloped Railing);1474.5;2553.9;2100.0;330;60.0;2949.0;casquette r-1 c2 t-0
-840;Plafond métal;1064.7;2444.1;2400.0;60;66.46;2666.0;galerie Z2400 anneau 9
-841;Rampe inclinée métal (Sloped Railing);1214.7;2703.9;2100.0;330;65.81;2964.3;casquette r-1 c2 t+300
-842;Plafond métal;804.9;2594.1;2400.0;60;72.76;2716.1;galerie Z2400 anneau 9
-843;Rampe inclinée métal (Sloped Railing);954.9;2853.9;2100.0;330;71.5;3009.5;casquette r-1 c2 t+600
-844;Plafond triangle métal;450.0;2669.1;2400.0;90;80.43;2706.8;galerie Z2400 anneau 9
-845;Plafond triangle métal;150.0;2669.1;2400.0;90;86.78;2673.3;galerie Z2400 anneau 9
-846;Plafond triangle métal;-150.0;2669.1;2400.0;90;93.22;2673.3;galerie Z2400 anneau 9
-847;Plafond triangle métal;-450.0;2669.1;2400.0;90;99.57;2706.8;galerie Z2400 anneau 9
-848;Plafond triangle métal;600.0;2669.1;2400.0;270;77.33;2735.7;galerie Z2400 anneau 9
-849;Rampe inclinée métal (Sloped Railing);600.0;2949.0;2100.0;0;78.5;3009.5;casquette r-1 c3 t-600
-850;Plafond triangle métal;300.0;2669.1;2400.0;270;83.59;2685.9;galerie Z2400 anneau 9
-851;Rampe inclinée métal (Sloped Railing);300.0;2949.0;2100.0;0;84.19;2964.3;casquette r-1 c3 t-300
-852;Plafond triangle métal;0.0;2669.1;2400.0;270;90.0;2669.1;galerie Z2400 anneau 9
-853;Rampe inclinée métal (Sloped Railing);0.0;2949.0;2100.0;0;90.0;2949.0;casquette r-1 c3 t-0
-854;Plafond triangle métal;-300.0;2669.1;2400.0;270;96.41;2685.9;galerie Z2400 anneau 9
-855;Rampe inclinée métal (Sloped Railing);-300.0;2949.0;2100.0;0;95.81;2964.3;casquette r-1 c3 t+300
-856;Plafond triangle métal;-600.0;2669.1;2400.0;270;102.67;2735.7;galerie Z2400 anneau 9
-857;Rampe inclinée métal (Sloped Railing);-600.0;2949.0;2100.0;0;101.5;3009.5;casquette r-1 c3 t+600
-858;Plafond métal;-804.9;2594.1;2400.0;120;107.24;2716.1;galerie Z2400 anneau 9
-859;Rampe inclinée métal (Sloped Railing);-954.9;2853.9;2100.0;30;108.5;3009.5;casquette r-1 c4 t-600
-860;Plafond métal;-1064.7;2444.1;2400.0;120;113.54;2666.0;galerie Z2400 anneau 9
-861;Rampe inclinée métal (Sloped Railing);-1214.7;2703.9;2100.0;30;114.19;2964.3;casquette r-1 c4 t-300
-862;Plafond métal;-1324.5;2294.1;2400.0;120;120.0;2649.0;galerie Z2400 anneau 9
-863;Rampe inclinée métal (Sloped Railing);-1474.5;2553.9;2100.0;30;120.0;2949.0;casquette r-1 c4 t-0
-864;Plafond métal;-1584.3;2144.1;2400.0;120;126.46;2666.0;galerie Z2400 anneau 9
-865;Rampe inclinée métal (Sloped Railing);-1734.3;2403.9;2100.0;30;125.81;2964.3;casquette r-1 c4 t+300
-866;Plafond métal;-1844.1;1994.1;2400.0;120;132.76;2716.1;galerie Z2400 anneau 9
-867;Rampe inclinée métal (Sloped Railing);-1994.1;2253.9;2100.0;30;131.5;3009.5;casquette r-1 c4 t+600
-868;Plafond triangle métal;-2086.5;1724.3;2400.0;150;140.43;2706.8;galerie Z2400 anneau 9
-869;Plafond triangle métal;-2236.5;1464.5;2400.0;150;146.78;2673.3;galerie Z2400 anneau 9
-870;Plafond triangle métal;-2386.5;1204.7;2400.0;150;153.22;2673.3;galerie Z2400 anneau 9
-871;Plafond triangle métal;-2011.5;1854.2;2400.0;330;137.33;2735.7;galerie Z2400 anneau 9
-872;Rampe inclinée métal (Sloped Railing);-2253.9;1994.1;2100.0;60;138.5;3009.5;casquette r-1 c5 t-600
-873;Plafond triangle métal;-2161.5;1594.4;2400.0;330;143.59;2685.9;galerie Z2400 anneau 9
-874;Rampe inclinée métal (Sloped Railing);-2403.9;1734.3;2100.0;60;144.19;2964.3;casquette r-1 c5 t-300
-875;Plafond triangle métal;-2311.5;1334.6;2400.0;330;150.0;2669.1;galerie Z2400 anneau 9
-876;Rampe inclinée métal (Sloped Railing);-2553.9;1474.5;2100.0;60;150.0;2949.0;casquette r-1 c5 t-0
-877;Plafond triangle métal;-2461.5;1074.8;2400.0;330;156.41;2685.9;galerie Z2400 anneau 9
-878;Rampe inclinée métal (Sloped Railing);-2703.9;1214.7;2100.0;60;155.81;2964.3;casquette r-1 c5 t+300
-879;Rampe inclinée métal (Sloped Railing);-2499.0;859.8;2100.0;180.0;161.01;2642.8;casquette du trou θ158.0
-880;Plafond triangle métal;-2386.5;-1204.7;2400.0;210;206.78;2673.3;galerie Z2400 anneau 9
-881;Plafond triangle métal;-2236.5;-1464.5;2400.0;210;213.22;2673.3;galerie Z2400 anneau 9
-882;Plafond triangle métal;-2086.5;-1724.3;2400.0;210;219.57;2706.8;galerie Z2400 anneau 9
-883;Plafond triangle métal;-2461.5;-1074.8;2400.0;30;203.59;2685.9;galerie Z2400 anneau 9
-884;Rampe inclinée métal (Sloped Railing);-2703.9;-1214.7;2100.0;120;204.19;2964.3;casquette r-1 c7 t-300
-885;Rampe inclinée métal (Sloped Railing);-2499.0;-859.8;2100.0;0.0;198.99;2642.8;casquette du trou θ202.0
-886;Plafond triangle métal;-2311.5;-1334.6;2400.0;30;210.0;2669.1;galerie Z2400 anneau 9
-887;Rampe inclinée métal (Sloped Railing);-2553.9;-1474.5;2100.0;120;210.0;2949.0;casquette r-1 c7 t-0
-888;Plafond triangle métal;-2161.5;-1594.4;2400.0;30;216.41;2685.9;galerie Z2400 anneau 9
-889;Rampe inclinée métal (Sloped Railing);-2403.9;-1734.3;2100.0;120;215.81;2964.3;casquette r-1 c7 t+300
-890;Plafond triangle métal;-2011.5;-1854.2;2400.0;30;222.67;2735.7;galerie Z2400 anneau 9
-891;Rampe inclinée métal (Sloped Railing);-2253.9;-1994.1;2100.0;120;221.5;3009.5;casquette r-1 c7 t+600
-892;Plafond métal;-1844.1;-1994.1;2400.0;240;227.24;2716.1;galerie Z2400 anneau 9
-893;Rampe inclinée métal (Sloped Railing);-1994.1;-2253.9;2100.0;150;228.5;3009.5;casquette r-1 c8 t-600
-894;Plafond métal;-1584.3;-2144.1;2400.0;240;233.54;2666.0;galerie Z2400 anneau 9
-895;Rampe inclinée métal (Sloped Railing);-1734.3;-2403.9;2100.0;150;234.19;2964.3;casquette r-1 c8 t-300
-896;Plafond métal;-1324.5;-2294.1;2400.0;240;240.0;2649.0;galerie Z2400 anneau 9
-897;Rampe inclinée métal (Sloped Railing);-1474.5;-2553.9;2100.0;150;240.0;2949.0;casquette r-1 c8 t-0
-898;Plafond métal;-1064.7;-2444.1;2400.0;240;246.46;2666.0;galerie Z2400 anneau 9
-899;Rampe inclinée métal (Sloped Railing);-1214.7;-2703.9;2100.0;150;245.81;2964.3;casquette r-1 c8 t+300
-900;Plafond métal;-804.9;-2594.1;2400.0;240;252.76;2716.1;galerie Z2400 anneau 9
-901;Rampe inclinée métal (Sloped Railing);-954.9;-2853.9;2100.0;150;251.5;3009.5;casquette r-1 c8 t+600
-902;Plafond triangle métal;-450.0;-2669.1;2400.0;270;260.43;2706.8;galerie Z2400 anneau 9
-903;Plafond triangle métal;-150.0;-2669.1;2400.0;270;266.78;2673.3;galerie Z2400 anneau 9
-904;Plafond triangle métal;150.0;-2669.1;2400.0;270;273.22;2673.3;galerie Z2400 anneau 9
-905;Plafond triangle métal;450.0;-2669.1;2400.0;270;279.57;2706.8;galerie Z2400 anneau 9
-906;Plafond triangle métal;-600.0;-2669.1;2400.0;90;257.33;2735.7;galerie Z2400 anneau 9
-907;Rampe inclinée métal (Sloped Railing);-600.0;-2949.0;2100.0;180;258.5;3009.5;casquette r-1 c9 t-600
-908;Plafond triangle métal;-300.0;-2669.1;2400.0;90;263.59;2685.9;galerie Z2400 anneau 9
-909;Rampe inclinée métal (Sloped Railing);-300.0;-2949.0;2100.0;180;264.19;2964.3;casquette r-1 c9 t-300
-910;Plafond triangle métal;-0.0;-2669.1;2400.0;90;270.0;2669.1;galerie Z2400 anneau 9
-911;Rampe inclinée métal (Sloped Railing);-0.0;-2949.0;2100.0;180;270.0;2949.0;casquette r-1 c9 t-0
-912;Plafond triangle métal;300.0;-2669.1;2400.0;90;276.41;2685.9;galerie Z2400 anneau 9
-913;Rampe inclinée métal (Sloped Railing);300.0;-2949.0;2100.0;180;275.81;2964.3;casquette r-1 c9 t+300
-914;Plafond triangle métal;600.0;-2669.1;2400.0;90;282.67;2735.7;galerie Z2400 anneau 9
-915;Rampe inclinée métal (Sloped Railing);600.0;-2949.0;2100.0;180;281.5;3009.5;casquette r-1 c9 t+600
-916;Plafond métal;804.9;-2594.1;2400.0;300;287.24;2716.1;galerie Z2400 anneau 9
-917;Rampe inclinée métal (Sloped Railing);954.9;-2853.9;2100.0;210;288.5;3009.5;casquette r-1 c10 t-600
-918;Plafond métal;1064.7;-2444.1;2400.0;300;293.54;2666.0;galerie Z2400 anneau 9
-919;Rampe inclinée métal (Sloped Railing);1214.7;-2703.9;2100.0;210;294.19;2964.3;casquette r-1 c10 t-300
-920;Plafond métal;1324.5;-2294.1;2400.0;300;300.0;2649.0;galerie Z2400 anneau 9
-921;Rampe inclinée métal (Sloped Railing);1474.5;-2553.9;2100.0;210;300.0;2949.0;casquette r-1 c10 t-0
-922;Plafond métal;1584.3;-2144.1;2400.0;300;306.46;2666.0;galerie Z2400 anneau 9
-923;Rampe inclinée métal (Sloped Railing);1734.3;-2403.9;2100.0;210;305.81;2964.3;casquette r-1 c10 t+300
-924;Plafond métal;1844.1;-1994.1;2400.0;300;312.76;2716.1;galerie Z2400 anneau 9
-925;Rampe inclinée métal (Sloped Railing);1994.1;-2253.9;2100.0;210;311.5;3009.5;casquette r-1 c10 t+600
-926;Plafond triangle métal;2086.5;-1724.3;2400.0;330;320.43;2706.8;galerie Z2400 anneau 9
-927;Plafond triangle métal;2236.5;-1464.5;2400.0;330;326.78;2673.3;galerie Z2400 anneau 9
-928;Plafond triangle métal;2386.5;-1204.7;2400.0;330;333.22;2673.3;galerie Z2400 anneau 9
-929;Plafond triangle métal;2536.5;-944.9;2400.0;330;339.57;2706.8;galerie Z2400 anneau 9
-930;Plafond triangle métal;2011.5;-1854.2;2400.0;150;317.33;2735.7;galerie Z2400 anneau 9
-931;Rampe inclinée métal (Sloped Railing);2253.9;-1994.1;2100.0;240;318.5;3009.5;casquette r-1 c11 t-600
-932;Plafond triangle métal;2161.5;-1594.4;2400.0;150;323.59;2685.9;galerie Z2400 anneau 9
-933;Rampe inclinée métal (Sloped Railing);2403.9;-1734.3;2100.0;240;324.19;2964.3;casquette r-1 c11 t-300
-934;Plafond triangle métal;2311.5;-1334.6;2400.0;150;330.0;2669.1;galerie Z2400 anneau 9
-935;Rampe inclinée métal (Sloped Railing);2553.9;-1474.5;2100.0;240;330.0;2949.0;casquette r-1 c11 t-0
-936;Plafond triangle métal;2461.5;-1074.8;2400.0;150;336.41;2685.9;galerie Z2400 anneau 9
-937;Rampe inclinée métal (Sloped Railing);2703.9;-1214.7;2100.0;240;335.81;2964.3;casquette r-1 c11 t+300
-938;Plafond triangle métal;2611.5;-815.0;2400.0;150;342.67;2735.7;galerie Z2400 anneau 9
-939;Rampe inclinée métal (Sloped Railing);2853.9;-954.9;2100.0;240;341.5;3009.5;casquette r-1 c11 t+600
-940;Pilier fin métal (Thin Pillar);2499.0;-600.0;2400.0;0;346.5;2570.1;appui appentis c0 t-600 : poteau
-941;Pilier fin métal (Thin Pillar);2499.0;-300.0;2400.0;0;353.15;2517.0;appui appentis c0 t-300 : poteau
-942;Pilier fin métal (Thin Pillar);2499.0;0.0;2400.0;0;0.0;2499.0;appui appentis c0 t-0 : poteau
-943;Pilier fin métal (Thin Pillar);2499.0;300.0;2400.0;0;6.85;2517.0;appui appentis c0 t+300 : poteau
-944;Pilier fin métal (Thin Pillar);2499.0;600.0;2400.0;0;13.5;2570.1;appui appentis c0 t+600 : poteau
-945;Pilier fin métal (Thin Pillar);2464.2;729.9;2400.0;30;16.5;2570.1;appui appentis c1 t-600 : poteau
-946;Pilier fin métal (Thin Pillar);2314.2;989.7;2400.0;30;23.15;2517.0;appui appentis c1 t-300 : poteau
-947;Pilier fin métal (Thin Pillar);2164.2;1249.5;2400.0;30;30.0;2499.0;appui appentis c1 t-0 : poteau
-948;Pilier fin métal (Thin Pillar);2014.2;1509.3;2400.0;30;36.85;2517.0;appui appentis c1 t+300 : poteau
-949;Pilier fin métal (Thin Pillar);1864.2;1769.1;2400.0;30;43.5;2570.1;appui appentis c1 t+600 : poteau
-950;Pilier fin métal (Thin Pillar);1769.1;1864.2;2400.0;60;46.5;2570.1;appui appentis c2 t-600 : poteau
-951;Pilier fin métal (Thin Pillar);1509.3;2014.2;2400.0;60;53.15;2517.0;appui appentis c2 t-300 : poteau
-952;Pilier fin métal (Thin Pillar);1249.5;2164.2;2400.0;60;60.0;2499.0;appui appentis c2 t-0 : poteau
-953;Pilier fin métal (Thin Pillar);989.7;2314.2;2400.0;60;66.85;2517.0;appui appentis c2 t+300 : poteau
-954;Pilier fin métal (Thin Pillar);729.9;2464.2;2400.0;60;73.5;2570.1;appui appentis c2 t+600 : poteau
-955;Pilier fin métal (Thin Pillar);600.0;2499.0;2400.0;90;76.5;2570.1;appui appentis c3 t-600 : poteau
-956;Pilier fin métal (Thin Pillar);300.0;2499.0;2400.0;90;83.15;2517.0;appui appentis c3 t-300 : poteau
-957;Pilier fin métal (Thin Pillar);-0.0;2499.0;2400.0;90;90.0;2499.0;appui appentis c3 t-0 : poteau
-958;Pilier fin métal (Thin Pillar);-300.0;2499.0;2400.0;90;96.85;2517.0;appui appentis c3 t+300 : poteau
-959;Pilier fin métal (Thin Pillar);-600.0;2499.0;2400.0;90;103.5;2570.1;appui appentis c3 t+600 : poteau
-960;Pilier fin métal (Thin Pillar);-729.9;2464.2;2400.0;120;106.5;2570.1;appui appentis c4 t-600 : poteau
-961;Pilier fin métal (Thin Pillar);-989.7;2314.2;2400.0;120;113.15;2517.0;appui appentis c4 t-300 : poteau
-962;Pilier fin métal (Thin Pillar);-1249.5;2164.2;2400.0;120;120.0;2499.0;appui appentis c4 t-0 : poteau
-963;Pilier fin métal (Thin Pillar);-1509.3;2014.2;2400.0;120;126.85;2517.0;appui appentis c4 t+300 : poteau
-964;Pilier fin métal (Thin Pillar);-1769.1;1864.2;2400.0;120;133.5;2570.1;appui appentis c4 t+600 : poteau
-965;Pilier fin métal (Thin Pillar);-1864.2;1769.1;2400.0;150;136.5;2570.1;appui appentis c5 t-600 : poteau
-966;Pilier fin métal (Thin Pillar);-2014.2;1509.3;2400.0;150;143.15;2517.0;appui appentis c5 t-300 : poteau
-967;Pilier fin métal (Thin Pillar);-2164.2;1249.5;2400.0;150;150.0;2499.0;appui appentis c5 t-0 : poteau
-968;Pilier fin métal (Thin Pillar);-2314.2;989.7;2400.0;150;156.85;2517.0;appui appentis c5 t+300 : poteau
-969;Pilier fin métal (Thin Pillar);-2314.2;-989.7;2400.0;210;203.15;2517.0;appui appentis c7 t-300 : poteau
-970;Pilier fin métal (Thin Pillar);-2164.2;-1249.5;2400.0;210;210.0;2499.0;appui appentis c7 t-0 : poteau
-971;Pilier fin métal (Thin Pillar);-2014.2;-1509.3;2400.0;210;216.85;2517.0;appui appentis c7 t+300 : poteau
-972;Pilier fin métal (Thin Pillar);-1864.2;-1769.1;2400.0;210;223.5;2570.1;appui appentis c7 t+600 : poteau
-973;Pilier fin métal (Thin Pillar);-1769.1;-1864.2;2400.0;240;226.5;2570.1;appui appentis c8 t-600 : poteau
-974;Pilier fin métal (Thin Pillar);-1509.3;-2014.2;2400.0;240;233.15;2517.0;appui appentis c8 t-300 : poteau
-975;Pilier fin métal (Thin Pillar);-1249.5;-2164.2;2400.0;240;240.0;2499.0;appui appentis c8 t-0 : poteau
-976;Pilier fin métal (Thin Pillar);-989.7;-2314.2;2400.0;240;246.85;2517.0;appui appentis c8 t+300 : poteau
-977;Pilier fin métal (Thin Pillar);-729.9;-2464.2;2400.0;240;253.5;2570.1;appui appentis c8 t+600 : poteau
-978;Pilier fin métal (Thin Pillar);-600.0;-2499.0;2400.0;270;256.5;2570.1;appui appentis c9 t-600 : poteau
-979;Pilier fin métal (Thin Pillar);-300.0;-2499.0;2400.0;270;263.15;2517.0;appui appentis c9 t-300 : poteau
-980;Pilier fin métal (Thin Pillar);-0.0;-2499.0;2400.0;270;270.0;2499.0;appui appentis c9 t-0 : poteau
-981;Pilier fin métal (Thin Pillar);300.0;-2499.0;2400.0;270;276.85;2517.0;appui appentis c9 t+300 : poteau
-982;Pilier fin métal (Thin Pillar);600.0;-2499.0;2400.0;270;283.5;2570.1;appui appentis c9 t+600 : poteau
-983;Pilier fin métal (Thin Pillar);729.9;-2464.2;2400.0;300;286.5;2570.1;appui appentis c10 t-600 : poteau
-984;Pilier fin métal (Thin Pillar);989.7;-2314.2;2400.0;300;293.15;2517.0;appui appentis c10 t-300 : poteau
-985;Pilier fin métal (Thin Pillar);1249.5;-2164.2;2400.0;300;300.0;2499.0;appui appentis c10 t-0 : poteau
-986;Pilier fin métal (Thin Pillar);1509.3;-2014.2;2400.0;300;306.85;2517.0;appui appentis c10 t+300 : poteau
-987;Pilier fin métal (Thin Pillar);1769.1;-1864.2;2400.0;300;313.5;2570.1;appui appentis c10 t+600 : poteau
-988;Pilier fin métal (Thin Pillar);1864.2;-1769.1;2400.0;330;316.5;2570.1;appui appentis c11 t-600 : poteau
-989;Pilier fin métal (Thin Pillar);2014.2;-1509.3;2400.0;330;323.15;2517.0;appui appentis c11 t-300 : poteau
-990;Pilier fin métal (Thin Pillar);2164.2;-1249.5;2400.0;330;330.0;2499.0;appui appentis c11 t-0 : poteau
-991;Pilier fin métal (Thin Pillar);2314.2;-989.7;2400.0;330;336.85;2517.0;appui appentis c11 t+300 : poteau
-992;Pilier fin métal (Thin Pillar);2464.2;-729.9;2400.0;330;343.5;2570.1;appui appentis c11 t+600 : poteau
-993;Rampe inclinée métal (Sloped Railing);2649.0;-600.0;2400.0;270;347.24;2716.1;appentis r0 c0 t-600
-994;Rampe inclinée métal (Sloped Railing);2649.0;-300.0;2400.0;270;353.54;2666.0;appentis r0 c0 t-300
-995;Rampe inclinée métal (Sloped Railing);2649.0;0.0;2400.0;270;0.0;2649.0;appentis r0 c0 t-0
-996;Rampe inclinée métal (Sloped Railing);2649.0;300.0;2400.0;270;6.46;2666.0;appentis r0 c0 t+300
-997;Rampe inclinée métal (Sloped Railing);2649.0;600.0;2400.0;270;12.76;2716.1;appentis r0 c0 t+600
-998;Rampe inclinée métal (Sloped Railing);2594.1;804.9;2400.0;300;17.24;2716.1;appentis r0 c1 t-600
-999;Rampe inclinée métal (Sloped Railing);2444.1;1064.7;2400.0;300;23.54;2666.0;appentis r0 c1 t-300
-1000;Rampe inclinée métal (Sloped Railing);2294.1;1324.5;2400.0;300;30.0;2649.0;appentis r0 c1 t-0
-1001;Rampe inclinée métal (Sloped Railing);2144.1;1584.3;2400.0;300;36.46;2666.0;appentis r0 c1 t+300
-1002;Rampe inclinée métal (Sloped Railing);1994.1;1844.1;2400.0;300;42.76;2716.1;appentis r0 c1 t+600
-1003;Rampe inclinée métal (Sloped Railing);1844.1;1994.1;2400.0;330;47.24;2716.1;appentis r0 c2 t-600
-1004;Rampe inclinée métal (Sloped Railing);1584.3;2144.1;2400.0;330;53.54;2666.0;appentis r0 c2 t-300
-1005;Rampe inclinée métal (Sloped Railing);1324.5;2294.1;2400.0;330;60.0;2649.0;appentis r0 c2 t-0
-1006;Rampe inclinée métal (Sloped Railing);1064.7;2444.1;2400.0;330;66.46;2666.0;appentis r0 c2 t+300
-1007;Rampe inclinée métal (Sloped Railing);804.9;2594.1;2400.0;330;72.76;2716.1;appentis r0 c2 t+600
-1008;Rampe inclinée métal (Sloped Railing);600.0;2649.0;2400.0;0;77.24;2716.1;appentis r0 c3 t-600
-1009;Rampe inclinée métal (Sloped Railing);300.0;2649.0;2400.0;0;83.54;2666.0;appentis r0 c3 t-300
-1010;Rampe inclinée métal (Sloped Railing);0.0;2649.0;2400.0;0;90.0;2649.0;appentis r0 c3 t-0
-1011;Rampe inclinée métal (Sloped Railing);-300.0;2649.0;2400.0;0;96.46;2666.0;appentis r0 c3 t+300
-1012;Rampe inclinée métal (Sloped Railing);-600.0;2649.0;2400.0;0;102.76;2716.1;appentis r0 c3 t+600
-1013;Rampe inclinée métal (Sloped Railing);-804.9;2594.1;2400.0;30;107.24;2716.1;appentis r0 c4 t-600
-1014;Rampe inclinée métal (Sloped Railing);-1064.7;2444.1;2400.0;30;113.54;2666.0;appentis r0 c4 t-300
-1015;Rampe inclinée métal (Sloped Railing);-1324.5;2294.1;2400.0;30;120.0;2649.0;appentis r0 c4 t-0
-1016;Rampe inclinée métal (Sloped Railing);-1584.3;2144.1;2400.0;30;126.46;2666.0;appentis r0 c4 t+300
-1017;Rampe inclinée métal (Sloped Railing);-1844.1;1994.1;2400.0;30;132.76;2716.1;appentis r0 c4 t+600
-1018;Rampe inclinée métal (Sloped Railing);-1994.1;1844.1;2400.0;60;137.24;2716.1;appentis r0 c5 t-600
-1019;Rampe inclinée métal (Sloped Railing);-2144.1;1584.3;2400.0;60;143.54;2666.0;appentis r0 c5 t-300
-1020;Rampe inclinée métal (Sloped Railing);-2294.1;1324.5;2400.0;60;150.0;2649.0;appentis r0 c5 t-0
-1021;Rampe inclinée métal (Sloped Railing);-2444.1;1064.7;2400.0;60;156.46;2666.0;appentis r0 c5 t+300
-1022;Rampe inclinée métal (Sloped Railing);-2444.1;-1064.7;2400.0;120;203.54;2666.0;appentis r0 c7 t-300
-1023;Rampe inclinée métal (Sloped Railing);-2294.1;-1324.5;2400.0;120;210.0;2649.0;appentis r0 c7 t-0
-1024;Rampe inclinée métal (Sloped Railing);-2144.1;-1584.3;2400.0;120;216.46;2666.0;appentis r0 c7 t+300
-1025;Rampe inclinée métal (Sloped Railing);-1994.1;-1844.1;2400.0;120;222.76;2716.1;appentis r0 c7 t+600
-1026;Rampe inclinée métal (Sloped Railing);-1844.1;-1994.1;2400.0;150;227.24;2716.1;appentis r0 c8 t-600
-1027;Rampe inclinée métal (Sloped Railing);-1584.3;-2144.1;2400.0;150;233.54;2666.0;appentis r0 c8 t-300
-1028;Rampe inclinée métal (Sloped Railing);-1324.5;-2294.1;2400.0;150;240.0;2649.0;appentis r0 c8 t-0
-1029;Rampe inclinée métal (Sloped Railing);-1064.7;-2444.1;2400.0;150;246.46;2666.0;appentis r0 c8 t+300
-1030;Rampe inclinée métal (Sloped Railing);-804.9;-2594.1;2400.0;150;252.76;2716.1;appentis r0 c8 t+600
-1031;Rampe inclinée métal (Sloped Railing);-600.0;-2649.0;2400.0;180;257.24;2716.1;appentis r0 c9 t-600
-1032;Rampe inclinée métal (Sloped Railing);-300.0;-2649.0;2400.0;180;263.54;2666.0;appentis r0 c9 t-300
-1033;Rampe inclinée métal (Sloped Railing);-0.0;-2649.0;2400.0;180;270.0;2649.0;appentis r0 c9 t-0
-1034;Rampe inclinée métal (Sloped Railing);300.0;-2649.0;2400.0;180;276.46;2666.0;appentis r0 c9 t+300
-1035;Rampe inclinée métal (Sloped Railing);600.0;-2649.0;2400.0;180;282.76;2716.1;appentis r0 c9 t+600
-1036;Rampe inclinée métal (Sloped Railing);804.9;-2594.1;2400.0;210;287.24;2716.1;appentis r0 c10 t-600
-1037;Rampe inclinée métal (Sloped Railing);1064.7;-2444.1;2400.0;210;293.54;2666.0;appentis r0 c10 t-300
-1038;Rampe inclinée métal (Sloped Railing);1324.5;-2294.1;2400.0;210;300.0;2649.0;appentis r0 c10 t-0
-1039;Rampe inclinée métal (Sloped Railing);1584.3;-2144.1;2400.0;210;306.46;2666.0;appentis r0 c10 t+300
-1040;Rampe inclinée métal (Sloped Railing);1844.1;-1994.1;2400.0;210;312.76;2716.1;appentis r0 c10 t+600
-1041;Rampe inclinée métal (Sloped Railing);1994.1;-1844.1;2400.0;240;317.24;2716.1;appentis r0 c11 t-600
-1042;Rampe inclinée métal (Sloped Railing);2144.1;-1584.3;2400.0;240;323.54;2666.0;appentis r0 c11 t-300
-1043;Rampe inclinée métal (Sloped Railing);2294.1;-1324.5;2400.0;240;330.0;2649.0;appentis r0 c11 t-0
-1044;Rampe inclinée métal (Sloped Railing);2444.1;-1064.7;2400.0;240;336.46;2666.0;appentis r0 c11 t+300
-1045;Rampe inclinée métal (Sloped Railing);2594.1;-804.9;2400.0;240;342.76;2716.1;appentis r0 c11 t+600
+684;Pilier fin métal (Thin Pillar);-2649.0;1009.8;2100.0;270.0;159.13;2835.0;depart lignes casquette c5 t+450 : pilier fin dans le joint
+685;Pilier fin métal (Thin Pillar);-2649.0;-1009.8;2100.0;90.0;200.87;2835.0;depart lignes casquette c7 t-450 : pilier fin dans le joint
+686;Pilier fin métal (Thin Pillar);2799.0;-750.0;2100.0;0;345.0;2897.8;depart lignes appentis c0 t-750 : pilier fin dans le joint
+687;Pilier fin métal (Thin Pillar);2799.0;-450.0;2100.0;0;350.87;2835.0;depart lignes appentis c0 t-450 : pilier fin dans le joint
+688;Pilier fin métal (Thin Pillar);2799.0;-150.0;2100.0;0;356.93;2803.1;depart lignes appentis c0 t-150 : pilier fin dans le joint
+689;Pilier fin métal (Thin Pillar);2799.0;150.0;2100.0;0;3.07;2803.1;depart lignes appentis c0 t+150 : pilier fin dans le joint
+690;Pilier fin métal (Thin Pillar);2799.0;450.0;2100.0;0;9.13;2835.0;depart lignes appentis c0 t+450 : pilier fin dans le joint
+691;Pilier fin métal (Thin Pillar);2799.0;750.0;2100.0;0;15.0;2897.8;depart lignes appentis c0 t+750 : pilier fin dans le joint
+692;Pilier fin métal (Thin Pillar);2649.0;1009.8;2100.0;30;20.87;2835.0;depart lignes appentis c1 t-450 : pilier fin dans le joint
+693;Pilier fin métal (Thin Pillar);2499.0;1269.6;2100.0;30;26.93;2803.1;depart lignes appentis c1 t-150 : pilier fin dans le joint
+694;Pilier fin métal (Thin Pillar);2349.0;1529.4;2100.0;30;33.07;2803.1;depart lignes appentis c1 t+150 : pilier fin dans le joint
+695;Pilier fin métal (Thin Pillar);2199.0;1789.2;2100.0;30;39.13;2835.0;depart lignes appentis c1 t+450 : pilier fin dans le joint
+696;Pilier fin métal (Thin Pillar);2049.0;2049.0;2100.0;30;45.0;2897.8;depart lignes appentis c1 t+750 : pilier fin dans le joint
+697;Pilier fin métal (Thin Pillar);1789.2;2199.0;2100.0;60;50.87;2835.0;depart lignes appentis c2 t-450 : pilier fin dans le joint
+698;Pilier fin métal (Thin Pillar);1529.4;2349.0;2100.0;60;56.93;2803.1;depart lignes appentis c2 t-150 : pilier fin dans le joint
+699;Pilier fin métal (Thin Pillar);1269.6;2499.0;2100.0;60;63.07;2803.1;depart lignes appentis c2 t+150 : pilier fin dans le joint
+700;Pilier fin métal (Thin Pillar);1009.8;2649.0;2100.0;60;69.13;2835.0;depart lignes appentis c2 t+450 : pilier fin dans le joint
+701;Pilier fin métal (Thin Pillar);750.0;2799.0;2100.0;60;75.0;2897.8;depart lignes appentis c2 t+750 : pilier fin dans le joint
+702;Pilier fin métal (Thin Pillar);450.0;2799.0;2100.0;90;80.87;2835.0;depart lignes appentis c3 t-450 : pilier fin dans le joint
+703;Pilier fin métal (Thin Pillar);150.0;2799.0;2100.0;90;86.93;2803.1;depart lignes appentis c3 t-150 : pilier fin dans le joint
+704;Pilier fin métal (Thin Pillar);-150.0;2799.0;2100.0;90;93.07;2803.1;depart lignes appentis c3 t+150 : pilier fin dans le joint
+705;Pilier fin métal (Thin Pillar);-450.0;2799.0;2100.0;90;99.13;2835.0;depart lignes appentis c3 t+450 : pilier fin dans le joint
+706;Pilier fin métal (Thin Pillar);-750.0;2799.0;2100.0;90;105.0;2897.8;depart lignes appentis c3 t+750 : pilier fin dans le joint
+707;Pilier fin métal (Thin Pillar);-1009.8;2649.0;2100.0;120;110.87;2835.0;depart lignes appentis c4 t-450 : pilier fin dans le joint
+708;Pilier fin métal (Thin Pillar);-1269.6;2499.0;2100.0;120;116.93;2803.1;depart lignes appentis c4 t-150 : pilier fin dans le joint
+709;Pilier fin métal (Thin Pillar);-1529.4;2349.0;2100.0;120;123.07;2803.1;depart lignes appentis c4 t+150 : pilier fin dans le joint
+710;Pilier fin métal (Thin Pillar);-1789.2;2199.0;2100.0;120;129.13;2835.0;depart lignes appentis c4 t+450 : pilier fin dans le joint
+711;Pilier fin métal (Thin Pillar);-2049.0;2049.0;2100.0;120;135.0;2897.8;depart lignes appentis c4 t+750 : pilier fin dans le joint
+712;Pilier fin métal (Thin Pillar);-2199.0;1789.2;2100.0;150;140.87;2835.0;depart lignes appentis c5 t-450 : pilier fin dans le joint
+713;Pilier fin métal (Thin Pillar);-2349.0;1529.4;2100.0;150;146.93;2803.1;depart lignes appentis c5 t-150 : pilier fin dans le joint
+714;Pilier fin métal (Thin Pillar);-2499.0;1269.6;2100.0;150;153.07;2803.1;depart lignes appentis c5 t+150 : pilier fin dans le joint
+715;Pilier fin métal (Thin Pillar);-2499.0;-1269.6;2100.0;210;206.93;2803.1;depart lignes appentis c7 t-150 : pilier fin dans le joint
+716;Pilier fin métal (Thin Pillar);-2349.0;-1529.4;2100.0;210;213.07;2803.1;depart lignes appentis c7 t+150 : pilier fin dans le joint
+717;Pilier fin métal (Thin Pillar);-2199.0;-1789.2;2100.0;210;219.13;2835.0;depart lignes appentis c7 t+450 : pilier fin dans le joint
+718;Pilier fin métal (Thin Pillar);-2049.0;-2049.0;2100.0;210;225.0;2897.8;depart lignes appentis c7 t+750 : pilier fin dans le joint
+719;Pilier fin métal (Thin Pillar);-1789.2;-2199.0;2100.0;240;230.87;2835.0;depart lignes appentis c8 t-450 : pilier fin dans le joint
+720;Pilier fin métal (Thin Pillar);-1529.4;-2349.0;2100.0;240;236.93;2803.1;depart lignes appentis c8 t-150 : pilier fin dans le joint
+721;Pilier fin métal (Thin Pillar);-1269.6;-2499.0;2100.0;240;243.07;2803.1;depart lignes appentis c8 t+150 : pilier fin dans le joint
+722;Pilier fin métal (Thin Pillar);-1009.8;-2649.0;2100.0;240;249.13;2835.0;depart lignes appentis c8 t+450 : pilier fin dans le joint
+723;Pilier fin métal (Thin Pillar);-750.0;-2799.0;2100.0;240;255.0;2897.8;depart lignes appentis c8 t+750 : pilier fin dans le joint
+724;Pilier fin métal (Thin Pillar);-450.0;-2799.0;2100.0;270;260.87;2835.0;depart lignes appentis c9 t-450 : pilier fin dans le joint
+725;Pilier fin métal (Thin Pillar);-150.0;-2799.0;2100.0;270;266.93;2803.1;depart lignes appentis c9 t-150 : pilier fin dans le joint
+726;Pilier fin métal (Thin Pillar);150.0;-2799.0;2100.0;270;273.07;2803.1;depart lignes appentis c9 t+150 : pilier fin dans le joint
+727;Pilier fin métal (Thin Pillar);450.0;-2799.0;2100.0;270;279.13;2835.0;depart lignes appentis c9 t+450 : pilier fin dans le joint
+728;Pilier fin métal (Thin Pillar);750.0;-2799.0;2100.0;270;285.0;2897.8;depart lignes appentis c9 t+750 : pilier fin dans le joint
+729;Pilier fin métal (Thin Pillar);1009.8;-2649.0;2100.0;300;290.87;2835.0;depart lignes appentis c10 t-450 : pilier fin dans le joint
+730;Pilier fin métal (Thin Pillar);1269.6;-2499.0;2100.0;300;296.93;2803.1;depart lignes appentis c10 t-150 : pilier fin dans le joint
+731;Pilier fin métal (Thin Pillar);1529.4;-2349.0;2100.0;300;303.07;2803.1;depart lignes appentis c10 t+150 : pilier fin dans le joint
+732;Pilier fin métal (Thin Pillar);1789.2;-2199.0;2100.0;300;309.13;2835.0;depart lignes appentis c10 t+450 : pilier fin dans le joint
+733;Pilier fin métal (Thin Pillar);2049.0;-2049.0;2100.0;300;315.0;2897.8;depart lignes appentis c10 t+750 : pilier fin dans le joint
+734;Pilier fin métal (Thin Pillar);2199.0;-1789.2;2100.0;330;320.87;2835.0;depart lignes appentis c11 t-450 : pilier fin dans le joint
+735;Pilier fin métal (Thin Pillar);2349.0;-1529.4;2100.0;330;326.93;2803.1;depart lignes appentis c11 t-150 : pilier fin dans le joint
+736;Pilier fin métal (Thin Pillar);2499.0;-1269.6;2100.0;330;333.07;2803.1;depart lignes appentis c11 t+150 : pilier fin dans le joint
+737;Pilier fin métal (Thin Pillar);2649.0;-1009.8;2100.0;330;339.13;2835.0;depart lignes appentis c11 t+450 : pilier fin dans le joint
+738;Cadre de porte double métal;-2219.1;934.8;2100.0;240.0;157.16;2408.0;bord du trou niv7 θ157.2
+739;Cadre de porte double métal;-2499.0;1009.8;2100.0;270.0;158.0;2695.3;bord du trou niv7 θ158.0
+740;Cadre de porte double métal;-2499.0;-1009.8;2100.0;90.0;202.0;2695.3;bord du trou niv7 θ202.0
+741;Cadre de porte double métal;-2219.1;-934.8;2100.0;120.0;202.84;2408.0;bord du trou niv7 θ202.8
+742;Cadre de porte double métal;2799.0;-600.0;2100.0;0;347.9;2862.6;cage L2 c0 p0
+743;Cadre de porte double métal;2799.0;-300.0;2100.0;0;353.88;2815.1;cage L2 c0 p1
+744;Cadre de porte double métal;2799.0;0.0;2100.0;0;0.0;2799.0;cage L2 c0 p2
+745;Cadre de porte double métal;2799.0;300.0;2100.0;0;6.12;2815.1;cage L2 c0 p3
+746;Cadre de porte double métal;2799.0;600.0;2100.0;0;12.1;2862.6;cage L2 c0 p4
+747;Cadre de porte double métal;2724.0;879.9;2100.0;30;17.9;2862.6;cage L2 c1 p0
+748;Cadre de porte double métal;2574.0;1139.7;2100.0;30;23.88;2815.1;cage L2 c1 p1
+749;Cadre de porte double métal;2424.0;1399.5;2100.0;30;30.0;2799.0;cage L2 c1 p2
+750;Cadre de porte double métal;2274.0;1659.3;2100.0;30;36.12;2815.1;cage L2 c1 p3
+751;Cadre de porte double métal;2124.0;1919.1;2100.0;30;42.1;2862.6;cage L2 c1 p4
+752;Cadre de porte double métal;1919.1;2124.0;2100.0;60;47.9;2862.6;cage L2 c2 p0
+753;Cadre de porte double métal;1659.3;2274.0;2100.0;60;53.88;2815.1;cage L2 c2 p1
+754;Cadre de porte double métal;1399.5;2424.0;2100.0;60;60.0;2799.0;cage L2 c2 p2
+755;Cadre de porte double métal;1139.7;2574.0;2100.0;60;66.12;2815.1;cage L2 c2 p3
+756;Cadre de porte double métal;879.9;2724.0;2100.0;60;72.1;2862.6;cage L2 c2 p4
+757;Cadre de porte double métal;600.0;2799.0;2100.0;90;77.9;2862.6;cage L2 c3 p0
+758;Cadre de porte double métal;300.0;2799.0;2100.0;90;83.88;2815.1;cage L2 c3 p1
+759;Cadre de porte double métal;0.0;2799.0;2100.0;90;90.0;2799.0;cage L2 c3 p2
+760;Cadre de porte double métal;-300.0;2799.0;2100.0;90;96.12;2815.1;cage L2 c3 p3
+761;Cadre de porte double métal;-600.0;2799.0;2100.0;90;102.1;2862.6;cage L2 c3 p4
+762;Cadre de porte double métal;-879.9;2724.0;2100.0;120;107.9;2862.6;cage L2 c4 p0
+763;Cadre de porte double métal;-1139.7;2574.0;2100.0;120;113.88;2815.1;cage L2 c4 p1
+764;Cadre de porte double métal;-1399.5;2424.0;2100.0;120;120.0;2799.0;cage L2 c4 p2
+765;Cadre de porte double métal;-1659.3;2274.0;2100.0;120;126.12;2815.1;cage L2 c4 p3
+766;Cadre de porte double métal;-1919.1;2124.0;2100.0;120;132.1;2862.6;cage L2 c4 p4
+767;Cadre de porte double métal;-2124.0;1919.1;2100.0;150;137.9;2862.6;cage L2 c5 p0
+768;Cadre de porte double métal;-2274.0;1659.3;2100.0;150;143.88;2815.1;cage L2 c5 p1
+769;Cadre de porte double métal;-2424.0;1399.5;2100.0;150;150.0;2799.0;cage L2 c5 p2
+770;Cadre de porte double métal;-2574.0;1139.7;2100.0;150;156.12;2815.1;cage L2 c5 p3
+771;Cadre de porte double métal;-2574.0;-1139.7;2100.0;210;203.88;2815.1;cage L2 c7 p1
+772;Cadre de porte double métal;-2424.0;-1399.5;2100.0;210;210.0;2799.0;cage L2 c7 p2
+773;Cadre de porte double métal;-2274.0;-1659.3;2100.0;210;216.12;2815.1;cage L2 c7 p3
+774;Cadre de porte double métal;-2124.0;-1919.1;2100.0;210;222.1;2862.6;cage L2 c7 p4
+775;Cadre de porte double métal;-1919.1;-2124.0;2100.0;240;227.9;2862.6;cage L2 c8 p0
+776;Cadre de porte double métal;-1659.3;-2274.0;2100.0;240;233.88;2815.1;cage L2 c8 p1
+777;Cadre de porte double métal;-1399.5;-2424.0;2100.0;240;240.0;2799.0;cage L2 c8 p2
+778;Cadre de porte double métal;-1139.7;-2574.0;2100.0;240;246.12;2815.1;cage L2 c8 p3
+779;Cadre de porte double métal;-879.9;-2724.0;2100.0;240;252.1;2862.6;cage L2 c8 p4
+780;Cadre de porte double métal;-600.0;-2799.0;2100.0;270;257.9;2862.6;cage L2 c9 p0
+781;Cadre de porte double métal;-300.0;-2799.0;2100.0;270;263.88;2815.1;cage L2 c9 p1
+782;Cadre de porte double métal;-0.0;-2799.0;2100.0;270;270.0;2799.0;cage L2 c9 p2
+783;Cadre de porte double métal;300.0;-2799.0;2100.0;270;276.12;2815.1;cage L2 c9 p3
+784;Cadre de porte double métal;600.0;-2799.0;2100.0;270;282.1;2862.6;cage L2 c9 p4
+785;Cadre de porte double métal;879.9;-2724.0;2100.0;300;287.9;2862.6;cage L2 c10 p0
+786;Cadre de porte double métal;1139.7;-2574.0;2100.0;300;293.88;2815.1;cage L2 c10 p1
+787;Cadre de porte double métal;1399.5;-2424.0;2100.0;300;300.0;2799.0;cage L2 c10 p2
+788;Cadre de porte double métal;1659.3;-2274.0;2100.0;300;306.12;2815.1;cage L2 c10 p3
+789;Cadre de porte double métal;1919.1;-2124.0;2100.0;300;312.1;2862.6;cage L2 c10 p4
+790;Cadre de porte double métal;2124.0;-1919.1;2100.0;330;317.9;2862.6;cage L2 c11 p0
+791;Cadre de porte double métal;2274.0;-1659.3;2100.0;330;323.88;2815.1;cage L2 c11 p1
+792;Cadre de porte double métal;2424.0;-1399.5;2100.0;330;330.0;2799.0;cage L2 c11 p2
+793;Cadre de porte double métal;2574.0;-1139.7;2100.0;330;336.12;2815.1;cage L2 c11 p3
+794;Cadre de porte double métal;2724.0;-879.9;2100.0;330;342.1;2862.6;cage L2 c11 p4
+795;Rampe inclinée métal (Sloped Railing);2949.0;-750.0;2100.0;270;345.73;3042.9;casquette r-1 c0 t-750
+796;Rampe inclinée métal (Sloped Railing);2949.0;-450.0;2100.0;270;351.32;2983.2;casquette r-1 c0 t-450
+797;Rampe inclinée métal (Sloped Railing);2949.0;-150.0;2100.0;270;357.09;2952.9;casquette r-1 c0 t-150
+798;Rampe inclinée métal (Sloped Railing);2949.0;150.0;2100.0;270;2.91;2952.9;casquette r-1 c0 t+150
+799;Rampe inclinée métal (Sloped Railing);2949.0;450.0;2100.0;270;8.68;2983.2;casquette r-1 c0 t+450
+800;Rampe inclinée métal (Sloped Railing);2949.0;750.0;2100.0;270;14.27;3042.9;casquette r-1 c0 t+750
+801;Rampe inclinée métal (Sloped Railing);2928.9;825.0;2100.0;300;15.73;3042.9;casquette r-1 c1 t-750
+802;Rampe inclinée métal (Sloped Railing);2778.9;1084.8;2100.0;300;21.32;2983.2;casquette r-1 c1 t-450
+803;Rampe inclinée métal (Sloped Railing);2628.9;1344.6;2100.0;300;27.09;2952.9;casquette r-1 c1 t-150
+804;Rampe inclinée métal (Sloped Railing);2478.9;1604.4;2100.0;300;32.91;2952.9;casquette r-1 c1 t+150
+805;Rampe inclinée métal (Sloped Railing);2328.9;1864.2;2100.0;300;38.68;2983.2;casquette r-1 c1 t+450
+806;Rampe inclinée métal (Sloped Railing);2178.9;2124.0;2100.0;300;44.27;3042.9;casquette r-1 c1 t+750
+807;Rampe inclinée métal (Sloped Railing);2124.0;2178.9;2100.0;330;45.73;3042.9;casquette r-1 c2 t-750
+808;Rampe inclinée métal (Sloped Railing);1864.2;2328.9;2100.0;330;51.32;2983.2;casquette r-1 c2 t-450
+809;Rampe inclinée métal (Sloped Railing);1604.4;2478.9;2100.0;330;57.09;2952.9;casquette r-1 c2 t-150
+810;Rampe inclinée métal (Sloped Railing);1344.6;2628.9;2100.0;330;62.91;2952.9;casquette r-1 c2 t+150
+811;Rampe inclinée métal (Sloped Railing);1084.8;2778.9;2100.0;330;68.68;2983.2;casquette r-1 c2 t+450
+812;Rampe inclinée métal (Sloped Railing);825.0;2928.9;2100.0;330;74.27;3042.9;casquette r-1 c2 t+750
+813;Rampe inclinée métal (Sloped Railing);750.0;2949.0;2100.0;0;75.73;3042.9;casquette r-1 c3 t-750
+814;Rampe inclinée métal (Sloped Railing);450.0;2949.0;2100.0;0;81.32;2983.2;casquette r-1 c3 t-450
+815;Rampe inclinée métal (Sloped Railing);150.0;2949.0;2100.0;0;87.09;2952.9;casquette r-1 c3 t-150
+816;Rampe inclinée métal (Sloped Railing);-150.0;2949.0;2100.0;0;92.91;2952.9;casquette r-1 c3 t+150
+817;Rampe inclinée métal (Sloped Railing);-450.0;2949.0;2100.0;0;98.68;2983.2;casquette r-1 c3 t+450
+818;Rampe inclinée métal (Sloped Railing);-750.0;2949.0;2100.0;0;104.27;3042.9;casquette r-1 c3 t+750
+819;Rampe inclinée métal (Sloped Railing);-825.0;2928.9;2100.0;30;105.73;3042.9;casquette r-1 c4 t-750
+820;Rampe inclinée métal (Sloped Railing);-1084.8;2778.9;2100.0;30;111.32;2983.2;casquette r-1 c4 t-450
+821;Rampe inclinée métal (Sloped Railing);-1344.6;2628.9;2100.0;30;117.09;2952.9;casquette r-1 c4 t-150
+822;Rampe inclinée métal (Sloped Railing);-1604.4;2478.9;2100.0;30;122.91;2952.9;casquette r-1 c4 t+150
+823;Rampe inclinée métal (Sloped Railing);-1864.2;2328.9;2100.0;30;128.68;2983.2;casquette r-1 c4 t+450
+824;Rampe inclinée métal (Sloped Railing);-2124.0;2178.9;2100.0;30;134.27;3042.9;casquette r-1 c4 t+750
+825;Rampe inclinée métal (Sloped Railing);-2178.9;2124.0;2100.0;60;135.73;3042.9;casquette r-1 c5 t-750
+826;Rampe inclinée métal (Sloped Railing);-2328.9;1864.2;2100.0;60;141.32;2983.2;casquette r-1 c5 t-450
+827;Rampe inclinée métal (Sloped Railing);-2478.9;1604.4;2100.0;60;147.09;2952.9;casquette r-1 c5 t-150
+828;Rampe inclinée métal (Sloped Railing);-2628.9;1344.6;2100.0;60;152.91;2952.9;casquette r-1 c5 t+150
+829;Rampe inclinée métal (Sloped Railing);-2778.9;1084.8;2100.0;60;158.68;2983.2;casquette r-1 c5 t+450
+830;Rampe inclinée métal (Sloped Railing);-2778.9;-1084.8;2100.0;120;201.32;2983.2;casquette r-1 c7 t-450
+831;Rampe inclinée métal (Sloped Railing);-2628.9;-1344.6;2100.0;120;207.09;2952.9;casquette r-1 c7 t-150
+832;Rampe inclinée métal (Sloped Railing);-2478.9;-1604.4;2100.0;120;212.91;2952.9;casquette r-1 c7 t+150
+833;Rampe inclinée métal (Sloped Railing);-2328.9;-1864.2;2100.0;120;218.68;2983.2;casquette r-1 c7 t+450
+834;Rampe inclinée métal (Sloped Railing);-2178.9;-2124.0;2100.0;120;224.27;3042.9;casquette r-1 c7 t+750
+835;Rampe inclinée métal (Sloped Railing);-2124.0;-2178.9;2100.0;150;225.73;3042.9;casquette r-1 c8 t-750
+836;Rampe inclinée métal (Sloped Railing);-1864.2;-2328.9;2100.0;150;231.32;2983.2;casquette r-1 c8 t-450
+837;Rampe inclinée métal (Sloped Railing);-1604.4;-2478.9;2100.0;150;237.09;2952.9;casquette r-1 c8 t-150
+838;Rampe inclinée métal (Sloped Railing);-1344.6;-2628.9;2100.0;150;242.91;2952.9;casquette r-1 c8 t+150
+839;Rampe inclinée métal (Sloped Railing);-1084.8;-2778.9;2100.0;150;248.68;2983.2;casquette r-1 c8 t+450
+840;Rampe inclinée métal (Sloped Railing);-825.0;-2928.9;2100.0;150;254.27;3042.9;casquette r-1 c8 t+750
+841;Rampe inclinée métal (Sloped Railing);-750.0;-2949.0;2100.0;180;255.73;3042.9;casquette r-1 c9 t-750
+842;Rampe inclinée métal (Sloped Railing);-450.0;-2949.0;2100.0;180;261.32;2983.2;casquette r-1 c9 t-450
+843;Rampe inclinée métal (Sloped Railing);-150.0;-2949.0;2100.0;180;267.09;2952.9;casquette r-1 c9 t-150
+844;Rampe inclinée métal (Sloped Railing);150.0;-2949.0;2100.0;180;272.91;2952.9;casquette r-1 c9 t+150
+845;Rampe inclinée métal (Sloped Railing);450.0;-2949.0;2100.0;180;278.68;2983.2;casquette r-1 c9 t+450
+846;Rampe inclinée métal (Sloped Railing);750.0;-2949.0;2100.0;180;284.27;3042.9;casquette r-1 c9 t+750
+847;Rampe inclinée métal (Sloped Railing);825.0;-2928.9;2100.0;210;285.73;3042.9;casquette r-1 c10 t-750
+848;Rampe inclinée métal (Sloped Railing);1084.8;-2778.9;2100.0;210;291.32;2983.2;casquette r-1 c10 t-450
+849;Rampe inclinée métal (Sloped Railing);1344.6;-2628.9;2100.0;210;297.09;2952.9;casquette r-1 c10 t-150
+850;Rampe inclinée métal (Sloped Railing);1604.4;-2478.9;2100.0;210;302.91;2952.9;casquette r-1 c10 t+150
+851;Rampe inclinée métal (Sloped Railing);1864.2;-2328.9;2100.0;210;308.68;2983.2;casquette r-1 c10 t+450
+852;Rampe inclinée métal (Sloped Railing);2124.0;-2178.9;2100.0;210;314.27;3042.9;casquette r-1 c10 t+750
+853;Rampe inclinée métal (Sloped Railing);2178.9;-2124.0;2100.0;240;315.73;3042.9;casquette r-1 c11 t-750
+854;Rampe inclinée métal (Sloped Railing);2328.9;-1864.2;2100.0;240;321.32;2983.2;casquette r-1 c11 t-450
+855;Rampe inclinée métal (Sloped Railing);2478.9;-1604.4;2100.0;240;327.09;2952.9;casquette r-1 c11 t-150
+856;Rampe inclinée métal (Sloped Railing);2628.9;-1344.6;2100.0;240;332.91;2952.9;casquette r-1 c11 t+150
+857;Rampe inclinée métal (Sloped Railing);2778.9;-1084.8;2100.0;240;338.68;2983.2;casquette r-1 c11 t+450
+858;Rampe inclinée métal (Sloped Railing);2928.9;-825.0;2100.0;240;344.27;3042.9;casquette r-1 c11 t+750
+859;Rampe inclinée métal (Sloped Railing);-2164.2;729.9;2100.0;150.0;161.36;2284.0;casquette du trou θ157.2
+860;Rampe inclinée métal (Sloped Railing);-2649.0;859.8;2100.0;180.0;162.02;2785.1;casquette du trou θ158.0
+861;Rampe inclinée métal (Sloped Railing);-2649.0;-859.8;2100.0;0.0;197.98;2785.1;casquette du trou θ202.0
+862;Rampe inclinée métal (Sloped Railing);-2164.2;-729.9;2100.0;30.0;198.64;2284.0;casquette du trou θ202.8
+863;Plafond triangle métal;2369.1;-450.0;2400.0;0;349.25;2411.5;galerie Z2400 anneau 8
+864;Plafond triangle métal;2369.1;-150.0;2400.0;0;356.38;2373.9;galerie Z2400 anneau 8
+865;Plafond triangle métal;2369.1;150.0;2400.0;0;3.62;2373.9;galerie Z2400 anneau 8
+866;Plafond triangle métal;2369.1;450.0;2400.0;0;10.75;2411.5;galerie Z2400 anneau 8
+867;Plafond triangle métal;2369.1;-600.0;2400.0;180;345.79;2443.9;galerie Z2400 anneau 8
+868;Plafond triangle métal;2369.1;-300.0;2400.0;180;352.78;2388.1;galerie Z2400 anneau 8
+869;Plafond triangle métal;2369.1;0.0;2400.0;180;0.0;2369.1;galerie Z2400 anneau 8
+870;Plafond triangle métal;2369.1;300.0;2400.0;180;7.22;2388.1;galerie Z2400 anneau 8
+871;Plafond triangle métal;2369.1;600.0;2400.0;180;14.21;2443.9;galerie Z2400 anneau 8
+872;Plafond métal;2294.1;804.9;2400.0;30;19.33;2431.2;galerie Z2400 anneau 8
+873;Plafond métal;2144.1;1064.7;2400.0;30;26.41;2393.9;galerie Z2400 anneau 8
+874;Plafond métal;1994.1;1324.5;2400.0;30;33.59;2393.9;galerie Z2400 anneau 8
+875;Plafond métal;1844.1;1584.3;2400.0;30;40.67;2431.2;galerie Z2400 anneau 8
+876;Plafond triangle métal;1574.3;1826.7;2400.0;60;49.25;2411.5;galerie Z2400 anneau 8
+877;Plafond triangle métal;1314.5;1976.7;2400.0;60;56.38;2373.9;galerie Z2400 anneau 8
+878;Plafond triangle métal;1054.7;2126.7;2400.0;60;63.62;2373.9;galerie Z2400 anneau 8
+879;Plafond triangle métal;794.9;2276.7;2400.0;60;70.75;2411.5;galerie Z2400 anneau 8
+880;Plafond triangle métal;1704.2;1751.7;2400.0;240;45.79;2443.9;galerie Z2400 anneau 8
+881;Plafond triangle métal;1444.4;1901.7;2400.0;240;52.78;2388.1;galerie Z2400 anneau 8
+882;Plafond triangle métal;1184.6;2051.7;2400.0;240;60.0;2369.1;galerie Z2400 anneau 8
+883;Plafond triangle métal;924.8;2201.7;2400.0;240;67.22;2388.1;galerie Z2400 anneau 8
+884;Plafond triangle métal;665.0;2351.7;2400.0;240;74.21;2443.9;galerie Z2400 anneau 8
+885;Plafond métal;450.0;2389.2;2400.0;90;79.33;2431.2;galerie Z2400 anneau 8
+886;Plafond métal;150.0;2389.2;2400.0;90;86.41;2393.9;galerie Z2400 anneau 8
+887;Plafond métal;-150.0;2389.2;2400.0;90;93.59;2393.9;galerie Z2400 anneau 8
+888;Plafond métal;-450.0;2389.2;2400.0;90;100.67;2431.2;galerie Z2400 anneau 8
+889;Plafond triangle métal;-794.9;2276.7;2400.0;120;109.25;2411.5;galerie Z2400 anneau 8
+890;Plafond triangle métal;-1054.7;2126.7;2400.0;120;116.38;2373.9;galerie Z2400 anneau 8
+891;Plafond triangle métal;-1314.5;1976.7;2400.0;120;123.62;2373.9;galerie Z2400 anneau 8
+892;Plafond triangle métal;-1574.3;1826.7;2400.0;120;130.75;2411.5;galerie Z2400 anneau 8
+893;Plafond triangle métal;-665.0;2351.7;2400.0;300;105.79;2443.9;galerie Z2400 anneau 8
+894;Plafond triangle métal;-924.8;2201.7;2400.0;300;112.78;2388.1;galerie Z2400 anneau 8
+895;Plafond triangle métal;-1184.6;2051.7;2400.0;300;120.0;2369.1;galerie Z2400 anneau 8
+896;Plafond triangle métal;-1444.4;1901.7;2400.0;300;127.22;2388.1;galerie Z2400 anneau 8
+897;Plafond triangle métal;-1704.2;1751.7;2400.0;300;134.21;2443.9;galerie Z2400 anneau 8
+898;Plafond métal;-1844.1;1584.3;2400.0;150;139.33;2431.2;galerie Z2400 anneau 8
+899;Plafond métal;-1994.1;1324.5;2400.0;150;146.41;2393.9;galerie Z2400 anneau 8
+900;Plafond métal;-2144.1;1064.7;2400.0;150;153.59;2393.9;galerie Z2400 anneau 8
+901;Plafond métal;-2144.1;-1064.7;2400.0;210;206.41;2393.9;galerie Z2400 anneau 8
+902;Plafond métal;-1994.1;-1324.5;2400.0;210;213.59;2393.9;galerie Z2400 anneau 8
+903;Plafond métal;-1844.1;-1584.3;2400.0;210;220.67;2431.2;galerie Z2400 anneau 8
+904;Plafond triangle métal;-1574.3;-1826.7;2400.0;240;229.25;2411.5;galerie Z2400 anneau 8
+905;Plafond triangle métal;-1314.5;-1976.7;2400.0;240;236.38;2373.9;galerie Z2400 anneau 8
+906;Plafond triangle métal;-1054.7;-2126.7;2400.0;240;243.62;2373.9;galerie Z2400 anneau 8
+907;Plafond triangle métal;-794.9;-2276.7;2400.0;240;250.75;2411.5;galerie Z2400 anneau 8
+908;Plafond triangle métal;-1704.2;-1751.7;2400.0;60;225.79;2443.9;galerie Z2400 anneau 8
+909;Plafond triangle métal;-1444.4;-1901.7;2400.0;60;232.78;2388.1;galerie Z2400 anneau 8
+910;Plafond triangle métal;-1184.6;-2051.7;2400.0;60;240.0;2369.1;galerie Z2400 anneau 8
+911;Plafond triangle métal;-924.8;-2201.7;2400.0;60;247.22;2388.1;galerie Z2400 anneau 8
+912;Plafond triangle métal;-665.0;-2351.7;2400.0;60;254.21;2443.9;galerie Z2400 anneau 8
+913;Plafond métal;-450.0;-2389.2;2400.0;270;259.33;2431.2;galerie Z2400 anneau 8
+914;Plafond métal;-150.0;-2389.2;2400.0;270;266.41;2393.9;galerie Z2400 anneau 8
+915;Plafond métal;150.0;-2389.2;2400.0;270;273.59;2393.9;galerie Z2400 anneau 8
+916;Plafond métal;450.0;-2389.2;2400.0;270;280.67;2431.2;galerie Z2400 anneau 8
+917;Plafond triangle métal;794.9;-2276.7;2400.0;300;289.25;2411.5;galerie Z2400 anneau 8
+918;Plafond triangle métal;1054.7;-2126.7;2400.0;300;296.38;2373.9;galerie Z2400 anneau 8
+919;Plafond triangle métal;1314.5;-1976.7;2400.0;300;303.62;2373.9;galerie Z2400 anneau 8
+920;Plafond triangle métal;1574.3;-1826.7;2400.0;300;310.75;2411.5;galerie Z2400 anneau 8
+921;Plafond triangle métal;665.0;-2351.7;2400.0;120;285.79;2443.9;galerie Z2400 anneau 8
+922;Plafond triangle métal;924.8;-2201.7;2400.0;120;292.78;2388.1;galerie Z2400 anneau 8
+923;Plafond triangle métal;1184.6;-2051.7;2400.0;120;300.0;2369.1;galerie Z2400 anneau 8
+924;Plafond triangle métal;1444.4;-1901.7;2400.0;120;307.22;2388.1;galerie Z2400 anneau 8
+925;Plafond triangle métal;1704.2;-1751.7;2400.0;120;314.21;2443.9;galerie Z2400 anneau 8
+926;Plafond métal;1844.1;-1584.3;2400.0;330;319.33;2431.2;galerie Z2400 anneau 8
+927;Plafond métal;1994.1;-1324.5;2400.0;330;326.41;2393.9;galerie Z2400 anneau 8
+928;Plafond métal;2144.1;-1064.7;2400.0;330;333.59;2393.9;galerie Z2400 anneau 8
+929;Plafond métal;2294.1;-804.9;2400.0;330;340.67;2431.2;galerie Z2400 anneau 8
+930;Plafond métal;2649.0;-600.0;2400.0;0;347.24;2716.1;galerie Z2400 anneau 9
+931;Plafond métal;2649.0;-300.0;2400.0;0;353.54;2666.0;galerie Z2400 anneau 9
+932;Plafond métal;2649.0;0.0;2400.0;0;0.0;2649.0;galerie Z2400 anneau 9
+933;Plafond métal;2649.0;300.0;2400.0;0;6.46;2666.0;galerie Z2400 anneau 9
+934;Plafond métal;2649.0;600.0;2400.0;0;12.76;2716.1;galerie Z2400 anneau 9
+935;Plafond triangle métal;2536.5;944.9;2400.0;30;20.43;2706.8;galerie Z2400 anneau 9
+936;Plafond triangle métal;2386.5;1204.7;2400.0;30;26.78;2673.3;galerie Z2400 anneau 9
+937;Plafond triangle métal;2236.5;1464.5;2400.0;30;33.22;2673.3;galerie Z2400 anneau 9
+938;Plafond triangle métal;2086.5;1724.3;2400.0;30;39.57;2706.8;galerie Z2400 anneau 9
+939;Plafond triangle métal;2611.5;815.0;2400.0;210;17.33;2735.7;galerie Z2400 anneau 9
+940;Plafond triangle métal;2461.5;1074.8;2400.0;210;23.59;2685.9;galerie Z2400 anneau 9
+941;Plafond triangle métal;2311.5;1334.6;2400.0;210;30.0;2669.1;galerie Z2400 anneau 9
+942;Plafond triangle métal;2161.5;1594.4;2400.0;210;36.41;2685.9;galerie Z2400 anneau 9
+943;Plafond triangle métal;2011.5;1854.2;2400.0;210;42.67;2735.7;galerie Z2400 anneau 9
+944;Plafond métal;1844.1;1994.1;2400.0;60;47.24;2716.1;galerie Z2400 anneau 9
+945;Plafond métal;1584.3;2144.1;2400.0;60;53.54;2666.0;galerie Z2400 anneau 9
+946;Plafond métal;1324.5;2294.1;2400.0;60;60.0;2649.0;galerie Z2400 anneau 9
+947;Plafond métal;1064.7;2444.1;2400.0;60;66.46;2666.0;galerie Z2400 anneau 9
+948;Plafond métal;804.9;2594.1;2400.0;60;72.76;2716.1;galerie Z2400 anneau 9
+949;Plafond triangle métal;450.0;2669.1;2400.0;90;80.43;2706.8;galerie Z2400 anneau 9
+950;Plafond triangle métal;150.0;2669.1;2400.0;90;86.78;2673.3;galerie Z2400 anneau 9
+951;Plafond triangle métal;-150.0;2669.1;2400.0;90;93.22;2673.3;galerie Z2400 anneau 9
+952;Plafond triangle métal;-450.0;2669.1;2400.0;90;99.57;2706.8;galerie Z2400 anneau 9
+953;Plafond triangle métal;600.0;2669.1;2400.0;270;77.33;2735.7;galerie Z2400 anneau 9
+954;Plafond triangle métal;300.0;2669.1;2400.0;270;83.59;2685.9;galerie Z2400 anneau 9
+955;Plafond triangle métal;0.0;2669.1;2400.0;270;90.0;2669.1;galerie Z2400 anneau 9
+956;Plafond triangle métal;-300.0;2669.1;2400.0;270;96.41;2685.9;galerie Z2400 anneau 9
+957;Plafond triangle métal;-600.0;2669.1;2400.0;270;102.67;2735.7;galerie Z2400 anneau 9
+958;Plafond métal;-804.9;2594.1;2400.0;120;107.24;2716.1;galerie Z2400 anneau 9
+959;Plafond métal;-1064.7;2444.1;2400.0;120;113.54;2666.0;galerie Z2400 anneau 9
+960;Plafond métal;-1324.5;2294.1;2400.0;120;120.0;2649.0;galerie Z2400 anneau 9
+961;Plafond métal;-1584.3;2144.1;2400.0;120;126.46;2666.0;galerie Z2400 anneau 9
+962;Plafond métal;-1844.1;1994.1;2400.0;120;132.76;2716.1;galerie Z2400 anneau 9
+963;Plafond triangle métal;-2086.5;1724.3;2400.0;150;140.43;2706.8;galerie Z2400 anneau 9
+964;Plafond triangle métal;-2236.5;1464.5;2400.0;150;146.78;2673.3;galerie Z2400 anneau 9
+965;Plafond triangle métal;-2386.5;1204.7;2400.0;150;153.22;2673.3;galerie Z2400 anneau 9
+966;Plafond triangle métal;-2011.5;1854.2;2400.0;330;137.33;2735.7;galerie Z2400 anneau 9
+967;Plafond triangle métal;-2161.5;1594.4;2400.0;330;143.59;2685.9;galerie Z2400 anneau 9
+968;Plafond triangle métal;-2311.5;1334.6;2400.0;330;150.0;2669.1;galerie Z2400 anneau 9
+969;Plafond triangle métal;-2461.5;1074.8;2400.0;330;156.41;2685.9;galerie Z2400 anneau 9
+970;Plafond triangle métal;-2386.5;-1204.7;2400.0;210;206.78;2673.3;galerie Z2400 anneau 9
+971;Plafond triangle métal;-2236.5;-1464.5;2400.0;210;213.22;2673.3;galerie Z2400 anneau 9
+972;Plafond triangle métal;-2086.5;-1724.3;2400.0;210;219.57;2706.8;galerie Z2400 anneau 9
+973;Plafond triangle métal;-2461.5;-1074.8;2400.0;30;203.59;2685.9;galerie Z2400 anneau 9
+974;Plafond triangle métal;-2311.5;-1334.6;2400.0;30;210.0;2669.1;galerie Z2400 anneau 9
+975;Plafond triangle métal;-2161.5;-1594.4;2400.0;30;216.41;2685.9;galerie Z2400 anneau 9
+976;Plafond triangle métal;-2011.5;-1854.2;2400.0;30;222.67;2735.7;galerie Z2400 anneau 9
+977;Plafond métal;-1844.1;-1994.1;2400.0;240;227.24;2716.1;galerie Z2400 anneau 9
+978;Plafond métal;-1584.3;-2144.1;2400.0;240;233.54;2666.0;galerie Z2400 anneau 9
+979;Plafond métal;-1324.5;-2294.1;2400.0;240;240.0;2649.0;galerie Z2400 anneau 9
+980;Plafond métal;-1064.7;-2444.1;2400.0;240;246.46;2666.0;galerie Z2400 anneau 9
+981;Plafond métal;-804.9;-2594.1;2400.0;240;252.76;2716.1;galerie Z2400 anneau 9
+982;Plafond triangle métal;-450.0;-2669.1;2400.0;270;260.43;2706.8;galerie Z2400 anneau 9
+983;Plafond triangle métal;-150.0;-2669.1;2400.0;270;266.78;2673.3;galerie Z2400 anneau 9
+984;Plafond triangle métal;150.0;-2669.1;2400.0;270;273.22;2673.3;galerie Z2400 anneau 9
+985;Plafond triangle métal;450.0;-2669.1;2400.0;270;279.57;2706.8;galerie Z2400 anneau 9
+986;Plafond triangle métal;-600.0;-2669.1;2400.0;90;257.33;2735.7;galerie Z2400 anneau 9
+987;Plafond triangle métal;-300.0;-2669.1;2400.0;90;263.59;2685.9;galerie Z2400 anneau 9
+988;Plafond triangle métal;-0.0;-2669.1;2400.0;90;270.0;2669.1;galerie Z2400 anneau 9
+989;Plafond triangle métal;300.0;-2669.1;2400.0;90;276.41;2685.9;galerie Z2400 anneau 9
+990;Plafond triangle métal;600.0;-2669.1;2400.0;90;282.67;2735.7;galerie Z2400 anneau 9
+991;Plafond métal;804.9;-2594.1;2400.0;300;287.24;2716.1;galerie Z2400 anneau 9
+992;Plafond métal;1064.7;-2444.1;2400.0;300;293.54;2666.0;galerie Z2400 anneau 9
+993;Plafond métal;1324.5;-2294.1;2400.0;300;300.0;2649.0;galerie Z2400 anneau 9
+994;Plafond métal;1584.3;-2144.1;2400.0;300;306.46;2666.0;galerie Z2400 anneau 9
+995;Plafond métal;1844.1;-1994.1;2400.0;300;312.76;2716.1;galerie Z2400 anneau 9
+996;Plafond triangle métal;2086.5;-1724.3;2400.0;330;320.43;2706.8;galerie Z2400 anneau 9
+997;Plafond triangle métal;2236.5;-1464.5;2400.0;330;326.78;2673.3;galerie Z2400 anneau 9
+998;Plafond triangle métal;2386.5;-1204.7;2400.0;330;333.22;2673.3;galerie Z2400 anneau 9
+999;Plafond triangle métal;2536.5;-944.9;2400.0;330;339.57;2706.8;galerie Z2400 anneau 9
+1000;Plafond triangle métal;2011.5;-1854.2;2400.0;150;317.33;2735.7;galerie Z2400 anneau 9
+1001;Plafond triangle métal;2161.5;-1594.4;2400.0;150;323.59;2685.9;galerie Z2400 anneau 9
+1002;Plafond triangle métal;2311.5;-1334.6;2400.0;150;330.0;2669.1;galerie Z2400 anneau 9
+1003;Plafond triangle métal;2461.5;-1074.8;2400.0;150;336.41;2685.9;galerie Z2400 anneau 9
+1004;Plafond triangle métal;2611.5;-815.0;2400.0;150;342.67;2735.7;galerie Z2400 anneau 9
+1005;Pilier fin métal (Thin Pillar);2499.0;-750.0;2400.0;0;343.29;2609.2;appui appentis c0 t-750 : poteau
+1006;Pilier fin métal (Thin Pillar);2499.0;-450.0;2400.0;0;349.79;2539.2;appui appentis c0 t-450 : poteau
+1007;Pilier fin métal (Thin Pillar);2499.0;-150.0;2400.0;0;356.57;2503.5;appui appentis c0 t-150 : poteau
+1008;Pilier fin métal (Thin Pillar);2499.0;150.0;2400.0;0;3.43;2503.5;appui appentis c0 t+150 : poteau
+1009;Pilier fin métal (Thin Pillar);2499.0;450.0;2400.0;0;10.21;2539.2;appui appentis c0 t+450 : poteau
+1010;Pilier fin métal (Thin Pillar);2499.0;750.0;2400.0;0;16.71;2609.2;appui appentis c0 t+750 : poteau
+1011;Pilier fin métal (Thin Pillar);2539.2;600.0;2400.0;30;13.29;2609.2;appui appentis c1 t-750 : poteau
+1012;Pilier fin métal (Thin Pillar);2389.2;859.8;2400.0;30;19.79;2539.2;appui appentis c1 t-450 : poteau
+1013;Pilier fin métal (Thin Pillar);2239.2;1119.6;2400.0;30;26.57;2503.5;appui appentis c1 t-150 : poteau
+1014;Pilier fin métal (Thin Pillar);2089.2;1379.4;2400.0;30;33.43;2503.5;appui appentis c1 t+150 : poteau
+1015;Pilier fin métal (Thin Pillar);1939.2;1639.2;2400.0;30;40.21;2539.2;appui appentis c1 t+450 : poteau
+1016;Pilier fin métal (Thin Pillar);1789.2;1899.0;2400.0;30;46.71;2609.2;appui appentis c1 t+750 : poteau
+1017;Pilier fin métal (Thin Pillar);1899.0;1789.2;2400.0;60;43.29;2609.2;appui appentis c2 t-750 : poteau
+1018;Pilier fin métal (Thin Pillar);1639.2;1939.2;2400.0;60;49.79;2539.2;appui appentis c2 t-450 : poteau
+1019;Pilier fin métal (Thin Pillar);1379.4;2089.2;2400.0;60;56.57;2503.5;appui appentis c2 t-150 : poteau
+1020;Pilier fin métal (Thin Pillar);859.8;2389.2;2400.0;60;70.21;2539.2;appui appentis c2 t+450 : poteau
+1021;Pilier fin métal (Thin Pillar);600.0;2539.2;2400.0;60;76.71;2609.2;appui appentis c2 t+750 : poteau
+1022;Pilier fin métal (Thin Pillar);750.0;2499.0;2400.0;90;73.29;2609.2;appui appentis c3 t-750 : poteau
+1023;Pilier fin métal (Thin Pillar);450.0;2499.0;2400.0;90;79.79;2539.2;appui appentis c3 t-450 : poteau
+1024;Pilier fin métal (Thin Pillar);150.0;2499.0;2400.0;90;86.57;2503.5;appui appentis c3 t-150 : poteau
+1025;Pilier fin métal (Thin Pillar);-150.0;2499.0;2400.0;90;93.43;2503.5;appui appentis c3 t+150 : poteau
+1026;Pilier fin métal (Thin Pillar);-450.0;2499.0;2400.0;90;100.21;2539.2;appui appentis c3 t+450 : poteau
+1027;Pilier fin métal (Thin Pillar);-750.0;2499.0;2400.0;90;106.71;2609.2;appui appentis c3 t+750 : poteau
+1028;Pilier fin métal (Thin Pillar);-600.0;2539.2;2400.0;120;103.29;2609.2;appui appentis c4 t-750 : poteau
+1029;Pilier fin métal (Thin Pillar);-859.8;2389.2;2400.0;120;109.79;2539.2;appui appentis c4 t-450 : poteau
+1030;Pilier fin métal (Thin Pillar);-1119.6;2239.2;2400.0;120;116.57;2503.5;appui appentis c4 t-150 : poteau
+1031;Pilier fin métal (Thin Pillar);-1379.4;2089.2;2400.0;120;123.43;2503.5;appui appentis c4 t+150 : poteau
+1032;Pilier fin métal (Thin Pillar);-1639.2;1939.2;2400.0;120;130.21;2539.2;appui appentis c4 t+450 : poteau
+1033;Pilier fin métal (Thin Pillar);-1899.0;1789.2;2400.0;120;136.71;2609.2;appui appentis c4 t+750 : poteau
+1034;Pilier fin métal (Thin Pillar);-1789.2;1899.0;2400.0;150;133.29;2609.2;appui appentis c5 t-750 : poteau
+1035;Pilier fin métal (Thin Pillar);-1939.2;1639.2;2400.0;150;139.79;2539.2;appui appentis c5 t-450 : poteau
+1036;Pilier fin métal (Thin Pillar);-2089.2;1379.4;2400.0;150;146.57;2503.5;appui appentis c5 t-150 : poteau
+1037;Pilier fin métal (Thin Pillar);-2239.2;1119.6;2400.0;150;153.43;2503.5;appui appentis c5 t+150 : poteau
+1038;Pilier fin métal (Thin Pillar);-2239.2;-1119.6;2400.0;210;206.57;2503.5;appui appentis c7 t-150 : poteau
+1039;Pilier fin métal (Thin Pillar);-2089.2;-1379.4;2400.0;210;213.43;2503.5;appui appentis c7 t+150 : poteau
+1040;Pilier fin métal (Thin Pillar);-1939.2;-1639.2;2400.0;210;220.21;2539.2;appui appentis c7 t+450 : poteau
+1041;Pilier fin métal (Thin Pillar);-1789.2;-1899.0;2400.0;210;226.71;2609.2;appui appentis c7 t+750 : poteau
+1042;Pilier fin métal (Thin Pillar);-1899.0;-1789.2;2400.0;240;223.29;2609.2;appui appentis c8 t-750 : poteau
+1043;Pilier fin métal (Thin Pillar);-1639.2;-1939.2;2400.0;240;229.79;2539.2;appui appentis c8 t-450 : poteau
+1044;Pilier fin métal (Thin Pillar);-1379.4;-2089.2;2400.0;240;236.57;2503.5;appui appentis c8 t-150 : poteau
+1045;Pilier fin métal (Thin Pillar);-1119.6;-2239.2;2400.0;240;243.43;2503.5;appui appentis c8 t+150 : poteau
+1046;Pilier fin métal (Thin Pillar);-859.8;-2389.2;2400.0;240;250.21;2539.2;appui appentis c8 t+450 : poteau
+1047;Pilier fin métal (Thin Pillar);-600.0;-2539.2;2400.0;240;256.71;2609.2;appui appentis c8 t+750 : poteau
+1048;Pilier fin métal (Thin Pillar);-750.0;-2499.0;2400.0;270;253.29;2609.2;appui appentis c9 t-750 : poteau
+1049;Pilier fin métal (Thin Pillar);-450.0;-2499.0;2400.0;270;259.79;2539.2;appui appentis c9 t-450 : poteau
+1050;Pilier fin métal (Thin Pillar);-150.0;-2499.0;2400.0;270;266.57;2503.5;appui appentis c9 t-150 : poteau
+1051;Pilier fin métal (Thin Pillar);150.0;-2499.0;2400.0;270;273.43;2503.5;appui appentis c9 t+150 : poteau
+1052;Pilier fin métal (Thin Pillar);450.0;-2499.0;2400.0;270;280.21;2539.2;appui appentis c9 t+450 : poteau
+1053;Pilier fin métal (Thin Pillar);750.0;-2499.0;2400.0;270;286.71;2609.2;appui appentis c9 t+750 : poteau
+1054;Pilier fin métal (Thin Pillar);600.0;-2539.2;2400.0;300;283.29;2609.2;appui appentis c10 t-750 : poteau
+1055;Pilier fin métal (Thin Pillar);859.8;-2389.2;2400.0;300;289.79;2539.2;appui appentis c10 t-450 : poteau
+1056;Pilier fin métal (Thin Pillar);1119.6;-2239.2;2400.0;300;296.57;2503.5;appui appentis c10 t-150 : poteau
+1057;Pilier fin métal (Thin Pillar);1639.2;-1939.2;2400.0;300;310.21;2539.2;appui appentis c10 t+450 : poteau
+1058;Pilier fin métal (Thin Pillar);1899.0;-1789.2;2400.0;300;316.71;2609.2;appui appentis c10 t+750 : poteau
+1059;Pilier fin métal (Thin Pillar);1789.2;-1899.0;2400.0;330;313.29;2609.2;appui appentis c11 t-750 : poteau
+1060;Pilier fin métal (Thin Pillar);1939.2;-1639.2;2400.0;330;319.79;2539.2;appui appentis c11 t-450 : poteau
+1061;Pilier fin métal (Thin Pillar);2089.2;-1379.4;2400.0;330;326.57;2503.5;appui appentis c11 t-150 : poteau
+1062;Pilier fin métal (Thin Pillar);2239.2;-1119.6;2400.0;330;333.43;2503.5;appui appentis c11 t+150 : poteau
+1063;Pilier fin métal (Thin Pillar);2389.2;-859.8;2400.0;330;340.21;2539.2;appui appentis c11 t+450 : poteau
+1064;Pilier fin métal (Thin Pillar);2539.2;-600.0;2400.0;330;346.71;2609.2;appui appentis c11 t+750 : poteau
+1065;Rampe inclinée métal (Sloped Railing);2649.0;-750.0;2400.0;270;344.19;2753.2;appentis r0 c0 t-750
+1066;Rampe inclinée métal (Sloped Railing);2649.0;-450.0;2400.0;270;350.36;2687.0;appentis r0 c0 t-450
+1067;Rampe inclinée métal (Sloped Railing);2649.0;-150.0;2400.0;270;356.76;2653.3;appentis r0 c0 t-150
+1068;Rampe inclinée métal (Sloped Railing);2649.0;150.0;2400.0;270;3.24;2653.3;appentis r0 c0 t+150
+1069;Rampe inclinée métal (Sloped Railing);2649.0;450.0;2400.0;270;9.64;2687.0;appentis r0 c0 t+450
+1070;Rampe inclinée métal (Sloped Railing);2649.0;750.0;2400.0;270;15.81;2753.2;appentis r0 c0 t+750
+1071;Rampe inclinée métal (Sloped Railing);2669.1;675.0;2400.0;300;14.19;2753.2;appentis r0 c1 t-750
+1072;Rampe inclinée métal (Sloped Railing);2519.1;934.8;2400.0;300;20.36;2687.0;appentis r0 c1 t-450
+1073;Rampe inclinée métal (Sloped Railing);2369.1;1194.6;2400.0;300;26.76;2653.3;appentis r0 c1 t-150
+1074;Rampe inclinée métal (Sloped Railing);2219.1;1454.4;2400.0;300;33.24;2653.3;appentis r0 c1 t+150
+1075;Rampe inclinée métal (Sloped Railing);2069.1;1714.2;2400.0;300;39.64;2687.0;appentis r0 c1 t+450
+1076;Rampe inclinée métal (Sloped Railing);1919.1;1974.0;2400.0;300;45.81;2753.2;appentis r0 c1 t+750
+1077;Rampe inclinée métal (Sloped Railing);1974.0;1919.1;2400.0;330;44.19;2753.2;appentis r0 c2 t-750
+1078;Rampe inclinée métal (Sloped Railing);1714.2;2069.1;2400.0;330;50.36;2687.0;appentis r0 c2 t-450
+1079;Rampe inclinée métal (Sloped Railing);1454.4;2219.1;2400.0;330;56.76;2653.3;appentis r0 c2 t-150
+1080;Rampe inclinée métal (Sloped Railing);1194.6;2369.1;2400.0;330;63.24;2653.3;appentis r0 c2 t+150
+1081;Rampe inclinée métal (Sloped Railing);934.8;2519.1;2400.0;330;69.64;2687.0;appentis r0 c2 t+450
+1082;Rampe inclinée métal (Sloped Railing);675.0;2669.1;2400.0;330;75.81;2753.2;appentis r0 c2 t+750
+1083;Rampe inclinée métal (Sloped Railing);750.0;2649.0;2400.0;0;74.19;2753.2;appentis r0 c3 t-750
+1084;Rampe inclinée métal (Sloped Railing);450.0;2649.0;2400.0;0;80.36;2687.0;appentis r0 c3 t-450
+1085;Rampe inclinée métal (Sloped Railing);150.0;2649.0;2400.0;0;86.76;2653.3;appentis r0 c3 t-150
+1086;Rampe inclinée métal (Sloped Railing);-150.0;2649.0;2400.0;0;93.24;2653.3;appentis r0 c3 t+150
+1087;Rampe inclinée métal (Sloped Railing);-450.0;2649.0;2400.0;0;99.64;2687.0;appentis r0 c3 t+450
+1088;Rampe inclinée métal (Sloped Railing);-750.0;2649.0;2400.0;0;105.81;2753.2;appentis r0 c3 t+750
+1089;Rampe inclinée métal (Sloped Railing);-675.0;2669.1;2400.0;30;104.19;2753.2;appentis r0 c4 t-750
+1090;Rampe inclinée métal (Sloped Railing);-934.8;2519.1;2400.0;30;110.36;2687.0;appentis r0 c4 t-450
+1091;Rampe inclinée métal (Sloped Railing);-1194.6;2369.1;2400.0;30;116.76;2653.3;appentis r0 c4 t-150
+1092;Rampe inclinée métal (Sloped Railing);-1454.4;2219.1;2400.0;30;123.24;2653.3;appentis r0 c4 t+150
+1093;Rampe inclinée métal (Sloped Railing);-1714.2;2069.1;2400.0;30;129.64;2687.0;appentis r0 c4 t+450
+1094;Rampe inclinée métal (Sloped Railing);-1974.0;1919.1;2400.0;30;135.81;2753.2;appentis r0 c4 t+750
+1095;Rampe inclinée métal (Sloped Railing);-1919.1;1974.0;2400.0;60;134.19;2753.2;appentis r0 c5 t-750
+1096;Rampe inclinée métal (Sloped Railing);-2069.1;1714.2;2400.0;60;140.36;2687.0;appentis r0 c5 t-450
+1097;Rampe inclinée métal (Sloped Railing);-2219.1;1454.4;2400.0;60;146.76;2653.3;appentis r0 c5 t-150
+1098;Rampe inclinée métal (Sloped Railing);-2369.1;1194.6;2400.0;60;153.24;2653.3;appentis r0 c5 t+150
+1099;Rampe inclinée métal (Sloped Railing);-2369.1;-1194.6;2400.0;120;206.76;2653.3;appentis r0 c7 t-150
+1100;Rampe inclinée métal (Sloped Railing);-2219.1;-1454.4;2400.0;120;213.24;2653.3;appentis r0 c7 t+150
+1101;Rampe inclinée métal (Sloped Railing);-2069.1;-1714.2;2400.0;120;219.64;2687.0;appentis r0 c7 t+450
+1102;Rampe inclinée métal (Sloped Railing);-1919.1;-1974.0;2400.0;120;225.81;2753.2;appentis r0 c7 t+750
+1103;Rampe inclinée métal (Sloped Railing);-1974.0;-1919.1;2400.0;150;224.19;2753.2;appentis r0 c8 t-750
+1104;Rampe inclinée métal (Sloped Railing);-1714.2;-2069.1;2400.0;150;230.36;2687.0;appentis r0 c8 t-450
+1105;Rampe inclinée métal (Sloped Railing);-1454.4;-2219.1;2400.0;150;236.76;2653.3;appentis r0 c8 t-150
+1106;Rampe inclinée métal (Sloped Railing);-1194.6;-2369.1;2400.0;150;243.24;2653.3;appentis r0 c8 t+150
+1107;Rampe inclinée métal (Sloped Railing);-934.8;-2519.1;2400.0;150;249.64;2687.0;appentis r0 c8 t+450
+1108;Rampe inclinée métal (Sloped Railing);-675.0;-2669.1;2400.0;150;255.81;2753.2;appentis r0 c8 t+750
+1109;Rampe inclinée métal (Sloped Railing);-750.0;-2649.0;2400.0;180;254.19;2753.2;appentis r0 c9 t-750
+1110;Rampe inclinée métal (Sloped Railing);-450.0;-2649.0;2400.0;180;260.36;2687.0;appentis r0 c9 t-450
+1111;Rampe inclinée métal (Sloped Railing);-150.0;-2649.0;2400.0;180;266.76;2653.3;appentis r0 c9 t-150
+1112;Rampe inclinée métal (Sloped Railing);150.0;-2649.0;2400.0;180;273.24;2653.3;appentis r0 c9 t+150
+1113;Rampe inclinée métal (Sloped Railing);450.0;-2649.0;2400.0;180;279.64;2687.0;appentis r0 c9 t+450
+1114;Rampe inclinée métal (Sloped Railing);750.0;-2649.0;2400.0;180;285.81;2753.2;appentis r0 c9 t+750
+1115;Rampe inclinée métal (Sloped Railing);675.0;-2669.1;2400.0;210;284.19;2753.2;appentis r0 c10 t-750
+1116;Rampe inclinée métal (Sloped Railing);934.8;-2519.1;2400.0;210;290.36;2687.0;appentis r0 c10 t-450
+1117;Rampe inclinée métal (Sloped Railing);1194.6;-2369.1;2400.0;210;296.76;2653.3;appentis r0 c10 t-150
+1118;Rampe inclinée métal (Sloped Railing);1454.4;-2219.1;2400.0;210;303.24;2653.3;appentis r0 c10 t+150
+1119;Rampe inclinée métal (Sloped Railing);1714.2;-2069.1;2400.0;210;309.64;2687.0;appentis r0 c10 t+450
+1120;Rampe inclinée métal (Sloped Railing);1974.0;-1919.1;2400.0;210;315.81;2753.2;appentis r0 c10 t+750
+1121;Rampe inclinée métal (Sloped Railing);1919.1;-1974.0;2400.0;240;314.19;2753.2;appentis r0 c11 t-750
+1122;Rampe inclinée métal (Sloped Railing);2069.1;-1714.2;2400.0;240;320.36;2687.0;appentis r0 c11 t-450
+1123;Rampe inclinée métal (Sloped Railing);2219.1;-1454.4;2400.0;240;326.76;2653.3;appentis r0 c11 t-150
+1124;Rampe inclinée métal (Sloped Railing);2369.1;-1194.6;2400.0;240;333.24;2653.3;appentis r0 c11 t+150
+1125;Rampe inclinée métal (Sloped Railing);2519.1;-934.8;2400.0;240;339.64;2687.0;appentis r0 c11 t+450
+1126;Rampe inclinée métal (Sloped Railing);2669.1;-675.0;2400.0;240;345.81;2753.2;appentis r0 c11 t+750

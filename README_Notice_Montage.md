@@ -47,8 +47,8 @@ Le centre est une **tour** (le pod), dont vous pouvez faire varier la hauteur. �
    Dans chaque plan, chaque pièce vient après ce qui la porte, et aucun plan ne s'appuie sur un plan posé plus tard.
 2. **Le pod est une tour en murs pleins**, du sol à Z2700 par défaut. Son toit se cale sur un **mur de D4 de référence**, qui se snappe sur le haut de la tour. Vous pouvez donc la rehausser d'autant de niveaux que vous voulez pour la reproduction ; la toiture, le toit en rampes et les tourelles du dessus suivent.
 3. **Tous les murs sont des cadres de porte doubles**, comme sur les tours 1201 et 1809, **sauf ceux de la tour du pod** : murs pleins, percés de ses portes.
-4. **Toit en rampes D4 → centre** posé sur une **toiture pleine** (plancher fermé) : 170 rampes et 96 poteaux de piliers fins sous les jonctions de lames. La toiture pleine peut aussi rester seule, en toit plat.
-5. **Poteaux de stabilité** : chaque ligne de rampes qui monte a des poteaux en plus de ceux des tours (toit, pente A, appentis). Elle tient encore si l'un de ses appuis est détruit : 431 lames sur 431. Ils **remplacent la colonnade**, qui passe en option.
+4. **Toit en rampes D4 → centre** posé sur une **toiture pleine** (plancher fermé) : 175 rampes et 101 poteaux de piliers fins sous les jonctions de lames. La toiture pleine peut aussi rester seule, en toit plat.
+5. **Poteaux de stabilité** : chaque ligne de rampes qui monte a des poteaux en plus de ceux des tours (toit, pente A, appentis). Elle tient encore si l'un de ses appuis est détruit : 443 lames sur 445. Ils **remplacent la colonnade**, qui passe en option.
 6. **Défense : 100 places au cap, Tesla et Plant X comprises** : 49 Heavy, 26 Tek, 10 Tesla et 15 Plant Species X (en carrés de culture). **Aucune tourelle sous le niveau des fondations centrales** (Z0) : les Heavy de la jupe sont remplacées par une 2e Heavy de rive par côté. Elles sont réparties en 3 plans :
    - du bord à D4 ;
    - le périmètre de la tour ;
@@ -60,15 +60,15 @@ Le centre est une **tour** (le pod), dont vous pouvez faire varier la hauteur. �
    - 124 fondations retirées ;
    - 10 fondations de plateforme verte, sans rien dessus ;
    - la base est fermée sur le gouffre par des murs de bord ;
-   - 12 lames de casquette du trou ;
+   - 6 lames de casquette du trou ;
    - 8 tourelles face au gouffre.
 9. **Tourelles verticales** sur mur de chaume, comme le template 2727 et la tour 1809. Les 79 murs de chaume sont dans les plans de zone, à leur place dans les murs ; **démolissez-les après la pose des tourelles** (`donnees/08_chaume_a_demolir.csv`).
-10. **Coût** : il reste à fabriquer ≈ **143 600 lingots de métal** et **36 500 pâte cimentée**, équipements compris (sauf les boîtes de munitions, coût non relevé), hors tourelles (déjà en inventaire). La colonnade en option coûte 5 650 lingots ; chaque niveau de rehausse, 1 900 lingots (module 07).
+10. **Coût** : il reste à fabriquer ≈ **147 300 lingots de métal** et **37 600 pâte cimentée**, équipements compris (sauf les boîtes de munitions, coût non relevé), hors tourelles (déjà en inventaire). La colonnade en option coûte 5 650 lingots ; chaque niveau de rehausse, 1 900 lingots (module 07).
 11. **Limites moteur** (module 09) :
-    - 5 691 structures (5 779 au plus fort du chantier) pour un plafond de 8 400 ;
+    - 5 976 structures (6 064 au plus fort du chantier) pour un plafond de 8 400 ;
     - 17 murs de haut ;
     - aucun plafond à plus de 2 cases d'un appui au sol.
-12. **Aucun toit incliné : des rampes partout.** Sur un toit à 45°, on tient debout ; sur des rampes inclinées (Sloped Railing), rien ne tient et tout glisse : 758 rampes en lignes de lames, comme sur les tours. Rien n'est accroché sous les fondations : le débord est une seule lame pendue au haut de la jupe.
+12. **Aucun toit incliné : des rampes partout.** Sur un toit à 45°, on tient debout ; sur des rampes inclinées (Sloped Railing), rien ne tient et tout glisse : 777 rampes en lignes de lames, comme sur les tours. **Chaque ligne part de la tête d'un pilier fin posé dans le joint de deux murs** (257 piliers fins de départ) : en jeu, une lame ne se pose pas directement sur le haut d'un mur (module 08 §3.1). Rien n'est accroché sous les fondations : le débord est une seule lame pendue au haut de la jupe.
 
 ## 2. Conventions (relevées dans les templates fournis)
 
@@ -81,7 +81,7 @@ Le centre est une **tour** (le pod), dont vous pouvez faire varier la hauteur. �
 | z template | fondation Z + 40 · mur, cadre Z_bas + 240 · plafond Z + 90 · pilier Z_bas + 240 · carré de culture, tourelle debout Z + 100 | templates 1201, 1087, 1584, mho |
 | Triangle | pivot à mi-hauteur, yaw = base → pointe (aussi valable à ± 120°) | contrôle 481 : 282/282 |
 | Rampe inclinée (StructureBP_Railing_Sloped_Metal) | lignes de lames au pas de 300 ; +300 UU en hauteur par pas de 300 UU ; pivot au milieu de la rampe, z template = Z du bas + 290 ; yaw = θ du côté − 90° | tours 1201, 1809 |
-| Appui d'une ligne de rampes | part d'un haut de mur, d'un bord de plancher ou d'une tête de pilier ; au plus 6 lames libres, 7 entre deux appuis, 1 seule en porte-à-faux ; **poteaux de stabilité** sous les jonctions 1, 4, 7… et le bout haut des lignes montantes | tours 1809 et 1201 ; votre demande |
+| Appui d'une ligne de rampes | part de la **tête d'un pilier fin posé dans le joint de deux murs** (jamais du haut d'un mur seul : 52 départs sur 52 de la tour 1809 ont ce pilier) ; au plus 6 lames libres, 7 entre deux appuis, 1 seule en porte-à-faux ; **poteaux de stabilité** sous les jonctions 1, 4, 7… et le bout haut des lignes montantes | tours 1809 et 1201 ; votre demande |
 | Tourelle verticale | mur de chaume dans l'emplacement ; pivot 10 UU devant, à mi-hauteur ; Heavy/Tek : pitch −89,5°, yaw θ_tir + 90°, roll −90° ; Tesla : pitch 0°, yaw θ_tir + 90°, roll −90° | templates 2727, 1809 |
 | Mur de référence (plans 9 à 11, rehausse) | mur de D4 du côté θ 90° : A (x = +150, au-dessus de la porte du hall), B (−150), C (−450) ; il se snappe sur le haut de la tour | ce projet |
 | Pilier « large » | Pillar_Metal, largeur prise à 39,3 UU (1 pilier / 1 vide) | template 704 |
@@ -103,6 +103,7 @@ Le centre est une **tour** (le pod), dont vous pouvez faire varier la hauteur. �
 |---|---|
 | `templates/plans/Plan_01…11_*.json` | **Les 11 plans par zone**, à poser dans l'ordre (§5) |
 | `templates/plans/Option_rehausse_pod_+1_niveau.json` | Un niveau de plus pour la tour du pod |
+| `templates/test/Essai_rampes.json` | Essai court (50 pièces, sol plat) : 4 façons de faire partir une ligne de rampes (module 08 §7) |
 | `templates/test/Secteur_test_theta_-15_45.json` | Essai en solo : un secteur de 60° de tous les plans (module 08 §7) |
 | `references/Trou_points_ancrage.json` | Votre export *trou* (60 fondations + pilier de référence), qui sert au recalage |
 | `references/Trou_fondations.json` | Fondations du trou relevées sur votre image : `retirees` (blanc), `plateforme` (vert) |
@@ -142,15 +143,15 @@ Le centre est une **tour** (le pod), dont vous pouvez faire varier la hauteur. �
 |---|---|---|---|---|
 | 1 | `Plan_01_sol_complet.json` | toutes les fondations (paliers et plateforme verte compris), pile d'ancrage | 1 030 | pile |
 | 2 | `Plan_02_colonnade_option.json` | **option** : colonnade de 226 piliers sous la pente A | 227 | pile |
-| 3 | `Plan_03_bord_D8-D7.json` | rive et jupe en cadres doubles, overhang et débord, poteaux sur les paliers, chaume de la rive | 660 | pile |
+| 3 | `Plan_03_bord_D8-D7.json` | rive et jupe en cadres doubles, piliers fins de départ des lignes, overhang et débord, poteaux sur les paliers, chaume de la rive | 819 | pile |
 | 4 | `Plan_04_D7-D5_pente_A.json` | pente A et ses 146 poteaux de stabilité, murs de bord du trou | 808 | pile |
-| 5 | `Plan_05_tour_du_pod_D4.json` | tour du pod en murs pleins jusqu'à Z2700, piliers PA/PB, escaliers, mezzanine, cages du noyau, chaume de l'anneau D4 | 982 | pile |
-| 6 | `Plan_06_D5-D4_cage_et_appentis.json` | fût, L1 et L2 en cadres doubles, galeries, casquette, appentis et ses poteaux, chaume de L1 | 1 046 | pile |
+| 5 | `Plan_05_tour_du_pod_D4.json` | tour du pod en murs pleins jusqu'à Z2700, piliers PA/PB, escaliers, mezzanine, cages du noyau, chaume de l'anneau D4 | 984 | pile |
+| 6 | `Plan_06_D5-D4_cage_et_appentis.json` | fût, L1 et L2 en cadres doubles, piliers fins de départ, galeries, casquette, appentis et ses poteaux, chaume de L1 | 1 127 | pile |
 | 7 | `Plan_07_tourelles_D8-D4.json` | 41 Heavy, 18 Tek, 6 Tesla, 5 grands carrés de culture | 71 | pile |
 | 8 | `Plan_08_tourelles_perimetre_pod.json` | 6 Heavy, 6 Tek, 2 Tesla, 6 carrés de culture moyens | 21 | pile |
 | — | `Option_rehausse_pod_+1_niveau.json` | **option, autant de fois que voulu** : +1 niveau de tour | 76 | mur A |
-| 9 | `Plan_09_toiture_pleine_D4-centre.json` | couronne, piliers PA/PB, plancher de toit (toit plat, trappe) | 335 | mur A |
-| 10 | `Plan_10_toit_en_rampes_D4-centre.json` | toit en rampes, 96 poteaux, casquette du trou | 467 | mur C |
+| 9 | `Plan_09_toiture_pleine_D4-centre.json` | couronne et ses piliers fins de départ, piliers PA/PB, plancher de toit (toit plat, trappe) | 377 | mur A |
+| 10 | `Plan_10_toit_en_rampes_D4-centre.json` | toit en rampes, 101 poteaux, casquette du trou | 468 | mur C |
 | 11 | `Plan_11_tourelles_dessus.json` | 2 Heavy, 2 Tek, 2 Tesla, 4 carrés de culture, debout sur le plancher de toit | 11 | mur B |
 
 **Notes**
@@ -171,23 +172,24 @@ Le centre est une **tour** (le pod), dont vous pouvez faire varier la hauteur. �
 
 | Poste | Lingots | Pâte | Autres |
 |---|---|---|---|
-| Structure des plans (5 244 pièces, sans la colonnade) | 115 665 | 33 557 | — |
+| Structure des plans (5 529 pièces, sans la colonnade) | 119 351 | 34 678 | — |
 | Carrés de culture (9 grands, 6 moyens) | — | — | 360 bois, 570 chaume, 540 fibre, 1 200 pierre |
 | Ancres (8 demi-piliers, temporaires) | 104 | 32 | — |
 | 74 murs de pics | 1 850 | — | 1 480 cuir, 2 220 fibre |
 | 79 murs de chaume (gabarits) | — | — | ~553 chaume, ~316 fibre, ~316 bois |
 | Équipements : 1 réplicateur, 1 forge à vapeur, 1 labo de fortune, 20 stockages dédiés, 20 coffres-forts, 2 générateurs Tek (2 boîtes de munitions non chiffrées) | 26 000 | 2 900 | 220 élément, 3 350 cristal, 470 perles noires, 5 850 polymère, 220 électroniques, 100 poudre étincelante, 1 400 huile |
-| **Total à fabriquer** | **143 619** | **36 489** | — |
+| **Total à fabriquer** | **147 305** | **37 610** | — |
 | *Tourelles (49 H, 26 T, 10 S), en inventaire* | *34 060* | *11 100* | *16 830 électroniques, 7 730 polymère, 2 000 cristal, 78 élément* |
 | Option colonnade | +5 650 | +1 582 | — |
 | Option rehausse, par niveau | +1 900 | +532 | — |
 
-Équivalent brut (hors tourelles) : ≈ 288 000 minerai de métal, ≈ 193 000 chitine ou kératine, ≈ 387 000 pierre.
+Équivalent brut (hors tourelles) : ≈ 295 000 minerai de métal, ≈ 197 000 chitine ou kératine, ≈ 396 000 pierre.
 
 ## 7. Points à valider en jeu (solo / serveur de test)
 
 | # | Point | Repli |
 |---|---|---|
+| 0 | **Départ des lignes de rampes** : `templates/test/Essai_rampes.json` (V1 doit se poser, V3 non) ; un poteau posé librement sur une fondation (V2) | Me dire quelles variantes se posent |
 | 1 | Le mur de référence d'un plan se snappe sur le haut de la tour et place le reste au bon endroit | Poser le mur de référence à la main, puis le plan en placement libre |
 | 2 | Une tourelle se fixe sur un mur de chaume posé par un autre plan | Poser chaume et tourelle à la main (template 2727) |
 | 3 | La tourelle, et le mur ou cadre posé au-dessus, restent en place quand on démolit le chaume | Laisser le chaume |

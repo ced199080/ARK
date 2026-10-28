@@ -18,11 +18,12 @@ Ces contrôles font partie du générateur. À chaque régénération, il refuse
 
 | Question | Résultat |
 |---|---|
-| Collisions entre pièces | **0 sur 5 652 pièces** (les 11 plans, colonnade comprise), sans aucun contact admis : plus rien n'est accroché sous les fondations (§5). Tour rehaussée d'un niveau : **0 sur 5 728 pièces** |
-| Rampes tenues, comme sur les tours | **Oui** : 758 rampes, chaque ligne part d'un appui, au plus 3 lames entre deux appuis, aucune lame pendue de plus d'une lame (§3) |
-| Rampes qui tiennent si un appui est détruit | **Toutes les lignes montantes** : toit du pod 170 lames sur 170, pente A 208 sur 208, appentis 53 sur 53. Les lames qui pendent d'une seule lame (casquettes, bout de l'overhang et du débord) restent comme sur les tours (§3.3) |
+| **Rampes non posées dans le secteur d'essai** | **Corrigé.** Toutes les lignes partaient directement du haut d'un mur, perpendiculairement. En jeu, une lame ne se pose pas ainsi : sur les tours 1201 et 1809, chaque départ de ligne sur un mur a un **pilier fin dans le joint** (52 sur 52 pour la 1809). Chaque ligne part maintenant de la tête d'un tel pilier (§3.1) : **257 piliers fins de départ** |
+| Collisions entre pièces | **0 sur 5 937 pièces** (les 11 plans, colonnade comprise), sans aucun contact admis : plus rien n'est accroché sous les fondations (§5). Tour rehaussée d'un niveau : **0 sur 6 013 pièces** |
+| Rampes tenues, comme sur les tours | **Oui** : 777 rampes, chaque ligne part de la tête d'un pilier fin, au plus 3 lames entre deux appuis, aucune lame pendue de plus d'une lame (§3) |
+| Rampes qui tiennent si un appui est détruit | **Les lignes montantes** : toit du pod 175 lames sur 175, pente A 208 sur 208, appentis 60 sur 62 (2 lignes sans poteau : la Tesla de la tour est devant). Les lames qui pendent d'une seule lame (casquettes, bout de l'overhang et du débord) restent comme sur les tours (§3.3) |
 | Ordre de pose | Plan après plan, chaque pièce après ce qui la porte : aucun plan ne s'appuie sur un plan posé plus tard (§6) |
-| Taille des plans | 11 à 1 046 entrées, sous la limite de 2 000 |
+| Taille des plans | 11 à 1 127 entrées, sous la limite de 2 000 |
 | Murs de chaume | **79**, un par tourelle verticale, listés dans `donnees/08_chaume_a_demolir.csv`. Ils sont dans les plans de zone, à leur place dans les murs. Rien d'autre n'est en chaume, et rien ne repose sur du chaume seul (§4) |
 
 ## 2. Comparaison avec vos templates
@@ -42,7 +43,15 @@ Ces contrôles font partie du générateur. À chaque régénération, il refuse
 ### 3.1 Règle, relevée sur les tours
 
 1. Une **ligne** est une file de rampes posées bout à bout, au pas de 300 UU.
-2. Elle **part d'un appui** : le haut d'un mur ou d'un cadre métal ; le bord d'un plancher ou d'une fondation (pas la plateforme verte) ; le bout d'une poutre fine ; la tête d'un pilier.
+2. Elle **part de la tête d'un pilier fin** (ou du bout d'une poutre fine), **jamais directement du haut d'un mur**. Relevé lame par lame sur les tours :
+
+   | Bout d'une lame posé sur un haut de mur | Tour 1201 | Tour 1809 |
+   |---|---|---|
+   | ligne **perpendiculaire** au mur, avec un pilier fin au joint | — | **52** |
+   | ligne perpendiculaire au mur, **sans** pilier fin | **0** | **0** |
+   | lame **parallèle** au mur (pignon), sans pilier fin | 34 | 42 |
+
+   Nos lignes partent toutes perpendiculairement aux murs, et aucune n'avait de pilier fin : c'est pour cela qu'aucune rampe ne se posait. Le générateur pose maintenant un **pilier fin de départ** dans chaque joint d'où part une ligne. Il est au dernier niveau du mur, sa tête au haut du mur. Il se pose sur le joint du niveau du dessous (ou sur la fondation, pour la jupe) et **avant** les murs qui l'encadrent, comme sur la tour 1809 : rive (75), jupe (84), L2 de la cage (54), couronne de la tour (42, plan 9), bord du trou (2). Les lignes du toit et de la casquette/appentis, qui partaient du milieu des murs, sont passées sur les joints.
 3. **Ligne qui monte** (toit, pente A, appentis) : au plus **6 lames** au-dessus du dernier appui ; au plus **7 lames** entre deux appuis (tour 1809).
 4. **Ligne qui pend** (casquette, overhang, débord, casquettes du trou) : **une seule lame en porte-à-faux** (lame de rive de la tour 1201). Au-delà, un poteau ou une poutre fine sous la jonction.
 5. **Le chaume n'est jamais un appui** : il est démoli.
@@ -67,14 +76,14 @@ Vous avez demandé des poteaux de piliers fins sous les jonctions de lames, en p
 
 | Pente | Plan | Rampes | Point de départ | Appuis | Lames qui tiennent si un appui est détruit |
 |---|---|---|---|---|---|
-| Toit du pod | 10 | 170 | haut de la couronne (Z3000) | **96 poteaux** (288 piliers fins) sur le plancher de toit | **170 / 170** |
-| Appentis | 6 | 53 | haut de D5 (Z2400) | **53 poteaux** (1 pilier fin) sur le toit de cage | **53 / 53** |
-| Pente A | 4 | 208 | haut de la rive, sur les joints des cadres | **146 poteaux** (563 piliers fins) sur le sol | **208 / 208** |
-| Casquette de D5 | 6 | 53 | haut de D5 | — | 1 lame pendue, comme à la tour 1201 |
-| Casquettes du trou | 6 et 10 | 12 | haut des murs de bord | — | 1 lame pendue |
-| Overhang | 3 | 168 | haut de la rive | **83 poteaux** sur les paliers (123 piliers fins, 43 demi-piliers fins) | le bout r−2 pend d'une lame |
-| Débord | 3 | 94 | haut de la jupe (Z0) | — | 1 lame pendue (`--debord 1`) |
-| **Total** | | **758** | | **378 poteaux** | |
+| Toit du pod | 10 | 175 | pilier fin dans un joint de la couronne (Z3000), plan 9 | **101 poteaux** (290 piliers fins) sur le plancher de toit | **175 / 175** |
+| Appentis | 6 | 62 | pilier fin dans un joint de L2 (Z2400) | **60 poteaux** (1 pilier fin) sur le toit de cage | **60 / 62** |
+| Pente A | 4 | 208 | pilier fin dans un joint de la rive (Z600), plan 3 | **146 poteaux** (563 piliers fins) sur le sol | **208 / 208** |
+| Casquette de D5 | 6 | 64 | pilier fin dans un joint de L2 | — | 1 lame pendue, comme à la tour 1201 |
+| Casquettes du trou | 6 et 10 | 6 | pilier fin au bout d'un mur de bord | — | 1 lame pendue |
+| Overhang | 3 | 168 | pilier fin dans un joint de la rive | **83 poteaux** sur les paliers (123 piliers fins, 43 demi-piliers fins) | le bout r−2 pend d'une lame |
+| Débord | 3 | 94 | pilier fin dans un joint de la jupe (Z0) | — | 1 lame pendue (`--debord 1`) |
+| **Total** | | **777** | **257 piliers fins de départ** | **390 poteaux** | |
 
 Le contrôle `verifier_appuis` reprend chaque rampe des plans, sans se servir de la façon dont elles ont été générées. Résultat :
 - aucune rampe sans appui ;
@@ -114,7 +123,7 @@ Liste complète, dans l'ordre de pose des tourelles : `donnees/08_chaume_a_demol
 
 Il donne aussi à chaque pièce un **noyau** : son volume sans les bords qui se touchent normalement au snap (arêtes de plancher, bouts de mur, tête et flancs de pilier, bouts de lame). Deux pièces sont **en collision** quand le noyau de l'une entre dans le volume de l'autre : c'est le cas que le jeu refuse (« obstrué »). Les poteaux de stabilité, qui ne se snappent à rien, sont contrôlés de tout leur volume (§3.2).
 
-**Résultat : 0 collision sur 5 652 pièces**, colonnade comprise, sans contact admis. Les cages du noyau (§ module 02 §6.1) n'entrent ni dans la colonne d'escaliers ni dans les piliers PB, qui sont à leurs coins.
+**Résultat : 0 collision sur 5 937 pièces**, colonnade comprise, sans contact admis. Un pilier fin de départ, dans un joint, ne touche que les bouts des murs qui l'encadrent, comme les piliers de la tour 1809. Les cages du noyau (module 02 §6.1) n'entrent ni dans la colonne d'escaliers ni dans les piliers PB, qui sont à leurs coins.
 
 ⚠ Les dimensions sont des hypothèses, à ± 10-20 UU des formes réelles du jeu. Le contrôle garantit qu'aucune pièce n'en traverse franchement une autre, pas que le jeu accepte chaque contact.
 
@@ -145,9 +154,20 @@ Il ne retient que les porteurs posés dans le même plan ou dans un plan précé
 | Les tourelles et les murs posés au-dessus restent en place après la démolition du chaume | Comportement de la tour 1809 et du template 2727 | Laisser le chaume |
 | Un carré de culture se pose sur un plafond métal et une graine de Plant X y pousse | La tour 1584 en pose sur des plafonds et des toits en pierre | Grand carré de culture posé à la main |
 
-**Template d'essai :** `templates/test/Secteur_test_theta_-15_45.json`, 1 047 entrées.
+**Essai court des départs de ligne :** `templates/test/Essai_rampes.json`, 50 entrées, à poser sur un sol plat (pas de pile d'ancrage). Il compare 4 façons de faire partir une ligne (`donnees/08_essai_rampes.csv` donne le n° de chaque entrée) :
+
+| Variante | Entrées | Départ de la ligne | Attendu |
+|---|---|---|---|
+| V0 | 0 à 12 | copie de la tour 1809 : pilier fin dans le joint, poutre fine sous la 1re lame | se pose |
+| V1 | 13 à 27 | **générateur** : pilier fin dans le joint, poteau sous la jonction 1 | se pose |
+| V2 | 28 à 35 | poteau de piliers fins posé librement sur une fondation, à 40 UU d'une arête (comme certains poteaux de la pente A) | à vérifier |
+| V3 | 36 à 49 | ancien départ, sur le haut des cadres sans pilier fin | ne se pose pas |
+
+Si V1 se pose et V3 non, la correction est confirmée. Si V2 ne se pose pas, dites-le moi : il faudra déplacer les poteaux sur des points de snap des fondations.
+
+**Template d'essai :** `templates/test/Secteur_test_theta_-15_45.json`, 1 179 entrées.
 - Il prend toutes les pièces entre θ −15° et 45° (2 côtés et une arête du dodécagone), dans l'ordre de pose des plans, avec la pile d'ancrage.
-- On y trouve chaque sorte de pièce et d'appui : rive et jupe en cadres doubles, pente A et ses poteaux de stabilité, overhang et poteaux sur les paliers, débord, cage, appentis, tour du pod et toit, 13 murs de chaume, 8 Heavy (dont les 2 de rive d'un côté), 5 Tek, 1 Tesla, 2 grands carrés de culture et 1 moyen.
+- On y trouve chaque sorte de pièce et d'appui : rive et jupe en cadres doubles avec leurs piliers fins de départ, pente A et ses poteaux de stabilité, overhang et poteaux sur les paliers, débord, cage, appentis, tour du pod et toit, 148 rampes, 13 murs de chaume, 8 Heavy (dont les 2 de rive d'un côté), 5 Tek, 1 Tesla, 2 grands carrés de culture et 1 moyen.
 - Le toit y est à sa hauteur par défaut, calé sur la pile.
 
 Posez-le en solo, sur la même plateforme. Notez les pièces refusées (leurs coordonnées sont dans `donnees/Plan_*.csv`), puis démolissez un mur de chaume. Au bord du secteur, quelques pièces peuvent manquer d'appui, puisque leur voisin est hors du secteur.
@@ -169,5 +189,6 @@ Posez-le en solo, sur la même plateforme. Notez les pièces refusées (leurs co
 | Audit : écart entre tourelles | `defense()` et `emplacements_trou()` refusent deux tourelles à moins de `ecart_tourelles` (300 UU, une largeur de mur) |
 | Audit : noyau | `cages_noyau()` : 2 générateurs Tek et 2 boîtes de munitions sur l'anneau 1, en cage (`NOYAU`) ; stockages du hall avec allée d'une fondation (contrôle) |
 | Audit : carrés de culture | volume réel du grand carré (300 UU) ; carré moyen (`crop_m`) dans la poche du toit de cage |
+| Départ des lignes de rampes | `consolider_rampes()` pose un pilier fin de départ dans le joint de chaque ligne (plan du mur, avant les murs de son niveau) et retire une ligne qui ne part pas d'un joint ; `porteurs()` et `verifier_appuis()` n'acceptent plus le haut d'un mur comme appui d'une lame ; toit, casquette et appentis sur les joints ; `essai_rampes()` |
 
-Options vérifiées, avec les mêmes contrôles, tour rehaussée comprise : `--appuis tours` (4 795 structures), `--appuis prudent` (5 259), `--casquette 2` (6 063), `--colonnade 2560` (5 619). `--debord 2` n'a plus d'effet : sans niveau de jupe sous les fondations, le 2e rang n'a pas d'appui et le script le retire (94 lignes raccourcies).
+Options vérifiées, avec les mêmes contrôles, tour rehaussée comprise : `--appuis tours` (5 074 structures), `--appuis prudent` (5 534), `--colonnade 2560` (5 904). `--debord 2` et `--casquette 2` n'ont plus d'effet : le 2e rang n'a pas d'appui (plus de jupe sous les fondations ; les poteaux de la casquette tomberaient sur les lignes de la pente A, qui partent des mêmes joints) et le script le retire.

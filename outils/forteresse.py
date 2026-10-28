@@ -366,8 +366,9 @@ def pente(t, systeme, A_ancre, Z_ancre, sens, repere, nb=None, demi=False, filtr
 
     sens=+1 : la pente monte vers le centre depuis l'ancre (toit, pente A) ; sens=-1 : elle descend vers l'extérieur
     (casquette, overhang, débord). Les lames forment des lignes radiales au pas de 300 UU : t = 0, ±300… (demi=False)
-    ou t = ±150, ±450… (demi=True : sur les joints des murs, comme les lignes de rampes des tours, ce qui laisse le
-    milieu des murs libre pour les tourelles). Chaque ligne part de l'ancre et s'arrête à la première lame au-dessus
+    ou t = ±150, ±450… (demi=True). Chaque ligne doit partir d'un JOINT de murs (côté pair : demi=False ; impair :
+    demi=True) : en jeu, une lame perpendiculaire à un mur ne se pose pas sur son haut, il lui faut la tête du pilier
+    fin posé dans le joint (tour 1809 : 52 départs sur 52), que consolider_rampes ajoute. Chaque ligne part de l'ancre et s'arrête à la première lame au-dessus
     du trou (filtre) ou qui dépasserait l'arête du côté de plus de 150 UU : une ligne est toujours continue depuis son
     appui. Les lames qui se croisent aux arêtes ou heurtent une structure sont retirées ensuite, en bout de ligne, et les
     lignes reçoivent leurs poteaux (consolider_rampes).
@@ -560,7 +561,8 @@ def casquette_trou(p, hauts):
     """Casquette du bord du trou : la toiture en rampes se prolonge au-dessus du gouffre, comme la casquette de D5.
 
     Une lame par mur de bord de `hauts` (murs du couloir, jusqu'au toit de cage Z2400 ; murs du pod, jusqu'au haut de
-    la couronne) : elle part du haut du mur et descend de 300 UU vers le gouffre, au-dessus des tourelles reposées face
+    la couronne) : elle part du haut du mur, à l'un de ses bouts (joint : pilier fin de départ), et descend de 300 UU
+    vers le gouffre, au-dessus des tourelles reposées face
     au trou. Les lames qui croiseraient un mur de bord, la casquette de D5 ou une autre lame (angles rentrants du trou)
     ne sont pas posées. Renvoie [(x pivot, y pivot, normale vers le trou, θ)].
     """
@@ -576,11 +578,14 @@ def casquette_trou(p, hauts):
                 obstacles.append(bande(x - 150 * nx, y - 150 * ny, 30 * k, F))
     out, lames = [], []
     for j, (x, y, nu, r, th) in enumerate(hauts):
-        L = bande(x, y, nu, F)
-        if any(se_coupent(L, o) for o in obstacles + lames + murs[:j] + murs[j + 1:]):
-            continue
-        lames.append(L)
-        out.append((x + 150 * vec(nu)[0], y + 150 * vec(nu)[1], nu, th))
+        for sg in (1, -1):                      # au bout du mur (joint, où se pose le pilier fin de départ)
+            xe, ye = x + sg * F / 2 * vec(nu + 90)[0], y + sg * F / 2 * vec(nu + 90)[1]
+            L = bande(xe, ye, nu, F)
+            if any(se_coupent(L, o) for o in obstacles + lames + murs[:j] + murs[j + 1:]):
+                continue
+            lames.append(L)
+            out.append((xe + 150 * vec(nu)[0], ye + 150 * vec(nu)[1], nu, th))
+            break
     return out
 
 
@@ -887,6 +892,8 @@ def consolider_rampes(p, modules):
          ligne reprend la règle 'tours'.
        Poteau : piliers fins debout sur le plancher ou la fondation sous la jonction. Débord dans le vide : poutre fine
        posée sur le niveau bas de la jupe. Une ligne qu'on ne peut pas appuyer est raccourcie.
+    Chaque ligne part de la tête d'un pilier fin posé dans le joint des murs (pilier de départ) ; une ligne dont le
+    départ n'est pas sur un joint est retirée.
     Renvoie un résumé chiffré.
     """
     E = Encombrement()
@@ -955,7 +962,7 @@ def consolider_rampes(p, modules):
     murs_hauts = [(l_[1], l_[2], e['loc']['z'] + F / 2, l_[4]) for _, m in modules
                   for e, l_ in zip(m.entries, m.lignes) if l_[0] in ('mur', 'cadre_double')]
     ajouts = {}
-    stats = {'poteaux': 0, 'pilier_fin': 0, 'demi_pilier_fin': 0, 'poutre_fine': 0, 'raccourcies': 0,
+    stats = {'departs': 0, 'poteaux': 0, 'pilier_fin': 0, 'demi_pilier_fin': 0, 'poutre_fine': 0, 'raccourcies': 0,
              'stables': 0, 'stables_manquees': []}
 
     def jonctions(key, n):
@@ -963,7 +970,8 @@ def consolider_rampes(p, modules):
         for j, ref in lignes[key][:n]:
             l, r = lames_ent[ref]['loc'], lames_ent[ref]['rot']
             bas, haut = bouts_lame(l['x'], l['y'], l['z'], r['yaw'])
-            ancre_, loin = (bas, haut) if key[0] not in ('casquette', 'overhang', 'debord') else (haut, bas)
+            ancre_, loin = (bas, haut) if key[0] not in ('casquette', 'overhang', 'debord', 'casquette du trou') \
+                else (haut, bas)
             if j == 0:
                 out.append(ancre_)
             out.append(loin)
@@ -1007,6 +1015,40 @@ def consolider_rampes(p, modules):
             out += ([[jf, jm] for jm in (jf // 2, jf // 2 - 1, jf // 2 + 1)] if jf > PORTEE_MAX else [[jf]])
         return out
 
+    # départ de chaque ligne : un pilier fin dans le joint des murs, sa tête au point d'ancrage. En jeu, une lame
+    # perpendiculaire à un mur ne se pose pas sur son haut : sur les tours 1201 et 1809, chaque ligne part de la tête
+    # d'un pilier fin (1809 : pilier fin dans le joint de deux cadres, 52 départs sur 52)
+    rang_plan = {cle: n for n, (cle, *_) in enumerate(PLANS)}
+    bouts_murs = {}
+    for mi, (_, m) in enumerate(modules):
+        for e, l_, g in zip(m.entries, m.lignes, m.groupes):
+            if l_[0] in ('mur', 'cadre_double'):
+                lx, ly = vec(e['rot']['yaw'] + 90)
+                for sg in (-1, 1):
+                    q = (e['loc']['x'] + sg * F / 2 * lx, e['loc']['y'] + sg * F / 2 * ly, e['loc']['z'] + F / 2)
+                    bouts_murs.setdefault(tuple(round(c / 5) for c in q), []).append(
+                        (rang_plan.get(g, len(PLANS)), mi, id(e), e['rot']['yaw']))
+    departs = {}
+    for key in sorted(lignes):
+        if not limite[key]:
+            continue
+        J0 = jonctions(key, 1)[0]
+        k0 = tuple(round(c / 5) for c in J0)
+        if k0 in departs:
+            continue                             # pilier déjà posé pour une autre ligne (pente A et overhang)
+        z_pied = J0[2] - F                       # le pilier se pose sur le joint du niveau du dessous, ou un plancher
+        if k0 not in bouts_murs or not (tuple(round(c / 5) for c in (J0[0], J0[1], z_pied)) in bouts_murs
+                                        or abs((dessus_sous(surf, J0[0], J0[1], z_pied + 1) or -1e9) - z_pied) < 2):
+            couper(key, 0, 'pas de joint de murs au départ')
+            continue
+        _, mi, ref_mur, yaw = min(bouts_murs[k0], key=lambda b: b[0])   # dans le 1er plan posé de ses murs
+        q = ('pilier_fin', J0[0], J0[1], J0[2] - F / 2, yaw)
+        if E.heurts(None, piece=q):
+            couper(key, 0, 'pilier fin de départ impossible')
+            continue
+        E.ajouter(('depart', key), *q)
+        departs[k0] = (mi, ref_mur, q, key)
+        stats['departs'] += 1
     for key in sorted(lignes):
         regle = APPUI_LIGNES[key[0]]
         stable = p['appuis'] == 'stable' and key[0] in MONTANTES
@@ -1050,6 +1092,14 @@ def consolider_rampes(p, modules):
     # écriture : lames retirées, appuis ajoutés (avant les rampes : ils sont posés d'abord)
     for mi, (_, m) in enumerate(modules):
         m.retirer([i for i, e in enumerate(m.entries) if id(e) in retraits])
+        for mi_, ref_mur, (cle, x, y, z, yaw), key in departs.values():
+            if mi_ == mi:                        # dans le plan du mur où il se pose
+                i0 = next(i for i, e in enumerate(m.entries) if id(e) == ref_mur)
+                m.phase, m.groupe = m.phases[i0], m.groupes[i0]
+                if m.groupe in ('toit_rampe', 'tourelles_dessus'):
+                    m.phase = m.groupe = 'toiture_pleine'    # joint des murs de référence B, C : avec la couronne
+                m.add(cle, x, y, z, yaw, Z=z - Z_TPL - F / 2,
+                      repere=f'depart lignes {key[0]} c{key[1]} t{key[2]:+.0f} : pilier fin dans le joint')
         for key, ref0, pose in ajouts.get(mi, []):
             i0 = next(i for i, e in enumerate(m.entries) if id(e) == ref0)
             m.phase, m.groupe = m.phases[i0], m.groupes[i0]
@@ -1122,31 +1172,22 @@ def _dist_seg(px, py, x1, y1, x2, y2):
 
 def verifier_appuis(plans, mode='tours'):
     """Chaque rampe inclinée tient comme sur les tours 1201 / 1809 : ses lames s'enchaînent bout à bout en lignes ; une
-    jonction est appuyée si elle repose sur le haut d'un mur ou d'un cadre métal (pas de chaume : il est démoli), sur le
-    bord d'un plancher ou d'une fondation (pas la plateforme verte), sur la tête d'un pilier ou sur le bout d'une poutre
-    fine. Une lame doit être entre deux appuis distants d'au plus 7 lames, ou pendre d'un appui qu'elle touche
+    jonction est appuyée si elle repose sur la tête d'un pilier (pilier fin de départ dans un joint de murs, poteau) ou
+    sur le bout d'une poutre fine : en jeu, une lame perpendiculaire à un mur ne se pose pas sur son haut. Une lame doit être entre deux appuis distants d'au plus 7 lames, ou pendre d'un appui qu'elle touche
     (porte-à-faux d'une seule lame), ou monter librement au plus 6 lames au-dessus d'un appui (modes 'tours' et
     'stable' ; en mode 'prudent', une seule). Compte aussi les lignes qui restent dans ces règles si l'un de leurs
     appuis est détruit (redondance). Renvoie les statistiques des lignes."""
     P_ = _pieces_plans(plans)
-    seg, pts = [], []
+    pts = []
     for cle_p, n, cle, x, y, z, yaw, rep_ in P_:
-        if cle in ('mur', 'cadre_double'):
-            lx, ly = vec(yaw + 90)
-            seg.append((x - F / 2 * lx, y - F / 2 * ly, x + F / 2 * lx, y + F / 2 * ly, z + F / 2))
-        elif cle in ('fond', 'fond_tri', 'plafond', 'plafond_tri', 'trappe') and not plateforme(rep_):
-            poly = polygone(dict(type='tri' if cle.endswith('_tri') else 'carre', x=x, y=y, yaw=yaw))
-            zt = z + (50 if cle.startswith('fond') else 0)
-            seg += [(*poly[i], *poly[(i + 1) % len(poly)], zt) for i in range(len(poly))]
-        elif cle in ('pilier', 'pilier_fin', 'demi_pilier', 'demi_pilier_fin') and not rep_.startswith('ancre'):
+        if cle in ('pilier', 'pilier_fin', 'demi_pilier', 'demi_pilier_fin') and not rep_.startswith('ancre'):
             pts.append((x, y, z + (F / 4 if cle.startswith('demi') else F / 2)))
         elif cle == 'poutre_fine':
             lx, ly = vec(yaw + 90)
             pts += [(x - F / 2 * lx, y - F / 2 * ly, z), (x + F / 2 * lx, y + F / 2 * ly, z)]
 
     def appuye(q):
-        return (any(abs(q[2] - zt) < 12 and _dist_seg(q[0], q[1], x1, y1, x2, y2) < 15 for x1, y1, x2, y2, zt in seg)
-                or any(abs(q[2] - c[2]) < 12 and math.hypot(q[0] - c[0], q[1] - c[1]) < 25 for c in pts))
+        return any(abs(q[2] - c[2]) < 12 and math.hypot(q[0] - c[0], q[1] - c[1]) < 25 for c in pts)
 
     lames = [(q, bouts_lame(q[3], q[4], q[5], q[6])) for q in P_ if q[2] == 'rampe']
     cle_pt = lambda b: (round(b[0] / 5), round(b[1] / 5), round(b[2] / 5))
@@ -1383,7 +1424,7 @@ def module_toit(p, contours):
         cle = 'trappe' if cle_piece(pc) == trappe else 'plafond' if pc['type'] == 'carre' else 'plafond_tri'
         t.add(cle, pc['x'], pc['y'], Ztop + Z_TPL, pc['yaw'], Z=Ztop, repere=f"plancher de toit anneau {pc['anneau']}")
     t.groupe = t.phase = 'toit_rampe'
-    pente(t, 'toit', apo(4), Ztop, +1, 'toit rampes', demi=True, filtre=lambda x, y: dans_trou(p, x, y))
+    pente(t, 'toit', apo(4), Ztop, +1, 'toit rampes', filtre=lambda x, y: dans_trou(p, x, y))   # joints de D4
     hauts = [m for m in bords_trou(p) if m[3] <= apo(4) + 1]
     for n, (x, y, nu, th) in enumerate(casquette_trou(p, hauts)):
         t.add('rampe', x, y, Ztop - F + Z_TPL + 200, nu - 90, Z=Ztop - F, repere=f'casquette du trou θ{th:.1f}',
@@ -1562,8 +1603,8 @@ def module_cage(p, contours, D):
     A5 = apo(5)
     Ztop = zmez + p['cage_niveaux'] * F
     hors_trou = lambda x, y: dans_trou(p, x, y)
-    pente(t, 'casquette', A5, Ztop, -1, 'casquette', nb=p['casquette'], filtre=hors_trou)
-    pente(t, 'appentis', A5, Ztop, +1, 'appentis', nb=1, filtre=hors_trou)
+    pente(t, 'casquette', A5, Ztop, -1, 'casquette', nb=p['casquette'], demi=True, filtre=hors_trou)   # joints de D5
+    pente(t, 'appentis', A5, Ztop, +1, 'appentis', nb=1, demi=True, filtre=hors_trou)
     hauts = [m for m in bords_trou(p) if apo(4) + 1 < m[3] <= apo(5) + 1]
     for n, (x, y, nu, th) in enumerate(casquette_trou(p, hauts)):
         t.add('rampe', x, y, Ztop - F + Z_TPL + 200, nu - 90, Z=Ztop - F, repere=f'casquette du trou θ{th:.1f}',
@@ -1691,16 +1732,18 @@ def choisir(seq, n):
 
 
 def emplacements_dessus(p):
-    """Dessus de la tour : sur le plancher de toit, à l'apothème p['dessus_apotheme'], au milieu de chaque côté hors du
-    trou (entre deux lignes de rampes du toit, loin de leurs poteaux) : tourelles et Tesla debout, carrés de culture de
+    """Dessus de la tour : sur le plancher de toit, à l'apothème p['dessus_apotheme'], à t = +150 sur chaque côté hors
+    du trou (entre deux lignes de rampes du toit, loin de leurs poteaux) : tourelles et Tesla debout, carrés de culture de
     Plant Species X, dans l'ordre de p['dessus'], répartis autour du cercle. Elles couvrent le toit, le ciel au-dessus du
     centre et le comble (ce qui passe entre les lames ; les lames, espacées de 300 UU, ne masquent pas le tir)."""
     Ztop = (p['pod_niveaux'] + 1) * F
     A = p['dessus_apotheme']
-    places = [k for k in range(12) if not dans_trou(p, A * vec(30 * k)[0], A * vec(30 * k)[1])]
+    places = [k for k in range(12) if not dans_trou(p, A * vec(30 * k)[0] + F / 2 * vec(30 * k + 90)[0],
+                                                     A * vec(30 * k)[1] + F / 2 * vec(30 * k + 90)[1])]
     out = []
     for n, (k, ty) in enumerate(zip(choisir(places, len(p['dessus'])), p['dessus'])):
-        x, y = A * vec(30 * k)[0], A * vec(30 * k)[1]
+        x = A * vec(30 * k)[0] + F / 2 * vec(30 * k + 90)[0]      # t = +150 : entre les lignes t = 0 et t = +300
+        y = A * vec(30 * k)[1] + F / 2 * vec(30 * k + 90)[1]
         out.append(dict(xm=x, ym=y, x=x, y=y, Zb=Ztop, Z=Ztop + 75, sortie=30 * k, couche='DESSUS', cote=k, idx=n,
                         type='crop' if ty == 'plante_x' else ty, plan='dessus'))
     return out
@@ -1736,8 +1779,9 @@ def cultures(p):
     """Carrés de culture de Plant Species X (chaque plante compte dans le cap de 100), au centre d'un carré du pavage :
     - D8 -> D4 : dans l'attique, sous la pente A, carré de l'anneau 11 au milieu des côtés E0 (t = +150), là où tombe
       ce qui passe entre les lames ;
-    - périmètre du pod : sur le toit de cage Z2400, au pied de la tour, carré de l'anneau 8 des côtés E1 (t = +150),
-      entre les poteaux de l'appentis."""
+    - périmètre du pod : sur le toit de cage Z2400, au pied de la tour, à hauteur des carrés de l'anneau 8 des côtés
+      E1, au milieu du côté (t = 0), entre deux lignes de l'appentis (sur les joints de D5, t = ±150) et leurs
+      poteaux."""
     pieces, _ = pavage(p['anneaux_total'])
     out = []
     for anneau, Z, couche, plan in ((11, 0.0, 'X-attique', 'ext'),
@@ -1746,7 +1790,9 @@ def cultures(p):
             nx, ny = vec(30 * pc['cote'])
             if (pc['anneau'] == anneau and pc['type'] == 'carre' and abs(-ny * pc['x'] + nx * pc['y'] - 150) < 1
                     and not piece_dans_trou(p, pc) and not piece_plateforme(p, pc)):
-                out.append(dict(xm=pc['x'], ym=pc['y'], x=pc['x'], y=pc['y'], Zb=Z, Z=Z + 30, sortie=pc['yaw'],
+                x = pc['x'] - (F / 2 * -ny if couche == 'X-D4' else 0)      # X-D4 : ramené à t = 0
+                y = pc['y'] - (F / 2 * nx if couche == 'X-D4' else 0)
+                out.append(dict(xm=x, ym=y, x=x, y=y, Zb=Z, Z=Z + 30, sortie=pc['yaw'],
                                 couche=couche, cote=pc['cote'], idx=pc['idx'], type='crop', plan=plan))
     return out
 
@@ -2272,7 +2318,7 @@ def secteur_test(plans, th0=-15.0, th1=45.0):
                                                                                                      tt.phases))}
     for i in ordre:
         x, y = P[i][3], P[i][4]
-        if th0 <= math.degrees(math.atan2(y, x)) <= th1 or math.hypot(x, y) < 150:
+        if th0 - 0.01 <= math.degrees(math.atan2(y, x)) <= th1 + 0.01 or math.hypot(x, y) < 150:   # coins à θ0, θ1 compris
             e, l_, ph = src[(P[i][0], P[i][1])]
             t.entries.append(e)
             t.lignes.append(l_)
@@ -2280,6 +2326,55 @@ def secteur_test(plans, th0=-15.0, th1=45.0):
             t.groupes.append(None)
             t.metas.append(None)
     return t
+
+
+def essai_rampes():
+    """Template d'essai court (en solo, sur un sol plat) : comment une ligne de rampes inclinées se pose sur un mur.
+
+    4 variantes côte à côte, chacune sur 4 fondations, devant un mur de 2 cadres doubles sur 2 niveaux (Z0 -> 600) ;
+    chaque ligne monte vers +x depuis le joint des cadres (Z600), une lame pend vers l'extérieur :
+    - V0 : copie du départ de la tour 1809 : pilier fin dans le joint, poutre fine sous la 1re lame ;
+    - V1 : départ du générateur : pilier fin dans le joint, poteau de piliers fins sous la jonction 1 ;
+    - V2 : poteau de piliers fins posé librement sur une fondation (40 UU d'une arête, comme les poteaux de la pente A),
+      une lame qui pend de sa tête et une qui monte ;
+    - V3 : ancien départ, posé directement sur le haut des cadres (sans pilier fin), poteau sous la jonction 1.
+    Renvoie (template, [(n° d'entrée, variante, pièce, repère)])."""
+    t = Template('Essai rampes : depart des lignes', 'Essai en solo sur sol plat : V0 copie de la tour 1809, '
+                 'V1 depart du generateur (pilier fin dans le joint), V2 poteau libre sur fondation, V3 ancien depart '
+                 'sans pilier fin. Noter les rampes qui se posent.')
+    legende = []
+
+    def add(var, cle, x, y, z, yaw, rep_):
+        legende.append((len(t.entries), var, NOMS[cle], rep_))
+        t.add(cle, x, y, z, yaw, repere=f'{var} {rep_}')
+
+    for var, yc in (('V0', 0.0), ('V1', 900.0), ('V2', 1800.0), ('V3', 2700.0)):
+        x0 = 0.0
+        for dx in (150, 450):
+            for dy in (-150, 150):
+                add(var, 'fond', x0 + dx, yc + dy, 40, 0, 'fondation')
+        if var == 'V2':
+            xp = x0 + 340                       # 40 UU après l'arête x0 + 300 : pas un point de snap
+            for niv in range(2):
+                add(var, 'pilier_fin', xp, yc, niv * F + 240, 0, f'poteau libre, niveau {niv}')
+            add(var, 'rampe', xp - F / 2, yc, F + 290, 90, 'lame pendue a la tete du poteau')
+            add(var, 'rampe', xp + F / 2, yc, 2 * F + 290, 90, 'lame montante sur la tete du poteau')
+            continue
+        for dy in (-150, 150):
+            add(var, 'cadre_double', x0, yc + dy, 240, 180, 'cadre niveau 0')
+        if var in ('V0', 'V1'):
+            add(var, 'pilier_fin', x0, yc, 540, 180, 'pilier fin dans le joint, niveau 1 (avant les cadres)')
+        for dy in (-150, 150):
+            add(var, 'cadre_double', x0, yc + dy, 540, 180, 'cadre niveau 1')
+        if var == 'V0':
+            add(var, 'poutre_fine', x0 + F / 2, yc, 2 * F + 90, -90, 'poutre fine sous la 1re lame (tour 1809)')
+        else:
+            for niv in range(3):
+                add(var, 'pilier_fin', x0 + F, yc, niv * F + 240, 0, f'poteau sous la jonction 1, niveau {niv}')
+        add(var, 'rampe', x0 - F / 2, yc, F + 290, 90, 'lame pendue vers l exterieur')
+        add(var, 'rampe', x0 + F / 2, yc, 2 * F + 290, 90, 'lame r0 (depart du joint)')
+        add(var, 'rampe', x0 + 3 * F / 2, yc, 3 * F + 290, 90, 'lame r1')
+    return t, legende
 
 
 # ---------------------------------------------------------------- ordre de pose : plan après plan, du bas vers le haut
@@ -2297,8 +2392,8 @@ def porteurs(P, rang=None):
       dessus (jupe) ;
     - pilier, escalier : la pièce du dessous, ou le plancher sous son pied ;
     - plafond : un mur ou un pilier sous une arête ou un coin ; à défaut, le plafond voisin déjà porté ;
-    - rampe : l'appui sous l'un de ses bouts (haut de mur, bord de plancher, tête de pilier, bout de poutre) ; à défaut,
-      la lame voisine de sa ligne déjà portée ;
+    - rampe : la tête de pilier ou le bout de poutre sous l'un de ses bouts (jamais un haut de mur : en jeu, la lame
+      ne s'y pose pas) ; à défaut, la lame voisine de sa ligne déjà portée ;
     - poutre fine : le mur dont le haut est sous son bout intérieur ; tourelle : son mur de chaume ; tourelle debout,
       carré de culture : le plancher dessous.
     rang : rang de pose du plan de chaque pièce ({plan: rang}) ; un porteur d'un plan posé plus tard n'est pas retenu
@@ -2349,11 +2444,12 @@ def porteurs(P, rang=None):
     def sous(x, y, z):                           # plancher dont le dessus est à z sous (x, y)
         return [i for poly, zt, i in polys if abs(zt - z) < 2 and _dans_poly(poly, x, y, -1.0)]
 
+    def tetes_point(q):
+        return [t[3] for t in tetes if abs(q[2] - t[2]) < 12 and math.hypot(q[0] - t[0], q[1] - t[1]) < 25]
+
     def appuis_point(q):
-        out = [sg[5] for sg in grille.get((int(q[0] // 400), int(q[1] // 400)), [])
-               if abs(q[2] - sg[4]) < 12 and _dist_seg(q[0], q[1], *sg[:4]) < 15]
-        out += [t[3] for t in tetes if abs(q[2] - t[2]) < 12 and math.hypot(q[0] - t[0], q[1] - t[1]) < 25]
-        return out
+        return [sg[5] for sg in grille.get((int(q[0] // 400), int(q[1] // 400)), [])
+                if abs(q[2] - sg[4]) < 12 and _dist_seg(q[0], q[1], *sg[:4]) < 15] + tetes_point(q)
 
     plafonds, lames = [], []
     for i, (pl, nn, cle, x, y, z, yaw, rep_) in enumerate(P):
@@ -2367,7 +2463,7 @@ def porteurs(P, rang=None):
             k = k5(x, y, bas)
             r = ok(i, [d[kk] for d in (pil_a, esc_a) for kk in [k5(x, y, bas - F), k5(x, y, bas - F / 2)] if kk in d
                        and d[kk] != i and abs(P[d[kk]][5] + HAUT_PILIER.get(P[d[kk]][2], F) / 2 - bas) < 2])
-            par[i] = r or ok(i, sous(x, y, bas))
+            par[i] = r or ok(i, sommets_mur.get(k, [])) or ok(i, sous(x, y, bas))   # joint de murs, plancher
         elif cle in SOLS:
             poly = polygone(dict(type='tri' if cle.endswith('_tri') else 'carre', x=x, y=y, yaw=yaw))
             r = []
@@ -2381,8 +2477,8 @@ def porteurs(P, rang=None):
             lx, ly = vec(yaw + 90)
             par[i] = ok(i, [j for q in ((x - F / 2 * lx, y - F / 2 * ly, z), (x + F / 2 * lx, y + F / 2 * ly, z))
                             for j in appuis_point(q) if P[j][2] in MURS])
-        elif cle == 'rampe':
-            par[i] = ok(i, [j for q in bouts_lame(x, y, z, yaw) for j in appuis_point(q)])
+        elif cle == 'rampe':                     # tête de pilier fin ou bout de poutre (pas un haut de mur)
+            par[i] = ok(i, [j for q in bouts_lame(x, y, z, yaw) for j in tetes_point(q)])
             lames.append(i)
         elif cle in ('heavy', 'tek', 'tesla'):
             par[i] = ok(i, sous(x, y, z - 10) if debout(cle, rep_) else
@@ -2466,6 +2562,8 @@ def ordre_de_pose(plans):
             return z - (10 if debout(cle, rep_) else F / 2)
         if cle in ('poutre_fine', 'crop', 'crop_m'):
             return z - 20
+        if rep_.startswith('depart'):
+            return z - F / 2 - 1                 # pilier de départ : avant les murs de son niveau (tour 1809)
         return z - (HAUT_PILIER.get(cle, F) / 2)
     enfants = [[] for _ in P]
     reste = [0] * len(P)
@@ -3156,6 +3254,9 @@ def main():
     essai = secteur_test(plans)
     essai.ecrire(os.path.join(rep_test, 'Secteur_test_theta_-15_45.json'))
     print(f"  Secteur d'essai θ -15° → 45° : {len(essai.entries)} entrées (templates/test/)")
+    essai_r, legende_r = essai_rampes()
+    essai_r.ecrire(os.path.join(rep_test, 'Essai_rampes.json'))
+    ecrire_csv(os.path.join(rep_d, '08_essai_rampes.csv'), legende_r, ['entree', 'variante', 'piece', 'repere'])
     equip = equipements(p, contours)
 
     # CSV de pose : un par plan, dans l'ordre des entrées du template
