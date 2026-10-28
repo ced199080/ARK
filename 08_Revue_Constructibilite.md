@@ -183,6 +183,24 @@ Il ne retient que les porteurs posés dans le même plan ou dans un plan précé
 | E8 | poteau de 2 piliers fins au centre d'une fondation, 1 lame montante |
 | E9 | poteau de 2 piliers fins à 40 UU d'une arête, sans lame : le poteau seul se pose-t-il ? |
 
+**Résultat en jeu** : E1 à E4 incomplets, E5 complet ; la pose s'est **arrêtée** sur la 3ᵉ fondation de E6, à 45 m du début d'un essai de 76 m de long, très probablement sur le relief. Template Hammer **saute** une pièce sans appui (les lames) mais **s'arrête** sur une pièce gênée par un obstacle (relief, structure déjà là). Acquis :
+- une lame tient à la tête d'un poteau de piliers fins debout sur un **coin de fondation**, qu'elle monte depuis la tête (E5) ou qu'elle y pende (V1, V3) ; les lames voisines de la ligne s'enchaînent ;
+- ne tiennent pas une lame : le haut d'un mur (E4), un pilier fin dans le joint posé sur le mur du dessous (E1, E2, V0), un pilier fin debout sur le haut du mur (E3).
+
+**3ᵉ essai :** `templates/test/Essai_rampes_3.json`, 127 entrées (`donnees/08_essai_rampes_3.csv`, vue de dessus : `plans/essai_rampes_3.png`). Compact : 3 rangées de 3 cas, environ 48 × 24 m ; pile de n demi-piliers = cas n. En regardant vers le haut des rampes, de gauche à droite : rangée proche G1 G2 G3, rangée du milieu G4 G5 G6, rangée du fond G7 G8 G9.
+
+| Cas | Ce qui est testé | Sert à |
+|---|---|---|
+| G1 | poteau de 4 piliers fins sur un coin, **3 lames pendues à la suite** | overhang et débord |
+| G2 | poteau d'1 pilier fin + 1 **demi-pilier fin** (tête à Z450), 1 lame montante | poteaux sur les paliers (Z −150) |
+| G3 | poteau sur la **pointe d'une fondation triangle**, 1 lame montante | côtés à triangles du dodécagone |
+| G4 | poteau sur un **coin de plafond** (Z300, sans pilier dessous), 1 lame montante | toit, appentis |
+| G5 | **colonne** de piliers fins dans le joint d'un mur **depuis la fondation**, posée avant les cadres ; 1 lame montante, 1 pendante | départ des lignes sur la rive et la jupe |
+| G6 | poteau au **milieu d'une arête** de fondation | plus de positions de poteaux |
+| G7 | poteau au **centre** d'une fondation | idem |
+| G8 | poteau sur un coin, 1 lame **pendue** à sa tête | casquette |
+| G9 | 1 lame posée sur le **bord d'un plafond**, sans poteau | départs sur les planchers |
+
 **Template d'essai :** `templates/test/Secteur_test_theta_-15_45.json`, 1 103 entrées.
 - Il prend toutes les pièces entre θ −15° et 45° (2 côtés et une arête du dodécagone, coins compris), dans l'ordre de pose des plans, avec la pile d'ancrage.
 - **Il est autonome** : une pièce dont le porteur est hors du secteur, ou un plafond à plus de 2 cases d'un appui relié au sol dans le secteur, est retirée. L'ancien secteur en contenait 9 (le centre de la mezzanine et du plancher de toit, dont les piliers étaient hors du secteur) ; il n'en reste plus.

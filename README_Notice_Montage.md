@@ -105,6 +105,7 @@ Le centre est une **tour** (le pod), dont vous pouvez faire varier la hauteur. �
 | `templates/plans/Option_rehausse_pod_+1_niveau.json` | Un niveau de plus pour la tour du pod |
 | `templates/test/Essai_rampes.json` | Essai court (50 pièces, sol plat) : 4 façons de faire partir une ligne de rampes (module 08 §7) |
 | `templates/test/Essai_rampes_2.json` | 2ᵉ essai court (118 pièces, sol plat) : 9 cas pour savoir où un poteau se pose et ce qui porte une lame (module 08 §7) |
+| `templates/test/Essai_rampes_3.json` | 3ᵉ essai court et compact (127 pièces, 48 × 24 m) : coin de plafond, pointe de triangle, demi-pilier fin, colonne dans le joint, lames pendues à la suite (module 08 §7, `plans/essai_rampes_3.png`) |
 | `templates/test/Secteur_test_theta_-15_45.json` | Essai en solo : un secteur de 60° de tous les plans, autonome (module 08 §7) ; entrées numérotées dans `donnees/08_secteur_test.csv` |
 | `references/Trou_points_ancrage.json` | Votre export *trou* (60 fondations + pilier de référence), qui sert au recalage |
 | `references/Trou_fondations.json` | Fondations du trou relevées sur votre image : `retirees` (blanc), `plateforme` (vert) |
@@ -190,7 +191,7 @@ Le centre est une **tour** (le pod), dont vous pouvez faire varier la hauteur. �
 
 | # | Point | Repli |
 |---|---|---|
-| 0 | **Appuis des lames** : 1er essai fait (V1 et V3 se posent : poteau sur un coin de fondation ; V0 et V2 non) ; `templates/test/Essai_rampes_2.json` à poser | Me dire quels cas E1 à E9 se posent |
+| 0 | **Appuis des lames** : essais 1 et 2 faits (une lame tient à la tête d'un poteau sur un coin de fondation, pas sur un mur) ; `templates/test/Essai_rampes_3.json` à poser | Me dire quels cas G1 à G9 se posent |
 | 1 | Le mur de référence d'un plan se snappe sur le haut de la tour et place le reste au bon endroit | Poser le mur de référence à la main, puis le plan en placement libre |
 | 2 | Une tourelle se fixe sur un mur de chaume posé par un autre plan | Poser chaume et tourelle à la main (template 2727) |
 | 3 | La tourelle, et le mur ou cadre posé au-dessus, restent en place quand on démolit le chaume | Laisser le chaume |

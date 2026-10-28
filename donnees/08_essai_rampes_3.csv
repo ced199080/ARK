@@ -1,0 +1,128 @@
+entree;cas;piece;repere
+0;G1;Fondation métal;fondation
+1;G1;Fondation métal;fondation
+2;G1;Fondation métal;fondation
+3;G1;Fondation métal;fondation
+4;G1;Demi-pilier métal;repere : demi-pilier 1/1
+5;G1;Pilier fin métal (Thin Pillar);poteau (coin de fondation), pilier fin 1/4
+6;G1;Pilier fin métal (Thin Pillar);poteau (coin de fondation), pilier fin 2/4
+7;G1;Pilier fin métal (Thin Pillar);poteau (coin de fondation), pilier fin 3/4
+8;G1;Pilier fin métal (Thin Pillar);poteau (coin de fondation), pilier fin 4/4
+9;G1;Rampe inclinée métal (Sloped Railing);lame pendue n1 (Z900 -> 1200)
+10;G1;Rampe inclinée métal (Sloped Railing);lame pendue n2 (Z600 -> 900)
+11;G1;Rampe inclinée métal (Sloped Railing);lame pendue n3 (Z300 -> 600)
+12;G2;Fondation métal;fondation
+13;G2;Fondation métal;fondation
+14;G2;Fondation métal;fondation
+15;G2;Fondation métal;fondation
+16;G2;Demi-pilier métal;repere : demi-pilier 1/2
+17;G2;Demi-pilier métal;repere : demi-pilier 2/2
+18;G2;Pilier fin métal (Thin Pillar);poteau (coin de fondation), pilier fin 1/1
+19;G2;Demi-pilier fin métal (Half Thin Pillar);poteau (coin de fondation), demi-pilier fin
+20;G2;Rampe inclinée métal (Sloped Railing);lame montante depuis la tete (Z450 -> 750)
+21;G3;Fondation métal;fondation
+22;G3;Fondation métal;fondation
+23;G3;Fondation métal;fondation
+24;G3;Fondation métal;fondation
+25;G3;Demi-pilier métal;repere : demi-pilier 1/3
+26;G3;Demi-pilier métal;repere : demi-pilier 2/3
+27;G3;Demi-pilier métal;repere : demi-pilier 3/3
+28;G3;Fondation triangle métal;fondation triangle sur une arete, pointe vers +x
+29;G3;Pilier fin métal (Thin Pillar);poteau (pointe du triangle), pilier fin 1/2
+30;G3;Pilier fin métal (Thin Pillar);poteau (pointe du triangle), pilier fin 2/2
+31;G3;Rampe inclinée métal (Sloped Railing);lame montante depuis la tete (Z600 -> 900)
+32;G4;Fondation métal;fondation
+33;G4;Fondation métal;fondation
+34;G4;Fondation métal;fondation
+35;G4;Fondation métal;fondation
+36;G4;Demi-pilier métal;repere : demi-pilier 1/4
+37;G4;Demi-pilier métal;repere : demi-pilier 2/4
+38;G4;Demi-pilier métal;repere : demi-pilier 3/4
+39;G4;Demi-pilier métal;repere : demi-pilier 4/4
+40;G4;Pilier métal;pilier sous les plafonds
+41;G4;Pilier métal;pilier sous les plafonds
+42;G4;Pilier métal;pilier sous les plafonds
+43;G4;Pilier métal;pilier sous les plafonds
+44;G4;Plafond métal;plafond Z300
+45;G4;Plafond métal;plafond Z300
+46;G4;Pilier fin métal (Thin Pillar);poteau (coin de plafond), pilier fin 1/1
+47;G4;Rampe inclinée métal (Sloped Railing);lame montante depuis la tete (Z600 -> 900)
+48;G5;Fondation métal;fondation
+49;G5;Fondation métal;fondation
+50;G5;Fondation métal;fondation
+51;G5;Fondation métal;fondation
+52;G5;Demi-pilier métal;repere : demi-pilier 1/5
+53;G5;Demi-pilier métal;repere : demi-pilier 2/5
+54;G5;Demi-pilier métal;repere : demi-pilier 3/5
+55;G5;Demi-pilier métal;repere : demi-pilier 4/5
+56;G5;Demi-pilier métal;repere : demi-pilier 5/5
+57;G5;Pilier fin métal (Thin Pillar);colonne dans le joint, pilier fin 1/2
+58;G5;Cadre de porte double métal;cadre niveau 0
+59;G5;Cadre de porte double métal;cadre niveau 0
+60;G5;Pilier fin métal (Thin Pillar);colonne dans le joint, pilier fin 2/2
+61;G5;Cadre de porte double métal;cadre niveau 1
+62;G5;Cadre de porte double métal;cadre niveau 1
+63;G5;Rampe inclinée métal (Sloped Railing);lame montante depuis la tete de la colonne (Z600 -> 900)
+64;G5;Rampe inclinée métal (Sloped Railing);lame pendante vers l exterieur (Z300 -> 600)
+65;G6;Fondation métal;fondation
+66;G6;Fondation métal;fondation
+67;G6;Fondation métal;fondation
+68;G6;Fondation métal;fondation
+69;G6;Demi-pilier métal;repere : demi-pilier 1/6
+70;G6;Demi-pilier métal;repere : demi-pilier 2/6
+71;G6;Demi-pilier métal;repere : demi-pilier 3/6
+72;G6;Demi-pilier métal;repere : demi-pilier 4/6
+73;G6;Demi-pilier métal;repere : demi-pilier 5/6
+74;G6;Demi-pilier métal;repere : demi-pilier 6/6
+75;G6;Pilier fin métal (Thin Pillar);poteau (milieu d'une arete), pilier fin 1/2
+76;G6;Pilier fin métal (Thin Pillar);poteau (milieu d'une arete), pilier fin 2/2
+77;G6;Rampe inclinée métal (Sloped Railing);lame montante depuis la tete (Z600 -> 900)
+78;G7;Fondation métal;fondation
+79;G7;Fondation métal;fondation
+80;G7;Fondation métal;fondation
+81;G7;Fondation métal;fondation
+82;G7;Demi-pilier métal;repere : demi-pilier 1/7
+83;G7;Demi-pilier métal;repere : demi-pilier 2/7
+84;G7;Demi-pilier métal;repere : demi-pilier 3/7
+85;G7;Demi-pilier métal;repere : demi-pilier 4/7
+86;G7;Demi-pilier métal;repere : demi-pilier 5/7
+87;G7;Demi-pilier métal;repere : demi-pilier 6/7
+88;G7;Demi-pilier métal;repere : demi-pilier 7/7
+89;G7;Pilier fin métal (Thin Pillar);poteau (centre de fondation), pilier fin 1/2
+90;G7;Pilier fin métal (Thin Pillar);poteau (centre de fondation), pilier fin 2/2
+91;G7;Rampe inclinée métal (Sloped Railing);lame montante depuis la tete (Z600 -> 900)
+92;G8;Fondation métal;fondation
+93;G8;Fondation métal;fondation
+94;G8;Fondation métal;fondation
+95;G8;Fondation métal;fondation
+96;G8;Demi-pilier métal;repere : demi-pilier 1/8
+97;G8;Demi-pilier métal;repere : demi-pilier 2/8
+98;G8;Demi-pilier métal;repere : demi-pilier 3/8
+99;G8;Demi-pilier métal;repere : demi-pilier 4/8
+100;G8;Demi-pilier métal;repere : demi-pilier 5/8
+101;G8;Demi-pilier métal;repere : demi-pilier 6/8
+102;G8;Demi-pilier métal;repere : demi-pilier 7/8
+103;G8;Demi-pilier métal;repere : demi-pilier 8/8
+104;G8;Pilier fin métal (Thin Pillar);poteau (coin de fondation), pilier fin 1/2
+105;G8;Pilier fin métal (Thin Pillar);poteau (coin de fondation), pilier fin 2/2
+106;G8;Rampe inclinée métal (Sloped Railing);lame pendue a la tete (Z300 -> 600)
+107;G9;Fondation métal;fondation
+108;G9;Fondation métal;fondation
+109;G9;Fondation métal;fondation
+110;G9;Fondation métal;fondation
+111;G9;Demi-pilier métal;repere : demi-pilier 1/9
+112;G9;Demi-pilier métal;repere : demi-pilier 2/9
+113;G9;Demi-pilier métal;repere : demi-pilier 3/9
+114;G9;Demi-pilier métal;repere : demi-pilier 4/9
+115;G9;Demi-pilier métal;repere : demi-pilier 5/9
+116;G9;Demi-pilier métal;repere : demi-pilier 6/9
+117;G9;Demi-pilier métal;repere : demi-pilier 7/9
+118;G9;Demi-pilier métal;repere : demi-pilier 8/9
+119;G9;Demi-pilier métal;repere : demi-pilier 9/9
+120;G9;Pilier métal;pilier sous les plafonds
+121;G9;Pilier métal;pilier sous les plafonds
+122;G9;Pilier métal;pilier sous les plafonds
+123;G9;Pilier métal;pilier sous les plafonds
+124;G9;Plafond métal;plafond Z300
+125;G9;Plafond métal;plafond Z300
+126;G9;Rampe inclinée métal (Sloped Railing);lame montante posee sur le bord du plafond (Z300 -> 600)
