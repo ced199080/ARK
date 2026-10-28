@@ -165,12 +165,14 @@ Il ne retient que les porteurs posés dans le même plan ou dans un plan précé
 
 Si V1 se pose et V3 non, la correction est confirmée. Si V2 ne se pose pas, dites-le moi : il faudra déplacer les poteaux sur des points de snap des fondations.
 
-**Template d'essai :** `templates/test/Secteur_test_theta_-15_45.json`, 1 179 entrées.
-- Il prend toutes les pièces entre θ −15° et 45° (2 côtés et une arête du dodécagone), dans l'ordre de pose des plans, avec la pile d'ancrage.
+**Template d'essai :** `templates/test/Secteur_test_theta_-15_45.json`, 1 103 entrées.
+- Il prend toutes les pièces entre θ −15° et 45° (2 côtés et une arête du dodécagone, coins compris), dans l'ordre de pose des plans, avec la pile d'ancrage.
+- **Il est autonome** : une pièce dont le porteur est hors du secteur, ou un plafond à plus de 2 cases d'un appui relié au sol dans le secteur, est retirée. L'ancien secteur en contenait 9 (le centre de la mezzanine et du plancher de toit, dont les piliers étaient hors du secteur) ; il n'en reste plus.
+- **`donnees/08_secteur_test.csv`** numérote chaque entrée (0 = 1re pièce) avec son plan, sa pièce, sa position et son repère. Si la pose s'arrête après N pièces, donnez-moi N et la dernière pièce visible : la ligne N du CSV est la pièce qui bloque, si aucune pièce n'a été sautée avant.
 - On y trouve chaque sorte de pièce et d'appui : rive et jupe en cadres doubles avec leurs piliers fins de départ, pente A et ses poteaux de stabilité, overhang et poteaux sur les paliers, débord, cage, appentis, tour du pod et toit, 148 rampes, 13 murs de chaume, 8 Heavy (dont les 2 de rive d'un côté), 5 Tek, 1 Tesla, 2 grands carrés de culture et 1 moyen.
 - Le toit y est à sa hauteur par défaut, calé sur la pile.
 
-Posez-le en solo, sur la même plateforme. Notez les pièces refusées (leurs coordonnées sont dans `donnees/Plan_*.csv`), puis démolissez un mur de chaume. Au bord du secteur, quelques pièces peuvent manquer d'appui, puisque leur voisin est hors du secteur.
+Posez-le en solo, sur la même plateforme. Notez les pièces refusées (`donnees/08_secteur_test.csv`), puis démolissez un mur de chaume.
 
 ## 8. Revue du code (`outils/forteresse.py`)
 

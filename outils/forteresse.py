@@ -2232,19 +2232,10 @@ def assembler_plans(p, modules):
     return plans
 
 
-def verifier_limites(p, plans, n_pics, n_equipements):
-    """Limites du moteur et règles d'ancrage :
-    - structures : bâti (plans, colonnade comprise, tourelles, carrés de culture, pics, équipements)
-      ≤ p['plafond_structures'] (10 500 − 20 % de réserve), y compris au pic du chantier (murs de chaume et pile
-      d'ancrage pas encore démolis) ;
-    - tourelles comptées par le cap (Heavy, Tek ; Tesla si tesla_comptee ; Plant Species X si plante_x_comptee)
-      = p['cap'] exactement ;
-    - hauteur ≤ p['hauteur_max_murs'] murs au-dessus du sol ;
-    - aucun plafond à plus de p['portee_plafond_max'] cases d'un appui relié au sol : une fondation, ou une colonne de
-      murs, de cadres ou de piliers qui descend sans interruption jusqu'à une fondation (le chaume, démoli, coupe la
-      colonne ; la plateforme verte ne compte pas). Contrôle sur la base finie (tous les plans posés)."""
-    P = [q for q in _pieces_plans(plans) if not q[7].startswith('ancre')]
-    par, _ = porteurs(P)
+def portee_plafonds(P, par):
+    """Plafonds de P et, pour chacun, le nombre de cases jusqu'à un appui relié au sol (absent : aucun) : une fondation,
+    ou une colonne de murs, de cadres ou de piliers qui descend sans interruption jusqu'à une fondation (le chaume coupe
+    la colonne ; la plateforme verte ne compte pas)."""
     au_sol = {i: not plateforme(P[i][7]) for i in range(len(P)) if P[i][2] in ('fond', 'fond_tri')}
     colonnes = sorted((i for i in range(len(P)) if P[i][2] in ('mur', 'cadre_double', 'escalier') + PILIERS),
                       key=lambda i: P[i][5])
@@ -2276,6 +2267,23 @@ def verifier_limites(p, plans, n_pics, n_equipements):
                 if j not in dist:
                     dist[j] = dist[i] + 1
                     file.append(j)
+    return plaf, dist
+
+
+def verifier_limites(p, plans, n_pics, n_equipements):
+    """Limites du moteur et règles d'ancrage :
+    - structures : bâti (plans, colonnade comprise, tourelles, carrés de culture, pics, équipements)
+      ≤ p['plafond_structures'] (10 500 − 20 % de réserve), y compris au pic du chantier (murs de chaume et pile
+      d'ancrage pas encore démolis) ;
+    - tourelles comptées par le cap (Heavy, Tek ; Tesla si tesla_comptee ; Plant Species X si plante_x_comptee)
+      = p['cap'] exactement ;
+    - hauteur ≤ p['hauteur_max_murs'] murs au-dessus du sol ;
+    - aucun plafond à plus de p['portee_plafond_max'] cases d'un appui relié au sol : une fondation, ou une colonne de
+      murs, de cadres ou de piliers qui descend sans interruption jusqu'à une fondation (le chaume, démoli, coupe la
+      colonne ; la plateforme verte ne compte pas). Contrôle sur la base finie (tous les plans posés)."""
+    P = [q for q in _pieces_plans(plans) if not q[7].startswith('ancre')]
+    par, _ = porteurs(P)
+    plaf, dist = portee_plafonds(P, par)
     portee = max(dist.get(i, 99) for i in plaf)
     loin = [P[i][7] for i in plaf if dist.get(i, 99) > p['portee_plafond_max']]
     assert not loin, (len(loin), loin[:5])
@@ -2305,27 +2313,37 @@ def verifier_limites(p, plans, n_pics, n_equipements):
     return out
 
 
-def secteur_test(plans, th0=-15.0, th1=45.0):
+def secteur_test(plans, th0=-15.0, th1=45.0, portee_max=2):
     """Template d'essai en solo : toutes les pièces dont le pivot est entre θ0 et θ1 (2 côtés et l'arête θ 15°, hors
     du trou), dans l'ordre de pose des plans (chaque pièce après ses porteurs). On y retrouve chaque sorte de pièce et
-    d'appui : rive, colonnade, pente A, overhang et poteaux sur les paliers, jupe, poutres et débord, cage, tourelles et
-    murs de chaume, toit et ses poteaux."""
+    d'appui : rive, colonnade, pente A, overhang et poteaux sur les paliers, jupe, débord, cage, tourelles et murs de
+    chaume, toit et ses poteaux.
+    Le secteur est autonome : une pièce dont les porteurs sont hors du secteur, ou un plafond à plus de portee_max
+    cases d'un appui relié au sol dans le secteur, est retirée (de proche en proche), pour qu'aucune pièce du template
+    ne soit refusée faute d'appui. Renvoie (template, nombre de pièces retirées)."""
     t = Template(f'Secteur test θ{th0:.0f}-{th1:.0f}', 'Essai en solo : un secteur de 60 degres de la forteresse, '
                  "dans l'ordre de pose. Pilier de reference : pile d'ancrage en (0 ; 300).")
     ancre(t, empilee=True)
     P, ordre, par = ordre_de_pose(plans)
-    src = {(cle, n): (e, l_, ph) for cle, tt in plans.items() for n, (e, l_, ph) in enumerate(zip(tt.entries, tt.lignes,
-                                                                                                     tt.phases))}
-    for i in ordre:
-        x, y = P[i][3], P[i][4]
-        if th0 - 0.01 <= math.degrees(math.atan2(y, x)) <= th1 + 0.01 or math.hypot(x, y) < 150:   # coins à θ0, θ1 compris
-            e, l_, ph = src[(P[i][0], P[i][1])]
-            t.entries.append(e)
-            t.lignes.append(l_)
-            t.phases.append(ph)
-            t.groupes.append(None)
-            t.metas.append(None)
-    return t
+    src = {(cle, n): (e, l_) for cle, tt in plans.items() for n, (e, l_) in enumerate(zip(tt.entries, tt.lignes))}
+    sel = [i for i in ordre if th0 - 0.01 <= math.degrees(math.atan2(P[i][4], P[i][3])) <= th1 + 0.01]  # coins compris
+    n0 = len(sel)
+    while True:                                  # pièces portées dans le secteur seulement
+        Q = [P[i] for i in sel]
+        par_q, sans_q = porteurs(Q)
+        plaf, dist = portee_plafonds(Q, par_q)
+        retirer = set(sans_q) | {k for k in plaf if dist.get(k, 99) > portee_max}
+        if not retirer:
+            break
+        sel = [i for k, i in enumerate(sel) if k not in retirer]
+    for i in sel:
+        e, l_ = src[(P[i][0], P[i][1])]
+        t.entries.append(e)
+        t.lignes.append(l_)
+        t.phases.append(P[i][0])                 # plan d'origine
+        t.groupes.append(None)
+        t.metas.append(None)
+    return t, n0 - len(sel)
 
 
 def essai_rampes():
@@ -3251,9 +3269,16 @@ def main():
           + f', rehausse {len(reh.entries)}')
     rep_test = os.path.join(rep_t, 'test')
     os.makedirs(rep_test, exist_ok=True)
-    essai = secteur_test(plans)
+    essai, hors = secteur_test(plans, portee_max=p['portee_plafond_max'])
     essai.ecrire(os.path.join(rep_test, 'Secteur_test_theta_-15_45.json'))
-    print(f"  Secteur d'essai θ -15° → 45° : {len(essai.entries)} entrées (templates/test/)")
+    fichiers = {cle: fichier for cle, fichier, *_ in PLANS}
+    ecrire_csv(os.path.join(rep_d, '08_secteur_test.csv'),
+               [(n, fichiers.get(pl, 'pile d\'ancrage'), NOMS.get(cle, cle), round(x, 1), round(y, 1),
+                 '' if Z is None else round(Z, 1), rep_)
+                for n, ((cle, x, y, Z, yaw, rep_), pl) in enumerate(zip(essai.lignes, essai.phases))],
+               ['entree', 'plan', 'piece', 'x', 'y', 'Z_plan', 'repere'])
+    print(f"  Secteur d'essai θ -15° → 45° : {len(essai.entries)} entrées (templates/test/), {hors} pièces retirées "
+          "faute d'appui dans le secteur")
     essai_r, legende_r = essai_rampes()
     essai_r.ecrire(os.path.join(rep_test, 'Essai_rampes.json'))
     ecrire_csv(os.path.join(rep_d, '08_essai_rampes.csv'), legende_r, ['entree', 'variante', 'piece', 'repere'])

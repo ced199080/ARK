@@ -104,7 +104,7 @@ Le centre est une **tour** (le pod), dont vous pouvez faire varier la hauteur. �
 | `templates/plans/Plan_01…11_*.json` | **Les 11 plans par zone**, à poser dans l'ordre (§5) |
 | `templates/plans/Option_rehausse_pod_+1_niveau.json` | Un niveau de plus pour la tour du pod |
 | `templates/test/Essai_rampes.json` | Essai court (50 pièces, sol plat) : 4 façons de faire partir une ligne de rampes (module 08 §7) |
-| `templates/test/Secteur_test_theta_-15_45.json` | Essai en solo : un secteur de 60° de tous les plans (module 08 §7) |
+| `templates/test/Secteur_test_theta_-15_45.json` | Essai en solo : un secteur de 60° de tous les plans, autonome (module 08 §7) ; entrées numérotées dans `donnees/08_secteur_test.csv` |
 | `references/Trou_points_ancrage.json` | Votre export *trou* (60 fondations + pilier de référence), qui sert au recalage |
 | `references/Trou_fondations.json` | Fondations du trou relevées sur votre image : `retirees` (blanc), `plateforme` (vert) |
 | `donnees/Plan_*.csv` | Toutes les pièces de chaque plan, dans l'ordre des entrées du template |

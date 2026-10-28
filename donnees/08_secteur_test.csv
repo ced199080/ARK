@@ -1,0 +1,1104 @@
+entree;plan;piece;x;y;Z_plan;repere
+0;pile d'ancrage;Demi-pilier métal;0.0;300.0;-75;ancre basse
+1;pile d'ancrage;Demi-pilier métal;0.0;300.0;75;ancre haute
+2;Plan_01_sol_complet;Fondation triangle métal;129.9;0.0;-0.0;anneau 0 cote 0 n0
+3;Plan_01_sol_complet;Fondation métal;409.8;0.0;-0.0;anneau 1 cote 0 n0
+4;Plan_01_sol_complet;Fondation triangle métal;372.3;215.0;-0.0;anneau 1 cote 1 n0
+5;Plan_01_sol_complet;Fondation triangle métal;689.7;0.0;-0.0;anneau 2 cote 0 n0
+6;Plan_01_sol_complet;Fondation triangle métal;689.7;-150.0;-0.0;anneau 2 cote 0 n1
+7;Plan_01_sol_complet;Fondation triangle métal;689.7;150.0;-0.0;anneau 2 cote 0 n2
+8;Plan_01_sol_complet;Fondation métal;614.7;354.9;-0.0;anneau 2 cote 1 n0
+9;Plan_01_sol_complet;Fondation métal;969.6;-150.0;-0.0;anneau 3 cote 0 n0
+10;Plan_01_sol_complet;Fondation métal;969.6;150.0;-0.0;anneau 3 cote 0 n1
+11;Plan_01_sol_complet;Fondation triangle métal;857.1;494.9;-0.0;anneau 3 cote 1 n0
+12;Plan_01_sol_complet;Fondation triangle métal;932.1;365.0;-0.0;anneau 3 cote 1 n1
+13;Plan_01_sol_complet;Fondation triangle métal;782.1;624.8;-0.0;anneau 3 cote 1 n2
+14;Plan_01_sol_complet;Fondation triangle métal;1249.5;-150.0;-0.0;anneau 4 cote 0 n0
+15;Plan_01_sol_complet;Fondation triangle métal;1249.5;150.0;-0.0;anneau 4 cote 0 n1
+16;Plan_01_sol_complet;Fondation triangle métal;1249.5;-300.0;-0.0;anneau 4 cote 0 n2
+17;Plan_01_sol_complet;Fondation triangle métal;1249.5;0.0;-0.0;anneau 4 cote 0 n3
+18;Plan_01_sol_complet;Fondation triangle métal;1249.5;300.0;-0.0;anneau 4 cote 0 n4
+19;Plan_01_sol_complet;Fondation métal;1174.5;504.9;-0.0;anneau 4 cote 1 n0
+20;Plan_01_sol_complet;Fondation métal;1024.5;764.7;-0.0;anneau 4 cote 1 n1
+21;Plan_01_sol_complet;Fondation métal;1529.4;-300.0;-0.0;anneau 5 cote 0 n0
+22;Plan_01_sol_complet;Fondation métal;1529.4;0.0;-0.0;anneau 5 cote 0 n1
+23;Plan_01_sol_complet;Fondation métal;1529.4;300.0;-0.0;anneau 5 cote 0 n2
+24;Plan_01_sol_complet;Fondation triangle métal;1416.9;644.9;-0.0;anneau 5 cote 1 n0
+25;Plan_01_sol_complet;Fondation triangle métal;1266.9;904.7;-0.0;anneau 5 cote 1 n1
+26;Plan_01_sol_complet;Fondation triangle métal;1491.9;515.0;-0.0;anneau 5 cote 1 n2
+27;Plan_01_sol_complet;Fondation triangle métal;1341.9;774.8;-0.0;anneau 5 cote 1 n3
+28;Plan_01_sol_complet;Fondation triangle métal;1191.9;1034.6;-0.0;anneau 5 cote 1 n4
+29;Plan_01_sol_complet;Fondation triangle métal;1809.3;-300.0;-0.0;anneau 6 cote 0 n0
+30;Plan_01_sol_complet;Fondation triangle métal;1809.3;0.0;-0.0;anneau 6 cote 0 n1
+31;Plan_01_sol_complet;Fondation triangle métal;1809.3;300.0;-0.0;anneau 6 cote 0 n2
+32;Plan_01_sol_complet;Fondation triangle métal;1809.3;-450.0;-0.0;anneau 6 cote 0 n3
+33;Plan_01_sol_complet;Fondation triangle métal;1809.3;-150.0;-0.0;anneau 6 cote 0 n4
+34;Plan_01_sol_complet;Fondation triangle métal;1809.3;150.0;-0.0;anneau 6 cote 0 n5
+35;Plan_01_sol_complet;Fondation triangle métal;1809.3;450.0;-0.0;anneau 6 cote 0 n6
+36;Plan_01_sol_complet;Fondation métal;1734.3;654.9;-0.0;anneau 6 cote 1 n0
+37;Plan_01_sol_complet;Fondation métal;1584.3;914.7;-0.0;anneau 6 cote 1 n1
+38;Plan_01_sol_complet;Fondation métal;1434.3;1174.5;-0.0;anneau 6 cote 1 n2
+39;Plan_01_sol_complet;Fondation métal;2089.2;-450.0;-0.0;anneau 7 cote 0 n0
+40;Plan_01_sol_complet;Fondation métal;2089.2;-150.0;-0.0;anneau 7 cote 0 n1
+41;Plan_01_sol_complet;Fondation métal;2089.2;150.0;-0.0;anneau 7 cote 0 n2
+42;Plan_01_sol_complet;Fondation métal;2089.2;450.0;-0.0;anneau 7 cote 0 n3
+43;Plan_01_sol_complet;Fondation triangle métal;1976.7;794.9;-0.0;anneau 7 cote 1 n0
+44;Plan_01_sol_complet;Fondation triangle métal;1826.7;1054.7;-0.0;anneau 7 cote 1 n1
+45;Plan_01_sol_complet;Fondation triangle métal;1676.7;1314.5;-0.0;anneau 7 cote 1 n2
+46;Plan_01_sol_complet;Fondation triangle métal;2051.7;665.0;-0.0;anneau 7 cote 1 n3
+47;Plan_01_sol_complet;Fondation triangle métal;1901.7;924.8;-0.0;anneau 7 cote 1 n4
+48;Plan_01_sol_complet;Fondation triangle métal;1751.7;1184.6;-0.0;anneau 7 cote 1 n5
+49;Plan_01_sol_complet;Fondation triangle métal;1601.7;1444.4;-0.0;anneau 7 cote 1 n6
+50;Plan_01_sol_complet;Fondation triangle métal;2369.1;-450.0;-0.0;anneau 8 cote 0 n0
+51;Plan_01_sol_complet;Fondation triangle métal;2369.1;-150.0;-0.0;anneau 8 cote 0 n1
+52;Plan_01_sol_complet;Fondation triangle métal;2369.1;150.0;-0.0;anneau 8 cote 0 n2
+53;Plan_01_sol_complet;Fondation triangle métal;2369.1;450.0;-0.0;anneau 8 cote 0 n3
+54;Plan_01_sol_complet;Fondation triangle métal;2369.1;-600.0;-0.0;anneau 8 cote 0 n4
+55;Plan_01_sol_complet;Fondation triangle métal;2369.1;-300.0;-0.0;anneau 8 cote 0 n5
+56;Plan_01_sol_complet;Fondation triangle métal;2369.1;0.0;-0.0;anneau 8 cote 0 n6
+57;Plan_01_sol_complet;Fondation triangle métal;2369.1;300.0;-0.0;anneau 8 cote 0 n7
+58;Plan_01_sol_complet;Fondation triangle métal;2369.1;600.0;-0.0;anneau 8 cote 0 n8
+59;Plan_01_sol_complet;Fondation métal;2294.1;804.9;-0.0;anneau 8 cote 1 n0
+60;Plan_01_sol_complet;Fondation métal;2144.1;1064.7;-0.0;anneau 8 cote 1 n1
+61;Plan_01_sol_complet;Fondation métal;1994.1;1324.5;-0.0;anneau 8 cote 1 n2
+62;Plan_01_sol_complet;Fondation métal;1844.1;1584.3;-0.0;anneau 8 cote 1 n3
+63;Plan_01_sol_complet;Fondation métal;2649.0;-600.0;-0.0;anneau 9 cote 0 n0
+64;Plan_01_sol_complet;Fondation métal;2649.0;-300.0;-0.0;anneau 9 cote 0 n1
+65;Plan_01_sol_complet;Fondation métal;2649.0;0.0;-0.0;anneau 9 cote 0 n2
+66;Plan_01_sol_complet;Fondation métal;2649.0;300.0;-0.0;anneau 9 cote 0 n3
+67;Plan_01_sol_complet;Fondation métal;2649.0;600.0;-0.0;anneau 9 cote 0 n4
+68;Plan_01_sol_complet;Fondation triangle métal;2536.5;944.9;-0.0;anneau 9 cote 1 n0
+69;Plan_01_sol_complet;Fondation triangle métal;2386.5;1204.7;-0.0;anneau 9 cote 1 n1
+70;Plan_01_sol_complet;Fondation triangle métal;2236.5;1464.5;-0.0;anneau 9 cote 1 n2
+71;Plan_01_sol_complet;Fondation triangle métal;2086.5;1724.3;-0.0;anneau 9 cote 1 n3
+72;Plan_01_sol_complet;Fondation triangle métal;2611.5;815.0;-0.0;anneau 9 cote 1 n4
+73;Plan_01_sol_complet;Fondation triangle métal;2461.5;1074.8;-0.0;anneau 9 cote 1 n5
+74;Plan_01_sol_complet;Fondation triangle métal;2311.5;1334.6;-0.0;anneau 9 cote 1 n6
+75;Plan_01_sol_complet;Fondation triangle métal;2161.5;1594.4;-0.0;anneau 9 cote 1 n7
+76;Plan_01_sol_complet;Fondation triangle métal;2011.5;1854.2;-0.0;anneau 9 cote 1 n8
+77;Plan_01_sol_complet;Fondation triangle métal;2928.9;-600.0;-0.0;anneau 10 cote 0 n0
+78;Plan_01_sol_complet;Fondation triangle métal;2928.9;-300.0;-0.0;anneau 10 cote 0 n1
+79;Plan_01_sol_complet;Fondation triangle métal;2928.9;0.0;-0.0;anneau 10 cote 0 n2
+80;Plan_01_sol_complet;Fondation triangle métal;2928.9;300.0;-0.0;anneau 10 cote 0 n3
+81;Plan_01_sol_complet;Fondation triangle métal;2928.9;600.0;-0.0;anneau 10 cote 0 n4
+82;Plan_01_sol_complet;Fondation triangle métal;2928.9;-750.0;-0.0;anneau 10 cote 0 n5
+83;Plan_01_sol_complet;Fondation triangle métal;2928.9;-450.0;-0.0;anneau 10 cote 0 n6
+84;Plan_01_sol_complet;Fondation triangle métal;2928.9;-150.0;-0.0;anneau 10 cote 0 n7
+85;Plan_01_sol_complet;Fondation triangle métal;2928.9;150.0;-0.0;anneau 10 cote 0 n8
+86;Plan_01_sol_complet;Fondation triangle métal;2928.9;450.0;-0.0;anneau 10 cote 0 n9
+87;Plan_01_sol_complet;Fondation triangle métal;2928.9;750.0;-0.0;anneau 10 cote 0 n10
+88;Plan_01_sol_complet;Fondation métal;2853.9;954.9;-0.0;anneau 10 cote 1 n0
+89;Plan_01_sol_complet;Fondation métal;2703.9;1214.7;-0.0;anneau 10 cote 1 n1
+90;Plan_01_sol_complet;Fondation métal;2553.9;1474.5;-0.0;anneau 10 cote 1 n2
+91;Plan_01_sol_complet;Fondation métal;2403.9;1734.3;-0.0;anneau 10 cote 1 n3
+92;Plan_01_sol_complet;Fondation métal;2253.9;1994.1;-0.0;anneau 10 cote 1 n4
+93;Plan_01_sol_complet;Fondation métal;3208.8;-750.0;-0.0;anneau 11 cote 0 n0
+94;Plan_01_sol_complet;Fondation métal;3208.8;-450.0;-0.0;anneau 11 cote 0 n1
+95;Plan_01_sol_complet;Fondation métal;3208.8;-150.0;-0.0;anneau 11 cote 0 n2
+96;Plan_01_sol_complet;Fondation métal;3208.8;150.0;-0.0;anneau 11 cote 0 n3
+97;Plan_01_sol_complet;Fondation métal;3208.8;450.0;-0.0;anneau 11 cote 0 n4
+98;Plan_01_sol_complet;Fondation métal;3208.8;750.0;-0.0;anneau 11 cote 0 n5
+99;Plan_01_sol_complet;Fondation triangle métal;3096.3;1094.9;-0.0;anneau 11 cote 1 n0
+100;Plan_01_sol_complet;Fondation triangle métal;2946.3;1354.7;-0.0;anneau 11 cote 1 n1
+101;Plan_01_sol_complet;Fondation triangle métal;2796.3;1614.5;-0.0;anneau 11 cote 1 n2
+102;Plan_01_sol_complet;Fondation triangle métal;2646.3;1874.3;-0.0;anneau 11 cote 1 n3
+103;Plan_01_sol_complet;Fondation triangle métal;2496.3;2134.1;-0.0;anneau 11 cote 1 n4
+104;Plan_01_sol_complet;Fondation triangle métal;3171.3;965.0;-0.0;anneau 11 cote 1 n5
+105;Plan_01_sol_complet;Fondation triangle métal;3021.3;1224.8;-0.0;anneau 11 cote 1 n6
+106;Plan_01_sol_complet;Fondation triangle métal;2871.3;1484.6;-0.0;anneau 11 cote 1 n7
+107;Plan_01_sol_complet;Fondation triangle métal;2721.3;1744.4;-0.0;anneau 11 cote 1 n8
+108;Plan_01_sol_complet;Fondation triangle métal;2571.3;2004.2;-0.0;anneau 11 cote 1 n9
+109;Plan_01_sol_complet;Fondation triangle métal;2421.3;2264.0;-0.0;anneau 11 cote 1 n10
+110;Plan_01_sol_complet;Fondation triangle métal;3488.7;-750.0;-0.0;anneau 12 cote 0 n0
+111;Plan_01_sol_complet;Fondation triangle métal;3488.7;-450.0;-0.0;anneau 12 cote 0 n1
+112;Plan_01_sol_complet;Fondation triangle métal;3488.7;-150.0;-0.0;anneau 12 cote 0 n2
+113;Plan_01_sol_complet;Fondation triangle métal;3488.7;150.0;-0.0;anneau 12 cote 0 n3
+114;Plan_01_sol_complet;Fondation triangle métal;3488.7;450.0;-0.0;anneau 12 cote 0 n4
+115;Plan_01_sol_complet;Fondation triangle métal;3488.7;750.0;-0.0;anneau 12 cote 0 n5
+116;Plan_01_sol_complet;Fondation triangle métal;3488.7;-900.0;-0.0;anneau 12 cote 0 n6
+117;Plan_01_sol_complet;Fondation triangle métal;3488.7;-600.0;-0.0;anneau 12 cote 0 n7
+118;Plan_01_sol_complet;Fondation triangle métal;3488.7;-300.0;-0.0;anneau 12 cote 0 n8
+119;Plan_01_sol_complet;Fondation triangle métal;3488.7;0.0;-0.0;anneau 12 cote 0 n9
+120;Plan_01_sol_complet;Fondation triangle métal;3488.7;300.0;-0.0;anneau 12 cote 0 n10
+121;Plan_01_sol_complet;Fondation triangle métal;3488.7;600.0;-0.0;anneau 12 cote 0 n11
+122;Plan_01_sol_complet;Fondation triangle métal;3488.7;900.0;-0.0;anneau 12 cote 0 n12
+123;Plan_01_sol_complet;Fondation métal;3413.7;1104.9;-0.0;anneau 12 cote 1 n0
+124;Plan_01_sol_complet;Fondation métal;3263.7;1364.7;-0.0;anneau 12 cote 1 n1
+125;Plan_01_sol_complet;Fondation métal;3113.7;1624.5;-0.0;anneau 12 cote 1 n2
+126;Plan_01_sol_complet;Fondation métal;2963.7;1884.3;-0.0;anneau 12 cote 1 n3
+127;Plan_01_sol_complet;Fondation métal;2813.7;2144.1;-0.0;anneau 12 cote 1 n4
+128;Plan_01_sol_complet;Fondation métal;2663.7;2403.9;-0.0;anneau 12 cote 1 n5
+129;Plan_01_sol_complet;Fondation métal;3768.7;-900.0;-0.0;anneau 13 cote 0 n0
+130;Plan_01_sol_complet;Fondation métal;3768.7;-600.0;-0.0;anneau 13 cote 0 n1
+131;Plan_01_sol_complet;Fondation métal;3768.7;-300.0;-0.0;anneau 13 cote 0 n2
+132;Plan_01_sol_complet;Fondation métal;3768.7;0.0;-0.0;anneau 13 cote 0 n3
+133;Plan_01_sol_complet;Fondation métal;3768.7;300.0;-0.0;anneau 13 cote 0 n4
+134;Plan_01_sol_complet;Fondation métal;3768.7;600.0;-0.0;anneau 13 cote 0 n5
+135;Plan_01_sol_complet;Fondation métal;3768.7;900.0;-0.0;anneau 13 cote 0 n6
+136;Plan_01_sol_complet;Fondation triangle métal;3656.2;1244.9;-0.0;anneau 13 cote 1 n0
+137;Plan_01_sol_complet;Fondation triangle métal;3506.2;1504.7;-0.0;anneau 13 cote 1 n1
+138;Plan_01_sol_complet;Fondation triangle métal;3356.2;1764.5;-0.0;anneau 13 cote 1 n2
+139;Plan_01_sol_complet;Fondation triangle métal;3206.2;2024.3;-0.0;anneau 13 cote 1 n3
+140;Plan_01_sol_complet;Fondation triangle métal;3056.2;2284.1;-0.0;anneau 13 cote 1 n4
+141;Plan_01_sol_complet;Fondation triangle métal;2906.2;2543.9;-0.0;anneau 13 cote 1 n5
+142;Plan_01_sol_complet;Fondation triangle métal;3731.2;1115.0;-0.0;anneau 13 cote 1 n6
+143;Plan_01_sol_complet;Fondation triangle métal;3581.2;1374.8;-0.0;anneau 13 cote 1 n7
+144;Plan_01_sol_complet;Fondation triangle métal;3431.2;1634.6;-0.0;anneau 13 cote 1 n8
+145;Plan_01_sol_complet;Fondation triangle métal;3281.2;1894.4;-0.0;anneau 13 cote 1 n9
+146;Plan_01_sol_complet;Fondation triangle métal;3131.2;2154.2;-0.0;anneau 13 cote 1 n10
+147;Plan_01_sol_complet;Fondation triangle métal;2981.2;2414.0;-0.0;anneau 13 cote 1 n11
+148;Plan_01_sol_complet;Fondation triangle métal;2831.2;2673.8;-0.0;anneau 13 cote 1 n12
+149;Plan_01_sol_complet;Fondation triangle métal;4048.6;-900.0;-150.0;anneau 14 cote 0 n0
+150;Plan_01_sol_complet;Fondation triangle métal;4048.6;-600.0;-150.0;anneau 14 cote 0 n1
+151;Plan_01_sol_complet;Fondation triangle métal;4048.6;-300.0;-150.0;anneau 14 cote 0 n2
+152;Plan_01_sol_complet;Fondation triangle métal;4048.6;0.0;-150.0;anneau 14 cote 0 n3
+153;Plan_01_sol_complet;Fondation triangle métal;4048.6;300.0;-150.0;anneau 14 cote 0 n4
+154;Plan_01_sol_complet;Fondation triangle métal;4048.6;600.0;-150.0;anneau 14 cote 0 n5
+155;Plan_01_sol_complet;Fondation triangle métal;4048.6;900.0;-150.0;anneau 14 cote 0 n6
+156;Plan_01_sol_complet;Fondation triangle métal;4048.6;-1050.0;-150.0;anneau 14 cote 0 n7
+157;Plan_01_sol_complet;Fondation triangle métal;4048.6;-750.0;-150.0;anneau 14 cote 0 n8
+158;Plan_01_sol_complet;Fondation triangle métal;4048.6;-450.0;-150.0;anneau 14 cote 0 n9
+159;Plan_01_sol_complet;Fondation triangle métal;4048.6;-150.0;-150.0;anneau 14 cote 0 n10
+160;Plan_01_sol_complet;Fondation triangle métal;4048.6;150.0;-150.0;anneau 14 cote 0 n11
+161;Plan_01_sol_complet;Fondation triangle métal;4048.6;450.0;-150.0;anneau 14 cote 0 n12
+162;Plan_01_sol_complet;Fondation triangle métal;4048.6;750.0;-150.0;anneau 14 cote 0 n13
+163;Plan_01_sol_complet;Fondation triangle métal;4048.6;1050.0;-150.0;anneau 14 cote 0 n14
+164;Plan_01_sol_complet;Fondation métal;3973.6;1254.9;-150.0;anneau 14 cote 1 n0
+165;Plan_01_sol_complet;Fondation métal;3823.6;1514.7;-150.0;anneau 14 cote 1 n1
+166;Plan_01_sol_complet;Fondation métal;3673.6;1774.5;-150.0;anneau 14 cote 1 n2
+167;Plan_01_sol_complet;Fondation métal;3523.6;2034.3;-150.0;anneau 14 cote 1 n3
+168;Plan_01_sol_complet;Fondation métal;3373.6;2294.1;-150.0;anneau 14 cote 1 n4
+169;Plan_01_sol_complet;Fondation métal;3223.6;2553.9;-150.0;anneau 14 cote 1 n5
+170;Plan_01_sol_complet;Fondation métal;3073.6;2813.7;-150.0;anneau 14 cote 1 n6
+171;Plan_01_sol_complet;Fondation métal;4328.5;-1050.0;-300.0;anneau 15 cote 0 n0
+172;Plan_01_sol_complet;Fondation métal;4328.5;-750.0;-300.0;anneau 15 cote 0 n1
+173;Plan_01_sol_complet;Fondation métal;4328.5;-450.0;-300.0;anneau 15 cote 0 n2
+174;Plan_01_sol_complet;Fondation métal;4328.5;-150.0;-300.0;anneau 15 cote 0 n3
+175;Plan_01_sol_complet;Fondation métal;4328.5;150.0;-300.0;anneau 15 cote 0 n4
+176;Plan_01_sol_complet;Fondation métal;4328.5;450.0;-300.0;anneau 15 cote 0 n5
+177;Plan_01_sol_complet;Fondation métal;4328.5;750.0;-300.0;anneau 15 cote 0 n6
+178;Plan_01_sol_complet;Fondation métal;4328.5;1050.0;-300.0;anneau 15 cote 0 n7
+179;Plan_01_sol_complet;Fondation triangle métal;4216.0;1394.9;-300.0;anneau 15 cote 1 n0
+180;Plan_01_sol_complet;Fondation triangle métal;4066.0;1654.7;-300.0;anneau 15 cote 1 n1
+181;Plan_01_sol_complet;Fondation triangle métal;3916.0;1914.5;-300.0;anneau 15 cote 1 n2
+182;Plan_01_sol_complet;Fondation triangle métal;3766.0;2174.3;-300.0;anneau 15 cote 1 n3
+183;Plan_01_sol_complet;Fondation triangle métal;3616.0;2434.1;-300.0;anneau 15 cote 1 n4
+184;Plan_01_sol_complet;Fondation triangle métal;3466.0;2693.9;-300.0;anneau 15 cote 1 n5
+185;Plan_01_sol_complet;Fondation triangle métal;3316.0;2953.7;-300.0;anneau 15 cote 1 n6
+186;Plan_01_sol_complet;Fondation triangle métal;4291.0;1265.0;-300.0;anneau 15 cote 1 n7
+187;Plan_01_sol_complet;Fondation triangle métal;4141.0;1524.8;-300.0;anneau 15 cote 1 n8
+188;Plan_01_sol_complet;Fondation triangle métal;3991.0;1784.6;-300.0;anneau 15 cote 1 n9
+189;Plan_01_sol_complet;Fondation triangle métal;3841.0;2044.4;-300.0;anneau 15 cote 1 n10
+190;Plan_01_sol_complet;Fondation triangle métal;3691.0;2304.2;-300.0;anneau 15 cote 1 n11
+191;Plan_01_sol_complet;Fondation triangle métal;3541.0;2564.0;-300.0;anneau 15 cote 1 n12
+192;Plan_01_sol_complet;Fondation triangle métal;3391.0;2823.8;-300.0;anneau 15 cote 1 n13
+193;Plan_01_sol_complet;Fondation triangle métal;3241.0;3083.6;-300.0;anneau 15 cote 1 n14
+194;Plan_02_colonnade_option;Pilier métal;3599.8;39.3;0.0;colonnade θ0.62
+195;Plan_02_colonnade_option;Pilier métal;3598.1;117.8;0.0;colonnade θ1.88
+196;Plan_02_colonnade_option;Pilier métal;3594.6;196.3;0.0;colonnade θ3.12
+197;Plan_02_colonnade_option;Pilier métal;3589.5;274.6;0.0;colonnade θ4.38
+198;Plan_02_colonnade_option;Pilier métal;3582.7;352.9;0.0;colonnade θ5.62
+199;Plan_02_colonnade_option;Pilier métal;3574.1;430.9;0.0;colonnade θ6.88
+200;Plan_02_colonnade_option;Pilier métal;3563.9;508.8;0.0;colonnade θ8.12
+201;Plan_02_colonnade_option;Pilier métal;3551.9;586.4;0.0;colonnade θ9.38
+202;Plan_02_colonnade_option;Pilier métal;3538.3;663.8;0.0;colonnade θ10.62
+203;Plan_02_colonnade_option;Pilier métal;3523.0;740.8;0.0;colonnade θ11.88
+204;Plan_02_colonnade_option;Pilier métal;3506.0;817.5;0.0;colonnade θ13.12
+205;Plan_02_colonnade_option;Pilier métal;3487.3;893.8;0.0;colonnade θ14.38
+206;Plan_02_colonnade_option;Pilier métal;3467.0;969.6;0.0;colonnade θ15.62
+207;Plan_02_colonnade_option;Pilier métal;3445.0;1045.0;0.0;colonnade θ16.88
+208;Plan_02_colonnade_option;Pilier métal;3421.4;1119.9;0.0;colonnade θ18.12
+209;Plan_02_colonnade_option;Pilier métal;3396.1;1194.3;0.0;colonnade θ19.38
+210;Plan_02_colonnade_option;Pilier métal;3369.3;1268.1;0.0;colonnade θ20.62
+211;Plan_02_colonnade_option;Pilier métal;3340.8;1341.3;0.0;colonnade θ21.88
+212;Plan_02_colonnade_option;Pilier métal;3310.7;1413.9;0.0;colonnade θ23.12
+213;Plan_02_colonnade_option;Pilier métal;3279.1;1485.7;0.0;colonnade θ24.38
+214;Plan_02_colonnade_option;Pilier métal;3245.9;1556.9;0.0;colonnade θ25.62
+215;Plan_02_colonnade_option;Pilier métal;3211.2;1627.4;0.0;colonnade θ26.88
+216;Plan_02_colonnade_option;Pilier métal;3014.9;1967.3;0.0;colonnade θ33.12
+217;Plan_02_colonnade_option;Pilier métal;2971.3;2032.6;0.0;colonnade θ34.38
+218;Plan_02_colonnade_option;Pilier métal;2926.2;2096.9;0.0;colonnade θ35.62
+219;Plan_02_colonnade_option;Pilier métal;2879.8;2160.3;0.0;colonnade θ36.88
+220;Plan_02_colonnade_option;Pilier métal;2832.0;2222.6;0.0;colonnade θ38.12
+221;Plan_02_colonnade_option;Pilier métal;2782.8;2283.8;0.0;colonnade θ39.38
+222;Plan_02_colonnade_option;Pilier métal;2732.4;2344.0;0.0;colonnade θ40.62
+223;Plan_02_colonnade_option;Pilier métal;2680.6;2403.0;0.0;colonnade θ41.88
+224;Plan_02_colonnade_option;Pilier métal;2627.5;2460.9;0.0;colonnade θ43.12
+225;Plan_02_colonnade_option;Pilier métal;2573.2;2517.7;0.0;colonnade θ44.38
+226;Plan_02_colonnade_option;Pilier métal;3487.3;-893.8;0.0;colonnade θ345.62
+227;Plan_02_colonnade_option;Pilier métal;3506.0;-817.5;0.0;colonnade θ346.88
+228;Plan_02_colonnade_option;Pilier métal;3523.0;-740.8;0.0;colonnade θ348.12
+229;Plan_02_colonnade_option;Pilier métal;3538.3;-663.8;0.0;colonnade θ349.38
+230;Plan_02_colonnade_option;Pilier métal;3551.9;-586.4;0.0;colonnade θ350.62
+231;Plan_02_colonnade_option;Pilier métal;3563.9;-508.8;0.0;colonnade θ351.88
+232;Plan_02_colonnade_option;Pilier métal;3574.1;-430.9;0.0;colonnade θ353.12
+233;Plan_02_colonnade_option;Pilier métal;3582.7;-352.9;0.0;colonnade θ354.38
+234;Plan_02_colonnade_option;Pilier métal;3589.5;-274.6;0.0;colonnade θ355.62
+235;Plan_02_colonnade_option;Pilier métal;3594.6;-196.3;0.0;colonnade θ356.88
+236;Plan_02_colonnade_option;Pilier métal;3598.1;-117.8;0.0;colonnade θ358.12
+237;Plan_02_colonnade_option;Pilier métal;3599.8;-39.3;0.0;colonnade θ359.38
+238;Plan_03_bord_D8-D7;Pilier fin métal (Thin Pillar);4478.5;-1200.0;-300.0;depart lignes debord c0 t-1200 : pilier fin dans le joint
+239;Plan_03_bord_D8-D7;Pilier fin métal (Thin Pillar);4478.5;-900.0;-300.0;depart lignes debord c0 t-900 : pilier fin dans le joint
+240;Plan_03_bord_D8-D7;Pilier fin métal (Thin Pillar);4478.5;-600.0;-300.0;depart lignes debord c0 t-600 : pilier fin dans le joint
+241;Plan_03_bord_D8-D7;Pilier fin métal (Thin Pillar);4478.5;-300.0;-300.0;depart lignes debord c0 t-300 : pilier fin dans le joint
+242;Plan_03_bord_D8-D7;Pilier fin métal (Thin Pillar);4478.5;0.0;-300.0;depart lignes debord c0 t-0 : pilier fin dans le joint
+243;Plan_03_bord_D8-D7;Pilier fin métal (Thin Pillar);4478.5;300.0;-300.0;depart lignes debord c0 t+300 : pilier fin dans le joint
+244;Plan_03_bord_D8-D7;Pilier fin métal (Thin Pillar);4478.5;600.0;-300.0;depart lignes debord c0 t+600 : pilier fin dans le joint
+245;Plan_03_bord_D8-D7;Pilier fin métal (Thin Pillar);4478.5;900.0;-300.0;depart lignes debord c0 t+900 : pilier fin dans le joint
+246;Plan_03_bord_D8-D7;Pilier fin métal (Thin Pillar);4478.5;1200.0;-300.0;depart lignes debord c0 t+1200 : pilier fin dans le joint
+247;Plan_03_bord_D8-D7;Pilier fin métal (Thin Pillar);4328.5;1459.8;-300.0;depart lignes debord c1 t-900 : pilier fin dans le joint
+248;Plan_03_bord_D8-D7;Pilier fin métal (Thin Pillar);4178.5;1719.6;-300.0;depart lignes debord c1 t-600 : pilier fin dans le joint
+249;Plan_03_bord_D8-D7;Pilier fin métal (Thin Pillar);4028.5;1979.4;-300.0;depart lignes debord c1 t-300 : pilier fin dans le joint
+250;Plan_03_bord_D8-D7;Pilier fin métal (Thin Pillar);3878.5;2239.2;-300.0;depart lignes debord c1 t-0 : pilier fin dans le joint
+251;Plan_03_bord_D8-D7;Pilier fin métal (Thin Pillar);3728.5;2499.0;-300.0;depart lignes debord c1 t+300 : pilier fin dans le joint
+252;Plan_03_bord_D8-D7;Pilier fin métal (Thin Pillar);3578.5;2758.8;-300.0;depart lignes debord c1 t+600 : pilier fin dans le joint
+253;Plan_03_bord_D8-D7;Pilier fin métal (Thin Pillar);3428.5;3018.7;-300.0;depart lignes debord c1 t+900 : pilier fin dans le joint
+254;Plan_03_bord_D8-D7;Pilier fin métal (Thin Pillar);3278.5;3278.5;-300.0;depart lignes debord c1 t+1200 : pilier fin dans le joint
+255;Plan_03_bord_D8-D7;Cadre de porte double métal;4478.5;-1050.0;-300.0;jupe mur c0 p0
+256;Plan_03_bord_D8-D7;Cadre de porte double métal;4478.5;-750.0;-300.0;jupe mur c0 p1
+257;Plan_03_bord_D8-D7;Cadre de porte double métal;4478.5;-450.0;-300.0;jupe mur c0 p2
+258;Plan_03_bord_D8-D7;Cadre de porte double métal;4478.5;-150.0;-300.0;jupe mur c0 p3
+259;Plan_03_bord_D8-D7;Cadre de porte double métal;4478.5;150.0;-300.0;jupe mur c0 p4
+260;Plan_03_bord_D8-D7;Cadre de porte double métal;4478.5;450.0;-300.0;jupe mur c0 p5
+261;Plan_03_bord_D8-D7;Cadre de porte double métal;4478.5;750.0;-300.0;jupe mur c0 p6
+262;Plan_03_bord_D8-D7;Cadre de porte double métal;4478.5;1050.0;-300.0;jupe mur c0 p7
+263;Plan_03_bord_D8-D7;Cadre de porte double métal;4403.5;1329.9;-300.0;jupe mur c1 p0
+264;Plan_03_bord_D8-D7;Cadre de porte double métal;4253.5;1589.7;-300.0;jupe mur c1 p1
+265;Plan_03_bord_D8-D7;Cadre de porte double métal;4103.5;1849.5;-300.0;jupe mur c1 p2
+266;Plan_03_bord_D8-D7;Cadre de porte double métal;3953.5;2109.3;-300.0;jupe mur c1 p3
+267;Plan_03_bord_D8-D7;Cadre de porte double métal;3803.5;2369.1;-300.0;jupe mur c1 p4
+268;Plan_03_bord_D8-D7;Cadre de porte double métal;3653.5;2628.9;-300.0;jupe mur c1 p5
+269;Plan_03_bord_D8-D7;Cadre de porte double métal;3503.5;2888.7;-300.0;jupe mur c1 p6
+270;Plan_03_bord_D8-D7;Cadre de porte double métal;3353.5;3148.6;-300.0;jupe mur c1 p7
+271;Plan_03_bord_D8-D7;Pilier fin métal (Thin Pillar);4218.7;-1050.0;-300.0;appui overhang c0 t-1050 : poteau
+272;Plan_03_bord_D8-D7;Pilier fin métal (Thin Pillar);4218.7;-750.0;-300.0;appui overhang c0 t-750 : poteau
+273;Plan_03_bord_D8-D7;Pilier fin métal (Thin Pillar);4218.7;-450.0;-300.0;appui overhang c0 t-450 : poteau
+274;Plan_03_bord_D8-D7;Pilier fin métal (Thin Pillar);4218.7;-150.0;-300.0;appui overhang c0 t-150 : poteau
+275;Plan_03_bord_D8-D7;Pilier fin métal (Thin Pillar);4218.7;150.0;-300.0;appui overhang c0 t+150 : poteau
+276;Plan_03_bord_D8-D7;Pilier fin métal (Thin Pillar);4218.7;450.0;-300.0;appui overhang c0 t+450 : poteau
+277;Plan_03_bord_D8-D7;Pilier fin métal (Thin Pillar);4218.7;750.0;-300.0;appui overhang c0 t+750 : poteau
+278;Plan_03_bord_D8-D7;Pilier fin métal (Thin Pillar);4218.7;1050.0;-300.0;appui overhang c0 t+1050 : poteau
+279;Plan_03_bord_D8-D7;Rampe inclinée métal (Sloped Railing);4628.5;-1200.0;-300.0;overhang r-3 c0 t-1200
+280;Plan_03_bord_D8-D7;Rampe inclinée métal (Sloped Railing);4628.5;-900.0;-300.0;overhang r-3 c0 t-900
+281;Plan_03_bord_D8-D7;Rampe inclinée métal (Sloped Railing);4628.5;-600.0;-300.0;overhang r-3 c0 t-600
+282;Plan_03_bord_D8-D7;Rampe inclinée métal (Sloped Railing);4628.5;-300.0;-300.0;overhang r-3 c0 t-300
+283;Plan_03_bord_D8-D7;Rampe inclinée métal (Sloped Railing);4628.5;0.0;-300.0;overhang r-3 c0 t-0
+284;Plan_03_bord_D8-D7;Rampe inclinée métal (Sloped Railing);4628.5;300.0;-300.0;overhang r-3 c0 t+300
+285;Plan_03_bord_D8-D7;Rampe inclinée métal (Sloped Railing);4628.5;600.0;-300.0;overhang r-3 c0 t+600
+286;Plan_03_bord_D8-D7;Rampe inclinée métal (Sloped Railing);4628.5;900.0;-300.0;overhang r-3 c0 t+900
+287;Plan_03_bord_D8-D7;Rampe inclinée métal (Sloped Railing);4628.5;1200.0;-300.0;overhang r-3 c0 t+1200
+288;Plan_03_bord_D8-D7;Rampe inclinée métal (Sloped Railing);4608.4;1275.0;-300.0;overhang r-3 c1 t-1200
+289;Plan_03_bord_D8-D7;Rampe inclinée métal (Sloped Railing);4458.4;1534.8;-300.0;overhang r-3 c1 t-900
+290;Plan_03_bord_D8-D7;Rampe inclinée métal (Sloped Railing);4308.4;1794.6;-300.0;overhang r-3 c1 t-600
+291;Plan_03_bord_D8-D7;Rampe inclinée métal (Sloped Railing);4158.4;2054.4;-300.0;overhang r-3 c1 t-300
+292;Plan_03_bord_D8-D7;Rampe inclinée métal (Sloped Railing);4008.4;2314.2;-300.0;overhang r-3 c1 t-0
+293;Plan_03_bord_D8-D7;Rampe inclinée métal (Sloped Railing);3858.4;2574.0;-300.0;overhang r-3 c1 t+300
+294;Plan_03_bord_D8-D7;Rampe inclinée métal (Sloped Railing);3708.4;2833.8;-300.0;overhang r-3 c1 t+600
+295;Plan_03_bord_D8-D7;Rampe inclinée métal (Sloped Railing);3558.4;3093.7;-300.0;overhang r-3 c1 t+900
+296;Plan_03_bord_D8-D7;Rampe inclinée métal (Sloped Railing);3408.4;3353.5;-300.0;overhang r-3 c1 t+1200
+297;Plan_03_bord_D8-D7;Pilier fin métal (Thin Pillar);4178.5;1200.0;-150.0;appui overhang c1 t-1050 : poteau
+298;Plan_03_bord_D8-D7;Pilier fin métal (Thin Pillar);4028.5;1459.8;-150.0;appui overhang c1 t-750 : poteau
+299;Plan_03_bord_D8-D7;Pilier fin métal (Thin Pillar);3878.5;1719.6;-150.0;appui overhang c1 t-450 : poteau
+300;Plan_03_bord_D8-D7;Pilier fin métal (Thin Pillar);3728.5;1979.4;-150.0;appui overhang c1 t-150 : poteau
+301;Plan_03_bord_D8-D7;Pilier fin métal (Thin Pillar);3578.5;2239.2;-150.0;appui overhang c1 t+150 : poteau
+302;Plan_03_bord_D8-D7;Pilier fin métal (Thin Pillar);3428.5;2499.0;-150.0;appui overhang c1 t+450 : poteau
+303;Plan_03_bord_D8-D7;Pilier fin métal (Thin Pillar);3278.5;2758.8;-150.0;appui overhang c1 t+750 : poteau
+304;Plan_03_bord_D8-D7;Pilier fin métal (Thin Pillar);3128.5;3018.7;-150.0;appui overhang c1 t+1050 : poteau
+305;Plan_03_bord_D8-D7;Cadre de porte double métal;3918.7;-900.0;0.0;rive niv0 c0 p0
+306;Plan_03_bord_D8-D7;Cadre de porte double métal;3918.7;-600.0;0.0;rive niv0 c0 p1
+307;Plan_03_bord_D8-D7;Cadre de porte double métal;3918.7;-300.0;0.0;rive niv0 c0 p2
+308;Plan_03_bord_D8-D7;Cadre de porte double métal;3918.7;0.0;0.0;rive niv0 c0 p3
+309;Plan_03_bord_D8-D7;Cadre de porte double métal;3918.7;300.0;0.0;rive niv0 c0 p4
+310;Plan_03_bord_D8-D7;Cadre de porte double métal;3918.7;900.0;0.0;rive niv0 c0 p6
+311;Plan_03_bord_D8-D7;Cadre de porte double métal;3843.7;1179.9;0.0;rive niv0 c1 p0
+312;Plan_03_bord_D8-D7;Cadre de porte double métal;3543.7;1699.5;0.0;rive niv0 c1 p2
+313;Plan_03_bord_D8-D7;Cadre de porte double métal;3393.7;1959.3;0.0;rive niv0 c1 p3
+314;Plan_03_bord_D8-D7;Cadre de porte double métal;3243.7;2219.1;0.0;rive niv0 c1 p4
+315;Plan_03_bord_D8-D7;Cadre de porte double métal;3093.7;2478.9;0.0;rive niv0 c1 p5
+316;Plan_03_bord_D8-D7;Cadre de porte double métal;2943.7;2738.7;0.0;rive niv0 c1 p6
+317;Plan_03_bord_D8-D7;Pilier fin métal (Thin Pillar);4218.7;-1050.0;0.0;appui overhang c0 t-1050 : poteau
+318;Plan_03_bord_D8-D7;Pilier fin métal (Thin Pillar);4218.7;-750.0;0.0;appui overhang c0 t-750 : poteau
+319;Plan_03_bord_D8-D7;Pilier fin métal (Thin Pillar);4218.7;-450.0;0.0;appui overhang c0 t-450 : poteau
+320;Plan_03_bord_D8-D7;Pilier fin métal (Thin Pillar);4218.7;-150.0;0.0;appui overhang c0 t-150 : poteau
+321;Plan_03_bord_D8-D7;Pilier fin métal (Thin Pillar);4218.7;150.0;0.0;appui overhang c0 t+150 : poteau
+322;Plan_03_bord_D8-D7;Pilier fin métal (Thin Pillar);4218.7;450.0;0.0;appui overhang c0 t+450 : poteau
+323;Plan_03_bord_D8-D7;Pilier fin métal (Thin Pillar);4218.7;750.0;0.0;appui overhang c0 t+750 : poteau
+324;Plan_03_bord_D8-D7;Pilier fin métal (Thin Pillar);4218.7;1050.0;0.0;appui overhang c0 t+1050 : poteau
+325;Plan_03_bord_D8-D7;Rampe inclinée métal (Sloped Railing);4368.7;-1050.0;0.0;overhang r-2 c0 t-1050
+326;Plan_03_bord_D8-D7;Rampe inclinée métal (Sloped Railing);4368.7;-750.0;0.0;overhang r-2 c0 t-750
+327;Plan_03_bord_D8-D7;Rampe inclinée métal (Sloped Railing);4368.7;-450.0;0.0;overhang r-2 c0 t-450
+328;Plan_03_bord_D8-D7;Rampe inclinée métal (Sloped Railing);4368.7;-150.0;0.0;overhang r-2 c0 t-150
+329;Plan_03_bord_D8-D7;Rampe inclinée métal (Sloped Railing);4368.7;150.0;0.0;overhang r-2 c0 t+150
+330;Plan_03_bord_D8-D7;Rampe inclinée métal (Sloped Railing);4368.7;450.0;0.0;overhang r-2 c0 t+450
+331;Plan_03_bord_D8-D7;Rampe inclinée métal (Sloped Railing);4368.7;750.0;0.0;overhang r-2 c0 t+750
+332;Plan_03_bord_D8-D7;Rampe inclinée métal (Sloped Railing);4368.7;1050.0;0.0;overhang r-2 c0 t+1050
+333;Plan_03_bord_D8-D7;Mur de chaume (gabarit de pose, à démolir);3918.7;600.0;0.0;#1 RIVE c0 p5 (chaume a demolir)
+334;Plan_03_bord_D8-D7;Mur de chaume (gabarit de pose, à démolir);3693.7;1439.7;0.0;#13 RIVE c1 p1 (chaume a demolir)
+335;Plan_03_bord_D8-D7;Demi-pilier fin métal (Half Thin Pillar);4178.5;1200.0;150.0;appui overhang c1 t-1050 : poteau
+336;Plan_03_bord_D8-D7;Rampe inclinée métal (Sloped Railing);4308.4;1275.0;0.0;overhang r-2 c1 t-1050
+337;Plan_03_bord_D8-D7;Demi-pilier fin métal (Half Thin Pillar);4028.5;1459.8;150.0;appui overhang c1 t-750 : poteau
+338;Plan_03_bord_D8-D7;Rampe inclinée métal (Sloped Railing);4158.4;1534.8;0.0;overhang r-2 c1 t-750
+339;Plan_03_bord_D8-D7;Demi-pilier fin métal (Half Thin Pillar);3878.5;1719.6;150.0;appui overhang c1 t-450 : poteau
+340;Plan_03_bord_D8-D7;Rampe inclinée métal (Sloped Railing);4008.4;1794.6;0.0;overhang r-2 c1 t-450
+341;Plan_03_bord_D8-D7;Demi-pilier fin métal (Half Thin Pillar);3728.5;1979.4;150.0;appui overhang c1 t-150 : poteau
+342;Plan_03_bord_D8-D7;Rampe inclinée métal (Sloped Railing);3858.4;2054.4;0.0;overhang r-2 c1 t-150
+343;Plan_03_bord_D8-D7;Demi-pilier fin métal (Half Thin Pillar);3578.5;2239.2;150.0;appui overhang c1 t+150 : poteau
+344;Plan_03_bord_D8-D7;Rampe inclinée métal (Sloped Railing);3708.4;2314.2;0.0;overhang r-2 c1 t+150
+345;Plan_03_bord_D8-D7;Demi-pilier fin métal (Half Thin Pillar);3428.5;2499.0;150.0;appui overhang c1 t+450 : poteau
+346;Plan_03_bord_D8-D7;Rampe inclinée métal (Sloped Railing);3558.4;2574.0;0.0;overhang r-2 c1 t+450
+347;Plan_03_bord_D8-D7;Demi-pilier fin métal (Half Thin Pillar);3278.5;2758.8;150.0;appui overhang c1 t+750 : poteau
+348;Plan_03_bord_D8-D7;Rampe inclinée métal (Sloped Railing);3408.4;2833.8;0.0;overhang r-2 c1 t+750
+349;Plan_03_bord_D8-D7;Demi-pilier fin métal (Half Thin Pillar);3128.5;3018.7;150.0;appui overhang c1 t+1050 : poteau
+350;Plan_03_bord_D8-D7;Rampe inclinée métal (Sloped Railing);3258.4;3093.7;0.0;overhang r-2 c1 t+1050
+351;Plan_03_bord_D8-D7;Pilier fin métal (Thin Pillar);3918.7;-1050.0;300.0;depart lignes overhang c0 t-1050 : pilier fin dans le joint
+352;Plan_03_bord_D8-D7;Pilier fin métal (Thin Pillar);3918.7;-750.0;300.0;depart lignes overhang c0 t-750 : pilier fin dans le joint
+353;Plan_03_bord_D8-D7;Pilier fin métal (Thin Pillar);3918.7;-450.0;300.0;depart lignes overhang c0 t-450 : pilier fin dans le joint
+354;Plan_03_bord_D8-D7;Pilier fin métal (Thin Pillar);3918.7;-150.0;300.0;depart lignes overhang c0 t-150 : pilier fin dans le joint
+355;Plan_03_bord_D8-D7;Pilier fin métal (Thin Pillar);3918.7;150.0;300.0;depart lignes overhang c0 t+150 : pilier fin dans le joint
+356;Plan_03_bord_D8-D7;Pilier fin métal (Thin Pillar);3918.7;450.0;300.0;depart lignes overhang c0 t+450 : pilier fin dans le joint
+357;Plan_03_bord_D8-D7;Pilier fin métal (Thin Pillar);3918.7;750.0;300.0;depart lignes overhang c0 t+750 : pilier fin dans le joint
+358;Plan_03_bord_D8-D7;Pilier fin métal (Thin Pillar);3918.7;1050.0;300.0;depart lignes overhang c0 t+1050 : pilier fin dans le joint
+359;Plan_03_bord_D8-D7;Pilier fin métal (Thin Pillar);3768.7;1309.8;300.0;depart lignes overhang c1 t-750 : pilier fin dans le joint
+360;Plan_03_bord_D8-D7;Pilier fin métal (Thin Pillar);3618.7;1569.6;300.0;depart lignes overhang c1 t-450 : pilier fin dans le joint
+361;Plan_03_bord_D8-D7;Pilier fin métal (Thin Pillar);3468.7;1829.4;300.0;depart lignes overhang c1 t-150 : pilier fin dans le joint
+362;Plan_03_bord_D8-D7;Pilier fin métal (Thin Pillar);3318.7;2089.2;300.0;depart lignes overhang c1 t+150 : pilier fin dans le joint
+363;Plan_03_bord_D8-D7;Pilier fin métal (Thin Pillar);3168.7;2349.0;300.0;depart lignes overhang c1 t+450 : pilier fin dans le joint
+364;Plan_03_bord_D8-D7;Pilier fin métal (Thin Pillar);3018.7;2608.8;300.0;depart lignes overhang c1 t+750 : pilier fin dans le joint
+365;Plan_03_bord_D8-D7;Pilier fin métal (Thin Pillar);2868.7;2868.7;300.0;depart lignes overhang c1 t+1050 : pilier fin dans le joint
+366;Plan_03_bord_D8-D7;Cadre de porte double métal;3918.7;-900.0;300.0;rive niv1 c0 p0
+367;Plan_03_bord_D8-D7;Cadre de porte double métal;3918.7;-300.0;300.0;rive niv1 c0 p2
+368;Plan_03_bord_D8-D7;Cadre de porte double métal;3918.7;300.0;300.0;rive niv1 c0 p4
+369;Plan_03_bord_D8-D7;Cadre de porte double métal;3918.7;600.0;300.0;rive niv1 c0 p5
+370;Plan_03_bord_D8-D7;Cadre de porte double métal;3918.7;900.0;300.0;rive niv1 c0 p6
+371;Plan_03_bord_D8-D7;Cadre de porte double métal;3843.7;1179.9;300.0;rive niv1 c1 p0
+372;Plan_03_bord_D8-D7;Cadre de porte double métal;3693.7;1439.7;300.0;rive niv1 c1 p1
+373;Plan_03_bord_D8-D7;Cadre de porte double métal;3543.7;1699.5;300.0;rive niv1 c1 p2
+374;Plan_03_bord_D8-D7;Cadre de porte double métal;3243.7;2219.1;300.0;rive niv1 c1 p4
+375;Plan_03_bord_D8-D7;Cadre de porte double métal;3093.7;2478.9;300.0;rive niv1 c1 p5
+376;Plan_03_bord_D8-D7;Cadre de porte double métal;2943.7;2738.7;300.0;rive niv1 c1 p6
+377;Plan_03_bord_D8-D7;Rampe inclinée métal (Sloped Railing);4068.7;-1050.0;300.0;overhang r-1 c0 t-1050
+378;Plan_03_bord_D8-D7;Rampe inclinée métal (Sloped Railing);4068.7;-750.0;300.0;overhang r-1 c0 t-750
+379;Plan_03_bord_D8-D7;Rampe inclinée métal (Sloped Railing);4068.7;-450.0;300.0;overhang r-1 c0 t-450
+380;Plan_03_bord_D8-D7;Rampe inclinée métal (Sloped Railing);4068.7;-150.0;300.0;overhang r-1 c0 t-150
+381;Plan_03_bord_D8-D7;Rampe inclinée métal (Sloped Railing);4068.7;150.0;300.0;overhang r-1 c0 t+150
+382;Plan_03_bord_D8-D7;Rampe inclinée métal (Sloped Railing);4068.7;450.0;300.0;overhang r-1 c0 t+450
+383;Plan_03_bord_D8-D7;Rampe inclinée métal (Sloped Railing);4068.7;750.0;300.0;overhang r-1 c0 t+750
+384;Plan_03_bord_D8-D7;Rampe inclinée métal (Sloped Railing);4068.7;1050.0;300.0;overhang r-1 c0 t+1050
+385;Plan_03_bord_D8-D7;Rampe inclinée métal (Sloped Railing);4048.6;1125.0;300.0;overhang r-1 c1 t-1050
+386;Plan_03_bord_D8-D7;Rampe inclinée métal (Sloped Railing);3898.6;1384.8;300.0;overhang r-1 c1 t-750
+387;Plan_03_bord_D8-D7;Rampe inclinée métal (Sloped Railing);3748.6;1644.6;300.0;overhang r-1 c1 t-450
+388;Plan_03_bord_D8-D7;Rampe inclinée métal (Sloped Railing);3598.6;1904.4;300.0;overhang r-1 c1 t-150
+389;Plan_03_bord_D8-D7;Rampe inclinée métal (Sloped Railing);3448.6;2164.2;300.0;overhang r-1 c1 t+150
+390;Plan_03_bord_D8-D7;Rampe inclinée métal (Sloped Railing);3298.6;2424.0;300.0;overhang r-1 c1 t+450
+391;Plan_03_bord_D8-D7;Rampe inclinée métal (Sloped Railing);3148.6;2683.8;300.0;overhang r-1 c1 t+750
+392;Plan_03_bord_D8-D7;Rampe inclinée métal (Sloped Railing);2998.6;2943.7;300.0;overhang r-1 c1 t+1050
+393;Plan_03_bord_D8-D7;Mur de chaume (gabarit de pose, à démolir);3393.7;1959.3;300.0;#7 RIVE c1 p3 (chaume a demolir)
+394;Plan_03_bord_D8-D7;Mur de chaume (gabarit de pose, à démolir);3918.7;-600.0;300.0;#23 RIVE c0 p1 (chaume a demolir)
+395;Plan_03_bord_D8-D7;Mur de chaume (gabarit de pose, à démolir);3918.7;0.0;300.0;#43 RIVE c0 p3 (chaume a demolir)
+396;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);3618.7;-750.0;0.0;appui pente A c0 t-750 : poteau
+397;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);3018.7;-750.0;0.0;appui pente A c0 t-750 : poteau
+398;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);3618.7;-450.0;0.0;appui pente A c0 t-450 : poteau
+399;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);3018.7;-450.0;0.0;appui pente A c0 t-450 : poteau
+400;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);3618.7;-150.0;0.0;appui pente A c0 t-150 : poteau
+401;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);3018.7;-150.0;0.0;appui pente A c0 t-150 : poteau
+402;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);3618.7;150.0;0.0;appui pente A c0 t+150 : poteau
+403;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);3018.7;150.0;0.0;appui pente A c0 t+150 : poteau
+404;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);3618.7;450.0;0.0;appui pente A c0 t+450 : poteau
+405;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);3018.7;450.0;0.0;appui pente A c0 t+450 : poteau
+406;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);3618.7;750.0;0.0;appui pente A c0 t+750 : poteau
+407;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);3018.7;750.0;0.0;appui pente A c0 t+750 : poteau
+408;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);3618.7;1050.0;0.0;appui pente A c0 t+1050 : poteau
+409;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);3658.8;900.0;0.0;appui pente A c1 t-1050 : poteau
+410;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);3508.8;1159.8;0.0;appui pente A c1 t-750 : poteau
+411;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);2989.2;859.8;0.0;appui pente A c1 t-750 : poteau
+412;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);3358.8;1419.6;0.0;appui pente A c1 t-450 : poteau
+413;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);2839.2;1119.6;0.0;appui pente A c1 t-450 : poteau
+414;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);3208.8;1679.4;0.0;appui pente A c1 t-150 : poteau
+415;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);2689.2;1379.4;0.0;appui pente A c1 t-150 : poteau
+416;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);3058.8;1939.2;0.0;appui pente A c1 t+150 : poteau
+417;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);2539.2;1639.2;0.0;appui pente A c1 t+150 : poteau
+418;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);2908.8;2199.0;0.0;appui pente A c1 t+450 : poteau
+419;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);2389.2;1899.0;0.0;appui pente A c1 t+450 : poteau
+420;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);2758.8;2458.8;0.0;appui pente A c1 t+750 : poteau
+421;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);2239.2;2158.8;0.0;appui pente A c1 t+750 : poteau
+422;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);2718.7;2608.8;0.0;appui pente A c2 t-1050 : poteau
+423;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);3658.8;-900.0;0.0;appui pente A c11 t+1050 : poteau
+424;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);3618.7;-750.0;300.0;appui pente A c0 t-750 : poteau
+425;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);3018.7;-750.0;300.0;appui pente A c0 t-750 : poteau
+426;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);3618.7;-450.0;300.0;appui pente A c0 t-450 : poteau
+427;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);3018.7;-450.0;300.0;appui pente A c0 t-450 : poteau
+428;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);3618.7;-150.0;300.0;appui pente A c0 t-150 : poteau
+429;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);3018.7;-150.0;300.0;appui pente A c0 t-150 : poteau
+430;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);3618.7;150.0;300.0;appui pente A c0 t+150 : poteau
+431;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);3018.7;150.0;300.0;appui pente A c0 t+150 : poteau
+432;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);3618.7;450.0;300.0;appui pente A c0 t+450 : poteau
+433;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);3018.7;450.0;300.0;appui pente A c0 t+450 : poteau
+434;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);3618.7;750.0;300.0;appui pente A c0 t+750 : poteau
+435;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);3018.7;750.0;300.0;appui pente A c0 t+750 : poteau
+436;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);3618.7;1050.0;300.0;appui pente A c0 t+1050 : poteau
+437;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);3658.8;900.0;300.0;appui pente A c1 t-1050 : poteau
+438;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);3508.8;1159.8;300.0;appui pente A c1 t-750 : poteau
+439;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);2989.2;859.8;300.0;appui pente A c1 t-750 : poteau
+440;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);3358.8;1419.6;300.0;appui pente A c1 t-450 : poteau
+441;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);2839.2;1119.6;300.0;appui pente A c1 t-450 : poteau
+442;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);3208.8;1679.4;300.0;appui pente A c1 t-150 : poteau
+443;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);2689.2;1379.4;300.0;appui pente A c1 t-150 : poteau
+444;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);3058.8;1939.2;300.0;appui pente A c1 t+150 : poteau
+445;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);2539.2;1639.2;300.0;appui pente A c1 t+150 : poteau
+446;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);2908.8;2199.0;300.0;appui pente A c1 t+450 : poteau
+447;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);2389.2;1899.0;300.0;appui pente A c1 t+450 : poteau
+448;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);2758.8;2458.8;300.0;appui pente A c1 t+750 : poteau
+449;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);2239.2;2158.8;300.0;appui pente A c1 t+750 : poteau
+450;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);2718.7;2608.8;300.0;appui pente A c2 t-1050 : poteau
+451;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);3658.8;-900.0;300.0;appui pente A c11 t+1050 : poteau
+452;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);3618.7;-750.0;600.0;appui pente A c0 t-750 : poteau
+453;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);3018.7;-750.0;600.0;appui pente A c0 t-750 : poteau
+454;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);3618.7;-450.0;600.0;appui pente A c0 t-450 : poteau
+455;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);3018.7;-450.0;600.0;appui pente A c0 t-450 : poteau
+456;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);3618.7;-150.0;600.0;appui pente A c0 t-150 : poteau
+457;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);3018.7;-150.0;600.0;appui pente A c0 t-150 : poteau
+458;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);3618.7;150.0;600.0;appui pente A c0 t+150 : poteau
+459;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);3018.7;150.0;600.0;appui pente A c0 t+150 : poteau
+460;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);3618.7;450.0;600.0;appui pente A c0 t+450 : poteau
+461;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);3018.7;450.0;600.0;appui pente A c0 t+450 : poteau
+462;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);3618.7;750.0;600.0;appui pente A c0 t+750 : poteau
+463;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);3018.7;750.0;600.0;appui pente A c0 t+750 : poteau
+464;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);3618.7;1050.0;600.0;appui pente A c0 t+1050 : poteau
+465;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);3658.8;900.0;600.0;appui pente A c1 t-1050 : poteau
+466;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);3508.8;1159.8;600.0;appui pente A c1 t-750 : poteau
+467;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);2989.2;859.8;600.0;appui pente A c1 t-750 : poteau
+468;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);3358.8;1419.6;600.0;appui pente A c1 t-450 : poteau
+469;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);2839.2;1119.6;600.0;appui pente A c1 t-450 : poteau
+470;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);3208.8;1679.4;600.0;appui pente A c1 t-150 : poteau
+471;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);2689.2;1379.4;600.0;appui pente A c1 t-150 : poteau
+472;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);3058.8;1939.2;600.0;appui pente A c1 t+150 : poteau
+473;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);2539.2;1639.2;600.0;appui pente A c1 t+150 : poteau
+474;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);2908.8;2199.0;600.0;appui pente A c1 t+450 : poteau
+475;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);2389.2;1899.0;600.0;appui pente A c1 t+450 : poteau
+476;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);2758.8;2458.8;600.0;appui pente A c1 t+750 : poteau
+477;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);2239.2;2158.8;600.0;appui pente A c1 t+750 : poteau
+478;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);2718.7;2608.8;600.0;appui pente A c2 t-1050 : poteau
+479;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);3658.8;-900.0;600.0;appui pente A c11 t+1050 : poteau
+480;Plan_04_D7-D5_pente_A;Rampe inclinée métal (Sloped Railing);3768.7;-750.0;600.0;pente A r0 c0 t-750
+481;Plan_04_D7-D5_pente_A;Rampe inclinée métal (Sloped Railing);3768.7;-450.0;600.0;pente A r0 c0 t-450
+482;Plan_04_D7-D5_pente_A;Rampe inclinée métal (Sloped Railing);3768.7;-150.0;600.0;pente A r0 c0 t-150
+483;Plan_04_D7-D5_pente_A;Rampe inclinée métal (Sloped Railing);3768.7;150.0;600.0;pente A r0 c0 t+150
+484;Plan_04_D7-D5_pente_A;Rampe inclinée métal (Sloped Railing);3768.7;450.0;600.0;pente A r0 c0 t+450
+485;Plan_04_D7-D5_pente_A;Rampe inclinée métal (Sloped Railing);3768.7;750.0;600.0;pente A r0 c0 t+750
+486;Plan_04_D7-D5_pente_A;Rampe inclinée métal (Sloped Railing);3768.7;1050.0;600.0;pente A r0 c0 t+1050
+487;Plan_04_D7-D5_pente_A;Rampe inclinée métal (Sloped Railing);3788.7;975.0;600.0;pente A r0 c1 t-1050
+488;Plan_04_D7-D5_pente_A;Rampe inclinée métal (Sloped Railing);3638.7;1234.8;600.0;pente A r0 c1 t-750
+489;Plan_04_D7-D5_pente_A;Rampe inclinée métal (Sloped Railing);3488.7;1494.6;600.0;pente A r0 c1 t-450
+490;Plan_04_D7-D5_pente_A;Rampe inclinée métal (Sloped Railing);3338.7;1754.4;600.0;pente A r0 c1 t-150
+491;Plan_04_D7-D5_pente_A;Rampe inclinée métal (Sloped Railing);3188.7;2014.2;600.0;pente A r0 c1 t+150
+492;Plan_04_D7-D5_pente_A;Rampe inclinée métal (Sloped Railing);3038.7;2274.0;600.0;pente A r0 c1 t+450
+493;Plan_04_D7-D5_pente_A;Rampe inclinée métal (Sloped Railing);2888.7;2533.8;600.0;pente A r0 c1 t+750
+494;Plan_04_D7-D5_pente_A;Rampe inclinée métal (Sloped Railing);2793.7;2738.7;600.0;pente A r0 c2 t-1050
+495;Plan_04_D7-D5_pente_A;Rampe inclinée métal (Sloped Railing);3788.7;-975.0;600.0;pente A r0 c11 t+1050
+496;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);3018.7;-750.0;900.0;appui pente A c0 t-750 : poteau
+497;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);3018.7;-450.0;900.0;appui pente A c0 t-450 : poteau
+498;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);3018.7;-150.0;900.0;appui pente A c0 t-150 : poteau
+499;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);3018.7;150.0;900.0;appui pente A c0 t+150 : poteau
+500;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);3018.7;450.0;900.0;appui pente A c0 t+450 : poteau
+501;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);3018.7;750.0;900.0;appui pente A c0 t+750 : poteau
+502;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);2989.2;859.8;900.0;appui pente A c1 t-750 : poteau
+503;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);2839.2;1119.6;900.0;appui pente A c1 t-450 : poteau
+504;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);2689.2;1379.4;900.0;appui pente A c1 t-150 : poteau
+505;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);2539.2;1639.2;900.0;appui pente A c1 t+150 : poteau
+506;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);2389.2;1899.0;900.0;appui pente A c1 t+450 : poteau
+507;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);2239.2;2158.8;900.0;appui pente A c1 t+750 : poteau
+508;Plan_04_D7-D5_pente_A;Rampe inclinée métal (Sloped Railing);3468.7;-750.0;900.0;pente A r1 c0 t-750
+509;Plan_04_D7-D5_pente_A;Rampe inclinée métal (Sloped Railing);3468.7;-450.0;900.0;pente A r1 c0 t-450
+510;Plan_04_D7-D5_pente_A;Rampe inclinée métal (Sloped Railing);3468.7;-150.0;900.0;pente A r1 c0 t-150
+511;Plan_04_D7-D5_pente_A;Rampe inclinée métal (Sloped Railing);3468.7;150.0;900.0;pente A r1 c0 t+150
+512;Plan_04_D7-D5_pente_A;Rampe inclinée métal (Sloped Railing);3468.7;450.0;900.0;pente A r1 c0 t+450
+513;Plan_04_D7-D5_pente_A;Rampe inclinée métal (Sloped Railing);3468.7;750.0;900.0;pente A r1 c0 t+750
+514;Plan_04_D7-D5_pente_A;Rampe inclinée métal (Sloped Railing);3378.9;1084.8;900.0;pente A r1 c1 t-750
+515;Plan_04_D7-D5_pente_A;Rampe inclinée métal (Sloped Railing);3228.9;1344.6;900.0;pente A r1 c1 t-450
+516;Plan_04_D7-D5_pente_A;Rampe inclinée métal (Sloped Railing);3078.9;1604.4;900.0;pente A r1 c1 t-150
+517;Plan_04_D7-D5_pente_A;Rampe inclinée métal (Sloped Railing);2928.9;1864.2;900.0;pente A r1 c1 t+150
+518;Plan_04_D7-D5_pente_A;Rampe inclinée métal (Sloped Railing);2778.9;2124.0;900.0;pente A r1 c1 t+450
+519;Plan_04_D7-D5_pente_A;Rampe inclinée métal (Sloped Railing);2628.9;2383.8;900.0;pente A r1 c1 t+750
+520;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);3018.7;-750.0;1200.0;appui pente A c0 t-750 : poteau
+521;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);3018.7;-450.0;1200.0;appui pente A c0 t-450 : poteau
+522;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);3018.7;-150.0;1200.0;appui pente A c0 t-150 : poteau
+523;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);3018.7;150.0;1200.0;appui pente A c0 t+150 : poteau
+524;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);3018.7;450.0;1200.0;appui pente A c0 t+450 : poteau
+525;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);3018.7;750.0;1200.0;appui pente A c0 t+750 : poteau
+526;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);2989.2;859.8;1200.0;appui pente A c1 t-750 : poteau
+527;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);2839.2;1119.6;1200.0;appui pente A c1 t-450 : poteau
+528;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);2689.2;1379.4;1200.0;appui pente A c1 t-150 : poteau
+529;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);2539.2;1639.2;1200.0;appui pente A c1 t+150 : poteau
+530;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);2389.2;1899.0;1200.0;appui pente A c1 t+450 : poteau
+531;Plan_04_D7-D5_pente_A;Pilier fin métal (Thin Pillar);2239.2;2158.8;1200.0;appui pente A c1 t+750 : poteau
+532;Plan_04_D7-D5_pente_A;Rampe inclinée métal (Sloped Railing);3168.7;-750.0;1200.0;pente A r2 c0 t-750
+533;Plan_04_D7-D5_pente_A;Rampe inclinée métal (Sloped Railing);3168.7;-450.0;1200.0;pente A r2 c0 t-450
+534;Plan_04_D7-D5_pente_A;Rampe inclinée métal (Sloped Railing);3168.7;-150.0;1200.0;pente A r2 c0 t-150
+535;Plan_04_D7-D5_pente_A;Rampe inclinée métal (Sloped Railing);3168.7;150.0;1200.0;pente A r2 c0 t+150
+536;Plan_04_D7-D5_pente_A;Rampe inclinée métal (Sloped Railing);3168.7;450.0;1200.0;pente A r2 c0 t+450
+537;Plan_04_D7-D5_pente_A;Rampe inclinée métal (Sloped Railing);3168.7;750.0;1200.0;pente A r2 c0 t+750
+538;Plan_04_D7-D5_pente_A;Rampe inclinée métal (Sloped Railing);3119.1;934.8;1200.0;pente A r2 c1 t-750
+539;Plan_04_D7-D5_pente_A;Rampe inclinée métal (Sloped Railing);2969.1;1194.6;1200.0;pente A r2 c1 t-450
+540;Plan_04_D7-D5_pente_A;Rampe inclinée métal (Sloped Railing);2819.1;1454.4;1200.0;pente A r2 c1 t-150
+541;Plan_04_D7-D5_pente_A;Rampe inclinée métal (Sloped Railing);2669.1;1714.2;1200.0;pente A r2 c1 t+150
+542;Plan_04_D7-D5_pente_A;Rampe inclinée métal (Sloped Railing);2519.1;1974.0;1200.0;pente A r2 c1 t+450
+543;Plan_04_D7-D5_pente_A;Rampe inclinée métal (Sloped Railing);2369.1;2233.8;1200.0;pente A r2 c1 t+750
+544;Plan_05_tour_du_pod_D4;Mur métal;2239.2;-450.0;0.0;pod niv0 c0 p0
+545;Plan_05_tour_du_pod_D4;Mur métal;2239.2;-150.0;0.0;pod niv0 c0 p1
+546;Plan_05_tour_du_pod_D4;Mur métal;2239.2;150.0;0.0;pod niv0 c0 p2
+547;Plan_05_tour_du_pod_D4;Mur métal;2239.2;450.0;0.0;pod niv0 c0 p3
+548;Plan_05_tour_du_pod_D4;Mur métal;2164.2;729.9;0.0;pod niv0 c1 p0
+549;Plan_05_tour_du_pod_D4;Cadre de porte double métal;2014.2;989.7;0.0;pod niv0 c1 p1
+550;Plan_05_tour_du_pod_D4;Mur métal;1864.2;1249.5;0.0;pod niv0 c1 p2
+551;Plan_05_tour_du_pod_D4;Mur métal;1714.2;1509.3;0.0;pod niv0 c1 p3
+552;Plan_05_tour_du_pod_D4;Pilier métal;1119.6;300.0;0.0;pilier PA0
+553;Plan_05_tour_du_pod_D4;Pilier métal;819.6;819.6;0.0;pilier PA1
+554;Plan_05_tour_du_pod_D4;Pilier métal;1119.6;-300.0;0.0;pilier PA11
+555;Plan_05_tour_du_pod_D4;Pilier métal;559.8;150.0;0.0;pilier PB0
+556;Plan_05_tour_du_pod_D4;Pilier métal;409.8;409.8;0.0;pilier PB1
+557;Plan_05_tour_du_pod_D4;Pilier métal;559.8;-150.0;0.0;pilier PB11
+558;Plan_05_tour_du_pod_D4;Mur métal;334.8;279.9;0.0;cage du noyau θ60 niv0
+559;Plan_05_tour_du_pod_D4;Mur métal;2239.2;-450.0;300.0;pod niv1 c0 p0
+560;Plan_05_tour_du_pod_D4;Mur métal;2239.2;-150.0;300.0;pod niv1 c0 p1
+561;Plan_05_tour_du_pod_D4;Mur métal;2239.2;150.0;300.0;pod niv1 c0 p2
+562;Plan_05_tour_du_pod_D4;Mur métal;2239.2;450.0;300.0;pod niv1 c0 p3
+563;Plan_05_tour_du_pod_D4;Mur métal;2164.2;729.9;300.0;pod niv1 c1 p0
+564;Plan_05_tour_du_pod_D4;Mur métal;2014.2;989.7;300.0;pod niv1 c1 p1
+565;Plan_05_tour_du_pod_D4;Mur métal;1864.2;1249.5;300.0;pod niv1 c1 p2
+566;Plan_05_tour_du_pod_D4;Mur métal;1714.2;1509.3;300.0;pod niv1 c1 p3
+567;Plan_05_tour_du_pod_D4;Pilier métal;1119.6;300.0;300.0;pilier PA0
+568;Plan_05_tour_du_pod_D4;Pilier métal;819.6;819.6;300.0;pilier PA1
+569;Plan_05_tour_du_pod_D4;Pilier métal;1119.6;-300.0;300.0;pilier PA11
+570;Plan_05_tour_du_pod_D4;Pilier métal;559.8;150.0;300.0;pilier PB0
+571;Plan_05_tour_du_pod_D4;Pilier métal;409.8;409.8;300.0;pilier PB1
+572;Plan_05_tour_du_pod_D4;Pilier métal;559.8;-150.0;300.0;pilier PB11
+573;Plan_05_tour_du_pod_D4;Mur métal;334.8;279.9;300.0;cage du noyau θ60 niv1
+574;Plan_05_tour_du_pod_D4;Mur métal;2239.2;-450.0;600.0;pod niv2 c0 p0
+575;Plan_05_tour_du_pod_D4;Mur métal;2239.2;-150.0;600.0;pod niv2 c0 p1
+576;Plan_05_tour_du_pod_D4;Mur métal;2239.2;150.0;600.0;pod niv2 c0 p2
+577;Plan_05_tour_du_pod_D4;Mur métal;2239.2;450.0;600.0;pod niv2 c0 p3
+578;Plan_05_tour_du_pod_D4;Mur métal;2164.2;729.9;600.0;pod niv2 c1 p0
+579;Plan_05_tour_du_pod_D4;Mur métal;2014.2;989.7;600.0;pod niv2 c1 p1
+580;Plan_05_tour_du_pod_D4;Mur métal;1864.2;1249.5;600.0;pod niv2 c1 p2
+581;Plan_05_tour_du_pod_D4;Mur métal;1714.2;1509.3;600.0;pod niv2 c1 p3
+582;Plan_05_tour_du_pod_D4;Pilier métal;1119.6;300.0;600.0;pilier PA0
+583;Plan_05_tour_du_pod_D4;Pilier métal;819.6;819.6;600.0;pilier PA1
+584;Plan_05_tour_du_pod_D4;Pilier métal;1119.6;-300.0;600.0;pilier PA11
+585;Plan_05_tour_du_pod_D4;Pilier métal;559.8;150.0;600.0;pilier PB0
+586;Plan_05_tour_du_pod_D4;Pilier métal;409.8;409.8;600.0;pilier PB1
+587;Plan_05_tour_du_pod_D4;Pilier métal;559.8;-150.0;600.0;pilier PB11
+588;Plan_05_tour_du_pod_D4;Mur métal;2239.2;-450.0;900.0;pod niv3 c0 p0
+589;Plan_05_tour_du_pod_D4;Mur métal;2239.2;-150.0;900.0;pod niv3 c0 p1
+590;Plan_05_tour_du_pod_D4;Mur métal;2239.2;150.0;900.0;pod niv3 c0 p2
+591;Plan_05_tour_du_pod_D4;Mur métal;2239.2;450.0;900.0;pod niv3 c0 p3
+592;Plan_05_tour_du_pod_D4;Mur métal;2164.2;729.9;900.0;pod niv3 c1 p0
+593;Plan_05_tour_du_pod_D4;Mur métal;2014.2;989.7;900.0;pod niv3 c1 p1
+594;Plan_05_tour_du_pod_D4;Mur métal;1864.2;1249.5;900.0;pod niv3 c1 p2
+595;Plan_05_tour_du_pod_D4;Mur métal;1714.2;1509.3;900.0;pod niv3 c1 p3
+596;Plan_05_tour_du_pod_D4;Pilier métal;1119.6;300.0;900.0;pilier PA0
+597;Plan_05_tour_du_pod_D4;Pilier métal;819.6;819.6;900.0;pilier PA1
+598;Plan_05_tour_du_pod_D4;Pilier métal;1119.6;-300.0;900.0;pilier PA11
+599;Plan_05_tour_du_pod_D4;Pilier métal;559.8;150.0;900.0;pilier PB0
+600;Plan_05_tour_du_pod_D4;Pilier métal;409.8;409.8;900.0;pilier PB1
+601;Plan_05_tour_du_pod_D4;Pilier métal;559.8;-150.0;900.0;pilier PB11
+602;Plan_05_tour_du_pod_D4;Mur métal;2239.2;-450.0;1200.0;pod niv4 c0 p0
+603;Plan_05_tour_du_pod_D4;Mur métal;2239.2;-150.0;1200.0;pod niv4 c0 p1
+604;Plan_05_tour_du_pod_D4;Mur métal;2239.2;150.0;1200.0;pod niv4 c0 p2
+605;Plan_05_tour_du_pod_D4;Mur métal;2239.2;450.0;1200.0;pod niv4 c0 p3
+606;Plan_05_tour_du_pod_D4;Mur métal;2164.2;729.9;1200.0;pod niv4 c1 p0
+607;Plan_05_tour_du_pod_D4;Mur métal;2014.2;989.7;1200.0;pod niv4 c1 p1
+608;Plan_05_tour_du_pod_D4;Mur métal;1864.2;1249.5;1200.0;pod niv4 c1 p2
+609;Plan_05_tour_du_pod_D4;Mur métal;1714.2;1509.3;1200.0;pod niv4 c1 p3
+610;Plan_05_tour_du_pod_D4;Pilier métal;1119.6;300.0;1200.0;pilier PA0
+611;Plan_05_tour_du_pod_D4;Pilier métal;819.6;819.6;1200.0;pilier PA1
+612;Plan_05_tour_du_pod_D4;Pilier métal;1119.6;-300.0;1200.0;pilier PA11
+613;Plan_05_tour_du_pod_D4;Pilier métal;559.8;150.0;1200.0;pilier PB0
+614;Plan_05_tour_du_pod_D4;Pilier métal;409.8;409.8;1200.0;pilier PB1
+615;Plan_05_tour_du_pod_D4;Pilier métal;559.8;-150.0;1200.0;pilier PB11
+616;Plan_05_tour_du_pod_D4;Mur métal;2239.2;-450.0;1500.0;pod niv5 c0 p0
+617;Plan_05_tour_du_pod_D4;Mur métal;2239.2;-150.0;1500.0;pod niv5 c0 p1
+618;Plan_05_tour_du_pod_D4;Mur métal;2239.2;150.0;1500.0;pod niv5 c0 p2
+619;Plan_05_tour_du_pod_D4;Mur métal;2239.2;450.0;1500.0;pod niv5 c0 p3
+620;Plan_05_tour_du_pod_D4;Mur métal;2164.2;729.9;1500.0;pod niv5 c1 p0
+621;Plan_05_tour_du_pod_D4;Mur métal;2014.2;989.7;1500.0;pod niv5 c1 p1
+622;Plan_05_tour_du_pod_D4;Mur métal;1864.2;1249.5;1500.0;pod niv5 c1 p2
+623;Plan_05_tour_du_pod_D4;Mur métal;1714.2;1509.3;1500.0;pod niv5 c1 p3
+624;Plan_05_tour_du_pod_D4;Pilier métal;1119.6;300.0;1500.0;pilier PA0
+625;Plan_05_tour_du_pod_D4;Pilier métal;819.6;819.6;1500.0;pilier PA1
+626;Plan_05_tour_du_pod_D4;Pilier métal;1119.6;-300.0;1500.0;pilier PA11
+627;Plan_05_tour_du_pod_D4;Pilier métal;559.8;150.0;1500.0;pilier PB0
+628;Plan_05_tour_du_pod_D4;Pilier métal;409.8;409.8;1500.0;pilier PB1
+629;Plan_05_tour_du_pod_D4;Pilier métal;559.8;-150.0;1500.0;pilier PB11
+630;Plan_05_tour_du_pod_D4;Plafond triangle métal;372.3;215.0;1800.0;mezzanine anneau 1
+631;Plan_05_tour_du_pod_D4;Plafond triangle métal;689.7;0.0;1800.0;mezzanine anneau 2
+632;Plan_05_tour_du_pod_D4;Plafond triangle métal;689.7;-150.0;1800.0;mezzanine anneau 2
+633;Plan_05_tour_du_pod_D4;Plafond triangle métal;689.7;150.0;1800.0;mezzanine anneau 2
+634;Plan_05_tour_du_pod_D4;Plafond métal;614.7;354.9;1800.0;mezzanine anneau 2
+635;Plan_05_tour_du_pod_D4;Plafond métal;969.6;-150.0;1800.0;mezzanine anneau 3
+636;Plan_05_tour_du_pod_D4;Plafond métal;969.6;150.0;1800.0;mezzanine anneau 3
+637;Plan_05_tour_du_pod_D4;Plafond triangle métal;857.1;494.9;1800.0;mezzanine anneau 3
+638;Plan_05_tour_du_pod_D4;Plafond triangle métal;932.1;365.0;1800.0;mezzanine anneau 3
+639;Plan_05_tour_du_pod_D4;Plafond triangle métal;782.1;624.8;1800.0;mezzanine anneau 3
+640;Plan_05_tour_du_pod_D4;Plafond triangle métal;1249.5;-150.0;1800.0;mezzanine anneau 4
+641;Plan_05_tour_du_pod_D4;Plafond triangle métal;1249.5;150.0;1800.0;mezzanine anneau 4
+642;Plan_05_tour_du_pod_D4;Plafond triangle métal;1249.5;-300.0;1800.0;mezzanine anneau 4
+643;Plan_05_tour_du_pod_D4;Plafond triangle métal;1249.5;0.0;1800.0;mezzanine anneau 4
+644;Plan_05_tour_du_pod_D4;Plafond triangle métal;1249.5;300.0;1800.0;mezzanine anneau 4
+645;Plan_05_tour_du_pod_D4;Plafond métal;1174.5;504.9;1800.0;mezzanine anneau 4
+646;Plan_05_tour_du_pod_D4;Plafond métal;1024.5;764.7;1800.0;mezzanine anneau 4
+647;Plan_05_tour_du_pod_D4;Plafond métal;1529.4;-300.0;1800.0;mezzanine anneau 5
+648;Plan_05_tour_du_pod_D4;Plafond métal;1529.4;0.0;1800.0;mezzanine anneau 5
+649;Plan_05_tour_du_pod_D4;Plafond métal;1529.4;300.0;1800.0;mezzanine anneau 5
+650;Plan_05_tour_du_pod_D4;Plafond triangle métal;1416.9;644.9;1800.0;mezzanine anneau 5
+651;Plan_05_tour_du_pod_D4;Plafond triangle métal;1266.9;904.7;1800.0;mezzanine anneau 5
+652;Plan_05_tour_du_pod_D4;Plafond triangle métal;1491.9;515.0;1800.0;mezzanine anneau 5
+653;Plan_05_tour_du_pod_D4;Plafond triangle métal;1341.9;774.8;1800.0;mezzanine anneau 5
+654;Plan_05_tour_du_pod_D4;Plafond triangle métal;1191.9;1034.6;1800.0;mezzanine anneau 5
+655;Plan_05_tour_du_pod_D4;Plafond triangle métal;1809.3;-300.0;1800.0;mezzanine anneau 6
+656;Plan_05_tour_du_pod_D4;Plafond triangle métal;1809.3;300.0;1800.0;mezzanine anneau 6
+657;Plan_05_tour_du_pod_D4;Plafond métal;2089.2;-450.0;1800.0;mezzanine anneau 7
+658;Plan_05_tour_du_pod_D4;Plafond triangle métal;1809.3;-450.0;1800.0;mezzanine anneau 6
+659;Plan_05_tour_du_pod_D4;Plafond métal;2089.2;-150.0;1800.0;mezzanine anneau 7
+660;Plan_05_tour_du_pod_D4;Plafond triangle métal;1809.3;-150.0;1800.0;mezzanine anneau 6
+661;Plan_05_tour_du_pod_D4;Plafond triangle métal;1809.3;0.0;1800.0;mezzanine anneau 6
+662;Plan_05_tour_du_pod_D4;Plafond métal;2089.2;150.0;1800.0;mezzanine anneau 7
+663;Plan_05_tour_du_pod_D4;Plafond triangle métal;1809.3;150.0;1800.0;mezzanine anneau 6
+664;Plan_05_tour_du_pod_D4;Plafond métal;2089.2;450.0;1800.0;mezzanine anneau 7
+665;Plan_05_tour_du_pod_D4;Plafond triangle métal;1809.3;450.0;1800.0;mezzanine anneau 6
+666;Plan_05_tour_du_pod_D4;Plafond métal;1734.3;654.9;1800.0;mezzanine anneau 6
+667;Plan_05_tour_du_pod_D4;Plafond triangle métal;2051.7;665.0;1800.0;mezzanine anneau 7
+668;Plan_05_tour_du_pod_D4;Plafond triangle métal;1976.7;794.9;1800.0;mezzanine anneau 7
+669;Plan_05_tour_du_pod_D4;Plafond triangle métal;1901.7;924.8;1800.0;mezzanine anneau 7
+670;Plan_05_tour_du_pod_D4;Plafond triangle métal;1826.7;1054.7;1800.0;mezzanine anneau 7
+671;Plan_05_tour_du_pod_D4;Plafond métal;1584.3;914.7;1800.0;mezzanine anneau 6
+672;Plan_05_tour_du_pod_D4;Plafond triangle métal;1751.7;1184.6;1800.0;mezzanine anneau 7
+673;Plan_05_tour_du_pod_D4;Plafond triangle métal;1676.7;1314.5;1800.0;mezzanine anneau 7
+674;Plan_05_tour_du_pod_D4;Plafond métal;1434.3;1174.5;1800.0;mezzanine anneau 6
+675;Plan_05_tour_du_pod_D4;Plafond triangle métal;1601.7;1444.4;1800.0;mezzanine anneau 7
+676;Plan_05_tour_du_pod_D4;Mur métal;2239.2;-450.0;1800.0;pod niv6 c0 p0
+677;Plan_05_tour_du_pod_D4;Cadre de porte double métal;2239.2;-150.0;1800.0;pod niv6 c0 p1
+678;Plan_05_tour_du_pod_D4;Mur métal;2239.2;150.0;1800.0;pod niv6 c0 p2
+679;Plan_05_tour_du_pod_D4;Mur métal;2239.2;450.0;1800.0;pod niv6 c0 p3
+680;Plan_05_tour_du_pod_D4;Mur métal;2164.2;729.9;1800.0;pod niv6 c1 p0
+681;Plan_05_tour_du_pod_D4;Cadre de porte double métal;2014.2;989.7;1800.0;pod niv6 c1 p1
+682;Plan_05_tour_du_pod_D4;Mur métal;1864.2;1249.5;1800.0;pod niv6 c1 p2
+683;Plan_05_tour_du_pod_D4;Mur métal;1714.2;1509.3;1800.0;pod niv6 c1 p3
+684;Plan_05_tour_du_pod_D4;Pilier métal;1119.6;300.0;1800.0;pilier PA0
+685;Plan_05_tour_du_pod_D4;Pilier métal;819.6;819.6;1800.0;pilier PA1
+686;Plan_05_tour_du_pod_D4;Pilier métal;1119.6;-300.0;1800.0;pilier PA11
+687;Plan_05_tour_du_pod_D4;Pilier métal;559.8;150.0;1800.0;pilier PB0
+688;Plan_05_tour_du_pod_D4;Pilier métal;409.8;409.8;1800.0;pilier PB1
+689;Plan_05_tour_du_pod_D4;Pilier métal;559.8;-150.0;1800.0;pilier PB11
+690;Plan_05_tour_du_pod_D4;Mur métal;2239.2;-450.0;2100.0;pod niv7 c0 p0
+691;Plan_05_tour_du_pod_D4;Mur métal;2239.2;-150.0;2100.0;pod niv7 c0 p1
+692;Plan_05_tour_du_pod_D4;Mur métal;2239.2;150.0;2100.0;pod niv7 c0 p2
+693;Plan_05_tour_du_pod_D4;Mur métal;2239.2;450.0;2100.0;pod niv7 c0 p3
+694;Plan_05_tour_du_pod_D4;Mur métal;2164.2;729.9;2100.0;pod niv7 c1 p0
+695;Plan_05_tour_du_pod_D4;Mur métal;2014.2;989.7;2100.0;pod niv7 c1 p1
+696;Plan_05_tour_du_pod_D4;Mur métal;1864.2;1249.5;2100.0;pod niv7 c1 p2
+697;Plan_05_tour_du_pod_D4;Mur métal;1714.2;1509.3;2100.0;pod niv7 c1 p3
+698;Plan_05_tour_du_pod_D4;Pilier métal;1119.6;300.0;2100.0;pilier PA0
+699;Plan_05_tour_du_pod_D4;Pilier métal;819.6;819.6;2100.0;pilier PA1
+700;Plan_05_tour_du_pod_D4;Pilier métal;1119.6;-300.0;2100.0;pilier PA11
+701;Plan_05_tour_du_pod_D4;Pilier métal;559.8;150.0;2100.0;pilier PB0
+702;Plan_05_tour_du_pod_D4;Pilier métal;409.8;409.8;2100.0;pilier PB1
+703;Plan_05_tour_du_pod_D4;Pilier métal;559.8;-150.0;2100.0;pilier PB11
+704;Plan_05_tour_du_pod_D4;Mur métal;2239.2;-150.0;2400.0;pod niv8 c0 p1
+705;Plan_05_tour_du_pod_D4;Mur métal;2239.2;150.0;2400.0;pod niv8 c0 p2
+706;Plan_05_tour_du_pod_D4;Mur métal;2239.2;450.0;2400.0;pod niv8 c0 p3
+707;Plan_05_tour_du_pod_D4;Mur métal;2014.2;989.7;2400.0;pod niv8 c1 p1
+708;Plan_05_tour_du_pod_D4;Mur métal;1864.2;1249.5;2400.0;pod niv8 c1 p2
+709;Plan_05_tour_du_pod_D4;Mur métal;1714.2;1509.3;2400.0;pod niv8 c1 p3
+710;Plan_05_tour_du_pod_D4;Pilier métal;1119.6;300.0;2400.0;pilier PA0
+711;Plan_05_tour_du_pod_D4;Pilier métal;819.6;819.6;2400.0;pilier PA1
+712;Plan_05_tour_du_pod_D4;Pilier métal;1119.6;-300.0;2400.0;pilier PA11
+713;Plan_05_tour_du_pod_D4;Pilier métal;559.8;150.0;2400.0;pilier PB0
+714;Plan_05_tour_du_pod_D4;Pilier métal;409.8;409.8;2400.0;pilier PB1
+715;Plan_05_tour_du_pod_D4;Pilier métal;559.8;-150.0;2400.0;pilier PB11
+716;Plan_05_tour_du_pod_D4;Mur de chaume (gabarit de pose, à démolir);2164.2;729.9;2400.0;#66 D4 c1 p0 (chaume a demolir)
+717;Plan_05_tour_du_pod_D4;Mur de chaume (gabarit de pose, à démolir);2239.2;-450.0;2400.0;#76 D4 c0 p0 (chaume a demolir)
+718;Plan_06_D5-D4_cage_et_appentis;Cadre de porte double métal;2799.0;-600.0;0.0;fut niv0 c0 p0
+719;Plan_06_D5-D4_cage_et_appentis;Cadre de porte double métal;2799.0;-300.0;0.0;fut niv0 c0 p1
+720;Plan_06_D5-D4_cage_et_appentis;Cadre de porte double métal;2799.0;0.0;0.0;fut niv0 c0 p2
+721;Plan_06_D5-D4_cage_et_appentis;Cadre de porte double métal;2799.0;300.0;0.0;fut niv0 c0 p3
+722;Plan_06_D5-D4_cage_et_appentis;Cadre de porte double métal;2799.0;600.0;0.0;fut niv0 c0 p4
+723;Plan_06_D5-D4_cage_et_appentis;Cadre de porte double métal;2724.0;879.9;0.0;fut niv0 c1 p0
+724;Plan_06_D5-D4_cage_et_appentis;Cadre de porte double métal;2574.0;1139.7;0.0;fut niv0 c1 p1
+725;Plan_06_D5-D4_cage_et_appentis;Cadre de porte double métal;2424.0;1399.5;0.0;fut niv0 c1 p2
+726;Plan_06_D5-D4_cage_et_appentis;Cadre de porte double métal;2274.0;1659.3;0.0;fut niv0 c1 p3
+727;Plan_06_D5-D4_cage_et_appentis;Cadre de porte double métal;2124.0;1919.1;0.0;fut niv0 c1 p4
+728;Plan_06_D5-D4_cage_et_appentis;Cadre de porte double métal;2799.0;-600.0;300.0;fut niv1 c0 p0
+729;Plan_06_D5-D4_cage_et_appentis;Cadre de porte double métal;2799.0;-300.0;300.0;fut niv1 c0 p1
+730;Plan_06_D5-D4_cage_et_appentis;Cadre de porte double métal;2799.0;0.0;300.0;fut niv1 c0 p2
+731;Plan_06_D5-D4_cage_et_appentis;Cadre de porte double métal;2799.0;300.0;300.0;fut niv1 c0 p3
+732;Plan_06_D5-D4_cage_et_appentis;Cadre de porte double métal;2799.0;600.0;300.0;fut niv1 c0 p4
+733;Plan_06_D5-D4_cage_et_appentis;Cadre de porte double métal;2724.0;879.9;300.0;fut niv1 c1 p0
+734;Plan_06_D5-D4_cage_et_appentis;Cadre de porte double métal;2574.0;1139.7;300.0;fut niv1 c1 p1
+735;Plan_06_D5-D4_cage_et_appentis;Cadre de porte double métal;2424.0;1399.5;300.0;fut niv1 c1 p2
+736;Plan_06_D5-D4_cage_et_appentis;Cadre de porte double métal;2274.0;1659.3;300.0;fut niv1 c1 p3
+737;Plan_06_D5-D4_cage_et_appentis;Cadre de porte double métal;2124.0;1919.1;300.0;fut niv1 c1 p4
+738;Plan_06_D5-D4_cage_et_appentis;Cadre de porte double métal;2799.0;-600.0;600.0;fut niv2 c0 p0
+739;Plan_06_D5-D4_cage_et_appentis;Cadre de porte double métal;2799.0;-300.0;600.0;fut niv2 c0 p1
+740;Plan_06_D5-D4_cage_et_appentis;Cadre de porte double métal;2799.0;0.0;600.0;fut niv2 c0 p2
+741;Plan_06_D5-D4_cage_et_appentis;Cadre de porte double métal;2799.0;300.0;600.0;fut niv2 c0 p3
+742;Plan_06_D5-D4_cage_et_appentis;Cadre de porte double métal;2799.0;600.0;600.0;fut niv2 c0 p4
+743;Plan_06_D5-D4_cage_et_appentis;Cadre de porte double métal;2724.0;879.9;600.0;fut niv2 c1 p0
+744;Plan_06_D5-D4_cage_et_appentis;Cadre de porte double métal;2574.0;1139.7;600.0;fut niv2 c1 p1
+745;Plan_06_D5-D4_cage_et_appentis;Cadre de porte double métal;2424.0;1399.5;600.0;fut niv2 c1 p2
+746;Plan_06_D5-D4_cage_et_appentis;Cadre de porte double métal;2274.0;1659.3;600.0;fut niv2 c1 p3
+747;Plan_06_D5-D4_cage_et_appentis;Cadre de porte double métal;2124.0;1919.1;600.0;fut niv2 c1 p4
+748;Plan_06_D5-D4_cage_et_appentis;Cadre de porte double métal;2799.0;-600.0;900.0;fut niv3 c0 p0
+749;Plan_06_D5-D4_cage_et_appentis;Cadre de porte double métal;2799.0;-300.0;900.0;fut niv3 c0 p1
+750;Plan_06_D5-D4_cage_et_appentis;Cadre de porte double métal;2799.0;0.0;900.0;fut niv3 c0 p2
+751;Plan_06_D5-D4_cage_et_appentis;Cadre de porte double métal;2799.0;300.0;900.0;fut niv3 c0 p3
+752;Plan_06_D5-D4_cage_et_appentis;Cadre de porte double métal;2799.0;600.0;900.0;fut niv3 c0 p4
+753;Plan_06_D5-D4_cage_et_appentis;Cadre de porte double métal;2724.0;879.9;900.0;fut niv3 c1 p0
+754;Plan_06_D5-D4_cage_et_appentis;Cadre de porte double métal;2574.0;1139.7;900.0;fut niv3 c1 p1
+755;Plan_06_D5-D4_cage_et_appentis;Cadre de porte double métal;2424.0;1399.5;900.0;fut niv3 c1 p2
+756;Plan_06_D5-D4_cage_et_appentis;Cadre de porte double métal;2274.0;1659.3;900.0;fut niv3 c1 p3
+757;Plan_06_D5-D4_cage_et_appentis;Cadre de porte double métal;2124.0;1919.1;900.0;fut niv3 c1 p4
+758;Plan_06_D5-D4_cage_et_appentis;Cadre de porte double métal;2799.0;-600.0;1200.0;fut niv4 c0 p0
+759;Plan_06_D5-D4_cage_et_appentis;Cadre de porte double métal;2799.0;-300.0;1200.0;fut niv4 c0 p1
+760;Plan_06_D5-D4_cage_et_appentis;Cadre de porte double métal;2799.0;0.0;1200.0;fut niv4 c0 p2
+761;Plan_06_D5-D4_cage_et_appentis;Cadre de porte double métal;2799.0;300.0;1200.0;fut niv4 c0 p3
+762;Plan_06_D5-D4_cage_et_appentis;Cadre de porte double métal;2799.0;600.0;1200.0;fut niv4 c0 p4
+763;Plan_06_D5-D4_cage_et_appentis;Cadre de porte double métal;2724.0;879.9;1200.0;fut niv4 c1 p0
+764;Plan_06_D5-D4_cage_et_appentis;Cadre de porte double métal;2574.0;1139.7;1200.0;fut niv4 c1 p1
+765;Plan_06_D5-D4_cage_et_appentis;Cadre de porte double métal;2424.0;1399.5;1200.0;fut niv4 c1 p2
+766;Plan_06_D5-D4_cage_et_appentis;Cadre de porte double métal;2274.0;1659.3;1200.0;fut niv4 c1 p3
+767;Plan_06_D5-D4_cage_et_appentis;Cadre de porte double métal;2124.0;1919.1;1200.0;fut niv4 c1 p4
+768;Plan_06_D5-D4_cage_et_appentis;Cadre de porte double métal;2799.0;-600.0;1500.0;fut niv5 c0 p0
+769;Plan_06_D5-D4_cage_et_appentis;Cadre de porte double métal;2799.0;-300.0;1500.0;fut niv5 c0 p1
+770;Plan_06_D5-D4_cage_et_appentis;Cadre de porte double métal;2799.0;0.0;1500.0;fut niv5 c0 p2
+771;Plan_06_D5-D4_cage_et_appentis;Cadre de porte double métal;2799.0;300.0;1500.0;fut niv5 c0 p3
+772;Plan_06_D5-D4_cage_et_appentis;Cadre de porte double métal;2799.0;600.0;1500.0;fut niv5 c0 p4
+773;Plan_06_D5-D4_cage_et_appentis;Cadre de porte double métal;2724.0;879.9;1500.0;fut niv5 c1 p0
+774;Plan_06_D5-D4_cage_et_appentis;Cadre de porte double métal;2574.0;1139.7;1500.0;fut niv5 c1 p1
+775;Plan_06_D5-D4_cage_et_appentis;Cadre de porte double métal;2424.0;1399.5;1500.0;fut niv5 c1 p2
+776;Plan_06_D5-D4_cage_et_appentis;Cadre de porte double métal;2274.0;1659.3;1500.0;fut niv5 c1 p3
+777;Plan_06_D5-D4_cage_et_appentis;Cadre de porte double métal;2124.0;1919.1;1500.0;fut niv5 c1 p4
+778;Plan_06_D5-D4_cage_et_appentis;Plafond triangle métal;2369.1;-450.0;1800.0;galerie Z1800 anneau 8
+779;Plan_06_D5-D4_cage_et_appentis;Plafond triangle métal;2369.1;-150.0;1800.0;galerie Z1800 anneau 8
+780;Plan_06_D5-D4_cage_et_appentis;Plafond triangle métal;2369.1;150.0;1800.0;galerie Z1800 anneau 8
+781;Plan_06_D5-D4_cage_et_appentis;Plafond triangle métal;2369.1;450.0;1800.0;galerie Z1800 anneau 8
+782;Plan_06_D5-D4_cage_et_appentis;Plafond triangle métal;2369.1;-600.0;1800.0;galerie Z1800 anneau 8
+783;Plan_06_D5-D4_cage_et_appentis;Plafond triangle métal;2369.1;-300.0;1800.0;galerie Z1800 anneau 8
+784;Plan_06_D5-D4_cage_et_appentis;Plafond triangle métal;2369.1;0.0;1800.0;galerie Z1800 anneau 8
+785;Plan_06_D5-D4_cage_et_appentis;Plafond triangle métal;2369.1;300.0;1800.0;galerie Z1800 anneau 8
+786;Plan_06_D5-D4_cage_et_appentis;Plafond triangle métal;2369.1;600.0;1800.0;galerie Z1800 anneau 8
+787;Plan_06_D5-D4_cage_et_appentis;Plafond métal;2294.1;804.9;1800.0;galerie Z1800 anneau 8
+788;Plan_06_D5-D4_cage_et_appentis;Plafond métal;2144.1;1064.7;1800.0;galerie Z1800 anneau 8
+789;Plan_06_D5-D4_cage_et_appentis;Plafond métal;1994.1;1324.5;1800.0;galerie Z1800 anneau 8
+790;Plan_06_D5-D4_cage_et_appentis;Plafond métal;1844.1;1584.3;1800.0;galerie Z1800 anneau 8
+791;Plan_06_D5-D4_cage_et_appentis;Plafond métal;2649.0;-600.0;1800.0;galerie Z1800 anneau 9
+792;Plan_06_D5-D4_cage_et_appentis;Plafond métal;2649.0;-300.0;1800.0;galerie Z1800 anneau 9
+793;Plan_06_D5-D4_cage_et_appentis;Plafond métal;2649.0;0.0;1800.0;galerie Z1800 anneau 9
+794;Plan_06_D5-D4_cage_et_appentis;Plafond métal;2649.0;300.0;1800.0;galerie Z1800 anneau 9
+795;Plan_06_D5-D4_cage_et_appentis;Plafond métal;2649.0;600.0;1800.0;galerie Z1800 anneau 9
+796;Plan_06_D5-D4_cage_et_appentis;Plafond triangle métal;2536.5;944.9;1800.0;galerie Z1800 anneau 9
+797;Plan_06_D5-D4_cage_et_appentis;Plafond triangle métal;2386.5;1204.7;1800.0;galerie Z1800 anneau 9
+798;Plan_06_D5-D4_cage_et_appentis;Plafond triangle métal;2236.5;1464.5;1800.0;galerie Z1800 anneau 9
+799;Plan_06_D5-D4_cage_et_appentis;Plafond triangle métal;2086.5;1724.3;1800.0;galerie Z1800 anneau 9
+800;Plan_06_D5-D4_cage_et_appentis;Plafond triangle métal;2611.5;815.0;1800.0;galerie Z1800 anneau 9
+801;Plan_06_D5-D4_cage_et_appentis;Plafond triangle métal;2461.5;1074.8;1800.0;galerie Z1800 anneau 9
+802;Plan_06_D5-D4_cage_et_appentis;Plafond triangle métal;2311.5;1334.6;1800.0;galerie Z1800 anneau 9
+803;Plan_06_D5-D4_cage_et_appentis;Plafond triangle métal;2161.5;1594.4;1800.0;galerie Z1800 anneau 9
+804;Plan_06_D5-D4_cage_et_appentis;Plafond triangle métal;2011.5;1854.2;1800.0;galerie Z1800 anneau 9
+805;Plan_06_D5-D4_cage_et_appentis;Cadre de porte double métal;2799.0;-300.0;1800.0;cage L1 c0 p1
+806;Plan_06_D5-D4_cage_et_appentis;Cadre de porte double métal;2799.0;600.0;1800.0;cage L1 c0 p4
+807;Plan_06_D5-D4_cage_et_appentis;Cadre de porte double métal;2574.0;1139.7;1800.0;cage L1 c1 p1
+808;Plan_06_D5-D4_cage_et_appentis;Cadre de porte double métal;2124.0;1919.1;1800.0;cage L1 c1 p4
+809;Plan_06_D5-D4_cage_et_appentis;Mur de chaume (gabarit de pose, à démolir);2799.0;0.0;1800.0;#25 L1 c0 p2 (chaume a demolir)
+810;Plan_06_D5-D4_cage_et_appentis;Mur de chaume (gabarit de pose, à démolir);2274.0;1659.3;1800.0;#30 L1 c1 p3 (chaume a demolir)
+811;Plan_06_D5-D4_cage_et_appentis;Mur de chaume (gabarit de pose, à démolir);2724.0;879.9;1800.0;#34 L1 c1 p0 (chaume a demolir)
+812;Plan_06_D5-D4_cage_et_appentis;Mur de chaume (gabarit de pose, à démolir);2799.0;-600.0;1800.0;#35 L1 c0 p0 (chaume a demolir)
+813;Plan_06_D5-D4_cage_et_appentis;Mur de chaume (gabarit de pose, à démolir);2799.0;300.0;1800.0;#49 L1 c0 p3 (chaume a demolir)
+814;Plan_06_D5-D4_cage_et_appentis;Mur de chaume (gabarit de pose, à démolir);2424.0;1399.5;1800.0;#58 L1 c1 p2 (chaume a demolir)
+815;Plan_06_D5-D4_cage_et_appentis;Plafond triangle métal;2369.1;-450.0;2100.0;galerie Z2100 anneau 8
+816;Plan_06_D5-D4_cage_et_appentis;Plafond triangle métal;2369.1;-150.0;2100.0;galerie Z2100 anneau 8
+817;Plan_06_D5-D4_cage_et_appentis;Plafond triangle métal;2369.1;150.0;2100.0;galerie Z2100 anneau 8
+818;Plan_06_D5-D4_cage_et_appentis;Plafond triangle métal;2369.1;450.0;2100.0;galerie Z2100 anneau 8
+819;Plan_06_D5-D4_cage_et_appentis;Plafond triangle métal;2369.1;-600.0;2100.0;galerie Z2100 anneau 8
+820;Plan_06_D5-D4_cage_et_appentis;Plafond triangle métal;2369.1;-300.0;2100.0;galerie Z2100 anneau 8
+821;Plan_06_D5-D4_cage_et_appentis;Plafond triangle métal;2369.1;0.0;2100.0;galerie Z2100 anneau 8
+822;Plan_06_D5-D4_cage_et_appentis;Plafond triangle métal;2369.1;300.0;2100.0;galerie Z2100 anneau 8
+823;Plan_06_D5-D4_cage_et_appentis;Plafond triangle métal;2369.1;600.0;2100.0;galerie Z2100 anneau 8
+824;Plan_06_D5-D4_cage_et_appentis;Plafond à trappe métal;2294.1;804.9;2100.0;galerie Z2100 anneau 8
+825;Plan_06_D5-D4_cage_et_appentis;Plafond métal;2144.1;1064.7;2100.0;galerie Z2100 anneau 8
+826;Plan_06_D5-D4_cage_et_appentis;Plafond métal;1994.1;1324.5;2100.0;galerie Z2100 anneau 8
+827;Plan_06_D5-D4_cage_et_appentis;Plafond métal;1844.1;1584.3;2100.0;galerie Z2100 anneau 8
+828;Plan_06_D5-D4_cage_et_appentis;Plafond métal;2649.0;-300.0;2100.0;galerie Z2100 anneau 9
+829;Plan_06_D5-D4_cage_et_appentis;Plafond métal;2649.0;-600.0;2100.0;galerie Z2100 anneau 9
+830;Plan_06_D5-D4_cage_et_appentis;Plafond métal;2649.0;0.0;2100.0;galerie Z2100 anneau 9
+831;Plan_06_D5-D4_cage_et_appentis;Plafond métal;2649.0;600.0;2100.0;galerie Z2100 anneau 9
+832;Plan_06_D5-D4_cage_et_appentis;Plafond métal;2649.0;300.0;2100.0;galerie Z2100 anneau 9
+833;Plan_06_D5-D4_cage_et_appentis;Plafond triangle métal;2536.5;944.9;2100.0;galerie Z2100 anneau 9
+834;Plan_06_D5-D4_cage_et_appentis;Plafond triangle métal;2386.5;1204.7;2100.0;galerie Z2100 anneau 9
+835;Plan_06_D5-D4_cage_et_appentis;Plafond triangle métal;2236.5;1464.5;2100.0;galerie Z2100 anneau 9
+836;Plan_06_D5-D4_cage_et_appentis;Plafond triangle métal;2086.5;1724.3;2100.0;galerie Z2100 anneau 9
+837;Plan_06_D5-D4_cage_et_appentis;Plafond triangle métal;2611.5;815.0;2100.0;galerie Z2100 anneau 9
+838;Plan_06_D5-D4_cage_et_appentis;Plafond triangle métal;2461.5;1074.8;2100.0;galerie Z2100 anneau 9
+839;Plan_06_D5-D4_cage_et_appentis;Plafond triangle métal;2311.5;1334.6;2100.0;galerie Z2100 anneau 9
+840;Plan_06_D5-D4_cage_et_appentis;Plafond triangle métal;2161.5;1594.4;2100.0;galerie Z2100 anneau 9
+841;Plan_06_D5-D4_cage_et_appentis;Plafond triangle métal;2011.5;1854.2;2100.0;galerie Z2100 anneau 9
+842;Plan_06_D5-D4_cage_et_appentis;Pilier fin métal (Thin Pillar);2799.0;-750.0;2100.0;depart lignes appentis c0 t-750 : pilier fin dans le joint
+843;Plan_06_D5-D4_cage_et_appentis;Pilier fin métal (Thin Pillar);2799.0;-450.0;2100.0;depart lignes appentis c0 t-450 : pilier fin dans le joint
+844;Plan_06_D5-D4_cage_et_appentis;Pilier fin métal (Thin Pillar);2799.0;-150.0;2100.0;depart lignes appentis c0 t-150 : pilier fin dans le joint
+845;Plan_06_D5-D4_cage_et_appentis;Pilier fin métal (Thin Pillar);2799.0;150.0;2100.0;depart lignes appentis c0 t+150 : pilier fin dans le joint
+846;Plan_06_D5-D4_cage_et_appentis;Pilier fin métal (Thin Pillar);2799.0;450.0;2100.0;depart lignes appentis c0 t+450 : pilier fin dans le joint
+847;Plan_06_D5-D4_cage_et_appentis;Pilier fin métal (Thin Pillar);2799.0;750.0;2100.0;depart lignes appentis c0 t+750 : pilier fin dans le joint
+848;Plan_06_D5-D4_cage_et_appentis;Pilier fin métal (Thin Pillar);2649.0;1009.8;2100.0;depart lignes appentis c1 t-450 : pilier fin dans le joint
+849;Plan_06_D5-D4_cage_et_appentis;Pilier fin métal (Thin Pillar);2499.0;1269.6;2100.0;depart lignes appentis c1 t-150 : pilier fin dans le joint
+850;Plan_06_D5-D4_cage_et_appentis;Pilier fin métal (Thin Pillar);2349.0;1529.4;2100.0;depart lignes appentis c1 t+150 : pilier fin dans le joint
+851;Plan_06_D5-D4_cage_et_appentis;Pilier fin métal (Thin Pillar);2199.0;1789.2;2100.0;depart lignes appentis c1 t+450 : pilier fin dans le joint
+852;Plan_06_D5-D4_cage_et_appentis;Pilier fin métal (Thin Pillar);2049.0;2049.0;2100.0;depart lignes appentis c1 t+750 : pilier fin dans le joint
+853;Plan_06_D5-D4_cage_et_appentis;Cadre de porte double métal;2799.0;-600.0;2100.0;cage L2 c0 p0
+854;Plan_06_D5-D4_cage_et_appentis;Cadre de porte double métal;2799.0;-300.0;2100.0;cage L2 c0 p1
+855;Plan_06_D5-D4_cage_et_appentis;Cadre de porte double métal;2799.0;0.0;2100.0;cage L2 c0 p2
+856;Plan_06_D5-D4_cage_et_appentis;Cadre de porte double métal;2799.0;300.0;2100.0;cage L2 c0 p3
+857;Plan_06_D5-D4_cage_et_appentis;Cadre de porte double métal;2799.0;600.0;2100.0;cage L2 c0 p4
+858;Plan_06_D5-D4_cage_et_appentis;Cadre de porte double métal;2724.0;879.9;2100.0;cage L2 c1 p0
+859;Plan_06_D5-D4_cage_et_appentis;Cadre de porte double métal;2574.0;1139.7;2100.0;cage L2 c1 p1
+860;Plan_06_D5-D4_cage_et_appentis;Cadre de porte double métal;2424.0;1399.5;2100.0;cage L2 c1 p2
+861;Plan_06_D5-D4_cage_et_appentis;Cadre de porte double métal;2274.0;1659.3;2100.0;cage L2 c1 p3
+862;Plan_06_D5-D4_cage_et_appentis;Cadre de porte double métal;2124.0;1919.1;2100.0;cage L2 c1 p4
+863;Plan_06_D5-D4_cage_et_appentis;Rampe inclinée métal (Sloped Railing);2949.0;-750.0;2100.0;casquette r-1 c0 t-750
+864;Plan_06_D5-D4_cage_et_appentis;Rampe inclinée métal (Sloped Railing);2949.0;-450.0;2100.0;casquette r-1 c0 t-450
+865;Plan_06_D5-D4_cage_et_appentis;Rampe inclinée métal (Sloped Railing);2949.0;-150.0;2100.0;casquette r-1 c0 t-150
+866;Plan_06_D5-D4_cage_et_appentis;Rampe inclinée métal (Sloped Railing);2949.0;150.0;2100.0;casquette r-1 c0 t+150
+867;Plan_06_D5-D4_cage_et_appentis;Rampe inclinée métal (Sloped Railing);2949.0;450.0;2100.0;casquette r-1 c0 t+450
+868;Plan_06_D5-D4_cage_et_appentis;Rampe inclinée métal (Sloped Railing);2949.0;750.0;2100.0;casquette r-1 c0 t+750
+869;Plan_06_D5-D4_cage_et_appentis;Rampe inclinée métal (Sloped Railing);2928.9;825.0;2100.0;casquette r-1 c1 t-750
+870;Plan_06_D5-D4_cage_et_appentis;Rampe inclinée métal (Sloped Railing);2778.9;1084.8;2100.0;casquette r-1 c1 t-450
+871;Plan_06_D5-D4_cage_et_appentis;Rampe inclinée métal (Sloped Railing);2628.9;1344.6;2100.0;casquette r-1 c1 t-150
+872;Plan_06_D5-D4_cage_et_appentis;Rampe inclinée métal (Sloped Railing);2478.9;1604.4;2100.0;casquette r-1 c1 t+150
+873;Plan_06_D5-D4_cage_et_appentis;Rampe inclinée métal (Sloped Railing);2328.9;1864.2;2100.0;casquette r-1 c1 t+450
+874;Plan_06_D5-D4_cage_et_appentis;Rampe inclinée métal (Sloped Railing);2178.9;2124.0;2100.0;casquette r-1 c1 t+750
+875;Plan_06_D5-D4_cage_et_appentis;Plafond triangle métal;2369.1;-450.0;2400.0;galerie Z2400 anneau 8
+876;Plan_06_D5-D4_cage_et_appentis;Plafond triangle métal;2369.1;-150.0;2400.0;galerie Z2400 anneau 8
+877;Plan_06_D5-D4_cage_et_appentis;Plafond triangle métal;2369.1;150.0;2400.0;galerie Z2400 anneau 8
+878;Plan_06_D5-D4_cage_et_appentis;Plafond triangle métal;2369.1;450.0;2400.0;galerie Z2400 anneau 8
+879;Plan_06_D5-D4_cage_et_appentis;Plafond triangle métal;2369.1;-600.0;2400.0;galerie Z2400 anneau 8
+880;Plan_06_D5-D4_cage_et_appentis;Plafond triangle métal;2369.1;-300.0;2400.0;galerie Z2400 anneau 8
+881;Plan_06_D5-D4_cage_et_appentis;Plafond triangle métal;2369.1;0.0;2400.0;galerie Z2400 anneau 8
+882;Plan_06_D5-D4_cage_et_appentis;Plafond triangle métal;2369.1;300.0;2400.0;galerie Z2400 anneau 8
+883;Plan_06_D5-D4_cage_et_appentis;Plafond triangle métal;2369.1;600.0;2400.0;galerie Z2400 anneau 8
+884;Plan_06_D5-D4_cage_et_appentis;Plafond métal;2294.1;804.9;2400.0;galerie Z2400 anneau 8
+885;Plan_06_D5-D4_cage_et_appentis;Plafond métal;2144.1;1064.7;2400.0;galerie Z2400 anneau 8
+886;Plan_06_D5-D4_cage_et_appentis;Plafond métal;1994.1;1324.5;2400.0;galerie Z2400 anneau 8
+887;Plan_06_D5-D4_cage_et_appentis;Plafond métal;1844.1;1584.3;2400.0;galerie Z2400 anneau 8
+888;Plan_06_D5-D4_cage_et_appentis;Plafond métal;2649.0;-600.0;2400.0;galerie Z2400 anneau 9
+889;Plan_06_D5-D4_cage_et_appentis;Plafond métal;2649.0;-300.0;2400.0;galerie Z2400 anneau 9
+890;Plan_06_D5-D4_cage_et_appentis;Plafond métal;2649.0;0.0;2400.0;galerie Z2400 anneau 9
+891;Plan_06_D5-D4_cage_et_appentis;Plafond métal;2649.0;300.0;2400.0;galerie Z2400 anneau 9
+892;Plan_06_D5-D4_cage_et_appentis;Plafond métal;2649.0;600.0;2400.0;galerie Z2400 anneau 9
+893;Plan_06_D5-D4_cage_et_appentis;Plafond triangle métal;2536.5;944.9;2400.0;galerie Z2400 anneau 9
+894;Plan_06_D5-D4_cage_et_appentis;Plafond triangle métal;2386.5;1204.7;2400.0;galerie Z2400 anneau 9
+895;Plan_06_D5-D4_cage_et_appentis;Plafond triangle métal;2236.5;1464.5;2400.0;galerie Z2400 anneau 9
+896;Plan_06_D5-D4_cage_et_appentis;Plafond triangle métal;2086.5;1724.3;2400.0;galerie Z2400 anneau 9
+897;Plan_06_D5-D4_cage_et_appentis;Plafond triangle métal;2611.5;815.0;2400.0;galerie Z2400 anneau 9
+898;Plan_06_D5-D4_cage_et_appentis;Plafond triangle métal;2461.5;1074.8;2400.0;galerie Z2400 anneau 9
+899;Plan_06_D5-D4_cage_et_appentis;Plafond triangle métal;2311.5;1334.6;2400.0;galerie Z2400 anneau 9
+900;Plan_06_D5-D4_cage_et_appentis;Plafond triangle métal;2161.5;1594.4;2400.0;galerie Z2400 anneau 9
+901;Plan_06_D5-D4_cage_et_appentis;Plafond triangle métal;2011.5;1854.2;2400.0;galerie Z2400 anneau 9
+902;Plan_06_D5-D4_cage_et_appentis;Pilier fin métal (Thin Pillar);2499.0;-450.0;2400.0;appui appentis c0 t-450 : poteau
+903;Plan_06_D5-D4_cage_et_appentis;Pilier fin métal (Thin Pillar);2499.0;-150.0;2400.0;appui appentis c0 t-150 : poteau
+904;Plan_06_D5-D4_cage_et_appentis;Pilier fin métal (Thin Pillar);2499.0;150.0;2400.0;appui appentis c0 t+150 : poteau
+905;Plan_06_D5-D4_cage_et_appentis;Pilier fin métal (Thin Pillar);2499.0;450.0;2400.0;appui appentis c0 t+450 : poteau
+906;Plan_06_D5-D4_cage_et_appentis;Pilier fin métal (Thin Pillar);2499.0;750.0;2400.0;appui appentis c0 t+750 : poteau
+907;Plan_06_D5-D4_cage_et_appentis;Pilier fin métal (Thin Pillar);2539.2;600.0;2400.0;appui appentis c1 t-750 : poteau
+908;Plan_06_D5-D4_cage_et_appentis;Pilier fin métal (Thin Pillar);2389.2;859.8;2400.0;appui appentis c1 t-450 : poteau
+909;Plan_06_D5-D4_cage_et_appentis;Pilier fin métal (Thin Pillar);2239.2;1119.6;2400.0;appui appentis c1 t-150 : poteau
+910;Plan_06_D5-D4_cage_et_appentis;Pilier fin métal (Thin Pillar);2089.2;1379.4;2400.0;appui appentis c1 t+150 : poteau
+911;Plan_06_D5-D4_cage_et_appentis;Pilier fin métal (Thin Pillar);1939.2;1639.2;2400.0;appui appentis c1 t+450 : poteau
+912;Plan_06_D5-D4_cage_et_appentis;Pilier fin métal (Thin Pillar);1899.0;1789.2;2400.0;appui appentis c2 t-750 : poteau
+913;Plan_06_D5-D4_cage_et_appentis;Pilier fin métal (Thin Pillar);2539.2;-600.0;2400.0;appui appentis c11 t+750 : poteau
+914;Plan_06_D5-D4_cage_et_appentis;Rampe inclinée métal (Sloped Railing);2649.0;-450.0;2400.0;appentis r0 c0 t-450
+915;Plan_06_D5-D4_cage_et_appentis;Rampe inclinée métal (Sloped Railing);2649.0;-150.0;2400.0;appentis r0 c0 t-150
+916;Plan_06_D5-D4_cage_et_appentis;Rampe inclinée métal (Sloped Railing);2649.0;150.0;2400.0;appentis r0 c0 t+150
+917;Plan_06_D5-D4_cage_et_appentis;Rampe inclinée métal (Sloped Railing);2649.0;450.0;2400.0;appentis r0 c0 t+450
+918;Plan_06_D5-D4_cage_et_appentis;Rampe inclinée métal (Sloped Railing);2649.0;750.0;2400.0;appentis r0 c0 t+750
+919;Plan_06_D5-D4_cage_et_appentis;Rampe inclinée métal (Sloped Railing);2669.1;675.0;2400.0;appentis r0 c1 t-750
+920;Plan_06_D5-D4_cage_et_appentis;Rampe inclinée métal (Sloped Railing);2519.1;934.8;2400.0;appentis r0 c1 t-450
+921;Plan_06_D5-D4_cage_et_appentis;Rampe inclinée métal (Sloped Railing);2369.1;1194.6;2400.0;appentis r0 c1 t-150
+922;Plan_06_D5-D4_cage_et_appentis;Rampe inclinée métal (Sloped Railing);2219.1;1454.4;2400.0;appentis r0 c1 t+150
+923;Plan_06_D5-D4_cage_et_appentis;Rampe inclinée métal (Sloped Railing);2069.1;1714.2;2400.0;appentis r0 c1 t+450
+924;Plan_06_D5-D4_cage_et_appentis;Rampe inclinée métal (Sloped Railing);1974.0;1919.1;2400.0;appentis r0 c2 t-750
+925;Plan_06_D5-D4_cage_et_appentis;Rampe inclinée métal (Sloped Railing);2669.1;-675.0;2400.0;appentis r0 c11 t+750
+926;Plan_07_tourelles_D8-D4;Grand carré de culture (Plant Species X);3208.8;150.0;0.0;#86 X-attique c0 p3 (carre de culture : Plant Species X a planter)
+927;Plan_07_tourelles_D8-D4;Tourelle lourde (Heavy);3928.7;600.0;0.0;#1 RIVE c0 p5
+928;Plan_07_tourelles_D8-D4;Tourelle lourde (Heavy);3702.3;1444.7;0.0;#13 RIVE c1 p1
+929;Plan_07_tourelles_D8-D4;Tourelle lourde (Heavy);3402.3;1964.3;300.0;#7 RIVE c1 p3
+930;Plan_07_tourelles_D8-D4;Tourelle lourde (Heavy);3928.7;-600.0;300.0;#23 RIVE c0 p1
+931;Plan_07_tourelles_D8-D4;Bobine Tesla;3928.7;0.0;300.0;#43 RIVE c0 p3
+932;Plan_07_tourelles_D8-D4;Tourelle Tek;2809.0;0.0;1800.0;#25 L1 c0 p2
+933;Plan_07_tourelles_D8-D4;Tourelle Tek;2282.7;1664.3;1800.0;#30 L1 c1 p3
+934;Plan_07_tourelles_D8-D4;Tourelle Tek;2732.7;884.9;1800.0;#34 L1 c1 p0
+935;Plan_07_tourelles_D8-D4;Tourelle Tek;2809.0;-600.0;1800.0;#35 L1 c0 p0
+936;Plan_07_tourelles_D8-D4;Tourelle lourde (Heavy);2809.0;300.0;1800.0;#49 L1 c0 p3
+937;Plan_07_tourelles_D8-D4;Tourelle lourde (Heavy);2432.7;1404.5;1800.0;#58 L1 c1 p2
+938;Plan_08_tourelles_perimetre_pod;Carré de culture moyen (Plant Species X);2069.1;1194.6;2400.0;#90 X-D4 c1 p2 (carre de culture : Plant Species X a planter)
+939;Plan_08_tourelles_perimetre_pod;Tourelle lourde (Heavy);2172.9;734.9;2400.0;#66 D4 c1 p0
+940;Plan_08_tourelles_perimetre_pod;Tourelle Tek;2249.2;-450.0;2400.0;#76 D4 c0 p0
+941;Plan_09_toiture_pleine_D4-centre;Pilier fin métal (Thin Pillar);2239.2;-300.0;2700.0;depart lignes toit c0 t-300 : pilier fin dans le joint
+942;Plan_09_toiture_pleine_D4-centre;Pilier fin métal (Thin Pillar);2239.2;0.0;2700.0;depart lignes toit c0 t-0 : pilier fin dans le joint
+943;Plan_09_toiture_pleine_D4-centre;Pilier fin métal (Thin Pillar);2239.2;300.0;2700.0;depart lignes toit c0 t+300 : pilier fin dans le joint
+944;Plan_09_toiture_pleine_D4-centre;Pilier fin métal (Thin Pillar);2239.2;600.0;2700.0;depart lignes toit c0 t+600 : pilier fin dans le joint
+945;Plan_09_toiture_pleine_D4-centre;Pilier fin métal (Thin Pillar);2089.2;859.8;2700.0;depart lignes toit c1 t-300 : pilier fin dans le joint
+946;Plan_09_toiture_pleine_D4-centre;Pilier fin métal (Thin Pillar);1939.2;1119.6;2700.0;depart lignes toit c1 t-0 : pilier fin dans le joint
+947;Plan_09_toiture_pleine_D4-centre;Pilier fin métal (Thin Pillar);1789.2;1379.4;2700.0;depart lignes toit c1 t+300 : pilier fin dans le joint
+948;Plan_09_toiture_pleine_D4-centre;Pilier fin métal (Thin Pillar);1639.2;1639.2;2700.0;depart lignes toit c1 t+600 : pilier fin dans le joint
+949;Plan_09_toiture_pleine_D4-centre;Mur métal;2239.2;-450.0;2700.0;couronne niv9 c0 p0
+950;Plan_09_toiture_pleine_D4-centre;Mur métal;2239.2;-150.0;2700.0;couronne niv9 c0 p1
+951;Plan_09_toiture_pleine_D4-centre;Mur métal;2239.2;150.0;2700.0;couronne niv9 c0 p2
+952;Plan_09_toiture_pleine_D4-centre;Mur métal;2239.2;450.0;2700.0;couronne niv9 c0 p3
+953;Plan_09_toiture_pleine_D4-centre;Mur métal;2164.2;729.9;2700.0;couronne niv9 c1 p0
+954;Plan_09_toiture_pleine_D4-centre;Mur métal;2014.2;989.7;2700.0;couronne niv9 c1 p1
+955;Plan_09_toiture_pleine_D4-centre;Mur métal;1864.2;1249.5;2700.0;couronne niv9 c1 p2
+956;Plan_09_toiture_pleine_D4-centre;Mur métal;1714.2;1509.3;2700.0;couronne niv9 c1 p3
+957;Plan_09_toiture_pleine_D4-centre;Pilier métal;1119.6;300.0;2700.0;pilier PA0 (couronne)
+958;Plan_09_toiture_pleine_D4-centre;Pilier métal;819.6;819.6;2700.0;pilier PA1 (couronne)
+959;Plan_09_toiture_pleine_D4-centre;Pilier métal;1119.6;-300.0;2700.0;pilier PA11 (couronne)
+960;Plan_09_toiture_pleine_D4-centre;Pilier métal;559.8;150.0;2700.0;pilier PB0 (couronne)
+961;Plan_09_toiture_pleine_D4-centre;Pilier métal;409.8;409.8;2700.0;pilier PB1 (couronne)
+962;Plan_09_toiture_pleine_D4-centre;Pilier métal;559.8;-150.0;2700.0;pilier PB11 (couronne)
+963;Plan_09_toiture_pleine_D4-centre;Plafond à trappe métal;409.8;0.0;3000.0;plancher de toit anneau 1
+964;Plan_09_toiture_pleine_D4-centre;Plafond triangle métal;129.9;0.0;3000.0;plancher de toit anneau 0
+965;Plan_09_toiture_pleine_D4-centre;Plafond triangle métal;372.3;215.0;3000.0;plancher de toit anneau 1
+966;Plan_09_toiture_pleine_D4-centre;Plafond triangle métal;689.7;0.0;3000.0;plancher de toit anneau 2
+967;Plan_09_toiture_pleine_D4-centre;Plafond triangle métal;689.7;-150.0;3000.0;plancher de toit anneau 2
+968;Plan_09_toiture_pleine_D4-centre;Plafond triangle métal;689.7;150.0;3000.0;plancher de toit anneau 2
+969;Plan_09_toiture_pleine_D4-centre;Plafond métal;614.7;354.9;3000.0;plancher de toit anneau 2
+970;Plan_09_toiture_pleine_D4-centre;Plafond métal;969.6;-150.0;3000.0;plancher de toit anneau 3
+971;Plan_09_toiture_pleine_D4-centre;Plafond métal;969.6;150.0;3000.0;plancher de toit anneau 3
+972;Plan_09_toiture_pleine_D4-centre;Plafond triangle métal;857.1;494.9;3000.0;plancher de toit anneau 3
+973;Plan_09_toiture_pleine_D4-centre;Plafond triangle métal;932.1;365.0;3000.0;plancher de toit anneau 3
+974;Plan_09_toiture_pleine_D4-centre;Plafond triangle métal;782.1;624.8;3000.0;plancher de toit anneau 3
+975;Plan_09_toiture_pleine_D4-centre;Plafond triangle métal;1249.5;-150.0;3000.0;plancher de toit anneau 4
+976;Plan_09_toiture_pleine_D4-centre;Plafond triangle métal;1249.5;150.0;3000.0;plancher de toit anneau 4
+977;Plan_09_toiture_pleine_D4-centre;Plafond triangle métal;1249.5;-300.0;3000.0;plancher de toit anneau 4
+978;Plan_09_toiture_pleine_D4-centre;Plafond triangle métal;1249.5;0.0;3000.0;plancher de toit anneau 4
+979;Plan_09_toiture_pleine_D4-centre;Plafond triangle métal;1249.5;300.0;3000.0;plancher de toit anneau 4
+980;Plan_09_toiture_pleine_D4-centre;Plafond métal;1174.5;504.9;3000.0;plancher de toit anneau 4
+981;Plan_09_toiture_pleine_D4-centre;Plafond métal;1024.5;764.7;3000.0;plancher de toit anneau 4
+982;Plan_09_toiture_pleine_D4-centre;Plafond métal;1529.4;-300.0;3000.0;plancher de toit anneau 5
+983;Plan_09_toiture_pleine_D4-centre;Plafond métal;1529.4;0.0;3000.0;plancher de toit anneau 5
+984;Plan_09_toiture_pleine_D4-centre;Plafond métal;1529.4;300.0;3000.0;plancher de toit anneau 5
+985;Plan_09_toiture_pleine_D4-centre;Plafond triangle métal;1416.9;644.9;3000.0;plancher de toit anneau 5
+986;Plan_09_toiture_pleine_D4-centre;Plafond triangle métal;1266.9;904.7;3000.0;plancher de toit anneau 5
+987;Plan_09_toiture_pleine_D4-centre;Plafond triangle métal;1491.9;515.0;3000.0;plancher de toit anneau 5
+988;Plan_09_toiture_pleine_D4-centre;Plafond triangle métal;1341.9;774.8;3000.0;plancher de toit anneau 5
+989;Plan_09_toiture_pleine_D4-centre;Plafond triangle métal;1191.9;1034.6;3000.0;plancher de toit anneau 5
+990;Plan_09_toiture_pleine_D4-centre;Plafond triangle métal;1809.3;-300.0;3000.0;plancher de toit anneau 6
+991;Plan_09_toiture_pleine_D4-centre;Plafond triangle métal;1809.3;300.0;3000.0;plancher de toit anneau 6
+992;Plan_09_toiture_pleine_D4-centre;Plafond métal;2089.2;-450.0;3000.0;plancher de toit anneau 7
+993;Plan_09_toiture_pleine_D4-centre;Plafond triangle métal;1809.3;-450.0;3000.0;plancher de toit anneau 6
+994;Plan_09_toiture_pleine_D4-centre;Plafond métal;2089.2;-150.0;3000.0;plancher de toit anneau 7
+995;Plan_09_toiture_pleine_D4-centre;Plafond triangle métal;1809.3;-150.0;3000.0;plancher de toit anneau 6
+996;Plan_09_toiture_pleine_D4-centre;Plafond triangle métal;1809.3;0.0;3000.0;plancher de toit anneau 6
+997;Plan_09_toiture_pleine_D4-centre;Plafond métal;2089.2;150.0;3000.0;plancher de toit anneau 7
+998;Plan_09_toiture_pleine_D4-centre;Plafond triangle métal;1809.3;150.0;3000.0;plancher de toit anneau 6
+999;Plan_09_toiture_pleine_D4-centre;Plafond métal;2089.2;450.0;3000.0;plancher de toit anneau 7
+1000;Plan_09_toiture_pleine_D4-centre;Plafond triangle métal;1809.3;450.0;3000.0;plancher de toit anneau 6
+1001;Plan_09_toiture_pleine_D4-centre;Plafond triangle métal;1976.7;794.9;3000.0;plancher de toit anneau 7
+1002;Plan_09_toiture_pleine_D4-centre;Plafond métal;1734.3;654.9;3000.0;plancher de toit anneau 6
+1003;Plan_09_toiture_pleine_D4-centre;Plafond triangle métal;1826.7;1054.7;3000.0;plancher de toit anneau 7
+1004;Plan_09_toiture_pleine_D4-centre;Plafond métal;1584.3;914.7;3000.0;plancher de toit anneau 6
+1005;Plan_09_toiture_pleine_D4-centre;Plafond triangle métal;1676.7;1314.5;3000.0;plancher de toit anneau 7
+1006;Plan_09_toiture_pleine_D4-centre;Plafond métal;1434.3;1174.5;3000.0;plancher de toit anneau 6
+1007;Plan_09_toiture_pleine_D4-centre;Plafond triangle métal;2051.7;665.0;3000.0;plancher de toit anneau 7
+1008;Plan_09_toiture_pleine_D4-centre;Plafond triangle métal;1901.7;924.8;3000.0;plancher de toit anneau 7
+1009;Plan_09_toiture_pleine_D4-centre;Plafond triangle métal;1751.7;1184.6;3000.0;plancher de toit anneau 7
+1010;Plan_09_toiture_pleine_D4-centre;Plafond triangle métal;1601.7;1444.4;3000.0;plancher de toit anneau 7
+1011;Plan_10_toit_en_rampes_D4-centre;Pilier fin métal (Thin Pillar);1939.2;-300.0;3000.0;appui toit c0 t-300 : poteau
+1012;Plan_10_toit_en_rampes_D4-centre;Pilier fin métal (Thin Pillar);1339.2;-300.0;3000.0;appui toit c0 t-300 : poteau
+1013;Plan_10_toit_en_rampes_D4-centre;Pilier fin métal (Thin Pillar);1939.2;0.0;3000.0;appui toit c0 t-0 : poteau
+1014;Plan_10_toit_en_rampes_D4-centre;Pilier fin métal (Thin Pillar);1039.2;0.0;3000.0;appui toit c0 t-0 : poteau
+1015;Plan_10_toit_en_rampes_D4-centre;Pilier fin métal (Thin Pillar);139.2;0.0;3000.0;appui toit c0 t-0 : poteau
+1016;Plan_10_toit_en_rampes_D4-centre;Pilier fin métal (Thin Pillar);1939.2;300.0;3000.0;appui toit c0 t+300 : poteau
+1017;Plan_10_toit_en_rampes_D4-centre;Pilier fin métal (Thin Pillar);1339.2;300.0;3000.0;appui toit c0 t+300 : poteau
+1018;Plan_10_toit_en_rampes_D4-centre;Pilier fin métal (Thin Pillar);1939.2;600.0;3000.0;appui toit c0 t+600 : poteau
+1019;Plan_10_toit_en_rampes_D4-centre;Pilier fin métal (Thin Pillar);1979.4;450.0;3000.0;appui toit c1 t-600 : poteau
+1020;Plan_10_toit_en_rampes_D4-centre;Pilier fin métal (Thin Pillar);1829.4;709.8;3000.0;appui toit c1 t-300 : poteau
+1021;Plan_10_toit_en_rampes_D4-centre;Pilier fin métal (Thin Pillar);1050.0;259.8;3000.0;appui toit c1 t-300 : poteau
+1022;Plan_10_toit_en_rampes_D4-centre;Pilier fin métal (Thin Pillar);790.2;109.8;3000.0;appui toit c1 t-300 : poteau
+1023;Plan_10_toit_en_rampes_D4-centre;Pilier fin métal (Thin Pillar);1679.4;969.6;3000.0;appui toit c1 t-0 : poteau
+1024;Plan_10_toit_en_rampes_D4-centre;Pilier fin métal (Thin Pillar);900.0;519.6;3000.0;appui toit c1 t-0 : poteau
+1025;Plan_10_toit_en_rampes_D4-centre;Pilier fin métal (Thin Pillar);120.6;69.6;3000.0;appui toit c1 t-0 : poteau
+1026;Plan_10_toit_en_rampes_D4-centre;Pilier fin métal (Thin Pillar);1529.4;1229.4;3000.0;appui toit c1 t+300 : poteau
+1027;Plan_10_toit_en_rampes_D4-centre;Pilier fin métal (Thin Pillar);1489.2;1379.4;3000.0;appui toit c2 t-600 : poteau
+1028;Plan_10_toit_en_rampes_D4-centre;Pilier fin métal (Thin Pillar);1050.0;-259.8;3000.0;appui toit c11 t+300 : poteau
+1029;Plan_10_toit_en_rampes_D4-centre;Pilier fin métal (Thin Pillar);790.2;-109.8;3000.0;appui toit c11 t+300 : poteau
+1030;Plan_10_toit_en_rampes_D4-centre;Pilier fin métal (Thin Pillar);1979.4;-450.0;3000.0;appui toit c11 t+600 : poteau
+1031;Plan_10_toit_en_rampes_D4-centre;Rampe inclinée métal (Sloped Railing);2089.2;-300.0;3000.0;toit rampes r0 c0 t-300
+1032;Plan_10_toit_en_rampes_D4-centre;Rampe inclinée métal (Sloped Railing);2089.2;0.0;3000.0;toit rampes r0 c0 t-0
+1033;Plan_10_toit_en_rampes_D4-centre;Rampe inclinée métal (Sloped Railing);2089.2;300.0;3000.0;toit rampes r0 c0 t+300
+1034;Plan_10_toit_en_rampes_D4-centre;Rampe inclinée métal (Sloped Railing);2089.2;600.0;3000.0;toit rampes r0 c0 t+600
+1035;Plan_10_toit_en_rampes_D4-centre;Rampe inclinée métal (Sloped Railing);2109.3;525.0;3000.0;toit rampes r0 c1 t-600
+1036;Plan_10_toit_en_rampes_D4-centre;Rampe inclinée métal (Sloped Railing);1959.3;784.8;3000.0;toit rampes r0 c1 t-300
+1037;Plan_10_toit_en_rampes_D4-centre;Rampe inclinée métal (Sloped Railing);1809.3;1044.6;3000.0;toit rampes r0 c1 t-0
+1038;Plan_10_toit_en_rampes_D4-centre;Rampe inclinée métal (Sloped Railing);1659.3;1304.4;3000.0;toit rampes r0 c1 t+300
+1039;Plan_10_toit_en_rampes_D4-centre;Rampe inclinée métal (Sloped Railing);1564.2;1509.3;3000.0;toit rampes r0 c2 t-600
+1040;Plan_10_toit_en_rampes_D4-centre;Rampe inclinée métal (Sloped Railing);2109.3;-525.0;3000.0;toit rampes r0 c11 t+600
+1041;Plan_10_toit_en_rampes_D4-centre;Pilier fin métal (Thin Pillar);1339.2;-300.0;3300.0;appui toit c0 t-300 : poteau
+1042;Plan_10_toit_en_rampes_D4-centre;Pilier fin métal (Thin Pillar);1039.2;0.0;3300.0;appui toit c0 t-0 : poteau
+1043;Plan_10_toit_en_rampes_D4-centre;Pilier fin métal (Thin Pillar);139.2;0.0;3300.0;appui toit c0 t-0 : poteau
+1044;Plan_10_toit_en_rampes_D4-centre;Pilier fin métal (Thin Pillar);1339.2;300.0;3300.0;appui toit c0 t+300 : poteau
+1045;Plan_10_toit_en_rampes_D4-centre;Pilier fin métal (Thin Pillar);1050.0;259.8;3300.0;appui toit c1 t-300 : poteau
+1046;Plan_10_toit_en_rampes_D4-centre;Pilier fin métal (Thin Pillar);790.2;109.8;3300.0;appui toit c1 t-300 : poteau
+1047;Plan_10_toit_en_rampes_D4-centre;Pilier fin métal (Thin Pillar);900.0;519.6;3300.0;appui toit c1 t-0 : poteau
+1048;Plan_10_toit_en_rampes_D4-centre;Pilier fin métal (Thin Pillar);120.6;69.6;3300.0;appui toit c1 t-0 : poteau
+1049;Plan_10_toit_en_rampes_D4-centre;Pilier fin métal (Thin Pillar);1050.0;-259.8;3300.0;appui toit c11 t+300 : poteau
+1050;Plan_10_toit_en_rampes_D4-centre;Pilier fin métal (Thin Pillar);790.2;-109.8;3300.0;appui toit c11 t+300 : poteau
+1051;Plan_10_toit_en_rampes_D4-centre;Rampe inclinée métal (Sloped Railing);1789.2;-300.0;3300.0;toit rampes r1 c0 t-300
+1052;Plan_10_toit_en_rampes_D4-centre;Rampe inclinée métal (Sloped Railing);1789.2;0.0;3300.0;toit rampes r1 c0 t-0
+1053;Plan_10_toit_en_rampes_D4-centre;Rampe inclinée métal (Sloped Railing);1789.2;300.0;3300.0;toit rampes r1 c0 t+300
+1054;Plan_10_toit_en_rampes_D4-centre;Rampe inclinée métal (Sloped Railing);1699.5;634.8;3300.0;toit rampes r1 c1 t-300
+1055;Plan_10_toit_en_rampes_D4-centre;Rampe inclinée métal (Sloped Railing);1549.5;894.6;3300.0;toit rampes r1 c1 t-0
+1056;Plan_10_toit_en_rampes_D4-centre;Rampe inclinée métal (Sloped Railing);1399.5;1154.4;3300.0;toit rampes r1 c1 t+300
+1057;Plan_10_toit_en_rampes_D4-centre;Pilier fin métal (Thin Pillar);1339.2;-300.0;3600.0;appui toit c0 t-300 : poteau
+1058;Plan_10_toit_en_rampes_D4-centre;Pilier fin métal (Thin Pillar);1039.2;0.0;3600.0;appui toit c0 t-0 : poteau
+1059;Plan_10_toit_en_rampes_D4-centre;Pilier fin métal (Thin Pillar);139.2;0.0;3600.0;appui toit c0 t-0 : poteau
+1060;Plan_10_toit_en_rampes_D4-centre;Pilier fin métal (Thin Pillar);1339.2;300.0;3600.0;appui toit c0 t+300 : poteau
+1061;Plan_10_toit_en_rampes_D4-centre;Pilier fin métal (Thin Pillar);1050.0;259.8;3600.0;appui toit c1 t-300 : poteau
+1062;Plan_10_toit_en_rampes_D4-centre;Pilier fin métal (Thin Pillar);790.2;109.8;3600.0;appui toit c1 t-300 : poteau
+1063;Plan_10_toit_en_rampes_D4-centre;Pilier fin métal (Thin Pillar);900.0;519.6;3600.0;appui toit c1 t-0 : poteau
+1064;Plan_10_toit_en_rampes_D4-centre;Pilier fin métal (Thin Pillar);120.6;69.6;3600.0;appui toit c1 t-0 : poteau
+1065;Plan_10_toit_en_rampes_D4-centre;Pilier fin métal (Thin Pillar);1050.0;-259.8;3600.0;appui toit c11 t+300 : poteau
+1066;Plan_10_toit_en_rampes_D4-centre;Pilier fin métal (Thin Pillar);790.2;-109.8;3600.0;appui toit c11 t+300 : poteau
+1067;Plan_10_toit_en_rampes_D4-centre;Rampe inclinée métal (Sloped Railing);1489.2;-300.0;3600.0;toit rampes r2 c0 t-300
+1068;Plan_10_toit_en_rampes_D4-centre;Rampe inclinée métal (Sloped Railing);1489.2;0.0;3600.0;toit rampes r2 c0 t-0
+1069;Plan_10_toit_en_rampes_D4-centre;Rampe inclinée métal (Sloped Railing);1489.2;300.0;3600.0;toit rampes r2 c0 t+300
+1070;Plan_10_toit_en_rampes_D4-centre;Rampe inclinée métal (Sloped Railing);1439.7;484.8;3600.0;toit rampes r2 c1 t-300
+1071;Plan_10_toit_en_rampes_D4-centre;Rampe inclinée métal (Sloped Railing);1289.7;744.6;3600.0;toit rampes r2 c1 t-0
+1072;Plan_10_toit_en_rampes_D4-centre;Rampe inclinée métal (Sloped Railing);1139.7;1004.4;3600.0;toit rampes r2 c1 t+300
+1073;Plan_10_toit_en_rampes_D4-centre;Pilier fin métal (Thin Pillar);1039.2;0.0;3900.0;appui toit c0 t-0 : poteau
+1074;Plan_10_toit_en_rampes_D4-centre;Pilier fin métal (Thin Pillar);139.2;0.0;3900.0;appui toit c0 t-0 : poteau
+1075;Plan_10_toit_en_rampes_D4-centre;Pilier fin métal (Thin Pillar);1050.0;259.8;3900.0;appui toit c1 t-300 : poteau
+1076;Plan_10_toit_en_rampes_D4-centre;Pilier fin métal (Thin Pillar);790.2;109.8;3900.0;appui toit c1 t-300 : poteau
+1077;Plan_10_toit_en_rampes_D4-centre;Pilier fin métal (Thin Pillar);900.0;519.6;3900.0;appui toit c1 t-0 : poteau
+1078;Plan_10_toit_en_rampes_D4-centre;Pilier fin métal (Thin Pillar);120.6;69.6;3900.0;appui toit c1 t-0 : poteau
+1079;Plan_10_toit_en_rampes_D4-centre;Pilier fin métal (Thin Pillar);1050.0;-259.8;3900.0;appui toit c11 t+300 : poteau
+1080;Plan_10_toit_en_rampes_D4-centre;Pilier fin métal (Thin Pillar);790.2;-109.8;3900.0;appui toit c11 t+300 : poteau
+1081;Plan_10_toit_en_rampes_D4-centre;Rampe inclinée métal (Sloped Railing);1189.2;0.0;3900.0;toit rampes r3 c0 t-0
+1082;Plan_10_toit_en_rampes_D4-centre;Rampe inclinée métal (Sloped Railing);1179.9;334.8;3900.0;toit rampes r3 c1 t-300
+1083;Plan_10_toit_en_rampes_D4-centre;Rampe inclinée métal (Sloped Railing);1029.9;594.6;3900.0;toit rampes r3 c1 t-0
+1084;Plan_10_toit_en_rampes_D4-centre;Rampe inclinée métal (Sloped Railing);879.9;854.4;3900.0;toit rampes r3 c1 t+300
+1085;Plan_10_toit_en_rampes_D4-centre;Pilier fin métal (Thin Pillar);139.2;0.0;4200.0;appui toit c0 t-0 : poteau
+1086;Plan_10_toit_en_rampes_D4-centre;Pilier fin métal (Thin Pillar);790.2;109.8;4200.0;appui toit c1 t-300 : poteau
+1087;Plan_10_toit_en_rampes_D4-centre;Pilier fin métal (Thin Pillar);120.6;69.6;4200.0;appui toit c1 t-0 : poteau
+1088;Plan_10_toit_en_rampes_D4-centre;Pilier fin métal (Thin Pillar);790.2;-109.8;4200.0;appui toit c11 t+300 : poteau
+1089;Plan_10_toit_en_rampes_D4-centre;Rampe inclinée métal (Sloped Railing);889.2;0.0;4200.0;toit rampes r4 c0 t-0
+1090;Plan_10_toit_en_rampes_D4-centre;Rampe inclinée métal (Sloped Railing);920.1;184.8;4200.0;toit rampes r4 c1 t-300
+1091;Plan_10_toit_en_rampes_D4-centre;Rampe inclinée métal (Sloped Railing);770.1;444.6;4200.0;toit rampes r4 c1 t-0
+1092;Plan_10_toit_en_rampes_D4-centre;Rampe inclinée métal (Sloped Railing);920.1;-184.8;4200.0;toit rampes r4 c11 t+300
+1093;Plan_10_toit_en_rampes_D4-centre;Pilier fin métal (Thin Pillar);139.2;0.0;4500.0;appui toit c0 t-0 : poteau
+1094;Plan_10_toit_en_rampes_D4-centre;Pilier fin métal (Thin Pillar);120.6;69.6;4500.0;appui toit c1 t-0 : poteau
+1095;Plan_10_toit_en_rampes_D4-centre;Rampe inclinée métal (Sloped Railing);589.2;0.0;4500.0;toit rampes r5 c0 t-0
+1096;Plan_10_toit_en_rampes_D4-centre;Rampe inclinée métal (Sloped Railing);510.3;294.6;4500.0;toit rampes r5 c1 t-0
+1097;Plan_10_toit_en_rampes_D4-centre;Pilier fin métal (Thin Pillar);139.2;0.0;4800.0;appui toit c0 t-0 : poteau
+1098;Plan_10_toit_en_rampes_D4-centre;Pilier fin métal (Thin Pillar);120.6;69.6;4800.0;appui toit c1 t-0 : poteau
+1099;Plan_10_toit_en_rampes_D4-centre;Rampe inclinée métal (Sloped Railing);289.2;0.0;4800.0;toit rampes r6 c0 t-0
+1100;Plan_10_toit_en_rampes_D4-centre;Rampe inclinée métal (Sloped Railing);250.5;144.6;4800.0;toit rampes r6 c1 t-0
+1101;Plan_11_tourelles_dessus;Grand carré de culture (Plant Species X);1500.0;150.0;3000.0;#94 DESSUS c0 p0 (carre de culture : Plant Species X a planter)
+1102;Plan_11_tourelles_dessus;Tourelle lourde (Heavy);1224.0;879.9;3000.0;#80 DESSUS c1 p1
