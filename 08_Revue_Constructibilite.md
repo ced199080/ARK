@@ -163,7 +163,25 @@ Il ne retient que les porteurs posés dans le même plan ou dans un plan précé
 | V2 | 28 à 35 | poteau de piliers fins posé librement sur une fondation, à 40 UU d'une arête (comme certains poteaux de la pente A) | à vérifier |
 | V3 | 36 à 49 | ancien départ, sur le haut des cadres sans pilier fin | ne se pose pas |
 
-Si V1 se pose et V3 non, la correction est confirmée. Si V2 ne se pose pas, dites-le moi : il faudra déplacer les poteaux sur des points de snap des fondations.
+**Résultat en jeu** (de gauche à droite en regardant vers le haut des rampes : V0, V1, V2, V3) : **V1 et V3 se posent entièrement, V0 et V2 non.**
+- Ce qui fait tenir les lames, c'est le **poteau de piliers fins debout sur un coin de fondation** sous la jonction 1 (V1 et V3) ; la lame r0 pend de sa tête, la lame pendante et r1 s'enchaînent.
+- Le pilier fin dans le joint ne suffit pas seul (V0, qui n'a pas de poteau) ; le haut d'un mur non plus.
+- Un poteau qui n'est pas sur un point de snap ne porte rien (V2).
+- Conséquence : beaucoup de poteaux du générateur sont à 40 UU d'une arête (pente A sur les côtés E1, overhang sur le palier 2, toit), et le débord et la casquette n'ont aucun poteau. Avant de les replacer, le 2ᵉ essai dit précisément où un poteau peut se poser et ce qui porte une lame.
+
+**2ᵉ essai :** `templates/test/Essai_rampes_2.json`, 118 entrées (`donnees/08_essai_rampes_2.csv`). 9 cas isolés, de gauche à droite en regardant vers le haut des rampes ; au coin arrière gauche de chaque cas, une pile de n demi-piliers métal donne son numéro :
+
+| Cas | Ce qui est testé |
+|---|---|
+| E1 | pilier fin dans le joint d'un mur (tête au haut du mur), 1 lame montante |
+| E2 | pilier fin dans le joint, 1 lame pendante vers l'extérieur |
+| E3 | pilier fin debout **sur** le haut du mur, au joint (tour 1201), 1 lame pendue à sa tête et 1 montante |
+| E4 | haut du mur seul, au joint, 1 lame montante |
+| E5 | poteau d'1 pilier fin sur un coin de fondation, 1 lame montante depuis sa tête |
+| E6 | poteau de 2 piliers fins sur un coin de fondation, 1 lame pendue à sa tête |
+| E7 | poteau de 2 piliers fins au milieu d'une arête de fondation, 1 lame montante |
+| E8 | poteau de 2 piliers fins au centre d'une fondation, 1 lame montante |
+| E9 | poteau de 2 piliers fins à 40 UU d'une arête, sans lame : le poteau seul se pose-t-il ? |
 
 **Template d'essai :** `templates/test/Secteur_test_theta_-15_45.json`, 1 103 entrées.
 - Il prend toutes les pièces entre θ −15° et 45° (2 côtés et une arête du dodécagone, coins compris), dans l'ordre de pose des plans, avec la pile d'ancrage.

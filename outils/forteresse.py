@@ -2395,6 +2395,68 @@ def essai_rampes():
     return t, legende
 
 
+def essai_rampes_2():
+    """2e essai court (en solo, sur sol plat), après le 1er : V1 et V3 se posent (poteau de piliers fins sur un coin de
+    fondation sous la jonction 1), V0 (pilier fin dans le joint + poutre fine, sans poteau) et V2 (poteau hors d'un
+    point de snap) ne se posent pas. Chaque cas est isolé, sur 4 fondations ; en regardant vers le haut des rampes,
+    de gauche à droite (vers +y) :
+    E1 pilier fin dans le joint du mur (tête au haut du mur), 1 lame montante ;
+    E2 pilier fin dans le joint, 1 lame pendante vers l'extérieur ;
+    E3 pilier fin debout SUR le haut du mur au joint (tour 1201), 1 lame pendante et 1 montante depuis sa tête ;
+    E4 haut du mur seul (joint, sans pilier), 1 lame montante ;
+    E5 poteau (1 pilier fin) sur un coin de fondation, 1 lame montante depuis sa tête ;
+    E6 poteau (2 piliers fins) sur un coin de fondation, 1 lame pendue à sa tête ;
+    E7 poteau (2 piliers fins) au milieu d'une arête de fondation, 1 lame montante ;
+    E8 poteau (2 piliers fins) au centre d'une fondation, 1 lame montante ;
+    E9 poteau (2 piliers fins) à 40 UU d'une arête, sans lame (le poteau seul se pose-t-il ?).
+    Repère : au coin arrière gauche de chaque cas, une pile de n demi-piliers métal (n = numéro du cas).
+    Renvoie (template, [(n° d'entrée, cas, pièce, repère)])."""
+    t = Template('Essai rampes 2 : appuis des lames', 'Essai en solo sur sol plat, 9 cas E1 a E9 de gauche a droite en '
+                 'regardant vers le haut des rampes ; pile de n demi-piliers = cas n. Noter ce qui se pose.')
+    legende = []
+
+    def add(cas, cle, x, y, z, yaw, rep_):
+        legende.append((len(t.entries), cas, NOMS[cle], rep_))
+        t.add(cle, x, y, z, yaw, repere=f'{cas} {rep_}')
+
+    x0 = 0.0
+    for n in range(1, 10):
+        cas, yc = f'E{n}', (n - 1) * 900.0
+        for dx in (150, 450):
+            for dy in (-150, 150):
+                add(cas, 'fond', x0 + dx, yc + dy, 40, 0, 'fondation')
+        for k in range(n):
+            add(cas, 'demi_pilier', x0 + 2 * F, yc - F, 165 + k * F / 2, 0, f'repere : demi-pilier {k + 1}/{n}')
+        if n <= 4:                              # mur de 2 cadres doubles sur 2 niveaux, joint en (x0, yc)
+            for dy in (-150, 150):
+                add(cas, 'cadre_double', x0, yc + dy, 240, 180, 'cadre niveau 0')
+            if n in (1, 2):
+                add(cas, 'pilier_fin', x0, yc, 540, 180, 'pilier fin dans le joint, niveau 1 (avant les cadres)')
+            for dy in (-150, 150):
+                add(cas, 'cadre_double', x0, yc + dy, 540, 180, 'cadre niveau 1')
+            if n == 1 or n == 4:
+                add(cas, 'rampe', x0 + F / 2, yc, 2 * F + 290, 90, 'lame montante depuis le joint (Z600 -> 900)')
+            elif n == 2:
+                add(cas, 'rampe', x0 - F / 2, yc, F + 290, 90, 'lame pendante vers l exterieur (Z300 -> 600)')
+            else:
+                add(cas, 'pilier_fin', x0, yc, 840, 90, 'pilier fin debout sur le haut du mur au joint (Z600 -> 900)')
+                add(cas, 'rampe', x0 - F / 2, yc, 2 * F + 290, 90, 'lame pendue a la tete (Z600 -> 900)')
+                add(cas, 'rampe', x0 + F / 2, yc, 3 * F + 290, 90, 'lame montante depuis la tete (Z900 -> 1200)')
+            continue
+        xp, yp, haut = {5: (x0 + F, yc, 1), 6: (x0 + F, yc, 2), 7: (x0 + F, yc + F / 2, 2), 8: (x0 + F / 2, yc + F / 2, 2),
+                        9: (x0 + F + 40, yc, 2)}[n]
+        lieu = {5: 'coin de fondation', 6: 'coin de fondation', 7: "milieu d'une arete", 8: 'centre de fondation',
+                9: '40 UU d une arete'}[n]
+        for niv in range(haut):
+            add(cas, 'pilier_fin', xp, yp, niv * F + 240, 0, f'poteau ({lieu}), niveau {niv}')
+        zt = haut * F                           # tête du poteau
+        if n == 6:
+            add(cas, 'rampe', xp - F / 2, yp, zt - F + 290, 90, f'lame pendue a la tete (Z{zt - F:.0f} -> {zt:.0f})')
+        elif n != 9:
+            add(cas, 'rampe', xp + F / 2, yp, zt + 290, 90, f'lame montante depuis la tete (Z{zt:.0f} -> {zt + F:.0f})')
+    return t, legende
+
+
 # ---------------------------------------------------------------- ordre de pose : plan après plan, du bas vers le haut
 TAILLE_MAX = 2000              # entrées par template (limite de Template Hammer constatée en jeu)
 MURS = ('mur', 'cadre_double', 'chaume_mur')
@@ -3282,6 +3344,9 @@ def main():
     essai_r, legende_r = essai_rampes()
     essai_r.ecrire(os.path.join(rep_test, 'Essai_rampes.json'))
     ecrire_csv(os.path.join(rep_d, '08_essai_rampes.csv'), legende_r, ['entree', 'variante', 'piece', 'repere'])
+    essai_r2, legende_r2 = essai_rampes_2()
+    essai_r2.ecrire(os.path.join(rep_test, 'Essai_rampes_2.json'))
+    ecrire_csv(os.path.join(rep_d, '08_essai_rampes_2.csv'), legende_r2, ['entree', 'cas', 'piece', 'repere'])
     equip = equipements(p, contours)
 
     # CSV de pose : un par plan, dans l'ordre des entrées du template
