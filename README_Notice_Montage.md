@@ -20,6 +20,7 @@ Le centre est une **tour** (le pod), dont vous pouvez faire varier la hauteur. �
 | 07 | [07_Bilan_Materiaux.md](07_Bilan_Materiaux.md) | **Bilan matériaux complet**, équipements compris : réplicateur, forge à vapeur, labo de fortune, 20 stockages dédiés, 20 coffres-forts, 2 générateurs Tek, 2 boîtes de munitions |
 | 08 | [08_Revue_Constructibilite.md](08_Revue_Constructibilite.md) | **Revue de constructibilité** : comparaison avec vos templates, appuis et redondance des rampes, murs de chaume, collisions, ordre de pose, revue du code |
 | 09 | [09_Audit_Limites_Moteur.md](09_Audit_Limites_Moteur.md) | **Audit des limites moteur** : 8 400 structures, 100 places au cap, plafonds à 2 cases d'un appui au sol, 70 murs de haut |
+| 10 | [10_Commandes_Console_Profils.md](10_Commandes_Console_Profils.md) | **Commandes console graphiques** : effet, mini, maxi et valeur d'origine de chaque commande ; vos lignes vérifiées ; profils Stream, PvP, Raid, Ultra, Scanner, Effacement max, Eau, Cave et Reset |
 
 ![Coupe radiale](plans/coupe_radiale.png)
 
