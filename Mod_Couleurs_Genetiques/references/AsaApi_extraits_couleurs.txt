@@ -1,0 +1,94 @@
+Extraits des en-tetes AsaApi (ARK: Survival Ascended, API serveur)
+Source : https://raw.githubusercontent.com/ArkServerApi/AsaApi/master/AsaApi/Core/Public/API/ARK/<fichier>
+Telecharges le 2026-11-14. Ces en-tetes sont generes a partir des symboles du serveur ASA :
+ils prouvent qu'un champ ou une fonction existe dans le jeu, avec son type et ses parametres.
+Ils ne disent PAS si la fonction est exposee en Blueprint dans le DevKit (a verifier dans le DevKit).
+Lignes copiees telles quelles (corps NativeCall coupe apres l'accolade).
+
+=== APrimalDinoCharacter.h ===
+l.124  FieldArray<unsigned __int8, 6> AllowPaintingColorRegionsField() { ... }
+l.125  FieldArray<unsigned __int8, 6> ColorSetIndicesField() { ... }
+l.126  FieldArray<FName, 6> ColorSetNamesField() { ... }
+l.128  TWeakObjectPtr<APrimalBuff>& ColorOverrideBuffField() { ... }
+l.194  int& TamingTeamIDField() { ... }
+l.195  int& OwningPlayerIDField() { ... }
+l.229  TSubclassOf<UPrimalColorSet>& RandomColorSetsMaleField() { ... }
+l.230  TSubclassOf<UPrimalColorSet>& RandomColorSetsFemaleField() { ... }
+l.385  FieldArray<unsigned __int8, 12> GestationEggNumberOfMutationsAppliedField() { ... }
+l.387  FieldArray<unsigned __int8, 6> GestationEggColorSetIndicesField() { ... }
+l.512  int& RandomMutationsMaleField() { ... }
+l.513  int& RandomMutationsFemaleField() { ... }
+l.514  int& GestationEggRandomMutationsFemaleField() { ... }
+l.515  int& GestationEggRandomMutationsMaleField() { ... }
+l.751  BitFieldValue<bool, unsigned __int32> bUseColorization() { ... }
+l.845  BitFieldValue<bool, unsigned __int32> bPreventMating() { ... }
+l.1068  void ForceUpdateColorSets(int ColorRegion, int ColorSet) { ... }
+l.1169  void ForceUpdateColorSets_Implementation(int ColorRegion, int ColorSet) { ... }
+l.1170  void MulticastUpdateAllColorSets_Implementation(int Color0, int Color1, int Color2, int Color3, int Color4, int Color5) { ... }
+l.1185  bool CanOrder(APrimalCharacter* FromCharacter, bool bBuildingStructures) { ... }
+l.1270  static APrimalDinoCharacter* StaticCreateBabyDino_v2(UWorld* theWorld, TSubclassOf<APrimalDinoCharacter> EggDinoClassToSpawn, const UE::Math::TVector<double>& theGroundLoc, float actorRotationYaw, unsigned char* EggColorSetIndices, unsigned char* EggNumberOfLevelUpPointsApplied, unsigned char* EggMutationsApplied, float EggTamedIneffectivenessModifier, APrimalDinoCharacter** ExtraBaby1, AP
+l.1286  void SpawnEgg(bool bForceAllowEggSpawn) { ... }
+l.1293  void SetupColorization() { ... }
+l.1295  void ReassertColorization() { ... }
+l.1296  TArray<unsigned char, TSizedDefaultAllocator<32> >* GetColorizationData(TArray<unsigned char, TSizedDefaultAllocator<32> >* result) { ... }
+l.1299  void RefreshColorization(bool bForceRefresh) { ... }
+l.1420  void UpdateMating() { ... }
+l.1421  void DoMate(APrimalDinoCharacter* WithMate) { ... }
+l.1513  FString* GetColorSetInidcesAsString(FString* result) { ... }
+l.1551  void SetupWildBaby_SetFakeInheritedColorsFromOneParent(APrimalDinoCharacter* ParentDino, FItemNetInfo* GeneticsInfo) { ... }
+l.1575  bool GetUsesColorizationRegion(int RegionIndex) { ... }
+l.1688  bool HasNonZeroColorSetIndex() { ... }
+l.1744  void BPRefreshColorization() { ... }
+l.1851  void CopyColorizationFromDino(APrimalDinoCharacter* OtherDino) { ... }
+l.1880  void ClearColorSetIndices() { ... }
+l.1980  void SetColorizationData(const TArray<unsigned char, TSizedDefaultAllocator<32> >& ColorData) { ... }
+l.2038  bool BPIsTamed() { ... }
+
+=== APrimalCharacter.h ===
+l.933  bool AllowColoringBy(APlayerController* ForPC, UObject* anItem) { ... }
+
+=== UPrimalItem.h ===
+l.71  TWeakObjectPtr<UPrimalInventoryComponent>& OwnerInventoryField() { ... }
+l.187  TWeakObjectPtr<AShooterCharacter>& LastOwnerPlayerField() { ... }
+l.232  FieldArray<unsigned __int8, 6> EggColorSetIndicesField() { ... }
+l.338  BitFieldValue<bool, unsigned __int32> bAllowUseInInventory() { ... }
+l.339  BitFieldValue<bool, unsigned __int32> bAllowRemoteUseInInventory() { ... }
+l.354  BitFieldValue<bool, unsigned __int32> bConsumeItemOnUse() { ... }
+l.429  BitFieldValue<bool, unsigned __int32> bPreventDinoAutoConsume() { ... }
+l.443  BitFieldValue<bool, unsigned __int32> bBPCanUse() { ... }
+l.582  void Use(bool bOverridePlayerInput) { ... }
+l.605  static int StaticGetDinoColorSetIndexForItemColorIDFromDyeList(int ID) { ... }
+l.656  bool AllowUseInInventory(bool bIsRemoteInventory, AShooterPlayerController* ByPC, bool DontCheckActor) { ... }
+l.781  BitFieldValue<bool, unsigned char> bUseBPPrimalDinoCharacterConsumedItem() { ... }
+l.850  void BlueprintUsed() { ... }
+l.868  void BPPreUseItem() { ... }
+l.931  void BPPrimalDinoCharacterConsumedItem(APrimalDinoCharacter* DinoCharacter) { ... }
+l.1030  void BPOnItemConsumed(UPrimalInventoryComponent* inventory, int remainingQuantity) { ... }
+l.1032  bool BPCanUse(bool bIgnoreCooldown) { ... }
+
+=== UShooterCheatManager.h ===
+l.102  void SetTargetDinoColor(int ColorRegion, int ColorID) { ... }
+l.161  void SummonTamed(const FString* ClassName) { ... }
+l.194  void ForceTame() { ... }
+l.221  void GiveItemNum(int masterIndexNum, int quantityOverride, float qualityOverride, bool bForceBlueprint) { ... }
+l.225  void GiveItem(const FString* blueprintPath, int quantityOverride, float qualityOverride, bool bForceBlueprint) { ... }
+l.230  void GiveItemSet(FName Tier) { ... }
+l.234  void GFID(const FName* blueprintPath) { ... }
+l.235  void GFI(const FName* blueprintPath, int quantityOverride, float qualityOverride, bool bForceBlueprint) { ... }
+l.236  void GiveItemToPlayer(int playerID, const FString* blueprintPath, int quantityOverride, float qualityOverride, bool bForceBlueprint) { ... }
+l.237  void GiveItemNumToPlayer(int playerID, int masterIndexNum, int quantityOverride, float qualityOverride, bool bForceBlueprint) { ... }
+l.315  void HatchEgg() { ... }
+l.335  void ReassertColorization() { ... }
+l.345  void AddMutations(int StatType, int HowMany) { ... }
+l.346  void GetEgg(int NumMutationsToAdd) { ... }
+l.358  void GiveItemSkins(const FString* EquipmentType) { ... }
+l.375  void CryoMyTarget() { ... }
+l.463  void SetTargetRandomColors() { ... }
+l.548  void EnablePaintMode(unsigned char ColorID) { ... }
+l.561  void GFIS(const FName& blueprintPath, float qualityOverride) { ... }
+
+=== UPrimalGameData.h ===
+l.104  TArray<FColorDefinition, TSizedDefaultAllocator<32> >& ColorDefinitionsField() { ... }
+l.140  TArray<FColor, TSizedDefaultAllocator<32> >& MasterColorTableField() { ... }
+l.342  FLinearColor* GetColorForDefinition(FLinearColor* result, int DefinitionIndex) { ... }
+l.467  int GetDefinitionIndexForColorName(FName ColorName) { ... }
