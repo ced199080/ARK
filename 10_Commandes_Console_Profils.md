@@ -288,6 +288,31 @@ Le reset ne peut pas remettre :
 
 Le plus sûr reste de réappliquer vos options graphiques dans le menu.
 
+### 4.12 PC RYZEN 5 3600 / RX 5700 XT 8 Go / 16 Go — équilibré
+
+Profil de tous les jours pour cette configuration, en 1080p. Il garde un jeu lisible et assez beau, et coupe ce qui coûte le plus sur cette carte :
+
+| Réglage | Pourquoi sur ce PC |
+|---|---|
+| Lumen coupé (`r.DynamicGlobalIlluminationMethod 0`) | La RX 5700 XT n'a pas de ray tracing matériel : Lumen tourne en logiciel et coûte très cher. C'est le plus gros gain |
+| Occlusion gardée (`r.AOQuality 1`) | Sans Lumen, elle garde les intérieurs et les grottes un peu sombres, sinon tout devient plat |
+| Ombres virtuelles coupées, ombres classiques en qualité 2 | Les ombres virtuelles sont lourdes en calcul et en mémoire vidéo |
+| `sg.TextureQuality 2` | 8 Go de mémoire vidéo : en Épique, ARK la remplit et l'image saccade |
+| Nuages et brouillard volumétriques coupés | Gros gain sur la carte graphique ; le brouillard simple (`r.Fog 1`), presque gratuit, est gardé |
+| Pas de débris (`ark.MaxActiveDestroyedMeshGeoCollectionCount 0`) | Le Ryzen 5 3600 limite dans les bases et en raid : moins de débris, moins de chutes de FPS |
+| `r.ScreenPercentage 85` + `r.Tonemapper.Sharpen 1` | Gain net sur la carte graphique, image encore propre en 1080p |
+
+```
+sg.TextureQuality 2 | sg.GlobalIlluminationQuality 1 | t.MaxFPS 0 | r.VSync 0 | r.ScreenPercentage 85 | gamma 2.5 | r.Tonemapper.Sharpen 1 | r.SkyAtmosphere 1 | r.VolumetricCloud 0 | r.VolumetricFog 0 | r.Fog 1 | r.LightShaftQuality 0 | r.SkylightIntensityMultiplier 1 | r.EyeAdaptationQuality 2 | r.BloomQuality 2 | r.LensFlareQuality 0 | r.DepthOfFieldQuality 0 | r.MotionBlurQuality 0 | r.PostProcessing.DisableMaterials 0 | r.DynamicGlobalIlluminationMethod 0 | r.Lumen.DiffuseIndirect.Allow 0 | r.Lumen.Reflections.Allow 0 | r.SSR.Quality 1 | r.AOQuality 1 | r.ShadowQuality 2 | r.Shadow.Virtual.Enable 0 | r.Shadow.CSM.MaxCascades 2 | r.DistanceFieldShadowing 0 | r.ContactShadows 0 | grass.Enable 1 | grass.DensityScale 0.5 | grass.SizeScale 0.6 | grass.CullDistanceScale 0.5 | foliage.DensityScale 0.6 | foliage.CullAll 0 | r.ViewDistanceScale 1 | r.StaticMeshLODDistanceScale 1.25 | r.Nanite.MaxPixelsPerEdge 2 | r.DetailMode 1 | r.Water.SingleLayer.Reflection 0 | wp.Runtime.HLOD 1 | ark.MaxActiveDestroyedMeshGeoCollectionCount 0
+```
+
+Ajustements :
+- **encore trop lent sur le terrain** (la carte graphique limite) : `r.ScreenPercentage 75`, ou le profil Raid PvP (§4.4) ;
+- **saccades dans les bases ou en raid** (le processeur limite, baisser la résolution n'y change presque rien) : `r.ViewDistanceScale 0.8 | foliage.DensityScale 0.4` ;
+- **FPS qui varient beaucoup** : bloquez-les un peu sous la moyenne (ex. `t.MaxFPS 60`) : l'image est plus régulière ;
+- **FSR activé dans le menu** : retirez `r.ScreenPercentage 85` de la ligne, c'est FSR qui choisit la résolution ;
+- **16 Go de mémoire** : ARK en demande davantage, fermez le navigateur et les applications lourdes pendant le jeu.
+
 ## 5. Sources et limites
 
 Les plages et valeurs d'origine viennent du moteur Unreal Engine 5 ; elles n'ont pas pu être vérifiées en jeu. Quatre commandes sont marquées « à vérifier » : `foliage.CullDistanceScale`, `r.MipMapLODBias`, `wp.Runtime.HLOD.ForceDisable` et `r.Color.Grading`. Les commandes propres à ARK (`grass.SizeScale`, `ark.MaxActiveDestroyedMeshGeoCollectionCount`) ne sont pas documentées par Wildcard.
