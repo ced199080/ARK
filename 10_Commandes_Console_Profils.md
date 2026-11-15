@@ -288,9 +288,47 @@ Le reset ne peut pas remettre :
 
 Le plus sûr reste de réappliquer vos options graphiques dans le menu.
 
-### 4.12 PC RYZEN 5 3600 / RX 5700 XT 8 Go / 16 Go — équilibré
+### 4.12 PC RYZEN 5 3600 / RX 5700 XT 8 Go / 16 Go — trois profils et réinitialisation
 
-Profil de tous les jours pour cette configuration, en 1080p. Il garde un jeu lisible et assez beau, et coupe ce qui coûte le plus sur cette carte :
+Trois profils pour cette configuration, en 1080p, du plus beau au plus rapide. Comme les autres, ils règlent tous les mêmes variables : passez de l'un à l'autre sans réinitialiser.
+
+| Variable | Gain minimum | Gain intermédiaire | Gain maximum | Réinitialiser |
+|---|---|---|---|---|
+| `sg.TextureQuality` | 2 | 2 | 1 | 3 |
+| `sg.GlobalIlluminationQuality` | 2 | 1 | 0 | 3 |
+| `r.ScreenPercentage` | 100 | 85 | 70 | 100 |
+| `gamma` | 2.2 | 2.5 | 2.5 | 2.2 |
+| `r.Tonemapper.Sharpen` | 0.5 | 1 | 1.5 | 0 |
+| `r.VolumetricCloud` / `r.VolumetricFog` | 1 | 0 | 0 | 1 |
+| `r.Fog` | 1 | 1 | 0 | 1 |
+| `r.LightShaftQuality` | 1 | 0 | 0 | 1 |
+| `r.SkylightIntensityMultiplier` | 1 | 1 | 1.5 | 1 |
+| `r.BloomQuality` | 3 | 2 | 0 | 5 |
+| `r.LensFlareQuality` | 1 | 0 | 0 | 2 |
+| `r.DepthOfFieldQuality` / `r.MotionBlurQuality` | 0 | 0 | 0 | 2 / 4 |
+| `r.PostProcessing.DisableMaterials` | 0 | 0 | 1 | 0 |
+| Lumen (`r.DynamicGlobalIlluminationMethod`, `…DiffuseIndirect.Allow`) | 1 | 0 | 0 | 1 |
+| `r.Lumen.Reflections.Allow` | 0 | 0 | 0 | 1 |
+| `r.SSR.Quality` | 2 | 1 | 0 | 3 |
+| `r.AOQuality` | 2 | 1 | 0 | 2 |
+| `r.ShadowQuality` | 3 | 2 | 0 | 5 |
+| `r.Shadow.Virtual.Enable` | 0 | 0 | 0 | 1 |
+| `r.Shadow.CSM.MaxCascades` | 3 | 2 | 0 | 4 |
+| `r.DistanceFieldShadowing` | 1 | 0 | 0 | 1 |
+| `r.ContactShadows` | 0 | 0 | 0 | 1 |
+| `grass.Enable` | 1 | 1 | 0 | 1 |
+| `grass.DensityScale` / `SizeScale` / `CullDistanceScale` | 0.8 / 1 / 0.8 | 0.5 / 0.6 / 0.5 | 0 | 1 |
+| `foliage.DensityScale` | 0.8 | 0.6 | 0 | 1 |
+| `r.ViewDistanceScale` | 1 | 1 | 0.8 | 1 |
+| `r.StaticMeshLODDistanceScale` | 1 | 1.25 | 1.5 | 1 |
+| `r.Nanite.MaxPixelsPerEdge` | 1 | 2 | 3 | 1 |
+| `r.DetailMode` | 2 | 1 | 0 | 2 |
+| `r.Water.SingleLayer.Reflection` | 1 | 0 | 0 | 1 |
+| `ark.MaxActiveDestroyedMeshGeoCollectionCount` | 0 | 0 | 0 | relancer le jeu |
+
+Communs aux quatre lignes : `t.MaxFPS 0`, `r.VSync 0`, `r.SkyAtmosphere 1`, `r.EyeAdaptationQuality 2`, `foliage.CullAll 0`, `wp.Runtime.HLOD 1`.
+
+Ce qui coûte le plus sur cette configuration :
 
 | Réglage | Pourquoi sur ce PC |
 |---|---|
@@ -300,14 +338,44 @@ Profil de tous les jours pour cette configuration, en 1080p. Il garde un jeu lis
 | `sg.TextureQuality 2` | 8 Go de mémoire vidéo : en Épique, ARK la remplit et l'image saccade |
 | Nuages et brouillard volumétriques coupés | Gros gain sur la carte graphique ; le brouillard simple (`r.Fog 1`), presque gratuit, est gardé |
 | Pas de débris (`ark.MaxActiveDestroyedMeshGeoCollectionCount 0`) | Le Ryzen 5 3600 limite dans les bases et en raid : moins de débris, moins de chutes de FPS |
-| `r.ScreenPercentage 85` + `r.Tonemapper.Sharpen 1` | Gain net sur la carte graphique, image encore propre en 1080p |
+| `r.ScreenPercentage` sous 100 + `r.Tonemapper.Sharpen` | Gain net sur la carte graphique ; en 1080p, l'image reste propre jusqu'à 70 environ |
+
+#### Gain minimum — garder un beau jeu
+
+Garde Lumen pour l'éclairage, les nuages, le brouillard et les ombres lointaines, en pleine résolution. Coupe seulement ce qui coûte beaucoup pour peu de différence à l'écran : ombres virtuelles, reflets Lumen, flou, débris. Textures en qualité 2 à cause des 8 Go de mémoire vidéo.
+
+```
+sg.TextureQuality 2 | sg.GlobalIlluminationQuality 2 | t.MaxFPS 0 | r.VSync 0 | r.ScreenPercentage 100 | gamma 2.2 | r.Tonemapper.Sharpen 0.5 | r.SkyAtmosphere 1 | r.VolumetricCloud 1 | r.VolumetricFog 1 | r.Fog 1 | r.LightShaftQuality 1 | r.SkylightIntensityMultiplier 1 | r.EyeAdaptationQuality 2 | r.BloomQuality 3 | r.LensFlareQuality 1 | r.DepthOfFieldQuality 0 | r.MotionBlurQuality 0 | r.PostProcessing.DisableMaterials 0 | r.DynamicGlobalIlluminationMethod 1 | r.Lumen.DiffuseIndirect.Allow 1 | r.Lumen.Reflections.Allow 0 | r.SSR.Quality 2 | r.AOQuality 2 | r.ShadowQuality 3 | r.Shadow.Virtual.Enable 0 | r.Shadow.CSM.MaxCascades 3 | r.DistanceFieldShadowing 1 | r.ContactShadows 0 | grass.Enable 1 | grass.DensityScale 0.8 | grass.SizeScale 1 | grass.CullDistanceScale 0.8 | foliage.DensityScale 0.8 | foliage.CullAll 0 | r.ViewDistanceScale 1 | r.StaticMeshLODDistanceScale 1 | r.Nanite.MaxPixelsPerEdge 1 | r.DetailMode 2 | r.Water.SingleLayer.Reflection 1 | wp.Runtime.HLOD 1 | ark.MaxActiveDestroyedMeshGeoCollectionCount 0
+```
+
+#### Gain intermédiaire — tous les jours
+
+Lumen coupé (le plus gros gain sur cette carte), occlusion gardée pour que les intérieurs restent un peu sombres, nuages et brouillard volumétriques coupés, herbe à moitié, résolution 85 %.
 
 ```
 sg.TextureQuality 2 | sg.GlobalIlluminationQuality 1 | t.MaxFPS 0 | r.VSync 0 | r.ScreenPercentage 85 | gamma 2.5 | r.Tonemapper.Sharpen 1 | r.SkyAtmosphere 1 | r.VolumetricCloud 0 | r.VolumetricFog 0 | r.Fog 1 | r.LightShaftQuality 0 | r.SkylightIntensityMultiplier 1 | r.EyeAdaptationQuality 2 | r.BloomQuality 2 | r.LensFlareQuality 0 | r.DepthOfFieldQuality 0 | r.MotionBlurQuality 0 | r.PostProcessing.DisableMaterials 0 | r.DynamicGlobalIlluminationMethod 0 | r.Lumen.DiffuseIndirect.Allow 0 | r.Lumen.Reflections.Allow 0 | r.SSR.Quality 1 | r.AOQuality 1 | r.ShadowQuality 2 | r.Shadow.Virtual.Enable 0 | r.Shadow.CSM.MaxCascades 2 | r.DistanceFieldShadowing 0 | r.ContactShadows 0 | grass.Enable 1 | grass.DensityScale 0.5 | grass.SizeScale 0.6 | grass.CullDistanceScale 0.5 | foliage.DensityScale 0.6 | foliage.CullAll 0 | r.ViewDistanceScale 1 | r.StaticMeshLODDistanceScale 1.25 | r.Nanite.MaxPixelsPerEdge 2 | r.DetailMode 1 | r.Water.SingleLayer.Reflection 0 | wp.Runtime.HLOD 1 | ark.MaxActiveDestroyedMeshGeoCollectionCount 0
 ```
 
+#### Gain maximum — FPS avant tout
+
+Tout est coupé : éclairage global, occlusion, ombres, brouillard, herbe et petites plantes. Résolution 70 % avec netteté 1,5, textures en qualité 1, objets simplifiés plus tôt. Le décor s'arrête un peu plus près (`r.ViewDistanceScale 0.8`) pour soulager le processeur. Sans Lumen ni occlusion, la lumière du ciel n'est plus bloquée : grottes et intérieurs sont clairs, mais l'image est plate. Les arbres restent affichés : `foliage.CullAll 1` ferait encore gagner, mais on bute alors sur des arbres invisibles.
+
+```
+sg.TextureQuality 1 | sg.GlobalIlluminationQuality 0 | t.MaxFPS 0 | r.VSync 0 | r.ScreenPercentage 70 | gamma 2.5 | r.Tonemapper.Sharpen 1.5 | r.SkyAtmosphere 1 | r.VolumetricCloud 0 | r.VolumetricFog 0 | r.Fog 0 | r.LightShaftQuality 0 | r.SkylightIntensityMultiplier 1.5 | r.EyeAdaptationQuality 2 | r.BloomQuality 0 | r.LensFlareQuality 0 | r.DepthOfFieldQuality 0 | r.MotionBlurQuality 0 | r.PostProcessing.DisableMaterials 1 | r.DynamicGlobalIlluminationMethod 0 | r.Lumen.DiffuseIndirect.Allow 0 | r.Lumen.Reflections.Allow 0 | r.SSR.Quality 0 | r.AOQuality 0 | r.ShadowQuality 0 | r.Shadow.Virtual.Enable 0 | r.Shadow.CSM.MaxCascades 0 | r.DistanceFieldShadowing 0 | r.ContactShadows 0 | grass.Enable 0 | grass.DensityScale 0 | grass.SizeScale 0 | grass.CullDistanceScale 0 | foliage.DensityScale 0 | foliage.CullAll 0 | r.ViewDistanceScale 0.8 | r.StaticMeshLODDistanceScale 1.5 | r.Nanite.MaxPixelsPerEdge 3 | r.DetailMode 0 | r.Water.SingleLayer.Reflection 0 | wp.Runtime.HLOD 1 | ark.MaxActiveDestroyedMeshGeoCollectionCount 0
+```
+
+#### Réinitialiser
+
+La même ligne que le reset du §4.11 : elle remet tout aux valeurs du moteur en qualité Épique, eau et commandes de vos anciennes lignes comprises. Si votre menu n'est pas en Épique, remplacez le 3 des deux `sg.…` par votre niveau (0 Bas, 1 Moyen, 2 Haut).
+
+```
+sg.TextureQuality 3 | sg.GlobalIlluminationQuality 3 | t.MaxFPS 0 | r.VSync 0 | r.ScreenPercentage 100 | gamma 2.2 | r.Tonemapper.Sharpen 0 | r.SkyAtmosphere 1 | r.VolumetricCloud 1 | r.VolumetricFog 1 | r.Fog 1 | r.LightShaftQuality 1 | r.SkylightIntensityMultiplier 1 | r.EyeAdaptationQuality 2 | r.BloomQuality 5 | r.LensFlareQuality 2 | r.DepthOfFieldQuality 2 | r.MotionBlurQuality 4 | r.MotionBlur.Amount -1 | r.PostProcessing.DisableMaterials 0 | r.DynamicGlobalIlluminationMethod 1 | r.Lumen.DiffuseIndirect.Allow 1 | r.Lumen.Reflections.Allow 1 | r.SSR.Quality 3 | r.AOQuality 2 | r.ShadowQuality 5 | r.Shadow.Virtual.Enable 1 | r.Shadow.CSM.MaxCascades 4 | r.DistanceFieldShadowing 1 | r.ContactShadows 1 | grass.Enable 1 | grass.DensityScale 1 | grass.SizeScale 1 | grass.CullDistanceScale 1 | foliage.DensityScale 1 | foliage.CullAll 0 | foliage.CullDistanceScale 1 | r.ViewDistanceScale 1 | r.StaticMeshLODDistanceScale 1 | r.Nanite.MaxPixelsPerEdge 1 | r.DetailMode 2 | r.MipMapLODBias 0 | r.EarlyZPass 3 | r.LightCulling.Quality 1 | r.Water.SingleLayer 1 | r.Water.SingleLayer.Reflection 1 | r.Water.SingleLayer.OptimizedClear 1 | r.Water.WaterMesh.EnableRendering 1 | r.Water.EnableUnderwaterPostProcess 1 | wp.Runtime.HLOD 1
+```
+
+Elle ne remet pas les bascules `show …` (relancez chacune une fois), ni les débris et la distance de chargement (relancez le jeu). Le plus sûr reste de réappliquer vos options graphiques dans le menu.
+
 Ajustements :
-- **encore trop lent sur le terrain** (la carte graphique limite) : `r.ScreenPercentage 75`, ou le profil Raid PvP (§4.4) ;
+- **encore trop lent sur le terrain** (la carte graphique limite) : passez au profil au-dessus ; au-delà du gain maximum, `r.ScreenPercentage 60` ;
 - **saccades dans les bases ou en raid** (le processeur limite, baisser la résolution n'y change presque rien) : `r.ViewDistanceScale 0.8 | foliage.DensityScale 0.4` ;
 - **FPS qui varient beaucoup** : bloquez-les un peu sous la moyenne (ex. `t.MaxFPS 60`) : l'image est plus régulière ;
 - **FSR activé dans le menu** : retirez `r.ScreenPercentage 85` de la ligne, c'est FSR qui choisit la résolution ;
